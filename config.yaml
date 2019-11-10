@@ -1,0 +1,21 @@
+baseURL: https://nicolasfriedli.ch
+title: Nicolas Friedli
+
+languageCode: fr-ch
+defaultContentLanguage: fr
+
+canonifyURLs: true
+# googleAnalytics: UA-131329337-7
+disableFastRender: true
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+
+params:
+  slogan: consultant web indépendant
+  footer : |
+    Pied de page & [haut](#).
+
+pygmentsCodeFences: true
+pygmentsStyle: colorful

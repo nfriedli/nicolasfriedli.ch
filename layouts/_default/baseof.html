@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    {{ with .Description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="author" content="Nicolas Friedli">
+    {{ hugo.Generator }}
+    <link rel="alternate" href="{{ .Site.RSSLink | relURL }}" title="{{ .Site.Title }}" type="application/atom+xml">
+    <meta property="article:publisher" content="https://www.facebook.com/nicolasfriedli.ch">
+    <meta property="article:author" content="https://www.facebook.com/nicolasfriedli.ch">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    {{- template "_internal/opengraph.html" . -}}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+</head>
+
+<body class="{{.Kind}}">
+    <header>
+        <div>
+        {{ if .IsHome }}
+        {{ .Site.Title }}
+        {{ else }}
+        <a href="/" rel="home">{{ .Site.Title }}</a>
+        {{ end }}
+        </div>
+        <nav>
+            <a ref="#">archives</a>
+            <a ref="#">projets</a>
+            <a ref="#">contact</a>
+            <a ref="#">rss</a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            {{ block "main" . }}{{ end }}
+        </article>
+    </main>
+    <footer>
+        {{ .Site.Params.footer | markdownify }}
+    </footer>
+</body>
+
+</html>
