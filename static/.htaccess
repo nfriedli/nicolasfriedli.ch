@@ -11,7 +11,7 @@ Header always set X-Content-Type-Options: nosniff
 Header always append X-Frame-Options SAMEORIGIN
 Header set Referrer-Policy: strict-origin-when-cross-origin
 
-Content-Type: text/html; charset=UTF-8
+AddCharset UTF-8 .html
 AddType image/x-icon .ico
 
 <IfModule mod_expires.c>
