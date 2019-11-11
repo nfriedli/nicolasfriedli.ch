@@ -3,9 +3,9 @@
 {{ .Content }}
 
 <ul>
-{{ range first 5 .Site.RegularPages }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
+  {{ range where .Site.RegularPages "Section" "blog" }}
+  <li><a href="{{ .Permalink }}">{{ .Title }} (<time>{{ .Date.Format "2.1.2006"}}</time>)</a></li>
+  {{ end }}
 </ul>
 
 {{ end }}

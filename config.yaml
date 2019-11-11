@@ -5,7 +5,6 @@ languageCode: fr-ch
 defaultContentLanguage: fr
 
 canonifyURLs: true
-# googleAnalytics: UA-131329337-7
 disableFastRender: true
 
 disableKinds:
@@ -15,7 +14,7 @@ disableKinds:
 params:
   slogan: consultant web indépendant
   footer : |
-    Pied de page & [haut](#).
+    Sauf mention contraire, les contenus de ce site sont publiés sous licence CC by-sa.
 
 pygmentsCodeFences: true
 pygmentsStyle: colorful

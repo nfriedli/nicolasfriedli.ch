@@ -1,5 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Title | markdownify }}</h1>
 {{ .Content }}
-<p class="meta">&mdash; <time>{{ .Date.Format "2.1.2006"}}</time></p>
+<p class="meta">Publié ou modifié le <time>{{ .Date.Format "2.1.2006"}}</time></p>
 {{ end }}
