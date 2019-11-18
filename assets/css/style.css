@@ -5,7 +5,7 @@ html {
     font-size: 100%;
     line-height: 1.5;
     font-variant-ligatures: common-ligatures;
-    text-rendering: optimizeSpeed;
+    text-rendering: optimizeLegibility;
     font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
@@ -58,6 +58,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
     font-variant-numeric: normal;
+    font-weight: 500;
 }
 
 h1 {

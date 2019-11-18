@@ -3,7 +3,7 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule (.*) https://nicolasfriedli.ch/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www.nicolasfriedli.ch$ [NC]
-RewriteRule ^(.*)$ http://nicolasfriedli.ch/$1 [R=301,L]
+RewriteRule ^(.*)$ https://nicolasfriedli.ch/$1 [R=301,L]
 
 Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 Header always set X-XSS-Protection "1; mode=block"
