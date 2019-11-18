@@ -1,6 +1,6 @@
 ---
 title: Et à la fin, c'est Hugo qui gagne!
-date: 2019-11-11
+date: 2019-11-18
 description: J'ai choisi d'utiliser le générateur de sites statiques Hugo, voici pourquoi.
 ---
 
@@ -50,7 +50,7 @@ Site statique, certes, mais développement dynamique!
 
 La performance, c'est aussi le code qui est généré.
 Ce site est constitué de pages minifiées (le code est compacté autant que possible), qui appellent une feuille de style elle aussi minifiée.
-Pas de javascript, pas de statistiques (autres que celles du serveur), pas de polices d'écriture externes.
+Pas de javascript, pas de statistiques (autres que celles du serveur), ~~pas de polices d'écriture externes~~ un chargement efficace des polices d'écriture.
 
 La vitesse du site devrait vous être agréable.
 

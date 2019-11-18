@@ -21,7 +21,8 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     {{- template "_internal/opengraph.html" . -}}
     {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">    
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=fallback" rel="stylesheet">
 </head>
 
 <body class="{{.Kind}}">
