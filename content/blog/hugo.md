@@ -1,6 +1,6 @@
 ---
 title: Et à la fin, c'est Hugo qui gagne!
-date: 2019-11-18
+date: 2019-11-11
 description: J'ai choisi d'utiliser le générateur de sites statiques Hugo, voici pourquoi.
 ---
 
