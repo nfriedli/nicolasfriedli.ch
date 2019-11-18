@@ -50,7 +50,7 @@ Site statique, certes, mais développement dynamique!
 
 La performance, c'est aussi le code qui est généré.
 Ce site est constitué de pages minifiées (le code est compacté autant que possible), qui appellent une feuille de style elle aussi minifiée.
-Pas de javascript, pas de statistiques (autres que celles du serveur), ~~pas de polices d'écriture externes~~ un chargement efficace des polices d'écriture.
+Pas de javascript (en attendant un éventuel `service worker`), ~~pas de statistiques (autres que celles du serveur)~~ Google Analytics le temps de démarrer, ~~pas de polices d'écriture externes~~ un chargement efficace des polices d'écriture.
 
 La vitesse du site devrait vous être agréable.
 

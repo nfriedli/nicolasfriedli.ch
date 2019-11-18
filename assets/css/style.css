@@ -87,3 +87,8 @@ table {
     margin-top: 3rem;
     font-size: 90%;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}

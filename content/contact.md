@@ -15,3 +15,5 @@ Suisse
 
 [hello@nicolasfriedli.ch](mailto:hello@nicolasfriedli.ch)  
 [+41 32 841 48 74](tel:+41328418474)
+
+![Nicolas Friedli](/img/nicolas-friedli.jpg)
