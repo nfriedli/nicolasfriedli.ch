@@ -23,6 +23,7 @@
     {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">    
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i&display=fallback" rel="stylesheet">
+    {{ if .IsHome }}{{ partial "ld-json.html" }}{{ end }}
 </head>
 
 <body class="{{.Kind}}">
@@ -41,7 +42,7 @@
         </nav>
     </header>
     <main>
-        <article>
+        <article class="h-entry">
             {{ block "main" . }}{{ end }}
         </article>
     </main>
