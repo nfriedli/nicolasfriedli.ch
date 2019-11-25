@@ -1,6 +1,6 @@
 ---
 title: Nicolas Friedli
-date: 2019-11-10
+date: 2019-11-18
 description: Consultant web indépendant dans la région de Neuchâtel (Suisse), j'aime les sites simples, lisibles et rapides.
 ---
 
