@@ -20,3 +20,6 @@ pygmentsCodeFences: true
 pygmentsStyle: colorful
 
 googleAnalytics: UA-131329337-2
+
+markup:
+  defaultMarkdownHandler: blackfriday
