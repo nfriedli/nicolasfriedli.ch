@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2019-11-11
+date: 2020-01-27
 description: Contacter Nicolas Friedli pour une question, une remarque ou une proposition.
 ---
 
@@ -13,7 +13,7 @@ Rue du Château 3
 2013 Colombier  
 Suisse
 
-[hello@nicolasfriedli.ch](mailto:hello@nicolasfriedli.ch)  
+[nicolasfriedli@protonmail.ch](mailto:nicolasfriedli@protonmail.ch)  
 [+41 32 841 48 74](tel:+41328418474)
 
 ![Nicolas Friedli](/img/nicolas-friedli.jpg)
