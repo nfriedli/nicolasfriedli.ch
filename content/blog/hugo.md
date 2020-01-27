@@ -1,6 +1,6 @@
 ---
 title: Et à la fin, c'est Hugo qui gagne!
-date: 2019-11-11
+date: 2020-01-27
 description: J'ai choisi d'utiliser le générateur de sites statiques Hugo, voici pourquoi.
 ---
 
@@ -11,7 +11,7 @@ Comme les plateformes centralisatrices et les réseaux sociaux me plaisent de mo
 L'outil choisi s'appelle [Hugo](https://gohugo.io/).
 C'est un générateur de sites statiques rapide, simple, efficace et stable.
 
-L'hésitation avec [Eleventy](https://www.11ty.io/) (11ty) a été longue.
+L'hésitation avec [Eleventy](https://www.11ty.dev/) (11ty) a été longue.
 J'essaierai de vous dire pourquoi dans un prochain article.
 En attendant, voici pourquoi j'ai choisi Hugo.
 
@@ -36,7 +36,7 @@ On peut trouver cela simpliste et le déplorer.
 Ou s'en réjouir, parce que l'on pense encore et toujours qu'un site est (souvent) constitués d'un certain nombre de pages organisée dans une structure de répertoires.
 
 Toute la structure des fichiers (configurations, fichiers statiques, sources et site généré) me paraît limpide.
-Cette organisation que certaines trouvent rigide me convient.
+Cette organisation que certains trouvent rigide me convient.
 
 ## Performances
 
