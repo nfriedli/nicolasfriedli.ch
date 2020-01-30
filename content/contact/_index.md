@@ -16,4 +16,6 @@ Suisse
 [nicolasfriedli@protonmail.ch](mailto:nicolasfriedli@protonmail.ch)  
 [+41 32 841 48 74](tel:+41328418474)
 
+[keybase.io/nicolasfriedli](https://keybase.io/nicolasfriedli)
+
 ![Nicolas Friedli](/img/nicolas-friedli.jpg)
