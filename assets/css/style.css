@@ -1,7 +1,7 @@
 html {
     font-family: 'Courier Prime', 'Courier New', Courier, monospace;
     color: #2D3748;
-    background: #F7FAFC;
+    background: #FFF;
     font-size: 100%;
     line-height: 1.5;
     font-variant-ligatures: common-ligatures;
@@ -55,7 +55,7 @@ footer {
 /* Sticky end */
 
 header, footer {
-    background-color: #EDF2F7;
+    background-color: #F7FAFC;
 }
 
 
