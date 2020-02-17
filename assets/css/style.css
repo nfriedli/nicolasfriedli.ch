@@ -1,3 +1,8 @@
+::selection {
+    color: hsl(30, 40%, 98%);
+    background: hsl(30, 80%, 20%);
+}
+
 html {
     font-family: 'Fira Sans', sans-serif;
     color: hsl(210, 30%, 30%);
