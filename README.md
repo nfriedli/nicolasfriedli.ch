@@ -1,3 +1,3 @@
 # nicolasfriedli.ch
 
-Source de mon site perso
+Sources de mon site perso

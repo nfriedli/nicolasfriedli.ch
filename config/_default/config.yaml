@@ -17,7 +17,7 @@ params:
     Sauf mention contraire, les contenus de ce site sont publiés sous licence CC by-sa.
 
 pygmentsCodeFences: true
-pygmentsStyle: colorful
+pygmentsStyle: monokai
 
 markup:
   defaultMarkdownHandler: goldmark
