@@ -12,6 +12,10 @@ Comme j'utilise trop WordPress, j'ai suivi un autre chemin.
 L'outil choisi s'appelle [Hugo](https://gohugo.io/).
 C'est un générateur de sites statiques rapide, simple, efficace et stable.
 
+- facile
+- et surtout il peut rapporter gros, très gros
+- mais pas cher
+
 J'ai hésité longtemps avec [Eleventy](https://www.11ty.dev/) (11ty), un autre générateur de sites statiques.
 J'essaierai de vous parler de 11ty, une fois.
 En attendant, voici pourquoi j'ai choisi Hugo.

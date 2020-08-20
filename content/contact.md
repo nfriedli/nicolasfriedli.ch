@@ -2,6 +2,8 @@
 title: Contact
 date: 2020-01-27
 description: Contacter Nicolas Friedli pour une question, une remarque ou une proposition.
+menu: main
+weight: 1000
 ---
 
 Je suis employé à 30% dans la communication d’une institution neuchâteloise et indépendant le reste du temps. Je ne cherche pas de mandats actuellement, mais n’hésitez pas à me proposer quelque chose si vous pensez que nous pourrions réaliser un beau projet ensemble.

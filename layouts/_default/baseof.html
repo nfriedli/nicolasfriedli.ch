@@ -38,23 +38,24 @@
     {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
     {{ if .IsHome }}{{ partial "ld-json.html" }}{{ end }}
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
 </head>
 
-<body class="{{.Kind}}">
+<body>
     <header>
-        <div>
             {{ if .IsHome }}
-            {{ .Site.Title }}
+            <h1>{{ .Site.Title }}</h1>
             {{ else }}
-            <a href="/" rel="home">{{ .Site.Title }}</a>
+            <h1><a href="/" rel="home">{{ .Site.Title }}</a></h1>
             {{ end }}
-        </div>
-        <nav>
-            <a href="/blog/">archives</a>
-            <a href="/contact/">contact</a>
-            <a href="/index.xml">rss</a>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
     <main>
         <article>
             {{ block "main" . }}{{ end }}
