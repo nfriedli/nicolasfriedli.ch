@@ -11,6 +11,13 @@ disableKinds:
   - taxonomy
   - taxonomyTerm
 
+
+menu:
+  main:
+    - title: Flux RSS
+      url: /index.xml
+      weight: 990
+
 params:
   slogan: consultant web indépendant
   footer : |
