@@ -1,107 +1,70 @@
-
-
 html {    
     background: #EEE;
     color: #222;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 130%;
-    line-height: 1.4;
-    padding: 4rem;
+    font-family: Rubik, Roboto, Open Sans, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    padding: 2rem;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    text-rendering: optimizeLegibility;
 }
 
-body {
-    display: grid;
-    gap: 2rem;
-    grid-template-areas: 
-        "h h"
-        "n m"
-        "f f";
-    grid-template-columns: 12rem 36rem;
+body > * + * {
+    margin-top: 1rem;
 }
 
-@media screen and (max-width: 1400px) {
-    html {
-        padding: 3rem;
-        font-size: 110%;
-    }
-    
-    body {
-        grid-template-columns: 1fr 3fr;
-    }
+main {
+    margin: auto;
+    max-width: 35rem;
 }
 
-@media screen and (max-width: 700px) {
-    html {
-        padding: 2rem;
-        font-size: 100%;
-    }
-    
-    body {
-        grid-template-areas: 
-        "h"
-        "n"
-        "m"
-        "f";
-        grid-template-columns: 1fr;
-    }
+header, nav, footer, time {
+    font-size: 90%;
+    text-transform: uppercase;
 }
 
-
-
-header { grid-area: h ;}
-nav { grid-area: n ;} 
-main { grid-area: m ; min-height: 500px;} 
-footer { grid-area: f ;} 
+@media screen and ( min-width: 1000px ){
+    html { font-size: 130% ;}
+    header, nav, footer, time { font-size: 80%; }
+}
 
 a {
     color: #00F;
 }
 
-header, header a, nav, nav a, footer {
-    color: #444;
+
+h1, h2, h3 {
+    line-height: 1.2;
 }
 
-header a, nav a {
-    text-decoration: none;
-}
+h1 { font-size: 1.44rem; margin-top: 3rem;}
+h2 { font-size: 1.2rem ;}
+h3 { font-size: 1rem; }
 
-header h1 { font-size: 1rem; }
+header h1 { font-size: inherit; margin-top: inherit; }
 
-nav ul, nav li {
-    list-style-type: none;
-}
-
-nav li + li {
-    margin-top: .5rem;
-}
-
-h1, h2, h3, ul, li, p {
+ul, ul li {
+    list-style-type: square;
     margin: 0;
     padding: 0;
 }
 
-
-h1 {
-    font-size: 1.44rem;
-}
-
-h2 {
-    font-size: 1.2rem;
-}
-
-h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    font-style: italic;
+nav ul, nav li {
+    list-style-type: none;
 
 }
 
-article > * + * {
-    margin-top: 1rem;
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: left;
+    gap: 2rem;
 }
+
 
 pre, code {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+
 }
 pre {
     padding: 1rem;
@@ -115,60 +78,4 @@ table {
 img {
     max-width: 100%;
     display: block;
-}
-
-/* fira-sans-regular - latin */
-@font-face {
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-display: swap;
-    src: url('/fonts/fira-sans-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/fira-sans-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
-  /* fira-sans-italic - latin */
-  @font-face {
-    font-family: 'Fira Sans';
-    font-style: italic;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-display: swap;
-    src: url('/fonts/fira-sans-v10-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/fira-sans-v10-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
-  /* fira-sans-700 - latin */
-  @font-face {
-    font-family: 'Fira Sans';
-    font-style: normal;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
-    font-display: swap;
-    src: url('/fonts/fira-sans-v10-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/fira-sans-v10-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
-  /* fira-sans-700italic - latin */
-  @font-face {
-    font-family: 'Fira Sans';
-    font-style: italic;
-    font-weight: 700;
-    text-rendering: optimizeLegibility;
-    font-display: swap;
-    src: url('/fonts/fira-sans-v10-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('/fonts/fira-sans-v10-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
- /* fira-mono-regular - latin */
-@font-face {
-    font-family: 'Fira Mono';
-    font-style: normal;
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-display: swap;
-    src: url('../fonts/fira-mono-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/fira-mono-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  
+}  
