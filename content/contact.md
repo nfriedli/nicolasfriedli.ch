@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2020-01-27
+date: 2020-01-24
 description: Contacter Nicolas Friedli pour une question, une remarque ou une proposition.
 menu: main
 weight: 1000

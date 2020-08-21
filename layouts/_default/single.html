@@ -1,6 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Title | markdownify }}</h1>
-<time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Format "02.01.2006"}}</time>
 {{ .Content }}
-<time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Format "02.01.2006"}}</time>
+&mdash; <time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Format "02.01.2006"}}</time> / Nicolas Friedli
 {{ end }}

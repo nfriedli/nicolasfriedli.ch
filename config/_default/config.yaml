@@ -5,26 +5,42 @@ languageCode: fr-ch
 defaultContentLanguage: fr
 
 canonifyURLs: true
+copyright: Creative Commons by-sa
 disableFastRender: true
+# enableGitInfo: true
+
+author:
+  name: Nicolas Friedli
+  email: nicolasfriedli@protonmail.ch
 
 disableKinds:
   - taxonomy
   - taxonomyTerm
 
-
 menu:
-  maiaaaaan:
+  maixxxxn:
     - title: Flux RSS
       url: /index.xml
       weight: 990
 
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      typographer: true
+    parser:
+      autoHeadingIDType: github-ascii
+
 params:
+  title: Nicolas Friedli
   slogan: consultant web indépendant
   footer : |
+    Un [flux RSS](https://nicolasfriedli.ch/index.xml) permet de s'abonner au site. 
+    Ce site utilise pour le moment des polices Google Fonts, avec les problèmes de respect de la vie privée que cela pose.
+
     Sauf mention contraire, les contenus de ce site sont publiés sous licence CC by-sa.
+    Vous avez le droit de les réutiliser et de les modifier.
+    Vous devez citer la source -- avec un lien cliquable -- et partager vos contenus dérivés avec la même licence.
 
 pygmentsCodeFences: true
 pygmentsStyle: monokai
-
-markup:
-  defaultMarkdownHandler: goldmark
