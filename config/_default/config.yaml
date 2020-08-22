@@ -7,7 +7,7 @@ defaultContentLanguage: fr
 canonifyURLs: true
 copyright: Creative Commons by-sa
 disableFastRender: true
-# enableGitInfo: true
+enableGitInfo: true
 
 author:
   name: Nicolas Friedli
@@ -34,9 +34,11 @@ markup:
 params:
   title: Nicolas Friedli
   slogan: consultant web indépendant
+  images: 
+    - https://nicolasfriedli.ch/img/nicolas-friedli.jpg
   footer : |
     Un [flux RSS](https://nicolasfriedli.ch/index.xml) permet de s'abonner au site. 
-    Ce site utilise pour le moment des polices Google Fonts, avec les problèmes de respect de la vie privée que cela pose.
+    Ce site utilise pour le moment des polices Google Fonts et peut-être Google Analytics avec les problèmes de respect de la vie privée que cela pose.
 
     Sauf mention contraire, les contenus de ce site sont publiés sous licence CC by-sa.
     Vous avez le droit de les réutiliser et de les modifier.

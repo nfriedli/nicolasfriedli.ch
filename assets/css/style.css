@@ -4,15 +4,27 @@ html {
     font-family: 'Chivo', sans-serif;
     font-size: 100%;
     line-height: 1.5;
-    padding: 2rem;
-    font-variant-numeric: oldstyle-nums proportional-nums;
-    text-rendering: optimizeLegibility;
+    padding: 1rem;
+    text-rendering: optimizeSpeed;
+}
+
+a {
+    color: #6B0025;
 }
 
 header, footer {
     font-size: 90%;
     margin: auto;
     max-width: 90ch;
+    color: #6B0025;
+}
+
+header a, footer a {
+    color: #6B0025;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header {
@@ -33,17 +45,15 @@ nav li + li {
     margin-left: 1rem;
 }
 
-header a {
-    text-decoration: none;
-}
-
 main {
     margin: 5rem auto;
     max-width: 60ch;
 }
 
-a {
-    color: #6B0025;
+main a {
+    color: #0000B1;
+    border-bottom: 2px solid #6B0025;
+    text-decoration: none;
 }
 
 .articles a {
@@ -75,7 +85,7 @@ nav ul, nav li {
 }
 
 pre, code {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Fira Sans', Inconsolata, 'Roboto Mono', 'Courier New', Courier, monospace;
 
 }
 pre {
@@ -95,11 +105,13 @@ img {
 @media screen and ( min-width: 1000px ) {
     html {
         font-size: 120%;
+        padding: 2rem;
     }
 }
 
 @media screen and ( min-width: 1500px ) {
     html {
         font-size: 140%;
+        padding: 3rem;
     }
 }
