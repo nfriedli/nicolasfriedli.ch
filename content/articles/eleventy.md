@@ -9,7 +9,7 @@ aliases:
 ---
 
 [Eleventy](https://www.11ty.dev/) (11ty) est un générateur de sites statiques (SSG) qui est plutôt à la mode en ce moment.
-Avec Hugo dont j'ai parlé dans le [précédent billet](hugo).
+Avec Hugo dont j'ai parlé dans le [précédent billet](/articles/hugo/).
 
 J'ai décidé de suivre une formation sur ce SSG: [Learn Eleventy From Scratch](https://piccalil.li/course/learn-eleventy-from-scratch/) par Andy Bell.
 L'accès m'a été donné avant la date officielle de début de cours. 
