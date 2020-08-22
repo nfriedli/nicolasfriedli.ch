@@ -38,7 +38,8 @@ params:
     - https://nicolasfriedli.ch/img/nicolas-friedli.jpg
   footer : |
     Un [flux RSS](https://nicolasfriedli.ch/index.xml) permet de s'abonner au site. 
-    Ce site utilise pour le moment des polices Google Fonts et peut-être Google Analytics avec les problèmes de respect de la vie privée que cela pose.
+    Par respect pour votre vie privée, ce site ne vous traque pas.
+    Il n'utilise pas de polices d'écriture externes ni de statstiques autres que celles du serveur.
 
     Sauf mention contraire, les contenus de ce site sont publiés sous licence CC by-sa.
     Vous avez le droit de les réutiliser et de les modifier.

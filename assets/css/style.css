@@ -136,6 +136,7 @@ img {
     font-weight: 400;
     src: url("/fonts/chivo-v11-latin-regular.woff2") format("woff2"),
         url("/fonts/chivo-v11-latin-regular.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -144,6 +145,7 @@ img {
     font-weight: 400;
     src: url("/fonts/chivo-v11-latin-italic.woff2") format("woff2"),
         url("/fonts/chivo-v11-latin-italic.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -151,6 +153,7 @@ img {
     font-style: normal;
     font-weight: 700;
     src: url("/fonts/chivo-v11-latin-700.woff2") format("woff2"), url("/fonts/chivo-v11-latin-700.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -159,6 +162,7 @@ img {
     font-weight: 700;
     src: url("/fonts/chivo-v11-latin-700italic.woff2") format("woff2"),
         url("/fonts/chivo-v11-latin-700italic.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -167,4 +171,5 @@ img {
     font-weight: 400;
     src: url("/fonts/fira-code-v9-latin-regular.woff2") format("woff2"),
         url("/fonts/fira-code-v9-latin-regular.woff") format("woff");
+    font-display: swap;
 }
