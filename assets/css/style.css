@@ -1,6 +1,6 @@
 html {    
-    background: white;
-    color: hsl(180, 80%, 15%);
+    background: #C9C1BA;
+    color: #0000B1;
     font-family: 'Chivo', sans-serif;
     font-size: 100%;
     line-height: 1.5;
@@ -12,13 +12,14 @@ html {
 header, footer {
     font-size: 90%;
     margin: auto;
-    max-width: 80ch;
+    max-width: 90ch;
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-transform: uppercase;
 }
 
 header h1 { font-size: inherit; margin-top: inherit; }
@@ -42,11 +43,21 @@ main {
 }
 
 a {
-    color: hsl(0, 70%, 25%);
+    color: #6B0025;
 }
 
 .articles a {
     font-weight: bold;
+}
+
+.articles li {
+    display: flex;
+    flex: 2fr 1fr;
+    justify-content: space-between;
+}
+
+.articles li + li { 
+    margin-top: .5rem;
 }
 
 h1 { font-size: 1.4375rem; }
@@ -92,32 +103,3 @@ img {
         font-size: 140%;
     }
 }
-
-/* Fonts 
-
-html, h1, h2, h3 {
-    font-family: 'IBM Plex Sans', sans-serif;
-}
-
-code, pre {
-    font-family: 'IBM Plex Mono', monospace;
-}
-
-main {
-    font-family: 'IBM Plex Serif', serif;
-}
-
-html, h1, h2, h3 {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-code, pre {
-    font-family: 'Source Code Pro', monospace;
-}
-
-main {
-    font-family: 'Source Serif Pro', serif;
-}
-
-*/
-

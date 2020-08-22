@@ -12,7 +12,7 @@
     <meta name="description" content="{{ . }}">
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
-    <meta name="author" content="Nicolas Friedli">
+    <meta name="author" content="{{ .Site.Author.name }}">
     {{ hugo.Generator }}
     <link rel="alternate" href="{{ .Site.RSSLink | relURL }}" title="{{ .Site.Title }}" type="application/atom+xml">
     <meta property="article:publisher" content="https://www.facebook.com/nicolasfriedli.ch">
@@ -34,7 +34,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    {{- template "_internal/opengraph.html" . -}}
+    {{ template "_internal/opengraph.html" . }}
     {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
     {{ if .IsHome }}{{ partial "ld-json.html" }}{{ end }}
@@ -43,11 +43,7 @@
 
 <body>
     <header>
-            {{ if .IsHome }}
-            <h1>{{ .Site.Title }}</h1>
-            {{ else }}
             <h1><a href="/" rel="home">{{ .Site.Title }}</a></h1>
-            {{ end }}
             <nav>
                 <ul>
                     {{ range .Site.Menus.main }}

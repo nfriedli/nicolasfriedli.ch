@@ -20,4 +20,4 @@ Suisse
 
 [keybase.io/nicolasfriedli](https://keybase.io/nicolasfriedli)
 
-![Nicolas Friedli](/img/nicolas-friedli.jpg)
+![Nicolas Friedli](/img/nicolas-friedli.jpg "Nicolas Friedli - Autoportrait au Locle")
