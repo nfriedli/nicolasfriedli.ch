@@ -1,5 +1,5 @@
 html {
-    background: #c9c1ba;
+    background: #dad4d0;
     color: #0000b1;
     font-family: "Chivo", sans-serif;
     font-size: 100%;
@@ -41,9 +41,6 @@ header h1 {
     margin-top: inherit;
 }
 
-footer a {
-    background: #DDD;
-}
 
 nav ul {
     display: flex;
@@ -61,7 +58,6 @@ main {
 
 main a {
     color: #0000b1;
-    background: #DDD;
 }
 
 .articles a {
