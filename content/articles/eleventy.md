@@ -4,6 +4,8 @@ date: 2020-08-21
 description: J'ai décidé de suivre une formation passionnante à Eleventy (11ty). Même si ce site est toujours motorisé par Hugo.
 images:
     - https://cdn.pixabay.com/photo/2016/06/29/09/29/code-1486361_960_720.jpg
+aliases:
+    - /blog/eleventy/
 ---
 
 [Eleventy](https://www.11ty.dev/) (11ty) est un générateur de sites statiques (SSG) qui est plutôt à la mode en ce moment.

@@ -4,6 +4,8 @@ date: 2020-08-20
 description: J'ai choisi d'utiliser le générateur de sites statiques Hugo pour mon site personnel, voici pourquoi.
 images: 
     - https://gohugo.io/images/gohugoio-card.png
+aliases:
+    - /blog/hugo/
 ---
 
 Voilà des années que je n'ai pas blogué *chez moi* et que ça me manque.
