@@ -29,3 +29,5 @@ ExpiresDefault "access 7 days"
 </IfModule>
 
 ErrorDocument 404 /404.html
+
+Header add Link "</favicon.ico>; rel=preload;"
