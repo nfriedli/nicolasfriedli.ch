@@ -46,4 +46,4 @@ params:
     Vous devez citer la source -- avec un lien cliquable -- et partager vos contenus dérivés avec la même licence.
 
 pygmentsCodeFences: true
-pygmentsStyle: monokai
+pygmentsStyle: autumn
