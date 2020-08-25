@@ -6,7 +6,7 @@ images:
     - https://cdn.pixabay.com/photo/2017/08/25/06/54/street-map-2679271_960_720.jpg
 ---
 
-Comme pour les [fils d'Ariane](/notes/breadcrumbs/), il est très simple de faire appel à la récursivité.
+Comme pour les [fils d'Ariane](/notes/breadcrumb/), il est très simple de faire appel à la récursivité.
 Ainsi, il est possible d'afficher un plan complet du site, quelles que soient son nombre de pages et la profondeur de sa hiérarchie.
 
 ## Extrait récursif
