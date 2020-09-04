@@ -1,6 +1,6 @@
 ---
 title: Marie Kondo, le web et moi
-date: 2020-02-16
+date: 2020-09-01
 description: 
 draft: true
 ---

@@ -39,7 +39,7 @@ Ce peut être utile s'il n'est pas utilisé plusieurs fois:
 {{ define "breadcrumb" }}
     {{ with .Parent }}
         {{ template "breadcrumb" . }}
-        <a href="{{ .Permalink }}">{{ end }}</a> >
+        <a href="{{ .Permalink }}">{{ .Title }}</a> >
     {{ end }}
 {{ end }}
 
