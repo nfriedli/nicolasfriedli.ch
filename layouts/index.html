@@ -4,7 +4,7 @@
 
 <ul class="articles">
   {{ range .Site.RegularPages.ByDate.Reverse  }}
-  <li><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> <time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Format "02.01.2006"}}</time></li>
+  <li><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> {{ partial "date" . }}</li>
   {{ end }}
 </ul>
 

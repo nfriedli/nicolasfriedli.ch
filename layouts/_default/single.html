@@ -1,5 +1,5 @@
 {{ define "main" }}
 <h1>{{ .Title | markdownify }}</h1>
 {{ .Content }}
-&mdash; <time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Format "02.01.2006"}}</time> / Nicolas Friedli
+&mdash; {{ partial "date" . }} / Nicolas Friedli
 {{ end }}
