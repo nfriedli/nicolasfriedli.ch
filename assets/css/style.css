@@ -116,6 +116,12 @@ img {
     display: block;
 }
 
+@media screen and (max-width: 800px) {
+    .articles li {
+        flex-direction: column;
+    }
+}
+
 @media screen and (min-width: 1000px) {
     html {
         font-size: 120%;
