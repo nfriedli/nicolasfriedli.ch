@@ -40,9 +40,7 @@
             </nav>
     </header>
     <main>
-        <article>
             {{ block "main" . }}{{ end }}
-        </article>
     </main>
     <footer>
         {{ .Site.Params.footer | markdownify }}
