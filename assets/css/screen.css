@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-html { font-family: 'IBM Plex Sans', sans-serif;}
+html, blockquote, .breadcrumb { font-family: 'IBM Plex Sans', sans-serif;}
 main { font-family: 'IBM Plex Serif', serif; }
 pre, code { font-family: 'IBM Plex Mono', monospace; }
 pre { padding: 1rem; }
@@ -12,6 +12,7 @@ html {
     color: #333;
     font-size: 100%;
     line-height: 1.5;
+    font-variant-ligatures: discretionary-ligatures;
 }
 
 body {
@@ -37,16 +38,20 @@ img {
     max-width: 100%;
 }
 
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
 h1 {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 h3 {
-    font-size: 1.1rem
+    font-size: 1.2rem
 }
 
 .breadcrumb {
@@ -57,19 +62,16 @@ h3 {
 /* responsive minimal */
 
 @media screen and (min-width: 800px) {
-    html {
-        font-size: 106%;
-    }
+    html { font-size: 106%; }
+    pre { font-size: 95%; }
 }
 
 @media screen and (min-width: 1200px) {
-    html {
-        font-size: 110%;
-    }
+    html { font-size: 110%; }
+    pre { font-size: 90%; }
 }
 
 @media screen and (min-width: 1600px) {
-    html {
-        font-size: 125%;
-    }
+    html { font-size: 125%; }
+    pre { font-size: 85%; }
 }

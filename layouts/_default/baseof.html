@@ -29,7 +29,7 @@
 
 <body>
     <header>
-        {{ .Site.Title | markdownify }}
+        {{ .Site.Title | markdownify }}<br><small>{{ .Site.Params.slogan | markdownify }}</small>
     </header>
     <main>
         {{ block "main" . }}{{ end }}

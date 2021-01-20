@@ -28,6 +28,8 @@ markup:
       typographer: true
     parser:
       autoHeadingIDType: github-ascii
+    renderer:
+      unsafe: true
   highlight:
     style: monokai
     noClasses: false
