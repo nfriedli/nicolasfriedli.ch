@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }} &bull; {{ .Site.Params.slogan }}{{ else }}
+        {{ .Title }} &bull; {{ .Site.Title }} {{ end }}
+    </title>
+    {{ with .Description }}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta name="author" content="{{ .Site.Author.name }}">
+    {{ hugo.Generator }}
+    <link rel="alternate" href="{{ .Site.RSSLink | relURL }}" title="{{ .Site.Title }}" type="application/atom+xml">
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $screen.Permalink }}" integrity="{{ $screen.Data.Integrity }}" media="screen">
+
+    {{ $code := resources.Get "css/code.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $code.Permalink }}" integrity="{{ $code.Data.Integrity }}" media="screen">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        {{ .Site.Title | markdownify }}
+    </header>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+        {{ .Site.Params.footer | markdownify }}
+    </footer>
+</body>
+
+</html>

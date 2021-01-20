@@ -1,0 +1,4 @@
+{{ with .Parent }}
+    {{ partial "breadcrumb.html" . }}
+    <a href="{{ .Permalink }}">{{ if .IsHome }}Accueil{{ else }}{{.Title | markdownify }}{{ end }}</a> »
+{{ end }}

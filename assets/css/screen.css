@@ -1,0 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html { font-family: 'IBM Plex Sans', sans-serif;}
+main { font-family: 'IBM Plex Serif', serif; }
+pre, code { font-family: 'IBM Plex Mono', monospace; }
+pre { padding: 1rem; }
+
+html {
+    background: #fff;
+    color: #333;
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+body {
+    margin: auto;
+    max-width: 60ch;
+    padding: 1rem;
+}
+
+header, footer {
+    font-size: 90%;
+}
+
+main {
+    margin: 5rem 0;
+    min-height: 50vh;
+}
+
+a {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.1rem
+}
+
+.breadcrumb {
+    font-size: 80%;
+    margin: 2rem 0;
+}
+
+/* responsive minimal */
+
+@media screen and (min-width: 800px) {
+    html {
+        font-size: 106%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 110%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: 125%;
+    }
+}
