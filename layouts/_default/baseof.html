@@ -23,13 +23,18 @@
     <link rel="stylesheet" href="{{ $code.Permalink }}" integrity="{{ $code.Data.Integrity }}" media="screen">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-        {{ .Site.Title | markdownify }}<br><small>{{ .Site.Params.slogan | markdownify }}</small>
+        <div>{{ .Site.Title | markdownify }} / {{ .Site.Params.slogan | markdownify }}</div>
+        <nav>
+            {{ range .Site.Sections }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+        </nav>
     </header>
     <main>
         {{ block "main" . }}{{ end }}

@@ -1,6 +1,6 @@
 {{ define "main" }}
+<div class="breadcrumb">{{ partial "breadcrumb" . }}</div>
 <h1>{{ .Title | markdownify }}</h1>
-<div class="breadcrumb">{{ partial "breadcrumb" . }} {{ .Title }}</div>
 {{ .Content }}
 <ul>
 {{ range .Pages }}

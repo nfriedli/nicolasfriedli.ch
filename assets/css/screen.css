@@ -1,23 +1,26 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-html, blockquote, .breadcrumb { font-family: 'IBM Plex Sans', sans-serif;}
-main { font-family: 'IBM Plex Serif', serif; }
-pre, code { font-family: 'IBM Plex Mono', monospace; }
-pre { padding: 1rem; }
+html {
+    font-family: Chivo, sans-serif;
+}
+pre {
+    padding: 1rem;
+}
 
 html {
-    background: #fff;
-    color: #333;
+    background: #fffff8;
+    color: #333338;
     font-size: 100%;
-    line-height: 1.5;
-    font-variant-ligatures: discretionary-ligatures;
+    line-height: 1.6;
 }
 
 body {
     margin: auto;
-    max-width: 60ch;
+    max-width: 58ch;
     padding: 1rem;
 }
 
@@ -30,48 +33,67 @@ main {
     min-height: 50vh;
 }
 
+header > * + *,
+main > * + *,
+footer > * + * {
+    margin-top: 1rem;
+}
+
+p {
+    hyphens: auto;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
 a {
-    color: #333;
+    color: #333338;
 }
 
 img {
     max-width: 100%;
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-h2 {
-    font-size: 1.4rem;
-}
-
+h1,
+h2,
 h3 {
-    font-size: 1.2rem
+    line-height: 1.2;
+    max-width: 80%;
 }
 
-.breadcrumb {
-    font-size: 80%;
-    margin: 2rem 0;
+.breadcrumb, .meta {
+    font-size: 90%;
 }
 
-/* responsive minimal */
-
-@media screen and (min-width: 800px) {
-    html { font-size: 106%; }
-    pre { font-size: 95%; }
+.breadcrumb,
+.breadcrumb a,
+.meta {
+    color: #666;
 }
 
-@media screen and (min-width: 1200px) {
-    html { font-size: 110%; }
-    pre { font-size: 90%; }
+@font-face {
+    font-family: "Chivo";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/css/fonts/chivo-v12-latin-regular.woff2") format("woff2"), url("/css/fonts/chivo-v12-latin-regular.woff") format("woff");
+}
+@font-face {
+    font-family: "Chivo";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/css/fonts/chivo-v12-latin-700.woff2") format("woff2"), url("/css/fonts/chivo-v12-latin-700.woff") format("woff");
 }
 
-@media screen and (min-width: 1600px) {
-    html { font-size: 125%; }
-    pre { font-size: 85%; }
+@font-face {
+    font-family: "Chivo";
+    font-style: italic;
+    font-weight: 400;
+    src: url("/css/fonts/chivo-v12-latin-italic.woff2") format("woff2"), url("/css/fonts/chivo-v12-latin-italic.woff") format("woff");
+}
+@font-face {
+    font-family: "Chivo";
+    font-style: italic;
+    font-weight: 700;
+    src: url("/css/fonts/chivo-v12-latin-700italic.woff2") format("woff2"), url("/css/fonts/chivo-v12-latin-700italic.woff") format("woff");
 }

@@ -40,6 +40,6 @@ params:
   images: 
     - https://nicolasfriedli.ch/img/nicolas-friedli.jpg
   footer : |
-    Un [flux RSS](https://nicolasfriedli.ch/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Par respect pour votre vie privée, ce site ne vous traque pas. Il n'utilise pas de polices d'écriture externes ni de statistiques (autres que celles du serveur).
+    Un [flux RSS](https://nicolasfriedli.ch/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Par respect pour votre vie privée, ce site ne vous traque pas. Il n'utilise pas de polices d'écriture externes (sauf en période de développement) ni de statistiques (autres que celles du serveur).
 
     Sauf mention contraire, les contenus de ce site sont publiés sous [licence CC by-sa](https://creativecommons.org/licenses/by-sa/3.0/ch/deed.fr "Creative Commons - Attribution et partage dans les mêmes conditions"). Vous avez le droit de les réutiliser et de les modifier. Vous devez citer la source -- avec un lien cliquable -- et partager vos contenus dérivés avec la même licence.

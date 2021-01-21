@@ -2,7 +2,8 @@
 {{ .Title }} &bull; {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
+<div class="breadcrumb">{{ partial "breadcrumb" . }}</div>
 <h1>{{ .Title }}</h1>
-<div class="breadcrumb">{{ partial "breadcrumb" . }} {{ .Title }}</div>
+<div class="meta">Nicolas Friedli / {{ partial "date" . }}</div>
 {{ .Content }}
 {{ end }}
