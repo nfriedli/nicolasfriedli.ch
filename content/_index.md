@@ -1,7 +1,8 @@
 ---
-title: Nicolas Friedli
+title: web & persiflages
+description: "Le bloc-note de Nicolas Friedli: réflexions généralistes sur le web, extraits de code, informations sur Hugo, etc."
 ---
 
-Consultant web indépendant dans la région de **Neuchâtel** (Suisse), j’aide des *institutions*, des entreprises et des particuliers à être présents sur le web. J’élabore des stratégies de contenu et les applique. J’aime les sites désespérément simples, lisibles et rapides.
+Un site personnel qui propose des notices et réflexions sur le web et nos pratiques. Il est publié par Nicolas Friedli, consultant web indépendant dans le canton de Neuchâtel (Suisse).
 
-## Derniers billets publiés
+De nouveaux projets professionnels et des volontés de changement expliquent pourquoi ce site est en refonte complète. Elle durera jusqu’à l’automne 2021. Courage & confiance. Prenez soin de vous!

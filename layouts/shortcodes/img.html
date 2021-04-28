@@ -1,0 +1,29 @@
+{{/* https://laurakalbag.com/processing-responsive-images-with-hugo/ */}}
+
+{{ $src := resources.Get (.Get "src") }}
+
+{{ .Scratch.Set "tiny" ($src.Fit "480x480") }}
+{{ .Scratch.Set "small" ($src.Fit "640x640") }}
+{{ .Scratch.Set "medium" ($src.Fit "960x960") }}
+{{ .Scratch.Set "large" ($src.Fit "1280x1280") }}
+{{ .Scratch.Set "huge" ($src.Fit "1920x1920") }}
+
+{{ $tiny := .Scratch.Get "tiny" }}
+{{ $small := .Scratch.Get "small" }}
+{{ $medium := .Scratch.Get "medium" }}
+{{ $large := .Scratch.Get "large" }}
+{{ $huge := .Scratch.Get "huge" }}
+
+<figure>
+    <img 
+    srcset="{{ $tiny.RelPermalink }} {{ $tiny.Width }}w
+            {{- if gt $small.Width $tiny.Width}}, {{ $small.RelPermalink }} {{ $small.Width }}w{{ end }}
+            {{- if gt $medium.Width $small.Width}}, {{ $medium.RelPermalink }} {{ $medium.Width }}w{{ end }}
+            {{- if gt $large.Width $small.Width}}, {{ $large.RelPermalink }} {{ $large.Width }}w{{ end }}
+            {{- if gt $huge.Width $large.Width}}, {{ $huge.RelPermalink }} {{ $huge.Width }}w{{ end }}"
+    sizes="(min-width: 751px) 750px, 100vw"
+    src="{{ $medium.RelPermalink }} " width="{{ $medium.Width }}" height="{{ $medium.Height }}"
+    {{ with .Get "alt" }}alt="{{.}}"{{ else }}alt="{{ .Get "caption" | markdownify | plainify }}"{{ end }}
+    loading="lazy" decoding="async" >
+    {{ with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

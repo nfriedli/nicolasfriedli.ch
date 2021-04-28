@@ -8,6 +8,8 @@ canonifyURLs: true
 copyright: Creative Commons by-sa
 disableFastRender: true
 enableGitInfo: true
+cleandestinationdir: true
+removePathAccents: true
 
 author:
   name: Nicolas Friedli
@@ -16,10 +18,15 @@ author:
 disableKinds:
   - taxonomy
   - term
-  - RSS
   - robotsTXT
-  - sitemap
   - 404
+
+imaging:
+  resampleFilter: catmullrom
+  quality: 80
+  bgColor: ffffff
+  exif: 
+    includeFields: ".*"
 
 markup:
   defaultMarkdownHandler: goldmark
@@ -38,8 +45,6 @@ params:
   title: Nicolas Friedli
   slogan: consultant web indépendant
   images: 
-    - https://nicolasfriedli.ch/img/nicolas-friedli.jpg
+    - https://cdn.pixabay.com/photo/2012/12/19/18/12/scrapyard-70908_960_720.jpg
   footer : |
-    Un [flux RSS](https://nicolasfriedli.ch/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Par respect pour votre vie privée, ce site ne vous traque pas. Il n'utilise pas de polices d'écriture externes (sauf en période de développement) ni de statistiques (autres que celles du serveur).
-
-    Sauf mention contraire, les contenus de ce site sont publiés sous [licence CC by-sa](https://creativecommons.org/licenses/by-sa/3.0/ch/deed.fr "Creative Commons - Attribution et partage dans les mêmes conditions"). Vous avez le droit de les réutiliser et de les modifier. Vous devez citer la source -- avec un lien cliquable -- et partager vos contenus dérivés avec la même licence.
+    Un [flux RSS](/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Ce site respecte votre vie privée; il ne vous traque pas. Sauf mention contraire, tous les contenus sont publiés sous [licence CC by-sa](https://creativecommons.org/licenses/by-sa/3.0/ch/deed.fr "Creative Commons - Attribution et partage dans les mêmes conditions").
