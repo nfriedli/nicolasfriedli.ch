@@ -90,6 +90,10 @@ pre {
     overflow-x: auto;
 }
 
+.related {
+    margin-top: $spacer
+}
+
 @font-face {
     font-display: swap;
     font-family: 'Archivo';

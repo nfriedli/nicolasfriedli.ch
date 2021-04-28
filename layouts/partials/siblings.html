@@ -1,0 +1,15 @@
+{{ $current := . }}
+{{ with .Parent }}
+<div class="related">
+<strong>Voir aussi:</strong>
+<ul>
+    {{ range .Pages }}
+        {{ if ne $current .}}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+        {{ end }}
+    {{ end }}
+</ul>
+</div>
+{{ end }}

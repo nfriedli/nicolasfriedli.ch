@@ -6,4 +6,6 @@
 <h1>{{ .Title }}</h1>
 <div class="meta">Mise à jour: {{ partial "date" . }}</div>
 {{ .Content }}
+
+{{ partial "siblings" . }}
 {{ end }}

@@ -1,9 +1,7 @@
 ---
 title: Contact
-date: 2020-08-19
+date: 2021-04-28
 description: Contacter Nicolas Friedli pour une question, une remarque ou une proposition.
-menu: main
-weight: 1000
 ---
 
 Le propriétaire du nom de domaine et responsable du site est:

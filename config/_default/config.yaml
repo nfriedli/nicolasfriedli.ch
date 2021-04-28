@@ -47,4 +47,4 @@ params:
   images: 
     - https://cdn.pixabay.com/photo/2012/12/19/18/12/scrapyard-70908_960_720.jpg
   footer : |
-    Un [flux RSS](/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Ce site respecte votre vie privée; il ne vous traque pas. Sauf mention contraire, tous les contenus sont publiés sous [licence CC by-sa](https://creativecommons.org/licenses/by-sa/3.0/ch/deed.fr "Creative Commons - Attribution et partage dans les mêmes conditions").
+    Un [flux RSS](/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Les contenus sont publiés sous licence CC by-sa, voir [À propos de ce site](/about/ "Informations techniques et rédactionnelles"). Les coordonnées de l'auteur se trouvent sur [Contact](/contact/ "Contacter Nicolas Friedli"). Un [plan du site](/plan/ "Plan complet du site de Nicolas Friedli") est disponible.
