@@ -14,12 +14,11 @@
     <meta name="author" content="{{ .Site.Author.name }}">
     <link rel="alternate" href="{{ .Site.RSSLink | absURL }}" title="{{ .Site.Title }}" type="application/atom+xml">
 
-    {{ hugo.Generator }}    
-    {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
-    
     {{ $screen := resources.Get "css/screen.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $screen.Permalink }}" integrity="{{ $screen.Data.Integrity }}" media="screen">
+
+    {{ $fonts := resources.Get "css/fonts.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $fonts.Permalink }}" integrity="{{ $fonts.Data.Integrity }}" media="screen">
 
     {{ $code := resources.Get "css/code.css" | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $code.Permalink }}" integrity="{{ $code.Data.Integrity }}" media="screen">
@@ -28,20 +27,60 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#004455">
     <link rel="manifest" href="/manifest.json">
-    
+
     <link rel="preload" href="/css/fonts/archivo-v7-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/css/fonts/archivo-v7-latin-700.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/css/fonts/archivo-v7-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/css/fonts/archivo-v7-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
+
+    {{ hugo.Generator }}
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
+
+    <link rel="me" href="https://frdl.ch">
+    <link rel="me" href="https://theologique.ch">
+    <link rel="me" href="https://vrbr.ch">
+    <link rel="me" href="https://nicolasfriedli.ch">
+
+    <script type='application/ld+json'>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "person",
+      "name": "Nicolas Friedli",
+      "jobTitle": "Consultant web indépendant",
+      "gender": "male",
+      "url": "https://nicolasfriedli.ch",
+      "sameAs": [
+         "https://theologique.ch",
+         "https://frdl.ch",
+         "https://clmbr.ch",
+         "https://vrbr.ch",
+         "https://github.com/nfriedli/",
+         "https://keybase.io/nicolasfriedli"
+      ],
+      "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "Rue du Château 3",
+         "addressLocality": "Colombier",
+         "addressRegion": "Neuchâtel",
+         "postalCode": "2013",
+         "addressCountry": "Suisse"
+      },
+      "email": "nicolasfriedli@protonmail.ch",
+      "alumniOf": "Université de Neuchâtel",
+      "birthDate": "1978-05-30"
+    }
+</script>
 
 </head>
 
 <body>
     <header>
         {{ if .IsHome }}
-            {{ .Site.Title | markdownify }} &bull; {{ .Site.Params.slogan | markdownify }}
+        {{ .Site.Title | markdownify }} &bull; {{ .Site.Params.slogan | markdownify }}
         {{ else }}
-            <a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | markdownify }}</a>
+        <a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | markdownify }}</a>
         {{ end }}
     </header>
     <main>

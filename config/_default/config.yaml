@@ -19,10 +19,16 @@ disableKinds:
   - taxonomy
   - term
   - robotsTXT
-  - 404
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
 
 imaging:
-  resampleFilter: catmullrom
+  resampleFilter: lanczos
   quality: 80
   bgColor: ffffff
   exif: 
@@ -48,3 +54,4 @@ params:
     - https://cdn.pixabay.com/photo/2012/12/19/18/12/scrapyard-70908_960_720.jpg
   footer : |
     Un [flux RSS](/index.xml "S'abonner au site par flux RSS") permet de s'abonner au site. Les contenus sont publiés sous licence CC by-sa, voir [À propos de ce site](/about/ "Informations techniques et rédactionnelles"). Les coordonnées de l'auteur se trouvent sur [Contact](/contact/ "Contacter Nicolas Friedli"). Un [plan du site](/plan/ "Plan complet du site de Nicolas Friedli") est disponible.
+  width: 750

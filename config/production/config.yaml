@@ -1,2 +1,7 @@
+googleAnalytics: UA-59198139-2
+
 minify:
   minifyOutput: true
+  tdewolff:
+    html:
+      keepQuotes: true

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: nicolasfriedli.ch
+Token: 8446da78c72f5a6cee5ab4ec2f946136dbeaf852aeed68be2e12734f37ff77e5

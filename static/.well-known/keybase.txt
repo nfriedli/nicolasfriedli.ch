@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/nicolasfriedli
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nicolasfriedli.ch
+  * I am nicolasfriedli (https://keybase.io/nicolasfriedli) on keybase.
+  * I have a public key ASBsRnXBEHWzAdqIy1fnADBY0csCLFY57zuTlEKdkSZriwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b610f0e20e545c81d55206a401909435ec32a43f1c6143d6b96289bad2ec2b120a",
+      "host": "keybase.io",
+      "kid": "01206c4675c11075b301da88cb57e7003058d1cb022c5639ef3b9394429d91266b8b0a",
+      "uid": "f2c0bbeb95e10d006eec9b98f8a6db19",
+      "username": "nicolasfriedli"
+    },
+    "merkle_root": {
+      "ctime": 1581081808,
+      "hash": "a9cab0ae6a5eae70ed5952c57568322d09464c016a11a6822e9b26298b457dfe9e3153cfeaf715e157689186f20f9c776d83c1cc71e5c1d6ea8ed3f17c07b325",
+      "hash_meta": "fe1f9f5de1368887504f37191146dc8242b8abc060174610a3057f3f956c230a",
+      "seqno": 14522627
+    },
+    "service": {
+      "entropy": "Zirh22jwPUS628ATP7kRGiqr",
+      "hostname": "nicolasfriedli.ch",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1581081838,
+  "expire_in": 504576000,
+  "prev": "f9f0db8c84e4eded5e5ce280e869f7dba1ee404d585f50c7e26a7c4007696952",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgbEZ1wRB1swHaiMtX5wAwWNHLAixWOe87k5RCnZEma4sKp3BheWxvYWTESpcCFcQg+fDbjITk7e1eXOKA6Gn326HuQE1YX1DH4mp8QAdpaVLEIH27+kOFysNTlXFORhfOQ98E8MwWIxGH9nYhFDrDabc1AgHCo3NpZ8RAOEKNOL0DwBtkxW6BXT/0nLsI6QxCVyP/zkEfJd6HaNl5oS2AE7ZZn/awWULF8XfXIOgkBTSEkdwNaibP0VDbA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID1Lwd4k5D2CU0R/qGSG+K9NTwkRvOFsfzMm6J0tlPGlo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nicolasfriedli
+
+==================================================================

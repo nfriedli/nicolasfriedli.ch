@@ -1,9 +1,9 @@
-$font-stack: Archivo, Roboto, sans-serif;
-$font-code: JetBrains, monotype;
+$font-stack: Archivo, Roboto, Arial, sans-serif;
+$font-code: JetBrains, monospace;
 
-$background: rgb(243, 233, 227);
-$text: rgb(39, 36, 36);
-$color: rgb(102, 26, 121);
+$background: #FFF;
+$text: #333;
+$color: #045;
 
 $spacer: 1rem;
 
@@ -90,70 +90,11 @@ pre {
     overflow-x: auto;
 }
 
+.meta {
+    margin-top: 2*$spacer;
+    margin-bottom: 2*$spacer;
+}
+
 .related {
     margin-top: $spacer
 }
-
-@font-face {
-    font-display: swap;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/css/fonts/archivo-v7-latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Archivo';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/css/fonts/archivo-v7-latin-italic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Archivo';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/css/fonts/archivo-v7-latin-700.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Archivo';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/css/fonts/archivo-v7-latin-700italic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: fallback;
-    font-family: 'JetBrains';
-    font-style: normal;
-    font-weight: 400;
-    src: url('/css/fonts/jetbrains-mono-v6-latin-regular.woff2') format('woff2');
-  }
-
-@font-face {
-    font-display: fallback;
-    font-family: 'JetBrains';
-    font-style: normal;
-    font-weight: 700;
-    src: url('/css/fonts/jetbrains-mono-v6-latin-700.woff2') format('woff2');
-  }
-
-@font-face {
-    font-display: fallback;
-    font-family: 'JetBrains';
-    font-style: italic;
-    font-weight: 400;
-    src: url('/css/fonts/jetbrains-mono-v6-latin-italic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: fallback;
-    font-family: 'JetBrains';
-    font-style: italic;
-    font-weight: 700;
-    src: url('/css/fonts/jetbrains-mono-v6-latin-700italic.woff2') format('woff2');
-  }
