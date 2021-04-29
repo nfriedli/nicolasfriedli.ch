@@ -37,7 +37,6 @@
 
     {{ hugo.Generator }}
     {{ template "_internal/opengraph.html" . }}
-    {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/google_analytics.html" . }}
 
     {{ if .IsHome }}
@@ -46,38 +45,6 @@
     <link rel="me" href="https://vrbr.ch">
     <link rel="me" href="https://clmbr.ch">
     {{ end }}
-
-    <script type='application/ld+json'>
-    {
-      "@context": "http://www.schema.org",
-      "@type": "person",
-      "name": "Nicolas Friedli",
-      "jobTitle": "Consultant web indépendant",
-      "image": "https://nicolasfriedli.ch/nicolas-friedli.jpg",
-      "gender": "male",
-      "url": "https://nicolasfriedli.ch",
-      "sameAs": [
-         "https://theologique.ch",
-         "https://frdl.ch",
-         "https://clmbr.ch",
-         "https://vrbr.ch",
-         "https://github.com/nfriedli/",
-         "https://keybase.io/nicolasfriedli"
-      ],
-      "address": {
-         "@type": "PostalAddress",
-         "streetAddress": "Rue du Château 3",
-         "addressLocality": "Colombier",
-         "addressRegion": "Neuchâtel",
-         "postalCode": "2013",
-         "addressCountry": "Suisse"
-      },
-      "email": "nicolasfriedli@protonmail.ch",
-      "telephone": "+41324814874",
-      "alumniOf": "Université de Neuchâtel",
-      "birthDate": "1978-05-30"
-    }
-</script>
 
 </head>
 
