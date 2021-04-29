@@ -40,10 +40,12 @@
     {{ template "_internal/twitter_cards.html" . }}
     {{ template "_internal/google_analytics.html" . }}
 
+    {{ if .IsHome }}
     <link rel="me" href="https://frdl.ch">
     <link rel="me" href="https://theologique.ch">
     <link rel="me" href="https://vrbr.ch">
-    <link rel="me" href="https://nicolasfriedli.ch">
+    <link rel="me" href="https://clmbr.ch">
+    {{ end }}
 
     <script type='application/ld+json'>
     {
@@ -51,6 +53,7 @@
       "@type": "person",
       "name": "Nicolas Friedli",
       "jobTitle": "Consultant web indépendant",
+      "image": "https://nicolasfriedli.ch/nicolas-friedli.jpg",
       "gender": "male",
       "url": "https://nicolasfriedli.ch",
       "sameAs": [
@@ -70,6 +73,7 @@
          "addressCountry": "Suisse"
       },
       "email": "nicolasfriedli@protonmail.ch",
+      "telephone": "+41324814874",
       "alumniOf": "Université de Neuchâtel",
       "birthDate": "1978-05-30"
     }

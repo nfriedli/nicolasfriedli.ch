@@ -12,9 +12,15 @@ html {
     background: $background;
     color: $text;
     font-family: $font-stack;
-    font-size: 106.25%;
+    font-size: 110%;
     line-height: 1.5;
     overflow-y: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 100%;
+    }
 }
 
 body {
@@ -48,6 +54,11 @@ h1 {
 h2 {
     font-size: 120%;
     margin-top: 2*$spacer;
+    margin-bottom: .5*$spacer;
+
+    + p {
+    margin-top: 0;
+    }
 }
 
 h3 {
