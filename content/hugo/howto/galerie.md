@@ -1,7 +1,7 @@
 ---
 title: Comment créer une galerie d'images?
-date: 2021-04-28
 description: Afficher un ensemble d'images sur une page, avec des légendes et des grandes images en cliquant.
+date: 2021-04-28
 images:
     - https://cdn.pixabay.com/photo/2017/11/12/22/50/human-2944064_960_720.jpg
 ---

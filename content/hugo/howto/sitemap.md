@@ -1,7 +1,7 @@
 ---
 title: Comment afficher un plan complet du site?
+description: Proposer l'ensemble des pages d'un site hiérarchique créé avec Hugo sous forme de plan. Un complément utile au fichier sitemap.xml.
 date: 2021-04-28
-description: Proposer l'ensemble des pages du site sous forme de plan.
 images:
     - https://cdn.pixabay.com/photo/2017/08/25/06/54/street-map-2679271_960_720.jpg
 ---

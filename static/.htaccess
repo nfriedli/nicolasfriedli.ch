@@ -14,7 +14,7 @@ Redirect 301 /feed/ /index.xml
 
 <IfModule mod_headers.c>
 Header always set Permissions-Policy "interest-cohort=()"
-Header Set Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Header Set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 </IfModule>
 
 <IfModule mod_mime.c>

@@ -3,7 +3,7 @@
 <div class="related">
 <strong>Voir aussi:</strong>
 <ul>
-    {{ range .Pages }}
+    {{ range .RegularPages }}
         {{ if ne $current .}}
             <li>
                 <a href="{{ .Permalink }}">{{ .Title }}</a>

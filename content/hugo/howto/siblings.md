@@ -1,7 +1,7 @@
 ---
 title: Comment lister les pages sœurs, filles et mère?
-date: 2021-04-28
 description: Des extraits de code pour proposer différentes navigations contextuelles sur un site créé avec Hugo.
+date: 2021-04-28
 images:
     - https://cdn.pixabay.com/photo/2020/05/23/16/16/genealogy-5210251_960_720.jpg
 ---

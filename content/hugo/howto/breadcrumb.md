@@ -1,7 +1,7 @@
 ---
 title: Comment créer un fil d'Ariane (breadcrumb)?
 date: 2021-04-28
-description: 
+description: Pour tout site structuré hiérarchiquement, le fil d'Ariane apporte une vraie plus-value aux utilisateurs.
 images:
     - https://cdn.pixabay.com/photo/2017/07/26/16/48/bread-2542308_960_720.jpg
 ---

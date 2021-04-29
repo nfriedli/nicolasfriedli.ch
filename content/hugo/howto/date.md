@@ -1,7 +1,7 @@
 ---
 title: Comment afficher les dates en français?
 date: 2021-04-28
-description: 
+description: Hugo beaucoup de qualités, notamment dans sa gestion du multilinguisme. Mais pas pour l'affichage des date par défaut.
 images:
     - https://cdn.pixabay.com/photo/2017/06/21/21/00/calendar-2428560_960_720.jpg
 ---

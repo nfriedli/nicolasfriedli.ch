@@ -1,10 +1,10 @@
 {{ define "main" }}
 <h1>{{ .Title | markdownify }}</h1>
 {{ .Content }}
-<h2>Dernières mises à jour:</h2>
 <ul>
-{{ range last 5 .Site.RegularPages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ range site.Sections }}
+    <li><strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong>
+    <p>{{ .Description | markdownify }}</p></li>
 {{ end }}
 </ul>
 {{ end }}

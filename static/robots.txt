@@ -1,4 +1,7 @@
 User-agent: *
 Disallow:
 
+User-agent: *
+Disallow: /dokuwiki/
+
 Sitemap: https://nicolasfriedli.ch/sitemap.xml
