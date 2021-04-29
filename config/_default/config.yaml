@@ -20,13 +20,6 @@ disableKinds:
   - term
   - robotsTXT
 
-outputs:
-  home:
-    - HTML
-    - RSS
-  section:
-    - HTML
-
 imaging:
   resampleFilter: lanczos
   quality: 80
