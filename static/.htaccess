@@ -21,7 +21,7 @@ Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains
 Header always set X-Content-Type-Options "nosniff"
 Header always set X-Frame-Options "DENY"
 Header always set X-XSS-Protection "1;mode=block"
-Header always set Content-Security-Policy "default-src 'none';style-src 'self';img-src 'self';font-src 'self';manifest-src 'self'"
+Header always set Content-Security-Policy "default-src 'none';style-src 'self';img-src 'self';font-src 'self';manifest-src 'self';frame-ancestors 'none';base-uri 'none';report-uri /csp-parser-basic.php"
 Header always set Referrer-Policy "same-origin"
 Header always set X-Permitted-Cross-Domain-Policies "none"
 # Header always set Feature-Policy "* 'none'"
