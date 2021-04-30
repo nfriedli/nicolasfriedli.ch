@@ -50,11 +50,14 @@
 
 <body>
     <header>
-        {{ if .IsHome }}
+        <a href="{{ .Site.BaseURL }}" rel="home">
+        <span><img src="/nicolas-friedli-96.jpg" alt="Nicolas Friedli" width="48" height="48"></span>
+        <span>{{ if .IsHome }}
         {{ .Site.Title | markdownify }} &bull; {{ .Site.Params.slogan | markdownify }}
         {{ else }}
-        <a href="{{ .Site.BaseURL }}" rel="home">{{ .Site.Title | markdownify }}</a>
-        {{ end }}
+        {{ .Site.Title | markdownify }}
+        {{ end }}</span>
+        </a>
     </header>
     <main>
         {{ block "main" . }}{{ end }}

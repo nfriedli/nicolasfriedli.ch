@@ -33,6 +33,22 @@ header, footer, .breadcrumb, .meta {
     font-size: 90%;
 }
 
+header {
+
+    a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: $text;
+        font-weight: bold;
+    }
+
+    img {
+        border-radius: 25%;
+        margin-right: .5*$spacer;
+    }
+}
+
 .breadcrumb {
     margin-top: $spacer;
 }
