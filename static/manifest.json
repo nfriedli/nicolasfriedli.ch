@@ -17,6 +17,10 @@
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "/logo.svg",
+            "sizes": "32x32 48x48 96x96 192x192 512x512"
         }
     ]
 }
