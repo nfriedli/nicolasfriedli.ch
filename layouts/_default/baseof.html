@@ -36,27 +36,55 @@
     <link rel="preload" href="/css/fonts/archivo-v7-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
 
     {{ hugo.Generator }}
+    {{ template "_internal/schema.html" . }}
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/google_analytics.html" . }}
 
-    {{ if .IsHome }}
     <link rel="me" href="https://frdl.ch">
     <link rel="me" href="https://theologique.ch">
     <link rel="me" href="https://vrbr.ch">
     <link rel="me" href="https://clmbr.ch">
-    {{ end }}
 
+    <script type='application/ld+json'>
+        {
+          "@context": "http://www.schema.org",
+          "@type": "person",
+          "name": "Nicolas Friedli",
+          "jobTitle": "Consultant web indépendant",
+          "gender": "male",
+          "url": "https://nicolasfriedli.ch/",
+          "sameAs": [
+             "https://clmbr.ch",
+             "https://vrbr.ch",
+             "https://frdl.ch",
+             "https://theologique.ch/"
+          ],
+          "image": "https://nicolasfriedli.ch/nicolas-friedli.jpg",
+          "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "Rue du Château 3",
+             "addressLocality": "Colombier",
+             "addressRegion": "Neuchâtel",
+             "postalCode": "2013",
+             "addressCountry": "Suisse"
+          },
+          "email": "nicolasfriedli@protonmail.ch",
+          "birthDate": "1978-05-30",
+          "alumniOf": "Université de Neuchâtel",
+          "telephone": "+41328414874"
+        }
+        </script>
 </head>
 
 <body>
     <header>
         <a href="{{ .Site.BaseURL }}" rel="home">
-        <span><img src="/nicolas-friedli-96x96.jpg" alt="Nicolas Friedli" width="48" height="48"></span>
-        <span>{{ if .IsHome }}
-        {{ .Site.Title | markdownify }} &bull; {{ .Site.Params.slogan | markdownify }}
-        {{ else }}
-        {{ .Site.Title | markdownify }}
-        {{ end }}</span>
+            <span><img src="/nicolas-friedli-96x96.jpg" alt="Nicolas Friedli" width="48" height="48"></span>
+            <span>{{ if .IsHome }}
+                {{ .Site.Title | markdownify }} &bull; {{ .Site.Params.slogan | markdownify }}
+                {{ else }}
+                {{ .Site.Title | markdownify }}
+                {{ end }}</span>
         </a>
     </header>
     <main>
