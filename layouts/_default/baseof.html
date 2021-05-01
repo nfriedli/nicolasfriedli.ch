@@ -51,7 +51,7 @@
 <body>
     <header>
         <a href="{{ .Site.BaseURL }}" rel="home">
-        <span><img srcset="/nicolas-friedli-96x96.jpg 2x" src="/nicolas-friedli-48x48.jpg" alt="Nicolas Friedli" width="48" height="48"></span>
+        <span><img src="/nicolas-friedli-96x96.jpg" alt="Nicolas Friedli" width="48" height="48"></span>
         <span>{{ if .IsHome }}
         {{ .Site.Title | markdownify }} &bull; {{ .Site.Params.slogan | markdownify }}
         {{ else }}
