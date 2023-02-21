@@ -1,0 +1,34 @@
+baseURL = "https://nicolasfriedli.ch/"
+title = "Nicolas Friedli"
+
+languageCode = "fr"
+defaultContentLanguage = "fr"
+copyright = "CC BY-SA"
+
+removePathAccents = true
+disableKinds = [ "taxonomy", "term", "404" ]
+
+disableFastRender = true
+enableGitInfo = true
+
+[author]
+name = "Nicolas Friedli"
+email = "hello+2023@nicolasfriedli.ch"
+
+[build]
+writeStats = false
+
+[markup.goldmark.extensions]
+typographer = true
+
+[markup.goldmark.parser]
+autoHeadingIDType = "github-ascii"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[params]
+footer = """Ce site respecte votre vie privée. Il est généré avec [Hugo](https://gohugo.io/) et hébergé chez Infomaniak. Ses sources sont disponibles chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Les contenus sont sous licence libre Creative Commons BY-SA."""

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{site.LanguageCode}}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} - {{ site.Title }}</title>
+
+    {{ partial "head/description" .}}
+    {{ partialCached "head/css" . }}
+    {{ partialCached "head/favicon" . }}
+    
+    <link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ site.Title }}">
+    
+    <link rel="canonical" href="{{.Permalink}}">
+       
+    {{ hugo.Generator }}
+</head>
+
+<body>
+    <header>
+        {{ if .IsHome }}{{ site.Title }}{{ else }}<a href="/">{{ site.Title }}</a>{{ end }}
+    </header>
+    <main>
+        <article>
+            {{ block "main" . }}{{ end }}
+        </article>
+    </main>
+    <footer>
+        {{ block "footer" . }}{{ site.Params.footer | .RenderString }}{{ end }}
+    </footer>
+</body>
+
+</html>

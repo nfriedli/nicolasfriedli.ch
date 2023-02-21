@@ -1,0 +1,13 @@
+{{ $dracula := resources.Get "css/dracula.css" | minify | fingerprint }}
+{{ $github := resources.Get "css/github.css" | minify | fingerprint }}
+{{ $main := resources.Get "css/main.css" | minify | fingerprint }}
+{{ $print := resources.Get "css/print.css" | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $dracula.RelPermalink }}" media="screen">
+<link rel="stylesheet" href="{{ $github.RelPermalink }}" media="print">
+<link rel="stylesheet" href="{{ $main.RelPermalink }}">
+<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
+
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#44475a">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#282a36">
+<meta name="color-scheme" content="dark light">

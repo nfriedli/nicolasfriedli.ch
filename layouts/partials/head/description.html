@@ -1,0 +1,5 @@
+{{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+{{ else }}
+    <meta name="description" content="{{ .Summary }}">
+{{ end }}

@@ -1,0 +1,9 @@
+cleanDestinationDir = true
+
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+keepWhitespace = true
