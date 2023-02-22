@@ -5,17 +5,17 @@ description: Nicolas Friedli est consultant web indépendant. Il s’intéresse 
 
 Le site personnel de Nicolas Friedli, consultant web indépendant dans le canton de Neuchâtel (Suisse).
 
-En ce début d’année 2023, je reconstruis mon site en ligne. Dans la mesure du possible, je documente ce que je suis en train de faire dans [une rubrique sur le générateur de sites statiques Hugo](/hugo/).
+En ce début d’année 2023, je reconstruis mon site en ligne. Dans la mesure du possible, je documente ce que je suis en train de faire.
 
 ## Prestations
 
 C’est dans les domaines suivants que je prends des mandats en priorité:
 
-- conception et maintenance site statiques rapides, pérennes et performants (notamment avec Hugo)
+- conception et maintenance [site statiques](/hugo/) rapides, pérennes et performants (notamment avec Hugo)
 - architecture d’information et stratégie de contenu pour les entreprises et institutions 
 - référencement (SEO) et référencement local (local SEO) pour les organisations
 - documentation technique (Sphinx)
-- les projets avec de forts accents sur l’efficience, la simplicité, la performance, l’accessibilité (A11Y) et les démarches continues de qualité web
+- les projets avec de forts accents sur l’efficience, la simplicité, la [performance](/performance/), l’accessibilité (A11Y) et les démarches continues de qualité web
 
 ## Dernières publications
 
