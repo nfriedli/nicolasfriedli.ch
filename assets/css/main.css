@@ -8,12 +8,11 @@
     --fonts-main: Inter, Archivo, Lato, Roboto, -apple-system, Poppins, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "IBM Plex Mono", "Space Mono", "Cousine", "Noto Sans Mono", "Liberation Mono", monospace;
 
-    --step--1: clamp(0.83rem, calc(0.82rem + 0.03vw), 0.85rem);
-    --step-0: clamp(0.94rem, calc(0.81rem + 0.21vw), 1.06rem);
-    --step-1: clamp(1.06rem, calc(0.78rem + 0.46vw), 1.33rem);
-    --step-2: clamp(1.19rem, calc(0.71rem + 0.79vw), 1.66rem);
-    --step-3: clamp(1.34rem, calc(0.60rem + 1.23vw), 2.08rem);
-    --step-4: clamp(1.50rem, calc(0.41rem + 1.82vw), 2.59rem);
+    --step--1: clamp(0.80rem, calc(0.87rem + -0.10vw), 0.83rem);
+    --step-0: clamp(0.94rem, calc(0.80rem + 0.33vw), 1.06rem);
+    --step-1: clamp(1.06rem, calc(0.67rem + 0.96vw), 1.42rem);
+    --step-2: clamp(1.19rem, calc(0.44rem + 1.87vw), 1.89rem);
+    --step-3: clamp(1.34rem, calc(0.07rem + 3.15vw), 2.52rem);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,8 +35,7 @@ html {
     background-color: var(--background-main);
     color: var(--text-main);
     font-family: var(--fonts-main);
-    font-size: 100%;
-    font-size: clamp(1.00rem, calc(0.90rem + 0.26vw), 1.19rem);
+    font-size: var(--step-0);
     font-variant-numeric: proportional-nums;
     line-height: 1.6;
 }
@@ -67,24 +65,24 @@ h2,
 h3,
 h4 {
     line-height: 1.1;
-    margin-top: 2rem;
+    margin-top: 1em;
     margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: var(--step-4);
-}
-
-h2 {
     font-size: var(--step-3);
 }
 
-h3 {
+h2 {
     font-size: var(--step-2);
 }
 
-h4 {
+h3 {
     font-size: var(--step-1);
+}
+
+h4 {
+    font-size: var(--step-0);
 }
 
 a {
