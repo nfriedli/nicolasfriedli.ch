@@ -4,7 +4,7 @@
     --text-main: #f8f8f2;
     --text-secondary: #f8f8f2;
 
-    --fonts-main: Inter, Archivo, Roboto, -apple-system, Poppins, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --fonts-main: Inter, Archivo, Lato, Roboto, -apple-system, Poppins, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "IBM Plex Mono", "Space Mono", "Cousine", "Noto Sans Mono", "Liberation Mono", monospace;
 }
 
@@ -28,12 +28,9 @@ html {
     color: var(--text-main);
     font-family: var(--fonts-main);
     font-size: 100%;
-    /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1920,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-    font-size: clamp(1.00rem, calc(0.94rem + 0.16vw), 1.13rem);
+    font-size: clamp(1.00rem, calc(0.90rem + 0.26vw), 1.19rem);
     font-variant-numeric: proportional-nums;
-    font-variant-ligatures: none;
     line-height: 1.6;
-    text-rendering: optimizeSpeed;
 }
 
 footer,
@@ -41,7 +38,7 @@ header {
     background-color: var(--background-secondary);
     color: var(--text-secondary);
     font-size: .875rem;
-    font-weight: 450;
+    font-weight: 500;
     padding: 1rem;
 }
 
@@ -67,6 +64,7 @@ h4 {
 
 h1 {
     font-size: 2.197rem;
+    font-weight: 600;
 }
 
 h2 {
@@ -75,10 +73,12 @@ h2 {
 
 h3 {
     font-size: 1.3rem;
+    font-weight: 800;
 }
 
 h4 {
     font-size: 1rem;
+    font-weight: 900;
 }
 
 a {
