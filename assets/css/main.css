@@ -3,9 +3,17 @@
     --background-secondary: #282a36;
     --text-main: #f8f8f2;
     --text-secondary: #f8f8f2;
+    --contrast: #282a36;
 
     --fonts-main: Inter, Archivo, Lato, Roboto, -apple-system, Poppins, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas, "IBM Plex Mono", "Space Mono", "Cousine", "Noto Sans Mono", "Liberation Mono", monospace;
+
+    --step--1: clamp(0.83rem, calc(0.82rem + 0.03vw), 0.85rem);
+    --step-0: clamp(0.94rem, calc(0.81rem + 0.21vw), 1.06rem);
+    --step-1: clamp(1.06rem, calc(0.78rem + 0.46vw), 1.33rem);
+    --step-2: clamp(1.19rem, calc(0.71rem + 0.79vw), 1.66rem);
+    --step-3: clamp(1.34rem, calc(0.60rem + 1.23vw), 2.08rem);
+    --step-4: clamp(1.50rem, calc(0.41rem + 1.82vw), 2.59rem);
 }
 
 @media (prefers-color-scheme: light) {
@@ -14,6 +22,7 @@
         --background-secondary: #282a36;
         --text-main: #282a36;
         --text-secondary: #f8f8f2;
+        --contrast: #f1fa8c;
     }
 }
 
@@ -37,7 +46,7 @@ footer,
 header {
     background-color: var(--background-secondary);
     color: var(--text-secondary);
-    font-size: .875rem;
+    font-size: var(--step--1);
     font-weight: 500;
     padding: 1rem;
 }
@@ -63,19 +72,19 @@ h4 {
 }
 
 h1 {
-    font-size: 2.197rem;
+    font-size: var(--step-4);
 }
 
 h2 {
-    font-size: 1.69rem;
+    font-size: var(--step-3);
 }
 
 h3 {
-    font-size: 1.3rem;
+    font-size: var(--step-2);
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: var(--step-1);
 }
 
 a {
@@ -89,7 +98,11 @@ a[href^="tel:"] {
 code,
 pre {
     font-family: var(--fonts-mono);
-    font-size: .9375rem;
+    font-size: var(--step--1);
+}
+
+code {
+    background-color: var(--contrast);
 }
 
 pre {
@@ -108,7 +121,7 @@ li+li {
 }
 
 time {
-    font-size: .875rem;
+    font-size: var(--step--1);
 }
 
 p {
@@ -121,7 +134,7 @@ address {
 
 table {
     border-collapse: collapse;
-    font-size: .875rem;
+    font-size: var(--step--1);
 }
 
 th,
