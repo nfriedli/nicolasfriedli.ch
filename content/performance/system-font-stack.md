@@ -48,7 +48,7 @@ En français, [traduit par pompage.net](http://www.pompage.net/traduction/dao):
 
 Vous avez compris le truc. Si j’accepte l’idée d’une *suggestion* de présentation plutôt qu’une présentaton exacte, j’ai toutes les raisons d’utiliser une *font stack* du système. En passant, l’idée de gérer une *présentation exacte* est aujourd’hui illusoire en regard de la multiplication des tailles d’écran et des différentes résolutions.
 
-En choisissant une police système, c’est un pari sur le présent et l’avenir. Les systèmes d’exploitation proposent toujours plus d’excellentes polices. Et il y a tout à parier que cela va continuer. *San Francisco* chez Apple, *Roboto* pour Android, *Segoe UI* pour Windows ou *Noto* pour Linux sont excellentes. Non seulement on évite ainsi certaines horreurs typographiques, mais on gagne tant en performance qu’en cohérence.
+En choisissant une police système, c’est un pari sur le présent et l’avenir. Les systèmes d’exploitation proposent toujours plus d’excellentes polices. Et il y a tout à parier que cela va continuer. *San Francisco* chez Apple, *Roboto* pour Android, *Segoe UI* pour Windows ou *Noto* pour Linux sont excellentes. Non seulement on évite ainsi certaines horreurs typographiques, mais on gagne tant en performance qu’en cohérence. Elles sont de plus mises à jour avec le système.
 
 **Note.** Je garde des réserves sur la générique `system-ui`, pas toujours convaincu que le site doit avoir la même tête que l’interface.
 
@@ -66,11 +66,11 @@ html {
         "Liberation Sans",  /* Linux */
         "Segoe UI",         /* Windows récents */
         Arial,              /* presque tout le monde */
-        sans-serif;         /* ou sinon... */
+        sans-serif;         /* et sinon... */
 }
 ```
 
-**Note.** J’ai relégué *Segoe UI* en bas de liste, parce que je ne raffole pas de cette police. Elle est toutefois utile pour les internautes qui utilisent Windows. Elle est plus complète qu’*Arial*.
+**Note.** J’ai relégué *Segoe UI* en bas de liste, parce que je ne raffole pas de cette police. Elle est toutefois utile pour les internautes qui utilisent Windows et plus complète qu’*Arial*.
 
 Et pour les extraits de code, nombreux:
 
@@ -88,6 +88,6 @@ code, pre {
 }
 ```
 
-Il n’a pas été simple d’accepter de lâcher prise et de ne faire qu’un *suggestion*. C’est toutefois bien ainsi que fonctionne le web. J’ai bien conscience qu’il est possible d’atteindre des scores de performances excellent avec des polices web, le choix des polices du système me semble actuellement le meilleur pour ce site.
+Il n’a pas été simple d’accepter de lâcher prise et de ne faire qu’une *suggestion*. C’est toutefois bien ainsi que fonctionne le web. J’ai bien conscience qu’il est possible d’atteindre des scores de performances excellent avec des polices web, le choix des polices du système me semble actuellement le meilleur pour ce site.
 
 **Note.** Je connais les polices web locales, le préchargement, `woff2`, le *subsetting* et `font-display: optional;`. Je les utilise sur des sites qui le requièrent ou pour des client·e·s qui exigent des fontes précises.
