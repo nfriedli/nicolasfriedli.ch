@@ -30,6 +30,11 @@ unsafe = true
 [markup.highlight]
 noClasses = false
 
+[[menu.main]]
+name = "RSS"
+url = "/index.xml"
+weight = 1000
+
 [params]
 footer = """Ce site respecte votre vie privée.  
 Il est généré avec [Hugo](https://gohugo.io/) et hébergé chez Infomaniak.  

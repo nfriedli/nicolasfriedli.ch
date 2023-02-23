@@ -1,6 +1,8 @@
 +++
 title = "Générateur de sites statiques Hugo"
 weight = 20
+[menu.main]
+name = "Hugo"
 +++
 
 Une petite documentation en français sur le génial générateur de sites statiques Hugo.

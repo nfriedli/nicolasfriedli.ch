@@ -50,6 +50,23 @@ header {
     padding: 1rem;
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1rem;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
 footer {
     margin-top: 4rem;
 }
