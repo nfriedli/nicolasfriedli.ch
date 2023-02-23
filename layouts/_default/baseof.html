@@ -19,14 +19,9 @@
 
 <body>
     <header>
-        {{ if .IsHome }}{{ site.Title }}{{ else }}<a href="/">{{ site.Title }}</a>{{ end }}
+        {{ site.Title }}
 
-        <nav>
-            {{ $current := .RelPermalink }}
-            {{ range site.Menus.main }}
-            <a href="{{ .URL }}" {{ if eq .URL $current}}aria-current="page"{{ end }}>{{ .Name }}</a>
-            {{ end }}
-        </nav>
+        {{ partial "menu" . }}
     </header>
     <main>
         <article>

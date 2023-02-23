@@ -31,6 +31,11 @@ unsafe = true
 noClasses = false
 
 [[menu.main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[menu.main]]
 name = "RSS"
 url = "/index.xml"
 weight = 1000
