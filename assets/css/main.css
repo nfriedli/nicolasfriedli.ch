@@ -37,8 +37,10 @@ html {
     color: var(--text-main);
     font-family: var(--fonts-main);
     font-size: var(--step-0);
+    font-variant-ligatures: none;
     font-variant-numeric: proportional-nums;
     line-height: 1.6;
+    text-rendering: optimizeSpeed;
 }
 
 footer,
