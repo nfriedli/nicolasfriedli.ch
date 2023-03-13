@@ -1,7 +1,6 @@
 +++
 title = "Menu récursif contextuel"
-date = 2023-03-14
-draft = true
+date = 2023-03-13
 +++
 
 Pour un site de documentation, un menu  particulier a été construit. 

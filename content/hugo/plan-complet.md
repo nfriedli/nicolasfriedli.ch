@@ -1,6 +1,6 @@
 +++
 title = "Plan complet récursif du site"
-date = 2023-03-13
+date = 2023-03-12
 +++
 
 Proposition de code pour publier un plan complet du site dans une page de son choix.
