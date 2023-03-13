@@ -51,7 +51,7 @@ Ce qui précède est produit par:
 Les shortcodes sont appelés à partir du contenu éditorial.
 Un exemple avec les dernières publications du site:
 
-{{</* last  */>}}
+{{</* last */>}}
 ```
 
 C’est donc le shortcode `layouts/shortcodes/last.html` qui fait tout. 
