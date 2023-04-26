@@ -1,4 +1,8 @@
 html {
     background-color: unset;
-    color: #FFF;
+    color: #000;
+}
+
+header, footer {
+    display: none;
 }
