@@ -24,9 +24,7 @@
         {{ partial "menu" . }}
     </header>
     <main>
-        <article>
-            {{ block "main" . }}{{ end }}
-        </article>
+        {{ block "main" . }}{{ end }}
     </main>
     <footer>
         {{ block "footer" . }}{{ site.Params.footer | .RenderString }}{{ end }}

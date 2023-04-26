@@ -1,34 +1,4 @@
-@page {
-    margin: 2cm;
-}
-
-* {
-    color: inherit;
-    background: none;
-}
-
 html {
-    color: #000;
-    font-size: 12px;
-}
-
-header,
-footer {
-    display: none;
-}
-
-
-pre {
-    white-space: pre-wrap;
-}
-
-a::after {
-    content: " [" attr(href) "] ";
-}
-
-h2,
-h3,
-h4 {
-    margin-top: 2em;
-    margin-bottom: 1rem;
+    background-color: unset;
+    color: #FFF;
 }

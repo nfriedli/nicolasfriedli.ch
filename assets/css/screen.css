@@ -1,0 +1,61 @@
+:root {
+    --background: #EEE;
+    --text: #222;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #333;
+        --text: #DDD;
+    }
+}
+
+html {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Inter, Roboto, system-ui, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem;
+    margin: auto;
+    max-width: 70ch;
+}
+
+header, footer {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+footer {
+    border-top: 2px solid;
+    padding-top: 1rem;
+}
+
+main > * + * {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+h1, h2 {
+    font-weight: 600;
+    letter-spacing: -.025em;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+li {
+    margin-top: .5rem;
+}
+
+a {
+    color: inherit;
+}
