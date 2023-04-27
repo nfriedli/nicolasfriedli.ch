@@ -1,6 +1,8 @@
 :root {
     --background: #EEE;
     --text: #222;
+
+    --font-main: Inter, Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,8 +15,9 @@
 html {
     background-color: var(--background);
     color: var(--text);
-    font-family: Inter, Roboto, system-ui, Arial, sans-serif;
+    font-family: var(--font-main);
     font-size: 100%;
+    font-size: clamp(1.00rem, calc(0.88rem + 0.25vw), 1.13rem);
     line-height: 1.5;
     text-rendering: optimizeSpeed;
 }
