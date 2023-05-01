@@ -2,7 +2,7 @@
     --background: #EEE;
     --text: #222;
 
-    --font-main: Inter, Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-main: Inter, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -48,7 +48,7 @@ main > * + * {
 
 h1, h2 {
     font-weight: 600;
-    letter-spacing: -.025em;
+    letter-spacing: -0.025em;
 }
 
 h2 {
@@ -61,4 +61,20 @@ li {
 
 a {
     color: inherit;
+}
+
+@font-face {
+    font-display: optional;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    src: url("/fonts/inter.woff2");
+}
+
+@font-face {
+    font-display: optional;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url("/fonts/inter-italic.woff2");
 }
