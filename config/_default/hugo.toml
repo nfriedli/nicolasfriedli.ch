@@ -25,7 +25,4 @@ typographer = true
 autoHeadingIDType = "github-ascii"
 
 [params]
-footer = """Ce site respecte votre vie privée.  
-Il est généré avec [Hugo](https://gohugo.io/) et hébergé chez Infomaniak.  
-Ses sources sont disponibles chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/).  
-Les contenus sont sous licence libre Creative Commons BY-SA."""
+footer = """Ce site respecte votre vie privée. Il est généré avec [Hugo](https://gohugo.io/) et hébergé chez Infomaniak. Ses sources sont disponibles chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Les contenus sont sous licence libre Creative Commons BY-SA."""
