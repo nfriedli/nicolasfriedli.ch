@@ -1,6 +1,5 @@
 <nav>
-    {{ $current := .RelPermalink }}
     {{ range site.Menus.main }}
-    <a href="{{ .URL }}" {{ if eq .URL $current}}aria-current="page"{{ end }}>{{ .Name }}</a>
+    <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
 </nav>
