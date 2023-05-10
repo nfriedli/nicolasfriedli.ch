@@ -29,7 +29,7 @@ body {
     gap: 3rem;
     padding: 1rem;
     margin: auto;
-    max-width: 60ch;
+    max-width: 66ch;
 }
 
 header {
@@ -66,26 +66,37 @@ main > * + * {
 
 h1, h2, h3 {
     letter-spacing: -.02em;
-    margin-top: 1em;
-    margin-bottom: 1rem;
+    line-height: 1.1;
+    margin-top: 2rem;
 }
 
 h1 {
     font-size: 2.197rem;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 1.69rem;
+    font-weight: 700;
 }
 
 h3 { 
     font-size: 1.3rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 li {
     margin-top: .5rem;
+}
+
+p {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+}
+
+h1 + p,
+time + p {
+    margin-top: 2rem;
 }
 
 a {
@@ -103,6 +114,10 @@ dt {
 
 dd {
     margin-left: 1rem;
+}
+
+time {
+    font-size: 90%;
 }
 
 @font-face {

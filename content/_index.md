@@ -22,18 +22,4 @@ performance web
 : comment rendre l’utilisation de son site confortable, rapide et écologique, avec un intérêt particulier pour les sites statiques (notamment Hugo)
 
 accessibilité (A11Y)
-: comment permettre à toutes et à tous d’utiliser le contenu mis en ligne, quelles que soient les handicaps ou les contextes d’utilisation
-
-
-## Contact
-
-Nicolas Friedli  
-Rue du Château 3  
-2013 Colombier (NE)  
-Suisse
-
-[hello+2023@nicolasfriedli.ch](mailto:hello+2023@nicolasfriedli.ch)  
-[+41 32 841 48 74](tel:+41328414874) (urgences uniquement)  
-[+41 79 344 33 82](tel:+41793443382) (Signal, SMS)
-
-**Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp. Je ne suis pas présent sur les réseaux sociaux (Facebook, Instagram, LinkedIn ou Twitter) à titre personnel. Un autre «Nicolas Friedli» qui s’y trouve est soit un homonyme, soit un imposteur.
+: comment permettre à toutes et à tous d’utiliser le contenu mis en ligne, quels que soient les handicaps ou les contextes d’utilisation (handicap situationnel)

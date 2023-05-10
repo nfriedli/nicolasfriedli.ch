@@ -5,8 +5,10 @@ languageCode = "fr"
 defaultContentLanguage = "fr"
 copyright = "CC BY-SA"
 
+canonifyURLs = true
 removePathAccents = true
-disableKinds = [ "taxonomy", "term", "404" ]
+
+disableKinds = [ "taxonomy", "term", "robotsTXT", "404" ]
 
 disableFastRender = true
 enableGitInfo = true
@@ -24,5 +26,11 @@ typographer = true
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
 
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML"]
+
 [params]
 footer = """Ce site respecte votre vie privée. Il est généré avec [Hugo](https://gohugo.io/) et hébergé chez Infomaniak. Ses sources sont disponibles chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Les contenus sont sous licence libre Creative Commons BY-SA."""
+
+rss = "Nicolas Friedli est consultant web indépendant. Il s’intéresse aux sites statiques, à la création de contenu textuel, à l’architecture d’information et au référencement."
