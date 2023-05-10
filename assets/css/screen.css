@@ -2,8 +2,8 @@
     --background: #EEE;
     --text: #222;
 
-    --font-main:  Inter, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-mono:  "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
+    --font-main:  Inter, "IBM Plex Sans", Roboto, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono:  "IBM Plex Mono", "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +20,7 @@ html {
     font-size: 100%;
     font-size: clamp(1.00rem, calc(0.88rem + 0.21vw), 1.13rem);
     line-height: 1.5;
-    text-rendering: optimizeSpeed;
+    text-rendering: optimizespeed;
 }
 
 body {
@@ -72,17 +72,15 @@ h1, h2, h3 {
 
 h1 {
     font-size: 2.197rem;
-    font-weight: 500;
+    max-width: 22ch;
 }
 
 h2 {
     font-size: 1.69rem;
-    font-weight: 700;
 }
 
 h3 { 
     font-size: 1.3rem;
-    font-weight: 900;
 }
 
 li {
@@ -118,6 +116,7 @@ dd {
 
 time {
     font-size: 90%;
+    font-weight: 500;
 }
 
 @font-face {
