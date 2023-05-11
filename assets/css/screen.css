@@ -2,8 +2,8 @@
     --background: #FFF;
     --text: #123;
 
-    --font-main:  Inter, "IBM Plex Sans", Roboto, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-mono:  "IBM Plex Mono", "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
+    --font-main: Inter, "IBM Plex Sans", Roboto, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: "IBM Plex Mono", "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,7 +45,8 @@ nav {
     flex-wrap: wrap;
 }
 
-header, footer {
+header,
+footer {
     font-size: 90%;
     font-weight: 500;
 }
@@ -59,12 +60,14 @@ main {
     min-height: 50vh;
 }
 
-main > * + * {
+main>*+* {
     margin-top: 1rem;
     margin-bottom: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     letter-spacing: -.02em;
     line-height: 1.1;
     margin-top: 2rem;
@@ -79,7 +82,7 @@ h2 {
     font-size: 1.69rem;
 }
 
-h3 { 
+h3 {
     font-size: 1.3rem;
 }
 
@@ -92,8 +95,8 @@ p {
     -webkit-hyphens: auto;
 }
 
-h1 + p,
-time + p {
+h1+p,
+time+p {
     margin-top: 2rem;
 }
 
@@ -101,7 +104,8 @@ a {
     color: inherit;
 }
 
-pre, code {
+pre,
+code {
     font-family: var(--font-mono);
 }
 
