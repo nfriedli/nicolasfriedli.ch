@@ -43,7 +43,7 @@ Il est hébergé en Suisse, chez Infomaniak, une entreprise éco-responsable. M�
 
 La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Mon site n’utilise pas de système de statistiques ni aucune ressource externe. Je suis son évolution dans le principal moteur de recherche par la [Google Search Console](https://search.google.com/search-console/about).
 
-Un [flux RSS](https://nicolasfriedli.ch/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site. Les flux RSS (ou ATOM) sont à mes yeux un des meilleurs outils du web.
+Un [flux RSS](https://nicolasfriedli.ch/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site. Les flux RSS (ou ATOM) sont des outils qui changent la vie. Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir les meilleurs scores:
 
