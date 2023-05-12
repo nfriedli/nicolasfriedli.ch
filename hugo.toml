@@ -31,6 +31,6 @@ home = ["HTML", "RSS"]
 section = ["HTML"]
 
 [params]
-footer = """Ce site respecte votre vie privée. Il est généré avec [Hugo](https://gohugo.io/) et hébergé chez Infomaniak. Ses sources sont disponibles chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Les contenus sont sous licence libre Creative Commons BY-SA."""
+footer = """Abonnement par [flux RSS](/index.xml).  Ce site respecte votre vie privée. Généré avec [Hugo](https://gohugo.io/). Hébergé chez Infomaniak. Sources disponibles chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Contenus sous licence libre Creative Commons BY-SA."""
 
 rss = "Nicolas Friedli est consultant web indépendant. Il s’intéresse aux sites statiques, à la création de contenu textuel, à l’architecture d’information et au référencement."
