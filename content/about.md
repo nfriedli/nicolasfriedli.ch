@@ -33,8 +33,6 @@ Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père d
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
 
-La police d’écriture que je trouve très lisible est [Inter](https://rsms.me/inter/) de Rasmus Andersson. Elle est chargée de manière à ne pas ralentir votre navigation (preload, optional et subset).
-
 nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 
 Ses sources sont disponibles dans un dépôt GitHub public. Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.

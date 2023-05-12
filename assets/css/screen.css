@@ -2,8 +2,8 @@
     --background: #FFF;
     --text: #123;
 
-    --font-main: Inter, "IBM Plex Sans", Roboto, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-mono: "IBM Plex Mono", "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
+    --font-main: Inter, Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -123,6 +123,7 @@ time {
     font-weight: 500;
 }
 
+/*
 @font-face {
     font-display: optional;
     font-family: Inter;
@@ -138,3 +139,4 @@ time {
     font-weight: 100 900;
     src: url("/fonts/inter-italic.woff2");
 }
+*/

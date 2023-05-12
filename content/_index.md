@@ -5,6 +5,8 @@ description = "Nicolas Friedli est consultant web indépendant. Il s’intéress
 
 Je suis consultant web indépendant dans le canton de Neuchâtel (Suisse). En ce premier semestre 2023, je reconstruis mon site en ligne en documentant ce que je suis en train de faire.
 
+Abonnement par [RSS](/index.xml) ou [lettre de nouvelles](https://buttondown.email/nicolasfriedli.ch).
+
 ## Prestations
 
 Je suis passionné par les sites web à fort contenu. Je propose des *analyses*, des *conseils* et des *formations* dans les domaines suivants:
