@@ -1,7 +1,9 @@
 +++
 title = "À propos"
+date = 2023-05-12
+
 [menu.main]
-weight = 70
+weight = 40
 +++
 
 En savoir plus sur l’auteur du site et sur le site lui-même. Par ces quelques lignes, vous saurez rapidement s’il vaut la peine de faire appel à moi pour un mandat de consultant ou pour un engagement de longue durée.
@@ -25,7 +27,7 @@ Durant les 15+ dernières années, il a travaillé pour les domaines:
 
 Convaincu que les sites d’institutions et d’organisations ont un énorme potentiel d’amélioration, il se passionne pour l’architecture d’information, la performance web et le référencement local. Le contenu et les liens sont les briques essentielles pour proposer un site web utile.
 
-Il s'est exprimé régulièrement dans des sessions de formation professionelle et dans des interventions publiques.
+Il s’est exprimé régulièrement dans des sessions de formation professionelle et dans des interventions publiques.
 
 Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père de 2 enfants adolescents, Lucien et Clémence.
 

@@ -1,6 +1,9 @@
 +++
 title = "Nicolas Friedli"
 description = "Nicolas Friedli est consultant web indépendant. Il s’intéresse aux sites statiques, à la création de contenu textuel, à l’architecture d’information et au référencement."
+
+[menu.main]
+weight = 10
 +++
 
 Je suis consultant web indépendant dans le canton de Neuchâtel (Suisse). En ce premier semestre 2023, je reconstruis mon site en ligne en documentant ce que je suis en train de faire.

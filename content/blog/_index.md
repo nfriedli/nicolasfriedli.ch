@@ -1,7 +1,9 @@
 +++
 title = "Blog"
+draft = true
+
 [menu.main]
-weight= 10
+weight= 20
 +++
 
 Les archives complètes.
