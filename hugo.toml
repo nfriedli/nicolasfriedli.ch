@@ -5,11 +5,11 @@ languageCode = "fr"
 defaultContentLanguage = "fr"
 copyright = "CC BY-SA"
 
-canonifyURLs = true
 removePathAccents = true
 
 disableKinds = [ "taxonomy", "term", "robotsTXT", "404" ]
 
+cleanDestinationDir = true
 disableFastRender = true
 enableGitInfo = true
 
@@ -25,6 +25,13 @@ typographer = true
 
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
+
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
 
 [outputs]
 home = ["HTML", "RSS"]
