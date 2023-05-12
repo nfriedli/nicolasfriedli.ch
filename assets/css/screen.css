@@ -18,7 +18,7 @@ html {
     color: var(--text);
     font-family: var(--font-main);
     font-size: 100%;
-    font-size: clamp(1.00rem, calc(0.88rem + 0.21vw), 1.13rem);
+    font-size: clamp(1.00rem, calc(0.75rem + 0.40vw), 1.25rem);
     line-height: 1.5;
     text-rendering: optimizespeed;
 }
