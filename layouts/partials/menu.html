@@ -1,9 +1,7 @@
 <nav>
     {{ $current := .RelPermalink }}
     {{- range site.Menus.main -}}
-        {{- if eq $current .URL -}}
-            {{ .Name }}
-        {{- else -}}
+        {{- if ne $current .URL -}}
             <a href="{{ .URL }}">{{ .Name }}</a>
         {{- end -}}
     {{ end }}
