@@ -24,66 +24,48 @@ html {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
     padding: 1rem;
     margin: auto;
     max-width: 66ch;
 }
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-between;
-}
-
-nav {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
 header,
-footer {
+footer,
+time {
     font-size: 90%;
-    font-weight: 500;
 }
 
 footer {
     border-top: 2px solid;
+    margin-top: 4rem;
     padding-top: 1rem;
 }
 
-main {
-    min-height: 50vh;
-}
-
-main>*+* {
-    margin-top: 1rem;
-    margin-bottom: 0;
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 h1,
 h2,
 h3 {
-    letter-spacing: -.02em;
     line-height: 1.1;
-    margin-top: 2rem;
 }
 
 h1 {
     font-size: 2.197rem;
-    max-width: 22ch;
+    margin-top: 4rem;
 }
 
 h2 {
     font-size: 1.69rem;
+    margin-top: 3rem;
 }
 
 h3 {
     font-size: 1.3rem;
+    margin-top: 2rem;
 }
 
 li {
@@ -93,11 +75,7 @@ li {
 p {
     hyphens: auto;
     -webkit-hyphens: auto;
-}
-
-h1+p,
-time+p {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 a {
@@ -117,26 +95,3 @@ dt {
 dd {
     margin-left: 1rem;
 }
-
-time {
-    font-size: 90%;
-    font-weight: 500;
-}
-
-/*
-@font-face {
-    font-display: optional;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url("/fonts/inter.woff2");
-}
-
-@font-face {
-    font-display: optional;
-    font-family: Inter;
-    font-style: italic;
-    font-weight: 100 900;
-    src: url("/fonts/inter-italic.woff2");
-}
-*/
