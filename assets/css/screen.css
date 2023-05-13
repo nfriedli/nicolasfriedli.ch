@@ -13,12 +13,17 @@
     }
 }
 
+::selection {
+    color: var(--background);
+    background-color: var(--text);
+}
+
 html {
     background-color: var(--background);
     color: var(--text);
     font-family: var(--font-main);
     font-size: 100%;
-    font-size: clamp(1.00rem, calc(0.75rem + 0.40vw), 1.25rem);
+    font-size: clamp(1.00rem, calc(0.91rem + 0.23vw), 1.19rem);
     line-height: 1.5;
     text-rendering: optimizespeed;
 }
@@ -85,6 +90,7 @@ a {
 pre,
 code {
     font-family: var(--font-mono);
+    font-size: .95rem;
 }
 
 dt {
