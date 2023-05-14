@@ -32,12 +32,12 @@ ErrorDocument 404 https://nicolasfriedli.ch/
 Header set Cache-Control "max-age=2592000, public"
 </filesMatch>
 
-# Cache immutable pour fonts
+# Cache immutable pour CSS
 <filesMatch ".(css)$">
-Header set Cache-Control "max-age=63072000, public, immutable"
+Header set Cache-Control "max-age=63072000,immutable"
 </filesMatch>
 
 # Cache immutable pour fonts
 <filesMatch ".(woff2)$">
-Header set Cache-Control "max-age=63072000, public, immutable"
+Header set Cache-Control "max-age=63072000,immutable"
 </filesMatch>

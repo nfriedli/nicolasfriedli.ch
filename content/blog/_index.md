@@ -1,9 +1,11 @@
 +++
 title = "Blog"
-draft = true
+description = "Les archives du blog ou tous les billets publiés sur ce site par ordre chronologique inverse."
 
 [menu.main]
 weight= 20
 +++
 
-Les archives complètes.
+Les archives du blog ou tous les billets publiés sur ce site par ordre chronologique inverse.
+
+{{< last >}}

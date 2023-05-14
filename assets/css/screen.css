@@ -49,6 +49,10 @@ body {
     max-width: 66ch;
 }
 
+main {
+    min-height: 50vh;
+}
+
 header,
 footer,
 time {
@@ -105,9 +109,21 @@ a {
 
 pre,
 code {
+    background-color: var(--text);
+    color: var(--background);
     font-family: var(--font-mono);
     font-size: .95rem;
 }
+
+pre {
+    padding: .5rem;
+    overflow: auto;
+}
+
+pre code {
+    font-size: .9rem;
+}
+
 
 dt {
     margin-top: 1rem;
