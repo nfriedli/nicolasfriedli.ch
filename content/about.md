@@ -1,6 +1,6 @@
 +++
 title = "À propos"
-date = 2023-05-12
+date = 2023-05-14
 
 [menu.main]
 weight = 40
@@ -35,15 +35,17 @@ Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père d
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
 
+Il utilise une police présente sur votre périphérique pour l'affichage du texte et [Fraunces](https://fraunces.undercase.xyz/) pour les titres. Elle est chargée de manière à ne jamais ralentir l'affichage des pages.
+
 nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 
 Ses sources sont disponibles dans un dépôt GitHub public. Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 
 Il est hébergé en Suisse, chez Infomaniak, une entreprise éco-responsable. Même si je trouve les services comme Netlify ou CloudFlare performants et agréables, j’ai fait le choix de mon pays et de l’écologie.
 
-La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Mon site n’utilise pas de système de statistiques ni aucune ressource externe. Je suis son évolution dans le principal moteur de recherche par la [Google Search Console](https://search.google.com/search-console/about).
-
 Un [flux RSS](https://nicolasfriedli.ch/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site. Les flux RSS (ou ATOM) sont des outils qui changent la vie. Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
+
+La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Mon site n’utilise pas de système de statistiques ni aucune ressource externe. 
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir les meilleurs scores:
 
@@ -51,7 +53,7 @@ Je teste régulièrement mon site pour m’assurer de toujours obtenir les meill
 - aucune erreur d’accessibilité chez [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 - HTML valide selon le [Markup Validation Service du W3C](https://validator.w3.org/)
 - CSS valide selon le [CSS Validation Service du W3C](https://jigsaw.w3.org/css-validator/)
-- RSS valide [Feed Validation Service du W3C](https://validator.w3.org/feed/)
+- RSS valide selon le [Feed Validation Service du W3C](https://validator.w3.org/feed/)
 
 J’essaie de respecter toutes les [règles Opquast](https://checklists.opquast.com/fr/assurance-qualite-web/) applicables à mon blog.
 
