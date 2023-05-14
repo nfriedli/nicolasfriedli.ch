@@ -3,6 +3,7 @@
     --text: #123;
 
     --font-main: Inter, Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-titling: Fraunces, var(--font-main);
     --font-mono: "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
 }
 
@@ -69,6 +70,7 @@ nav {
 h1,
 h2,
 h3 {
+    font-family: var(--font-titling);
     line-height: 1.1;
 }
 
@@ -114,4 +116,12 @@ dt {
 
 dd {
     margin-left: 1rem;
+}
+
+@font-face {
+    font-display: optional;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/fraunces.woff2");
 }
