@@ -42,4 +42,4 @@ section = ["HTML"]
 footer = """Abonnement par [flux RSS](/index.xml). Ce site ne vous traque pas. Généré avec [Hugo](https://gohugo.io/). Hébergé chez Infomaniak. Sources chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Contenus sous licence Creative Commons BY-SA. """
 
 # Pour OpenGraph
-images = ["/images/nicolas-friedli.jpg"]
+images = ["/images/opengraph.jpg"]
