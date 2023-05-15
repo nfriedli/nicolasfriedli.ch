@@ -12,14 +12,6 @@
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     <atom:link href="https://nicolasfriedli.ch/index.xml" rel="self" type="application/rss+xml" />
 
-    <image>
-	    <url>https://nicolasfriedli.ch/apple-touch-icon.png</url>
-	    <title>Nicolas Friedli</title>
-	    <link>https://nicolasfriedli.ch</link>
-	    <width>64</width>
-	    <height>64</height>
-    </image> 
-
     {{ range site.RegularPages }}
     <item>
       <title>{{ .Title }}</title>
