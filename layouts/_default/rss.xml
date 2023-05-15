@@ -26,9 +26,9 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
 
-    <webfeeds:cover image="/images/nicolas-friedli.jpg" />
-    <webfeeds:icon>/apple-touch-icon.png</webfeeds:icon>
-    <webfeeds:logo>/favicon.svg</webfeeds:logo>
+    <webfeeds:cover image="https://nicolasfriedli.ch/images/nicolas-friedli.jpg" />
+    <webfeeds:icon>https://nicolasfriedli.ch/apple-touch-icon.png</webfeeds:icon>
+    <webfeeds:logo>https://nicolasfriedli.ch/favicon.svg</webfeeds:logo>
     <webfeeds:accentColor>ff9900</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
     
