@@ -13,6 +13,8 @@
     <link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ site.Title }}">
     
     <link rel="canonical" href="{{.Permalink}}">
+
+    {{ template "_internal/opengraph.html" . }}
        
     {{ hugo.Generator }}
 </head>
