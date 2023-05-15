@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 date = 2023-05-14
+description = "Toutes les informations utiles pour me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque sur ce site."
 
 [menu.main]
 weight = 50
