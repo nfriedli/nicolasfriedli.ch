@@ -34,3 +34,5 @@ IDE: CHE-469.715.163
 Je ne suis pas présent sur les réseaux sociaux Facebook, Instagram, LinkedIn ou Twitter à titre personnel. Un autre «Nicolas Friedli» qui s’y trouve est soit un homonyme, soit un imposteur. 
 
 J’ai un compte Mastodon pour un travail de veille: [@friedli@tooting.ch](https://tooting.ch/@friedli).
+
+Pour m'identifier, voici [mon autoportrait](/images/nicolas-friedli.jpg "Autoportrait de Nicolas Friedli").
