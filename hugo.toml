@@ -15,9 +15,6 @@ enableGitInfo = true
 [build]
 writeStats = false
 
-[markup.goldmark.extensions]
-typographer = true
-
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
 
