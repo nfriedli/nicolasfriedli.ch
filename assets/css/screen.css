@@ -36,11 +36,6 @@
     }
 }
 
-::selection {
-    color: var(--background);
-    background-color: var(--text);
-}
-
 html {
     background-color: var(--background);
     color: var(--text);
