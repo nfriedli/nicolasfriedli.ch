@@ -25,7 +25,7 @@ Sur ce site, j’ai décidé que les feuilles de style seraient minifiées. La c
 Le répertoire `/assets/` permet d’effectuer des opérations sur les fichiers qu’il contient. Ici:
 
 ```
-{{ $screen := resources.Get "css/screen.css" | minify  }}
+{{ $screen := resources.Get "css/screen.css" | minify }}
 <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
 ```
 
