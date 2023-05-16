@@ -6,9 +6,9 @@ draft = true
 
 [The Simplest Web Site That Could Possibly Work Well](https://www.zachleat.com/web/that-could-possibly-work/) par Zach Leatherman
 
-[Rasoir d'Ockham](https://fr.wikipedia.org/wiki/Rasoir_d%27Ockham) chez Wikipédia
+[Rasoir d’Ockham](https://fr.wikipedia.org/wiki/Rasoir_d%27Ockham) chez Wikipédia
 
-[The Emergency Website Kit](https://mxb.dev/blog/emergency-website-kit/) par Max Böck. Différent parce que l'optimisation passe avant la simplicité
+[The Emergency Website Kit](https://mxb.dev/blog/emergency-website-kit/) par Max Böck. Différent parce que l’optimisation passe avant la simplicité
 
 ## Le nécessaire
 
@@ -19,4 +19,4 @@ draft = true
 - des favicons
 - un menu
 - les pages utiles
-- un page d'archives
+- un page d’archives
