@@ -36,7 +36,7 @@ Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père d
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
 
-Il utilise une police présente sur votre périphérique pour l'affichage du texte et [Fraunces](https://fraunces.undercase.xyz/) pour les titres. Elle est chargée de manière à ne jamais ralentir l'affichage des pages. Le site utilise une typographie fluide créée avec [Utopia](https://utopia.fyi/).
+Il utilise une police présente sur votre périphérique pour l’affichage du texte et [Fraunces](https://fraunces.undercase.xyz/) pour les titres. Elle est chargée de manière à ne jamais ralentir l’affichage des pages. Le site utilise une typographie fluide créée avec [Utopia](https://utopia.fyi/).
 
 nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 

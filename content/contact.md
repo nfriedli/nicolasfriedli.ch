@@ -36,4 +36,4 @@ Je ne suis pas présent sur les réseaux sociaux Facebook, Instagram, LinkedIn o
 
 J’ai un compte Mastodon pour un travail de veille: [@friedli@tooting.ch](https://tooting.ch/@friedli).
 
-Pour m'identifier, voici [mon autoportrait](/images/nicolas-friedli.jpg "Autoportrait de Nicolas Friedli").
+Pour m’identifier, voici [mon autoportrait](/images/nicolas-friedli.jpg "Autoportrait de Nicolas Friedli").
