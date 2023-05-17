@@ -121,5 +121,59 @@ Contenus sous licence Creative Commons BY-SA. """
 
 La [version courante](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/hugo.toml) est toujours disponible chez GitHub.
 
-## Modularisation et environnements
+## Pas de thème
 
+Celles et ceux qui connaissent un peu Hugo remarqueront que mon fichier de configuration n’utilise pas de thème:
+
+```
+theme = "monthemehugo"
+```
+
+Je n’utilise que le répertoire `/layouts/` pour mes modèles de pages, mes *shortcodes*, etc. Aucun thème existant n’est utilisé pour mon site. 
+
+Si les *layouts* permettent de surcharger les fichiers d’un thème activé. Ils peuvent aussi être utilisés seuls. Ils ne surchargent rien mais sont suffisants.
+
+Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur si un thème n’est pas activé dès le début. C’est une conseil que je donnerais aux personnes qui débutent: commencez par créer vos *layouts*, activez un thème si nécessaire.
+
+## Modularisation 
+
+Le fichier de configuration peut être séparé en plusieurs petits fichiers. Je vois peut d’intérêt à le faire avec le mien qui fait quelques dizaines de lignes. Mais ça peut être intéressant si `hugo.toml` devient trop long ou trop complexe.
+
+Pour modulariser la configuration, il faut placer les différents fichiers dans `/config/`. Le nom de fichier est alors la section de configuration. Par exemple, la minification dans mon fichier unique est:
+
+```
+[minify]
+minifyOutput = true
+
+[minify.tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+```
+
+Déplacée dans `/config/minify.toml/`, elle devient:
+
+```
+minifyOutput = true
+
+[tdewolff.html]
+keepDefaultAttrVals = false
+keepQuotes = true
+```
+
+La séparation en différent fichier me paraît très utile dans certains cas:
+
+- quand un site est multilingue, la [configuration des langues](https://gohugo.io/content-management/multilingual/#configure-languages) dans un fichier dédié me semble pertinente (surtout s’il y a des paramètres par langue, etc.)
+- quand un site a un grand menu de navigation, un fichier dédié est une bonne idée
+
+Surtout, la séparation en fichier permet de proposer des portions de configurations plus simples à des personnes qui interviennent sur le site. Les responsable de la partie rédactionnelle éditeront plus facilement un fichier de menu qu’une configuration monolithique.
+
+## Environnements
+
+Finalement, différentes version de configuration sont applicables selon l’environnement. Un exemple simple, pour la minification:
+
+- dans `/config/_default/hugo.toml`: aucune configuration sur ce thème
+- dans `/config/production/hugo.toml`: les quelques lignes sur la minification de mon fichier
+
+Ainsi, durant le développement, les fichiers ne sont jamais minifiés. Alors que lors de la compilation ils le sont. Par défaut, `hugo server` est en environnement de developpement et `hugo` en environnement de production.
+
+D’autres environnement sont utilisables et les variables peuvent être passées à la compilation.
