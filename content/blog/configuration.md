@@ -1,8 +1,7 @@
 +++
 title = "Configuration d’Hugo"
 description = "Quelques commentaires la configuration d’Hugo avec un fichier hugo.toml aussi simple que possible."
-date = 2023-05-18
-draft = true
+date = 2023-05-19
 +++
 
 Quelques commentaires sur mon fichier de configuration d’Hugo, que je souhaite aussi simple et lisible que possible.
@@ -13,7 +12,7 @@ Hugo a besoin d’un fichier de configuration pour fonctionner.
 Par défaut, il s’agit de `hugo.toml` à la racine du projet.
 L’ancien fichier par défaut était `config.toml` (qui fonctionne toujours).
 
-Le plus petit fichier suffisanten [TOML](https://toml.io/en/) (Tom’s Obvious Minimal Language):
+Le plus petit fichier suffisant en [TOML](https://toml.io/en/) (Tom’s Obvious Minimal Language):
 
 ```
 baseURL = "https://nicolasfriedli.ch/"
@@ -39,9 +38,15 @@ Ou en [JSON](https://www.json.org/) (JavaScript Object Notation):
 }
 ```
 
-Je préfère TOML pour son excellent équilibre entre sa facilité de rédaction et son absence de problèmes. Voir [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) par Ruud van Asseldonk ou [Yaml, JSON, Toml](https://chriscoyier.net/2023/01/27/yaml-json-toml/) par Chris Coyier pour les questions que pose YAML. JSON est peu agréable à rédiger.
+## Préférence personnelle pour TOML
 
-## Ma configuration pour ce site
+J’utilise TOML pour son excellent équilibre entre sa facilité de rédaction et sa fiabilité. 
+
+YAML pose parfois des problèmes comme le soulignent Ruud van Asseldonk dans [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) ou Chris Coyier dans [Yaml, JSON, Toml](https://chriscoyier.net/2023/01/27/yaml-json-toml/).
+
+JSON n’est pas un format très agréable à rédiger. Mais il n’est pas prévu pour cela.
+
+## Configuration spécifique pour mon site
 
 L’adresse et le titre du site:
 
@@ -57,18 +62,18 @@ languageCode = "fr"
 defaultContentLanguage = "fr"
 ```
 
-Une sécurité si un nom de fichier source comprenant un caractère problématique. Ou si j’utilises des taxonomies qui génèrent automatiquement des URLs.
+Une sécurité si un nom de fichier source comprend un caractère problématique. Ou si j’utilise des taxonomies qui génèrent automatiquement des URLs.
 
 ```
 removePathAccents = true
 ```
 
-Je désactive ce que je n’utilise pas. Notamment les taxonomies pour éviter de créer des pages de catégories ou de tags sans l’avoir choisi. Il est ainsi possible de renseigner (déjà) des catégories et tags dans les sources, mais de ne pas les afficher (pour le moment). Le fichier `robots.txt` est écrit à la main, dans `/static/`. Donc:
+Je désactive ce que je n’utilise pas. J’ai désactivé les taxonomies, pour éviter de créer des pages de catégories ou de tags sans l’avoir choisi. Il est ainsi possible de renseigner (déjà) des catégories et tags dans les sources, mais de ne pas les afficher (pour le moment). Le fichier `robots.txt` est écrit à la main, dans `/static/`. Donc:
 ```
 disableKinds = [ "taxonomy", "term", "robotsTXT", "404" ]
 ```
 
-Le répertoire final est vidé avant compilation. La compilation est toujours complète. Et j’utilise les date de Git (par exemple pour la dernière modification dans `sitemap.xml`):
+Le répertoire final est vidé avant compilation. La compilation est toujours complète. Et j’utilise les dates de Git (par exemple pour la dernière modification dans `sitemap.xml`):
 
 ```
 cleanDestinationDir = true
@@ -90,7 +95,7 @@ Les `id` des titres `h2`, `h3`, etc. sont propres:
 autoHeadingIDType = "github-ascii"
 ```
 
-Les fichiers de sorties sont minifiés. Je supprime les attributs par défaut qui ne sont plus utiles en HTML5. Mais je conserve les guillemets par souci de lisibilité. Voici la configuration:
+Les fichiers de sortie sont minifiés. Je supprime les attributs par défaut qui ne sont plus utiles en HTML5. Mais je conserve les guillemets par souci de lisibilité. Voici la configuration:
 
 ```
 [minify]
@@ -109,7 +114,7 @@ home = ["HTML", "RSS"]
 section = ["HTML"]
 ```
 
-Enfin, dans les paramètres optionnels, je saisis le texte du pied de page. J’évite ainsi de le publier dans les *layouts*:
+Enfin, dans les paramètres optionnels, je saisis le texte du pied de page. J’évite ainsi de le code *en dur* dans les *layouts*:
 
 ```
 [params]
@@ -133,9 +138,9 @@ Je n’utilise que le répertoire `/layouts/` pour mes modèles de pages, mes *s
 
 Si les *layouts* permettent de surcharger les fichiers d’un thème activé. Ils peuvent aussi être utilisés seuls. Ils ne surchargent rien mais sont suffisants.
 
-Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur si un thème n’est pas activé dès le début. C’est une conseil que je donnerais aux personnes qui débutent: commencez par créer vos *layouts*, activez un thème si nécessaire.
+Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur si un thème n’est pas activé dès le début. C’est un conseil que je donne aux personnes qui débutent: commencez par créer vos *layouts*, puis activez un thème si nécessaire.
 
-## Modularisation 
+## Modularisation de la configuration
 
 Le fichier de configuration peut être séparé en plusieurs petits fichiers. Je vois peut d’intérêt à le faire avec le mien qui fait quelques dizaines de lignes. Mais ça peut être intéressant si `hugo.toml` devient trop long ou trop complexe.
 
@@ -160,18 +165,19 @@ keepDefaultAttrVals = false
 keepQuotes = true
 ```
 
-La séparation en différent fichier me paraît très utile dans certains cas:
+La séparation en différents fichiers me paraît très utile dans certains cas:
 
 - quand un site est multilingue, la [configuration des langues](https://gohugo.io/content-management/multilingual/#configure-languages) dans un fichier dédié me semble pertinente (surtout s’il y a des paramètres par langue, etc.)
 - quand un site a un grand menu de navigation, un fichier dédié est une bonne idée
+- et bien entendu quand certaines parties de configuration sont réutilisées telles quelles dans différents projets
 
-Surtout, la séparation en fichier permet de proposer des portions de configurations plus simples à des personnes qui interviennent sur le site. Les responsable de la partie rédactionnelle éditeront plus facilement un fichier de menu qu’une configuration monolithique.
+Surtout, la séparation en fichier permet de proposer des portions de configurations plus simples à des personnes qui interviennent sur le site. Les responsables de la partie rédactionnelle éditeront plus facilement un fichier de menu qu’une configuration monolithique.
 
-## Environnements
+## Configuration par environnement
 
 Finalement, différentes version de configuration sont applicables selon l’environnement. Un exemple simple, pour la minification:
 
-- dans `/config/_default/hugo.toml`: aucune configuration sur ce thème
+- dans `/config/_default/hugo.toml`: aucune option de minification mentionnée
 - dans `/config/production/hugo.toml`: les quelques lignes sur la minification de mon fichier
 
 Ainsi, durant le développement, les fichiers ne sont jamais minifiés. Alors que lors de la compilation ils le sont. Par défaut, `hugo server` est en environnement de developpement et `hugo` en environnement de production.
