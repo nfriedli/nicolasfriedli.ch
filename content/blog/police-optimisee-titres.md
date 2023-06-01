@@ -2,9 +2,14 @@
 title = "Police optimisée pour les titres"
 description = "Comment proposer une police particulière pour les titres sans prétériter la performance?"
 date = 2023-05-14
+lastMod = 2023-06-01
 +++
 
 Comment proposer une police particulière pour les titres sans prétériter la performance? Voici la stratégie j’applique sur mon site.
+
+
+
+**Remarque.** La dernière version de la police [Inter](https://rsms.me/inter/) (4.0b9) propose des variations intéressantes (`opsz`). J'ai décidé de l'utiliser sur tout le site. Toutefois les techniques proposées ci-dessous restent pertinentes et sont toujours utilisées.
 
 ## Optimisation de la police
 

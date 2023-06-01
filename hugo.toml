@@ -10,7 +10,7 @@ disableKinds = [ "taxonomy", "term", "robotsTXT", "404" ]
 
 cleanDestinationDir = true
 disableFastRender = true
-enableGitInfo = true
+# enableGitInfo = true
 
 [build]
 writeStats = false

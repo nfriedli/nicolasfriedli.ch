@@ -4,7 +4,6 @@
     --contrast: #F90;
 
     --font-main: Inter, Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-titling: Fraunces, var(--font-main);
     --font-mono: "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1280,18,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -60,6 +59,7 @@ header,
 footer,
 time {
     font-size: var(--step--1);
+    font-weight: 500;
 }
 
 footer {
@@ -77,7 +77,6 @@ nav {
 h1,
 h2,
 h3 {
-    font-family: var(--font-titling);
     line-height: 1;
 }
 
@@ -146,8 +145,16 @@ dd {
 
 @font-face {
     font-display: optional;
-    font-family: Fraunces;
+    font-family: Inter;
     font-style: normal;
-    font-weight: 700;
-    src: url("/fonts/fraunces.woff2");
+    font-weight: 100 900;
+    src: url("/fonts/inter.woff2");
+}
+
+@font-face {
+    font-display: optional;
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 100 900;
+    src: url("/fonts/inter-italic.woff2");
 }
