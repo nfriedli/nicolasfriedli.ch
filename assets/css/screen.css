@@ -149,7 +149,7 @@ dd {
     font-family: Inter;
     font-style: normal;
     font-weight: 100 900;
-    src: url("/fonts/inter.woff2");
+    src: url("/fonts/inter.woff2?20230624");
 }
 
 @font-face {
@@ -157,5 +157,5 @@ dd {
     font-family: Inter;
     font-style: italic;
     font-weight: 100 900;
-    src: url("/fonts/inter-italic.woff2");
+    src: url("/fonts/inter-italic.woff2?20230624");
 }
