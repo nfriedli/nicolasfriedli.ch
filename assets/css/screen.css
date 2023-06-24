@@ -3,15 +3,15 @@
     --text: #123;
     --contrast: #F90;
 
-    --font-main: Inter, Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-mono: "Roboto Mono", "Noto Sans Mono", ui-monospace, Menlo, Consolas, monospace;
+    --font-main: Inter, "Mona Sans", "Noto Sans Mono", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: "Noto Sans Mono", "Roboto Mono", ui-monospace, Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1280,18,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--1: clamp(0.83rem, calc(0.82rem + 0.03vw), 0.84rem);
     --step-0: clamp(1.00rem, calc(0.88rem + 0.31vw), 1.13rem);
     --step-1: clamp(1.20rem, calc(0.90rem + 0.75vw), 1.50rem);
     --step-2: clamp(1.44rem, calc(0.88rem + 1.40vw), 2.00rem);
-    --step-3: clamp(1.73rem, calc(0.79rem + 2.34vw), 2.66rem);  
+    --step-3: clamp(1.73rem, calc(0.79rem + 2.34vw), 2.66rem);
 }
 
 @media (prefers-contrast: more) {
@@ -142,20 +142,4 @@ dt {
 
 dd {
     margin-left: 1rem;
-}
-
-@font-face {
-    font-display: optional;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 100 900;
-    src: url("/fonts/inter.woff2?20230624");
-}
-
-@font-face {
-    font-display: optional;
-    font-family: Inter;
-    font-style: italic;
-    font-weight: 100 900;
-    src: url("/fonts/inter-italic.woff2?20230624");
 }
