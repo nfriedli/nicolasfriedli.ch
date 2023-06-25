@@ -2,6 +2,7 @@
 title = "Configuration d’Hugo"
 description = "Quelques commentaires la configuration d’Hugo avec un fichier hugo.toml aussi simple que possible."
 date = 2023-05-19
+aliases = ["/hugo/configuration"]
 +++
 
 Quelques commentaires sur mon fichier de configuration d’Hugo, que je souhaite aussi simple et lisible que possible.
