@@ -12,6 +12,10 @@ cleanDestinationDir = true
 disableFastRender = true
 # enableGitInfo = true
 
+[author]
+name = "Nicolas Friedli"
+email = "hello+rss@nicolasfriedli.ch"
+
 [build]
 writeStats = false
 
