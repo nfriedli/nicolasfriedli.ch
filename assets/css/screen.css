@@ -1,9 +1,9 @@
 :root {
-    --background: #FFF;
-    --text: #123;
-    --contrast: #F90;
+    --background: hsl(36, 50%, 90%);
+    --text: hsl(216, 100%, 10%);
+    --contrast: hsl(36, 100%, 30%);
 
-    --font-main: Inter, "Mona Sans", "Noto Sans Mono", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-main: Inter, -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: "Noto Sans Mono", "Roboto Mono", ui-monospace, Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1280,18,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -11,27 +11,13 @@
     --step-0: clamp(1.00rem, calc(0.88rem + 0.31vw), 1.13rem);
     --step-1: clamp(1.20rem, calc(0.90rem + 0.75vw), 1.50rem);
     --step-2: clamp(1.44rem, calc(0.88rem + 1.40vw), 2.00rem);
-    --step-3: clamp(1.73rem, calc(0.79rem + 2.34vw), 2.66rem);
-}
-
-@media (prefers-contrast: more) {
-    :root {
-        --background: #FFF;
-        --text: #000;
-    }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #123;
-        --text: #CCC;
-    }
-}
-
-@media (prefers-color-scheme: dark) and (prefers-contrast: more) {
-    :root {
-        --background: #000;
-        --text: #FFF;
+        --background:hsl(36, 50%, 5%);
+        --text: hsl(216, 50%, 90%);
+        --contrast: hsl(36, 100%, 60%);
     }
 }
 
@@ -77,22 +63,21 @@ h1,
 h2,
 h3 {
     line-height: 1;
+    font-weight: 900;
 }
 
 h1 {
-    font-size: var(--step-3);
-    font-weight: 600;
+    font-size: var(--step-2);
     margin-top: 4rem;
 }
 
 h2 {
-    font-size: var(--step-2);
+    font-size: var(--step-1);
     margin-top: 3rem;
 }
 
 h3 {
-    font-size: var(--step-1);
-    font-weight: 800;
+    font-size: var(--step-0);
     margin-top: 2rem;
 }
 

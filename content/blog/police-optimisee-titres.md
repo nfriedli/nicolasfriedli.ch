@@ -7,7 +7,7 @@ lastMod = 2023-06-24
 
 Comment proposer une police particulière pour les titres sans prétériter la performance? Voici la stratégie j’applique sur mon site.
 
-**Remarque.** Désormais, le site n'utilise que des polices disponibles sur votre ordinateur.
+**Remarque.** Désormais, le site n’utilise que des polices disponibles sur votre ordinateur.
 
 ## Optimisation de la police
 
