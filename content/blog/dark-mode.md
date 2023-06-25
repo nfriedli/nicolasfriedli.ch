@@ -94,7 +94,7 @@ Et (mode sombre et fort constraste demandés):
 }
 ```
 
-L’ordre des conditions est important. La [feuille de style actuelle complète](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css) permet de voir comment les différentes situations s’organisent.
+L’ordre des conditions est important. L’historique de la [feuille de style complète](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css) permet de voir comment les différentes situations s’organisent. **Cette possibilité est actuellement désactivée de mon site.**
 
 ## Modes par défaut
 
