@@ -1,7 +1,0 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-<div class="byline">
-<time datetime="{{.Date.Format " 2006-01-02"}}" class="entry-date dateline">{{ .Date | time.Format ":date_long" }}</time>
-</div>
-{{ .Content }}
-{{ end }}

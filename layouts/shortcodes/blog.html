@@ -1,5 +1,5 @@
 <ul>
-    {{ range first 5 ( where site.RegularPages "Section" "blog" ) }}
+    {{ range first 5 site.RegularPages }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
 </ul>

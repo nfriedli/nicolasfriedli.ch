@@ -2,7 +2,6 @@
 title = "Police optimisée pour les titres"
 description = "Comment proposer une police particulière pour les titres sans prétériter la performance?"
 date = 2023-05-14
-lastMod = 2023-06-24
 +++
 
 Comment proposer une police particulière pour les titres sans prétériter la performance? Voici la stratégie j’applique sur mon site.
@@ -118,7 +117,7 @@ Ces règles de cache signifient que le fichier restera en mémoire durant une an
 
 ## Cas défavorable
 
-Il existe un cas rare qui est défavorable. Il ne se produit que si la connexion est très lente.  Je n’ai réussi à tomber dans cette situation qu’en simulant un (très) mauvais réseau.
+Il existe un cas rare qui est défavorable. Il ne se produit que si la connexion est très lente. Je n’ai réussi à tomber dans cette situation qu’en simulant un (très) mauvais réseau.
 
 Si le chargement de Fraunces est trop lent, comme elle est `optional`, elle ne sera pas affichée. Mais l’appel `preload` a quand même demandé son chargement.
 

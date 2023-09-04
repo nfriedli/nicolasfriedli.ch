@@ -10,16 +10,22 @@ Comment proposer un mode sombre (dark mode) simple? Et des versions à contraste
 
 Si les couleurs ne sont pas définies sur un site, alors il utilise les couleurs par défaut. Les navigateurs choisissent le blanc pour le fond, le noir pour l’écriture et le bleu pour les liens. Les liens visités, survolés, etc. ont d’autres couleurs.
 
-Dans ce cas, le monde sombre, ainsi que les version à fort contraste, sont disponibles par défaut. C’est une option à connaître pour proposer un site très accessible sans efforts. Mieux vaut ne rien définir que faire de mauvais choix. Je pense aux écritures trop fines, aux choix de contrastes problématiques, aux liens invisibles, etc.
+Dans ce cas, le mode sombre, ainsi que les version à fort contraste, sont disponibles par défaut. C’est une option à connaître pour proposer un site très accessible sans efforts. Mieux vaut ne rien définir que faire de mauvais choix. Je pense aux écritures trop fines, aux choix de contrastes problématiques, aux liens invisibles, etc.
+
+Dans le code de la page, cette balise permet de signaler que le site accepte les modes clair ou sombre:
+
+```
+<meta name="color-scheme" content="dark light">
+```
 
 ## Ma feuille de style light/dark
 
-Par des variables CSS, je définis seulement 2 couleurs (aucune autre demande particulière de la part du navigateur):
+Par des variables CSS, je définis seulement 2 couleurs:
 
 ```
 :root {
-    --background: #FFF;
-    --text: #123;
+    --background: #d1e4dd;
+    --text: #28303d;
 }
 ```
 
@@ -37,30 +43,29 @@ Pour créer une déclinaison *dark*, je redéfinis mes variable avec une conditi
 ```
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #123;
-        --text: #CCC;
+        --background:#28303d;
+        --text: #FFF;
     }
 }
-
 ```
 
-Dans mon entête de page, je signale que mon site peut accepter les version claires (*light*) ou foncée (*dark*). Ainsi, le navigaeur peut adapter ses couleurs (par exemple les barres de défilement):
+Dans mon entête de page, je signale aussi que mon site peut accepter les version claires (*light*) ou foncée (*dark*). Ainsi, le navigaeur peut adapter ses couleurs (par exemple les barres de défilement):
 
 ```
 <meta name="color-scheme" content="dark light">
 ```
 
-Je signale aussi que l’interface doit prendre une couleur précise. Dansle cas de mon blog, la couleur foncée (soit du texte, soit du fond):
+Je signale que l’interface doit prendre une couleur précise. Dans le cas de mon blog, la couleur foncée (soit du texte, soit du fond):
 
 ```
-<meta name="theme-color" content="#123">
+<meta name="theme-color" content="#28303d">
 ```
 
 ## Le cas des liens
 
-Je précise que les liens doivent avoir la couleur du texte. C’est le soulignement qui permet de les distinguer.
+Je souhaitent que les liens prennent la couleur du texte. C’est le soulignement qui permettra de les distinguer.
 
-Je n’utilise pas de couleurs (au moment de la rédaction de ces lignes) pour les cas particuliers (pseudo-classes `:link`, `:visited`, `:hover` et `:active`):
+Je n’utilise pas d’autres couleurs pour les cas particuliers (pseudo-classes `:link`, `:visited`, `:hover` et `:active`):
 
 ```
 a {
@@ -68,11 +73,15 @@ a {
 }
 ```
 
+Je déroge ici à la [règle Opquast 136](https://checklists.opquast.com/fr/assurance-qualite-web/le-site-napplique-pas-le-meme-style-aux-liens-visites-et-non-visites):
+
+> Le site n’applique pas le même style aux liens visités et non visités.
+
 ## Versions à fort constraste
 
-Un navigateur peut demander à afficher une version avec un contraste plus marqué. Il s’agit d’une possibilité expérimentale.
+Un navigateur peut demander à afficher une version avec un contraste plus marqué. Il s’agit d’une possibilité expérimentale. **Cette possibilité est actuellement désactivée de mon site.**
 
-Pour l’activer, je redéfinis des variables si des conditions sont remplies (fort constraste demandé):
+Pour l’activer, pourrais redéfinir des variables si des conditions sont remplies (fort constraste demandé):
 
 ```
 @media (prefers-contrast: more) {
@@ -94,7 +103,7 @@ Et (mode sombre et fort constraste demandés):
 }
 ```
 
-L’ordre des conditions est important. L’historique de la [feuille de style complète](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css) permet de voir comment les différentes situations s’organisent. **Cette possibilité est actuellement désactivée de mon site.**
+L’ordre des conditions est important. L’historique de la [feuille de style complète](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css) permet de voir comment les différentes situations s’organisent. 
 
 ## Modes par défaut
 

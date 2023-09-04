@@ -1,7 +1,6 @@
 :root {
-    --background: hsl(36, 50%, 90%);
-    --text: hsl(216, 100%, 10%);
-    --contrast: hsl(36, 100%, 30%);
+    --background: #d1e4dd;
+    --text: #28303d;
 
     --font-main: Inter, -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: "Noto Sans Mono", "Roboto Mono", ui-monospace, Menlo, Consolas, monospace;
@@ -15,9 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background:hsl(36, 50%, 5%);
-        --text: hsl(216, 50%, 90%);
-        --contrast: hsl(36, 100%, 60%);
+        --background:#28303d;
+        --text: #FFF;
     }
 }
 
@@ -33,7 +31,7 @@ html {
 body {
     padding: 1rem;
     margin: auto;
-    max-width: 70ch;
+    max-width: 60ch;
 }
 
 main {
@@ -62,7 +60,7 @@ nav {
 h1,
 h2,
 h3 {
-    line-height: 1;
+    line-height: 1.1;
     font-weight: 900;
 }
 
@@ -96,7 +94,7 @@ a {
 }
 
 blockquote {
-    border-left: .2rem solid var(--contrast);
+    border-left: .2rem solid var(--text);
     margin-left: 0;
     padding-left: 1rem;
 }

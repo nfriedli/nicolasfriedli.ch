@@ -15,13 +15,9 @@
     <link rel="canonical" href="{{.Permalink}}">
 
     <meta name="author" content="Nicolas Friedli">
-
-    {{ if .IsHome}}
-    <link rel="me" href="https://theologique.ch/">
-    <link rel="me" href="https://frdl.ch/">
-    <link rel="me" href="https://ma-paroisse.ch/">
-    <link rel="me" href="mailto:hello+2023@nicolasfriedli.ch">
-    {{ end }}
+    
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/schema.html" . }}
 
     {{ hugo.Generator }}
 </head>

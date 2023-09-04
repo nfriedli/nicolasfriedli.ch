@@ -1,10 +1,12 @@
 +++
 title = "À propos"
-date = 2023-06-01
 description = "En savoir plus sur l’auteur du site avec quelques éléments biographiques et sur le site avec des détails techniques."
+date = 2023-09-04
+
+layout = "nodate"
 
 [menu.main]
-weight = 40
+weight = 990
 +++
 
 En savoir plus sur l’auteur du site et sur le site lui-même. Par ces quelques lignes, vous saurez rapidement s’il vaut la peine de faire appel à moi pour un mandat de consultant ou pour un engagement de longue durée.
@@ -26,7 +28,7 @@ Durant les 15+ dernières années, il a travaillé pour les domaines:
 - de la santé (cabinets, sites professionels)
 - du sport (tournoi ATP de tennis, courses populaires, équipement)
 
-Convaincu que les sites d’institutions et d’organisations ont un énorme potentiel d’amélioration, il se passionne pour l’architecture d’information, la performance web et le référencement local. Le contenu et les liens sont les briques essentielles pour proposer un site web utile.
+Convaincu que les sites d’institutions et d’organisations ont un énorme potentiel d’amélioration, il se passionne pour l’architecture d’information, la performance web et le référencement local. Le contenu et les liens sont les briques essentielles pour proposer un site web utile. Voici les [types de prestations qui m’intéressent](/prestations/) et que je favorise.
 
 Il s’est exprimé régulièrement dans des sessions de formation professionelle et dans des interventions publiques.
 
@@ -36,7 +38,7 @@ Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père d
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
 
-Il utilise la police [Inter](https://rsms.me/inter/) de Rasmus Andersson. Elle est chargée de manière à ne jamais ralentir l’affichage des pages. Le site propose une typographie fluide créée avec [Utopia](https://utopia.fyi/).
+Il propose une typographie fluide créée avec [Utopia](https://utopia.fyi/). Et n’utilise pas de polices d’écriture autres que celles déjà disponibles sur votre périphérique pour ne pas ralentir l’affichage.
 
 nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 

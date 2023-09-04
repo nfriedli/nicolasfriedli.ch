@@ -2,7 +2,6 @@
 title = "Pages sœurs, filles et mère avec Hugo"
 description = "La navigation sur un site web ressemble parfois à de la généalogie. Si un site créé avec Hugo est correctement structuré, le parcours de l’arbre est facile."
 date = 2023-06-25
-aliases = ["/hugo/siblings"]
 +++
 
 La navigation sur un site web ressemble parfois à de la généalogie. Si un site créé avec Hugo est correctement structuré, le parcours de l’arbre est facile.
@@ -122,3 +121,5 @@ Le code de `layouts/shortcodes/subpages.html`:
 {{ end }}
 </ul>
 ```
+
+J’apprécie l’utilisation de *shortcodes* pour appeler des listes de pages *dans* le contenu. C’est ce que je pratique pour les derniers billets de la page d’accueil ou les listes dans les rubriques.

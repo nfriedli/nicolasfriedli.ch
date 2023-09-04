@@ -1,7 +1,8 @@
 +++
 title = "Feuilles de style minifiées et gestion du cache"
-description = "Ce que j’applique sur ce site pour la minfication et la mise en cache des feuilles de style. C’est une *optimisation raisonnable* qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité."
+description = "Ce que j’applique sur ce site pour la minfication et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité."
 date = 2023-05-17
+lastMod = 2023-09-04
 +++
 
 Ce que j’applique sur ce site pour la minfication et la mise en cache des feuilles de style. C’est une *optimisation raisonnable* qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
@@ -65,7 +66,7 @@ Cela se passe dans `.htaccess` avec un serveur Apache:
 
 ```
 <filesMatch ".(css)$">
-Header set Cache-Control "max-age=63072000,immutable"
+    Header set Cache-Control "max-age=63072000,immutable"
 </filesMatch>
 ```
 
@@ -82,14 +83,14 @@ Tant que le style n’a pas été modifié, le fichier n’est pas téléchargé
 
 Il me semble que les options choisies sont pertinents et suffisantes pour mon site. Mais Hugo propose d’autres possibilités. Par exemple:
 
-- Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/). C’est inutile puisque je ne n’ai qu’un fichier (par type de média).
+- Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/). C’est inutile puisque je ne n’ai qu’un fichier (par type de média). Et ce n'est plus toujours pertinent avec le protocole `HTTP/2`.
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/hugo-pipes/fingerprint/#usage). C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
-- Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transform-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes.
-- [Supprimer les styles non utilisés avec PurgeCSS](https://zwbetz.com/how-to-use-purgecss-with-hugo/) comme le propose Zachary Wade Betz. C’est utile sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas sur mon site.
+- Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transform-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes. Et, surtout, les variables CSS permettent aujourd'hui beaucoup de belles choses.
+- [Supprimer les styles non utilisés avec PurgeCSS](https://zwbetz.com/how-to-use-purgecss-with-hugo/) comme le propose Zachary Wade Betz. C’est utile sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas sur mon modeste blog.
 
 ## Bonus: intégrer la feuille de style
 
-Une solution intéressante pour la performance: intégrer le CSS directement dans le code HTML. C’est favorable lors de la première visite d’*une* page du site:
+Une solution intéressante pour la performance consiste à intégrer le CSS directement dans le code HTML. C’est favorable lors de la première visite d’*une* page du site:
 
 ```
 {{ $screen := resources.Get "css/screen.css" }} 
@@ -98,4 +99,4 @@ Une solution intéressante pour la performance: intégrer le CSS directement dan
 
 Mais c’est potentiellement contre-productif si l’internaute lit plusieurs pages ou revient sur le site. Toutefois, le gain d’une solution ou de l’autre est toujours minime sur un site léger comme le mien.
 
-Quand le style est intégré, il faudrait aller plus loin et nettoyer *chaque page* de ses styles inutiles. C’est ce que fait Max Böck avec son [site d’urgence avec Eleventy (11ty)](https://mxb.dev/blog/emergency-website-kit/). C’est impossible avec Hugo sans outils externes.
+Si le style est intégré, il faudrait aller plus loin et nettoyer *chaque page* de ses styles inutiles. C’est ce que fait Max Böck avec son [site d’urgence avec Eleventy (11ty)](https://mxb.dev/blog/emergency-website-kit/). C’est impossible avec Hugo sans outils externes.
