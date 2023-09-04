@@ -46,7 +46,7 @@ Pour moi, le référencement, c’est:
 
 > Le SEO, c’est être trouvé dans les moteurs de recherche alors que l’on ne nous recherche pas!
 
-Une explication. Si vous êtes l’organisation «UIOOIASD» et que vous recherchez UIOOIASD dans Google, avec un nom de domaine www.uiooiasd.ch, je parie que l’on vous trouvera.
+Une explication. Si vous êtes l’organisation «UIOOIASD» et que vous recherchez UIOOIASD dans Google, avec un nom de domaine `www.uiooiasd.ch`, je parie que l’on vous trouvera.
 
 La question, c’est de savoir quand les internautes vous trouveront alors qu’ils ne vous recherchent pas. Pas quand c’est une réponse à une question précise où votre nom est dans la requête. Il faut donc se positionner dans un champ sémantique, une thématique. Vous ne savez même pas encore quelles requêtes mèneront à votre site!
 
