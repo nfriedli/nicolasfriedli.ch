@@ -6,8 +6,7 @@ description = "Nicolas Friedli est consultant web indépendant à Neuchâtel. Po
 weight = 10
 +++
 
-
-Test d’intro.
+Je suis consultant web indépendant à Neuchâtel. Pour valoriser les sites à fort contenu, je m'intéresse au référencement (SEO), à l’architecture d’information, à la performance et à l’accessibilité (A11Y).
 
 ## Dernières publications
 

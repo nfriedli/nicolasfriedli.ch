@@ -31,7 +31,7 @@ Beaucoup de personnes qui souhaitent créer un site espèrent qu’il soit *beau
 
 Il faudrait plutôt qu’un site soit *bon*. Il doit répondre à des objectifs clairs et surtout aux attentes des internautes. S’il est beau, c’est bonus.
 
-Le problème courant, c’est qu’un site beau, au design travaillé, peut rester vide de contenu. Ce n’est pas l’esthétique qui crée la qualité de l’architecture de l’information, l’accessibilité ou la [puissance du référencement](https://nicolasfriedli.ch/consultant-seo-referencement-local-neuchatel/).
+Le problème courant, c’est qu’un site beau, au design travaillé, peut rester vide de contenu. Ce n’est pas l’esthétique qui crée la qualité de l’architecture de l’information, l’accessibilité ou la [puissance du référencement](/seo/consultant-neuchatel/).
 
 Un site textuel, même basique et considéré comme laid, porte de l’information. L’exemple de [This is a web page](https://justinjackson.ca/words.html) de Justin Jackson est parlant. Aucune recherche esthétique mais une vraie qualité de contenu.
 
@@ -43,11 +43,11 @@ L’exemple de [Image SEO: Optimizing images for search engines](https://yoast.
 
 En réfléchissant à ce que je fais sur le web depuis 20+ ans, j’en reviens toujours à la question du contenu textuel. Tout simplement parce qu’il recoupe toutes mes préoccupations. Pour qu’un site fonctionne correctement, il doit:
 
-- proposer une architecture d’information qui permette aux internautes comme aux moteurs de recherche d’y [naviguer facilement](https://nicolasfriedli.ch/bons-liens/)
+- proposer une architecture d’information qui permette aux internautes comme aux moteurs de recherche d’y [naviguer facilement](/seo/bons-liens/)
 
-- permettre aux moteurs de recherche le le «comprendre», ce qui passe par du texte (meta description, textes alternatifs des images, etc.) en fonction d’une [requête cible](https://nicolasfriedli.ch/bon-article-yoast/)
+- permettre aux moteurs de recherche le le «comprendre», ce qui passe par du texte (meta description, textes alternatifs des images, etc.) en fonction d’une [requête cible](/seo/bon-article-yoast/)
 
-- [être rapide ou performant](https://nicolasfriedli.ch/budget-performance/), parce qu’il n’y a rien de plus pénible qui page lente qui affiche une masse d’images mais ne répond pas à la requête initiale
+- [être rapide ou performant](/web/budget-performance/), parce qu’il n’y a rien de plus pénible qui page lente qui affiche une masse d’images mais ne répond pas à la requête initiale
 
 - être accessible, parce que le web est pour toutes et toutes, quels que soient nos handicaps permanents ou temporaires (handicap situationnel)
 

@@ -2,7 +2,6 @@
 title = "Optimisation du référencement d’un site d’organisation"
 description = "Notes sur l'optimisation du référencement (SEO) pour les institutions et organisations, pour un travail efficace et adapté aux moyens."
 date = 2023-08-23
-lastMod = 2023-09-04
 aliases = ["/optimisation-referencement-organisations/"]
 +++
 
@@ -52,8 +51,9 @@ Dans le cas présent, l’audit technique vise avant tout à trouver des problè
 Les statistiques du moteur de recherche interne donnent des indices intéresses:
 
 - quand un motif de recherche ne donne aucun résultat (ce qui signifie que le mot recherché n’est simplement pas présent dans tout le site)
-quand une thématique du site est souvent cherchée (par exemple parce qu’invisible dans le menu)
+- quand une thématique du site est souvent cherchée (par exemple parce qu’invisible dans le menu)
 - parce qu’elles permettent de découvrir le vocabulaire réel des internautes
+
 C’est un outil souvent sous-estimé, parfois parce que les statistiques disponibles n’existent pas ou parce que leur interprétation est complexe.
 
 ### Discussion avec le client

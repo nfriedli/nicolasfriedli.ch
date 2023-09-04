@@ -2,7 +2,6 @@
 title = "Configuration d’Hugo"
 description = "Quelques commentaires la configuration d’Hugo avec un fichier hugo.toml simple. Notes sur la modularisation et les environnements."
 date = 2023-08-21
-lastMod = 2023-09-04
 aliases = ["/configuration-hugo/"]
 +++
 

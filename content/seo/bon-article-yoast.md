@@ -13,7 +13,7 @@ J’utilise Yoast sur les sites WordPress que je gère. Ce site n’utilise pas 
 
 Google utilise énormément de critères de classement. Cette liste prétendument complète en donne une idée: [Google’s 200 Ranking Factors: The Complete List](https://backlinko.com/google-ranking-factors). Les analyses proposées par ce *plugin* visent à améliorer un petit nombre de ces critères.
 
-Toutefois, le référencement, c’est beaucoup plus que ça. Je ne proposerais pas des [interventions en tant que consultant SEO](https://nicolasfriedli.ch/consultant-seo-referencement-local-neuchatel/) si j’estimais Yoast suffisant.
+Toutefois, le référencement, c’est beaucoup plus que ça. Je ne proposerais pas des [interventions en tant que consultant SEO](/seo/consultant--referencement-neuchatel/) si j’estimais Yoast suffisant.
 
 Les débats de spécialistes sur les techniques et tactiques pour briller dans les moteurs de recherche ne m’intéressent pas ici. Pas plus que les comparatifs entre différents outils.
 
@@ -53,7 +53,7 @@ Créer un lien vers au moins 1 page interne de son site permet de la valoriser.
 
 - parce que le renvoi vers des pages de qualité montre qu’un bon travail de recherche a été fait
 
-Yoast ou pas, référencement ou pas, [les liens sont l’essence même du web](https://nicolasfriedli.ch/bons-liens/). Il faut en faire, ni trop ni trop peu. Quand on voit le nombre d’articles sans aucun lien interne, je me dis que cette extension est nécessaire.
+Yoast ou pas, référencement ou pas, [les liens sont l’essence même du web](/seo/bons-liens/). Il faut en faire, ni trop ni trop peu. Quand on voit le nombre d’articles sans aucun lien interne, je me dis que cette extension est nécessaire.
 
 ### Longueur de la publication
 
@@ -78,9 +78,7 @@ Les critères de cette section sont avant tout *destinés aux internautes*. Mais
 Les recommandations me semblent logiques:
 
 - minimiser le nombre de **phrases** longues (plus de 20 mots)
-
 - ne pas proposer de **paragraphes** trop longs
-
 - entrecouper la page **d’intertitres** (niveau `h2` ou `h3`) qui facilitent la lecture rapide
 
 Une attitude hautaine prendra ces considérations pour acquises ou ridicules, parce que celle ou celui qui sait écrire peut se permettre des phrases longues tout en restant parfaitement compréhensible; privilège des sachantes et les sachants. Ou pas!
@@ -89,7 +87,7 @@ Une attitude hautaine prendra ces considérations pour acquises ou ridicules, pa
 
 Yoast signale le phrases à la **voix passive**. Je trouve intéressant de me rendre compte de ma propension à beaucoup l’utiliser. Trop? J’au l’impression que ce n’est pas si problématique, mais peut être que je me trompe.
 
-Un **test de lisibilité** est automatiquement proposé pour chaque page. Il s’agit de [Flesch-Kincaid](https://fr.wikipedia.org/wiki/Tests*de*lisibilit%C3%A9*Flesch-Kincaid). En l’état de la rédaction de cette page, je suis autour de 82%. Signe d’un billet assez facile à lire.
+Un **test de lisibilité** est automatiquement proposé pour chaque page. Il s’agit de [Flesch-Kincaid](https://fr.wikipedia.org/wiki/Tests_de_lisibilit%C3%A9_Flesch-Kincaid). Alors que je rédigeais cette page avec Yoast, j'étais autour de 82%. Signe d’un billet assez facile à lire.
 
 ### Critères discutables pour un bon article
 

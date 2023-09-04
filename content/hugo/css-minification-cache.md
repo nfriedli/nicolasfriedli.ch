@@ -2,7 +2,6 @@
 title = "Feuilles de style minifiées et gestion du cache"
 description = "Ce que j’applique sur ce site pour la minfication et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité."
 date = 2023-05-17
-lastMod = 2023-09-04
 +++
 
 Ce que j’applique sur ce site pour la minfication et la mise en cache des feuilles de style. C’est une *optimisation raisonnable* qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.

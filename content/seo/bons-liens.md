@@ -28,7 +28,7 @@ Succincts
 
 ## Des liens contextuels selon Yoast
 
-Lorsque l’on utilise Yoast pour créer [un bon article](https://nicolasfriedli.ch/bon-article-yoast/), il vaut la peine de proposer au moins 1 lien interne et 1 lien externe. La raison est simple, je l’explique.
+Lorsque l’on utilise Yoast pour créer [un bon article](/seo/bon-article-yoast/), il vaut la peine de proposer au moins 1 lien interne et 1 lien externe. La raison est simple, je l’explique.
 
 Au yeux d’un moteur de recherche, chaque page a une valeur. En fonction de cette valeur, elle pourra transmettre un peu de valeur aux pages liées. À la manière des *bons cadeaux*, ce don de valeur ne coûte rien, mais chacun·e peut l’utiliser ou non.
 

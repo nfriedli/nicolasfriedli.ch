@@ -2,7 +2,6 @@
 title = "Consultant SEO à Neuchâtel"
 description = "Votre consultant en optimisation du référencement (SEO) et référencement local (local SEO) dans le canton de Neuchâtel et en Suisse romande."
 date = 2023-08-10
-lastMod = 2023-09-04
 aliases = ["/consultant-seo-referencement-local-neuchatel/"]
 +++
 
