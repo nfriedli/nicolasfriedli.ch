@@ -5,7 +5,7 @@ date = 2023-09-04
 
 layout = "nodate"
 
-[menu.main]
+menu  = "main"
 weight = 990
 +++
 

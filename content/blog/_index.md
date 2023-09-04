@@ -4,7 +4,7 @@ description = "Les archives du blog ou tous les billets publiés sur ce site par
 
 draft = true
 
-[menu.main]
+menu  = "main"
 weight= 20
 +++
 

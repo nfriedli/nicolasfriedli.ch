@@ -1,7 +1,6 @@
 +++
 title = "Web"
-
-[menu.main]
+menu  = "main"
 weight = 10
 +++
 
