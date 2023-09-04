@@ -44,7 +44,7 @@ nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), u
 
 Ses sources sont disponibles dans un dépôt GitHub public (lien en bas de chaque page). Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 
-Il est hébergé en Suisse, chez Infomaniak, une entreprise éco-responsable. Même si je trouve les services comme Netlify ou CloudFlare performants et agréables, j’ai fait le choix de mon pays et de l’écologie.
+Il est hébergé en Suisse, chez [Infomaniak](https://www.infomaniak.com/), une entreprise éco-responsable. Même si je trouve les services comme Netlify ou CloudFlare performants et agréables, j’ai fait le choix de mon pays et de l’écologie.
 
 Un [flux RSS](/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site. Les flux RSS (ou ATOM) sont des outils qui changent la vie. Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
 
