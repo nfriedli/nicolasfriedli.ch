@@ -1,6 +1,6 @@
 +++
 title = "Optimisation du référencement d’un site d’organisation"
-description = "Notes sur l'optimisation du référencement (SEO) pour les institutions et organisations, pour un travail efficace et adapté aux moyens."
+description = "Notes sur l’optimisation du référencement (SEO) pour les institutions et organisations, pour un travail efficace et adapté aux moyens."
 date = 2023-08-23
 aliases = ["/optimisation-referencement-organisations/"]
 +++
@@ -34,7 +34,7 @@ Quand un site d’une institution reconnue existe depuis longtemps, avec un bon 
 
 Il faudra recherche les requêtes qui déclenchent déjà l’affichage du site dans les moteurs de recherche. Ainsi que les requêtes qui suscitent des clics. Il est presque certain que le client découvrira nombre de requêtes qu’il ne soupçonnait pas.
 
-Une évaluation de la saisonnalité est aussi intéressante. Certains sites, quel que soit leur type, reçoivent des pics de visite réguliers: avant les vacances d'été, à la péride de Noël et de la nouvelle année, etc. C'est une chance et il est bon de capitaliser sur ces requêtes.
+Une évaluation de la saisonnalité est aussi intéressante. Certains sites, quel que soit leur type, reçoivent des pics de visite réguliers: avant les vacances d’été, à la péride de Noël et de la nouvelle année, etc. C’est une chance et il est bon de capitaliser sur ces requêtes.
 
 ### Optimisation technique du référencement
 

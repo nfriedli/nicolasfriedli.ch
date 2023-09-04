@@ -25,7 +25,7 @@ Header always set X-Permitted-Cross-Domain-Policies "none"
 ErrorDocument 404 https://nicolasfriedli.ch/
 
 # Redirection du flux RSS
-Redirect 301 /feed/ index.xml
+Redirect 301 /feed/ /index.xml
 
 # Cache général
 <filesMatch ".(css|js|jpg|jpeg|png|gif|ico|svg)$">

@@ -82,9 +82,9 @@ Tant que le style n’a pas été modifié, le fichier n’est pas téléchargé
 
 Il me semble que les options choisies sont pertinents et suffisantes pour mon site. Mais Hugo propose d’autres possibilités. Par exemple:
 
-- Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/). C’est inutile puisque je ne n’ai qu’un fichier (par type de média). Et ce n'est plus toujours pertinent avec le protocole `HTTP/2`.
+- Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/). C’est inutile puisque je ne n’ai qu’un fichier (par type de média). Et ce n’est plus toujours pertinent avec le protocole `HTTP/2`.
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/hugo-pipes/fingerprint/#usage). C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
-- Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transform-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes. Et, surtout, les variables CSS permettent aujourd'hui beaucoup de belles choses.
+- Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transform-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes. Et, surtout, les variables CSS permettent aujourd’hui beaucoup de belles choses.
 - [Supprimer les styles non utilisés avec PurgeCSS](https://zwbetz.com/how-to-use-purgecss-with-hugo/) comme le propose Zachary Wade Betz. C’est utile sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas sur mon modeste blog.
 
 ## Bonus: intégrer la feuille de style

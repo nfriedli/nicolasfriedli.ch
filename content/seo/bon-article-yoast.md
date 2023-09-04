@@ -87,7 +87,7 @@ Une attitude hautaine prendra ces considérations pour acquises ou ridicules, pa
 
 Yoast signale le phrases à la **voix passive**. Je trouve intéressant de me rendre compte de ma propension à beaucoup l’utiliser. Trop? J’au l’impression que ce n’est pas si problématique, mais peut être que je me trompe.
 
-Un **test de lisibilité** est automatiquement proposé pour chaque page. Il s’agit de [Flesch-Kincaid](https://fr.wikipedia.org/wiki/Tests_de_lisibilit%C3%A9_Flesch-Kincaid). Alors que je rédigeais cette page avec Yoast, j'étais autour de 82%. Signe d’un billet assez facile à lire.
+Un **test de lisibilité** est automatiquement proposé pour chaque page. Il s’agit de [Flesch-Kincaid](https://fr.wikipedia.org/wiki/Tests_de_lisibilit%C3%A9_Flesch-Kincaid). Alors que je rédigeais cette page avec Yoast, j’étais autour de 82%. Signe d’un billet assez facile à lire.
 
 ### Critères discutables pour un bon article
 
