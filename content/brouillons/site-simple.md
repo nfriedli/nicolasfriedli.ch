@@ -1,7 +1,5 @@
 +++
 title = "Le site le plus simple qui fonctionne bien"
-date = 2023-05-13
-draft = true
 +++
 
 [The Simplest Web Site That Could Possibly Work Well](https://www.zachleat.com/web/that-could-possibly-work/) par Zach Leatherman

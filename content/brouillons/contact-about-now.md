@@ -1,7 +1,5 @@
 +++
 title = "Contact, à propos et /now: les 3 pages les plus importantes d’un blog"
-date = 2023-05-10
-draft = true
 +++
 
 Les 3 pages citées en titre me semblent parmi les plus importantes sur un site web personnel. Elles permettent de renseigner les internautes de manière fiable et structurée. Elles donnent de la crédibilité à un blog.

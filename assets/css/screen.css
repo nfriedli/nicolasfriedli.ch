@@ -1,8 +1,8 @@
 :root {
     --background: #EEE;
-    --text: #222;
+    --text: #234;
 
-    --font-main: Inter, "Mona Sans", Mulish, -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-main:  Inter, "Mona Sans", -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: "Noto Sans Mono", "Roboto Mono", ui-monospace, Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1280,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -16,7 +16,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background:#000;
-        --text: #AAA;
+        --text: #ABC;
     }
 }
 

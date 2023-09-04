@@ -1,7 +1,5 @@
 +++
 title = "Réflexions sur un site d’urgence"
-date = 2023-06-02
-draft = true
 +++
 
 ## Typologie d’urgences
