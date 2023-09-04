@@ -15,7 +15,7 @@ En savoir plus sur l’auteur du site et sur le site lui-même. Par ces quelques
 
 Nicolas Friedli est titulaire d’un *master* en théologie protestante de l’Université de Neuchâtel. Il est consultant web indépendant et salarié à 30% pour le web et les réseaux sociaux de l’EREN (Église réformée évangélique du canton de Neuchâtel).
 
-Il apprécie les sites web simples, performants et pérennes. Après avoir travaillé avec SPIP, puis WordPress (toujours utilisé), il produit aujourd’hui des sites avec Hugo.
+Il apprécie les sites web simples, performants et pérennes. Après avoir travaillé avec SPIP, puis WordPress (toujours utilisé) et DokuWiki, il produit aujourd’hui des sites avec Hugo.
 
 Durant les 15+ dernières années, il a travaillé pour les domaines:
 
@@ -42,7 +42,7 @@ Il propose une typographie fluide créée avec [Utopia](https://utopia.fyi/). Et
 
 nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 
-Ses sources sont disponibles dans un dépôt GitHub public. Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
+Ses sources sont disponibles dans un dépôt GitHub public (lien en bas de chaque page). Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 
 Il est hébergé en Suisse, chez Infomaniak, une entreprise éco-responsable. Même si je trouve les services comme Netlify ou CloudFlare performants et agréables, j’ai fait le choix de mon pays et de l’écologie.
 
