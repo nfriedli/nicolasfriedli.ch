@@ -50,7 +50,7 @@ Voici les règles qui me paraissent les plus importantes selon les règles Opqua
 
 - [Les liens sont visuellement différenciés du reste du contenu](https://checklists.opquast.com/fr/assurance-qualite-web/les-liens-sont-visuellement-differencies-du-reste-du-contenu)
 
-Les règles Opquast nous aident à «rendre le web meilleur». Les liens y ont une grande part, ce n’est pas un hasard. Le web, c’est [du texte et des liens](https://nicolasfriedli.ch/contenu-textuel/).
+Les règles Opquast nous aident à «rendre le web meilleur». Les liens y ont une grande part, ce n’est pas un hasard. Le web, c’est [du texte et des liens](/web/contenu-textuel/).
 
 ## Navigation utile et efficace
 
@@ -74,7 +74,7 @@ En appliquant progressivement toutes ces mesures, qui sont compatibles entre ell
 
 - en améliorant la satisfaction des internautes qui ne cliquent pas pour rien
 
-- en [optimisant son référencement](https://nicolasfriedli.ch/optimisation-referencement-organisations/) pour mettre en évidence les pages les plus importantes dans les résultats des moteurs de recherche (SERP)
+- en [optimisant son référencement](/seo/optimisation-organisations/) pour mettre en évidence les pages les plus importantes dans les résultats des moteurs de recherche (SERP)
 
 - en rendant la navigation agréable et utile par la contextualisation des contenus en relation
 

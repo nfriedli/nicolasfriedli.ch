@@ -13,7 +13,7 @@ J’utilise Yoast sur les sites WordPress que je gère. Ce site n’utilise pas 
 
 Google utilise énormément de critères de classement. Cette liste prétendument complète en donne une idée: [Google’s 200 Ranking Factors: The Complete List](https://backlinko.com/google-ranking-factors). Les analyses proposées par ce *plugin* visent à améliorer un petit nombre de ces critères.
 
-Toutefois, le référencement, c’est beaucoup plus que ça. Je ne proposerais pas des [interventions en tant que consultant SEO](/seo/consultant--referencement-neuchatel/) si j’estimais Yoast suffisant.
+Toutefois, le référencement, c’est beaucoup plus que ça. Je ne proposerais pas des [interventions en tant que consultant SEO](/seo/consultant-neuchatel/) si j’estimais Yoast suffisant.
 
 Les débats de spécialistes sur les techniques et tactiques pour briller dans les moteurs de recherche ne m’intéressent pas ici. Pas plus que les comparatifs entre différents outils.
 
