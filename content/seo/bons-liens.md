@@ -43,11 +43,8 @@ En version simplifiée, il faut que les liens se trouvent *dans le contenu de la
 Voici les règles qui me paraissent les plus importantes selon les règles Opquast:
 
 - [Chaque lien est doté d’un intitulé dans le code source](https://checklists.opquast.com/fr/assurance-qualite-web/chaque-lien-est-dote-dun-intitule-dans-le-code-source)
-
 - [Les liens de même nature ont des couleurs, des formes et des comportements identiques sur toutes les pages](https://checklists.opquast.com/fr/assurance-qualite-web/les-liens-de-meme-nature-ont-des-couleurs-des-formes-et-des-comportements-identiques-sur-toutes-les-pages)
-
 - [Le soulignement est réservé aux liens](https://checklists.opquast.com/fr/assurance-qualite-web/le-soulignement-est-reserve-aux-liens)
-
 - [Les liens sont visuellement différenciés du reste du contenu](https://checklists.opquast.com/fr/assurance-qualite-web/les-liens-sont-visuellement-differencies-du-reste-du-contenu)
 
 Les règles Opquast nous aident à «rendre le web meilleur». Les liens y ont une grande part, ce n’est pas un hasard. Le web, c’est [du texte et des liens](/web/contenu-textuel/).
@@ -59,13 +56,9 @@ En allant plus loin, la question de la navigation est aussi importante. Les 4S d
 Même s’il parle de documentation technique, l’exposé de Tom Johnson parle de tout site. Il reprend 5 principes du design et nous propose:
 
 - de regrouper les contenus similaires, pour en montrer la proximité (c’est le principe d’un menu, mais aussi de ma liste de règles Opquast ci-dessus)
-
 - de montrer des contenus en relation, pour permettre de continuer sa navigation
-
 - de publier des liens dans le contenu (exactement comme le propose Yoast ci-dessus)
-
 - de mettre en évidence les thématiques de manière progressive (pour ne pas proposer des méga-menus à rallonge)
-
 - de toujours dire aux personnes à quel endroit du site elles se trouvent dans le site, par exemple par un *fil d’Ariane* ou *breadcrumb* (ce site très simple n’en propose pas encore).
 
 ## Pourquoi les liens sont importants
@@ -73,11 +66,8 @@ Même s’il parle de documentation technique, l’exposé de Tom Johnson parle 
 En appliquant progressivement toutes ces mesures, qui sont compatibles entre elles, il est possible d’améliorer drastiquement son site:
 
 - en améliorant la satisfaction des internautes qui ne cliquent pas pour rien
-
 - en [optimisant son référencement](/seo/optimisation-organisations/) pour mettre en évidence les pages les plus importantes dans les résultats des moteurs de recherche (SERP)
-
 - en rendant la navigation agréable et utile par la contextualisation des contenus en relation
-
 - en favorisant un site accessible (A11Y) pour toutes et tous
 
 Je ne fais que le répéter, mais les contenus et les liens sont les deux éléments constitutifs du web. Créer des liens de qualité est toujours rentable à terme, même si cela demande un peu plus d’effort qu’un texte au kilomètre.
