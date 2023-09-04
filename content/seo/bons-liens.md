@@ -66,7 +66,7 @@ Même s’il parle de documentation technique, l’exposé de Tom Johnson parle 
 
 - de mettre en évidence les thématiques de manière progressive (pour ne pas proposer des méga-menus à rallonge)
 
-- de toujours dire aux personnes à quel endroit du site elles se trouvent dans le site, par exemple par un *fil d’Ariane* ou *breadcrumb* (ce site très simple n’en propose pas mais donne toujours la catégorie dans laquelle est publié le billet)
+- de toujours dire aux personnes à quel endroit du site elles se trouvent dans le site, par exemple par un *fil d’Ariane* ou *breadcrumb* (ce site très simple n’en propose pas encore).
 
 ## Pourquoi les liens sont importants
 
