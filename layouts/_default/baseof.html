@@ -11,13 +11,7 @@
     {{ partialCached "head/favicon" . }}
     
     <link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ site.Title }}">
-    
-    <link rel="canonical" href="{{.Permalink}}">
-
-    <meta name="author" content="Nicolas Friedli">
-    
-    {{ template "_internal/opengraph.html" . }}
-
+    <link rel="canonical" href="{{.Permalink}}">    
     {{ hugo.Generator }}
 </head>
 
