@@ -9,7 +9,7 @@ L’extension Wordpress de référencement Yoast fournit une double analyse en t
 
 J’utilise Yoast sur les sites WordPress que je gère. Ce site n’utilise pas WordPress.
 
-## Sur ce (bon) article
+## Sur cet article qui devrait être bon
 
 Google utilise énormément de critères de classement. Cette liste prétendument complète en donne une idée: [Google’s 200 Ranking Factors: The Complete List](https://backlinko.com/google-ranking-factors). Les analyses proposées par ce *plugin* visent à améliorer un petit nombre de ces critères.
 
