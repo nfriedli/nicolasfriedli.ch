@@ -9,7 +9,7 @@ L’extension Wordpress de référencement Yoast fournit une double analyse en t
 
 J’utilise Yoast sur les sites WordPress que je gère. Ce site n’utilise pas WordPress.
 
-## Sur cet article qui devrait être bon
+## Que signifie «bon»?
 
 Google utilise énormément de critères de classement. Cette liste prétendument complète en donne une idée: [Google’s 200 Ranking Factors: The Complete List](https://backlinko.com/google-ranking-factors). Les analyses proposées par ce *plugin* visent à améliorer un petit nombre de ces critères.
 
@@ -19,7 +19,7 @@ Les débats de spécialistes sur les techniques et tactiques pour briller dans l
 
 Je constate seulement que Yoast propose une démarche globale cohérente: [Holistic SEO: Improve every aspect of your website](https://yoast.com/holistic-seo/). Il faut consulter les articles du site plutôt que se limiter à l’activation de l’extension pour le voir.
 
-Mon impression, confirmée année après année, c’est que les critères mis en évidence sont bien choisis. Ils sont utiles tant pour Google que pour vous. Ils sont compréhensible et, surtout, utilisables sans grand difficulté. Ce billet les liste et les commente sans prétention à l’exhaustivité.
+Mon impression, confirmée année après année, c’est que les critères mis en évidence sont bien choisis. Ils sont utiles tant pour Google que pour vous. Ils sont compréhensible et, surtout, utilisables sans grande difficulté. Ce billet les liste et les commente sans prétention à l’exhaustivité.
 
 ## Bon article pour le référencement
 
