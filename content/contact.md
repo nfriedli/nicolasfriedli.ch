@@ -7,6 +7,8 @@ layout = "nodate"
 
 menu  = "main"
 weight = 1000
+
+images = ["/images/nicolas-friedli.jpg"]
 +++
 
 Toutes les informations utiles pour me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque sur ce site.
