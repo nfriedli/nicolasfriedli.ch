@@ -1,5 +1,5 @@
 :root {
-    --background: hsl(210, 10%, 90%);
+    --background: hsl(210, 30%, 90%);
     --text: hsl(210, 30%, 10%);
 
     --font-main:  Inter, "Mona Sans", -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -16,8 +16,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background:hsl(210, 0%, 0%);
-        --text: hsl(210, 40%, 80%);
+        --background:hsl(210, 5%, 5%);
+        --text: hsl(210, 20%, 80%);
     }
 }
 
