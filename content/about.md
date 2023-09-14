@@ -2,6 +2,7 @@
 title = "À propos"
 description = "En savoir plus sur l’auteur du site avec quelques éléments biographiques et sur le site avec des détails techniques."
 date = 2023-09-04
+lastMod = 2023-09-14
 
 layout = "nodate"
 
@@ -38,7 +39,7 @@ Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père d
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
 
-Il propose une typographie fluide créée avec [Utopia](https://utopia.fyi/). Et n’utilise pas de polices d’écriture autres que celles déjà disponibles sur votre périphérique pour ne pas ralentir l’affichage.
+Il propose une typographie fluide créée avec [Utopia](https://utopia.fyi/). Il utilise la [police Fraunces pour les titres](/web/police-optimisee-titres/), chargée de manière à ne pas ralentir la consultation.
 
 nicolasfriedli.ch est généré avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 

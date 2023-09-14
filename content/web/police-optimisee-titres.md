@@ -2,11 +2,10 @@
 title = "Police optimisée pour les titres"
 description = "Comment proposer une police particulière pour les titres sans prétériter la performance?"
 date = 2023-05-14
+lastMod = 2023-09-14
 +++
 
 Comment proposer une police particulière pour les titres sans prétériter la performance? Voici la stratégie j’applique sur mon site.
-
-**Remarque.** Désormais, le site n’utilise que des polices disponibles sur votre ordinateur.
 
 ## Optimisation de la police
 
