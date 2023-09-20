@@ -1,14 +1,12 @@
-+++
-title = "À propos"
-description = "En savoir plus sur l’auteur du site avec quelques éléments biographiques et sur le site avec des détails techniques."
-date = 2023-09-04
-lastMod = 2023-09-14
-
-layout = "nodate"
-
-menu  = "main"
-weight = 990
-+++
+---
+title: À propos
+description: En savoir plus sur l’auteur du site avec quelques éléments biographiques et sur le site avec des détails techniques.
+weight: 990
+date: 2023-09-04
+lastMod: 2023-09-14
+layout: nodate
+menu: main
+---
 
 En savoir plus sur l’auteur du site et sur le site lui-même. Par ces quelques lignes, vous saurez rapidement s’il vaut la peine de faire appel à moi pour un mandat de consultant ou pour un engagement de longue durée.
 

@@ -1,3 +1,3 @@
-+++
-title = "Google Search Console plutôt que des statistiques"
-+++
+---
+title: Google Search Console plutôt que des statistiques
+---

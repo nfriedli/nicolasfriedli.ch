@@ -1,8 +1,8 @@
-+++
-title = "Budget de performance"
-description = "Le travail sur un budget de performance permet des négociations en amont, une analyse à la mise en production et un suivi dans la durée."
-date = 2023-08-18
-+++
+---
+title: Budget de performance
+description: Le travail sur un budget de performance permet des négociations en amont, une analyse à la mise en production et un suivi dans la durée.
+date: 2023-08-18
+---
 
 Il est facile et rapide d’évaluer la performance d’un site web avec Lighthouse, Web Page Test ou PageSpeed Insights. Mais ce n’est qu’un test ponctuel. Le travail sur un vrai budget de performance permet des *négociations* en amont. Puis une *analyse* à la mise en production. Enfin un *suivi* dans la durée.
 

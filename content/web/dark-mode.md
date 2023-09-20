@@ -1,8 +1,8 @@
-+++
-title = "Mode sombre et version à fort contraste"
-description = "Comment proposer un mode sombre (dark mode) simple? Et des versions à contraste élevé?"
-date = 2023-05-15
-+++
+---
+title: Mode sombre et version à fort contraste
+description: Comment proposer un mode sombre (dark mode) simple? Et des versions à contraste élevé?
+date: 2023-05-15
+---
 
 Comment proposer un mode sombre (dark mode) simple? Et des versions à contraste élevé? Avec des variables CSS, c’est possible en quelques lignes sur un site tel que mon blog.
 

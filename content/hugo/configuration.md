@@ -1,9 +1,10 @@
-+++
-title = "Configuration d’Hugo"
-description = "Quelques commentaires la configuration d’Hugo avec un fichier hugo.toml simple. Notes sur la modularisation et les environnements."
-date = 2023-08-21
-aliases = ["/configuration-hugo/"]
-+++
+---
+title: Configuration d’Hugo
+description: Quelques commentaires la configuration d’Hugo avec un fichier hugo.toml simple. Notes sur la modularisation et les environnements.
+date: "2023-08-21"
+aliases:
+- /configuration-hugo/
+---
 
 La configuration d’Hugo est simple quand on part de zéro, mais souvent complexe lorsqu’un thème existant est repris. Il est bon de connaître certains concepts de base pour se débrouiller ensuite.
 

@@ -1,10 +1,10 @@
-+++
-title = "Faire de bons liens"
-description = "De bons liens pour améliorer le référencement et l’accessibilité et rendre l’expérience de navigation utile et agréable aux internautes."
-date = 2023-08-29
-
-aliases = ["/bons-liens/"]
-+++
+---
+title: Faire de bons liens
+description: De bons liens pour améliorer le référencement et l’accessibilité et rendre l’expérience de navigation utile et agréable aux internautes.
+date: 2023-08-29
+aliases:
+- /bons-liens/
+---
 
 Des conseils pour faire de bons liens par des experts du web, c’est la petite compilation que je vous propose. En appliquant leurs méthodes, il est possible d’améliorer l’expérience des internautes. Des liens de qualité sont aussi utiles pour le référencement (SEO) et l’accessibilité (A11Y) de votre site.
 

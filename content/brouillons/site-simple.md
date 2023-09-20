@@ -1,6 +1,6 @@
-+++
-title = "Le site le plus simple qui fonctionne bien"
-+++
+---
+title: Le site le plus simple qui fonctionne bien
+---
 
 [The Simplest Web Site That Could Possibly Work Well](https://www.zachleat.com/web/that-could-possibly-work/) par Zach Leatherman
 

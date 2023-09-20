@@ -1,9 +1,10 @@
-+++
-title = "Un bon article selon Yoast"
-description = "Des critères de référencement (SEO) et de lisibilité permettraient de rédiger un bon article. Ou d’éviter d’écrire un contenu inadapté."
-date = 2023-08-25
-aliases = ["/bon-article-yoast/"]
-+++
+---
+title: Un bon article selon Yoast
+description: Des critères de référencement (SEO) et de lisibilité permettraient de rédiger un bon article. Ou d’éviter d’écrire un contenu inadapté.
+date: 2023-08-25
+aliases:
+- /bon-article-yoast/
+---
 
 L’extension Wordpress de référencement Yoast fournit une double analyse en temps réel. Elle évalue le SEO (*Search Engine Optimisation)* et la lisibilité pour aider à écrire un bon article. Il me paraît intéressant de lister les critères qui permettent de rédiger des pages de qualité.
 

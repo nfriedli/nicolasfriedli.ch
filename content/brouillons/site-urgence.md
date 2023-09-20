@@ -1,6 +1,6 @@
-+++
-title = "Réflexions sur un site d’urgence"
-+++
+---
+title: Réflexions sur un site d’urgence
+---
 
 ## Typologie d’urgences
 
