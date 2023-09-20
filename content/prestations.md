@@ -1,9 +1,10 @@
----
-title: Prestations
-description: Nicolas Friedli est consultant web indépendant. Il s’intéresse aux sites statiques, à la création de contenu textuel, à l’architecture d’information et au référencement.
-date: "2023-09-04"
-layout: nodate
----
++++
+title = "Prestations"
+description = "Nicolas Friedli est consultant web indépendant. Il s’intéresse aux sites statiques, à la création de contenu textuel, à l’architecture d’information et au référencement."
+date = 2023-09-04
+
+layout = "nodate"
++++
 
 Je suis passionné par les sites web à fort contenu. Je propose des *analyses*, des *conseils* et des *formations* dans les domaines suivants:
 

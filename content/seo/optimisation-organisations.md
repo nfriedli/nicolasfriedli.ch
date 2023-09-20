@@ -1,10 +1,9 @@
----
-title: Optimisation du référencement d’un site d’organisation
-description: Notes sur l’optimisation du référencement (SEO) pour les institutions et organisations, pour un travail efficace et adapté aux moyens.
-date: 2023-08-23
-aliases:
-- /optimisation-referencement-organisations/
----
++++
+title = "Optimisation du référencement d’un site d’organisation"
+description = "Notes sur l’optimisation du référencement (SEO) pour les institutions et organisations, pour un travail efficace et adapté aux moyens."
+date = 2023-08-23
+aliases = ["/optimisation-referencement-organisations/"]
++++
 
 Suite à une discussion à bâtons rompus avec un client potentiel sur l’optimisation du référencement (SEO) du site d’une ville Suisse, je publie quelques notes.
 

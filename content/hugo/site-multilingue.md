@@ -1,9 +1,9 @@
----
-title: Site multilingue avec Hugo
-description: XXX
-date: 2023-09-14
-draft: true
----
++++
+title = "Site multilingue avec Hugo"
+description = "XXX"
+date = 2023-09-14
+draft = true
++++
 
 https://jamstatic.fr/2018/08/17/contenu-multilingue-avec-hugo/
 

@@ -1,10 +1,9 @@
----
-title: Consultant SEO à Neuchâtel
-description: Votre consultant en optimisation du référencement (SEO) et référencement local (local SEO) dans le canton de Neuchâtel et en Suisse romande.
-date: 2023-08-10
-aliases:
-- /consultant-seo-referencement-local-neuchatel/
----
++++
+title = "Consultant SEO à Neuchâtel"
+description = "Votre consultant en optimisation du référencement (SEO) et référencement local (local SEO) dans le canton de Neuchâtel et en Suisse romande."
+date = 2023-08-10
+aliases = ["/consultant-seo-referencement-local-neuchatel/"]
++++
 
 La Search Console de Google me signale que la requête «consultant SEO à Neuchâtel» déclenche des affichages et des clics sur mon site. Je m’en amuse en pensant que je n’ai pas cherché à optimiser cette requête. Mais il est vrai que j’effectue un travail d’optimisation du référencement (SEO) pour des institutions et organisations neuchâteloises.
 

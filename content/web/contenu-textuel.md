@@ -1,10 +1,9 @@
----
-title: Le contenu textuel d’abord
-description: Les sites à fort contenu textuel sont ceux qui m’intéressent le plus. Parce que le langage HTML est avant tout pensé pour publier du texte.
-date: 2023-08-09
-aliases:
-- /contenu-textuel/
----
++++
+title = "Le contenu textuel d’abord"
+description = "Les sites à fort contenu textuel sont ceux qui m’intéressent le plus. Parce que le langage HTML est avant tout pensé pour publier du texte."
+date = 2023-08-09
+aliases = ["/contenu-textuel/"]
++++
 
 Les sites simples à fort contenu textuel sont ceux qui m’intéressent le plus. Peut-être tout simplement parce que le langage HTML est avant tout pensé pour publier du texte. Et même quand on parle de multimédia, le texte se cache partout.
 

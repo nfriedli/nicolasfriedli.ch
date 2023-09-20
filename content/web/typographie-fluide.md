@@ -1,8 +1,8 @@
----
-title: Adopter une typographie fluide
-description: Une typographie fluide permet d’optimiser son texte à toutes les tailles d’écran. Il ne suffit pas de proposer du texte lisible, il faut donner aux internautes du contenu agréable à voir.
-date: 2023-05-16
----
++++
+title = "Adopter une typographie fluide"
+description = "Une typographie fluide permet d’optimiser son texte à toutes les tailles d’écran. Il ne suffit pas de proposer du texte lisible, il faut donner aux internautes du contenu agréable à voir."
+date = 2023-05-16
++++
 
 Une typographie fluide permet d’optimiser son texte à toutes les tailles d’écran. Il ne suffit pas de proposer du texte lisible, il faut donner aux internautes du contenu agréable à voir.
 
