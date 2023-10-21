@@ -1,6 +1,6 @@
 :root {
-    --background: hsl(210, 30%, 90%);
-    --text: hsl(210, 30%, 10%);
+    --background: oklch(95% 0.02 248);
+    --text: oklch(25% 0.06 248);
 
     --font-main:  Inter, "Mona Sans", -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-titling: Fraunces, var(--font-main);
@@ -16,8 +16,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background:hsl(210, 5%, 5%);
-        --text: hsl(210, 20%, 80%);
+        --background:oklch(10% 0.1 248);
+        --text: oklch(85% 0.04 248);
     }
 }
 
