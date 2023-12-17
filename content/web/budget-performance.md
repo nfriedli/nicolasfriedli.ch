@@ -6,7 +6,7 @@ date = 2023-08-18
 
 Il est facile et rapide d’évaluer la performance d’un site web avec Lighthouse, Web Page Test ou PageSpeed Insights. Mais ce n’est qu’un test ponctuel. Le travail sur un vrai budget de performance permet des *négociations* en amont. Puis une *analyse* à la mise en production. Enfin un *suivi* dans la durée.
 
-## [](https://github.com/nfriedli/nicolasfriedli.ch/blob/4057f881885bf3bfe918acba3342b11a0bf81e96/content/performance/budget.md#quest-ce-quun-budget-de-perfomance)Qu’est-ce qu’un budget de perfomance?
+## Qu’est-ce qu’un budget de perfomance?
 
 Un budget de performance, ce sont les «coûts» acceptés pour l’affichage d’une page web. **Par coûts, on entend:**
 

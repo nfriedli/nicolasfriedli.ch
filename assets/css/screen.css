@@ -63,6 +63,7 @@ h2,
 h3 {
     font-family: var(--font-titling);
     line-height: 1.1;
+    text-wrap: balance;
 }
 
 h1 {
@@ -85,9 +86,8 @@ li {
 }
 
 p {
-    hyphens: auto;
-    -webkit-hyphens: auto;
     margin-top: 1rem;
+    text-wrap: pretty;
 }
 
 a {

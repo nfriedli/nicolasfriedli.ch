@@ -56,7 +56,7 @@ Je teste régulièrement mon site pour m’assurer de toujours obtenir les meill
 - 4 fois 100/100 avec [PageSpeed Insights](https://pagespeed.web.dev/)
 - aucune erreur d’accessibilité chez [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 - HTML valide selon le [Markup Validation Service du W3C](https://validator.w3.org/)
-- CSS valide selon le [CSS Validation Service du W3C](https://jigsaw.w3.org/css-validator/)
+- CSS valide selon le [CSS Validation Service du W3C](https://jigsaw.w3.org/css-validator/) (sauf quand j’utilise des fonctions correctes mais pas encore implémentées dans le validateur)
 - RSS valide selon le [Feed Validation Service du W3C](https://validator.w3.org/feed/)
 
 J’essaie de respecter toutes les [règles Opquast](https://checklists.opquast.com/fr/assurance-qualite-web/) applicables à mon blog.
