@@ -22,7 +22,7 @@ Ce qui m’importe en particulier sur theologique.ch, c’est de montrer en quoi
 
 Un exemple tout simple, le billet [Communiquer par la qualité](https://theologique.ch/blog/communiquer-qualite/). Il essaie de dire en quoi une démarche d’amélioration progressive d’un site insitutitonnel permet d’en travailler l’image. En amélioration l’expérience des internautes, c’est une possibilité souvent sous-estimée de se présenter sous un meilleur jour.
 
-La qualité web est en lien avec l’accessibilité (donc l’inclusivité), avec le référencement (donc l’évangélisation), avec l’éco-conception (donc le respect de la Création). Ma conviction, c’est qu’une démarche sérieuse de qualité web est au finale proche de thématiques ecclésiales importantes.
+La qualité web est en lien avec l’accessibilité (donc l’inclusivité), avec le référencement (donc l’évangélisation), avec l’éco-conception (donc le respect de la Création). Ma conviction, c’est qu’une démarche sérieuse de qualité web est au final proche de thématiques ecclésiales importantes.
 
 ## Un blog sans jugement
 
