@@ -53,7 +53,7 @@ Le site obtient des «pastilles vertes» (90+ sur 100) chez [PageSpeed Insights]
 Les résultats des [validations par le World Wide Web Consortium (W3C)](https://validator.w3.org/) sont valides pour:
 
 - le code HTML
-- le code CSS (sauf quand j'utilise dès nouvelles règles comme css non connues du validateur...)
+- le code CSS (sauf quand j’utilise dès nouvelles règles comme css non connues du validateur...)
 - le flux RSS
 
 ## Écoconception

@@ -54,7 +54,7 @@ Pour faciliter la prise de contact, il est bon de rendre les numéros de télép
 
 > L’indicatif international est disponible pour tous les numéros de téléphone.
 
-On proposera donc +41 79 344 33 82 plutôt que 079 344 33 82 (c'est mon numéro de portable).
+On proposera donc +41 79 344 33 82 plutôt que 079 344 33 82 (c’est mon numéro de portable).
 
 > Les numéros de téléphone sont activables via le protocole approprié.
 
@@ -78,14 +78,14 @@ Il en va de même pour les images qui sont des liens:
 
 > Chaque image-lien est dotée d’une alternative textuelle appropriée.
 
-Les intelligences artificielles ne répondent pas à tous les problèmes d'accessibilité, donc [Des alternatives d’images, vite](https://www.opquast.com/des-alternatives-dimages-vite/).
+Les intelligences artificielles ne répondent pas à tous les problèmes d’accessibilité, donc [Des alternatives d’images, vite](https://www.opquast.com/des-alternatives-dimages-vite/).
 
 ## Pour une application immédiate
 
-La vocation de ce petit choix de règles rédactionnelles: inciter les rédacteurs et rédactrices à les appliquer immédiatement. Comme je l'écrivais dans [3 bonnes raisons de lire toutes les règles de qualité Opquast](http://localhost:1313/blog/lire-regles-opquast/), certains règles peuvent être intégrées sans effort, à leur simple lecture.
+La vocation de ce petit choix de règles rédactionnelles: inciter les rédacteurs et rédactrices à les appliquer immédiatement. Comme je l’écrivais dans [3 bonnes raisons de lire toutes les règles de qualité Opquast](http://localhost:1313/blog/lire-regles-opquast/), certains règles peuvent être intégrées sans effort, à leur simple lecture.
 
-Ce qui me paraît le plus important, c'est d'impliquer sans délai tout le monde dans la démarche de qualité web. Les personnes en charge de la rédaction ne peuvent pas faire reposer la qualité sur les profils techniques. L'inverse est tout aussi faux.
+Ce qui me paraît le plus important, c’est d’impliquer sans délai tout le monde dans la démarche de qualité web. Les personnes en charge de la rédaction ne peuvent pas faire reposer la qualité sur les profils techniques. L’inverse est tout aussi faux.
 
-Depuis lontemps, j'essaie de sensibiliser. Encore, toujours.
+Depuis lontemps, j’essaie de sensibiliser. Encore, toujours.
 
 Courage & confiance.
