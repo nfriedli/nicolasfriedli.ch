@@ -18,7 +18,7 @@ C’est aux personnes en charge de sites web de prendre les devants en évitant 
 
 Tenir un discours favorable à l’environnement sur un site ne signifie pas encore que ce site est écoconçu. J’ai souvent l’impression que c’est l’inverse qui est vrai, hélas. De nombreux sites politiques, associatifs ou ecclésiaux qui parlent de sauvegarde de la Création sont très mauvais du point de vue de leur consommation de ressources.
 
-Si j’affirme cela, c’est qu’à chaque fois que je consulte un site qui «proclame l’écologie», j’ai pris l’habitude de le tester dans le [Website Carbon Calculator](https://www.websitecarbon.com/). C’est d’ailleurs ce que j’ai refait avec theologique.ch en préparant ce billet pour vérifier qu’il ne présente pas de problème de consommation.
+Si j’affirme cela, c’est qu’à chaque fois que je consulte un site qui «proclame l’écologie», j’ai pris l’habitude de le tester dans le [Website Carbon Calculator](https://www.websitecarbon.com/). C’est d’ailleurs ce que j’ai refait avec nicolasfriedli.ch en préparant ce billet pour vérifier qu’il ne présente pas de problème de consommation.
 
 Il est facile de condamner les entreprises cynique qui abusent du *greenwashing* en toute connaissance de cause. Mais il est beaucoup plus difficile de se voir dire que son site est mauvais du point de vue écologique alors que l’on tient un discours en toute bonne foi.
 
@@ -50,6 +50,6 @@ Cet état de fait m’interpelle. D’un côté, je vois des efforts sérieux: b
 
 Peut-être que ces institutions ne se rendent pas compte du coût énergétique du web. Peut-être que l’effort n’a pas encore été mis dans ce domaine. Mais le bilan ne me paraît pas assez bon pour revendiquer une réelle cohérence entre les réalité techniques mesurées et les appels que j’entends.
 
-Comme je l’écrivais dans [Communiquer par la qualité](https://theologique.ch/blog/communiquer-qualite/), j’ai l’impression qu’il y a quelque chose de juste à travailler pour améliorer sa cohérence et proclamer la Création en paroles et en actes.
+Comme je l’écrivais dans [Communiquer par la qualité](/qualite/communiquer-qualite/), j’ai l’impression qu’il y a quelque chose de juste à travailler pour améliorer sa cohérence et proclamer la Création en paroles et en actes.
 
-Parce que les mots non suivis de faits ne suffisent pas, je vous invite à [tester theologique.ch dans Website Carbon Calculator](https://www.websitecarbon.com/website/theologique-ch/).
+Parce que les mots non suivis de faits ne suffisent pas, je vous invite à [tester nicolasfriedli.ch dans Website Carbon Calculator](https://www.websitecarbon.com/website/nicolasfriedli-ch/).

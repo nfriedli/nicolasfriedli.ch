@@ -31,7 +31,7 @@ Un bon site est visité. En conséquence, un site de mauvaise qualité est un si
 
 Un bon site propose une vision cohérente entre ce qu’il exprime et la réalité de la pratique. En conséquence, un site de mauvaise qualité n’est pas en phase avec les **services** proposés: informations divergentes et promesses non tenues.
 
-Les 5 termes en évidence dans les 5 affirmations précédentes sont ceux du [modèle VPTCS](/blog/vptcs-eglise/), dans un ordre différent. Ce n’est pas un hasard. La notion de qualité est ainsi découpée en plusieurs catégories:
+Les 5 termes en évidence dans les 5 affirmations précédentes sont ceux du [modèle VPTCS](/qualite/vptcs-eglise/), dans un ordre différent. Ce n’est pas un hasard. La notion de qualité est ainsi découpée en plusieurs catégories:
 
 > La qualité d’un site passe par ses bons résultats dans tous les domaines suivants: visibilité, perception, technique, contenus et service.
 
@@ -43,7 +43,7 @@ Toutefois, ces définitions ne sont pas satisfaisantes, parce qu’elles inviten
 
 ## Définition incrémentale et positive
 
-En partant des [règles Opquast](/blog/lire-regles-opquast/) plutôt que du modèle VPTCS, il me semble possible de formuler les choses de manière plus pertinente. Ainsi vue, la qualité n’est jamais acquise (ou perdue); elle est toujours en devenir.
+En partant des [règles Opquast](/qualite/lire-regles-opquast/) plutôt que du modèle VPTCS, il me semble possible de formuler les choses de manière plus pertinente. Ainsi vue, la qualité n’est jamais acquise (ou perdue); elle est toujours en devenir.
 
 Voici ce que je poserais que définition de travail:
 

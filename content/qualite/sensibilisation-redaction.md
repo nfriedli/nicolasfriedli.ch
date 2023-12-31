@@ -82,7 +82,7 @@ Les intelligences artificielles ne répondent pas à tous les problèmes d’acc
 
 ## Pour une application immédiate
 
-La vocation de ce petit choix de règles rédactionnelles: inciter les rédacteurs et rédactrices à les appliquer immédiatement. Comme je l’écrivais dans [3 bonnes raisons de lire toutes les règles de qualité Opquast](http://localhost:1313/blog/lire-regles-opquast/), certains règles peuvent être intégrées sans effort, à leur simple lecture.
+La vocation de ce petit choix de règles rédactionnelles: inciter les rédacteurs et rédactrices à les appliquer immédiatement. Comme je l’écrivais dans [3 bonnes raisons de lire toutes les règles de qualité Opquast](/qualite/lire-regles-opquast/), certains règles peuvent être intégrées sans effort, à leur simple lecture.
 
 Ce qui me paraît le plus important, c’est d’impliquer sans délai tout le monde dans la démarche de qualité web. Les personnes en charge de la rédaction ne peuvent pas faire reposer la qualité sur les profils techniques. L’inverse est tout aussi faux.
 

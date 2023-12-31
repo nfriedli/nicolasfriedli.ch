@@ -57,7 +57,7 @@ Le critères sont fixés par Google plutôt que par un organisme de normalisatio
 L’écoconception a aussi ses métriques. Le [Website Carbon Calculator](https://www.websitecarbon.com/) donne un résultat unique qui paraît parfois être une sanction. Pourtant, toute la méthodologie est décrite en détail dans [How does it work?
 ](https://www.websitecarbon.com/how-does-it-work/) et [Estimating Digital Emissions](https://sustainablewebdesign.org/calculating-digital-emissions/). Quiconque peut lire tous les critères, chercher à les comprendre, à les appliquer et améliorer son site.
 
-Si j’estime qu’il y a un problème d’écoconception assez généralisé (dans [Écologie et cohérence](https://theologique.ch/blog/ecologie-coherence/)), c’est parce que j’ai testé des centaines de sites et des milliers de pages. Je m’exprime avec neutralité selon des critères objectifs qui ne sont pas choisis par moi.
+Si j’estime qu’il y a un problème d’écoconception assez généralisé (dans [Écologie et cohérence](/qualite/ecologie-coherence/)), c’est parce que j’ai testé des centaines de sites et des milliers de pages. Je m’exprime avec neutralité selon des critères objectifs qui ne sont pas choisis par moi.
 
 Le *Website Carbon Calculator* ne vous plaît pas? Essayez [Ecograder](https://ecograder.com/), qui est tout aussi transparent sur sa page [How it Works](https://ecograder.com/how-it-works).
 
