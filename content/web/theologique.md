@@ -2,8 +2,10 @@
 title = "Un site pour la qualité web en Église"
 description = "theologique.ch devient un site dédié à la qualité web dans le domaine des Églises, des paroisses et des organisations (ONG)."
 date = 2023-12-17
-draft = true
+lastMod = 2024-01-02
 +++
+
+**Note du 2 janvier 2024. Les articles sur la qualité web en Église été rapatriés sur nicolasfriedli.ch, pour le moment dans la rubrique [Qualité](/qualite/). Ce qui suit est caduc. L'avenir de theologique.ch est ailleurs. Bonne année 2024!**
 
 Je possède depuis longtemps de nom de domaine theologique.ch. Il a hébergé un blog, un jardin numérique, de la documentation, etc. J’ai décidé d’en faire un site dédié à la qualité web dans le domaine des Églises, des paroisses et des organisations (ONG).
 
