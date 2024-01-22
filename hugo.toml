@@ -32,5 +32,5 @@ keepDefaultAttrVals = false
 keepQuotes = true
 
 [params]
-footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Statistiques repectueuses par Plausible. Hébergé en Suisse chez Infomaniak. Sources chez [GitHub](https://github.com/nfriedli/nicolasfriedli.ch/). Contenus sous licence libre *Creative Commons BY-SA.*"""
+footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Statistiques repectueuses par Plausible. Hébergé en Suisse chez Infomaniak. Contenus sous licence libre *Creative Commons BY-SA.*"""
 images = ["/images/opengraph.jpg"]

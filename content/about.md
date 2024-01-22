@@ -6,7 +6,7 @@ Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis p
 
 nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide. Il utilise la police d’écriture *IBM Plex Mono*.
 
-Ses sources sont disponibles dans un dépôt GitHub public (lien en bas de chaque page). Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
+Ses sources sont disponibles dans un [dépôt GitHub public](https://github.com/nfriedli/nicolasfriedli.ch/). Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 
 Il est hébergé en Suisse, chez [Infomaniak](https://www.infomaniak.com/), une entreprise éco-responsable. Même si je trouve les services comme Netlify ou CloudFlare performants et agréables, j’ai fait le choix de mon pays et de l’écologie.
 

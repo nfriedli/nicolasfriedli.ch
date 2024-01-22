@@ -10,9 +10,9 @@ Toutes les informations utiles pour me proposer un mandat, m’employer, me pose
 
 Je favorise les mandats de consultant de quelques jours (répartis sur quelques semaines). Toutes mes travaux sont facturés au forfait.
 
-Je souhaite recevoir la description d’un éventuel mandat *avant* une première rencontre (en présentiel ou en ligne). Une demande précise a plus de chances de me convaincre de travailler pour vous.
+Je souhaite recevoir la description d’un éventuel mandat *avant* une première rencontre (en présentiel ou en ligne). Une demande précise a plus de chances de me convaincre de travailler pour vous. Une page détaille [mes prestations de consultant](/prestations/).
 
-C’est Nicolas Friedli qui réalise le travail: pas d’employé·e, pas de stagiaire, pas de sous-traitance.
+C’est toujours Nicolas Friedli qui réalise le travail: pas d’employé·e, pas de stagiaire, pas de sous-traitance.
 
 ## Coordonnées
 
