@@ -1,5 +1,0 @@
-<ul>
-    {{ range first 5 (where site.RegularPages ".Parent.IsHome" false )}}
-    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-    {{ end }}
-</ul>

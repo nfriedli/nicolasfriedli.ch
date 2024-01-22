@@ -21,7 +21,11 @@
 
 <body>
     <header>
-        {{ partial "menu" . }}
+        {{ if .IsHome }}
+            {{ site.Title }}
+        {{ else }}
+            <a href="/">{{ site.Title }}</a>
+        {{ end }}
     </header>
     <main>
         <article>

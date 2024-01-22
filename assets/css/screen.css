@@ -1,138 +1,109 @@
 :root {
-    --background: oklch(95% 0.02 248);
-    --text: oklch(25% 0.06 248);
+    color-scheme: light dark;
+    text-wrap: pretty;
 
-    --font-main:  Inter, "Mona Sans", -apple-system, "Noto Sans", Roboto, system-ui, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-titling: Fraunces, var(--font-main);
-    --font-mono: "Noto Sans Mono", "Roboto Mono", ui-monospace, Menlo, Consolas, monospace;
+    --fonts: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
 
-    /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1280,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-    --step--1: clamp(0.83rem, calc(0.78rem + 0.14vw), 0.89rem);
-    --step-0: clamp(1.00rem, calc(0.81rem + 0.47vw), 1.19rem);
-    --step-1: clamp(1.20rem, calc(0.82rem + 0.96vw), 1.58rem);
-    --step-2: clamp(1.44rem, calc(0.77rem + 1.68vw), 2.11rem);
-    --step-3: clamp(1.73rem, calc(0.64rem + 2.71vw), 2.81rem);
+    --background: #eee;
+    --text: #222;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background:oklch(10% 0.1 248);
-        --text: oklch(85% 0.04 248);
+        --background: #000;
+        --text: #ddd;
     }
 }
 
 html {
-    background-color: var(--background);
+    background: var(--background);
     color: var(--text);
-    font-family: var(--font-main);
-    font-size: 100%;
-    font-size: var(--step-0);
+    font-family: var(--fonts);
+    font-size: 1.1em;
     line-height: 1.5;
+    padding: 2rem;
 }
 
 body {
-    padding: 1rem;
     margin: auto;
-    max-width: 60ch;
+    max-width: 42em;
+}
+
+body>*+* {
+    margin-top: 5rem;
+}
+
+header {
+    text-align: center;
 }
 
 main {
     min-height: 50vh;
 }
 
-header,
-footer,
-time {
-    font-size: var(--step--1);
-}
-
 footer {
-    border-top: 2px solid;
-    margin-top: 4rem;
-    padding-top: 1rem;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    font-size: .9rem;
 }
 
 h1,
-h2,
-h3 {
-    font-family: var(--font-titling);
-    line-height: 1.1;
+h2 {
+    line-height: 1;
     text-wrap: balance;
 }
 
 h1 {
-    font-size: var(--step-3);
-    margin-top: 4rem;
+    font-size: 2rem;
 }
 
 h2 {
-    font-size: var(--step-2);
-    margin-top: 3rem;
-}
-
-h3 {
-    font-size: var(--step-1);
+    font-size: 1.41rem;
     margin-top: 2rem;
 }
 
-li {
-    margin-top: .5rem;
+dt {
+    font-weight: 700;
 }
 
-p {
+dd+dt {
     margin-top: 1rem;
-    text-wrap: pretty;
+}
+
+time {
+    font-style: italic;
 }
 
 a {
-    color: inherit;
-    text-decoration-thickness: .1em;
-}
-
-blockquote {
-    border-left: .2rem solid var(--text);
-    margin-left: 0;
-    padding-left: 1rem;
-}
-
-pre,
-code {
-    background-color: var(--text);
-    color: var(--background);
-    font-family: var(--font-mono);
-    font-size: .95rem;
-}
-
-pre {
-    margin-bottom: 2rem;
-    padding: .5rem 1rem;
-    overflow: auto;
-}
-
-pre code {
-    font-size: .9rem;
-}
-
-
-dt {
-    margin-top: 1rem;
-    font-weight: 700;
-}
-
-dd {
-    margin-left: 1rem;
+    color: var(--text);
 }
 
 @font-face {
-    font-display: optional;
-    font-family: Fraunces;
+    font-display: swap;
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ibm-plex-mono-v19-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "IBM Plex Mono";
+    font-style: italic;
+    font-weight: 400;
+    src: url("/fonts/ibm-plex-mono-v19-latin-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "IBM Plex Mono";
     font-style: normal;
     font-weight: 700;
-    src: url("/fonts/fraunces.woff2");
+    src: url("/fonts/ibm-plex-mono-v19-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "IBM Plex Mono";
+    font-style: italic;
+    font-weight: 700;
+    src: url("/fonts/ibm-plex-mono-v19-latin-700italic.woff2") format("woff2");
 }

@@ -2,12 +2,6 @@
 title = "Contact"
 description = "Toutes les informations utiles pour me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque sur ce site."
 date = 2023-09-04
-
-layout = "nodate"
-
-menu  = "main"
-weight = 1000
-
 images = ["/images/nicolas-friedli.jpg"]
 +++
 

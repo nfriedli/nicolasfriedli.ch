@@ -1,10 +1,10 @@
-<link rel="preload" href="/fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-mono-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-mono-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-mono-v19-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-mono-v19-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
 
 {{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
 {{ $print := resources.Get "css/print.css" | minify | fingerprint }}
 
 <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
-<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
-
-<meta name="theme-color" content="#234">
-<meta name="color-scheme" content="dark light">
+<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">    
