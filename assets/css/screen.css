@@ -16,23 +16,11 @@ html {
     background: var(--background);
     color: var(--text);
     font-family: ibmplexmono, ui-monospace, menlo, consolas, monospace;
-    font-size: 1em;
+    font-size: clamp(1rem, 0.8333rem + 0.4167vw, 1.25rem);
     line-height: 1.5;
     padding: 2rem;
     text-wrap: pretty;
     text-rendering: optimizeLegibility;
-}
-
-@media (min-width: 1200px) {
-    html {
-        font-size: 1.15rem;
-    }
-}
-
-@media (min-width: 1600px) {
-    html {
-        font-size: 1.3rem;
-    }
 }
 
 body {
