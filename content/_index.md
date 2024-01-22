@@ -4,6 +4,6 @@ title: Nicolas Friedli
 
 Je suis consultant web indépendant à Neuchâtel. Pour valoriser les sites à fort contenu, je m’intéresse au référencement (SEO), à l’architecture d’information, à la performance et à l’accessibilité (A11Y).
 
-**Question ou remarque? [Contact](/contact/)**
+Nous sommes en janvier 2024, je commence à construire une nouvelle version de mon site.
 
-Nous sommes en janvier 2024, je construis une nouvelle version de mon site. En attendant les nouveaux contenus, je vous laisse découvrir mon blog [theologique.ch](https://theologique.ch).
+**[Me contacter](/contact/)**
