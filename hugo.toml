@@ -30,6 +30,7 @@ minifyOutput = true
 [minify.tdewolff.html]
 keepDefaultAttrVals = false
 keepQuotes = true
+keepWhitespace = true
 
 [params]
 footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Statistiques repectueuses par Plausible. Hébergé en Suisse chez Infomaniak. Contenus sous licence libre *Creative Commons BY-SA.*"""
