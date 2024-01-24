@@ -19,7 +19,7 @@ html {
     line-height: 1.5;
     padding: 2rem;
     text-wrap: pretty;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeSpeed;
 }
 
 body {
