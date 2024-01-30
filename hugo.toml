@@ -31,5 +31,5 @@ minifyOutput = true
 keepDefaultAttrVals = false
 
 [params]
-footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Statistiques repectueuses par Plausible. Hébergé en Suisse chez Infomaniak. Contenus sous licence libre *Creative Commons BY-SA.*"""
+footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Ne vous traque pas. Hébergé en Suisse chez Infomaniak. Contenus sous licence libre *Creative Commons BY-SA.*"""
 images = ["/images/opengraph.jpg"]

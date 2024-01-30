@@ -12,7 +12,7 @@ Il est hébergé en Suisse, chez [Infomaniak](https://www.infomaniak.com/), une 
 
 Un [flux RSS](/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site. Les flux RSS (ou ATOM) sont des outils qui changent la vie. Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
 
-La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Mon site utilise [Plausible](https://plausible.io/privacy-focused-web-analytics) pour des statistiques minimales et respectueuses. Il n’appelle aucune autre ressource externe. 
+La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Mon site n’utilsie pas de statistiques et ne fait aucun appel à des ressource externe (tierces parties).
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir les meilleurs scores:
 
