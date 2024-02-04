@@ -19,7 +19,6 @@ html {
     font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
     line-height: 1.5;
     padding: 2rem;
-    text-wrap: pretty;
 }
 
 body {
@@ -42,8 +41,7 @@ footer {
 h1,
 h2, 
 h3 {
-    line-height: 1;
-    text-wrap: balance;
+    line-height: 1.1;
     margin-top: 2rem;
 }
 
