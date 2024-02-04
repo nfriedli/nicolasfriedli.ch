@@ -4,7 +4,7 @@ title: À propos de ce site
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
 
-nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide. Il utilise la police d’écriture *IBM Plex Mono*.
+nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 
 Ses sources sont disponibles dans un [dépôt GitHub public](https://github.com/nfriedli/nicolasfriedli.ch/). Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 

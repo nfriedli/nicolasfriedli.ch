@@ -15,11 +15,11 @@
 html {
     background: var(--background);
     color: var(--text);
+    font-family: system-ui, sans-serif;
     font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
     line-height: 1.5;
     padding: 2rem;
     text-wrap: pretty;
-    text-rendering: optimizeSpeed;
 }
 
 body {
@@ -35,28 +35,28 @@ main {
     min-height: 50vh;
 }
 
-
 footer {
     font-size: .9rem;
 }
 
 h1,
-h2 {
+h2, 
+h3 {
     line-height: 1;
     text-wrap: balance;
     margin-top: 2rem;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.0736rem;
 }
 
 h2 {
-    font-size: 1.41rem;
+    font-size: 1.728rem;
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.44rem;
     font-style: italic;
 }
 
@@ -84,10 +84,6 @@ a {
     color: var(--text);
     text-decoration-thickness: .2ex;
     text-underline-offset: .2ex;
-}
-
-a:hover {
-    font-weight: 700;
 }
 
 a:active {
