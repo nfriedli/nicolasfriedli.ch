@@ -39,8 +39,9 @@ footer {
 }
 
 h1,
-h2, 
+h2,
 h3 {
+    font-family: Syne, system-ui, sans-serif;
     line-height: 1.1;
     margin-top: 2rem;
 }
@@ -87,4 +88,12 @@ a {
 a:active {
     background: var(--text);
     color: var(--background);
+}
+
+@font-face {
+    font-display: optional;
+    font-family: "Syne";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/syne-v22-latin-700.woff2") format("woff2");
 }
