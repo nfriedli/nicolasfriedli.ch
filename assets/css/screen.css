@@ -3,6 +3,8 @@
 
     --background: #eee;
     --text: #222;
+
+    --fonts: system-ui, sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,7 +17,7 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family: system-ui, sans-serif;
+    font-family: var(--fonts);
     font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
     line-height: 1.5;
     padding: 2rem;
@@ -41,22 +43,21 @@ footer {
 h1,
 h2,
 h3 {
-    font-family: Syne, system-ui, sans-serif;
+    font-family: Syne, var(--fonts);
     line-height: 1.1;
     margin-top: 2rem;
 }
 
 h1 {
-    font-size: 2.0736rem;
+    font-size: 2.4rem;
 }
 
 h2 {
-    font-size: 1.728rem;
+    font-size: 2rem;
 }
 
 h3 {
-    font-size: 1.44rem;
-    font-style: italic;
+    font-size: 1.6rem;
 }
 
 blockquote {
