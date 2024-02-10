@@ -4,13 +4,14 @@
     --background: #eee;
     --text: #222;
 
-    --fonts: system-ui, sans-serif;
+    --fonts-text: ui-sans-serif, Roboto, system-ui, sans-serif;
+    --fonts-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
 }
 
 html {
     background: var(--background);
     color: var(--text);
-    font-family: var(--fonts);
+    font-family: var(--fonts-text);
     font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
     line-height: 1.5;
     padding: 2rem;
@@ -61,6 +62,18 @@ blockquote {
 
 blockquote em {
     font-style: normal;
+}
+
+code, pre {
+    font-family: var(--fonts-mono);
+    font-size: .9rem;
+}
+
+pre {
+    background: var(--text);
+    color: var(--background);
+    overflow: auto;
+    padding: .5rem 1rem;
 }
 
 dt {
