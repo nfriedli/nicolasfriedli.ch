@@ -11,6 +11,7 @@ disableKinds = [ "taxonomy", "term", "robotsTXT", "404" ]
 cleanDestinationDir = true
 disableFastRender = true
 enableGitInfo = true
+noBuildLock = true
 
 copyright = "Creative Commons BY-SA"
 
@@ -34,4 +35,3 @@ keepWhitespace = true
 
 [params]
 footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Ne vous traque pas. Hébergé en Suisse chez Infomaniak. Contenus sous licence libre *Creative Commons BY-SA.*"""
-images = ["/images/opengraph.jpg"]

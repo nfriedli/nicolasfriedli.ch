@@ -1,12 +1,5 @@
-<link rel="preload" href="/fonts/syne-v22-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-
-{{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
-{{ $print := resources.Get "css/print.css" | minify | fingerprint }}
-
-{{/* 
-    <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
-    <link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
-*/}} 
+{{ $screen := resources.Get "css/screen.css" }}
+{{ $print := resources.Get "css/print.css" }}
 
 <style media="screen">{{ $screen.Content | safeCSS }}</style>
 <style media="print">{{ $print.Content | safeCSS }}</style>

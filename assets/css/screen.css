@@ -1,17 +1,10 @@
 :root {
-    color-scheme: light dark;
+    color-scheme: light;
 
     --background: #eee;
     --text: #222;
 
     --fonts: system-ui, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #000;
-        --text: #ddd;
-    }
 }
 
 html {
@@ -21,6 +14,7 @@ html {
     font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
     line-height: 1.5;
     padding: 2rem;
+    text-wrap: pretty;
 }
 
 body {
@@ -36,28 +30,29 @@ main {
     min-height: 50vh;
 }
 
-footer {
+header, footer {
     font-size: .9rem;
 }
 
 h1,
 h2,
 h3 {
-    font-family: Syne, var(--fonts);
     line-height: 1.1;
+    font-weight: 500;
     margin-top: 2rem;
+    text-wrap: balance;
 }
 
 h1 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 }
 
 blockquote {
@@ -89,12 +84,4 @@ a {
 a:active {
     background: var(--text);
     color: var(--background);
-}
-
-@font-face {
-    font-display: optional;
-    font-family: "Syne";
-    font-style: normal;
-    font-weight: 700;
-    src: url("/fonts/syne-v22-latin-700.woff2") format("woff2");
 }

@@ -1,7 +1,5 @@
 ---
 title: Contact
-images:
-- /images/nicolas-friedli.jpg
 ---
 
 Toutes les informations utiles pour me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque sur ce site.
@@ -10,7 +8,7 @@ Toutes les informations utiles pour me proposer un mandat, m’employer, me pose
 
 Je favorise les mandats de consultant de quelques jours (répartis sur quelques semaines). Toutes mes travaux sont facturés au forfait.
 
-Je souhaite recevoir la description d’un éventuel mandat *avant* une première rencontre (en présentiel ou en ligne). Une demande précise a plus de chances de me convaincre de travailler pour vous. Une page détaille [mes prestations de consultant](/prestations/).
+Je souhaite recevoir la description d’un éventuel mandat *avant* une première rencontre. Une demande précise a plus de chances de me convaincre de travailler pour vous.
 
 C’est toujours Nicolas Friedli qui réalise le travail: pas d’employé·e, pas de stagiaire, pas de sous-traitance.
 
@@ -29,6 +27,4 @@ IDE: CHE-469.715.163
 
 **Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp. 
 
-Je ne suis pas présent sur les réseaux sociaux Facebook, Instagram, LinkedIn, Mastodon ou Twitter à titre personnel. Un autre «Nicolas Friedli» qui s’y trouve est soit un homonyme, soit un imposteur.
-
-Pour m’identifier, voici [mon autoportrait](/images/nicolas-friedli.jpg "Autoportrait de Nicolas Friedli").
+Je ne suis pas présent sur les réseaux sociaux Facebook, Instagram, LinkedIn ou Twitter à titre personnel. Un autre «Nicolas Friedli» qui s’y trouve est soit un homonyme, soit un imposteur.
