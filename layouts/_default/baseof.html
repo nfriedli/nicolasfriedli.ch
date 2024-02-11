@@ -13,7 +13,10 @@
     <link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ site.Title }}">
     <link rel="canonical" href="{{.Permalink}}">    
 
-    {{ hugo.Generator }}
+    {{ if .IsHome }}{{ hugo.Generator }}{{ end }}
+
+    {{ partialCached "head/webmentions" . }}
+
 </head>
 
 <body>

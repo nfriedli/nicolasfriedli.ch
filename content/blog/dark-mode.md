@@ -25,17 +25,17 @@ root {
 }
 ```
 
-Au lieu de préciser le schéma de couleur dans la feuille de style CSS, il est possible de le faire dans le code HTML de la page:
+Au lieu de préciser le schéma de couleur dans la feuille de style CSS, il peut être annoncé dans le code HTML de la page:
 
 ```
 <meta name="color-scheme" content="dark light">
 ```
 
-Dans certains cas, c'est préférable, car le navigateur a cette information avant même de charger la feuille de style. Mais c'est un gain mineur.
+Dans certains cas, c'est préférable, car le navigateur a cette information avant même de charger la feuille de style. Mais c'est là une question de détails.
 
 ## Version aboutie (mais simplissime)
 
-Dès que des couleurs sont choisies, il faut de la cohérence pour éviter du text foncés sur fond foncé. La feuille de style la plus simple pour gérer cela:
+Dès que des couleurs sont choisies, il faut de la cohérence pour éviter du texte foncé sur fond foncé (ou clair sur clair). La feuille de style la plus simple pour gérer cela:
 
 ```
 :root {
@@ -49,6 +49,7 @@ Dès que des couleurs sont choisies, il faut de la cohérence pour éviter du te
         --background: #000;
         --text: #DDD;
     }
+}
 
 html {
     background: var(--background);
@@ -85,6 +86,7 @@ html {
         background: #000;
         color: #DDD;
     }
+}
 
 a {
     color: inherit;
@@ -102,7 +104,7 @@ Des feuilles de style distinctes, une pour le sombre, une pour le clair, avec un
 
 Un changement de couleur avec du javascript comme le propose Max Böck dans [Color Theme Switcher](https://mxb.dev/blog/color-theme-switcher/). C'est très élégant, ça ouvre des perspectives, mais c'est bien plus complexe que quelques lignes de CSS.
 
-L'utilisation de la fonction [`invert()`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/invert) permet, comme son nom l'indique, d'inverser des valeurs. Cette méthode ne me convient pas. Je pense que l'on peut choisir ses couleurs plus finement qu'en les inversant simplement (et elle pose des problème avec les images). 
+L'utilisation de la fonction [`invert()`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/invert) permet, comme son nom l'indique, d'inverser des valeurs. Cette méthode ne me convient pas. Je pense que l'on peut choisir ses couleurs plus finement qu'en les inversant simplement (et elle pose des problème avec les images).
 
 Plutôt que cette méthode par `invert()`, je procéderais plutôt ainsi s'il fallais simplement inverser les valeurs:
 
@@ -130,18 +132,15 @@ a {
 }
 ```
 
-## Mode par défaut
+## Choix du mode par le site
 
-¼¼¼¼¼ à réécrire.
+Dans les exemples précédents, c'est l'internaute qui choisit un thème clair ou un thème foncé. Si le site accepte les 2 modes, c'est bien aux utilisateurs et utilisatrices que le choix incombe. Mais...
 
-Lors que le navigateur ne demande pas *explicitement* un thème, c'est toujours le clair qui est affiché. Je trouve dommage, dans ma feuille de style CSS, de ne pas pouvoir choisir le thème foncé si le navigateur ne précise rien. Je pourrais avoir envie que mon site soit foncé par défaut, par choix esthétique, sans 
+Une règle `no-preference` a été envisagée mais elle n'a jamais été implémentée dans un seul navigateur. Au final, elle a simplement été [supprimée de la spécification technique](https://github.com/w3c/csswg-drafts/issues/3857#issuecomment-634779976). C'est bien dommage. Parce que si un·e internaute n'a pas fait de choix, c'est le thème *light* qui est tout de même considéré comme son choix!
 
-En code, ce serait quelque chose comme:
+En d'autres termes, en tant que responsable de site, je ne peux pas proposer, en pur CSS, un site qui s'affiche:
 
-```
-@media (prefers-color-scheme: light) { 
-    /* règles CSS si light est explicitement choisi */
-}
-```
+- en mode sombre par défaut
+- en mode clair si et seulement si l'internaute a fait un choix explicite
 
-Une règle `no-preference` a été envisagée mais elle est désormais caduque selon la [documentation de MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
+Pour disposer d'un mode sombre par défaut avec une possibilité de passer au mode clair sur demande, il faudra obligatoirement passer par un petit développement (par exemple le *Color Theme Switcher* mentionné plus haut). 

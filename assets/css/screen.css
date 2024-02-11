@@ -31,7 +31,7 @@ main {
     min-height: 50vh;
 }
 
-header, footer {
+header, footer, time {
     font-size: .9rem;
 }
 
