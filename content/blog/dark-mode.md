@@ -3,11 +3,11 @@ title: Mode sombre en quelques lignes de CSS
 date: 2024-02-10
 ---
 
-En quelques lignes de CSS, il est possible d'activer un mode sombre automatique sur son site. La *version aboutie* est celle que j'utilise pour plusieurs projets. C'est simple et fiable.
+En quelques lignes de CSS, il est possible d’activer un mode sombre automatique sur son site. La *version aboutie* est celle que j’utilise pour plusieurs projets. C’est simple et fiable.
 
 ## Version minimale
 
-Le plus simple, c'est:
+Le plus simple, c’est:
 
 ```
 root {
@@ -15,7 +15,7 @@ root {
 }
 ```
 
-Si les couleurs d'arrière-plan, de texte, des liens, etc. n'ont pas été définies, c'est parfaitement fonctionnel. Il suffit de signaler au navigateur qu'il a le droit de s'afficher en clair (*light*) ou en foncé (*dark*) selon les préférences de l'internaute. Si aucune préférence a été fixée, c'est le mode *light* qui sera choisi.
+Si les couleurs d’arrière-plan, de texte, des liens, etc. n’ont pas été définies, c’est parfaitement fonctionnel. Il suffit de signaler au navigateur qu’il a le droit de s’afficher en clair (*light*) ou en foncé (*dark*) selon les préférences de l’internaute. Si aucune préférence a été fixée, c’est le mode *light* qui sera choisi.
 
 Il est aussi possible de passer au mode sombre sans fixer aucune couleur, mais sans bascule automatique en fonction des préférences:
 
@@ -31,7 +31,7 @@ Au lieu de préciser le schéma de couleur dans la feuille de style CSS, il peut
 <meta name="color-scheme" content="dark light">
 ```
 
-Dans certains cas, c'est préférable, car le navigateur a cette information avant même de charger la feuille de style. Mais c'est là une question de détails.
+Dans certains cas, c’est préférable, car le navigateur a cette information avant même de charger la feuille de style. Mais c’est là une question de détails.
 
 ## Version aboutie (mais simplissime)
 
@@ -102,11 +102,11 @@ Des feuilles de style distinctes, une pour le sombre, une pour le clair, avec un
 <link media="(prefers-color-scheme: dark)"  href="dark.css"  rel="stylesheet">
 ```
 
-Un changement de couleur avec du javascript comme le propose Max Böck dans [Color Theme Switcher](https://mxb.dev/blog/color-theme-switcher/). C'est très élégant, ça ouvre des perspectives, mais c'est bien plus complexe que quelques lignes de CSS.
+Un changement de couleur avec du javascript comme le propose Max Böck dans [Color Theme Switcher](https://mxb.dev/blog/color-theme-switcher/). C’est très élégant, ça ouvre des perspectives, mais c’est bien plus complexe que quelques lignes de CSS.
 
-L'utilisation de la fonction [`invert()`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/invert) permet, comme son nom l'indique, d'inverser des valeurs. Cette méthode ne me convient pas. Je pense que l'on peut choisir ses couleurs plus finement qu'en les inversant simplement (et elle pose des problème avec les images).
+L’utilisation de la fonction [`invert()`](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/invert) permet, comme son nom l’indique, d’inverser des valeurs. Cette méthode ne me convient pas. Je pense que l’on peut choisir ses couleurs plus finement qu’en les inversant simplement (et elle pose des problème avec les images).
 
-Plutôt que cette méthode par `invert()`, je procéderais plutôt ainsi s'il fallais simplement inverser les valeurs:
+Plutôt que cette méthode par `invert()`, je procéderais plutôt ainsi s’il fallais simplement inverser les valeurs:
 
 ```
 :root {
@@ -134,13 +134,13 @@ a {
 
 ## Choix du mode par le site
 
-Dans les exemples précédents, c'est l'internaute qui choisit un thème clair ou un thème foncé. Si le site accepte les 2 modes, c'est bien aux utilisateurs et utilisatrices que le choix incombe. Mais...
+Dans les exemples précédents, c’est l’internaute qui choisit un thème clair ou un thème foncé. Si le site accepte les 2 modes, c’est bien aux utilisateurs et utilisatrices que le choix incombe. Mais...
 
-Une règle `no-preference` a été envisagée mais elle n'a jamais été implémentée dans un seul navigateur. Au final, elle a simplement été [supprimée de la spécification technique](https://github.com/w3c/csswg-drafts/issues/3857#issuecomment-634779976). C'est bien dommage. Parce que si un·e internaute n'a pas fait de choix, c'est le thème *light* qui est tout de même considéré comme son choix!
+Une règle `no-preference` a été envisagée mais elle n’a jamais été implémentée dans un seul navigateur. Au final, elle a simplement été [supprimée de la spécification technique](https://github.com/w3c/csswg-drafts/issues/3857#issuecomment-634779976). C’est bien dommage. Parce que si un·e internaute n’a pas fait de choix, c’est le thème *light* qui est tout de même considéré comme son choix!
 
-En d'autres termes, en tant que responsable de site, je ne peux pas proposer, en pur CSS, un site qui s'affiche:
+En d’autres termes, en tant que responsable de site, je ne peux pas proposer, en pur CSS, un site qui s’affiche:
 
 - en mode sombre par défaut
-- en mode clair si et seulement si l'internaute a fait un choix explicite
+- en mode clair si et seulement si l’internaute a fait un choix explicite
 
-Pour disposer d'un mode sombre par défaut avec une possibilité de passer au mode clair sur demande, il faudra obligatoirement passer par un petit développement (par exemple le *Color Theme Switcher* mentionné plus haut). 
+Pour disposer d’un mode sombre par défaut avec une possibilité de passer au mode clair sur demande, il faudra obligatoirement passer par un petit développement (par exemple le *Color Theme Switcher* mentionné plus haut). 

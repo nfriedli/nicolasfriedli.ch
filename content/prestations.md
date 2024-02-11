@@ -1,5 +1,6 @@
 ---
 title: Prestations
+draft: true
 ---
 
 En tant que consultant, je propose des *analyses*, des *conseils*, leur *application* et des *formations*. Je suis passionné par les sites web à fort contenu et je vous aide à mettre le vôtre en valeur.

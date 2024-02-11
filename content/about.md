@@ -1,6 +1,6 @@
 ---
-draft: true
 title: À propos de ce site
+draft: true
 ---
 
 Ce site ce veut simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Il n’y a donc pas d’illustrations, de bandeaux en haut de page ou de logo.
