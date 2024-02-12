@@ -15,9 +15,10 @@ Un [flux RSS](/index.xml), avec l’ensemble du contenu des pages, permet de s�
 
 La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Aucun appel à des ressource extérieures pour l’affichage des pages, sinon les statistiques honnêtes fournies par [Plausible](https://plausible.io/). Les polices d’écriture sont choisies parmi celles disponibles sur votre périphérique.
 
-Je teste régulièrement mon site pour m’assurer de toujours obtenir les des excellents résultats:
+Je teste régulièrement mon site pour m’assurer de toujours obtenir des excellents résultats:
 
-- scores de 90+ dans [PageSpeed Insights](https://pagespeed.web.dev/)
+- scores verts dans [PageSpeed Insights](https://pagespeed.web.dev/)
+- A+ dans [Website Carbon Calculator](https://www.websitecarbon.com/)
 - aucune erreur d’accessibilité chez [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 - HTML valide selon le [Markup Validation Service du W3C](https://validator.w3.org/)
 - CSS valide selon le [CSS Validation Service du W3C](https://jigsaw.w3.org/css-validator/)
