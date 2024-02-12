@@ -20,13 +20,9 @@
 </head>
 
 <body>
-    <header>
-        {{ if .IsHome }}
-            {{ site.Title }}
-        {{ else }}
-            <a href="/">{{ site.Title }}</a>
-        {{ end }}
-    </header>
+
+    {{ partial "header" . }}
+
     <main>
         {{ block "main" . }}{{ end }}
     </main>

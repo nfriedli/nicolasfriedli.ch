@@ -99,8 +99,10 @@ a {
 Des feuilles de style distinctes, une pour le sombre, une pour le clair, avec un appel différencié. Ce peut être intéressant sur les thèmes sont très différents, mais sinon les variables CSS paraissent plus efficaces. Exemple:
 
 ```
-<link media="(prefers-color-scheme: light)" href="light.css" rel="stylesheet">
-<link media="(prefers-color-scheme: dark)"  href="dark.css"  rel="stylesheet">
+<link media="(prefers-color-scheme: light)" 
+    href="light.css" rel="stylesheet">
+<link media="(prefers-color-scheme: dark)"  
+    href="dark.css"  rel="stylesheet">
 ```
 
 Un changement de couleur avec du javascript comme le propose Max Böck dans [Color Theme Switcher](https://mxb.dev/blog/color-theme-switcher/). C’est très élégant, ça ouvre des perspectives, mais c’est bien plus complexe que quelques lignes de CSS.

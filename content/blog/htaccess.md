@@ -13,7 +13,7 @@ AddDefaultCharset UTF-8
 DefaultLanguage fr-ch
 ```
 
-Si la page est appellée en `http` ou s’il elle commence par `www`, on renvoie à un version en `https` sans `www` (voir [Opquast 192](https://checklists.opquast.com/fr/assurance-qualite-web/toutes-les-pages-utilisent-le-protocole-https) et [Opquast 211](https://checklists.opquast.com/fr/assurance-qualite-web/ladresse-du-site-fonctionne-avec-et-sans-prefixe-www)). On renvoie tout sur la page d'accueil et on impose le nom de domaine (pour éviter de voir les synonymes):
+Si la page est appellée en `http` ou s’il elle commence par `www`, on renvoie à un version en `https` sans `www` (voir [Opquast 192](https://checklists.opquast.com/fr/assurance-qualite-web/toutes-les-pages-utilisent-le-protocole-https) et [Opquast 211](https://checklists.opquast.com/fr/assurance-qualite-web/ladresse-du-site-fonctionne-avec-et-sans-prefixe-www)). On renvoie tout sur la page d’accueil et on impose le nom de domaine (pour éviter de voir les synonymes):
 
 ```
 RewriteCond %{HTTPS} off [OR]
@@ -60,6 +60,6 @@ Header set Cache-Control "max-age=63072000,immutable"
 </filesMatch>
 ```
 
-Le [`.htaccess` utilisé pour ce site](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/static/.htaccess) peut être repris presque sans modifications, mais n’oubliez pas de changer le nom de domaine ou d'utiliser `HTTP_HOST`.
+Le [`.htaccess` utilisé pour ce site](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/static/.htaccess) peut être repris presque sans modifications, mais n’oubliez pas de changer le nom de domaine ou d’utiliser `HTTP_HOST`.
 
 Avant de modifier un fichier `.htaccess` en ligne, il faut s’assurer de **pouvoir y accéder par un autre moyen** (par exemple par FTP). Si Wordpress est utilisé pour modifier un tel fichier, en cas d’erreur il ne sera plus du tout accessible (et votre site non plus).

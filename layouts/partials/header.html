@@ -1,0 +1,12 @@
+<header>
+    <nav>
+        {{ $current := .RelPermalink}}
+        {{ range site.Menus.main }}
+            {{ if eq .URL $current }}
+                {{ .Name }}
+            {{ else }}
+                <a href="{{ .URL }}">{{ .Name }}</a>
+            {{ end }}
+        {{ end }}
+    </nav>
+    </header>

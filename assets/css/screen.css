@@ -35,6 +35,12 @@ header, footer, time {
     font-size: .9rem;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
 h1,
 h2,
 h3 {
