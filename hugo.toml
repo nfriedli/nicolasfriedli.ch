@@ -34,4 +34,4 @@ keepQuotes = true
 keepWhitespace = true
 
 [params]
-footer = """Abonnement par [flux RSS](/index.xml). Généré avec Hugo. Ne vous traque pas. Hébergé en Suisse chez Infomaniak. Contenus sous licence libre *Creative Commons BY-SA.*"""
+footer = """Abonnement par [flux RSS](/index.xml). Contenus sous licence libre *Creative Commons BY-SA*."""

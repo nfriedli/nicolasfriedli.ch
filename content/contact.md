@@ -15,6 +15,8 @@ Je souhaite recevoir la description d’un éventuel mandat *avant* une premièr
 
 C’est toujours Nicolas Friedli qui réalise le travail: pas d’employé·e, pas de stagiaire, pas de sous-traitance.
 
+Quelques [éléments biographiques](/bio/) pour en savoir plus sur mon parcours et une page [à propos de ce site](/about/) pour en savoir plus sur mes choix techniques.
+
 ## Coordonnées
 
 Nicolas Friedli  
@@ -28,6 +30,6 @@ Suisse
 
 IDE: CHE-469.715.163
 
-**Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp. 
+**Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp.
 
 Je ne suis pas présent sur les réseaux sociaux Facebook, Instagram, LinkedIn ou Twitter à titre personnel. Un autre «Nicolas Friedli» qui s’y trouve est soit un homonyme, soit un imposteur.

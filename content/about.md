@@ -1,8 +1,6 @@
 ---
 title: À propos
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats.
-menu: main
-weight: 30
 ---
 
 Ce site est simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Pour le moment, il n’y en a pas.
