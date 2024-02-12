@@ -15,7 +15,7 @@ html {
     font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
     line-height: 1.5;
     padding: 2rem;
-    text-wrap: pretty;
+    /* text-wrap: pretty; */
 }
 
 body {
@@ -47,7 +47,7 @@ h3 {
     line-height: 1.1;
     font-weight: 500;
     margin-top: 2rem;
-    text-wrap: balance;
+    /* text-wrap: balance; */
 }
 
 h1 {

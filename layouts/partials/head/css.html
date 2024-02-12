@@ -1,5 +1,5 @@
-{{ $screen := resources.Get "css/screen.css" }}
-{{ $print := resources.Get "css/print.css" }}
+{{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+{{ $print := resources.Get "css/print.css" | minify | fingerprint }}
 
 <style media="screen">{{ $screen.Content | safeCSS }}</style>
 <style media="print">{{ $print.Content | safeCSS }}</style>
