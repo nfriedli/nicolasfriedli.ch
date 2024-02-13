@@ -1,0 +1,50 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Nicolas Friedli",
+    "url": "https://nicolasfriedli.ch/",
+    "image": "https://nicolasfriedli.ch/images/nicolas-friedli.jpg",
+    "author": {
+        "@context": "https://schema.org",
+        "@type": [
+            "Person",
+            "Organization"
+        ],
+        "name": "Nicolas Friedli",
+        "givenName": "Nicolas",
+        "familyName": "Friedli",
+        "jobTitle": "Consultant web",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rue du Château 3",
+            "postalCode": "2013",
+            "addressLocality": "Colombier",
+            "addressRegion": "NE",
+            "addressCountry": "Suisse"
+        },
+        "email": "mailto:hello+2024@nicolasfriedli.ch",
+        "image": "https://nicolasfriedli.ch/images/nicolas-friedli.jpg",
+        "telephone": [
+            "+41328414874",
+            "+41793443382"
+        ],
+        "url": "https://nicolasfriedli.ch/",
+        "spouse": {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Diane Friedli",
+            "url": "https://dianefriedli.ch/"
+        },
+        "sameAs": [
+            "https://nicolasfriedli.ch/",
+            "https://github.com/nfriedli/",
+            "https://keybase.io/nicolasfriedli"
+        ],
+        "nationality": "Suisse",
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Université de Neuchâtel",
+            "sameAs": "https://www.unine.ch/"
+        }
+    }
+}
