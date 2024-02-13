@@ -33,3 +33,5 @@ IDE: CHE-469.715.163
 **Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp.
 
 Je ne suis pas présent sur les réseaux sociaux Facebook, Instagram, LinkedIn ou Twitter à titre personnel. Un autre «Nicolas Friedli» qui s’y trouve est soit un homonyme, soit un imposteur.
+
+Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").
