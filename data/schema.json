@@ -2,8 +2,9 @@
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Nicolas Friedli",
+    "description": "Consultant web à Neuchâtel (Suisse).",
     "url": "https://nicolasfriedli.ch/",
-    "image": "https://nicolasfriedli.ch/images/nicolas-friedli.jpg",
+    "image": "/images/nicolas-friedli.jpg",
     "author": {
         "@context": "https://schema.org",
         "@type": [
@@ -23,22 +24,20 @@
             "addressCountry": "Suisse"
         },
         "email": "mailto:hello+2024@nicolasfriedli.ch",
-        "image": "https://nicolasfriedli.ch/images/nicolas-friedli.jpg",
+        "image": "/images/nicolas-friedli.jpg",
         "telephone": [
             "+41328414874",
             "+41793443382"
         ],
-        "url": "https://nicolasfriedli.ch/",
         "spouse": {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Diane Friedli",
             "url": "https://dianefriedli.ch/"
         },
+        "url": "https://nicolasfriedli.ch/",
         "sameAs": [
-            "https://nicolasfriedli.ch/",
-            "https://github.com/nfriedli/",
-            "https://keybase.io/nicolasfriedli"
+            "https://github.com/nfriedli/"
         ],
         "nationality": "Suisse",
         "alumniOf": {
