@@ -13,7 +13,7 @@ Il est hébergé en Suisse, chez [Infomaniak](https://www.infomaniak.com/), une 
 
 Un [flux RSS](/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site. Les flux RSS (ou ATOM) sont des outils qui changent la vie. Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
 
-La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. Aucun appel à des ressource extérieures pour l’affichage des pages, sinon les statistiques honnêtes fournies par [Plausible](https://plausible.io/). Les polices d’écriture sont choisies parmi celles disponibles sur votre périphérique.
+La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas. nicolasfriedli.ch n’utilise pas de statistiques et ne fait pas appel à des ressources externes (tierces parties). Les polices d’écriture sont choisies parmi celles disponibles sur votre périphérique.
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir des excellents résultats:
 

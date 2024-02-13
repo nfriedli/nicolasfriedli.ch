@@ -1,11 +1,18 @@
 :root {
-    color-scheme: light;
+    color-scheme: light dark;
 
     --background: #eee;
     --text: #222;
 
     --fonts-text: ui-sans-serif, Roboto, system-ui, sans-serif;
     --fonts-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #000;
+        --text: #ccc;
+    }
 }
 
 html {
