@@ -112,3 +112,7 @@ a:active {
     background: var(--text);
     color: var(--background);
 }
+
+hr {
+    border: 2px solid;
+}
