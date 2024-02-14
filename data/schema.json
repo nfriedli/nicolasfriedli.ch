@@ -2,6 +2,7 @@
     "@context": "http://schema.org",
     "@type": "WebSite",
     "name": "Nicolas Friedli",
+    "alternateName": "NF",
     "description": "Consultant web à Neuchâtel (Suisse).",
     "url": "https://nicolasfriedli.ch/",
     "image": "/images/nicolas-friedli.jpg",
@@ -12,6 +13,7 @@
             "Organization"
         ],
         "name": "Nicolas Friedli",
+        "alternateName": "NF",
         "givenName": "Nicolas",
         "familyName": "Friedli",
         "jobTitle": "Consultant web",
@@ -20,10 +22,10 @@
             "streetAddress": "Rue du Château 3",
             "postalCode": "2013",
             "addressLocality": "Colombier",
-            "addressRegion": "NE",
-            "addressCountry": "Suisse"
+            "addressRegion": "Neuchâtel",
+            "addressCountry": "CH"
         },
-        "email": "mailto:hello+2024@nicolasfriedli.ch",
+        "email": "hello@nicolasfriedli.ch",
         "image": "/images/nicolas-friedli.jpg",
         "telephone": [
             "+41328414874",
@@ -37,13 +39,13 @@
         },
         "url": "https://nicolasfriedli.ch/",
         "sameAs": [
-            "https://github.com/nfriedli/"
+            "https://github.com/nfriedli/",
+            "https://keybase.io/nicolasfriedli"
         ],
         "nationality": "Suisse",
         "alumniOf": {
             "@type": "CollegeOrUniversity",
-            "name": "Université de Neuchâtel",
-            "sameAs": "https://www.unine.ch/"
+            "name": "Université de Neuchâtel"
         }
     }
 }
