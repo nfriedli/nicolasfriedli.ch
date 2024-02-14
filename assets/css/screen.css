@@ -3,6 +3,7 @@
 
     --background: #eee;
     --text: #222;
+    --contrast: orange;
 
     --fonts-text: ui-sans-serif, Roboto, system-ui, sans-serif;
     --fonts-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
@@ -71,6 +72,9 @@ h3 {
 
 blockquote {
     font-style: italic;
+    margin-left: 0;
+    padding-left: 1rem;
+    border-left: 2px solid var(--contrast);
 }
 
 blockquote em {
@@ -114,5 +118,5 @@ a:active {
 }
 
 hr {
-    border: 1px solid;
+    border: 1px solid var(--contrast);
 }
