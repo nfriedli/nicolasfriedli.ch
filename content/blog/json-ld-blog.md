@@ -10,9 +10,11 @@ draft: true
 
 Donc travail de recherche, compilation, etc.
 
-## Données en page d'accueil
+## Données en page d’accueil
 
 Où (et quoi)?
+
+[Steal Our JSON-LD](https://jsonld.com/)
 
 Minimum:
 
@@ -29,7 +31,7 @@ Minimum:
 Utile:
 
 ```
-<script type='application/ld+json'>
+<script type=’application/ld+json’>
 {
   "@context": "http://www.schema.org",
   "@type": "person",
@@ -50,7 +52,7 @@ Utile:
 
 ## Structure simple
 
-Trop de données chez Yoast
+Trop de données chez Yoast Mais l’imbrication est un plus du schéma.
 
 ```
 {
@@ -73,4 +75,4 @@ Pure fichier JSON, dans le répertoire des données
 
 Intégration sans transformation (sauf minification)
 
-Par partial
+Par partial uniquement sur la page d’acceuil
