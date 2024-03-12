@@ -1,27 +1,31 @@
 :root {
     color-scheme: light dark;
 
-    --background: #eee;
+    --background: #FFF;
     --text: #222;
     --contrast: orange;
 
-    --fonts-text: Inter, system-ui, sans-serif;
-    --fonts-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
-}
+    /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --step--1: clamp(0.8333rem, 0.832rem + 0.0065vi, 0.8398rem);
+    --step-0: clamp(1rem, 0.9625rem + 0.1875vi, 1.1875rem);
+    --step-1: clamp(1.2rem, 1.1042rem + 0.4791vi, 1.6791rem);
+    --step-2: clamp(1.44rem, 1.2531rem + 0.9343vi, 2.3743rem);
+    --step-3: clamp(1.728rem, 1.4022rem + 1.6292vi, 3.3572rem);
+  }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #000;
-        --text: #ccc;
+        --background: #111;
+        --text: #EEE;
     }
 }
 
 html {
     background: var(--background);
     color: var(--text);
-    font-family: var(--fonts-text);
-    font-size: clamp(1rem, 0.8125rem + 0.375vw, 1.1875rem);
-    font-feature-settings: "calt" 1, "liga" 1, "dlig" 1;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    font-size: var(--step-0);
+    font-feature-settings: "calt" 1, "liga" 1, "dlig" 1, "ss01" 1, "ss03" 1;
     line-height: 1.5;
     padding: 2rem;
     text-wrap: pretty;
@@ -44,7 +48,8 @@ main {
 header,
 footer,
 time {
-    font-size: .9rem;
+    font-size: var(--step--1);
+    font-weight: 450;
 }
 
 nav {
@@ -56,25 +61,22 @@ nav {
 h1,
 h2,
 h3 {
+    font-weight: 600;
     line-height: 1.1;
-    font-weight: 500;
     margin-top: 2rem;
     text-wrap: balance;
 }
 
 h1 {
-    font-size: 2.2rem;
-    font-weight: 600;
+    font-size: var(--step-3);
 }
 
 h2 {
-    font-size: 1.7rem;
-    font-weight: 750;
+    font-size: var(--step-2);
 }
 
 h3 {
-    font-size: 1.3rem;
-    font-weight: 900;
+    font-size: var(--step-1);
 }
 
 blockquote {
@@ -90,7 +92,7 @@ blockquote em {
 
 code,
 pre {
-    font-family: var(--fonts-mono);
+    font-family: ui-monospace, Menlo, Consolas, monospace;
     font-size: .9rem;
 }
 
