@@ -29,8 +29,6 @@
     }
 }
 
-
-
 html {
     background: var(--background);
     color: var(--text);
@@ -140,6 +138,10 @@ a:active {
 
 hr {
     border: 1px solid var(--contrast);
+}
+
+.articles a {
+    font-weight: 600;
 }
 
 @font-face {
