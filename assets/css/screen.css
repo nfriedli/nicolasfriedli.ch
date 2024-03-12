@@ -11,14 +11,25 @@
     --step-1: clamp(1.2rem, 1.1042rem + 0.4791vi, 1.6791rem);
     --step-2: clamp(1.44rem, 1.2531rem + 0.9343vi, 2.3743rem);
     --step-3: clamp(1.728rem, 1.4022rem + 1.6292vi, 3.3572rem);
-  }
+}
+
+::selection {
+    color: var(--text);
+    background: var(--contrast);
+}
 
 @media (prefers-color-scheme: dark) {
     :root {
         --background: #111;
         --text: #EEE;
     }
+
+    ::selection {
+        color: var(--background);
+    }
 }
+
+
 
 html {
     background: var(--background);
