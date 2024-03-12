@@ -8,7 +8,7 @@ Avec theologique.ch, je propose un annuaire protestant (réformé) francophone e
 
 ## Établir un état des lieux
 
-Il y a presque 10 ans, j’avais proposé un recensement lors des *Assises du web protesatant romand*. L’[annuaire protestant theologique.ch](https://theologique.ch/) que je propose aujourd’hui est une version plus développée de ce qui avait été fait alors.
+Il y a presque 10 ans, j’avais proposé un recensement lors des *Assises du web protestant romand*. L’[annuaire protestant theologique.ch](https://theologique.ch/) que je propose aujourd’hui est une version plus développée de ce qui avait été fait alors.
 
 Des discussions existent, à différents niveaux décisionnels, pour savoir quelles présences en ligne il faut envisager. **Il me paraît impensable d’imaginer des choses nouvelles, ou différentes, sans savoir ce qui existe maintenant.** L’état des lieux que constitue theologique.ch est une brique nécessaire mais insuffisante pour réfléchir aux questions de présence sur le web.
 
