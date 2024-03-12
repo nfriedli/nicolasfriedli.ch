@@ -31,9 +31,9 @@
     <main>
         {{ block "main" . }}{{ end }}
     </main>
-    <footer>
-        {{ block "footer" . }}{{ site.Params.footer | .RenderString }}{{ end }}
-    </footer>
+
+    {{ partial "footer" . }}
+
 </body>
 
 </html>

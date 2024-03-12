@@ -14,7 +14,7 @@ Des discussions existent, à différents niveaux décisionnels, pour savoir quel
 
 ## Évaluer le web protestant francophone
 
-Pour construire theologique.ch, j’ai parcouru tous les sites référencés (et bien d'autres). Pour chacun, j’ai navigué assez pour rédiger une description sommaire. **Ce travail m’a permis une redécouverte du web protestant réformé francophone que je connais un peu mieux qu’avant.**
+Pour construire theologique.ch, j’ai parcouru tous les sites référencés (et bien d’autres). Pour chacun, j’ai navigué assez pour rédiger une description sommaire. **Ce travail m’a permis une redécouverte du web protestant réformé francophone que je connais un peu mieux qu’avant.**
 
 Même si je n’ai pas systématiquement [testé les sites](/blog/tester-site/) consultés, quelques minutes de navigation et de lecture sur chacun d’eux me donnent un bon aperçu de leur état (contenu, menus, voire performances ou accessibilité). Cela m’est utile en tant que webmaster de certaines sites protestants, pour savoir comment ils se positionnent par rapport au panorama général.
 
@@ -35,7 +35,7 @@ Sur chaque page de l’annuaire qui présente un site, il existe plusieurs actio
 - le clic sur la (ou les) catégorie(s) du site
 - la consultation d’autres sites proposés
 
-**theologique.ch rend visible d’autres propositions pertinentes, en fonction du contexte.** C'est la raison pour laquelle je n'ajoute pas de moteur de recherche sur le site pour le moment. De plus, je suis convaincu que cette mise en relation est favorable pour les moteurs de recherche.
+**theologique.ch rend visible d’autres propositions pertinentes, en fonction du contexte.** C’est la raison pour laquelle je n’ajoute pas de moteur de recherche sur le site pour le moment. De plus, je suis convaincu que cette mise en relation est favorable pour les moteurs de recherche.
 
 Je signale que le lien sortant vers le site cible est toujours visible en tant qu’URL simplifiée, afin d’aider à la mémorisation des noms de domaine qui existent.
 
@@ -71,17 +71,17 @@ Même si j’ai découvert des sites par des liens sur d’autres, le maillage d
 
 **Chaque site qui fait un lien vers la page d’accueil de theologique.ch ou n’importe quelle page de l’annuaire renforce au final l’ensemble des sites référencés.**
 
-Je ne peux que conseiller à toutes les personnes qui administrent des sites d’ajouter un renvoi vers theologique.ch dans leur *blogroll*, leur *page de liens* ou dans un *contenu éditorial*. Mais je ne demanderai jamais de lien en retour pour ajouter un site dans l'annuaire.
+Je ne peux que conseiller à toutes les personnes qui administrent des sites d’ajouter un renvoi vers theologique.ch dans leur *blogroll*, leur *page de liens* ou dans un *contenu éditorial*. Mais je ne demanderai jamais de lien en retour pour ajouter un site dans l’annuaire.
 
 ## En résumé
 
 Ce que je retire de la création de theologique.ch:
 
-1. Mieux vaut un annuaire incomplet que pas d'annuaire du tout.
-1. En recherchant des informations utiles sur des sites (pour rédiger les descriptions), j'ai appris beaucoup sur l'état du web protestant réformé francophone.
+1. Mieux vaut un annuaire incomplet que pas d’annuaire du tout.
+1. En recherchant des informations utiles sur des sites (pour rédiger les descriptions), j’ai appris beaucoup sur l’état du web protestant réformé francophone.
 1. Les moteurs de recherche ne remplacent pas les *vrais liens*.
 1. Les liens contextuels apportent plus que des listes simples «plates».
 1. Hugo permet une gestion performante des taxonomies.
 1. Mieux vaut des liens vers un site centralisé que pas de liens du tout.
 
-Toutes propositions d'ajout ou d'améliorations sont bienvenues.
+Toutes propositions d’ajout ou d’améliorations sont bienvenues.
