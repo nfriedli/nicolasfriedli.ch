@@ -2,6 +2,7 @@
 title: Conseils d’utilisation des QR codes
 description: Les personnes qui proposent des QR codes peuvent aider à les rendre sûrs et fiables. Toute la responsabilité ne repose pas seulement sur les utilisateurs et utilisatrices.
 date: 2024-02-14
+lastMod: 2024-03-15
 ---
 
 Les arnaques aux QR codes semblent se multiplier. Les médias généralistes en parlent et donnent quelques conseils, souvent aux utilisateurs et utilisatrices (par exemple: [Les arnaques aux QR codes se multiplient depuis quelques mois](https://www.rts.ch/info/sciences-tech/14581852-les-arnaques-aux-qr-codes-se-multiplient-depuis-quelques-mois.html)). Pourtant, j’estime que **l’effort de sécurisation et de fiabilité doit aussi être fait du côté des personnes qui créent les codes**.
@@ -91,3 +92,7 @@ D’un point de vue technique, je pense que toutes les URL courtes (sur son nom 
 ----
 
 Je suis preneur de tous vos conseils pratiques et retours d’expérience sur le sujet.
+
+----
+
+**Ajout du 15 mars 2024.** Quelques jours après la publication de cet billet, ma commune de Milvignes publiait sur son site un [problème de QR codes](https://web.archive.org/web/20240313084500/https://www.milvignes.ch/communications/detail/probleme-avec-les-qr-codes-du-milvignes-infos-de-mars-2024-ne-pas-les-utiliser). Elle avait utilisé un système de redirection (`qr.codes` ou `qr.io`) payant plutôt que de renvoyer directement à son propre nom de domaine. La période d’essai était expirée; les codes invalides...
