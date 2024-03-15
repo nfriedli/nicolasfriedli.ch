@@ -117,6 +117,14 @@ pre {
     padding: .5rem 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+    pre {
+        background: var(--background);
+        color: var(--text);
+        border: 2px solid var(--contrast);
+    }
+}
+
 dt {
     font-weight: 700;
 }
