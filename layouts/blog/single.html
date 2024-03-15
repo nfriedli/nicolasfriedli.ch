@@ -5,4 +5,7 @@
     1}}er{{end}} {{ .Date | time.Format "January" }} {{ .Date.Year }}</time>
 
 {{ .Content }}
+
+
+{{ partial "related" . }}
 {{ end }}

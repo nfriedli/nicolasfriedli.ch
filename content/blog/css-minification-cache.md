@@ -2,6 +2,8 @@
 title: Feuilles de style minifiées et gestion du cache
 description: Ce que j’applique en général pour la minfication et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
 date: 2024-03-15
+categories:
+- hugo
 ---
 
 Ce que j’applique en général pour la minfication et la mise en cache des feuilles de style. C’est une *optimisation raisonnable* qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
@@ -98,7 +100,3 @@ Il me semble que les options choisies sont pertinents et suffisantes pour ce sit
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/hugo-pipes/fingerprint/#usage). C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
 - Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transform-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes.
 - [Supprimer les styles non utilisés avec PurgeCSS](https://zwbetz.com/how-to-use-purgecss-with-hugo/) comme le propose Zachary Wade Betz. C’est utile sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas ici.
-
-----
-
-Pour poursuivre la lecture: [Mode sombre en quelques lignes de CSS](/blog/dark-mode/)

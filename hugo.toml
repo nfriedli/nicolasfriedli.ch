@@ -35,3 +35,11 @@ keepWhitespace = true
 
 [params]
 footer = """Abonnement par [flux RSS](/index.xml). Contenus sous licence libre *Creative Commons BY-SA*."""
+
+[related]
+includeNewer = true
+threshold = 50
+toLower = true
+[[related.indices]]
+name = "categories"
+weight = 80
