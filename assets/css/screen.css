@@ -121,7 +121,7 @@ pre {
     pre {
         background: var(--background);
         color: var(--text);
-        border: 2px solid var(--contrast);
+        border: 2px solid var(--text);
     }
 }
 

@@ -22,7 +22,7 @@ Le fichier est seulement copié, sans aucune modification, et placé dans le ré
 
 ## Minification des CSS par Hugo
 
-C'est une bonne idée de minifier les feuilles de style. La copie seule est alors insuffisante (à moins de placer un fichier minifié par un outil tiers dans `/static/`, évidemment) Je place donc la feuille de style de départ dans `/assets/css/screen.css`. Comme son nom l’indique, elle est spécifique à l’affichage sur un écran.
+C’est une bonne idée de minifier les feuilles de style. La copie seule est alors insuffisante (à moins de placer un fichier minifié par un outil tiers dans `/static/`, évidemment) Je place donc la feuille de style de départ dans `/assets/css/screen.css`. Comme son nom l’indique, elle est spécifique à l’affichage sur un écran.
 
 Le répertoire `/assets/` permet d’effectuer des opérations sur les fichiers qu’il contient. Ici:
 
@@ -81,7 +81,7 @@ Tant que le style n’a pas été modifié, le fichier n’est pas téléchargé
 
 ## Intégrer la feuille de style
 
-Sur ce site, j'intégre le CSS dans le code HTML. C’est favorable lors de la première visite d’*une* page:
+Sur ce site, j’intégre le CSS dans le code HTML. C’est favorable lors de la première visite d’*une* page:
 
 ```
 {{ $screen := resources.Get "css/screen.css" }} 
