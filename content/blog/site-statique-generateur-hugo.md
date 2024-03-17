@@ -4,9 +4,12 @@ description: Je vous dit pourquoi j’ai choisi Hugo parmi les générateurs de 
 date: 2024-03-16
 categories:
 - hugo
+- statique
 ---
 
 Ce site est motorisé par Hugo, je vous dis pourquoi j’ai choisi ce générateur de sites statiques. Mais avant, je vous dit pourquoi je pense qu’un générateur de sites statiques est une bonne idée. Et avant, je vous dit pourquoi un site statique – même généré à la main – est intéressant. Bon voyage dans ce billet en 3 étapes.
+
+**Note.** Ce billet suppose que vous savez déjà ce qu’est un site statique.
 
 ## Pourquoi un site statique?
 
@@ -14,9 +17,9 @@ Un site statique envoie au client **les contenus exacts qui existent déjà sur 
 
 - Un site statique est **pérenne**. S’il fonctionne un jour, il fonctionnera de la même manière le lendemain. Le site restera valable tant que les navigateurs sauront interpréter HTML, CSS et Javascript. Les navigateurs arrivent toujours se débrouiller du vieux code ou ils n’arrêteront pas de le comprendrendre soudainement.
 
-- Un site statique est **performant** par nature. Parce que le contenu qui sera envoyé est déjà prêt sur le serveur, il n’est pas possible de faire plus léger. Mais il reste possible de faire un site statique problématique, parce que [La Jamstack n’est rapide que si vous y veillez](https://jamstatic.fr/2020/10/05/la-jamstack-n-est-rapide-que-si-vous-la-rendez-rapide/).
+- Un site statique est **performant** par nature. Parce que le contenu qui sera envoyé est déjà prêt sur le serveur, il n’est pas possible de faire plus léger.
 
-- Un site statique est **écologique**, parce qu’il ne demande pas de calculs inutiles au serveur. Ils sont faits une fois pour pour toutes. Bien évidemment, il sera encore plus écologique chez un hébergeur écoresponsable, sans envoyer des vidéos inutiles, avec des images correctement dimmensionnées, en faisant l’impasse sur les *plugins* des réseaux sociaux ou les statiques gourmandes en énérgie, avec des polices système, etc.
+- Un site statique est **écologique**, parce qu’il ne demande pas de calculs inutiles au serveur ni la présence du base de données. Ils sont construits une fois pour pour toutes. Bien évidemment, il sera encore plus écologique chez un hébergeur écoresponsable, sans envoyer des vidéos inutiles, avec des images correctement dimmensionnées, en faisant l’impasse sur les *plugins* des réseaux sociaux ou les statiques gourmandes en énérgie, avec des polices système, etc. De
 
 - Une **sauvegarde** d’un site statique existe quelque part. Si le code est géré par sur GitHub par exemple, il est probable que des copies se trouvent sur au moins un ordinateur, sur le serveur de GitHub et sur le serveur Apache de l’hébergeur. Même sans systeme de gestion de versions, il existe probablement un site local et un site distant. En gros, à part si tout est géré à distance par FTP, il existe une sauvegarde exacte du site.
 
@@ -72,4 +75,4 @@ Le code de plusieurs projets que je développe avec Hugo est disponibles dans [m
 
 ----
 
-Je pense que ce billet sera complété ou revu régulièrement. Il y a des choses auxquelles je n’ai pas pensé,; d’autres que je pense assez marginales pour ne pas en parler aujourd’hui. Mais tous vos retours sont bienvenus pour essayer de l’améliorer.
+Je pense que ce billet sera complété ou revu régulièrement. Il y a des choses auxquelles je n’ai pas pensé; d’autres que je pense assez marginales pour ne pas en parler aujourd’hui. Mais tous vos retours sont bienvenus pour essayer de l’améliorer.
