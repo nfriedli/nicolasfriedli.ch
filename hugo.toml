@@ -15,10 +15,6 @@ noBuildLock = true
 
 copyright = "Creative Commons BY-SA"
 
-[author]
-name = "Nicolas Friedli"
-email = "hello+rss@nicolasfriedli.ch"
-
 [build]
 writeStats = false
 
@@ -33,8 +29,9 @@ keepDefaultAttrVals = false
 keepQuotes = true
 keepWhitespace = true
 
-[params]
-footer = """Abonnement par [flux RSS](/index.xml). Contenus sous licence libre *Creative Commons BY-SA*."""
+[params.author]
+name = "Nicolas Friedli"
+email = "hello+rss@nicolasfriedli.ch"
 
 [related]
 includeNewer = true
