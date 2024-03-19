@@ -1,8 +1,8 @@
 :root {
     color-scheme: light dark;
 
-    --background: #FFF;
-    --text: #222;
+    --background: #F8F8F8;
+    --text: #333;
     --contrast: orange;
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -36,7 +36,7 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family: ui-sans-serif, Roboto, Inter, Aptos, system-ui, sans-serif;
+    font-family: system-ui, sans-serif;
     font-size: var(--step-0);
     line-height: 1.5;
     padding: 2rem;
@@ -121,7 +121,8 @@ pre {
     }
 }
 
-dt, .articles a  {
+dt,
+.articles a {
     font-weight: 700;
 }
 
