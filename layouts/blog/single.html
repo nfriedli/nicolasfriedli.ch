@@ -1,11 +1,41 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-<time datetime="{{ .Date.Format " 2006-01-02"}}" class="entry-date dateline">{{ .Date.Day }}{{ if eq .Date.Day
+<time datetime="{{ .Date.Format "2006-01-02"}}" class="entry-date dateline">{{ .Date.Day }}{{ if eq .Date.Day
     1}}er{{end}} {{ .Date | time.Format "January" }} {{ .Date.Year }}</time>
 
+
+{{/* Affichage de Lastmod seulement si la modif ne date pas du même mois! */}}
+{{ if ne (.Date.Format "2006-01") (.Lastmod.Format "2006-01")}}
+<time datetime="{{ .Lastmod.Format "2006-01-02"}}" class="entry-date dateline">/ dernière modification: {{ .Lastmod.Day }}{{ if eq .Lastmod.Day
+    1}}er{{end}} {{ .Lastmod | time.Format "January" }} {{ .Lastmod.Year }}</time>
+{{ end }}
+    
 {{ .Content }}
 
 
 {{ partial "related" . }}
+{{ end }}
+
+{{ define "json-ld" }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ .Title }}",
+    "image": [
+    "/images/opengraph.jpg",
+    "/images/nicolas-friedli.jpg"
+    ],
+    "wordCount": "{{ .WordCount }}",
+    {{ with .PublishDate }}"datePublished": "{{ .Format "2006-01-02" }}",{{ end }}
+    {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02" }}",{{ end }}
+    "author": [{
+        "@type": "Person",
+        "name": "Nicolas Friedli",
+        "url": "https://nicolasfriedli.ch/"
+    }],
+    "isAccessibleForFree": true
+}
+</script>
 {{ end }}

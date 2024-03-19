@@ -17,6 +17,7 @@
         {{ hugo.Generator }}
         {{ partialCached "head/json-ld" . }}
     {{ end }}
+    {{ block "json-ld" . }}{{ end }}
     <meta property="og:image" content="{{ absURL "/images/opengraph.jpg" }}" >
 </head>
 
