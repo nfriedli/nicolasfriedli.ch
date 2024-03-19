@@ -5,8 +5,8 @@
     1}}er{{end}} {{ .Date | time.Format "January" }} {{ .Date.Year }}</time>
 
 
-{{/* Affichage de Lastmod seulement si la modif ne date pas du même mois! */}}
-{{ if ne (.Date.Format "2006-01") (.Lastmod.Format "2006-01")}}
+{{/* Jamais de Lastmod durant les 10 premiers jours après publication */}}
+{{ if gt (sub .Lastmod.Unix .Date.Unix ) 864000 }}
 <time datetime="{{ .Lastmod.Format "2006-01-02"}}" class="entry-date dateline">/ dernière modification: {{ .Lastmod.Day }}{{ if eq .Lastmod.Day
     1}}er{{end}} {{ .Lastmod | time.Format "January" }} {{ .Lastmod.Year }}</time>
 {{ end }}
