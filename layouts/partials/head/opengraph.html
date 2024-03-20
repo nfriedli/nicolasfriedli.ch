@@ -1,0 +1,13 @@
+{{ $image := resources.Get "images/opengraph.jpg" }}
+{{ $font := resources.Get "images/inter.ttf" }}
+
+{{ $image = $image.Filter (images.Text .Title (dict 
+    "color" "#000"
+    "size" "120"
+    "linespacing" 3
+    "x" 100
+    "y" 100
+    "font" $font
+    ))}}
+
+<meta property="og:image" content="{{$image.Permalink}}">
