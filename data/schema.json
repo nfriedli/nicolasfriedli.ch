@@ -8,10 +8,7 @@
     "image": "/images/nicolas-friedli.jpg",
     "author": {
         "@context": "https://schema.org",
-        "@type": [
-            "Person",
-            "Organization"
-        ],
+        "@type": "Person",
         "name": "Nicolas Friedli",
         "alternateName": "NF",
         "givenName": "Nicolas",

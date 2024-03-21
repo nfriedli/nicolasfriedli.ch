@@ -111,10 +111,7 @@ Pour mon blog, j’ai essayé de créer un JSON un peu plus complet:
     "image": "/images/nicolas-friedli.jpg",
     "author": {
         "@context": "https://schema.org",
-        "@type": [
-            "Person",
-            "Organization"
-        ],
+        "@type": "Person",
         "name": "Nicolas Friedli",
         "alternateName": "NF",
         "givenName": "Nicolas",
@@ -156,12 +153,7 @@ Pour mon blog, j’ai essayé de créer un JSON un peu plus complet:
 }
 ```
 
-L’interprétation du contenu devrait être simple. Donc je ne commente pas en détail, mais signale que:
-
-- l’URL du site est le même que celle de l’auteur
-- l’auteur est à la fois personne et organisation
-
-Ce balisage est conforme à Schema.org, même il est rarement utilisé ainsi.
+L’interprétation du contenu devrait être simple. Donc je ne commente pas en détail, mais signale que l’URL du site est le même que celle de l’auteur. Ce balisage est conforme à Schema.org, même il est rarement utilisé ainsi.
 
 ### Intégration statique dans Hugo
 
