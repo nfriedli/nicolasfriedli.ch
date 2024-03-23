@@ -5,6 +5,9 @@
     --text: #333;
     --contrast: orange;
 
+    --font-main: FiraSans, "Fira Sans", ui-sans-serif, Roboto, system-ui, sans-serif;
+    --font-mono: FiraCode, "Fira Code", "Fira Mono", ui-monospace, Menlo, Consolas, monospace;
+
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--1: clamp(0.8333rem, 0.832rem + 0.0065vi, 0.8398rem);
     --step-0: clamp(1rem, 0.9625rem + 0.1875vi, 1.1875rem);
@@ -36,7 +39,7 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family: ui-sans-serif, system-ui, sans-serif;
+    font-family: var(--font-main);
     font-size: var(--step-0);
     line-height: 1.5;
     padding: 2rem;
@@ -101,7 +104,7 @@ blockquote em {
 
 code,
 pre {
-    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-family: var(--font-mono);
     font-size: .9rem;
 }
 
@@ -147,4 +150,52 @@ a:active {
 
 hr {
     border: 1px solid var(--contrast);
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FiraSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/fira-sans-v17-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FiraSans;
+    font-style: italic;
+    font-weight: 400;
+    src: url('/fonts/fira-sans-v17-latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FiraSans;
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/fira-sans-v17-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FiraSans;
+    font-style: italic;
+    font-weight: 700;
+    src: url('/fonts/fira-sans-v17-latin-700italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FiraCode;
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/fira-code-v22-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: FiraCode;
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/fira-code-v22-latin-700.woff2') format('woff2');
 }
