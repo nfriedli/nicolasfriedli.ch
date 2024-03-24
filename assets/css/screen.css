@@ -6,7 +6,7 @@
     --contrast: orange;
 
     --font-main: ui-sans-serif, Roboto, system-ui, sans-serif;
-    --font-mono: ui-monospace, Menlo, Consolas, monospace;
+    --font-mono: ui-monospace, "Noto Sans Mono", "Roboto Mono", Menlo, Consolas, monospace;
     --font-title: BricolageGrotesque, var(--font-main);
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
