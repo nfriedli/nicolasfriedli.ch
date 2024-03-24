@@ -5,8 +5,9 @@
     --text: #333;
     --contrast: orange;
 
-    --font-main: FiraSans, "Fira Sans", ui-sans-serif, Roboto, system-ui, sans-serif;
-    --font-mono: FiraCode, "Fira Code", "Fira Mono", ui-monospace, Menlo, Consolas, monospace;
+    --font-main: ui-sans-serif, Roboto, system-ui, sans-serif;
+    --font-mono: ui-monospace, Menlo, Consolas, monospace;
+    --font-title: BricolageGrotesque, var(--font-main);
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--1: clamp(0.8333rem, 0.832rem + 0.0065vi, 0.8398rem);
@@ -74,6 +75,7 @@ nav {
 h1,
 h2,
 h3 {
+    font-family: var(--font-title);
     line-height: 1.1;
     margin-top: 2rem;
     text-wrap: balance;
@@ -154,48 +156,8 @@ hr {
 
 @font-face {
     font-display: swap;
-    font-family: FiraSans;
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/fira-sans-v17-latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: FiraSans;
-    font-style: italic;
-    font-weight: 400;
-    src: url('/fonts/fira-sans-v17-latin-italic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: FiraSans;
+    font-family: BricolageGrotesque;
     font-style: normal;
     font-weight: 700;
-    src: url('/fonts/fira-sans-v17-latin-700.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: FiraSans;
-    font-style: italic;
-    font-weight: 700;
-    src: url('/fonts/fira-sans-v17-latin-700italic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: FiraCode;
-    font-style: normal;
-    font-weight: 400;
-    src: url('/fonts/fira-code-v22-latin-regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: FiraCode;
-    font-style: normal;
-    font-weight: 700;
-    src: url('/fonts/fira-code-v22-latin-700.woff2') format('woff2');
+    src: url("/fonts/bricolage-grotesque-v2-latin-700.woff2") format("woff2");
 }
