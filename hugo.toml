@@ -13,7 +13,7 @@ disableFastRender = true
 enableGitInfo = true
 noBuildLock = true
 
-copyright = "Creative Commons BY-SA"
+copyright = "Creative Commons BY-SA"
 
 [build]
 writeStats = false
