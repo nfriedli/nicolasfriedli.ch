@@ -16,9 +16,8 @@ Header always set X-XSS-Protection "1;mode=block"
 Header always set Referrer-Policy "same-origin"
 Header always set X-Permitted-Cross-Domain-Policies "none"
 
-# Gestion 404 (pas très propre)
-ErrorDocument 404 https://nicolasfriedli.ch/
-
+# Gestion 404
+ErrorDocument 404 /404.html
 # Redirection du flux RSS
 Redirect 301 /feed/ /index.xml
 

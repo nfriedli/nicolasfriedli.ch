@@ -6,7 +6,7 @@ defaultContentLanguage = "fr"
 
 removePathAccents = true
 
-disableKinds = [ "taxonomy", "term", "robotsTXT", "404" ]
+disableKinds = [ "taxonomy", "term", "robotsTXT"]
 
 cleanDestinationDir = true
 disableFastRender = true
