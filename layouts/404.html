@@ -1,14 +1,15 @@
 {{ define "main" }}
 <h1>Erreur 404</h1>
 
-<p>La page recherchée n’existe pas ou plus à cette adresse.</p>
+<p>Cette page n’existe pas ou plus à cette adresse.</p>
 
-<p>Vous pouvez continuer votre navigation, par exemple:</p>
+<p>En principe, toutes les pages du site sont indexées chez Google:</p>
 
-<ul>
-    <li>en retournant sur la <a href="/">page d’accueil</a></li>
-    <li>en consultant la <a href="/blog/">liste des articles du blog</a></li>
-</ul>
+<form action="https://www.google.com/search" method="get">
+    <input type="hidden" name="q" id="site" value="site:nicolasfriedli.ch">
+    <input type="text" name="q" id="search">
+    <input type="submit" value="Rechercher" />
+</form>
 
 <p>Des archives de ce site sont disponibles dans la <a href="https://web.archive.org/web/20240000000000*/nicolasfriedli.ch" rel="noopener noreferrer" target="_blank">Wayback Marchine</a>.</p>
 {{ end }}
