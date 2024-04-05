@@ -98,17 +98,16 @@ Pas besoin de statistiques des balises HTML et des attributs `class` et `id` uti
 ```
 [build]
 writeStats = false
-Les id des titres h2, h3, etc. sont propres:
 ```
 
-On choisir de créer des `id` propres si on utilise une table des matières:
+Les `id` des titres `h2`, `h3`, etc. sont propres. C'est surtout important quand on génère une table des matières interne à la page:
 
 ```
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
 ```
 
-Les fichiers de sortie sont minifiés. Je supprime les attributs par défaut qui ne sont plus utiles en HTML5. Mais je conserve les guillemets et les sauts de ligne par souci de lisibilité. Voici la configuration:
+Les fichiers de sortie sont minifiés. Je supprime les attributs par défaut qui ne sont plus utiles en HTML5. Mais je conserve les guillemets et les sauts de lignes par souci de lisibilité. Voici la configuration:
 
 ```
 [minify]
@@ -152,9 +151,9 @@ theme = "monthemehugo"
 
 Je n’utilise que le répertoire `/layouts/` pour mes modèles de pages, mes shortcodes, etc. Aucun thème existant n’est utilisé pour mon site.
 
-Si les layouts permettent de surcharger les fichiers d’un thème activé. Ils peuvent aussi être utilisés seuls. Ils ne surchargent rien mais sont suffisants.
+Si les *layouts* permettent de surcharger les fichiers d’un thème activé. Ils peuvent aussi être utilisés seuls. Ils ne surchargent rien mais sont suffisants.
 
-Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur si un thème n’est pas activé dès le début. C’est un conseil que je donne aux personnes qui débutent: commencez par créer vos layouts, puis activez un thème si nécessaire.
+Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur si un thème n’est pas activé dès le début. C’est un conseil que je donne aux personnes qui débutent: commencez par créer vos *layouts*, puis activez un thème si nécessaire.
 
 ## Modularisation de la configuration
 
@@ -189,11 +188,9 @@ La séparation en différents fichiers me paraît très utile dans certains cas:
 - quand un site a un grand menu de navigation, un fichier dédié est une bonne idée
 - et bien entendu quand certaines parties de configuration sont réutilisées telles quelles dans différents projets
 
-
 Surtout, la séparation en fichier permet de proposer des portions de configurations plus simples à des personnes qui interviennent sur le site. Les responsables de la partie rédactionnelle éditeront plus facilement un fichier de menu qu’une configuration monolithique.
 
 ## Configuration par environnement
-
 
 Finalement, différentes version de configuration sont applicables selon l’environnement. Un exemple simple, pour la minification:
 
