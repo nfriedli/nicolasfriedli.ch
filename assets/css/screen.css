@@ -1,12 +1,12 @@
 :root {
     color-scheme: light dark;
 
-    --background: hsl(39, 50%, 90%);
+    --background: hsl(39, 25%, 90%);
     --text: hsl(39, 50%, 10%);
     --contrast: hsl(39, 100%, 50%);
 
-    --font-main: ui-sans-serif, Roboto, system-ui, sans-serif;
-    --font-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
+    --font-main: ui-sans-serif, Roboto, Geist, system-ui, sans-serif;
+    --font-mono: ui-monospace, "Roboto Mono", GeistMono, Menlo, Consolas, monospace;
     --font-title: BricolageGrotesque, var(--font-main);
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -160,4 +160,20 @@ hr {
     font-style: normal;
     font-weight: 700;
     src: url("/fonts/bricolage.woff2") format("woff2");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: Geist;
+    font-weight: 100 900;
+    font-style: oblique 0deg 10deg;
+    src: url(/fonts/geist.woff2) format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: GeistMono;
+    font-weight: 100 900;
+    font-style: oblique 0deg 10deg;
+    src: url(/fonts/geist-mono.woff2) format("woff2")
 }
