@@ -18,6 +18,7 @@
         {{ partialCached "head/json-ld" . }}
     {{ end }}
     {{ block "json-ld" . }}{{ end }}
+    {{ partialCached "head/plausible" . }}
     {{ block "head" . }}{{ end }}
     <meta property="og:image" content="{{ absURL "/images/opengraph.jpg" }}" >
 </head>
