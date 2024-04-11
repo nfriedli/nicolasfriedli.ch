@@ -40,7 +40,7 @@ Ou en [JSON](http://www.json.org/json-en.html) (JavaScript Object Notation):
 
 ## Préférence personnelle pour TOML
 
-J’utilise TOML dans les fichiers de configutation, pour son excellent équilibre entre sa facilité de rédaction et sa fiabilité.
+J’utilise TOML dans les fichiers de configuration, pour son excellent équilibre entre sa facilité de rédaction et sa fiabilité.
 
 YAML pose parfois des problèmes comme le soulignent Ruud van Asseldonk dans [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) ou Chris Coyier dans [Yaml, JSON, Toml](https://chriscoyier.net/2023/01/27/yaml-json-toml/).
 
@@ -100,7 +100,7 @@ Pas besoin de statistiques des balises HTML et des attributs `class` et `id` uti
 writeStats = false
 ```
 
-Les `id` des titres `h2`, `h3`, etc. sont propres. C'est surtout important quand on génère une table des matières interne à la page:
+Les `id` des titres `h2`, `h3`, etc. sont propres. C’est surtout important quand on génère une table des matières interne à la page:
 
 ```
 [markup.goldmark.parser]
