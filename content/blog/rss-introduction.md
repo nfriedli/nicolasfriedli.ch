@@ -130,3 +130,7 @@ On peut aussi installer un logiciel sur son propre server (par exemple [KrISS fe
 - La liste des flux auxquels je suis abonnés peut être exportée facilement. Je peux la sauvegarder, la partager à d’autres, l’importer dans un autre logiciel, etc. La liberté, c’est de pouvoir changer de plateforme et d’outil librement.
 
 - La présentation unifiée permet une lecture rapide et agréable, même quand des flux proviennent de sites peu accessibles ou inconfortables. La légèreté des flux permet d’oublier la lenteur des sites qui les produisent. Plutôt que l’originalité, c’est l’efficacité qui compte.
+
+----
+
+Dans son excellente newsletter [Own Your Web](https://buttondown.email/ownyourweb), Matthias Ott propose [Issue 9: We ❤️ RSS](https://buttondown.email/ownyourweb/archive/issue-09/). Il vaut la peine de suivre les liens proposés pour approfondir le sujet. Les internautes qui ne maîtrisent pas assez l’anglais auront intérêt à lire au moins l’article [Investing in RSS](https://timkadlec.com/remembers/2023-02-23-investing-in-rss/) de Tim Kadlec en traduction automatique.
