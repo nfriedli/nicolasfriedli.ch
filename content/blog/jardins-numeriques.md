@@ -1,5 +1,5 @@
 ---
-title: Croissance organique & jardins numériques
+title: Jardins numériques
 description: 
 date: 2024-04-11
 draft: true
@@ -15,6 +15,3 @@ Citée par [Blogs, Gardens, and Thinking Aloud in Public](https://kevquirk.com/b
 [The personality of a personal website](https://manuelmoreale.com/the-personality-of-a-personal-website)
 
 [build a world, not an audience](https://keningzhu.com/journal/build-a-world-not-an-audience)
-
-
-[Always complete, never finished](https://www.writethedocs.org/videos/portland/2021/always-complete-never-finished-daniele-procida/)
