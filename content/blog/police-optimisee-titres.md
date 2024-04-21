@@ -8,6 +8,8 @@ categories:
 
 Voici la stratégie j’applique sur mon site pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
 
+**Remarque:** cette solution n'est plus utilisée actuellement sur ce site, mais toutes les considérations techniques de la démarche restent valables. 
+
 ## Optimisation de la police
 
 J’ai choisi d’utiliser [Bricolage Grotesque](https://ateliertriay.github.io/bricolage/) pour les titres (`h1`, `h2`, etc.) de mon blog. C’est une police variable, ce qui signifie qu’elle dispose de beaucoup de variantes, mais qu’elle est aussi assez lourde. Elle peut varier de taille optique, de largeur et de poids (`opsz`, `wdth` et `wght`). 
