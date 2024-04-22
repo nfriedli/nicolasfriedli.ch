@@ -6,7 +6,7 @@
     --contrast: hsl(39, 100%, 50%);
 
     --font-main: FiraSans, ui-sans-serif, system-ui, sans-serif;
-    --font-mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
+    --font-mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--1: clamp(0.8333rem, 0.832rem + 0.0065vi, 0.8398rem);

@@ -1,5 +1,5 @@
 ---
-title: Croissance organique d'un site web
+title: Croissance organique d’un site web
 description: 
 date: 2024-04-15
 categories:
@@ -10,7 +10,7 @@ draft: true
 [Always complete, never finished](https://www.writethedocs.org/videos/portland/2021/always-complete-never-finished-daniele-procida/)
 
 
-Diataxis n'est pas un plan, mais il est souvent compris comme tel.
+Diataxis n’est pas un plan, mais il est souvent compris comme tel.
 
 Always complete but never finished
 
@@ -19,16 +19,16 @@ Toujours entière, mais jamais terminée.
 Toujours cohérente, mais jamais terminée.
 
 
-Faire le travail est la partie facile. La partie difficile, c'est de savoir quoi faire!
+Faire le travail est la partie facile. La partie difficile, c’est de savoir quoi faire!
 
 complet: 
 
 approprié à sa taille
-toujours progresser vers l'étape suivante
+toujours progresser vers l’étape suivante
 
 plan: ne sert à rient avant que tout ne soit terminé
 
-le haricot: il ne manque jamais rien, mais il n'est jamais terminé
+le haricot: il ne manque jamais rien, mais il n’est jamais terminé
 
 prend queuelque chose
 évalue le
@@ -36,7 +36,7 @@ changer, supprimer, modifier, reformuler
 
 ne plus penser en terme de solutions ou de grands projets
 
-quelque chose d'assez petit pour que je puis l'améliorer 
+quelque chose d’assez petit pour que je puis l’améliorer 
 
 réflexion difficile réalisation facile
 
