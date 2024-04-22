@@ -6,7 +6,7 @@ categories:
 - performance
 ---
 
-L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements. Mais la diversité des plateformes rend le travail relativement complexe.
+L’utilisation de polices du système d’exploitation (*system font stack*) permet une cohérence graphique sans téléchargements. Mais la diversité des plateformes rend le travail relativement complexe.
 
 ## Problématique
 
@@ -37,16 +37,16 @@ Les fichiers seront mis à disposition par une directive CSS `@font-face` et ceu
 - blocage ou non de l’affichage (`font-display`)
 - préchargement (`preload`)
 - suppression des jeux de caractères inutiles
-- un gestion du cache pertinente (`immutable`)
+- une gestion du cache pertinente (`immutable`)
 - utilisation de polices variables si disponibles
 
 En général, il devrait être possible de s’en tirer autour de 100kB pour un jeu de police complet. Pour en savoir plus sur cette thématique complexe, le billet [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/) de Zach Leatherman est un point de départ précieux.
 
-Quand ce chargement permet de répondre à un contrainte précise, c’est très bien. Mais je reste surpris par le nombre de sites qui téléchargent de tas de fichiers qui sont sans rapport avec la charte graphique de l’entreprise ou l’institution. Dans ces cas là, il y aurait peut-être mieux à faire.
+Quand ce chargement permet de répondre à une contrainte précise, c’est très bien. Mais je reste surpris par le nombre de sites qui téléchargent de tas de fichiers qui sont sans rapport avec la charte graphique de l’entreprise ou l’institution. Dans ces cas là, il y aurait peut-être mieux à faire.
 
 ## Choix de polices (*system font stack*)
 
-Une *font stack* est une liste de polices possibles. Autrement dit, le site suggère des polices au navigateur; il choisit la premère de la liste disponible localement et l’affiche.
+Une *font stack* est une liste de polices possibles. Autrement dit, le site *suggère* des polices au navigateur; il choisit la première de la liste disponible localement et l’affiche.
 
 Le site [Modern Font Stacks](https://modernfontstacks.com/) propose des «piles de polices» toutes faites qui fonctionnent bien partout. Par exemple:
 
@@ -97,9 +97,9 @@ Depuis quelque temps, il est possible d’utiliser une police spéciale. C’est
 font-family: system-ui, sans-serif;
 ```
 
-La directive `sans-serif` reste à disposition si le navigateur (cas très rare), ne comprenait pas la directive `system-ui`. Avec une police système, c’est une écriture parfaitement en phase avec le système utilisé qui sera choisie. C’est celle de l’interface, d’où UI (*user interface*).
+La directive `sans-serif` reste à disposition si le navigateur -- cas très rare -- ne comprenait pas la directive `system-ui`. Avec une police système, c’est une écriture parfaitement en phase avec le système utilisé qui sera choisie. C’est celle de l’interface, d’où UI (*user interface*).
 
-Au final, l’apparence laisse encore moins d’originalisé que `sans-serif`, mais ce sont souvent des polices de grande qualité qui sont utilisés. Le résultat est excellent.
+Au final, l’apparence laisse encore moins d’originalité que `sans-serif`, mais ce sont souvent des polices de grande qualité qui sont utilisés. Le résultat est excellent.
 
 ## Périphériques Apple
 
@@ -131,7 +131,7 @@ Tout le texte est sans empattements, sauf les citations et les titres avec empat
 
 Pour Android, Roboto est toujours disponible. Pour Linux, Roboto est presque toujours disponible et Noto Sans aussi.
 
-Une possiblité intéressante, dans laquelle je fais passe Noto avant Roboto car elle dispose d’une version à empattements:
+Une possibilité intéressante, dans laquelle je fais passe Noto avant Roboto car elle dispose d’une version à empattements:
 
 ```
 html {
@@ -147,7 +147,7 @@ code, pre {
 }
 ```
 
-Attention, avec Linux, il est possible de modifier `system-ui`, ce qui ne donne aucun certitude sur la police choisie. Mais on peut supposer que les internautes utilisent des fontes lisibles sur leur système.
+Attention, avec Linux, il est possible de modifier `system-ui`, ce qui ne donne aucune certitude quant à la police choisie. Mais on peut supposer que les internautes utilisent des fontes lisibles sur leur système.
 
 ## Périphériques Windows
 
@@ -167,7 +167,7 @@ code, pre {
 }
 ```
 
-Mon souci avec Windows, c’est que je n’aime pas Segoe UI pour les titres. Et c’est la polices `system-ui` pour certaines versions du système. Mais Segoe UI est meilleur qu’Arial pour le texte. J’essaie de tirer cela au clair dans ma proposition:
+Mon souci avec Windows, c’est que je n’aime pas Segoe UI pour les titres. Et c’est la police `system-ui` pour certaines versions du système. Mais Segoe UI est meilleur qu’Arial pour le texte. J’essaie de tirer cela au clair dans ma proposition:
 
 ## Proposition
 
@@ -204,7 +204,7 @@ La logique est:
 
 Je connais quelques polices très légères qui permettent d’envisager une solution de secours originale. Par exemple [Poppins](https://fonts.google.com/specimen/Poppins) qui permet de disposer de 4 fichiers pour à peine 30kB.
 
-L’idée, c’est de faire un pile du genre:
+L’idée, c’est de faire une pile du genre:
 
 ```
 html {
@@ -221,9 +221,12 @@ En résumé:
 - les ordinateurs Linux, dans leur grande majorité ne chargent aucune police
 - les 25% d’ordinateurs sous Windows chargent Poppins
 
-
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman. Entre les polices systèmes (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`) et ma proposition de polices légères, je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
 ----
 
 J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) qui permettra(it) de gérer les choses beaucoup plus simplement.
+
+---- 
+
+À ma connaissance, la police la plus légère actuellement disponible est [Geist](https://vercel.com/font). Un seul fichier permet de remplacer les 4 variations dont je parlais ci-dessus. Une fois passé par [Glyphhanger](https://github.com/zachleat/glyphhanger), elle pèse environ 20 kB.
