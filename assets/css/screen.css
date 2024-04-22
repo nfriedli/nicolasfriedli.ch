@@ -41,6 +41,7 @@ html {
     color: var(--text);
     font-family: var(--font-main);
     font-size: var(--step-0);
+    font-variant-ligatures: none;
     line-height: 1.5;
     padding: 2rem;
     text-wrap: pretty;
