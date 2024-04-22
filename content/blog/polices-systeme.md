@@ -1,6 +1,6 @@
 ---
 title: Utiliser des polices système
-description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adapatées permettent de conserver un web écologique et rapide.
+description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2024-04-22
 categories:
 - performance
@@ -198,6 +198,8 @@ La logique est:
 - la première directive règle le cas pour tous les périphériques Apple
 - la deuxième pour les Android et la majorité des Linux
 - puis on laisse Windows se débrouiller (mais je lui suggère Aptos avant Segoe UI)
+
+Les déclarations exactes de ma feuille de style sont toujours disponible chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css).
 
 
 ## Polices légères
