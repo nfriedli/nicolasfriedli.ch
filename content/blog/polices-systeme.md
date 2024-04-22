@@ -147,7 +147,7 @@ code, pre {
 }
 ```
 
-Attention, avec Linux, il est possible de modifier `system-ui`, ce qui ne donne aucun certitude sur la police choisie. Mais on peut supposer que les internautes utilisent des fontes lisibles sur leur système,
+Attention, avec Linux, il est possible de modifier `system-ui`, ce qui ne donne aucun certitude sur la police choisie. Mais on peut supposer que les internautes utilisent des fontes lisibles sur leur système.
 
 ## Périphériques Windows
 
@@ -226,4 +226,4 @@ Il existe aujourd’hui d’autres manières de concilier écologie, esthétique
 
 ----
 
-J’attends avec imapatience l’arrivée de la directive [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) qui permettra(it) de gérer les choses beaucoup plus simplement.
+J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) qui permettra(it) de gérer les choses beaucoup plus simplement.
