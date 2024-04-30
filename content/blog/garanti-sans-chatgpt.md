@@ -42,7 +42,7 @@ Lorsque le résultat doit être **absolument fiable** (par exemple dans des cas 
 
 Finalement, je concevrais très bien de préciser *not by IA* sur un site qui cherche à **limiter son empreinte écologique**. À quoi bon proposer un site simple et léger si l’artillerie lourde est utilisée pour produire des textes de quelques paragraphes qui peuvent être écrits en peu de temps.
 
-Vous avez compris, je ne m’engage à rien au sujet de l’utilisation de ChatGPT ou toute autre intelligence artificielle. Je ne les utilise pas pour produire les contenus de ce site. Je n’ai pas l’intention de les utiliser à l’avenir, mais c’est une possibilité que je refuse de m’interdire par principe. **Le «not-by-IA-washing» ne m’intéresse pas.** C'est une démarche marketing avant tout. Et ce sont les contenus qui comptent.
+Vous avez compris, je ne m’engage à rien au sujet de l’utilisation de ChatGPT ou toute autre intelligence artificielle. Je ne les utilise pas pour produire les contenus de ce site. Je n’ai pas l’intention de les utiliser à l’avenir, mais c’est une possibilité que je refuse de m’interdire par principe. **Le «not-by-IA-washing» ne m’intéresse pas.** C’est une démarche marketing avant tout. Et ce sont les contenus qui comptent.
 
 ----
 

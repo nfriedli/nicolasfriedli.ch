@@ -2,6 +2,7 @@
 title: Utiliser des polices système
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2024-04-22
+lastMod: 2024-04-30
 categories:
 - performance
 ---
@@ -178,7 +179,6 @@ html {
   font-family:  ui-sans-serif, 
                 Roboto, 
                 "Noto Sans", 
-                Aptos, 
                 system-ui, 
                 sans-serif;
 }
@@ -197,7 +197,7 @@ La logique est:
 
 - la première directive règle le cas pour tous les périphériques Apple
 - la deuxième pour les Android et la majorité des Linux
-- puis on laisse Windows se débrouiller (mais je lui suggère Aptos avant Segoe UI)
+- puis on laisse Windows se débrouiller
 
 Les déclarations exactes de ma feuille de style sont toujours disponible chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css).
 
@@ -232,3 +232,7 @@ J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`
 ---- 
 
 À ma connaissance, la police la plus légère actuellement disponible est [Geist](https://vercel.com/font). Un seul fichier permet de remplacer les 4 variations dont je parlais ci-dessus. Une fois passé par [Glyphhanger](https://github.com/zachleat/glyphhanger), elle pèse environ 20 kB.
+
+----
+
+**Ajout du 30 avril 2024.** Les polices système (San Franciso, Segoe UI et Roboto) sont excellentes pour les personnes dyslexiques. Elles sont bien meilleures que plusieurs polices prétendument optimisées. Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/).
