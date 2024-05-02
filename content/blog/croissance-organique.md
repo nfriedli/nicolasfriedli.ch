@@ -28,7 +28,9 @@ Daniele Procida prend l’exemple de la croissance d’une plante. À n’import
 
 Le même auteur a proposé le cadre de travail Diataxis. Ce qu’il ajoute dans sa conférence, c’est que ce concept est souvent compris comme un plan. Mais il n’a jamais été conçu comme tel.
 
-Le problème d’un plan, c’est qu’il impose une masse de pages à remplir. **Ce corpus de pages sera peu utile avant d’être terminé.** C’est un peu le principe du tout ou rien.
+Le problème d’un plan ou d’une hiérarchie, c’est qu’il impose une masse de pages à remplir. Pour reprendre l’image organique, on pourrait dire qu’un plan, c’est un arbre de très grande taille, mais sans aucune feuille. **Ce corpus de pages sera peu utile avant d’être terminé.** C’est un peu le principe du tout ou rien.
+
+Plus on envisage un grand site, plus on estime le plan nécessaire. Alors qu’au contraire, il faudrait le laisser croître naturellement. Un plan n’est jamais nécessaire à cause de la taille prévue d’un site. **Un plan est «nécessaire» uniquement pour rassurer celles et ceux qui sont en charge du projet.**
 
 Ce qu’affirme Daniele Procida, c’est que faire le travail est la partie facile. La partie difficile, c’est de savoir quoi faire. Avec un plan, on se donne tellement de travail à faire que l’on ne sait pas comment avancer, que l’on se démoralise. Et au final que l’on ne fait rien.
 
@@ -67,3 +69,31 @@ Nous parlons alors de **stratégie de croissance** et supprimons toute idée de 
 Parce que le nouveau et l’inattendu, ça arrive tous les jours, dans le domaine du web comme ailleurs.
 
 Alors on me dit que c’est très bien, que l’on peut procéder par croissance organique. Puis quelqu’un se lève et demande qui crée le plan pour la prochaine rencontre.
+
+----
+
+Suite à la publication de ce billet, j’ai reçu des commentaires. Ils appellent ces remarques:
+
+- L’idée de «publier tôt et souvent» est la bonne. J’aurais pu garder ce brouillon dans mes tiroirs durant des semaines, le relire, le corriger, mais je n’aurais eu l’apport des retours externes.
+- L’idée de «reformuler, supprimer l’inutile et ajouter le nécessaire» est celle que j’utilise pour faire évoluer cette page
+- J’ajoute ci-dessous un passage sur le développement logiciel.
+
+----
+
+## Développement logiciel agile
+
+C’est à dessein que je n’avais pas parlé de développement logiciel ou de documentation technique dans mon premier jet de cette page. Pourtant, un commentaire sur les [méthodes agiles](https://fr.wikipedia.org/wiki/M%C3%A9thode_agile) était bienvenu.
+
+Il existe des traits communs entre la croissance organique et le développement. Dans le [Manifeste pour le développement agile de logiciels](https://agilemanifesto.org/iso/fr/manifesto.html), on trouve notamment:
+
+> L’adaptation au changement plus que le suivi d’un plan.
+
+Le développement agile insiste beaucoup sur les interactions dans les équipes de développement et avec les clientes et clients. Alors que, dans l’absolu, une croissance organique de site peut être réalisée par une personne seule, y compris pour un site personnel.
+
+Ce qui retient mon attention en relisant le manifeste, c’est:
+
+> Un logiciel opérationnel est la principale mesure d’avancement.
+
+C’est un critère fondamental. À toutes les étapes de son développement un logiciel doit fonctionner (ou, du moins, le code doit compiler). Reprise dans le domaine de la création de site, c’est l’idée qu’en tout temps un site est complet, cohérent, utile.
+
+Le problème d’un site bourré de pages affichées comme «en construction» est qu’il peut être en ligne et donner l’impression de fonctionner. Cette tolérance est malheureusement source de beaucoup de problèmes. Alors qu’une erreur de code empêche simplement la compilation, une page vide de sens ne retourne aucun message d’erreur.
