@@ -5,10 +5,8 @@
     --text: hsl(39, 50%, 10%);
     --contrast: hsl(39, 100%, 50%);
 
-    --font-main: ui-sans-serif, Roboto, "Noto Sans", system-ui, sans-serif, var(--font-emoji);
-    --font-mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace, var(--font-emoji);
-    --font-titles: BarlowCondensed, var(--font-main);
-    --font-emoji: "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-main: ui-sans-serif, Roboto, "Noto Sans", system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--1: clamp(0.8333rem, 0.832rem + 0.0065vi, 0.8398rem);
@@ -77,7 +75,6 @@ nav {
 h1,
 h2,
 h3 {
-    font-family: var(--font-titles);
     line-height: 1.1;
     margin-top: 2rem;
     text-wrap: balance;
