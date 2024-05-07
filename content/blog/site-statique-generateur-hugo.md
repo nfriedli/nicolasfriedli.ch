@@ -7,27 +7,27 @@ categories:
 - statique
 ---
 
-Ce site est motorisé par Hugo, je vous dis pourquoi j’ai choisi ce générateur de sites statiques. Mais avant, je vous dit pourquoi je pense qu’un générateur de sites statiques est une bonne idée. Et avant, je vous dit pourquoi un site statique – même généré à la main – est intéressant. Bon voyage dans ce billet en 3 étapes.
+Ce site est motorisé par Hugo, je vous dis pourquoi j’ai choisi ce générateur de sites statiques. Mais avant, je vous dis pourquoi je pense qu’un générateur de sites statiques est une bonne idée. Et avant, je vous dis pourquoi un site statique – même généré à la main – est intéressant. Bon voyage dans ce billet en 3 étapes.
 
 **Note.** Ce billet suppose que vous savez déjà ce qu’est un site statique.
 
 ## Pourquoi un site statique?
 
-Un site statique envoie au client **les contenus exacts qui existent déjà sur le serveur**, sans modifications autre qu’une éventuelle compression à la volée. Voici ce que je considère comme les principales forces des sites statiques:
+Un site statique envoie au client **les contenus exacts qui existent déjà sur le serveur**, sans modifications autres qu’une éventuelle compression à la volée. Voici ce que je considère comme les principales forces des sites statiques:
 
-- Un site statique est **pérenne**. S’il fonctionne un jour, il fonctionnera de la même manière le lendemain. Le site restera valable tant que les navigateurs sauront interpréter HTML, CSS et Javascript. Les navigateurs arrivent toujours se débrouiller du vieux code ou ils n’arrêteront pas de le comprendrendre soudainement.
+- Un site statique est **pérenne**. S’il fonctionne un jour, il fonctionnera de la même manière le lendemain. Le site restera valable tant que les navigateurs sauront interpréter HTML, CSS et JavaScript. Les navigateurs arrivent toujours à se débrouiller du vieux code ou ils n’arrêteront pas de le comprendre soudainement.
 
 - Un site statique est **performant** par nature. Parce que le contenu qui sera envoyé est déjà prêt sur le serveur, il n’est pas possible de faire plus léger.
 
-- Un site statique est **écologique**, parce qu’il ne demande pas de calculs inutiles au serveur ni la présence du base de données. Ils sont construits une fois pour pour toutes. Bien évidemment, il sera encore plus écologique chez un hébergeur écoresponsable, sans envoyer des vidéos inutiles, avec des images correctement dimmensionnées, en faisant l’impasse sur les *plugins* des réseaux sociaux ou les statiques gourmandes en énérgie, avec des polices système, etc. De
+- Un site statique est **écologique**, parce qu’il ne demande pas de calculs inutiles au serveur ni la présence de la base de données. Ils sont construits une fois pour toutes. Bien évidemment, il sera encore plus écologique chez un hébergeur écoresponsable, sans envoyer des vidéos inutiles, avec des images correctement dimensionnées, en faisant l’impasse sur les *plugins* des réseaux sociaux ou les statiques gourmandes en énergie, avec des polices système, etc. De
 
-- Une **sauvegarde** d’un site statique existe quelque part. Si le code est géré par sur GitHub par exemple, il est probable que des copies se trouvent sur au moins un ordinateur, sur le serveur de GitHub et sur le serveur Apache de l’hébergeur. Même sans systeme de gestion de versions, il existe probablement un site local et un site distant. En gros, à part si tout est géré à distance par FTP, il existe une sauvegarde exacte du site.
+- Une **sauvegarde** d’un site statique existe quelque part. Si le code est géré par sur GitHub par exemple, il est probable que des copies se trouvent sur au moins un ordinateur, sur le serveur de GitHub et sur le serveur Apache de l’hébergeur. Même sans système de gestion de versions, il existe probablement un site local et un site distant. En gros, à part si tout est géré à distance par FTP, il existe une sauvegarde exacte du site.
 
 - L’**historique** du site est entièrement disponible si le développement utilise un outil comme Git (distant ou local).
 
 - La **sécurité** d’un site statique est assurée. Il n’offre pas d’accès à une interface d’administration distante, il ne stocke pas de données, etc.
 
-- Finalement, un site statique est **portable**. Sa migration d’un serveur à un autre se résume à la copier de fichiers. En cas de problème, c’est une démarche facile et rapide; le temps étant proporitionnel à la masse de données à copier.
+- Finalement, un site statique est **portable**. Sa migration d’un serveur à un autre se résume à la copier de fichiers. En cas de problème, c’est une démarche facile et rapide; le temps étant proportionnel à la masse de données à copier.
 
 Mais avant de mettre son site sur un serveur, il faut le créer. Passons au point suivant.
 
@@ -39,9 +39,9 @@ Fondamentalement, un générateur de sites statiques ou SSG (*static site genera
 
 - La **mise en page est automatisée** par un système de gabarits (*templates*), par exemple en réutilisant le même entête ou le même pied sur chaque du site. Et en répercutant chaque modification sur toutes les pages.
 
-- Les **tâches répétitives sont réalisées par une machine** plutôt que par un cerveau humain. Un ordinateur sera beaucoup plus efficace et fiable que vous et moi pour créer une liste de pages d’un répertoire triée par dates, pour générer un fichier RSS ou Atom valide, pour exporter les contenus de tous le site en format JSON pour un moteur de recherche, etc.
+- Les **tâches répétitives sont réalisées par une machine** plutôt que par un cerveau humain. Un ordinateur sera beaucoup plus efficace et fiable que vous et moi pour créer une liste de pages d’un répertoire triée par dates, pour générer un fichier RSS ou Atom valide, pour exporter les contenus de tout le site en format JSON pour un moteur de recherche, etc.
 
-- Des **optimisations sur les fichiers texte** (HTML, CSS, Javascript, XML, etc.) sont effectuées à la génération: minification, nettoyage, concaténation, etc.
+- Des **optimisations sur les fichiers texte** (HTML, CSS, JavaScript, XML, etc.) sont effectuées à la génération: minification, nettoyage, concaténation, etc.
 
 - Les **images** sont redimmensionnées, allégées, modifiées au moment de la création du site. Le travail fastidieux de création d’[images adaptatives](https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) est effectuée par une machine.
 
