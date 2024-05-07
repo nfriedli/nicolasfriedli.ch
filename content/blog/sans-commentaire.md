@@ -34,15 +34,15 @@ Si la question de la modération du spam est résolue, l’aperçu des statistiq
 
 En d’autres termes, 9 messages sur 10 envoyés sont inscrits dans la base de données, puis traités par un service externe, pour être finalement envoyés à la poubelle. D’un point de vue écologique, c’est indécent.
 
-Les blogueurs et blogueuses devraient toujours se poser la question de la pertinence des commentaires ouverts. Certes, c’est agréable d’avoir un retour positif, mais ça n’en vaut pas toujours le prix. Au final, c’est parce que beaucoup (trop) de sites permettent des commentaires que des outils de spam sont développés.
+Les blogueurs et blogueuses devraient toujours se poser la question de la pertinence des commentaires ouverts. Certes, c’est agréable d’avoir un retour positif, mais ça n’en vaut pas toujours le prix. En fin de compte, c’est parce que beaucoup (trop) de sites permettent des commentaires que des outils de spam sont développés.
 
-**Le paradoxe, c’est que l’efficacité d’Akismet entretient la publication de messages indésirables et le gâchis de ressources.** Si l’outil était mauvais, les commentaires serait fermés (ou réservés aux personnes inscrites) et les indésirables n’existeraient plus depuis longtemps.
+**Le paradoxe, c’est que l’efficacité d’Akismet entretient la publication de messages indésirables et le gâchis de ressources.** Si l’outil était mauvais, les commentaires seraient fermés (ou réservés aux personnes inscrites) et les indésirables n’existeraient plus depuis longtemps.
 
 ## Lieux de discussion
 
-Les lieux pour commenter se sont multipliés. Il y avait les blogs et les forums. Il y a aujourd’hui les réseaux sociaux publics (Facebook, Instagram, Mastodon, Twitter/X), les plateformes de diffusion vidéo (Twitch ,YouTube), les services privés (Discord, Slack), les messageries instantanées (Telegram, WhatsApp) pour ne citer que quelques exemples.
+Les lieux pour commenter se sont multipliés. Il y avait les blogs et les forums. Il y a aujourd’hui les réseaux sociaux publics (Facebook, Instagram, Mastodon, Twitter/X), les plateformes de diffusion vidéo (Twitch, YouTube), les services privés (Discord, Slack), les messageries instantanées (Telegram, WhatsApp) pour ne citer que quelques exemples.
 
-Quoi que l’on fasse de nos blogs, les contenus pourront toujours être discutés ailleurs et il ne sera jamais possible de suivre tous les débats. Même avec un système de commentaires activé, ce n’est plus «sous le billet» que se passent l’essentiel des interactions.
+Quoi que l’on fasse de nos blogs, les contenus pourront toujours être discutés ailleurs et il ne sera jamais possible de suivre tous les débats. Même avec un système de commentaires activé, ce n’est plus «sous le billet» que se passe l’essentiel des interactions.
 
 **Dans mon monde de rêve, toutes les interactions se feraient par un nouvel article de blog.** Un billet m’a interpellé, m’a déplu ou m’a déçu, j’en écris un autre sur mon site. Se crée alors un réseau, sans coordination et sans modération centrale. Ainsi  chaque site personnel est *de fait* un lieu de discussion.
 

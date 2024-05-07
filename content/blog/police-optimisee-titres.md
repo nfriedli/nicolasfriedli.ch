@@ -16,7 +16,7 @@ J’ai choisi d’utiliser [Bricolage Grotesque](https://ateliertriay.github.io/
 
 Le téléchargement du fichier de départ se passe dans le [dépôt GitHub](https://github.com/ateliertriay/bricolage/tree/main) ou chez [Google Fonts](https://fonts.google.com/specimen/Bricolage+Grotesque). 
 
-Pour être certain d’avoir un fichier léger, je vais convertir un fichier `ttf` en format `woff2`. Ce format est accepté par tous les navigateurs. Je ne souhaite pas de version variable sur mon site pour une question de poids. Comme tous mes titres sont en gras, je choisis la version statique `bold` (pour éviter la variation `wght`) et je prends celle en 48px (pour éviter la variation `opsz`). Je limiter la gamme de caractères à l’alphabet latin.
+Pour être certain d’avoir un fichier léger, je vais convertir un fichier `ttf` en format `woff2`. Ce format est accepté par tous les navigateurs. Je ne souhaite pas de version variable sur mon site pour une question de poids. Comme tous mes titres sont en gras, je choisis la version statique `bold` (pour éviter la variation `wght`) et je prends celle en 48px (pour éviter la variation `opsz`). Je limite la gamme de caractères à l’alphabet latin.
 
 Avec le génial [Glyphhanger](https://github.com/zachleat/glyphhanger) de l’excellent Zach Leatherman:
 
@@ -61,7 +61,7 @@ h3 {
 }
 ```
 
-Ce qui signifie que si Bricolage Grotesque n’est pas disponible ce sera la même police que celle du texte qui sera utilisée. On évite ainsi de mauvaises suprises.
+Ce qui signifie que, si Bricolage Grotesque n’est pas disponible, ce sera la même police que celle du texte qui sera utilisée. On évite ainsi de mauvaises surprises.
 
 Et maintenant, on appelle la police que j’ai placée dans `/fonts/`:
 
@@ -115,7 +115,7 @@ Ces règles de cache signifient que le fichier restera en mémoire durant une an
 
 ## Améliorer votre site
 
-La même politique peut s’appliquer pour toutes les polices du de votre site. Vous pouvez entreprendre une même démarche en vous inspirant des travaux de Zach Leatherman:
+La même politique peut s’appliquer pour toutes les polices de votre site. Vous pouvez entreprendre une même démarche en vous inspirant des travaux de Zach Leatherman:
 
 - [The Scoville Scale of Web Font Loading Opinions](https://beyondtellerrand.com/events/dusseldorf-2019/speakers/zach-leatherman)
 - [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/)
@@ -124,6 +124,6 @@ Mais quand plusieurs polices entrent en jeu, d’autres questions se posent. Par
 
 - quels fichiers précharger (`preload`) pour ne pas faire de transferts inutiles?
 - quelle police afficher de quelle manière (`optional` ou `swap`)?
-- quelle pertinence d’une feuille de style externe uniquement pour les chargement de polices?
+- quelle pertinence d’une feuille de style externe uniquement pour les chargements de polices?
 
-Dans tous les cas, essayez d’éviter les services tiers comme Google Fonts. Ils posent des problèmes de confidentialité, de fiabilité et de perfomance. Et comme ils proposent un cache très court, ils gaspillent pas mal de ressources en transferts inutiles.
+Dans tous les cas, essayez d’éviter les services tiers comme Google Fonts. Ils posent des problèmes de confidentialité, de fiabilité et de performance. Et comme ils proposent un cache très court, ils gaspillent pas mal de ressources en transferts inutiles.

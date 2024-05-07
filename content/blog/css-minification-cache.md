@@ -1,13 +1,13 @@
 ---
 title: Feuilles de style minifiées et gestion du cache
-description: Ce que j’applique en général pour la minfication et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
+description: Ce que j’applique en général pour la minification et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
 date: 2024-03-15
 categories:
 - hugo
 - performance
 ---
 
-Ce que j’applique en général pour la minfication et la mise en cache des feuilles de style. C’est une *optimisation raisonnable* qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
+Ce que j’applique en général pour la minification et la mise en cache des feuilles de style. C’est une *optimisation raisonnable* qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
 
 ## Utiliser une feuille de style externe
 
@@ -32,7 +32,7 @@ Le répertoire `/assets/` permet d’effectuer des opérations sur les fichiers 
 <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
 ```
 
-La première ligne va chercher le fichier, relativement au répertoire `/assets/` et le minifie. J’utilise pour cela un filtre. La seconde ligne appelle le fichier final en HTML. Le fichier produit sera `/public/css/screen.min.css`.
+La première ligne va chercher le fichier, relativement au répertoire, `/assets/` et le minifie. J’utilise pour cela un filtre. La seconde ligne appelle le fichier final en HTML. Le fichier produit sera `/public/css/screen.min.css`.
 
 Je procède de même pour la feuille de style dédiée à l’impression:
 
@@ -45,7 +45,7 @@ Le fichier produit se trouvera au même endroit que celui dédié à l’impress
 
 ## Fingerprint et cache long
 
-Il est possible mettre en cache les feuilles de style pour une très longue durée. C’est pourquoi je souhaite que le nom de fichier final soit unique. C’est facile avec [fingerprint](https://gohugo.io/hugo-pipes/fingerprint/):
+Il est possible de mettre en cache les feuilles de style pour une très longue durée. C’est pourquoi je souhaite que le nom de fichier final soit unique. C’est facile avec [fingerprint](https://gohugo.io/hugo-pipes/fingerprint/):
 
 ```
 {{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
@@ -95,7 +95,7 @@ Quand le style est intégré, on pourrait aller plus loin et nettoyer *chaque pa
 
 ## Outils Hugo non utilisés sur mon blog
 
-Il me semble que les options choisies sont pertinents et suffisantes pour ce site. Mais Hugo propose d’autres possibilités. Par exemple:
+Il me semble que les options choisies sont pertinentes et suffisantes pour ce site. Mais Hugo propose d’autres possibilités. Par exemple:
 
 - Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/). C’est inutile puisque je ne n’ai qu’un fichier (par type de média).
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/hugo-pipes/fingerprint/#usage). C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.

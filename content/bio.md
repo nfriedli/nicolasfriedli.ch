@@ -15,11 +15,11 @@ Durant les 15+ dernières années, il a travaillé pour les domaines:
 - de la formation (promotion d’études universitaires, formation continue)
 - des institutions (sites romands, cantonaux et locaux)
 - des organisations (communes, ONG)
-- de la santé (cabinets, sites professionels)
+- de la santé (cabinets, sites professionnels)
 - du sport (tournoi ATP de tennis, courses populaires, équipement)
 
 Convaincu que les sites d’institutions et d’organisations ont un énorme potentiel d’amélioration, il se passionne pour l’architecture d’information, la performance web et le référencement local. Le contenu et les liens sont les briques essentielles pour proposer un site web utile.
 
-Il s’est exprimé régulièrement dans des sessions de formation professionelle et dans des interventions publiques.
+Il s’est exprimé régulièrement dans des sessions de formation professionnelle et dans des interventions publiques.
 
 Il est marié à [Diane Friedli](https://dianefriedli.ch/), pasteure, et père de 2 enfants adolescents, Lucien et Clémence.

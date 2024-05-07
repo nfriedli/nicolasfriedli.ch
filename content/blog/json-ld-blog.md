@@ -6,13 +6,13 @@ categories:
 - json
 ---
 
-Les données structurées permettent de simplifier le travail des moteurs de recherche et d’améliorer la précision des informations fournies. Après quelques généralités, je vous dit ce que j’ai implémenté sur ce site généré avec Hugo.
+Les données structurées permettent de simplifier le travail des moteurs de recherche et d’améliorer la précision des informations fournies. Après quelques généralités, je vous dis ce que j’ai implémenté sur ce site généré avec Hugo.
 
 ## JSON for Linking Data et Schema.org
 
 JSON-LD (JSON for Linking Data) est un format recommandé pour intégrer des données structurées dans une page HTML. Comme son nom l’indique, il utilise la syntaxe JSON (JavaScript Object Notation) répandue dans le domaine du web.
 
-En HTML, des métadonnées existent déjà, mais elle sont des balises simples, sans structure. Par exemple: 
+En HTML, des métadonnées existent déjà, mais elles sont des balises simples, sans structure. Par exemple: 
 
 ```
 <meta name="author" content="Nicolas Friedli">
@@ -20,7 +20,7 @@ En HTML, des métadonnées existent déjà, mais elle sont des balises simples, 
 
 Mais qui est ce «Nicolas Friedli»? Impossible d’en dire plus dans les métadonnées habituelles. [JSON-LD](https://json-ld.org/) permet de structurer les données et propose une *grammaire*.
 
-[Schema.org](https://schema.org/) – une initiative commune de Google, Microsoft, Yahoo et Yandex – développe un *vocabulaire* pour remplir ces champs JSON. Tout l’enjeu désormais, c’est de donner des informations utiles, ni trop ni trop peu.
+[Schema.org](https://schema.org/) — une initiative commune de Google, Microsoft, Yahoo et Yandex — développe un *vocabulaire* pour remplir ces champs JSON. Tout l’enjeu désormais, c’est de donner des informations utiles, ni trop ni trop peu.
 
 ## Données en page d’accueil
 
@@ -67,7 +67,7 @@ Comme c’est un site personnel, il me paraît intéressant d’en dire plus sur
 }
 ```
 
-Donc, nous avons désormais 2 ensembles JSON. Le premier a un seul niveau, le second est plus stucturé (champ `address`).
+Donc, nous avons désormais 2 ensembles JSON. Le premier a un seul niveau, le second est plus structuré (champ`address`).
 
 ### Structure simple
 
@@ -91,7 +91,7 @@ Mais ce qui est vraiment intéressant, c’est de lier la notion d’auteur au s
 
 En français: 
 
-> Ce site s’appelle «Annuaire protestant», et aussi «theologique.ch». Il est disponible à l’adresse `https://theologique.ch/`. Il a pour auteur Nicolas Friedli, celui du site `https://nicolasfriedli.ch/`.
+> Ce site s’appelle «Annuaire protestant», et aussi «theologique.ch». Il est disponible à l’adresse`https://theologique.ch/`. Il a pour auteur Nicolas Friedli, celui du site`https://nicolasfriedli.ch/`.
 
 C’est clair, non?
 
@@ -153,11 +153,11 @@ Pour mon blog, j’ai essayé de créer un JSON un peu plus complet:
 }
 ```
 
-L’interprétation du contenu devrait être simple. Donc je ne commente pas en détail, mais signale que l’URL du site est le même que celle de l’auteur. Ce balisage est conforme à Schema.org, même il est rarement utilisé ainsi.
+L’interprétation du contenu devrait être simple. Donc je ne commente pas en détail, mais signale que l’URL du site est la même que celle de l’auteur. Ce balisage est conforme à Schema.org, même il est rarement utilisé ainsi.
 
 ### Intégration statique dans Hugo
 
-Pour intégrer cela dans Hugo, c’est trivial, parce que ces données sont statiques. Un fichier `schema.json` est placé dans le répertoire `/data/`. Il est accessible par la variable `site.Data.schema`.
+Pour intégrer cela dans Hugo, c’est trivial, parce que ces données sont statiques. Un fichier `schema.json`est placé dans le répertoire`/data/`. Il est accessible par la variable`site.Data.schema`.
 
 Donc, pour ne l’afficher que sur la page d’accueil, ce sera quelque chose comme:
 
@@ -177,7 +177,7 @@ Tous les détails sont toujours disponibles dans les [sources du site sur GitHub
 Pour les billets de blog, je souhaite donner quelques informations aux moteurs de recherche:
 
 - distinguer clairement la date de publication de la date de dernière modification (non trivial en HTML)
-- donner le titre du billet, pour éviter l’ambiguité entre `h1` et `title`
+- donner le titre du billet, pour éviter l’ambiguïté entre `h1`et `title`
 - signifier que le contenu est gratuit
 - compter le nombre de mots
 
@@ -216,7 +216,7 @@ Pour l’intégrer dans Hugo, vu que c’est quelque chose de dynamique, je déc
   {{ block "json-ld" . }}{{ end }}
   ```
 
-Puis, uniquement pour les article de blog, je redéfinis (ou surcharge) le bloc dans le modèle `blog/single.html`: 
+Puis, uniquement pour les articles de blog, je redéfinis (ou surcharge) le bloc dans le modèle`blog/single.html`: 
 
 ```
 {{ define "json-ld" }}
@@ -230,14 +230,14 @@ Puis, uniquement pour les article de blog, je redéfinis (ou surcharge) le bloc 
 {{ end }}
 ```
 
-L’existence du bloc `json-ld` sur toutes les pages permettrait d’injecter d’autres données à d’autres endroits du site.
+L’existence du bloc `json-ld`sur toutes les pages permettrait d’injecter d’autres données à d’autres endroits du site.
 
 ## Construction à la main 
 
-En passant la page d’accueil ou un billet de blog de ce site dans le [validateur Schema.org](https://validator.schema.org/), les données structurés sont rendues lisibles. Elles me semblent suffisantes. Il reste à voir comment elles seront prises en compte par les moteurs de recherche dans la durée.
+En passant la page d’accueil ou un billet de blog de ce site dans le [validateur Schema.org](https://validator.schema.org/), les données structurées sont rendues lisibles. Elles me semblent suffisantes. Il reste à voir comment elles seront prises en compte par les moteurs de recherche dans la durée.
 
 En construisant ces schémas à la main, j’ai pu me rendre compte du potentiel de Schema.org pour documenter autre chose que des billets de blog. C’est ce que j’ai utilisé sur le site *Églises ouvertes en Suisse romande*. En exemple, les [données structurées du temple de Colombier](https://validator.schema.org/#url=https%3A%2F%2Feglises-ouvertes.ch%2Fneuchatel%2Fcolombier%2F).
 
-Beaucoup de site utilisent JSON-LD, souvent en excès (et dans le dos des propriétaires). Je suis très réservé par la quantité astronomique de données structurées que propose l’extension de référencement Yoast SEO. C’est un peu comme si le site était réécrit 2 fois sur chacune de ses pages.
+Beaucoup de sites utilisent JSON-LD, souvent en excès (et dans le dos des propriétaires). Je suis très réservé par la quantité astronomique de données structurées que propose l’extension de référencement Yoast SEO. C’est un peu comme si le site était réécrit 2 fois sur chacune de ses pages.
 
 Si je vois bien l’intérêt de la chose pour un site commercial ou tout site qui cherche à [modifier l’apparence des résultats de recherche](https://developers.google.com/search/docs/appearance/structured-data/search-gallery?hl=fr) pour être plus visible, je pense que c’est inutile pour un blog ou un simple site personnel.

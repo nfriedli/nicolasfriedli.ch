@@ -9,7 +9,7 @@ Toutes les informations utiles pour me proposer un mandat, m’employer, me pose
 
 ## M’engager
 
-Je favorise les mandats de consultant de quelques jours (répartis sur quelques semaines). Toutes mes travaux sont facturés au forfait.
+Je favorise les mandats de consultant de quelques jours (répartis sur quelques semaines). Tous mes travaux sont facturés au forfait.
 
 Je souhaite recevoir la description d’un éventuel mandat *avant* une première rencontre. Une demande précise a plus de chances de me convaincre de travailler pour vous.
 
@@ -32,6 +32,6 @@ IDE: CHE-469.715.163
 
 **Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp.
 
-Je ne suis pas présent sur les réseaux sociaux Instagram, LinkedIn ou Twitter. Et j’ai une présence passive sur [Facebook](https://www.facebook.com/frdl.ch/) et [Mastodon](https://mastodon.social/@friedli).
+Je ne suis pas présent sur les réseaux sociaux, Instagram, LinkedIn ou Twitter. Et j’ai une présence passive sur [Facebook](https://www.facebook.com/frdl.ch/) et [Mastodon](https://mastodon.social/@friedli).
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").

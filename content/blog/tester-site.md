@@ -1,10 +1,10 @@
----
+﻿---
 title: Tester un site web
 description: Proposition de tests techniques et pratiques à effectuer pour une première appréciation d’un site web.
 date: 2024-02-13
 ---
 
-Il n’est pas rare que l’on me demande ce que je pense d’un site web personnel ou professionel. Une petite phrase lâchée dans une discussion informelle:
+Il n’est pas rare que l’on me demande ce que je pense d’un site web personnel ou professionnel. Une petite phrase lâchée dans une discussion informelle:
 
 > J’ai un nouveau site, est-ce que tu jettes un coup d’œil et tu me dis ce que tu en penses?
 
@@ -14,15 +14,15 @@ Voici quelques tests que je vais effectuer sans délai pour me faire une idée. 
 
 Dans un premier temps, je vais me rendre sur le site, sur sa page d’accueil. Je vais jeter un premier regard rapide, m’intéresser à la taille de la police, aux contrastes, à la mise en page, etc. afin de voir si tout semble normal. En principe, jusqu’ici, tout va plutôt bien.
 
-Puis je vais désactiver le cache du navigateur et limiter la bande passante. Je vais regacontrôler  le poids des ressources qu’il télécharge et leur provenance au rechargement de la page. J’aurai une idée de la vitesse d’affichage. Il n’est pas rare que des lenteurs et des lourdeurs soient déjà perceptibles.
+Puis je vais désactiver le cache du navigateur et limiter la bande passante. Je vais contrôler le poids des ressources qu’il télécharge et leur provenance au rechargement de la page. J’aurai une idée de la vitesse d’affichage. Il n’est pas rare que des lenteurs et des lourdeurs soient déjà perceptibles.
 
 ## Lancer PageSpeed Insights
 
-Ensuite, je vais coller l’adresse du site dans [PageSpeed Insights](https://pagespeed.web.dev/). Si les 4 résultats sont verts, c’est bon signe. Si certains résultats sont orange, ils deviendront naturellement des points d’attention. Si des résultats sont rouges, je vais focaliser mes investigation dans ces domaines avant tout.
+Ensuite, je vais coller l’adresse du site dans [PageSpeed Insights](https://pagespeed.web.dev/). Si les 4 résultats sont verts, c’est bon signe. Si certains résultats sont orange, ils deviendront naturellement des points d’attention. Si des résultats sont rouges, je vais focaliser mes investigations dans ces domaines avant tout.
 
 ## Regarder l’état du référencement
 
-Puis je me rendrai dans Google et effectuerai une recherche du type `site:nicolasfriedli.ch`. Ainsi j’aurai une idée:
+Puis je me rendrai dans Google et effectuerai une recherche du type`site:nicolasfriedli.ch`. Ainsi j’aurai une idée:
 
 - du nombre de pages référencées
 - de la qualité de l’affichage des résultats de recherche (SERP)
@@ -37,7 +37,7 @@ Je vais redimensionner la fenêtre manuellement, essayer de zoomer le texte, vé
 
 ## Tester la navigation au clavier et l’accessibilité
 
-Je vais retourner sur la page d’accueil et tenter de navigueur en utilisant mon seul clavier. Je verrai si l’utilisation des menus est fluide, si l’ordre des liens est correct, s’ils sont visibles à la sélection, etc.
+Je vais retourner sur la page d’accueil et tenter de naviguer en utilisant mon seul clavier. Je verrai si l’utilisation des menus est fluide, si l’ordre des liens est correct, s’ils sont visibles à la sélection, etc.
 
 C’est un test d’accessibilité (A11Y) basique, que je vais compléter par un passage dans [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/) pour contrôler la structure de la page, les textes alternatifs des images, etc.
 
@@ -49,7 +49,7 @@ Je vérifierai aussi si les lignes de textes ne sont pas trop longues ou trop co
 
 ## Se faire une idée du bilan carbone
 
-Par la suite, je vais tester le bilan carbone du site dans [Website Carbon Calculator](https://www.websitecarbon.com/). À vrai dire, j’aurai déjà une idée du résultat en fonction de tous les tests précédent, mais cette vérification n’est pas de trop.
+Par la suite, je vais tester le bilan carbone du site dans [Website Carbon Calculator](https://www.websitecarbon.com/). À vrai dire, j’aurai déjà une idée du résultat en fonction de tous les tests précédents, mais cette vérification n’est pas de trop.
 
 C’est un test que je trouve particulièrement important pour tous les sites qui parlent de ressources, d’écologie, de respect de la Création, etc. Un peu de cohérence ne fait jamais de mal.
 
@@ -82,6 +82,6 @@ Cette petite analyse n’est pas un audit au sens strict. Je ne vais donc pas re
 J’essaierai toujours de dire le plus simplement possible:
 
 - ce qui m’a plu dans le site testé
-- les problèmes les plus important qu’il pose
+- les problèmes les plus importants qu’il pose
 
 Envie d’essayer? Testez vous-même votre site par les différentes étapes proposées. Ou prenez le risque de me demander de «jeter un coup d’œil rapide».

@@ -26,7 +26,7 @@ Je vous transmets l’analyse sous forme d’un document écrit.
 
 ## Conseil
 
-Après l’analyse, je procède à un travail de *hiérarchisation*. Je fixe des *priorités* en fonction de vos réalités: vos compétences, votre budget, le temps disponibles et vos objectifs.
+Après l’analyse, je procède à un travail de *hiérarchisation*. Je fixe des *priorités* en fonction de vos réalités: vos compétences, votre budget, le temps disponible et vos objectifs.
 
 Puis je vous donne une liste de *recommandations*. L’idéal est toujours d’appliquer la mesure la moins coûteuse (dans tous les sens du terme) qui produit le plus d’effet. Je recherche l’*efficience* dans l’amélioration de votre site et de votre présence sur le web.
 
@@ -45,8 +45,8 @@ Nous pouvons donc stopper notre collaboration avant cette phase de *mise en œuv
 
 ## Formation
 
-Je peux dispenser des *formations sur mesure* pour donner plus d’autonomie à vos équipes. Ce n’est pas le chemin le plus court, mais certainement un des plus intéressant dans la durée.
+Je peux dispenser des *formations sur mesure* pour donner plus d’autonomie à vos équipes. Ce n’est pas le chemin le plus court, mais certainement un des plus intéressants dans la durée.
 
 Des personnes sensibilisées à l’accessibilité, au référencement, à la performance et à la qualité web trouvent du sens dans leur travail. Toute formation est accompagnée d’une documentation.
 
-C’est une démarche exigeante mais gratifiante.
+C’est une démarche exigeante, mais gratifiante.

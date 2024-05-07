@@ -42,7 +42,7 @@ Ou en [JSON](http://www.json.org/json-en.html) (JavaScript Object Notation):
 
 J’utilise TOML dans les fichiers de configuration, pour son excellent équilibre entre sa facilité de rédaction et sa fiabilité.
 
-YAML pose parfois des problèmes comme le soulignent Ruud van Asseldonk dans [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) ou Chris Coyier dans [Yaml, JSON, Toml](https://chriscoyier.net/2023/01/27/yaml-json-toml/).
+YAML pose parfois des problèmes comme le soulignent Ruud van Asseldonk dans [The yaml document from hell](https://ruudvanasseldonk.com/2023/01/11/the-yaml-document-from-hell) ou Chris Coyier dans [Yaml, JSON, Toml](https://chriscoyier.net/2023/01/27/yaml-json-toml/).
 
 JSON n’est pas un format très agréable à rédiger. Mais il n’est pas prévu pour cela.
 
@@ -62,7 +62,7 @@ languageCode = "fr"
 defaultContentLanguage = "fr"
 ```
 
-Une sécurité si un nom de fichier source comprend un caractère problématique. Ou si j’utilise des taxonomies qui génèrent automatiquement des URLs.
+Une sécurité si un nom de fichier source comprend un caractère problématique. Ou si j’utilise des taxonomies qui génèrent automatiquement des URL.
 
 ```
 removePathAccents = true
@@ -100,7 +100,7 @@ Pas besoin de statistiques des balises HTML et des attributs `class` et `id` uti
 writeStats = false
 ```
 
-Les `id` des titres `h2`, `h3`, etc. sont propres. C’est surtout important quand on génère une table des matières interne à la page:
+Les `id` des titres `h2`, `h3`, etc., sont propres. C’est surtout important quand on génère une table des matières interne à la page:
 
 ```
 [markup.goldmark.parser]
@@ -151,13 +151,13 @@ theme = "monthemehugo"
 
 Je n’utilise que le répertoire `/layouts/` pour mes modèles de pages, mes shortcodes, etc. Aucun thème existant n’est utilisé pour mon site.
 
-Si les *layouts* permettent de surcharger les fichiers d’un thème activé. Ils peuvent aussi être utilisés seuls. Ils ne surchargent rien mais sont suffisants.
+Si les *layouts* permettent de surcharger les fichiers d’un thème activé. Ils peuvent aussi être utilisés seuls. Ils ne surchargent rien, mais sont suffisants.
 
 Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur si un thème n’est pas activé dès le début. C’est un conseil que je donne aux personnes qui débutent: commencez par créer vos *layouts*, puis activez un thème si nécessaire.
 
 ## Modularisation de la configuration
 
-Le fichier de configuration peut être séparé en plusieurs petits fichiers. Je vois peut d’intérêt à le faire avec le mien qui fait quelques dizaines de lignes. Mais ça peut être intéressant si `hugo.toml` devient trop long ou trop complexe.
+Le fichier de configuration peut être séparé en plusieurs petits fichiers. Je vois peu d’intérêt à le faire avec le mien qui fait quelques dizaines de lignes. Mais ça peut être intéressant si `hugo.toml` ça devient trop long ou trop complexe.
 
 Pour modulariser la configuration, il faut placer les différents fichiers dans `/config/`. Le nom de fichier est alors la section de configuration. Par exemple, la minification dans mon fichier unique est:
 
@@ -192,11 +192,11 @@ Surtout, la séparation en fichier permet de proposer des portions de configurat
 
 ## Configuration par environnement
 
-Finalement, différentes version de configuration sont applicables selon l’environnement. Un exemple simple, pour la minification:
+Finalement, différentes versions de configuration sont applicables selon l’environnement. Un exemple simple, pour la minification:
 
 - dans `/config/_default/hugo.toml`: aucune option de minification mentionnée
 - dans `/config/production/hugo.toml`: les quelques lignes sur la minification de mon fichier
 
-Ainsi, durant le développement, les fichiers ne sont jamais minifiés. Alors que lors de la compilation ils le sont. Par défaut, hugo server est en environnement de developpement et hugo en environnement de production.
+Ainsi, durant le développement, les fichiers ne sont jamais minifiés. Alors que lors de la compilation ils le sont. Par défaut, hugo server est en environnement de développement et hugo en environnement de production.
 
-D’autres environnement sont utilisables et les variables peuvent être passées à la compilation. Ce sont des finesses inutiles pour un site aussi léger que le mien.
+D’autres environnements sont utilisables et les variables peuvent être passées à la compilation. Ce sont des finesses inutiles pour un site aussi léger que le mien.

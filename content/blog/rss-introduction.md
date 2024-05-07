@@ -17,9 +17,9 @@ Pour commencer ce petit parcours, j’ai demandé à ma femme [Diane Friedli](ht
 
 > Les flux RSS, ça te permet de savoir qu’il y a des nouveautés sur les sites qui t’intéressent sans avoir besoin d’aller voir chacun d’eux.
 
-Ma définition, un peu plus complète mais moins limpide:
+Ma définition, un peu plus complète, mais moins limpide:
 
-> Les flux RSS permettent de s’abonner aux nouvelles publications de sites choisis. Ils sont consultés dans un logiciel spécifique (agrégateur) qui permet de gérer ses lectures. Les nouveautés s’affichent de manière chronologique ou selon classement personnel. C’est une méthode de consultation fiable, rapide, écologique et anonyme.
+> Les flux RSS permettent de s’abonner aux nouvelles publications de sites choisis. Ils sont consultés dans un logiciel spécifique (agrégateur) qui permet de gérer ses lectures. Les nouveautés s’affichent de manière chronologique ou selon un classement personnel. C’est une méthode de consultation fiable, rapide, écologique et anonyme.
 
 Pour répondre à la question spécifique de l’utilité:
 
@@ -30,7 +30,7 @@ Pour répondre à la question spécifique de l’utilité:
 Voici ce qui se passe quand je me connecte à mon agrégateur de flux:
 
 - je vois la liste des nouvelles publications depuis ma dernière connexion
-- l’instant, j’ai 47 nouvelles publications issues des 340 sites j’ai décidé de suivre
+- l’instant, j’ai 47 nouvelles publications issues des 340 sites j’ai décidé de suivre
 - ces nouveautés sont réparties dans des rubriques (selon ma propre organisation):
   - 4 billets publiés sur des blogs protestants
   - 2 dans ma rubrique culture
@@ -38,14 +38,14 @@ Voici ce qui se passe quand je me connecte à mon agrégateur de flux:
   - 6 dans ma rubrique consacrée aux médias
   - etc.
 - je vais les consulter soit de manière globale, soit par rubrique:
-  - je vais parcourir les 32 publications de ma rubrique web en anglais
+  - je vais parcourir les 32 publications de ma rubrique web en anglais
   - puis les 15 restantes de manière antéchronologique
-- quand un article m’intéresse mais que je n’ai pas le temps de le lire, je vais le stocker dans «Lire plus tard»
+- quand un article m’intéresse, mais que je n’ai pas le temps de le lire, je vais le stocker dans «Lire plus tard»
 - à la fin de ma visite, j’aurai en principe tout lu (sauf les publications à lire plus tard)
-- parfois, je ne fait que survoler des articles (mais je sais de quoi ils parlent et ça me suffit)
+- parfois, je ne fais que survoler des articles (mais je sais de quoi ils parlent et ça me suffit)
 - j’ai aussi la possibilité de laisser des articles non lus pour ma prochaine visite (comme dans une boîte mail)
 
-Autrement dit, ce matin, c’est comme si j’avais parcouru 340 sites pour chercher les (éventuelles) nouvelles publications. Puis que je les avais classées par catégories, puis que je les avais survolées (ou lues). Enfin que j’avais enregistrées celles que je souhaitait conserver pour plus tard en un lieu accessible de tous mes périphériques (ordinateur, téléphone ou tablette).
+Autrement dit, ce matin, c’est comme si j’avais parcouru 340 sites pour chercher les (éventuelles) nouvelles publications. Puis que je les avais classées par catégories, puis que je les avais survolées (ou lues). Enfin que j’avais enregistrées celles que je souhaitais conserver pour plus tard en un lieu accessible de tous mes périphériques (ordinateur, téléphone ou tablette).
 
 Franchement, nous avons mieux à faire que parcourir des centaines de sites, dont beaucoup n’ont pas de nouveautés depuis hier ou la semaine dernière. Les logiciels font ça mieux que nous.
 
@@ -82,7 +82,7 @@ rapidité
 : c’est un fichier léger à télécharger et simple à analyser (c’est pourquoi un agrégateur peut vérifier des centaines de sites en quelques secondes)
 
 écologie
-: ce fichier léger minimise les ressources utilisées et il évite de se rendre sur un site web, beaucoup plus lourd, s’il n’y a pas de nouveautés à consulter
+: ce fichier léger minimise les ressources utilisées et il évite de se rendre sur un site web, beaucoup plus lourd, s’il n’y a pas de nouveauté à consulter
 
 fiabilité
 : la lecture d’un fichier bien formaté est beaucoup plus fiable que la consultation humaine d’un site pour découvrir des nouveautés (qui ne sont pas toujours visibles en page d’accueil)
@@ -107,15 +107,15 @@ Voilà ce que permettent les flux RSS:
 
 ## Comment lire des flux RSS
 
-Je conseille l’utilisation d’un agrégateur en ligne, parce qu’il permet de reprendre la lecture au même endroit quel que soit le périphérique utilisée.
+Je conseille l’utilisation d’un agrégateur en ligne, parce qu’il permet de reprendre la lecture au même endroit, quel que soit le périphérique utilisé.
 
-J’utilise [Inoreader](https://www.inoreader.com/) en version pro. C’est à mon avis le meilleur lecteur en terme de possibilités, même si l’interface est parfois un peu tordue. La version basique gratuite permet de suivre jusqu’à 150 sites.
+J’utilise [Inoreader](https://www.inoreader.com/) en version pro. C’est à mon avis le meilleur lecteur en termes de possibilités, même si l’interface est parfois un peu tordue. La version basique gratuite permet de suivre jusqu’à 150 sites.
 
-Un agrégateur très utilisé est [Feedly](https://feedly.com/news-reader). Je ne le recommande que dans sa version gratuite, limitée à 3 répertoires et 100 sites. J’ai utilisé la version payante il y a quelqueas années, mais mes tests avec la dernière version Pro+ et son intelligence artificelle ne sont pas concluants.
+Un agrégateur très utilisé est [Feedly](https://feedly.com/news-reader). Je ne le recommande que dans sa version gratuite, limitée à 3 répertoires et 100 sites. J’ai utilisé la version payante il y a quelques années, mais mes tests avec la dernière version Pro+ et son intelligence artificielle ne sont pas concluants.
 
-J’ai beaucoup de bons échos de [Feedbin](https://feedbin.com/), un agrégateur simple avec quelques options intéressantes. Je l’ai testé mais il me manquait quelques possibilités plus pointues. Uniquement en version payante; à prix raisonnable.
+J’ai beaucoup de bons échos de [Feedbin](https://feedbin.com/), un agrégateur simple avec quelques options intéressantes. Je l’ai testé, mais il me manquait quelques possibilités plus pointues. Uniquement en version payante; à prix raisonnable.
 
-On peut aussi installer un logiciel sur son propre server (par exemple [KrISS feed](https://tontof.net/kriss/feed/)), utiliser un logiciel dédié sur sont ordinateur (par exemple [Thunderbird](https://support.mozilla.org/en-US/products/thunderbird/news-feeds-rss-blogs-and-social-thunderbird)) ou publier des flux RSS dans WordPress (par exemple [RSS Block](https://wordpress.org/documentation/article/rss-block/)).
+On peut aussi installer un logiciel sur son propre serveur (par exemple [KrISS feed](https://tontof.net/kriss/feed/)), utiliser un logiciel dédié sur son ordinateur (par exemple [Thunderbird](https://support.mozilla.org/en-US/products/thunderbird/news-feeds-rss-blogs-and-social-thunderbird)) ou publier des flux RSS dans WordPress (par exemple [RSS Block](https://wordpress.org/documentation/article/rss-block/)).
 
 ## Pourquoi c’est irremplaçable
 
@@ -125,12 +125,12 @@ On peut aussi installer un logiciel sur son propre server (par exemple [KrISS fe
 
 - Ils permettent une veille exhaustive. Je peux partir 2 semaines en vacances et lire tous les billets publiés en mon absence. C’est presque impossible sur les réseaux sociaux.
 
-- Ils respectent mes propres règles du jeu. Je peux les trier dans l’ordre souhaité, les filter, marquer des articles lus ou non lus, créer des hiérarchies, etc. Des automatismes bien conçus sont souvent meilleurs qui des intelligences artificielles qui ne cherchent qu’à impressionner.
+- Ils respectent mes propres règles du jeu. Je peux les trier dans l’ordre souhaité, les filtrer, marquer des articles lus ou non lus, créer des hiérarchies, etc. Des automatismes bien conçus sont souvent meilleurs qui des intelligences artificielles qui ne cherchent qu’à impressionner.
 
-- La liste des flux auxquels je suis abonnés peut être exportée facilement. Je peux la sauvegarder, la partager à d’autres, l’importer dans un autre logiciel, etc. La liberté, c’est de pouvoir changer de plateforme et d’outil librement.
+- La liste des flux auxquels je suis abonné peut être exportée facilement. Je peux la sauvegarder, la partager à d’autres, l’importer dans un autre logiciel, etc. La liberté, c’est de pouvoir changer de plateforme et d’outil librement.
 
 - La présentation unifiée permet une lecture rapide et agréable, même quand des flux proviennent de sites peu accessibles ou inconfortables. La légèreté des flux permet d’oublier la lenteur des sites qui les produisent. Plutôt que l’originalité, c’est l’efficacité qui compte.
 
 ----
 
-Dans son excellente newsletter [Own Your Web](https://buttondown.email/ownyourweb), Matthias Ott propose [Issue 9: We ❤️ RSS](https://buttondown.email/ownyourweb/archive/issue-09/). Il vaut la peine de suivre les liens proposés pour approfondir le sujet. Les internautes qui ne maîtrisent pas assez l’anglais auront intérêt à lire au moins l’article [Investing in RSS](https://timkadlec.com/remembers/2023-02-23-investing-in-rss/) de Tim Kadlec en traduction automatique.
+Dans son excellente newsletter [Own Your Web](https://buttondown.email/ownyourweb), Matthias Ott propose [Issue 9: We ❤️ RSS](https://buttondown.email/ownyourweb/archive/issue-09/). Il vaut la peine de suivre les liens proposés pour approfondir le sujet. Les internautes qui ne maîtrisent pas assez l’anglais auront intérêt à lire au moins l’article [Investing in RSS](https://timkadlec.com/remembers/2023-02-23-investing-in-rss/) de Tim Kadlec en traduction automatique.

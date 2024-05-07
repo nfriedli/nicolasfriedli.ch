@@ -13,7 +13,7 @@ AddDefaultCharset UTF-8
 DefaultLanguage fr-ch
 ```
 
-Si la page est appellée en `http` ou s’il elle commence par `www`, on renvoie à un version en `https` sans `www` (voir [Opquast 192](https://checklists.opquast.com/fr/assurance-qualite-web/toutes-les-pages-utilisent-le-protocole-https) et [Opquast 211](https://checklists.opquast.com/fr/assurance-qualite-web/ladresse-du-site-fonctionne-avec-et-sans-prefixe-www)). On renvoie tout sur la page d’accueil et on impose le nom de domaine (plutôt que s’utiliser `HTTP_HOST`):
+Si la page est appelée en `http` ou s’il elle commence par `www`, on renvoie à un version en `https` sans `www` (voir [Opquast 192](https://checklists.opquast.com/fr/assurance-qualite-web/toutes-les-pages-utilisent-le-protocole-https) et [Opquast 211](https://checklists.opquast.com/fr/assurance-qualite-web/ladresse-du-site-fonctionne-avec-et-sans-prefixe-www)). On renvoie tout sur la page d’accueil et on impose le nom de domaine (plutôt que s’utiliser `HTTP_HOST`):
 
 ```
 RewriteCond %{HTTPS} off [OR]

@@ -31,7 +31,7 @@ Pour un site patrimonial qui liste les églises protestantes ouvertes en Suisse 
 }
 ```
 
-J’ai ajouté champs de données au fur et à mesure de la création du site, ne sachant pas quelles informations j’allais découvrir dans mes recherches.
+J’ai ajouté les champs de données au fur et à mesure de la création du site, ne sachant pas quelles informations j’allais découvrir dans mes recherches.
 
 ## Un JSON plus structuré
 
@@ -66,27 +66,27 @@ S’il fallait modifier quelque chose, je structurerais peut-être les données 
 }
 ```
 
-C’ess très théorique, parce qu’en voyant le résultat, je ne suis pas certain que ça apporterait beaucoup. Le «JSON tout simple» est donc celui que je conserve pour produire le site et sur lequel portent les exemples qui suivant.
+C’est très théorique, parce qu’en voyant le résultat, je ne suis pas certain que ça apporterait beaucoup. Le «JSON tout simple» est donc celui que je conserve pour produire le site et sur lequel portent les exemples qui suivant.
 
-## Objectifs du schema JSON
+## Objectifs du schéma JSON
 
 Si le [format JSON](https://www.json.org/json-fr.html) est strict du point de vue le la forme, il laisse toute liberté pour les contenus. Un [JSON Schema](https://json-schema.org/) permet de fixer des règles pour la création d’un contenu JSON.
 
-Le schema que je vais créer doit notamment servir à vérifier:
+Le schéma que je vais créer doit notamment servir à vérifier:
 
-- qu’un certain nombre de données soient présents (titre, adresse complète, coordonnées et horaires d’ouverture)
+- qu’un certain nombre de données soient présentes (titre, adresse complète, coordonnée et horaires d’ouverture)
 - qu’il soit possible de faire un lien vers une page externe ou une fiche Google Maps
-- que les numéros postaux soient des nombres de 4 chiffres
+- que les numéros postaux soient des nombres de 4 chiffres
 - que les coordonnées aient des valeurs raisonnables pour la Suisse romande
 - qu’il ne soit pas possible d’ajouter d’autres données
 
 Ainsi je pourrai vérifier la validité de mon corpus d’édifices en une seule commande, [par exemple avec JSONSchema](https://github.com/santhosh-tekuri/jsonschema). Ou tester un contenu directement en ligne avec [JSON Schema Validator](https://www.jsonschemavalidator.net/).
 
-## Création d’un schema JSON
+## Création d’un schéma JSON
 
-L’utilisation de JSON est complètement libre, mais un [JSON Schema](https://json-schema.org/) permet de fixer des règles et de valider des contenus informatiquement. Pour ma culture générale, j’ai créé un schema pour *Églises ouvertes en Suisse romande*.
+L’utilisation de JSON est complètement libre, mais un [JSON Schema](https://json-schema.org/) permet de fixer des règles et de valider des contenus informatiquement. Pour ma culture générale, j’ai créé un schéma pour *Églises ouvertes en Suisse romande*.
 
-Je le copie intégralement, même si c’est un peu long. Puis je commente certaines parties dans la suite du billet. La [version courante](https://eglises-ouvertes.ch/schema.json) est disponible sur le le site eglises-ouvertes.ch.
+Je le copie intégralement, même si c’est un peu long. Puis je commente certaines parties dans la suite du billet. La [version courante](https://eglises-ouvertes.ch/schema.json) est disponible sur le site eglises-ouvertes.ch.
 
 ```
 {
@@ -184,7 +184,7 @@ Je le copie intégralement, même si c’est un peu long. Puis je commente certa
 
 En début de fichier, ce sont des champs qui demandent des chaînes de caractères (du texte libre). Cela n’appelle pas de commentaires particuliers.
 
-Pour le numéro postal d’acheminement, j’impose un nombre de 4 chiffres entre 1000 et 9999. On pourrait limiter aux NPA de Suisse romande, mais c’est très bien ainsi:
+Pour le numéro postal d’acheminement, j’impose un nombre de 4 chiffres entre 1000 et 9999. On pourrait limiter aux NPA de Suisse romande, mais c’est très bien ainsi:
 
 ```
 "npa": {
@@ -240,9 +240,9 @@ Les artistes ayant créé des vitraux peuvent être plusieurs pour un seul édif
 
 ### Conditions de validation
 
-Au delà de la validation champ par champ, des conditions plus globales sont déclarées.
+Au-delà de la validation champ par champ, des conditions plus globales sont déclarées.
 
-En premier lieux, certaines données sont nécessaires et il faut s’assurer de leur existence:
+En premier lieu, certaines données sont nécessaires et il faut s’assurer de leur existence:
 
 ```
 "required": [
@@ -275,7 +275,7 @@ Finalement, l’interdiction d’ajouter des champs autres que ceux déclarés d
 
 ## Assurances formelles et validité des contenus
 
-C’était mon premier essai de rédaction d’un schema JSON. J’ai trouvé l’exercice plutôt intéressant. C’est toujours amusant de lire une référence technique sur un écran et d’écrire le fichier de code sur l’autre.
+C’était mon premier essai de rédaction d’un schéma JSON. J’ai trouvé l’exercice plutôt intéressant. C’est toujours amusant de lire une référence technique sur un écran et d’écrire le fichier de code sur l’autre.
 
 Il faudrait aller un peu plus loin pour certaines données, par exemple avec des [expressions régulières](https://json-schema.org/understanding-json-schema/reference/regular_expressions#regular-expressions) pour valider des plages horaires. Mais je m’arrête là pour le moment.
 
