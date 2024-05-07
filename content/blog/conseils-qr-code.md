@@ -15,13 +15,13 @@ Si un code qui ne fonctionne pas comme prévu est toujours un problème, il faut
 
 Parfois, un QR code **ne fonctionne pas**. Il renvoie à une adresse (URL) qui n’existe pas ou plus. C’est frustrant, décevant, l’image de l’institution en prend un coup. Les conséquences sont toutefois limitées.
 
-Dans d’autres cas, le QR code **renvoie à la mauvaise adresse**. Soit l’adresse a toujours été problématique, soit la destination (via une redirection) a été modifiée, intentionnellement ou non. Difficile de mesurer les conséquences: un détournement peut être amusant, insultant, sans intérêt, mauvais pour l’image, choquant, provoquant, etc.
+Dans d’autres cas, le QR code **renvoie à la mauvaise adresse**. Soit l’adresse a toujours été problématique, soit la destination (via une redirection) a été modifiée, intentionnellement ou non. Difficile de mesurer les conséquences: un détournement peut être amusant, insultant, sans intérêt, mauvais pour l’image, choquant, provocant, etc.
 
 Finalement, un QR code est **utilisé pour une arnaque**. Le code de départ est remplacé ou le système de redirection piraté, et les internautes arrivent sur un faux site qui cherche à voler des informations. Le code n’est qu’un maillon de la chaîne d’un système organisé. Les conséquences peuvent être importantes et on sort du domaine technique pour entrer dans les questions de loi et de justice.
 
 ## Conseils lors de l’utilisation
 
-Les utilisateurs et utilisatrice de QR codes ont intérêt à adopter quelques réflexes utiles.
+Les utilisateurs et utilisatrices de QR codes ont intérêt à adopter quelques réflexes utiles.
 
 ### Avant de scanner
 
@@ -43,7 +43,7 @@ Les conseils précédents sont destinés aux utilisateurs et utilisatrices. Les 
 
 ### Utiliser son propre nom de domaine
 
-Je pense que **l’utilisation des raccourcisseurs d’URL est souvent une mauvaise idée**. Infomaniak vient de lancer son service [chk.me](https://chk.infomaniak.com/). Personne ne pourra savoir quelle sera l’URL finale qui se cache derrière cette version courte.
+Je pense que **l’utilisation de raccourcisseurs d’URL est souvent une mauvaise idée**. Infomaniak vient de lancer son service [chk.me](https://chk.infomaniak.com/). Personne ne pourra savoir quelle sera l’URL finale qui se cache derrière cette version courte.
 
 L’utilisation de **son propre nom de domaine est une garantie de sécurité**. Il peut être utilisé de 2 manières:
 
@@ -52,23 +52,23 @@ L’utilisation de **son propre nom de domaine est une garantie de sécurité**.
 
 **C’est sans discussion la solution la plus simple et la plus efficace.**
 
-En complément, je propose de toujours écrire en toutes lettres l’adresse vers laquelle le code est sensé renvoyer.
+En complément, je propose de toujours écrire en toutes lettres l’adresse vers laquelle le code est censé renvoyer.
 
 ### Proposer un support non accessible
 
 Quand un code est affiché quelque part, tout est bon pour le rendre non accessible directement:
 
-- affichage dans une vitrine ou derrière un vitre
+- affichage dans une vitrine ou derrière une vitre
 - affichage sur un écran ou en image projetée
-- affichage dans un endroit inacessible (en hauteur, derrière un guichet, au plafond, etc.)
+- affichage dans un endroit inaccessible (en hauteur, derrière un guichet, au plafond, etc.)
 
 ### Rendre la substitution complexe
 
-Si la modification d’un QR code est très difficile, **la génération d’un autre code et la substitution sont très simple** (sauf quand le support est difficilement accessible).
+Si la modification d’un QR code est très difficile, **la génération d’un autre code et la substitution sont très simples** (sauf quand le support est difficilement accessible).
 
 Plutôt que d’imprimer seulement un petit autocollant sur fond blanc, on peut imprimer le code sur un papier à entête officiel de l’institution, et pourquoi pas y ajouter une marque au tampon encreur. D’autres pistes existent comme le papier holographique ou la gravure sur une plaque métallique.
 
-Comme pour l’argent liquide, **c’est la complexité (et le coût) de la falsification** qui la rendront moins intéressante.
+Comme pour l’argent liquide, **c’est la complexité et le coût de la falsification** qui la rendront moins intéressante.
 
 ### Modifier l’URL finale plutôt que remplacer
 
@@ -95,4 +95,4 @@ Je suis preneur de tous vos conseils pratiques et retours d’expérience sur le
 
 ----
 
-**Ajout du 15 mars 2024.** Quelques jours après la publication de cet billet, ma commune de Milvignes publiait sur son site un [problème de QR codes](https://web.archive.org/web/20240313084500/https://www.milvignes.ch/communications/detail/probleme-avec-les-qr-codes-du-milvignes-infos-de-mars-2024-ne-pas-les-utiliser). Elle avait utilisé un système de redirection (`qr.codes` ou `qr.io`) payant plutôt que de renvoyer directement à son propre nom de domaine. La période d’essai était expirée; les codes invalides...
+**Ajout du 15 mars 2024.** Quelques jours après la publication de ce billet, ma commune de Milvignes publiait sur son site un [problème de QR codes](https://web.archive.org/web/20240313084500/https://www.milvignes.ch/communications/detail/probleme-avec-les-qr-codes-du-milvignes-infos-de-mars-2024-ne-pas-les-utiliser). Elle avait utilisé un système de redirection (`qr.codes` ou `qr.io`) payant plutôt que de renvoyer directement à son propre nom de domaine. La période d’essai était expirée; les codes invalides...

@@ -12,14 +12,14 @@ Conçu par un spécialiste de documentation technique, le cadre de travail Diát
 
 Le framework [Diátaxis](https://diataxis.fr/) propose des principes pour une approche systématique de la rédaction de documentation technique. Je pense qu’il peut être utilisé pour toute forme de documentation. Il a été développé par Daniele Procida.
 
-Par la **structure** qu’il propose, il facilite l’**utilisation** de la documentation pour les internautes et les **maintenance** pour les rédacteurs et rédactrices.
+Par la **structure** qu’il propose, il facilite l’**utilisation** de la documentation pour les internautes et la **maintenance** pour les rédacteurs et rédactrices.
 
-Les 4 types de contenus de toute documentation sont regroupés en en 2 axes:
+Les 4 types de contenus de toute documentation sont regroupés en 2 axes:
 
 - les **tutoriels** sont orientés vers l’*apprentissage* et sont utiles à l’*action*
 - les **guides how-to** sont sont orientés vers l’*application* et sont utiles à l’*action*
 - les **références** sont orientés vers l’*application* et sont utiles à l’action à la *connaissance*
-- les **explications** sont orientés vers l’*apprentissage* et son utiles à la *connaissance*
+- les **explications** sont orientées vers l’*apprentissage* et sont utiles à la *connaissance*
 
 En plus du site de référence, je conseille les vidéos suivantes pour en apprendre plus:
 
@@ -51,23 +51,23 @@ Les 4 catégories de Diátaxis s’adressent à plusieurs publics cibles et à 
 
 En première approche, on pourrait dire que chaque public cible peut être intéressé par 1 ou 2 catégories. C’est une manière de voir les choses, mais je pense qu’elle est erronée. **Une personne peut être intéressée à 1, 2, 3 ou 4 catégories de contenu.**
 
-## Temporalité différente pour des mêmes personnes
+## Temporalité différente pour les mêmes personnes
 
-Il faudrait plutôt dire que chaque personne peut être intéressée par les 4 catégories, mais à des moments différentes. La notion de temporalité est plus intéressants, parce qu’évolutive.
+Il faudrait plutôt dire que chaque personne peut être intéressée par les 4 catégories, mais à des moments différents. La notion de temporalité est plus intéressante, parce qu’évolutive.
 
 Les enfants qui ont suivi le tutoriel pour leur première mousse au chocolat utiliseront peut-être une recette (sans passer par un tuto) pour leur prochaine création. Et je parie que les ados pourraient bien lire quelque chose sur la cuisine moléculaire.
 
-Pour moi, cette notion de moment est la plus grande force de Diátaxis. **Une même personne a besoin de contenus différents en fonction de sa tâche du moment.** C’est parce que les besoins varient en fonction du temps que la structure doit être particulièrement propre.
+Pour moi, cette notion de moment est la plus grande force de Diátaxis. **Une même personne a besoin de contenus différents en fonction de sa tâche du moment.** Parce que les besoins varient en fonction du temps, la structure doit être particulièrement propre.
 
-## Rigueur et non linéarité
+## Rigueur et non-linéarité
 
 Le plus grand risque avec cet outil, c’est de penser qu’il y a une évolution «linéaire» entre les différentes catégories. D’abord un tuto, puis un how-to, etc. C’est faux!
 
-Les parcours peuvent être multiples. Je vous passe toutes la navigations possibles entre les différents éléments d’une documentation, que ce soit de la cuisine, de la programmation, le pilotage d’une avion ou le vélo (des exemples de Procida).
+Les parcours peuvent être multiples. Je vous passe toutes les navigations possibles entre les différents éléments d’une documentation, que ce soit de la cuisine, de la programmation, le pilotage d’un avion ou le vélo (des exemples de Procida).
 
 **La structure doit être assez claire pour permettre de sauter sans hésitation d’un type de contenu à l’autre à un moment précis.** J’ai besoin de ceci, je sais que je vais trouver la réponse là!
 
-Depuis que j’ai écouté et lu Procida, je vois souvent les choses sous un autre angle. Je combats désormais souvent ma tentation d’introduire des «motifs antipédagigiques» (introduire des éléments d’explication dans un tutoriel, par exemple), sans toujours y parvenir.
+Depuis que j’ai écouté et lu Procida, je vois souvent les choses sous un autre angle. Je combats désormais souvent ma tentation d’introduire des «motifs antipédagogiques» (introduire des éléments d’explication dans un tutoriel, par exemple), sans toujours y parvenir.
 
 ----
 

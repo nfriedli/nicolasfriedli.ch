@@ -16,7 +16,7 @@ Le site [not by AI](https://notbyai.fyi/) propose d’ajouter un badge qui attes
 
 > Sans professionnels formés ou détecteurs d’IA (intelligence artificielle), il est presque impossible de distinguer votre contenu humain du contenu généré par l’IA. L’utilisation des badges *not by AI* aide votre public à reconnaître votre approche centrée sur l’humain afin qu’il comprenne que votre contenu vient vraiment de vous et n’est pas copié-collé à partir d’une IA générative comme ChatGPT, Claude ou Gemini.
 
-En tant qu’êtres humaines, vous comprenez toute la subtilité de la chose... Le pain de boulangerie a le même goût que celui de [l’usine Tricatel](https://fr.wikipedia.org/wiki/L%27Aile_ou_la_Cuisse) d’en face. Il faut donc rappeler aux acheteurs et acheteuses qu’il est artisanal (sans être meilleur). On a envie de sourire de la démarche, mais tout n’est pas si simple.
+En tant que personnes humaines, vous comprenez toute la subtilité de la chose... Le pain de boulangerie a le même goût que celui de [l’usine Tricatel](https://fr.wikipedia.org/wiki/L%27Aile_ou_la_Cuisse) d’en face. Il faut donc rappeler aux acheteurs et acheteuses qu’il est artisanal (sans être meilleur). On a envie de sourire de la démarche, mais tout n’est pas si simple.
 
 ## Citer ses sources
 
@@ -30,13 +30,13 @@ De ce point de vue, *not by AI* a raison (toujours DeepL pour la traduction):
 
 Quand on ne cite plus ses sources et que l’on construit tout à partir de l’existant, on produit quelque chose sans originalité et, peut-être, dans l’illégalité.
 
-Il faudrait alors plaider pour une initiative inverse: que toutes les pages rédigées à coup de ChatGPT (et autres outils similaires) le déclarent. Cela ne fait pas des contenus générés automatiquement des mauvais contenus en soi, mais cela signifie qu’ils sont à la fois «mainstream» et potentielleemnt problématiques du point de vue du droit.
+Il faudrait alors plaider pour une initiative inverse: que toutes les pages rédigées à coup de ChatGPT (et autres outils similaires) le déclarent. Cela ne fait pas des contenus générés automatiquement des mauvais contenus en soi, mais cela signifie qu’ils sont à la fois «mainstream» et potentiellement problématiques du point de vue du droit.
 
 C’est une excellente raison de ne pas utiliser ChatGPT pour générer des contenus prétendument nouveaux. Il y en a quelques autres.
 
 ## Bonnes raisons d’ajouter une mention *not by AI*
 
-Un personne qui souhaite mettre en avant ses **capacités rédactionnelles** aura tout intérêt à signaler que c’est bien elle qui écrit, et non une intelligence artificielle.
+Une personne qui souhaite mettre en avant ses **capacités rédactionnelles** aura tout intérêt à signaler que c’est bien elle qui écrit, et non une intelligence artificielle.
 
 Lorsque le résultat doit être **absolument fiable** (par exemple dans des cas de textes juridiques, des règlements, etc.), il vaut le coup d’écrire *not by IA*, mais il faut alors assumer les pages publiées comme des références validées.
 
