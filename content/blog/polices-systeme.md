@@ -11,7 +11,7 @@ L’utilisation de polices du système d’exploitation (*system font stack*) pe
 
 ## Problématique
 
-Dans son billet [Are Web-Safe Fonts still relevant in 2024?](https://pimpmytype.com/web-safe-fonts/), Oliver Schöndorfer se demande si l’utilisation de polices système universelles est toujours pertinent aujourd’hui. Sa question est bonne, parce que les systèmes d’exploitation sont nombreux. Toutefois, sa réponse est imparfaite.
+Dans son billet [Are Web-Safe Fonts still relevant in 2024?](https://pimpmytype.com/web-safe-fonts/), Oliver Schöndorfer se demande si l’utilisation de polices système universelles est toujours pertinente aujourd’hui. Sa question est bonne, parce que les systèmes d’exploitation sont nombreux. Toutefois, sa réponse est imparfaite.
 
 Il part du fait qu’il n’existe plus de polices présentes sur tous les périphériques. Arial et Times New Roman avaient une disponibilité de virtuellement 100%, ce n’est plus vrai pour le système Android.
 
@@ -32,7 +32,7 @@ Quand une police doit être utilisée, il n’y a pas d’autre choix que de dem
 - une police italique
 - une police grasse italique
 
-Les fichiers seront mis à disposition par une directive CSS `@font-face` et ceux qui sont nécessaires seront téléchargés. Lorsque ce cas ce présente, il fait veilleur à une optimisation des fichiers et des chargements:
+Les fichiers seront mis à disposition par une directive CSS `@font-face` et ceux qui sont nécessaires seront téléchargés. Lorsque ce cas se présente, il fait veilleur à une optimisation des fichiers et des chargements:
 
 - bon format de fichier (`woff2`)
 - blocage ou non de l’affichage (`font-display`)
@@ -70,7 +70,7 @@ Ce qui se passe:
 - Sinon Arial s’affiche sur Windows (où elle est toujours disponible). Ou presque partout ailleurs.
 - Finalement, si aucune n’est disponible, c’est la police de substitution, choisie par le navigateur ou l’internaute qui apparaît.
 
-Franchement, il me parait acceptable d’afficher une des polices sans empattement présente, que les internautes connaissent. Dans tel cas, il n’y a aucune bande passante utilisée et aucune latence. Pour toutes les textes courants, c’est une excellent choix.
+Franchement, il me parait acceptable d’afficher une des polices sans empattement présentes, que les internautes connaissent. Dans tel cas, il n’y a aucune bande passante utilisée et aucune latence. Pour tous les textes courants, c’est un excellent choix.
 
 ## Polices universelles (*web safe fonts*)
 
@@ -100,11 +100,11 @@ font-family: system-ui, sans-serif;
 
 La directive `sans-serif` reste à disposition si le navigateur -- cas très rare -- ne comprenait pas la directive `system-ui`. Avec une police système, c’est une écriture parfaitement en phase avec le système utilisé qui sera choisie. C’est celle de l’interface, d’où UI (*user interface*).
 
-Au final, l’apparence laisse encore moins d’originalité que `sans-serif`, mais ce sont souvent des polices de grande qualité qui sont utilisés. Le résultat est excellent.
+Au final, l’apparence laisse encore moins d’originalité que `sans-serif`, mais ce sont souvent des polices de grande qualité qui sont utilisées. Le résultat est excellent.
 
 ## Périphériques Apple
 
-Les périphériques Apple ont la particularité d’utiliser des directives spéciales comme la police UI. Sur les systèmes récents, c’est l’excellente polices San Francisco qui sera choisie. Elle est élégante et dispose d’une large gamme de graisses et des tailles optiques. Franchement, il n’y a pas à hésiter à utiliser:
+Les périphériques Apple ont la particularité d’utiliser des directives spéciales comme la police UI. Sur les systèmes récents, c’est l’excellente police San Francisco qui sera choisie. Elle est élégante et dispose d’une large gamme de graisses et des tailles optiques. Franchement, il n’y a pas à hésiter à utiliser:
 
 ``` 
 font-family: ui-sans-serif, sans-serif;
@@ -126,7 +126,7 @@ code, pre {
 }
 ```
 
-Tout le texte est sans empattements, sauf les citations et les titres avec empattement et le code en chasse fixe.
+Tout le texte est sans empattement, sauf les citations et les titres avec empattement et le code en chasse fixe.
 
 ## Périphériques Android et Linux
 
@@ -152,7 +152,7 @@ Attention, avec Linux, il est possible de modifier `system-ui`, ce qui ne donne 
 
 ## Périphériques Windows
 
-Pour Windows, c’est un peu plus complexe car différentes versions, avec des polices différentes, cohabitent. Mais il serait possible d’utiliser des polices «universelles», par exemple:
+Pour Windows, c’est un peu plus complexe, car différentes versions, avec des polices différentes, cohabitent. Mais il serait possible d’utiliser des polices «universelles», par exemple:
 
 ```
 html {
@@ -199,7 +199,7 @@ La logique est:
 - la deuxième pour les Android et la majorité des Linux
 - puis on laisse Windows se débrouiller
 
-Les déclarations exactes de ma feuille de style sont toujours disponible chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css).
+Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css).
 
 
 ## Polices légères
@@ -223,7 +223,7 @@ En résumé:
 - les ordinateurs Linux, dans leur grande majorité ne chargent aucune police
 - les 25% d’ordinateurs sous Windows chargent Poppins
 
-Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman. Entre les polices systèmes (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`) et ma proposition de polices légères, je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
+Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman. Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`) et ma proposition de polices légères, je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
 ----
 
@@ -231,7 +231,7 @@ J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`
 
 ---- 
 
-À ma connaissance, la police la plus légère actuellement disponible est [Geist](https://vercel.com/font). Un seul fichier permet de remplacer les 4 variations dont je parlais ci-dessus. Une fois passé par [Glyphhanger](https://github.com/zachleat/glyphhanger), elle pèse environ 20 kB.
+À ma connaissance, la police la plus légère actuellement disponible est [Geist](https://vercel.com/font). Un seul fichier permet de remplacer les 4 variations dont je parlais ci-dessus. Une fois passée par [Glyphhanger](https://github.com/zachleat/glyphhanger), elle pèse environ 20 kB.
 
 ----
 
