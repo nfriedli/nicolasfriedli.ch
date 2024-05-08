@@ -157,7 +157,7 @@ Au passage, je trouve que l’apprentissage des logiques d’Hugo est meilleur s
 
 ## Modularisation de la configuration
 
-Le fichier de configuration peut être séparé en plusieurs petits fichiers. Je vois peu d’intérêt à le faire avec le mien qui fait quelques dizaines de lignes. Mais ça peut être intéressant si `hugo.toml` ça devient trop long ou trop complexe.
+Le fichier de configuration peut être séparé en plusieurs petits fichiers. Je vois peu d’intérêt à le faire avec le mien qui fait quelques dizaines de lignes. Mais ce peut être intéressant si `hugo.toml` devient trop long ou trop complexe.
 
 Pour modulariser la configuration, il faut placer les différents fichiers dans `/config/`. Le nom de fichier est alors la section de configuration. Par exemple, la minification dans mon fichier unique est:
 

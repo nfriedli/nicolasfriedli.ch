@@ -108,6 +108,11 @@ pre {
     font-size: .95rem;
 }
 
+:not(pre) > code {
+    border: 2px solid var(--contrast);
+    padding: 0 .4em;
+}
+
 pre {
     background: var(--text);
     color: var(--background);
