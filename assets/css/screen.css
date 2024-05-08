@@ -8,11 +8,13 @@
     --sans: FiraSans, system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 
-    /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.414,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-    --step--1: clamp(0.8333rem, 0.832rem + 0.0065vi, 0.8398rem);
+
+    /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --step--1: clamp(0.8333rem, 0.8218rem + 0.0575vi, 0.8908rem);
     --step-0: clamp(1rem, 0.9625rem + 0.1875vi, 1.1875rem);
-    --step-1: clamp(1.2rem, 1.1042rem + 0.4791vi, 1.6791rem);
-    --step-2: clamp(1.44rem, 1.2531rem + 0.9343vi, 2.3743rem);
+    --step-1: clamp(1.2rem, 1.1234rem + 0.3829vi, 1.5829rem);
+    --step-2: clamp(1.44rem, 1.306rem + 0.6701vi, 2.1101rem);
+    --step-3: clamp(1.728rem, 1.5111rem + 1.0847vi, 2.8127rem);
 }
 
 ::selection {
@@ -80,15 +82,15 @@ h3 {
 }
 
 h1 {
-    font-size: var(--step-2);
+    font-size: var(--step-3);
 }
 
 h2 {
-    font-size: var(--step-1);
+    font-size: var(--step-2);
 }
 
 h3 {
-    font-size: var(--step-0);
+    font-size: var(--step-1);
 }
 
 blockquote {
@@ -106,11 +108,6 @@ code,
 pre {
     font-family: var(--mono);
     font-size: .95rem;
-}
-
-:not(pre) > code {
-    border: 2px solid var(--contrast);
-    padding: 0 .4em;
 }
 
 pre {

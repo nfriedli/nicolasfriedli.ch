@@ -91,8 +91,4 @@ D’un point de vue technique, je pense que toutes les URL courtes (sur son nom 
 
 ----
 
-Je suis preneur de tous vos conseils pratiques et retours d’expérience sur le sujet.
-
-----
-
-**Ajout du 15 mars 2024.** Quelques jours après la publication de ce billet, ma commune de Milvignes publiait sur son site un [problème de QR codes](https://web.archive.org/web/20240313084500/https://www.milvignes.ch/communications/detail/probleme-avec-les-qr-codes-du-milvignes-infos-de-mars-2024-ne-pas-les-utiliser). Elle avait utilisé un système de redirection (`qr.codes` ou `qr.io`) payant plutôt que de renvoyer directement à son propre nom de domaine. La période d’essai était expirée; les codes invalides...
+**Ajout du 15 mars 2024.** Quelques jours après la publication de ce billet, ma commune de Milvignes publiait sur son site un [problème de QR codes](https://web.archive.org/web/20240313084500/https://www.milvignes.ch/communications/detail/probleme-avec-les-qr-codes-du-milvignes-infos-de-mars-2024-ne-pas-les-utiliser). Elle avait utilisé un système de redirection (qr.codes ou qr.io) payant plutôt que de renvoyer directement à son propre nom de domaine. La période d’essai était expirée; les codes invalides...
