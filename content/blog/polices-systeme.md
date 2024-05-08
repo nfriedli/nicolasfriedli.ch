@@ -201,7 +201,6 @@ La logique est:
 
 Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css).
 
-
 ## Polices légères
 
 Je connais quelques polices très légères qui permettent d’envisager une solution de secours originale. Par exemple [Poppins](https://fonts.google.com/specimen/Poppins) qui permet de disposer de 4 fichiers pour à peine 30kB.
@@ -227,6 +226,10 @@ Il existe aujourd’hui d’autres manières de concilier écologie, esthétique
 
 ----
 
+Désormais, mon site télécharge une police: Fira Sans.
+
+----
+
 J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) qui permettra(it) de gérer les choses beaucoup plus simplement.
 
 ---- 
@@ -235,4 +238,4 @@ J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`
 
 ----
 
-**Ajout du 30 avril 2024.** Les polices système (San Franciso, Segoe UI et Roboto) sont excellentes pour les personnes dyslexiques. Elles sont bien meilleures que plusieurs polices prétendument optimisées. Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/).
+**Ajout du 30 avril 2024.** Les polices système (San Franciso, Segoe UI et Roboto) sont excellentes pour les personnes dyslexiques. Elles sont bien meilleures que plusieurs polices prétendument optimisées. Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/)
