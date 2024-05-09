@@ -67,7 +67,7 @@ Comme c’est un site personnel, il me paraît intéressant d’en dire plus sur
 }
 ```
 
-Donc, nous avons désormais 2 ensembles JSON. Le premier a un seul niveau, le second est plus structuré (champ`address`).
+Donc, nous avons désormais 2 ensembles JSON. Le premier a un seul niveau, le second est plus structuré (champ `address`).
 
 ### Structure simple
 
@@ -91,7 +91,7 @@ Mais ce qui est vraiment intéressant, c’est de lier la notion d’auteur au s
 
 En français: 
 
-> Ce site s’appelle «Annuaire protestant», et aussi «theologique.ch». Il est disponible à l’adresse`https://theologique.ch/`. Il a pour auteur Nicolas Friedli, celui du site`https://nicolasfriedli.ch/`.
+> Ce site s’appelle «Annuaire protestant», et aussi «theologique.ch». Il est disponible à l’adresse `https://theologique.ch/`. Il a pour auteur Nicolas Friedli, celui du site `https://nicolasfriedli.ch/`.
 
 C’est clair, non?
 
@@ -157,7 +157,7 @@ L’interprétation du contenu devrait être simple. Donc je ne commente pas en 
 
 ### Intégration statique dans Hugo
 
-Pour intégrer cela dans Hugo, c’est trivial, parce que ces données sont statiques. Un fichier `schema.json`est placé dans le répertoire`/data/`. Il est accessible par la variable`site.Data.schema`.
+Pour intégrer cela dans Hugo, c’est trivial, parce que ces données sont statiques. Un fichier `schema.json`est placé dans le répertoire `/data/`. Il est accessible par la variable `site.Data.schema`.
 
 Donc, pour ne l’afficher que sur la page d’accueil, ce sera quelque chose comme:
 
@@ -181,7 +181,7 @@ Pour les billets de blog, je souhaite donner quelques informations aux moteurs d
 - signifier que le contenu est gratuit
 - compter le nombre de mots
 
-### Structure du JSON-LD 
+### Structure du JSON-LD
 
 Voici comment je le formule avec les variables Hugo:
 
@@ -216,7 +216,7 @@ Pour l’intégrer dans Hugo, vu que c’est quelque chose de dynamique, je déc
   {{ block "json-ld" . }}{{ end }}
   ```
 
-Puis, uniquement pour les articles de blog, je redéfinis (ou surcharge) le bloc dans le modèle`blog/single.html`: 
+Puis, uniquement pour les articles de blog, je redéfinis (ou surcharge) le bloc dans le modèle `blog/single.html`:
 
 ```
 {{ define "json-ld" }}
@@ -230,7 +230,7 @@ Puis, uniquement pour les articles de blog, je redéfinis (ou surcharge) le bloc
 {{ end }}
 ```
 
-L’existence du bloc `json-ld`sur toutes les pages permettrait d’injecter d’autres données à d’autres endroits du site.
+L’existence du bloc `json-ld` sur toutes les pages permettrait d’injecter d’autres données à d’autres endroits du site.
 
 ## Construction à la main 
 
