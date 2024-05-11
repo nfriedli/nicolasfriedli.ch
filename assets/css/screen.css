@@ -1,26 +1,30 @@
 :root {
+    
     color-scheme: light dark;
     --background: hsl(39, 25%, 90%);
     --background-light: hsl(39, 25%, 85%);
     --text: hsl(39, 50%, 10%);
     --text-light: hsl(39, 50%, 5%);
     --contrast: hsl(39, 100%, 50%);
+    
     --sans: FiraSans, system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
+
+    /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     --step--1: clamp(0.8333rem, 0.8218rem + 0.0575vi, 0.8908rem);
     --step-0: clamp(1rem, 0.9625rem + 0.1875vi, 1.1875rem);
     --step-1: clamp(1.2rem, 1.1234rem + 0.3829vi, 1.5829rem);
     --step-2: clamp(1.44rem, 1.306rem + 0.6701vi, 2.1101rem);
-    --step-3: clamp(1.728rem, 1.5111rem + 1.0847vi, 2.8127rem)
+    --step-3: clamp(1.728rem, 1.5111rem + 1.0847vi, 2.8127rem);
 }
 
 ::selection {
     color: var(--text);
-    background: var(--contrast)
+    background: var(--contrast);
 }
 
 ::marker {
-    font-weight: 700
+    font-weight: 700;
 }
 
 @media (prefers-color-scheme:dark) {
@@ -28,11 +32,11 @@
         --background: hsl(39, 100%, 5%);
         --background-light: hsl(39, 100%, 10%);
         --text: hsl(39, 100%, 95%);
-        --text-light: hsl(39, 100%, 90%)
+        --text-light: hsl(39, 100%, 90%);
     }
 
     ::selection {
-        color: var(--background)
+        color: var(--background);
     }
 }
 
@@ -43,13 +47,13 @@ html {
     font-size: var(--step-0);
     line-height: 1.5;
     text-rendering: optimizeLegibility;
-    text-wrap: pretty
+    text-wrap: pretty;
 }
 
 body,
 html {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .wrapper {
@@ -59,29 +63,29 @@ html {
 }
 
 body>*+* {
-    margin-top: 5rem
+    margin-top: 5rem;
 }
 
 main {
-    min-height: 50vh
+    min-height: 50vh;
 }
 
 footer,
 header {
     background: var(--background-light);
-    color: var(--text-light)
+    color: var(--text-light);
 }
 
 footer,
 header,
 time {
-    font-size: var(--step--1)
+    font-size: var(--step--1);
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem
+    gap: 1rem;
 }
 
 h1,
@@ -89,42 +93,42 @@ h2,
 h3 {
     line-height: 1.1;
     margin-top: 2rem;
-    text-wrap: balance
+    text-wrap: balance;
 }
 
 h1 {
-    font-size: var(--step-3)
+    font-size: var(--step-3);
 }
 
 h2 {
-    font-size: var(--step-2)
+    font-size: var(--step-2);
 }
 
 h3 {
-    font-size: var(--step-1)
+    font-size: var(--step-1);
 }
 
 blockquote {
     font-style: italic;
     margin-left: 0;
     padding-left: 1rem;
-    border-left: 2px solid var(--contrast)
+    border-left: 2px solid var(--contrast);
 }
 
 blockquote em {
-    font-style: normal
+    font-style: normal;
 }
 
 code,
 pre {
     font-family: var(--mono);
-    font-size: .95rem
+    font-size: .95rem;
 }
 
 :not(pre)>code {
     background: var(--background-light);
     color: var(--text-light);
-    padding: .1em
+    padding: .1em;
 }
 
 pre {
@@ -132,43 +136,43 @@ pre {
     color: var(--background);
     margin-bottom: 2rem;
     overflow: auto;
-    padding: .5rem 1rem
+    padding: .5rem 1rem;
 }
 
 @media (prefers-color-scheme:dark) {
     pre {
         background: var(--background);
         color: var(--text);
-        border: 2px solid var(--text)
+        border: 2px solid var(--text);
     }
 }
 
 .articles a,
 dt {
-    font-weight: 700
+    font-weight: 700;
 }
 
 dd+dt {
-    margin-top: 1rem
+    margin-top: 1rem;
 }
 
 li {
-    margin-top: .5rem
+    margin-top: .5rem;
 }
 
 a {
     color: inherit;
     text-decoration-thickness: .2ex;
-    text-underline-offset: .2ex
+    text-underline-offset: .2ex;
 }
 
 a:active {
     background: var(--text);
-    color: var(--background)
+    color: var(--background);
 }
 
 hr {
-    border: 1px solid var(--contrast)
+    border: 1px solid var(--contrast);
 }
 
 @font-face {
@@ -176,7 +180,7 @@ hr {
     font-family: "FiraSans";
     font-style: normal;
     font-weight: 400;
-    src: url(/fonts/fira-sans-v17-latin-regular.woff2)format("woff2")
+    src: url(/fonts/fira-sans-v17-latin-regular.woff2)format("woff2");
 }
 
 @font-face {
@@ -184,7 +188,7 @@ hr {
     font-family: "FiraSans";
     font-style: italic;
     font-weight: 400;
-    src: url(/fonts/fira-sans-v17-latin-italic.woff2)format("woff2")
+    src: url(/fonts/fira-sans-v17-latin-italic.woff2)format("woff2");
 }
 
 @font-face {
@@ -192,7 +196,7 @@ hr {
     font-family: "FiraSans";
     font-style: normal;
     font-weight: 700;
-    src: url(/fonts/fira-sans-v17-latin-700.woff2)format("woff2")
+    src: url(/fonts/fira-sans-v17-latin-700.woff2)format("woff2");
 }
 
 @font-face {
@@ -200,5 +204,5 @@ hr {
     font-family: "FiraSans";
     font-style: italic;
     font-weight: 700;
-    src: url(/fonts/fira-sans-v17-latin-700italic.woff2)format("woff2")
+    src: url(/fonts/fira-sans-v17-latin-700italic.woff2)format("woff2");
 }
