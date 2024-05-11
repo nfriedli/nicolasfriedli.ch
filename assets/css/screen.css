@@ -1,21 +1,10 @@
 :root {
-
     color-scheme: light dark;
     --background: hsl(39, 25%, 90%);
     --background-light: hsl(39, 25%, 85%);
     --text: hsl(39, 50%, 10%);
     --text-light: hsl(39, 50%, 5%);
     --contrast: hsl(39, 100%, 50%);
-    
-    --sans: "Fira Sans", FiraSans, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
-
-    /* @link https://utopia.fyi/type/calculator?c=640,16,1.2,1280,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-    --step--1: clamp(0.8333rem, 0.7758rem + 0.1438vi, 0.8908rem);
-    --step-0: clamp(1rem, 0.8125rem + 0.4688vi, 1.1875rem);
-    --step-1: clamp(1.2rem, 0.8171rem + 0.9573vi, 1.5829rem);
-    --step-2: clamp(1.44rem, 0.7699rem + 1.6751vi, 2.1101rem);
-    --step-3: clamp(1.728rem, 0.6433rem + 2.7118vi, 2.8127rem);
 }
 
 ::selection {
@@ -43,8 +32,8 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family: var(--sans);
-    font-size: var(--step-0);
+    font-family:  "Fira Sans", FiraSans, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     text-wrap: pretty;
@@ -79,7 +68,7 @@ header {
 footer,
 header,
 time {
-    font-size: var(--step--1);
+    font-size: .8rem;
 }
 
 nav {
@@ -97,16 +86,16 @@ h3 {
 }
 
 h1 {
-    font-size: var(--step-3);
+    font-size: 2em;
     margin-top: 0;
 }
 
 h2 {
-    font-size: var(--step-2);
+    font-size: 1.2rem;;
 }
 
 h3 {
-    font-size: var(--step-1);
+    font-size: 1.2rem;;
 }
 
 blockquote {
@@ -122,7 +111,7 @@ blockquote em {
 
 code,
 pre {
-    font-family: var(--mono);
+    font-family: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;;
     font-size: .95rem;
 }
 
