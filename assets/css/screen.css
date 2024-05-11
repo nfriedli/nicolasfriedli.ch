@@ -1,5 +1,5 @@
 :root {
-    
+
     color-scheme: light dark;
     --background: hsl(39, 25%, 90%);
     --background-light: hsl(39, 25%, 85%);
@@ -7,7 +7,7 @@
     --text-light: hsl(39, 50%, 5%);
     --contrast: hsl(39, 100%, 50%);
     
-    --sans: FiraSans, system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --sans: FiraSans, ui-sans-serif, Roboto, "Noto Sans Serif", sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
@@ -30,7 +30,7 @@
 @media (prefers-color-scheme:dark) {
     :root {
         --background: hsl(39, 100%, 5%);
-        --background-light: hsl(39, 100%, 10%);
+        --background-light: hsl(39, 50%, 10%);
         --text: hsl(39, 100%, 95%);
         --text-light: hsl(39, 100%, 90%);
     }
@@ -98,6 +98,7 @@ h3 {
 
 h1 {
     font-size: var(--step-3);
+    margin-top: 0;
 }
 
 h2 {
@@ -112,7 +113,7 @@ blockquote {
     font-style: italic;
     margin-left: 0;
     padding-left: 1rem;
-    border-left: 2px solid var(--contrast);
+    border-left: .2rem solid var(--contrast);
 }
 
 blockquote em {
@@ -141,9 +142,8 @@ pre {
 
 @media (prefers-color-scheme:dark) {
     pre {
-        background: var(--background);
-        color: var(--text);
-        border: 2px solid var(--text);
+        background: var(--background-light);
+        color: var(--text-light);
     }
 }
 
