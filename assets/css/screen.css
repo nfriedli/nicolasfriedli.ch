@@ -7,7 +7,13 @@
     --text-light: hsl(39, 50%, 5%);
     --contrast: hsl(39, 100%, 50%);
     
-    --sans: FiraSans, ui-sans-serif, Roboto, "Noto Sans Serif", sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* 
+        Police principale:
+        - Fira Sans si installée (< 1%)
+        - puis polices système de qualité pour Apple (> 30%), Android (~ 45%) et Linux (< 5%)
+        - puis Fira Sans (webfont) pour Windows (~ 20%)
+    */
+    --sans: "Fira Sans", ui-sans-serif, Roboto, "Noto Sans Serif", FiraSans, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 
     /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1920,19,1.333,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
