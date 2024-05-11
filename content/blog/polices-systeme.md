@@ -224,9 +224,6 @@ En résumé:
 
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman. Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`) et ma proposition de polices légères, je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
-----
-
-Désormais, mon site télécharge une police: Fira Sans.
 
 ----
 

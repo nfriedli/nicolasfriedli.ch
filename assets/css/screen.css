@@ -32,8 +32,9 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family:  "Fira Sans", FiraSans, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);;
+    font-family: "Fira Sans", Asap, ui-sans-serif, Roboto, "Noto Sans", system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);
+    ;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     text-wrap: pretty;
@@ -86,16 +87,18 @@ h3 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 1.2rem;;
+    font-size: 1.7rem;
+    ;
 }
 
 h3 {
-    font-size: 1.2rem;;
+    font-size: 1.3rem;
+    ;
 }
 
 blockquote {
@@ -111,7 +114,7 @@ blockquote em {
 
 code,
 pre {
-    font-family: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;;
+    font-family: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
     font-size: .95rem;
 }
 
@@ -162,36 +165,4 @@ a:active {
 
 hr {
     border: 1px solid var(--contrast);
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: normal;
-    font-weight: 400;
-    src: url(/fonts/fira-sans-v17-latin-regular.woff2)format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: italic;
-    font-weight: 400;
-    src: url(/fonts/fira-sans-v17-latin-italic.woff2)format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: normal;
-    font-weight: 700;
-    src: url(/fonts/fira-sans-v17-latin-700.woff2)format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: italic;
-    font-weight: 700;
-    src: url(/fonts/fira-sans-v17-latin-700italic.woff2)format("woff2");
 }
