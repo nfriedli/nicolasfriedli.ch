@@ -1,8 +1,7 @@
 ---
-title: Lire les classiques du web
+title: Lire et relire les classiques du web
 description: Des articles qui ne sont peut-être plus d’actualité sur certains points techniques, mais qui disent toujours quelque chose de pertinent parfois 25 ans après leur mise en ligne.
-date: 2024-05-09
-draft: true
+date: 2024-05-11
 ---
 
 Dans son livre *Pourquoi lire les classiques?*, Italo Calvino propose 14 thèses pour définir ce qu’est un «classique». Ce [podcast](https://www.radiofrance.fr/franceinter/podcasts/les-80-de-nicolas-demorand/pourquoi-lire-les-classiques-4967560) de 80 secondes donne quelques pistes.
