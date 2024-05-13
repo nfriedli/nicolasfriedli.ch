@@ -20,7 +20,7 @@ Dans sa note personnelle, [Principles of Design](https://www.w3.org/DesignIssues
 
 Ces sujets reviennent périodiquement, quand l’impression que le web devient trop complexe ou trop lourd. Il vaut la peine de lutter contre les excès et revenir à ce texte fondateur pour s’en inspirer.
 
-Avec le passage à la version 5 de HTML, d’autres principes de conception ont aussi été rédigés, par d’autres personnes. Le document[HTML Design Principles](https://www.w3.org/TR/html-design-principles/) insiste en particulier sur:
+Avec le passage à la version 5 de HTML, d’autres principes de conception ont aussi été rédigés, par d’autres personnes. Le document [HTML Design Principles](https://www.w3.org/TR/html-design-principles/) insiste en particulier sur:
 
 - l’utilité pour résoudre de vrais problèmes
 - l’interopérabilité (et le refus de toute complexité non nécessaire)
@@ -34,7 +34,6 @@ En 1997 déjà, le [Manifeste du Web indépendant](https://www.uzine.net/article
 
 Ce texte est encore plus pertinent aujourd’hui, alors que de grands acteurs cherchent uniquement à capter un maximum de temps d’attention. Nous sommes entrés dans le monde du [capitalisme de surveillance](https://www.monde-diplomatique.fr/2019/01/ZUBOFF/59443). La relecture régulière de ce manifeste est bienvenue.
 
-
 ## Sur le design web
 
  Dans son texte [A Dao of Web Design](https://alistapart.com/article/dao/), John Allstrop parlait abondamment des feuilles de style. Pour moi, l’élément central était:
@@ -46,7 +45,7 @@ Ce texte est encore plus pertinent aujourd’hui, alors que de grands acteurs ch
  > Si vous utilisez les feuilles de style correctement, pour **suggérer** l’apparence d’une page, mais ne pas **contrôler** son apparence, et que vous ne comptez pas sur votre feuille de style pour transmettre de l’information, vos pages fonctionneront très bien dans n’importe quel navigateur, passé comme futur.
 
 Ce passage est fondamental. Malgré la diversité des périphériques et des formats d’écran, des agences de communication — en fait, des graphistes... — cherchent toujours à faire des mises en pages au pixel près. C’est parfaitement contraire à l’esprit du web, ça coûte très cher et c’est souvent peu pérenne ni efficace.
- 
+
 Une version française existe: [Le tao du design Web](https://www.pompage.net/traduction/dao).
 
 ## Essence d’une page ou d’un site web
