@@ -29,6 +29,9 @@ keepDefaultAttrVals = false
 keepQuotes = true
 keepWhitespace = true
 
+[params]
+images = ["/images/opengraph.png", "/images/nicolas-friedli.jpg"]
+
 [params.author]
 name = "Nicolas Friedli"
 email = "hello+rss@nicolasfriedli.ch"

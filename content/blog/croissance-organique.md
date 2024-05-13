@@ -4,6 +4,9 @@ description: Un site web toujours cohérent, mais jamais terminé. La croissance
 date: 2024-05-01
 categories:
 - documentation
+
+videos:
+- https://youtu.be/Wc7n7uIg4AM
 ---
 
 Partir de rien pour créer un site web peut être une démarche difficile. La «solution» est trop souvent la reprise d’un organigramme pour créer une première structure qu’il faudra ensuite remplir.
