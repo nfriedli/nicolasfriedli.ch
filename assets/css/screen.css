@@ -5,6 +5,9 @@
     --text: hsl(39, 50%, 10%);
     --text-light: hsl(39, 50%, 5%);
     --contrast: hsl(39, 100%, 50%);
+
+    --sans: "Fira Sans", Asap, ui-sans-serif, Roboto, "Noto Sans", system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 }
 
 ::selection {
@@ -32,7 +35,7 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family: "Fira Sans", Asap, ui-sans-serif, Roboto, "Noto Sans", system-ui, sans-serif, "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: var(--sans);
     font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);
     ;
     line-height: 1.5;
@@ -114,7 +117,7 @@ blockquote em {
 
 code,
 pre {
-    font-family: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
+    font-family: var(--mono);
     font-size: .95rem;
 }
 
