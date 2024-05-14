@@ -13,7 +13,7 @@ Google Maps
 
 ## Naviguer correctement sur votre site
 
-Architecture de l'information
+Architecture de l’information
 
 Design adaptatif (responsive design)
 
@@ -31,7 +31,7 @@ Vraies pages web
 
 Images
 
-## Respecter l'environnement
+## Respecter l’environnement
 
 écoconception
 

@@ -199,7 +199,7 @@ La logique est:
 - la deuxième pour les Android et la majorité des Linux
 - puis on laisse Windows se débrouiller
 
-Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css).
+Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`screen.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css). Actuellement, ce site charge la police [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) si elle n’est pas installée chez vous.
 
 ## Polices légères
 
