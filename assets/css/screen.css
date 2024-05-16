@@ -167,22 +167,6 @@ hr {
     border: 1px solid var(--contrast);
 }
 
-/* https://www.accede-web.com/en/guidelines/html-css/keyboard-navigation/skip-links/ */
-
-a.skiplink {
-    display: inline-block;
-    color: var(--background);
-    background: var(--text);
-    padding: 1em;
-    position: absolute;
-    left: -99999rem;
-    z-index: 100;
- }
-
- a.skiplink:focus {
-    left: 0;
- }
-
 @font-face {
     font-display: swap;
     font-family: "FiraSans";
