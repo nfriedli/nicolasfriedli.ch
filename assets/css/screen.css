@@ -1,10 +1,10 @@
 :root {
     color-scheme: light dark;
-    --background: hsl(219, 25%, 97%);
-    --background-light: hsl(219, 25%, 94%);
-    --text: hsl(219, 50%, 10%);
-    --text-light: hsl(219, 50%, 5%);
-    --contrast: hsl(39, 100%, 50%);
+    --background: #EEE;
+    --background-light: #DDD;
+    --text: #111;
+    --text-light: #222;
+    --contrast: orange;
 
     --sans: "Fira Sans", FiraSans, ui-sans-serif, system-ui, sans-serif;
     --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
@@ -21,10 +21,10 @@
 
 @media (prefers-color-scheme:dark) {
     :root {
-        --background: hsl(219, 100%, 5%);
-        --background-light: hsl(219, 50%, 10%);
-        --text: hsl(219, 100%, 95%);
-        --text-light: hsl(219, 100%, 90%);
+        --background: #000;
+        --background-light: #222;
+        --text: #DDD;
+        --text-light: #BBB;
     }
 
     ::selection {
@@ -83,6 +83,7 @@ nav {
 h1,
 h2,
 h3 {
+    color: var(--text-light);
     line-height: 1.1;
     margin-top: 2rem;
     text-wrap: balance;
@@ -125,18 +126,11 @@ pre {
 }
 
 pre {
-    background: var(--text);
-    color: var(--background);
+    background: var(--background-light);
+    color: var(--text);
     margin-bottom: 2rem;
     overflow: auto;
     padding: .5rem 1rem;
-}
-
-@media (prefers-color-scheme:dark) {
-    pre {
-        background: var(--background-light);
-        color: var(--text-light);
-    }
 }
 
 .articles a,
