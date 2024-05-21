@@ -2,9 +2,12 @@
 title: Proposer un annuaire protestant en ligne
 description: Avec theologique.ch, je propose un annuaire protestant (réformé) francophone en ligne. Voici quelques raisons qui m’ont poussé à créer ce site.
 date: 2024-03-04
+lastMod: 2024-05-21
 ---
 
 Avec theologique.ch, je propose un annuaire protestant (réformé) francophone en ligne. C’est un outil et non une finalité en soi. Voici quelques raisons qui m’ont poussé à créer ce site.
+
+**Cet annuaire n’a pas rencontré son public et n’est plus en ligne!**
 
 ## Établir un état des lieux
 
@@ -63,7 +66,7 @@ En JSON, cela se présente ainsi:
 
 Ensuite, une pondération de ces 3 taxonomies permet d’afficher une liste de suggestions, limitée à 5 sites. **Avec une telle méthode, j’espère faire émerger des propositions de mise en relations auxquelles je ne penserais pas spontanément.** Et j’espère aussi pouvoir classer beaucoup de sites sans m’égarer dans l’élaboration de menus complexes (et difficiles à maintenir).
 
-Tous les détails sont disponibles en permanence dans les [sources sur GitHub](https://github.com/nfriedli/theologique.ch).
+~~Tous les détails sont disponibles en permanence dans les [sources sur GitHub](https://github.com/nfriedli/theologique.ch).~~
 
 ## Faciliter le partage de liens
 
@@ -83,5 +86,3 @@ Ce que je retire de la création de theologique.ch:
 1. Les liens contextuels apportent plus que des listes simples «plates».
 1. Hugo permet une gestion performante des taxonomies.
 1. Mieux vaut des liens vers un site centralisé que pas de liens du tout.
-
-Toutes propositions d’ajout ou d’améliorations sont bienvenues.
