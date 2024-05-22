@@ -30,7 +30,7 @@ keepQuotes = true
 keepWhitespace = true
 
 [params]
-images = ["/images/opengraph.png"]
+images = ["/images/opengraph.jpg"]
 
 [params.author]
 name = "Nicolas Friedli"
