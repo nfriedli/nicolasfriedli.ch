@@ -56,7 +56,7 @@ Il me semble que la réponse à apporter exige les choix suivants:
 
 Pour tenir la charge, je conseille:
 
-- un [site statique](/site-statique-generateur-hugo/)
+- un [site statique](/blog/site-statique-generateur-hugo/)
 - des pages légères
 - la suppression tièrces parties inutiles en cas d’urgence: polices d’écritures distantes, plugins des réseaux sociaux ou images «décoratives», voire l’outil statistique s’il charge le même serveur
 
