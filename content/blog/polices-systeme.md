@@ -4,6 +4,7 @@ description: Les polices dites «web safe» n’existent plus vraiment aujourd�
 date: 2024-04-22
 lastMod: 2024-04-30
 categories:
+- a11y
 - performance
 ---
 

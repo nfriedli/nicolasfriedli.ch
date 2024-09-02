@@ -2,6 +2,9 @@
 title: Tester un site web
 description: Proposition de tests techniques et pratiques à effectuer pour une première appréciation d’un site web.
 date: 2024-02-13
+categories:
+- a11y 
+- performance
 ---
 
 Il n’est pas rare que l’on me demande ce que je pense d’un site web personnel ou professionnel. Une petite phrase lâchée dans une discussion informelle:
