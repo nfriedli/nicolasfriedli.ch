@@ -9,7 +9,6 @@ removePathAccents = true
 disableKinds = [ "taxonomy", "term", "robotsTXT"]
 
 cleanDestinationDir = true
-disableFastRender = true
 enableGitInfo = true
 noBuildLock = true
 
