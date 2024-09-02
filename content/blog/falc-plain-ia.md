@@ -1,6 +1,6 @@
 ---
-title: Textes faciles à lire et à comprendre & le langage clair
-description: Des notes et des liens sur les textes faciles à lire et à comprendre (FALC), sur le langage clair (PLAIN) et l'accessibilité (A11Y).
+title: Notes sur les textes faciles à lire et à comprendre & le langage clair
+description: Des notes et des liens sur les textes faciles à lire et à comprendre (FALC), sur le langage clair (PLAIN) et l’accessibilité (A11Y).
 date: 2024-09-02
 categories:
 - a11y
@@ -8,7 +8,8 @@ categories:
 
 Des notes et des liens sur les textes faciles à lire et à comprendre (FALC), sur le langage clair (PLAIN) et l’accessibilité (A11Y).
 
-Ce billet (ni FALC, ni PLAIN) sera revu en fonction de mes découvertes et de vos retours.
+Ce billet (ni facile, ni clair...) sera revu en fonction de mes découvertes et de vos remarques.
+Certains sujets seront développés dans d’autres articles en fonction de la demande.
 
 ## Mise en bouche
 
