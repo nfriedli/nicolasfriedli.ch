@@ -5,9 +5,6 @@
     --text: #111;
     --text-light: #222;
     --contrast: orange;
-
-    --sans: "Fira Sans", FiraSans, ui-sans-serif, system-ui, sans-serif;
-    --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
 }
 
 ::selection {
@@ -35,7 +32,6 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-family: var(--sans);
     font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);
     line-height: 1.5;
     text-rendering: optimizeLegibility;
@@ -115,7 +111,6 @@ blockquote em {
 
 code,
 pre {
-    font-family: var(--mono);
     font-size: .95rem;
 }
 
@@ -159,39 +154,4 @@ a:active {
 
 hr {
     border: 1px solid var(--contrast);
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("/fonts/fira-sans-v17-latin-regular.woff2") format("woff2");
-}
-
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: italic;
-    font-weight: 400;
-    src: url("/fonts/fira-sans-v17-latin-italic.woff2") format("woff2");
-}
-
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("/fonts/fira-sans-v17-latin-700.woff2") format("woff2");
-}
-
-
-@font-face {
-    font-display: swap;
-    font-family: "FiraSans";
-    font-style: italic;
-    font-weight: 700;
-    src: url("/fonts/fira-sans-v17-latin-700italic.woff2") format("woff2");
 }
