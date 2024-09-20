@@ -50,6 +50,6 @@ Mais dans le cas d’un CV, par exemple...
 
 ## Légerté du format
 
-## Javascript natif
+## JavaScript natif
 
 ## Modéliser une base de données

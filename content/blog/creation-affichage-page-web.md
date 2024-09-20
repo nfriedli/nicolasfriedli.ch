@@ -74,7 +74,7 @@ Dans un premier lieu, le code HTML est intégralement lu et tous les fichiers n�
 
 - feuilles de style CSS (le modèle de mise en page)
 - images
-- code Javascript
+- code JavaScript
 
 Le processus de création continue.
 
@@ -86,15 +86,15 @@ Si ces polices d’écriture se trouvent sur un autre nom de domaine, il va devo
 
 Le processus de création continue.
 
-### Interprétation du Javascript
+### Interprétation du JavaScript
 
-Le code Javascript est interprété. Le «logiciel navigateur» exécute un «logiciel Javascript» pour avancer dans la création de la page. Ce code peur servir à:
+Le code JavaScript est interprété. Le «logiciel navigateur» exécute un «logiciel JavaScript» pour avancer dans la création de la page. Ce code peur servir à:
 
 - afficher un menu dynamique
 - envoyer des statistiques à un service tiers
 - chercher des données utiles pour affichage sur la page
 
-Mais aussi à inclure des *widgets* des réseaux sociaux, qui eux-mêmes vont rechercher plus de Javascript, du code HTML et CSS, etc.
+Mais aussi à inclure des *widgets* des réseaux sociaux, qui eux-mêmes vont rechercher plus de JavaScript, du code HTML et CSS, etc.
 
 ✅ En principe, la page est terminée.
 
@@ -105,7 +105,7 @@ Le *Web Almanac 2022* donne les résultats de tests pour plus de 8 millions de s
 - quand 1 page s’affiche, ce n’est pas 1 seul fichier qui voyage sur les réseaux, mais 70 (mesure médiane)
 - et ce sont plus de 2MB de données qui sont envoyées
 - en valeur médiane, ce sont 22 images pour une seule page
-- et 20 fichiers en Javascript (qui devront tous être exécutés dans le navigateur)
+- et 20 fichiers en JavaScript (qui devront tous être exécutés dans le navigateur)
 - le poids des pages web a été multiplié par 6 en 10 ans
 
 Le souci que nous avons aujourd’hui, c’est que les serveurs, les réseaux et les périphériques (ordinateur, tablette, téléphone, etc.) sont devenus si performants que l’on ne voit plus tout ce qui y transite et tous les calculs effectués. Pour maintenir un niveau de performance correct, au vu de la lourdeur des sites, il faut changer plus souvent de matériel. Écologiquement, c’est lamentable.
@@ -124,11 +124,11 @@ Ainsi, tous les fichiers ne sont pas chargés à chaque visite, ce qui est serai
 
 ## Différence entre statique et dynamique
 
-Pour faire simple, une page web, telle que nous la voyons, ne préexiste jamais. **Une page est toujours assemblée dans le *navigateur*** à partir de HTML, de CSS, de Javascript et des fichiers multimédia. Mais:
+Pour faire simple, une page web, telle que nous la voyons, ne préexiste jamais. **Une page est toujours assemblée dans le *navigateur*** à partir de HTML, de CSS, de JavaScript et des fichiers multimédia. Mais:
 
 - avec un site statique, tout ce qui peut l’être est déjà prêt et optimisé sur le *serveur*
 - avec un site dynamique, toute une machinerie se met en route sur le *serveur* pour chaque page et chaque internaute
 
 Le vrai problème avec les sites dynamiques, quel que soit l’outil (WordPress, Drupal, Typo3, etc.), c’est quand ils motorisent des *sites vitrines* qui évoluent peu. À quoi bon calculer chaque page pour chaque internaute si rien de change d’une personne à l’autre. C’est de la bande passante et de l’énergie jetées par les fenêtres.
 
-Mais rien n’est perdu. Il reste de nombreuses de possibilités de faire un site lent et peu écologique avec un générateur de sites statiques, car [La Jamstack n’est rapide que si vous y veillez](https://jamstatic.fr/2020/10/05/la-jamstack-n-est-rapide-que-si-vous-la-rendez-rapide/). Tout est envisageable pour publier des images trop grandes, saturer le site de Javascript, le pourrir de tierces parties inutiles et mal gérer son cache.
+Mais rien n’est perdu. Il reste de nombreuses de possibilités de faire un site lent et peu écologique avec un générateur de sites statiques, car [La Jamstack n’est rapide que si vous y veillez](https://jamstatic.fr/2020/10/05/la-jamstack-n-est-rapide-que-si-vous-la-rendez-rapide/). Tout est envisageable pour publier des images trop grandes, saturer le site de JavaScript, le pourrir de tierces parties inutiles et mal gérer son cache.
