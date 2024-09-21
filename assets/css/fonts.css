@@ -1,6 +1,7 @@
 :root {
-    --sans: ui-sans-serif, Roboto, Inter, Arial, system-ui, sans-serif;
-    --mono: ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
+    --sans: Archivo, "Fira Sans", "Public Sans", Rubik, ui-sans-serif, Roboto, "Noto Sans", Arial, system-ui, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "Roboto Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
+    font-variant-ligatures: none;
 }
 
 html {
