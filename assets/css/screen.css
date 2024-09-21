@@ -33,6 +33,7 @@ html {
     background: var(--background);
     color: var(--text);
     font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);
+    font-variant-numeric: oldstyle-nums proportional-nums;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     text-wrap: pretty;
@@ -80,6 +81,7 @@ h1,
 h2,
 h3 {
     color: var(--text-light);
+    font-variant-numeric: lining-nums;
     line-height: 1.1;
     margin-top: 2rem;
     text-wrap: balance;
@@ -143,6 +145,7 @@ li {
 
 a {
     color: inherit;
+    font-variant-numeric: lining-nums;
     text-decoration-thickness: .2ex;
     text-underline-offset: .2ex;
 }
