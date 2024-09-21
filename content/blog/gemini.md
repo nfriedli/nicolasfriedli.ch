@@ -7,7 +7,7 @@ date: 2024-09-19
 Mes remarques sur le protocole Gemini qui propose une alternative au web devenu complexe, lourd et qui nous traque en permanence.
 Les observations de départ sont bonnes, mais le résultat ne me convainc pas.
 
-Ce billet ne parle pas du chatbot de Google!
+⚠️ Ce billet ne parle pas du chatbot de Google!
 
 ## Première approche
 
