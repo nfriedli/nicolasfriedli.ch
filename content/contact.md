@@ -32,6 +32,6 @@ IDE: CHE-469.715.163
 
 **Merci de privilégier le mail pour un premier contact.** Je ne réponds pas aux messages envoyés sur WhatsApp.
 
-Je ne suis pas présent sur les réseaux sociaux, Instagram, LinkedIn ou Twitter. Et j’ai une présence passive sur [Facebook](https://www.facebook.com/frdl.ch/) et [Mastodon](https://mastodon.social/@friedli).
+Je ne suis pas présent sur les réseaux sociaux Instagram, LinkedIn ou Twitter. Et j’ai une présence passive sur [Facebook](https://www.facebook.com/frdl.ch/) et [Mastodon](https://mastodon.social/@friedli).
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").
