@@ -2,19 +2,20 @@
 title: Police optimisée pour les titres
 description: Proposer une police particulière sans prétériter la performance de son site. Optimisation du fichier, stratégie de chargement et gestion du cache.
 date: 2024-03-30
+lastMod: 2024-09-24
 categories:
 - performance
 ---
 
 Voici la stratégie j’applique sur mon site pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
 
-**Remarque:** cette solution n’est plus utilisée actuellement sur ce site, mais toutes les considérations techniques de la démarche restent valables. 
+Cette solution est utilisée sur ce site, avec la méthode simplifée (Google Webfonts Helper) et un chargement optionnel. Tout est expliqué ci-dessous.
 
 ## Optimisation de la police
 
-J’ai choisi d’utiliser [Bricolage Grotesque](https://ateliertriay.github.io/bricolage/) pour les titres (`h1`, `h2`, etc.) de mon blog. C’est une police variable, ce qui signifie qu’elle dispose de beaucoup de variantes, mais qu’elle est aussi assez lourde. Elle peut varier de taille optique, de largeur et de poids (`opsz`, `wdth` et `wght`). 
+J’ai choisi d’utiliser [Bricolage Grotesque](https://ateliertriay.github.io/bricolage/) pour les titres (`h1`, `h2`, etc.) de mon blog. C’est une police variable, ce qui signifie qu’elle dispose de beaucoup de variantes, mais qu’elle est aussi assez lourde. Elle peut varier de taille optique, de largeur et de poids (`opsz`, `wdth` et `wght`).
 
-Le téléchargement du fichier de départ se passe dans le [dépôt GitHub](https://github.com/ateliertriay/bricolage/tree/main) ou chez [Google Fonts](https://fonts.google.com/specimen/Bricolage+Grotesque). 
+Le téléchargement du fichier de départ se passe dans le [dépôt GitHub](https://github.com/ateliertriay/bricolage/tree/main) ou chez [Google Fonts](https://fonts.google.com/specimen/Bricolage+Grotesque).
 
 Pour être certain d’avoir un fichier léger, je vais convertir un fichier `ttf` en format `woff2`. Ce format est accepté par tous les navigateurs. Je ne souhaite pas de version variable sur mon site pour une question de poids. Comme tous mes titres sont en gras, je choisis la version statique `bold` (pour éviter la variation `wght`) et je prends celle en 48px (pour éviter la variation `opsz`). Je limite la gamme de caractères à l’alphabet latin.
 
@@ -35,7 +36,7 @@ Si le truc de Glyphanger semble trop compliqué, [Google Webfonfs Helper](https:
 
 Désormais, il faut utiliser ce fichier dans les règles de l’art pour que tout se passe bien.
 
-Dans ma feuille de style, j’ai les règles suivantes ([feuille de style complète dans GitHub](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css)):
+Dans ma feuille de style, j’ai des règles de ce type ([feuille de style complète dans GitHub](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/screen.css)):
 
 ```
 :root {
@@ -47,7 +48,7 @@ html {
 }
 ```
 
-J’ajoute ces règles pour les 3 premiers niveaux de titres:
+J’ajoute ceci pour les 3 premiers niveaux de titres:
 
 ```
 :root {

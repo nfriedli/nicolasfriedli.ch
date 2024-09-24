@@ -1,6 +1,7 @@
 :root {
     --sans: Roboto, ui-sans-serif, "Noto Sans", Arial, system-ui, sans-serif;
     --mono: "Roboto Mono", ui-monospace, "Noto Sans Mono", Menlo, Consolas, monospace;
+    --display: BricolageGrotesque, var(--sans);
 }
 
 html {
@@ -10,4 +11,16 @@ html {
 code,
 pre {
     font-family: var(--mono);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--display);
+}
+
+@font-face {
+    font-display: optional;
+    font-family: BricolageGrotesque;
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/bricolage-grotesque-v7-latin-700.woff2") format("woff2");
 }

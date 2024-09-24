@@ -60,7 +60,7 @@ Stéphane Bortzmeyer en dit bien plus dans la première partie de: [Le protocole
 
 Gemini, c’est aussi une syntaxe: gemtext.
 
-Pour faire simple, c’est un [Markdown](https://commonmark.org/) simplfié qui conserve:
+Pour faire simple, c’est un [Markdown](https://commonmark.org/) simplifié qui conserve:
 
 - des paragraphes sans formatage
 - des listes à puces (non imbriquées)

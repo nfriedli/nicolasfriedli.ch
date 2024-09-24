@@ -218,10 +218,10 @@ Et de déclarer des directives `@font-face` uniquement pour Poppins. Ainsi, tous
 
 En résumé:
 
-- plus de 50% de visites par mobiles (Android & Apple) ne chargent aucune police
+- plus de 50% de visites ont lieu sur des mobiles (Android & Apple) qui ne chargent donc aucune police
 - les ordinateurs Apple ne chargent aucune police
-- les ordinateurs Linux, dans leur grande majorité ne chargent aucune police
-- les 25% d’ordinateurs sous Windows chargent Poppins
+- les ordinateurs Linux, dans leur grande majorité, ne chargent aucune police
+- les 25% d’ordinateurs restants, sous Windows, chargent Poppins
 
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman. Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`) et ma proposition de polices légères, je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
