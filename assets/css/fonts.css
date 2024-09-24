@@ -1,7 +1,7 @@
 :root {
     --sans: Roboto, ui-sans-serif, "Noto Sans", Arial, system-ui, sans-serif;
     --mono: "Roboto Mono", ui-monospace, "Noto Sans Mono", Menlo, Consolas, monospace;
-    --display: BricolageGrotesque, var(--sans);
+    --display: "Bricolage Grotesque", Fraunces, "Barlow Condensed", Poppins, Syne, BricolageGrotesque, var(--sans);
 }
 
 html {
