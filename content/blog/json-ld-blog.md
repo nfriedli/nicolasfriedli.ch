@@ -156,7 +156,7 @@ L’interprétation du contenu devrait être simple. Donc je ne commente pas en 
 
 ### Intégration statique dans Hugo
 
-Pour intégrer cela dans Hugo, c’est trivial, parce que ces données sont statiques. Un fichier `schema.json`est placé dans le répertoire `/data/`. Il est accessible par la variable `site.Data.schema`.
+Pour intégrer cela dans Hugo, c’est trivial, parce que ces données sont statiques. Un fichier `schema.json` est placé dans le répertoire `/data/`. Il est accessible par la variable `site.Data.schema`.
 
 Donc, pour ne l’afficher que sur la page d’accueil, ce sera quelque chose comme:
 
