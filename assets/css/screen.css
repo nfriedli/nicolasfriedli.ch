@@ -29,6 +29,10 @@
     }
 }
 
+@view-transition {
+    navigation: auto;
+}
+
 html {
     background: var(--background);
     color: var(--text);
