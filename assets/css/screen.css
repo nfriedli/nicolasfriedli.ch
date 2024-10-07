@@ -36,7 +36,7 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-size: clamp(1rem, 0.95rem + 0.25vi, 1.25rem);
+    font-size:clamp(1rem, 0.75rem + 0.625vw, 1.25rem);
     line-height: 1.5;
     text-rendering: optimizeLegibility;
     text-wrap: pretty;
@@ -82,7 +82,8 @@ nav {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     color: var(--text-light);
     line-height: 1.1;
     margin-top: 2rem;
@@ -90,16 +91,20 @@ h3 {
 }
 
 h1 {
-    font-size: 2.4em;
+    font-size: 1.8em;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem
 }
 
 blockquote {

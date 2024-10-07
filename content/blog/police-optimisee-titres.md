@@ -2,14 +2,14 @@
 title: Police optimisée pour les titres
 description: Proposer une police particulière sans prétériter la performance de son site. Optimisation du fichier, stratégie de chargement et gestion du cache.
 date: 2024-03-30
-lastMod: 2024-09-24
+lastMod: 2024-10-07
 categories:
 - performance
 ---
 
 Voici la stratégie j’applique sur mon site pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
 
-Cette solution est utilisée sur ce site, avec la méthode simplifée (Google Webfonts Helper) et un chargement optionnel. Tout est expliqué ci-dessous.
+Cette solution n'est plus utilisée sur ce site, mais toutes les explications restent valables.
 
 ## Optimisation de la police
 

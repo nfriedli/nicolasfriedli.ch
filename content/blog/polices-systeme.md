@@ -2,7 +2,7 @@
 title: Utiliser des polices système
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2024-04-22
-lastMod: 2024-04-30
+lastMod: 2024-10-07
 categories:
 - a11y
 - performance
@@ -225,15 +225,18 @@ En résumé:
 
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman. Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`) et ma proposition de polices légères, je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
-
 ----
 
 J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) qui permettra(it) de gérer les choses beaucoup plus simplement.
 
----- 
+----
 
 À ma connaissance, la police la plus légère actuellement disponible est [Geist](https://vercel.com/font). Un seul fichier permet de remplacer les 4 variations dont je parlais ci-dessus. Une fois passée par [Glyphhanger](https://github.com/zachleat/glyphhanger), elle pèse environ 20 kB.
 
 ----
 
-**Ajout du 30 avril 2024.** Les polices système (San Franciso, Segoe UI et Roboto) sont excellentes pour les personnes dyslexiques. Elles sont bien meilleures que plusieurs polices prétendument optimisées. Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/)
+**Ajout du 30 avril 2024.** Les polices système (San Franciso, Segoe UI et Roboto) sont excellentes pour les personnes dyslexiques. Elles sont bien meilleures que plusieurs polices prétendument optimisées. Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/).
+
+----
+
+Sur ce site, la police [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) est affichée pour les internautes qui l'ont installée sur leur périphérique. La police [Fira Sans Condensed](https://fonts.google.com/specimen/Fira+Sans+Condensed) est utilisée pour les titres si elle est disponible.
