@@ -10,6 +10,8 @@ categories:
 
 L’utilisation de polices du système d’exploitation (*system font stack*) permet une cohérence graphique sans téléchargements. Mais la diversité des plateformes rend le travail relativement complexe.
 
+**Note du 7 octobre 2024.** Ce suit n’est pas toujours correct car, sur Android, Roboto est toujours disponible mais n’est pas appelée par `Roboto`! C’est `system-ui` qui affiche Roboto.
+
 ## Problématique
 
 Dans son billet [Are Web-Safe Fonts still relevant in 2024?](https://pimpmytype.com/web-safe-fonts/), Oliver Schöndorfer se demande si l’utilisation de polices système universelles est toujours pertinente aujourd’hui. Sa question est bonne, parce que les systèmes d’exploitation sont nombreux. Toutefois, sa réponse est imparfaite.
@@ -236,7 +238,3 @@ J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`
 ----
 
 **Ajout du 30 avril 2024.** Les polices système (San Franciso, Segoe UI et Roboto) sont excellentes pour les personnes dyslexiques. Elles sont bien meilleures que plusieurs polices prétendument optimisées. Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/).
-
-----
-
-Sur ce site, la police [Fira Sans](https://fonts.google.com/specimen/Fira+Sans) est affichée pour les internautes qui l'ont installée sur leur périphérique. La police [Fira Sans Condensed](https://fonts.google.com/specimen/Fira+Sans+Condensed) est utilisée pour les titres si elle est disponible.

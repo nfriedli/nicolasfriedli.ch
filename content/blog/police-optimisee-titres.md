@@ -9,7 +9,7 @@ categories:
 
 Voici la stratégie j’applique sur mon site pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
 
-Cette solution n'est plus utilisée sur ce site, mais toutes les explications restent valables.
+Cette solution n’est plus utilisée sur ce site, mais toutes les explications restent valables.
 
 ## Optimisation de la police
 

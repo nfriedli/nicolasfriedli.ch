@@ -1,5 +1,6 @@
 :root {
     color-scheme: light dark;
+
     --background: #F8F8F8;
     --background-light: #EEE;
     --text: #111;
@@ -38,7 +39,6 @@ html {
     color: var(--text);
     font-size:clamp(1rem, 0.75rem + 0.625vw, 1.25rem);
     line-height: 1.5;
-    text-rendering: optimizeLegibility;
     text-wrap: pretty;
 }
 
@@ -48,18 +48,14 @@ html {
     padding: 0;
 }
 
+main {
+    margin-block: 4rem;
+}
+
 .wrapper {
     margin: auto;
     max-width: 40rem;
     padding: .5rem 1rem;
-}
-
-body>*+* {
-    margin-top: 5rem;
-}
-
-main {
-    min-height: 50vh;
 }
 
 footer,
@@ -86,25 +82,25 @@ h3,
 h4 {
     color: var(--text-light);
     line-height: 1.1;
-    margin-top: 2rem;
+    margin-block: 2rem 1rem;
     text-wrap: balance;
 }
 
 h1 {
-    font-size: 2.4em;
-    margin-top: 0;
+    font-size: 1.8em;
+    margin-block-start: 0;
 }
 
 h2 {
-    font-size: 2rem;
-}
-
-h3 {
     font-size: 1.6rem;
 }
 
+h3 {
+    font-size: 1.4rem;
+}
+
 h4 {
-    font-size: 1.2rem
+    font-size: 1.2rem;
 }
 
 blockquote {
