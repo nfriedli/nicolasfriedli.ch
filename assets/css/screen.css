@@ -103,6 +103,7 @@ blockquote em {
 pre {
     font-size: .9rem;
     margin-block: 1rem 2rem;
+    margin-inline: -1rem;
     overflow: auto;
     padding: .5rem 1rem;
 }

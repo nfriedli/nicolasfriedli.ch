@@ -2,6 +2,7 @@
 title: Mon premier JSON Schema
 description: Rédaction d’un JSON Schema pour formaliser les contenus du site Églises ouvertes en Suisse romande.
 date: 2024-03-18
+lastMod: 2024-10-08
 categories: 
 - json
 ---
@@ -84,9 +85,9 @@ Ainsi je pourrai vérifier la validité de mon corpus d’édifices en une seule
 
 ## Création d’un schéma JSON
 
-L’utilisation de JSON est complètement libre, mais un [JSON Schema](https://json-schema.org/) permet de fixer des règles et de valider des contenus informatiquement. Pour ma culture générale, j’ai créé un schéma pour *Églises ouvertes en Suisse romande*.
+L’utilisation de JSON est complètement libre, mais un [JSON Schema](https://json-schema.org/) permet de fixer des règles et de valider des contenus informatiquement. Pour ma culture générale, j’ai créé un schéma pour *Églises ouvertes en Suisse romande*  (site abandonné).
 
-Je le copie intégralement, même si c’est un peu long. Puis je commente certaines parties dans la suite du billet. La [version courante](https://eglises-ouvertes.ch/schema.json) est disponible sur le site eglises-ouvertes.ch.
+Je le copie intégralement, même si c’est un peu long. Puis je commente certaines parties dans la suite du billet. La version courante était disponible sur le site eglises-ouvertes.ch. Elle reste disponible dans de le [dépôt GitHub nfriedli/eglises-ouvertes](https://github.com/nfriedli/eglises-ouvertes/blob/main/static/schema.json).
 
 ```
 {
@@ -281,4 +282,4 @@ Il faudrait aller un peu plus loin pour certaines données, par exemple avec des
 
 L’enjeu bien réel derrière cet exercice, c’est que la validité formelle ne dit rien de la validité réelle des contenus. Elle assure la présence de contenus, non leur justesse. Il y a quelque chose de paradoxal à formaliser des données alors que les informations n’existent souvent pas en ligne.
 
-Le rachitisme de [Églises ouvertes en Suisse romande](https://eglises-ouvertes.ch/) est une conséquence directe de la paresse de celles et ceux qui pourraient publier des contenus utiles. Mais pas une question de format de données.
+Le rachitisme du défunt *Églises ouvertes en Suisse romande* est une conséquence directe de la paresse de celles et ceux qui pourraient publier des contenus utiles. Mais pas une question de format de données.

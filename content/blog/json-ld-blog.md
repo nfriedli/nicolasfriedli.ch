@@ -2,6 +2,7 @@
 title: Données structurées pour un blog personnel
 description: Schema.org et JSON-LD pour aider les moteurs de recherche à comprendre le statut de son site et améliorer la compréhension des billets de blog.
 date: 2024-03-21
+lastMod: 2024-10-08
 categories: 
 - json
 ---
@@ -34,7 +35,6 @@ Il est possible de générer des petits fichiers avec [Steal Our JSON-LD](https:
 ### Nom du site
 
 En suivant les indications de [Fournir un nom de site pour la recherche Google](https://developers.google.com/search/docs/appearance/site-names?hl=fr), je pourrais écrire:
-
 
 ```
 {
@@ -71,7 +71,7 @@ Donc, nous avons désormais 2 ensembles JSON. Le premier a un seul niveau, le s
 
 ### Structure simple
 
-Mais ce qui est vraiment intéressant, c’est de lier la notion d’auteur au site. Comme le nom du site est le même que le nom de l’auteur, je prends un autre exemple pour ce passage. Voici ce qui se trouve en page d’accueil de l’[annuaire protestant theologique.ch](https://theologique.ch/) (version simplifiée):
+Mais ce qui est vraiment intéressant, c’est de lier la notion d’auteur au site. Comme le nom du site est le même que le nom de l’auteur, je prends un autre exemple pour ce passage. Voici ce qui se trouvait en page d’accueil de l’[annuaire protestant theologique.ch](https://theologique.ch/) (version simplifiée):
 
 ```
 {
@@ -94,7 +94,6 @@ En français:
 > Ce site s’appelle «Annuaire protestant», et aussi «theologique.ch». Il est disponible à l’adresse `https://theologique.ch/`. Il a pour auteur Nicolas Friedli, celui du site `https://nicolasfriedli.ch/`.
 
 C’est clair, non?
-
 
 ### Schéma complet
 
@@ -231,12 +230,12 @@ Puis, uniquement pour les articles de blog, je redéfinis (ou surcharge) le bloc
 
 L’existence du bloc `json-ld` sur toutes les pages permettrait d’injecter d’autres données à d’autres endroits du site.
 
-## Construction à la main 
+## Construction à la main
 
 En passant la page d’accueil ou un billet de blog de ce site dans le [validateur Schema.org](https://validator.schema.org/), les données structurées sont rendues lisibles. Elles me semblent suffisantes. Il reste à voir comment elles seront prises en compte par les moteurs de recherche dans la durée.
 
-En construisant ces schémas à la main, j’ai pu me rendre compte du potentiel de Schema.org pour documenter autre chose que des billets de blog. C’est ce que j’ai utilisé sur le site *Églises ouvertes en Suisse romande*. En exemple, les [données structurées du temple de Colombier](https://validator.schema.org/#url=https%3A%2F%2Feglises-ouvertes.ch%2Fneuchatel%2Fcolombier%2F).
+En construisant ces schémas à la main, j’ai pu me rendre compte du potentiel de Schema.org pour documenter autre chose que des billets de blog. C’est ce que j’ai utilisé sur le site *Églises ouvertes en Suisse romande* (ce site n’existe plus).
 
-Beaucoup de sites utilisent JSON-LD, souvent en excès (et dans le dos des propriétaires). Je suis très réservé par la quantité astronomique de données structurées que propose l’extension de référencement Yoast SEO. C’est un peu comme si le site était réécrit 2 fois sur chacune de ses pages.
+Beaucoup de sites utilisent JSON-LD, souvent en excès (et dans le dos des propriétaires). Je suis très réservé par la quantité astronomique de données structurées que propose l’extension de référencement Yoast SEO. C’est un peu comme si le site était réécrit 2 fois sur chacune de ses pages.
 
 Si je vois bien l’intérêt de la chose pour un site commercial ou tout site qui cherche à [modifier l’apparence des résultats de recherche](https://developers.google.com/search/docs/appearance/structured-data/search-gallery?hl=fr) pour être plus visible, je pense que c’est inutile pour un blog ou un simple site personnel.
