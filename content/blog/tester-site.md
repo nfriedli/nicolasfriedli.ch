@@ -25,7 +25,7 @@ Ensuite, je vais coller l’adresse du site dans [PageSpeed Insights](https://pa
 
 ## Regarder l’état du référencement
 
-Puis je me rendrai dans Google et effectuerai une recherche du type`site:nicolasfriedli.ch`. Ainsi j’aurai une idée:
+Puis je me rendrai dans Google et effectuerai une recherche du type `site:nicolasfriedli.ch`. Ainsi j’aurai une idée:
 
 - du nombre de pages référencées
 - de la qualité de l’affichage des résultats de recherche (SERP)
