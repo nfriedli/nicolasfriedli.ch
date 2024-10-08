@@ -1,28 +1,24 @@
 :root {
     color-scheme: light dark;
 
-    --background: #F8F8F8;
-    --background-light: #EEE;
-    --text: #111;
-    --text-light: #333;
+    --background: #FFF;
+    --text: #222;
     --contrast: orange;
-}
-
-::selection {
-    color: var(--text);
-    background: var(--contrast);
 }
 
 ::marker {
     font-weight: 700;
 }
 
+::selection {
+    background-color: var(--contrast);
+    text-align: var(--text);
+}
+
 @media (prefers-color-scheme:dark) {
     :root {
         --background: #000;
-        --background-light: #222;
         --text: #DDD;
-        --text-light: #BBB;
     }
 
     ::selection {
@@ -30,38 +26,24 @@
     }
 }
 
-@view-transition {
-    navigation: auto;
-}
-
 html {
     background: var(--background);
     color: var(--text);
-    font-size:clamp(1rem, 0.75rem + 0.625vw, 1.25rem);
+    font-size: clamp(1rem, 0.75rem + 0.625vw, 1.25rem);
     line-height: 1.5;
+    margin: 0;
+    padding: 1rem;
     text-wrap: pretty;
 }
 
-body,
-html {
-    margin: 0;
-    padding: 0;
+body {
+    margin-block: 0;
+    margin-inline: auto;
+    max-width: 70ch;
 }
 
 main {
     margin-block: 4rem;
-}
-
-.wrapper {
-    margin: auto;
-    max-width: 40rem;
-    padding: .5rem 1rem;
-}
-
-footer,
-header {
-    background: var(--background-light);
-    color: var(--text-light);
 }
 
 footer,
@@ -80,23 +62,21 @@ h1,
 h2,
 h3,
 h4 {
-    color: var(--text-light);
     line-height: 1.1;
     margin-block: 2rem 1rem;
     text-wrap: balance;
 }
 
 h1 {
-    font-size: 1.8em;
-    margin-block-start: 0;
+    font-size: 2.0736em;
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.728rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.44rem;
 }
 
 h4 {
@@ -107,7 +87,7 @@ blockquote {
     font-style: italic;
     margin-left: 0;
     padding-left: 1rem;
-    border-left: .2rem solid var(--contrast);
+    border-left: .2rem solid;
 }
 
 blockquote em {
@@ -115,21 +95,19 @@ blockquote em {
 }
 
 :not(pre)>code {
-    background: var(--background-light);
-    color: var(--text-light);
-    font-size: .9rem;
-    padding: .1em;
+    border: 1px dotted;
+    font-size: .85rem;
+    padding: .1em
 }
 
 pre {
-    background: var(--background-light);
-    color: var(--text);
-    font-size: .95rem;
-    margin-bottom: 2rem;
+    font-size: .9rem;
+    margin-block: 1rem 2rem;
     overflow: auto;
     padding: .5rem 1rem;
 }
 
+::marker,
 .articles a,
 dt {
     font-weight: 700;
@@ -143,17 +121,23 @@ li {
     margin-top: .5rem;
 }
 
+li li {
+    font-size: 95%;
+}
+
 a {
     color: inherit;
     text-decoration-thickness: .2ex;
     text-underline-offset: .2ex;
 }
 
-a:active {
+a:active,
+pre {
     background: var(--text);
     color: var(--background);
 }
 
 hr {
-    border: 1px solid var(--contrast);
+    border: .2ex solid;
+    margin-inline-end: 75%;
 }

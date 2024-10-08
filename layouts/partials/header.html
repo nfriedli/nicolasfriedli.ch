@@ -1,5 +1,5 @@
 <header>
-    <nav class="wrapper">
+    <nav>
         {{ $current := .RelPermalink}}
         {{ range site.Menus.main }}
             {{ if eq .URL $current }}
