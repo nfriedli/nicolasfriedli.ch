@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
 
-    --background: #FFF;
+    --background: #DDD;
     --text: #222;
     --contrast: orange;
 }
@@ -18,7 +18,7 @@
 @media (prefers-color-scheme:dark) {
     :root {
         --background: #000;
-        --text: #DDD;
+        --text: #BBB;
     }
 
     ::selection {
