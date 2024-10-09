@@ -1,5 +1,5 @@
 :root {
-    --sans: ui-sans-serif, Roboto, system-ui, sans-serif;
+    --sans: "Fira Sans", Archivo, Asap, Rubik, Mulish, ui-sans-serif, Roboto, system-ui, sans-serif;
     --mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
 }
 
