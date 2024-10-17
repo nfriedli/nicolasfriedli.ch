@@ -134,4 +134,8 @@ On peut aussi installer un logiciel sur son propre serveur (par exemple [KrISS f
 
 ----
 
-Dans son excellente newsletter [Own Your Web](https://buttondown.email/ownyourweb), Matthias Ott propose [Issue 9: We ❤️ RSS](https://buttondown.email/ownyourweb/archive/issue-09/). Il vaut la peine de suivre les liens proposés pour approfondir le sujet. Les internautes qui ne maîtrisent pas assez l’anglais auront intérêt à lire au moins l’article [Investing in RSS](https://timkadlec.com/remembers/2023-02-23-investing-in-rss/) de Tim Kadlec en traduction automatique.
+Dans son excellente newsletter [Own Your Web](https://buttondown.email/ownyourweb), Matthias Ott propose [Issue 9: We ❤️ RSS](https://buttondown.email/ownyourweb/archive/issue-09/). Il vaut la peine de suivre les liens proposés pour approfondir le sujet. Les internautes qui ne maîtrisent pas assez l’anglais auront intérêt à lire au moins l’article [Investing in RSS](https://timkadlec.com/remembers/2023-02-23-investing-in-rss/) de Tim Kadlec en traduction automatique.
+
+----
+
+Cory Doctorow a publié le 16 octobre 2024 un billet de qualité sur les flux RSS comme résistance à la [merdification des choses](https://ploum.net/2023-06-15-merdification.html): [You should be using an RSS reader](https://pluralistic.net/2024/10/16/keep-it-really-simple-stupid/).
