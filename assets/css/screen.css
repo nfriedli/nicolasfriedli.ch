@@ -1,8 +1,8 @@
 :root {
     color-scheme: light dark;
 
-    --background: hsl(219, 100%, 95%);
-    --text: hsl(39, 50%, 10%);
+    --background: hsl(39, 50%, 95%);
+    --text: hsl(219, 50%, 20%);
     --contrast: hsl(39, 100%, 50%);
 }
 
@@ -12,13 +12,13 @@
 
 ::selection {
     background-color: var(--contrast);
-    text-align: var(--text);
+    color: var(--text);
 }
 
 @media (prefers-color-scheme:dark) {
     :root {
-        --background: hsl(39, 0%, 0%);
-        --text: hsl(219, 50%, 90%);
+        --background: hsl(219, 50%, 10%);
+        --text: hsl(39, 50%, 90%);
     }
 
     ::selection {
