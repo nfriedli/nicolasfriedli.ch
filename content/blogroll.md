@@ -39,13 +39,13 @@ Une sélection de sites personnels, disposant d’un flux RSS et avec des public
 - [Manuel Matuzović](https://www.matuzo.at/)
 - [Jim Nielsen](https://blog.jim-nielsen.com/)
 - [Matthias Ott](https://matthiasott.com/)
-- [Heydon Pickering](http://www.heydonworks.com/)
+- [Heydon Pickering](https://heydonworks.com/)
 - [Kev Quirk](https://kevquirk.com/)
 - [Harry Roberts](https://csswizardry.com/)
 - [Olivier Schöndorfer](https://pimpmytype.com/)
 - [Jeremiah Shoaf](https://www.typewolf.com/)
 - [Sara Soueidan](https://www.sarasoueidan.com/)
-- [Hidde de Vries](https://hiddedevries.nl/en)
+- [Hidde de Vries](https://hidde.blog/)
 
 ## Blogs protestants
 
@@ -53,7 +53,6 @@ Une sélection de sites personnels, disposant d’un flux RSS et avec des public
 - [Laure Devaux Allisson](https://lauredevaux.ch/)
 - [Diane Friedli](https://dianefriedli.ch/)
 - [Elio Jaillet](https://eliojaillet.ch/)
-- [Jean-Denis Kraege](https://www.reformes.ch/blog/jean-denis-kraege)
 - [Armin Kressmann](https://www.ethikos.ch/)
 - [Antoine Nouis](https://leblogdantoinenouis.fr/)
 

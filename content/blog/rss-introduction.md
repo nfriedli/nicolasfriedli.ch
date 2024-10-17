@@ -89,7 +89,7 @@ fiabilité
 
 ## Pourquoi c’est génial
 
-Comme l’écrivait Thierry Crouzet dans [La mécanique du texte](https://tcrouzet.com/la-mecanique-du-texte/):
+Comme l’écrivait Thierry Crouzet dans [La mécanique du texte](https://tcrouzet.com/books/la-mecanique-du-texte/):
 
 > Le RSS est presque trop génial. [...] Il laisse imaginer un monde où chacun serait sa propre agence de presse, où chacun recevrait les informations sélectionnées par lui. Ce serait en quelque sorte un monde trop beau, et trop peu rentable.
 

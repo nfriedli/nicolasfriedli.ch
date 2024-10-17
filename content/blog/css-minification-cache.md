@@ -19,7 +19,7 @@ La version la plus simple pour déclarer une feuille de style CSS, c’est un ap
 
 Pour que la feuille de style se trouve bien à l’endroit référencé après une compilation par Hugo, on la place dans: `/static/css/style.css`.
 
-Le fichier est seulement copié, sans aucune modification, et placé dans le répertoire du site compilé: `/public/css/style.css`. C’est le principe de fonctionnement des [Static Files](https://gohugo.io/content-management/static-files/) chez Hugo. Tout ce qui se trouve dans le répertoire `/static/` est copié tel quel, avec la même hiérarchie, dans `/public/`.
+Le fichier est seulement copié, sans aucune modification, et placé dans le répertoire du site compilé: `/public/css/style.css`. C’est le principe de fonctionnement pour les [fichiers statiques](https://gohugo.io/getting-started/directory-structure/#static) chez Hugo. Tout ce qui se trouve dans le répertoire `/static/` est copié tel quel, avec la même hiérarchie, dans `/public/`.
 
 ## Minification des CSS par Hugo
 
@@ -99,5 +99,5 @@ Il me semble que les options choisies sont pertinentes et suffisantes pour ce si
 
 - Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/). C’est inutile puisque je ne n’ai qu’un fichier (par type de média).
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/hugo-pipes/fingerprint/#usage). C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
-- Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transform-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes.
+- Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transpile-sass-to-css/). Je préfère l’utilisation des variables CSS. La version de SASS embarquée dans Hugo n’est plus mise à jour. Et la version Dart exige des dépendances externes.
 - [Supprimer les styles non utilisés avec PurgeCSS](https://zwbetz.com/how-to-use-purgecss-with-hugo/) comme le propose Zachary Wade Betz. C’est utile sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas ici.
