@@ -64,7 +64,7 @@ Dans le domaine du web, je considère que l’accessibilité a au moins 4 compo
 
 ## Simplification par IA
 
-Mes recherches sont en cours suite à la demande d’une administration pour la simplifications de certaines contenus administratifs.
+Mes recherches sont en cours suite à la demande d’une administration pour la simplification de certains contenus administratifs.
 
 Je ne parle pas ici des questions de confidentialité, des questions écologiques, des problèmes éthiques, etc. 
 
@@ -77,7 +77,7 @@ Je ne parle pas ici des questions de confidentialité, des questions écologique
   
       Il ne faut rien ajouter au contenu de départ.
 
-- On peut ajouter les règles principles qui doivent être appliquées au texte:
+- On peut ajouter les règles principales qui doivent être appliquées au texte:
 
       Réécrire le texte en langage clair (PLAIN) 
       ou facile à lire et à comprendre (FALC)
@@ -86,7 +86,7 @@ Je ne parle pas ici des questions de confidentialité, des questions écologique
       Simplifier les mots complexes 
       (ou les expliquer entre parenthèses)
 
-- Au départ,on peut demander à ChatGPT de calculer le score Fleisch-Kincaid.
+- Au départ, on peut demander à ChatGPT de calculer le score Fleisch-Kincaid.
   Puis demander un nouveau calcul en fin de travail.
 
 - Affiner le travail en cours de route:
@@ -118,4 +118,4 @@ Notamment:
 - la rédaction à l’actif
 - la réduction du nombre de mots complexes
 
-Je trouve intéressante cette convergence (logique) entre accessibilité et référencement. 
+Je trouve intéressante cette convergence (logique) entre accessibilité et référencement.
