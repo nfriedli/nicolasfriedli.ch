@@ -1,6 +1,6 @@
 :root {
-    --sans: "Hanken Grotesk", "Familjen Grotesk", "Schibsted Grotesk", "Fira Sans", "PT Sans", Asap, Archivo, Rubik, Mulish, ui-sans-serif, Roboto, system-ui, sans-serif;
-    --mono: ui-monospace, "Roboto Mono", Menlo, Consolas, monospace;
+    --sans: "Hanken Grotesk", "Familjen Grotesk", "Schibsted Grotesk", "Fira Sans", "PT Sans", Asap, Archivo, "Mona Sans", Geist, Rubik, Mulish, ui-sans-serif, Roboto, system-ui, sans-serif;
+    --mono: ui-monospace, "Roboto Mono", "JetBrains Mono", Hack, Menlo, Consolas, monospace;
 }
 
 html {
