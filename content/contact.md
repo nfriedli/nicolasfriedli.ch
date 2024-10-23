@@ -17,8 +17,8 @@ C’est toujours Nicolas Friedli qui réalise le travail: pas d’employé·e, p
 
 Pour en savoir plus:
 
-- [quelques éléments biographiques](/bio/) sur mon parcours
-- [à propos](/about/) sur les choix techniques de ce site
+- [quelques éléments biographiques]({{< relref "bio" >}}) sur mon parcours
+- [à propos]({{< relref "about" >}}) sur les choix techniques de ce site
 
 ## Coordonnées
 
