@@ -1,0 +1,1 @@
+npx indexnow-submitter submit-sitemap -k 245595f76835499387568a226483f8da -h nicolasfriedli.ch https://nicolasfriedli.ch/sitemap.xml
