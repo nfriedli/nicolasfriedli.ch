@@ -15,7 +15,10 @@ Je souhaite recevoir la description d’un éventuel mandat *avant* une premièr
 
 C’est toujours Nicolas Friedli qui réalise le travail: pas d’employé·e, pas de stagiaire, pas de sous-traitance.
 
-Quelques [éléments biographiques](/bio/) pour en savoir plus sur mon parcours et une page [à propos de ce site](/about/) pour en savoir plus sur mes choix techniques.
+Pour en savoir plus:
+
+- [quelques éléments biographiques](/bio/) sur mon parcours
+- [à propos](/about/) sur les choix techniques de ce site
 
 ## Coordonnées
 
