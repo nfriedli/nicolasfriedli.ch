@@ -9,11 +9,16 @@ html {
 }
 
 code,
-pre {
+pre,
+table {
     font-family: var(--mono);
     font-variant-numeric: lining-nums tabular-nums;
 }
 
-a, h1, h2, h3, h4 {
+a,
+h1,
+h2,
+h3,
+h4 {
     font-variant-numeric: lining-nums proportional-nums;
 }
