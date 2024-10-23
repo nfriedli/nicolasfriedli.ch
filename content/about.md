@@ -6,6 +6,7 @@ description: Des informations sur ce site, les outils utilisés, les choix strat
 Ce site est simple et efficace. Il fait la part belle au texte. Je ne suis pas opposé à l’utilisation d’images, à conditions qu’elles apportent des informations utiles. Pour le moment, il n’y en a pas.
 
 nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
+Le site actuellement en ligne a été compilé avec la version {{< version >}}.
 
 Ses sources sont disponibles dans un [dépôt GitHub public](https://github.com/nfriedli/nicolasfriedli.ch/). Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 
