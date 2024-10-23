@@ -1,9 +1,9 @@
 :root {
     color-scheme: light dark;
 
-    --background: hsl(39, 50%, 95%);
-    --text: hsl(219, 50%, 20%);
-    --contrast: hsl(39, 100%, 50%);
+    --background: #FFF;
+    --text: #222;
+    --contrast: orange;
 }
 
 ::marker {
@@ -11,14 +11,14 @@
 }
 
 ::selection {
-    background-color: var(--contrast);
+    background: var(--contrast);
     color: var(--text);
 }
 
 @media (prefers-color-scheme:dark) {
     :root {
-        --background: hsl(219, 50%, 10%);
-        --text: hsl(39, 50%, 90%);
+        --background: #000;
+        --text: #DDD;
     }
 
     ::selection {
