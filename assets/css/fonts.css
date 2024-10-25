@@ -9,9 +9,13 @@ html {
 }
 
 code,
+pre {
+    font-family: var(--mono);
+}
+
+code,
 pre,
 table {
-    font-family: var(--mono);
     font-variant-numeric: lining-nums tabular-nums;
 }
 

@@ -216,18 +216,24 @@ J’essaie de tirer cela au clair dans ma proposition.
 ## Proposition
 
 Évidemment, il faut que la feuille de style CSS fonctionne pour tous les systèmes.
-Je proposerais, pour un site comme le mien, quelque chose comme:
+En haut de la pile, il est possible d’ajouter des polices que je souhaiteras voir afficher.
+Je pourrais utiliser, pour un site comme le mien, quelque chose comme:
 
 ```
 html {
-  font-family:  ui-sans-serif, 
+  font-family:  "Fira Sans",
+                "Public Sans", 
+                ui-sans-serif, 
+                Inter,
                 Roboto, 
                 system-ui, 
                 sans-serif;
 }
 
 code, pre {
-  font-family:  ui-monospace, 
+  font-family:  "JetBrains Mono",
+                "Hack",
+                ui-monospace, 
                 "Roboto Mono", 
                 Menlo, 
                 Consolas, 
@@ -237,16 +243,33 @@ code, pre {
 
 La logique est:
 
-- la première directive règle le cas pour tous les périphériques Apple
-- la deuxième pour la majorité des Linux
+- les premières lignes suggèrent des polices
+- puis une directive règle le cas pour tous les périphériques Apple
+- puis des propositions pour la majorité des Linux
 - puis on laisse le système se débrouiller
 
-Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`fonts.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/fonts.css).
+En adoptant une telle démarche, on prend une posture de *suggestion de présentation*. J’en parle dans [Lire et relire les classiques du web
+]({{< relref "lire-classiques-web#sur-le-design-web" >}})
 
 ## En conclusion
 
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman.
 Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`), je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
+
+Sur ce site, j’utilise désormais:
+
+```
+html {
+    font-family: ui-sans-serif, Roboto, system-ui, sans-serif;
+}
+
+code,
+pre {
+    font-family: ui-monospace, "Roboto Mono", "JetBrains Mono", Hack, Menlo, Consolas, monospace;
+
+}
+```
+Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`fonts.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/fonts.css).
 
 ----
 
