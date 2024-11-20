@@ -43,7 +43,9 @@ Les *partials* ont un **avantage**: ils peuvent être appelés systématique **h
 Par exemple en pied de page ou comme liste de pages sous l’article.
 Ils ont un **inconvénient**: les variations au cas par cas ne sont pas triviales.
 
-## Affichage des pages filles avec un *shortcode*
+## Pages filles (sous-pages ou niveau inférieur)
+
+### Affichage des pages filles avec un *shortcode*
 
 Un fichier dans `/layouts/shortcodes/subpages.html`:
 
@@ -60,7 +62,7 @@ On l’appelle par `{{</* subpages */>}}`.
 Comme il n’est pas certain que des pages filles existent, on peut ajouter une condition sur la présence de pages.
 Ou ne jamais utiliser ce *shortcode* quand il n’y a pas de filles.
 
-## Affichage des pages filles avec un *partial*
+### Affichage des pages filles avec un *partial*
 
 Un fichier dans `/layouts/partials/subpages.html`:
 
@@ -77,7 +79,9 @@ Avec le point qui transmet le [contexte](https://www.regisphilibert.com/blog/201
 
 Comme il n’est pas certain que des pages filles existent, il **faut** ajouter une condition sur la présence de pages pour ne pas créer une liste vide.
 
-## Affichage des pages sœurs avec un *shortcode*
+## Pages sœurs (même niveau)
+
+### Affichage des pages sœurs avec un *shortcode*
 
 Un fichier dans `/layouts/shortcodes/sisters.html`:
 
@@ -98,7 +102,7 @@ Mais comme ce n’est pas une nécessité, le *shortcode* n’est appelé que qu
 Il faut alors l’ajouter sur toutes les nouvelles pages.
 Je conseille d’ajouter des conditions (par exemple pour ne pas mettre un lien sur la page courante).
 
-## Affichage des pages sœurs avec un *partial*
+### Affichage des pages sœurs avec un *partial*
 
 Un fichier dans `/layouts/partials/sisters.html`:
 
@@ -122,7 +126,9 @@ Avec le point qui transmet le contexte!
 Quand une rubrique existe, c’est qu’elle comporte normalement plusieurs pages.
 Je conseille d’ajouter des conditions (par exemple pour ne pas mettre un lien sur la page courante).
 
-## Affichage de la page mère avec un *shortcode*
+## Page mère (répertoire ou niveau supérieur)
+
+### Affichage de la page mère avec un *shortcode*
 
 Un fichier dans `/layouts/shortcodes/mother.html`:
 
@@ -136,7 +142,7 @@ On l’appelle par `{{</* mother */>}}`.
 
 L’utilisation de `with` ne provoquera l’affichage que si une page mère existe.
 
-## Affichage de la page mère avec un *partial*
+### Affichage de la page mère avec un *partial*
 
 Un fichier dans `/layouts/partials/mother.html`:
 
