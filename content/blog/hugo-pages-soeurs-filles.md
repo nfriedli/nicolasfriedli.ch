@@ -1,6 +1,6 @@
 ---
 title: Pages sœurs, filles et mère avec Hugo
-description: Des extraits de code Hugo pour automatiser le maillage interne du site
+description: Des extraits de code Hugo pour automatiser le maillage interne du site avec une navigation au même niveau, au niveau supérieur et au niveau inférieur.
 date: 2024-11-20
 categories:
 - hugo
@@ -9,7 +9,7 @@ categories:
 Dans un site hiérarchique construit avec Hugo, il est facile de se créer des *shortcodes* ou des *partials* pour afficher une navigation contextuelle.
 Je considère que le site est construit avec des répertoires et des pages `_index.md` dans chaque répertoire.
 
-C’est idéal pour construire automatiquement le maillage interne d’ un cocon sémantique «à l’ancienne»:
+C’est idéal pour construire automatiquement le maillage interne d’un cocon sémantique «à l’ancienne»:
 
 - lien vers la page mère en haut de page
 - lien vers les pages sœurs en bas de page
@@ -19,7 +19,7 @@ Des codes plus évolués sont disponibles dans certaines de [mes dépôts GitHub
 
 ## *Shortcode* ou *partial*
 
-La distinction entre les 2 doit être claire pour vous avant de vous lancer.
+La distinction entre les 2 doit être claire pour vous avant de vous lancer.
 Si ce n’est pas le cas, il ne vaut pas la peine d’aller plus loin. 
 Mieux vaut lire la documentation d’Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes/) et [Partial templates](https://gohugo.io/templates/partial/).
 
@@ -31,7 +31,7 @@ Un *shortcode* est appelé **dans la source de la page en Markdown**, avec un co
 ```
 
 Les *shorcodes* ont un **avantage**: ils peuvent être appelés n’importe où dans le **contenu** de la page (corps de l’article).
-Par exemple un liste de billets entre 2 paragraphes. Ils ont un **inconvénient**: il faut les appeler à chaque fois.
+Par exemple un liste de billets entre 2 paragraphes. Ils ont un **inconvénient**: il faut les appeler à chaque fois.
 
 Un *partial* est appelé **dans un *template* de page**, avec un code de type, disponibles pour les «programmeurs» et «programmeuses»:
 
@@ -155,7 +155,7 @@ L’utilisation de `with` ne provoquera l’affichage que si une page mère exis
 
 Je conseille d’ajouter certaines conditions d’affichage:
 
-- affichage des pages sœurs uniquement s’il y a en a plus de 2 (la page présente et une autre page)
+- affichage des pages sœurs uniquement s’il y a en a plus de 2 (la page présente et une autre page)
 - désactiver l’affichage de la page actuelle de la liste ou
 - désactiver le lien de la page actuelle dans la liste
 
