@@ -2,8 +2,6 @@
 title: Mode sombre en quelques lignes de CSS
 description: Activer un mode sombre sur son site en une ligne de CSS ou en utilisant quelques variables et des medias queries. Simple et fiable.
 date: 2024-02-10
-categories:
-- hugo
 ---
 
 En quelques lignes de CSS, il est possible d’activer un mode sombre automatique sur son site. La *version aboutie* est celle que j’utilise pour plusieurs projets. C’est simple et fiable.
