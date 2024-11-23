@@ -36,7 +36,7 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-size: clamp(1rem, 0.8242rem + 0.4688vw, 1.1875rem);
+    font-size: clamp(1rem, 0.8828rem + 0.3125vw, 1.125rem);
     line-height: 1.5;
     margin: 0;
     padding: 1rem;
@@ -75,15 +75,15 @@ h4 {
 }
 
 h1 {
-    font-size: 1.728em;
+    font-size: 1.95em;
 }
 
 h2 {
-    font-size: 1.44rem;
+    font-size: 1.56rem;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
 }
 
 h4 {
