@@ -130,12 +130,12 @@ dd+dt {
     margin-top: 1rem;
 }
 
-li {
-    margin-top: .5rem;
+ul {
+    padding-inline-start: 1rem;
 }
 
-li li {
-    font-size: 95%;
+li {
+    margin-top: .5rem;
 }
 
 a {

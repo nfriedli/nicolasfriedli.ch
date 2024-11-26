@@ -45,7 +45,7 @@ Il est alors question d’*efficience*, l’efficacité rapporté au coût (temp
 
 Il y a quelques semaines, j’ai découvert une image de 70MB(!) sur une page d’accueil d’un site.
 C’est un fichier gigantesque qui pose de vrais problèmes.
-Elle s’afficherait sans différence sensible en étant 500x plus légères.
+Elle s’afficherait sans différence sensible en étant 500 fois plus légères.
 
 Quels que soient les efforts sur une telle page, tous est cassé par 1 fichier problématique.
 C’est pourquoi il faut toujours [tester régulièrement son site web]({{< relref "tester-site" >}}).
@@ -57,7 +57,7 @@ Donc, en français:
 
 ## Se demander ce qui est nécessaire
 
-Des tests montrent [que 70 % des fonctionnalités demandées par les utilisateurs ne sont pas essentielles et que 45 % ne sont jamais utilisées](https://github.com/cnumr/best-practices/blob/main/chapters/BP_001_fr.md).
+Des tests montrent [que 70% des fonctionnalités demandées par les utilisateurs ne sont pas essentielles et que 45% ne sont jamais utilisées](https://github.com/cnumr/best-practices/blob/main/chapters/BP_001_fr.md).
 Dès lors, il faut se demander sérieusement ce qui est vraiment nécessaire.
 
 Le fichier qui coût le moins du point de vue de la performance est celui qui n’est pas hébergé sur un serveur, qui ne transite pas par le réseau et qui n’est pas interprété par le périphérique final.
