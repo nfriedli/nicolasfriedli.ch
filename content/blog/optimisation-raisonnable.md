@@ -38,8 +38,8 @@ Et là, en langage naturel, il faudrait dire:
 > Pour produire des fichiers de taille analogue, certains outils sont plusieurs centaines de fois plus lents que d’autres.
 
 C’est là que `minify` excelle.
-Il est certes peut-être moins *efficace* de 1%, mais jusqu’à 500x plus rapide.
-Il est alors question d’*efficience*, l’efficacité rapporté au coût (temporel).
+Il est certes peut-être moins *efficace* de 1%, mais jusqu’à 500 fois plus rapide.
+Il est alors question d’*efficience*, l’efficacité rapportée au coût (temporel).
 
 ## Éviter les erreurs
 
