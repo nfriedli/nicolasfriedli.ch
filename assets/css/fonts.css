@@ -13,6 +13,10 @@ pre {
     font-variant-ligatures: none;
 }
 
+:not(code, pre) {
+    font-feature-settings: "calt" 1, "case" 1, "dlig" 1, "ss01" 1, "ss03" 1;
+}
+
 @font-face {
     font-family: Inter;
     font-style: normal;

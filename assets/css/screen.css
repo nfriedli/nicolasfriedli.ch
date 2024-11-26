@@ -43,10 +43,6 @@ html {
     text-wrap: pretty;
 }
 
-:not(code, pre){
-    font-feature-settings: "calt" 1, "dlig" 1, "case" 1, "ss01" 1, "ss03" 1;
-}
-
 body {
     margin-block: 0;
     margin-inline: auto;
@@ -61,6 +57,7 @@ footer,
 header,
 time {
     font-size: .8rem;
+    font-weight: 500;
 }
 
 nav {
@@ -79,25 +76,23 @@ h4 {
 }
 
 h1 {
-    font-size: 1.95em;
-    font-weight: 500;
+    font-size: 2.8em;
+    font-weight: 450;
 }
 
 h2 {
-    font-size: 1.56rem;
-    font-weight: 625;
-
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 h3 {
-    font-size: 1.25rem;
-    font-weight: 750;
+    font-size: 1.4rem;
 }
 
 h4 {
     font-size: 1rem;
+    font-weight: 800;
     text-transform: uppercase;
-    font-weight: 875;
 }
 
 blockquote {

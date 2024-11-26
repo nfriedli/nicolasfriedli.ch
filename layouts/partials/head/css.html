@@ -5,6 +5,6 @@
 {{ $screen := resources.Get "css/screen.css" | minify | fingerprint}}
 {{ $print := resources.Get "css/print.css" | minify | fingerprint}}
 
-<link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}">
-<link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen" integrity="{{ $screen.Data.Integrity }}">
-<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print" integrity="{{ $print.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $fonts.RelPermalink }}">
+<link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
+<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
