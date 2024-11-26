@@ -43,6 +43,10 @@ html {
     text-wrap: pretty;
 }
 
+:not(code, pre){
+    font-feature-settings: "calt" 1, "dlig" 1, "case" 1, "ss01" 1, "ss03" 1;
+}
+
 body {
     margin-block: 0;
     margin-inline: auto;
@@ -76,19 +80,24 @@ h4 {
 
 h1 {
     font-size: 1.95em;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 1.56rem;
+    font-weight: 625;
+
 }
 
 h3 {
     font-size: 1.25rem;
+    font-weight: 750;
 }
 
 h4 {
     font-size: 1rem;
     text-transform: uppercase;
+    font-weight: 875;
 }
 
 blockquote {

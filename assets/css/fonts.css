@@ -1,29 +1,30 @@
 :root {
-    --sans: ui-sans-serif, Roboto, Inter, Arial, system-ui, sans-serif;
+    --sans: Inter, ui-sans-serif, Roboto, Arial, system-ui, sans-serif;
     --mono: ui-monospace, "Roboto Mono", "JetBrains Mono", Hack, Menlo, Consolas, monospace;
 }
 
 html {
     font-family: var(--sans);
-    font-variant-ligatures: none;
-    font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 code,
 pre {
     font-family: var(--mono);
+    font-variant-ligatures: none;
 }
 
-code,
-pre,
-table {
-    font-variant-numeric: lining-nums tabular-nums;
+@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("/fonts/i.woff2") format("woff2");
 }
 
-a,
-h1,
-h2,
-h3,
-h4 {
-    font-variant-numeric: lining-nums proportional-nums;
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("/fonts/ii.woff2") format("woff2");
 }
