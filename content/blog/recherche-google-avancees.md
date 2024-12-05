@@ -2,6 +2,8 @@
 title: Recherches Google avancées
 description: Utiliser des opérateurs logiques et des conditions pour tout trouver rapidement. Et pour se construire des alertes Google pour une veille efficace.
 date: 2024-12-05
+categories:
+- seo
 ---
 
 Le moteur de recherche Google est souvent utilisé de manière basique.
@@ -188,7 +190,7 @@ C’est redoutablement efficace.
 ----
 
 Évidemment, pour faire des tests sur votre propre site, il faut qu'il soit bien indexé par Google.
-C'est aussi un moyen de tester son référencement...
+C'est aussi un moyen de tester son référencement.
 
 ----
 

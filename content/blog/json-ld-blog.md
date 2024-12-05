@@ -5,6 +5,7 @@ date: 2024-03-21
 lastMod: 2024-10-08
 categories: 
 - json
+- seo
 ---
 
 Les données structurées permettent de simplifier le travail des moteurs de recherche et d’améliorer la précision des informations fournies. Après quelques généralités, je vous dis ce que j’ai implémenté sur ce site généré avec Hugo.

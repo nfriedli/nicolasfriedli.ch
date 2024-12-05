@@ -2,6 +2,8 @@
 title: Améliorer son référencement local
 description: Donner des indices précis aux moteurs de recherche permet d’améliorer sa visiblité dans les résultats de recherche (SERP) et sur Google Maps. Indispensable pour valoriser les lieux!
 date: 2024-05-22
+categories:
+- seo
 ---
 
 Lorsque des pages web présentent des lieux patrimoniaux, des institutions, des entreprises et des commerces locaux, il vaut la peine d’aider les moteurs de recherche à les situer géographiquement. On parle alors de *référencement local* (local SEO) qui est une «sous-discipline» du référencement (SEO).
