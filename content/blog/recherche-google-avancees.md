@@ -10,7 +10,7 @@ Toutefois, quelques astuces permettent d’affiner ses recherches.
 
 La maîtrise des recherches est une compétence ~~utile~~ nécessaire pour effectuer une veille efficace.
 
-**Un conseil:** à chaque étape de cette page, faites des tests avec vos propres requêtes!
+**Un conseil:** à chaque étape de cette page, faites des tests avec vos propres requêtes! C'est en utilisant ces critères que vous en comprendrez vraiment l'utilité (et les mémoriserez).
 
 ## Documentation de Google
 
@@ -23,7 +23,7 @@ Par exemple:
 
 Si c’est toujours une bonne idée de lire les documentations officielles, je préfère vous donner rapidement les requêtes les plus utiles.
 
-Je signal qu’il existe un [formulaire de recherche avancée](https://www.google.ch/advanced_search), mais je n’aime pas l’utiliser.
+Je signale qu’il existe un [formulaire de recherche avancée](https://www.google.ch/advanced_search), mais je n’aime pas l’utiliser.
 Les requêtes textuelles me parlent plus qu’un formulaire.
 
 ## Opérateurs logiques
