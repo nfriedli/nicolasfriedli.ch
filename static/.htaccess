@@ -8,6 +8,11 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www. [NC]
 RewriteRule ^(.*)$ https://nicolasfriedli.ch/$1 [R=301,L]
 
+
+# Pour servir des fichiers précompressés en statique
+# https://drupal.stackexchange.com/questions/215639/how-to-modify-htaccess-to-serve-brotli-compressed-static-assets-over-gziped-one
+# La méthode fonctionne mais demande une intervention après la compilation par Hugo
+
 # https://securityheaders.com/
 Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 Header always set X-Content-Type-Options "nosniff"

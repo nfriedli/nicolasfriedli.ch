@@ -68,7 +68,7 @@ Et il n’est pas certain que tous les articles seront parfaitement à jour.
 
 La question que je me pose, c’est celle de l’**orientation fondamentale** de mon site ou de sa **ligne de conduite**.
 
-Mon billet sur les [pages sœurs, filles et mère](< relref "hugo-pages-soeurs-filles" >), utilisées dans d’autres contextes, me titille.
+Mon billet sur les [pages sœurs, filles et mère]({{< relref "hugo-pages-soeurs-filles" >}}), utilisées dans d’autres contextes, me titille.
 J’aimerais bien réussir à proposer des navigations contextuelles plus intéressantes que les seuls «articles en relation» de bas de page.
 
 ## Avantages et désavantages techniques

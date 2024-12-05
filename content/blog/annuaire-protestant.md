@@ -66,7 +66,7 @@ En JSON, cela se présente ainsi:
 
 Ensuite, une pondération de ces 3 taxonomies permet d’afficher une liste de suggestions, limitée à 5 sites. **Avec une telle méthode, j’espère faire émerger des propositions de mise en relations auxquelles je ne penserais pas spontanément.** Et j’espère aussi pouvoir classer beaucoup de sites sans m’égarer dans l’élaboration de menus complexes (et difficiles à maintenir).
 
-~~Tous les détails sont disponibles en permanence dans les [sources sur GitHub](https://github.com/nfriedli/theologique.ch).~~
+
 
 ## Faciliter le partage de liens
 
