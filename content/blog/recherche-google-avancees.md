@@ -187,6 +187,11 @@ C’est redoutablement efficace.
 
 ----
 
+Évidemment, pour faire des tests sur votre propre site, il faut qu'il soit bien indexé par Google.
+C'est aussi un moyen de tester son référencement...
+
+----
+
 Besoin de compléments?
 Problèmes à établir une requête précise?
 Souhait d’une formation?
