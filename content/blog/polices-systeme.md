@@ -249,7 +249,7 @@ La logique est:
 - puis on laisse le système se débrouiller
 
 En adoptant une telle démarche, on prend une posture de *suggestion de présentation*. J’en parle dans [Lire et relire les classiques du web
-]({{< relref "lire-classiques-web#sur-le-design-web" >}})
+]({{% relref "lire-classiques-web#sur-le-design-web" %}})
 
 ## En conclusion
 

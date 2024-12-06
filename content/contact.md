@@ -17,8 +17,8 @@ C’est toujours Nicolas Friedli qui réalise le travail: pas d’employé·e, p
 
 Pour en savoir plus:
 
-- [quelques éléments biographiques]({{< relref "bio" >}}) sur mon parcours
-- [à propos]({{< relref "about" >}}) sur les choix techniques de ce site
+- [quelques éléments biographiques]({{% relref "bio" %}}) sur mon parcours
+- [à propos]({{% relref "about" %}}) sur les choix techniques de ce site
 
 ## Coordonnées
 
@@ -37,6 +37,6 @@ IDE: CHE-469.715.163
 
 Je ne suis pas présent sur les réseaux sociaux Instagram, LinkedIn, Mastodon ou Twitter (X).
 Et j’ai une présence passive sur [Facebook](https://www.facebook.com/frdl.ch/).
-J’en dis quelques mots dans [Mes règles d’utilisation des réseaux sociaux]({{< relref "reseaux-sociaux-regles" >}}).
+J’en dis quelques mots dans [Mes règles d’utilisation des réseaux sociaux]({{% relref "reseaux-sociaux-regles" %}}).
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").

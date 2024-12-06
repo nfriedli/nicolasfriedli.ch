@@ -92,7 +92,7 @@ Je reprends ces lignes d’une note écrite il y a quelques années, parce que r
 - **La mise ne page côté client.**
   C’est le navigateur qui *esthétise* la page, et j’adore ça.
   Je souhaite que les internautes installent de bonnes polices sur leurs systèmes et configurent leurs navigateurs.
-  Le web aurait tout intérêt à utiliser un peu plus les [polices déjà installées]({{< relref "polices-systeme" >}}) sur les périphériques.
+  Le web aurait tout intérêt à utiliser un peu plus les [polices déjà installées]({{% relref "polices-systeme" %}}) sur les périphériques.
 - **Le retour du *vieux web*.**
   Après quelques tests de Gemini, je remarque combien il est perturbant de ne pas disposer de moteur de recherche.
   La navigation se fait de proche en proche; les favoris (*bookmarks*) reprennent tout leur sens.

@@ -27,7 +27,7 @@ Il n’y a pas de raison de les revoir à l’avenir, parce qu’ils ont été d
 Bien entendu, la correction de coquilles ou de liens est toujours possible.
 
 À mes yeux, le risque principal de ce type de publication est la cannibalisation des contenus.
-Je me vois mal publier 10 pages sur l’[optimisation des polices d’écriture]({{< relref "police-optimisee-titres" >}}) au fil du temps.
+Je me vois mal publier 10 pages sur l’[optimisation des polices d’écriture]({{% relref "police-optimisee-titres" %}}) au fil du temps.
 Si 9 billets sont dépassés, à quoi bon les conserver.
 
 Le message que donne un blog, c’est:
@@ -68,7 +68,7 @@ Et il n’est pas certain que tous les articles seront parfaitement à jour.
 
 La question que je me pose, c’est celle de l’**orientation fondamentale** de mon site ou de sa **ligne de conduite**.
 
-Mon billet sur les [pages sœurs, filles et mère]({{< relref "hugo-pages-soeurs-filles" >}}), utilisées dans d’autres contextes, me titille.
+Mon billet sur les [pages sœurs, filles et mère]({{% relref "hugo-pages-soeurs-filles" %}}), utilisées dans d’autres contextes, me titille.
 J’aimerais bien réussir à proposer des navigations contextuelles plus intéressantes que les seuls «articles en relation» de bas de page.
 
 ## Avantages et désavantages techniques

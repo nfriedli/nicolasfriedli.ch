@@ -10,7 +10,7 @@ categories:
 Mais il me paraît utile de formuler aussi les questions d’optimisation, de performance et d’éco-conception en langage naturel.
 
 Cette idée de langage humain m’est venue en consultant la documentation de [minify](https://github.com/tdewolff/minify).
-`minify` permet d’optimiser les pages produites par [Hugo]({{< relref "site-statique-generateur-hugo" >}}).
+`minify` permet d’optimiser les pages produites par [Hugo]({{% relref "site-statique-generateur-hugo" %}}).
 
 Dans chaque passage, je proposerai des citations qui devraient rendre le contenu de cette page à des internautes non techniques.
 
@@ -48,7 +48,7 @@ C’est un fichier gigantesque qui pose de vrais problèmes.
 Elle s’afficherait sans différence sensible en étant 500 fois plus légères.
 
 Quels que soient les efforts sur une telle page, tous est cassé par 1 fichier problématique.
-C’est pourquoi il faut toujours [tester régulièrement son site web]({{< relref "tester-site" >}}).
+C’est pourquoi il faut toujours [tester régulièrement son site web]({{% relref "tester-site" %}}).
 J’ai découvert l’horreur par un contrôle régulier avec [speedlify](https://www.speedlify.dev/) que je conseille.
 
 Donc, en français:
@@ -62,7 +62,7 @@ Dès lors, il faut se demander sérieusement ce qui est vraiment nécessaire.
 
 Le fichier qui coût le moins du point de vue de la performance est celui qui n’est pas hébergé sur un serveur, qui ne transite pas par le réseau et qui n’est pas interprété par le périphérique final.
 
-Avant d’utiliser une police d’écriture spécifique, je devrais me demander sur une [police disponible]({{< relref "polices-systeme" >}}) n’est pas suffisante.
+Avant d’utiliser une police d’écriture spécifique, je devrais me demander sur une [police disponible]({{% relref "polices-systeme" %}}) n’est pas suffisante.
 
 > Avant de passer à une phase d’optimisation, il vaut la peine de se poser la question de la nécessité des outils proposés.
 > Un fichier qui n’est pas envoyé n’a aucun coût écologique ou temporel.
@@ -72,7 +72,7 @@ Cette réflexion est valable pour les polices, pour les images, pour les encarts
 ## Optimiser avec efficacité
 
 Si j’estime qu’une police spécifique est nécessaire, alors j’essaierai de faire les choses dans les règles de l’art.
-J’en parle dans [Police optimisée pour les titres]({{< relref "police-optimisee-titres" >}}).
+J’en parle dans [Police optimisée pour les titres]({{% relref "police-optimisee-titres" %}}).
 
 Dès que l’on entre dans cette phase d’optimisation, on peut se prendre au jeu et essayer d’être le plus efficace possible.
 C’est de bonne guerre.
@@ -97,7 +97,7 @@ Et, finalement, du choix.
 ## S’amuser du snobisme
 
 Comme la performance web me passionne, je cherche à toujours obtenir le meilleur résultat possible.
-C’est pourquoi [ce site est hyper rapide]({{< relref "about" >}}).
+C’est pourquoi [ce site est hyper rapide]({{% relref "about" %}}).
 
 Mais, d’une certaine manière, utiliser une mise en page simpliste, renoncer aux images et ne pas utiliser de polices spécifiques est une forme de snobisme.
 Au fond, je m’enorgueillis d’obtenir des [résultats parfaits dans PageSpeed Insights](https://pagespeed.web.dev/analysis/https-nicolasfriedli-ch/zdziqsc5vj?form_factor=mobile).
@@ -107,7 +107,7 @@ C’est une forme de snobisme.
 > La compétition stimule la recherche.
 > Mais c’est rarement un objectif de la pratique réelle.
 
-J’ai effectué des [mandats dans des domaines très différents]({{< relref "bio" >}}).
+J’ai effectué des [mandats dans des domaines très différents]({{% relref "bio" %}}).
 Mais la constante est que le meilleur résultat à tout prix n’est pas leur première préoccupation.
 
 Ensemble, nous obtenons des produits raisonnablement optimisés parce que nous prenons le temps de discuter des enjeux de fond.
