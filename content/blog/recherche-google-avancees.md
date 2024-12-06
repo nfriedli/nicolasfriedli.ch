@@ -12,7 +12,7 @@ Toutefois, quelques astuces permettent d’affiner ses recherches.
 
 La maîtrise des recherches est une compétence ~~utile~~ nécessaire pour effectuer une veille efficace.
 
-**Un conseil:** à chaque étape de cette page, faites des tests avec vos propres requêtes! C'est en utilisant ces critères que vous en comprendrez vraiment l'utilité (et les mémoriserez).
+**Un conseil:** à chaque étape de cette page, faites des tests avec vos propres requêtes! C’est en utilisant ces critères que vous en comprendrez vraiment l’utilité (et les mémoriserez).
 
 ## Documentation de Google
 
@@ -189,8 +189,8 @@ C’est redoutablement efficace.
 
 ----
 
-Évidemment, pour faire des tests sur votre propre site, il faut qu'il soit bien indexé par Google.
-C'est aussi un moyen de tester son référencement.
+Évidemment, pour faire des tests sur votre propre site, il faut qu’il soit bien indexé par Google.
+C’est aussi un moyen de tester son référencement.
 
 ----
 

@@ -1,29 +1,13 @@
 :root {
-    --sans: Archivo, ui-sans-serif, Inter, Roboto, Arial, system-ui, sans-serif;
+    --sans: ui-sans-serif, Inter, Roboto, Arial, system-ui, sans-serif;
     --mono: ui-monospace, "Roboto Mono", "JetBrains Mono", Hack, Menlo, Consolas, monospace;
 }
 
 html {
     font-family: var(--sans);
-    font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 code,
 pre {
     font-family: var(--mono);
-    font-variant-ligatures: none;
-}
-
-code,
-pre,
-table {
-    font-variant-numeric: lining-nums tabular-nums;
-}
-
-a,
-h1,
-h2,
-h3,
-h4 {
-    font-variant-numeric: lining-nums proportional-nums;
 }

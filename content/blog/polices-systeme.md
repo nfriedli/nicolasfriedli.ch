@@ -2,7 +2,7 @@
 title: Utiliser des polices système
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2024-04-22
-lastMod: 2024-10-25
+lastMod: 2024-12-06
 categories:
 - a11y
 - performance
@@ -248,8 +248,7 @@ La logique est:
 - puis des propositions pour la majorité des Linux
 - puis on laisse le système se débrouiller
 
-En adoptant une telle démarche, on prend une posture de *suggestion de présentation*. J’en parle dans [Lire et relire les classiques du web
-]({{% relref "lire-classiques-web#sur-le-design-web" %}})
+En adoptant une telle démarche, on prend une posture de *suggestion de présentation*. J’en parle dans [Lire et relire les classiques du web]({{% relref "lire-classiques-web#sur-le-design-web" %}}).
 
 ## En conclusion
 
@@ -260,7 +259,7 @@ Sur ce site, j’utilise désormais:
 
 ```
 html {
-    font-family: ui-sans-serif, Roboto, system-ui, sans-serif;
+    font-family: ui-sans-serif, Inter, Roboto, Arial, system-ui, sans-serif;
 }
 
 code,
