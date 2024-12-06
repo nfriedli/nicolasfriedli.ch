@@ -57,6 +57,11 @@
     {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
+    <image>
+      <url>https://nicolasfriedli.ch/apple-touch-icon.png</url>
+      <title>{{ .Site.Title }}</title>
+      <link>{{ site.BaseURL }}</link>
+    </image>
     {{- range $pages }}
     <item>
       <title>{{ .Title }}</title>
