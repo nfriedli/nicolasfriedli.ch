@@ -27,7 +27,7 @@
 }
 
 /* 
-    à ajouter quand sera valide 
+    à ajouter quand sera valide (selon le validateur W3C)
     @view-transition {
         navigation: auto;
     }
@@ -76,6 +76,7 @@ h4 {
 
 h1 {
     font-size: 1.95em;
+    letter-spacing: -.02em;
 }
 
 h2 {
@@ -84,6 +85,7 @@ h2 {
 
 h3 {
     font-size: 1.25rem;
+    font-weight: 800;
 }
 
 h4 {

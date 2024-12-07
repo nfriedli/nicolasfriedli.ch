@@ -5,6 +5,8 @@
 
 html {
     font-family: var(--sans);
+    /* sans ligatures car letter-spacing manuel pour les titres */
+    font-variant-ligatures: none;
 }
 
 code,
