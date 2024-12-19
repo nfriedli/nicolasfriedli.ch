@@ -9,7 +9,7 @@ weight: 10
 Je suis consultant web indépendant à Neuchâtel. Pour valoriser les sites à fort contenu, je m’intéresse au référencement (SEO), à l’architecture d’information, à la performance et à l’accessibilité (A11Y).
 
 La formation continue est fondamentale.
-Je vous conseille mes 2 coups de cœur récents: [Practical Accessibility](https://practical-accessibility.today/) par Sara Soueidan et [Complete CSS](https://piccalil.li/complete-css/) par Andy Bell.
+Je vous conseille mes 2 coups de cœur récents: [Practical Accessibility](https://practical-accessibility.today/) par Sara Soueidan et [Complete CSS](https://piccalil.li/complete-css/) par Andy Bell.
 
 ## Dernières publications
 
