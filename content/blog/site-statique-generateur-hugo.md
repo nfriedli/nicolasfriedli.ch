@@ -61,7 +61,7 @@ Beaucoup d’outils permettent tout ou partie de ces opérations (et d’autres)
 
 - La **gestion du multilinguisme** est aboutie et disponible par défaut. C’est très important quand on travaille en Suisse.
 
-- Les **taxonomies** et les **relations entre les pages** sont très performantes. Notamment la notion de *related* que j’utilise par exemple dans mon projet d’[annuaire protestant en ligne](https://nicolasfriedli.ch/blog/annuaire-protestant/).
+- Les **taxonomies** et les **relations entre les pages** sont très performantes. Notamment la notion de *related* que j’utilise par exemple dans mon projet d’[annuaire protestant en ligne]({{% relref "annuaire-protestant" %}}).
 
 - La **conception monolithique** du logiciel fait que tout est inclus (*batteries included*). C’est parfois considéré comme une limitation, par rapport à un système modulaire (*plugins*), mais c’est un avantage dans la très grande majorité des cas.
 

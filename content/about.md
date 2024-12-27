@@ -39,3 +39,7 @@ Je teste régulièrement mon site pour m’assurer de toujours obtenir d’excel
 J’essaie de respecter toutes les [règles Opquast](https://checklists.opquast.com/fr/assurance-qualite-web/) applicables.
 
 Lorsque j’interviens sur des sites en tant que consultant, je recherche les mêmes standards de qualité.
+
+----
+
+Une version de secours de ce site est toujours disponible à l’adresse: https://nfriedli.github.io/nicolasfriedli.ch/

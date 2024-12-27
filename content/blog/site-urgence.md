@@ -87,3 +87,7 @@ Quand c’est nécessaire, le site officiel de la ville est basculé sur le site
 ----
 
 Je dispose d’une version [Hugo](https://gohugo.io/) du site d’urgence de Max Böck qui peut être déployée très rapidement.
+
+----
+
+Pour l’anecdote, une version de sauvegarde ce nicolasfriedli.ch est toujours disponible à l’adresse: https://nfriedli.github.io/nicolasfriedli.ch/
