@@ -11,8 +11,8 @@
     {{ partialCached "head/favicon" . }}
     
     <link rel="alternate" type="application/rss+xml" href="{{ relURL "index.xml" }}" title="{{ site.Title }}">
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ if not (hasPrefix .Permalink "https://nicolasfriedli.ch/") }}
+    <link rel="canonical" href="{{ site.Params.canonicalDomain}}{{ .RelPermalink }}">
+    {{ if not (hasPrefix .Permalink site.Params.canonicalDomain) }}
         <meta name="robots" content="noindex">
     {{ end }}
 
