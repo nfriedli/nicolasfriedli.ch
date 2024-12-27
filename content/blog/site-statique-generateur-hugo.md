@@ -2,6 +2,7 @@
 title: Site statique, générateur de site & Hugo
 description: Je vous dit pourquoi j’ai choisi Hugo parmi les générateurs de sites statiques. Mais aussi pourquoi les sites statiques sont pertinents aujourd’hui encore.
 date: 2024-03-16
+lastMod: 2024-12-27
 categories:
 - hugo
 - statique
@@ -27,7 +28,10 @@ Un site statique envoie au client **les contenus exacts qui existent déjà sur 
 
 - La **sécurité** d’un site statique est assurée. Il n’offre pas d’accès à une interface d’administration distante, il ne stocke pas de données, etc.
 
-- Finalement, un site statique est **portable**. Sa migration d’un serveur à un autre se résume à la copier de fichiers. En cas de problème, c’est une démarche facile et rapide; le temps étant proportionnel à la masse de données à copier.
+- Finalement, un site statique est **portable**. 
+Sa migration d’un serveur à un autre se résume à la copier de fichiers. 
+En cas de problème, c’est une démarche facile et rapide; le temps étant proportionnel à la masse de données à copier.
+Par exemple, ce site est automatiquement généré et accessible en tout temps ici: https://nfriedli.github.io/nicolasfriedli.ch/
 
 Mais avant de mettre son site sur un serveur, il faut le créer. Passons au point suivant.
 
@@ -67,7 +71,8 @@ Beaucoup d’outils permettent tout ou partie de ces opérations (et d’autres)
 
 - Hugo est **très rapide** à la compilation. Il y a débat pour savoir sur c’est le générateur le plus rapide, mais je m’en balance. Je sais qu’il me permet de travailler le code ou le contenu sur un écran et voir le résultat en temps réel sur mon second écran. C’est tout ce que je souhaite.
 
-- Il permet par défaut des **optimisations raisonnables** dans la minification des fichiers texte et le travail sur les images. Sans être forcément le plus performant, son rapport entre le résultat et l’investissement (en temps de compilation ou en complexité de développement) est excellent. C’est l’efficience.
+- Il permet par défaut des **optimisations raisonnables** dans la minification des fichiers texte et le travail sur les images. Sans être forcément le plus performant, son rapport entre le résultat et l’investissement (en temps de compilation ou en complexité de développement) est excellent. C’est l’efficience dont je parle dans [Philosophie d’optimisation raisonnable
+]({{% relref "optimisation-raisonnable" %}}).
 
 - Finalement, Hugo dispose d’une **bonne communauté**, tant du point de vue de la quantité d’informations disponibles que de la qualité des rapports entre personnes.
 

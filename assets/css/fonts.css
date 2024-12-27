@@ -1,11 +1,10 @@
 :root {
-    --sans: ui-sans-serif, Inter, Roboto, Arial, system-ui, sans-serif;
-    --mono: ui-monospace, "Roboto Mono", "JetBrains Mono", Hack, Menlo, Consolas, monospace;
+    --sans: Roboto, ui-sans-serif, Inter, Arial, system-ui, sans-serif;
+    --mono: "Roboto Mono", ui-monospace, "JetBrains Mono", Hack, Menlo, Consolas, monospace;
 }
 
 html {
     font-family: var(--sans);
-    /* sans ligatures car letter-spacing manuel pour les titres */
     font-variant-ligatures: none;
 }
 
