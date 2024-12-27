@@ -36,7 +36,8 @@
 html {
     background: var(--background);
     color: var(--text);
-    font-size: clamp(1rem, 0.8828rem + 0.3125vw, 1.125rem);
+    /* @link https://utopia.fyi/type/calculator?c=600,16,1.2,1240,19,1.25,0,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    font-size: clamp(1rem, 0.8242rem + 0.4688vw, 1.1875rem);
     line-height: 1.5;
     margin: 0;
     padding: 1rem;
