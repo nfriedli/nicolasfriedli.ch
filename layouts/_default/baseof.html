@@ -11,7 +11,10 @@
     {{ partialCached "head/favicon" . }}
     
     <link rel="alternate" type="application/rss+xml" href="/index.xml" title="{{ site.Title }}">
-    <link rel="canonical" href="{{.Permalink}}">    
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if not (hasPrefix .Permalink "https://nicolasfriedli.ch/") }}
+        <meta name="robots" content="noindex">
+    {{ end }}
 
     {{ if .IsHome }}
         {{ hugo.Generator }}
