@@ -6,10 +6,6 @@
     --contrast: orange;
 }
 
-::marker {
-    font-weight: 700;
-}
-
 ::selection {
     background: var(--contrast);
     color: var(--text);
