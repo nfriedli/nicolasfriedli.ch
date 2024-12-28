@@ -34,7 +34,7 @@ html {
     color: var(--text);
     /* @link https://utopia.fyi/type/calculator?c=600,16,1.2,1240,19,1.25,0,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
     font-size: clamp(1rem, 0.8242rem + 0.4688vw, 1.1875rem);
-    line-height: 1.5;
+    line-height: 1.55;
     margin: 0;
     padding: 1rem;
     text-wrap: pretty;
@@ -43,7 +43,7 @@ html {
 body {
     margin-block: 0;
     margin-inline: auto;
-    max-width: 66ch;
+    max-width: 70ch;
 }
 
 main {
