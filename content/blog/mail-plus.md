@@ -8,7 +8,7 @@ L’utilisation du signe `+` (plus) dans une adresse de messagerie permet de cr�
 C’est intéressant pour la détection des fuites de données et le filtrage avancé de sa boîte de réception.
 Mais cette méthode a aussi ses limites.
 
-## Caractères autorités (et interdits)
+## Caractères autorisés (et interdits)
 
 La constitution d’une adresse mail répond à la fois à des normes et aux critères adoptés par son hébergeur.
 Les hébergeurs peuvent être plus restrictifs que les règles définies par l’IETF (Internet Engineering Task Force).
