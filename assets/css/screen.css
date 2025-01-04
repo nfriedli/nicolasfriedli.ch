@@ -103,7 +103,8 @@ blockquote em {
 
 :not(pre)>code {
     background: var(--light);
-    padding: .1em
+    font-size: .9em;
+    padding-inline: .2em;
 }
 
 pre {
