@@ -64,4 +64,4 @@ puis, interaction suivante:
 
 Lorsque j’avais encore des commentaires sur des sites, c’était avant tout pour flatter mon propre *ego*. Mais plus pour apprendre quelque chose ou relancer ma réflexion.
 
-Si vous avez quelque chose à me dire, mon adresse est disponible sur ma page de contact. Et si votre messagerie est correctement configurée, il suffit de cliquer sur [Répondre par mail](mailto:hello+2024@nicolasfriedli.ch?subject=Re%3A%20Sans%20commentaire!) pour avoir un message au titre déjà rédigé.
+Si vous avez quelque chose à me dire, mon adresse est disponible sur ma page de contact. Et si votre messagerie est correctement configurée, il suffit de cliquer sur [Répondre par mail](mailto:hello+2025@nicolasfriedli.ch?subject=Re%3A%20Sans%20commentaire!) pour avoir un message au titre déjà rédigé.
