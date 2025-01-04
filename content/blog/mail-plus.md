@@ -14,9 +14,9 @@ La constitution d’une adresse mail répond à la fois à des normes et aux cri
 Les hébergeurs peuvent être plus restrictifs que les règles définies par l’IETF (Internet Engineering Task Force).
 
 La page Wikipédia sur les adresses de messagerie (en anglais) donne une excellente [liste d’exemples d’adresse valides et invalides](https://en.wikipedia.org/wiki/Email_address#Examples).
-La validité ce ces adresses est celle des normes dans les [RFC (Request for comments)](https://fr.wikipedia.org/wiki/Request_for_comments) de l’IETF.
+La validité de ces adresses est celle des normes dans les [RFC (Request for comments)](https://fr.wikipedia.org/wiki/Request_for_comments) de l’IETF.
 
-Ensuite, votre hébergeur peur restreinte ces choix.
+Ensuite, votre hébergeur peut restreindre ces choix.
 Par exemple, Infomaniak, l’excellent hébergeur de ce site: [Découvrir les caractères admis pour une adresse mail](https://www.infomaniak.com/fr/support/faq/438/decouvrir-les-caracteres-admis-pour-une-adresse-mail).
 
 Pour moi, une adresse bien pensée est constituée uniquement de:
@@ -93,7 +93,7 @@ Donc, pour les lettres de nouvelles la commune de Pétaouchnok:
 nicolas.friedli+petaouchnok@gmail.com
 ```
 
-Désormais, si je reçois un spam à cette adresse, je sais que la fuite de données provient de la commune Pétauchnok.
+Désormais, si je reçois un spam à cette adresse, je sais que la fuite de données provient de la commune Pétaouchnok.
 Peut-être qu’elle a donné mon adresse à des tiers (contrairement à sa promesse de ne pas le faire).
 Peut-être que son serveur a été piraté.
 
@@ -106,6 +106,7 @@ Si je recouvre confiance en cette commune, je peux toujours me risquer à un ré
 ```
 nicolas.friedli+le.retour.de.petaouchnok@gmail.com
 ```
+
 Mais je peux aussi utiliser d’autres alias utiles.
 Par exemple, pour déplacer automatiquement dans un répertoire donné:
 
@@ -181,7 +182,7 @@ Vous pouvez voir le résultat dans dans [regexr.com](https://regexr.com/8an1s).
 
 ### Adresse confidentielle
 
-Avec un alias classique, il est possible de créer un mail difficile à deviner, qui sera détruit une fois devenu inutile. 
+Avec un alias classique, il est possible de créer un mail difficile à deviner, qui sera détruit une fois devenu inutile.
 Par exemple:
 
 ```
@@ -189,6 +190,8 @@ duiasdiopbljkwaeuibg@frdl.ch
 ``` 
 Exemple d’utilisation: cette adresse renvoie le message initial à 20 personnes d’un groupe.
 Je n’ai pas besoin de connaître les mails des membres pour leur envoyer un mail.
+
+Et si cette adresse est rendue publique, par exemple pour un sondage, elle ne trahira pas l’identité de la personne responsable.
 
 Avec les adresses en `+`, l’adresse originale est toujours dévoilée!
 
