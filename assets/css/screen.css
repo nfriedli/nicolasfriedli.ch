@@ -2,6 +2,7 @@
     color-scheme: light dark;
 
     --background: #F8F8F8;
+    --light: #DDD;
     --text: #222;
     --contrast: orange;
 }
@@ -15,6 +16,7 @@
     :root {
         --background: #000;
         --text: #DDD;
+        --light: #222;
     }
 
     ::selection {
@@ -100,8 +102,7 @@ blockquote em {
 }
 
 :not(pre)>code {
-    border: 1px dotted;
-    font-size: .9em;
+    background: var(--light);
     padding: .1em
 }
 
