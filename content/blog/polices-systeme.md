@@ -2,7 +2,7 @@
 title: Utiliser des polices système
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2024-04-22
-lastMod: 2025-01-04
+lastMod: 2025-01-05
 categories:
 - a11y
 - performance
@@ -255,9 +255,7 @@ En adoptant une telle démarche, on prend une posture de *suggestion de présent
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman.
 Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`), je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
-Sur ce site, pour avoir une cohérence maximale en police sans empattement et police à chasse fixe, je charge Roboto et Roboto Mono.
-Comme il y a du code dans le texte (et notamment dans les intertitres), cela me paraît important.
-Pour un site qui ne serait que textuel, sans police à chasse fixe, ce serait inutile.
+Sur ce site, malgré l'utilisation de chasse fixe (code) dans le texte, je renonce à l'idée d'envoyer des polices.
 
 Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`fonts.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/fonts.css).
 

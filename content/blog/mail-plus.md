@@ -2,6 +2,7 @@
 title: Adresses mail avec le signe + (plus)
 description: L’utilisation du site + (plus) dans une adresse de messagerie permet de créer instantanément un nombre illimité d’alias, de détecter des fuites de données et de filtrer ses messages avec efficacité.
 date: 2025-01-04
+lastMod: 2025-01-05
 ---
 
 L’utilisation du signe `+` (plus) dans une adresse de messagerie permet de créer un nombre illimité d’alias.
@@ -180,20 +181,26 @@ En français:
 
 Vous pouvez voir le résultat dans dans [regexr.com](https://regexr.com/8an1s).
 
-### Adresse confidentielle
+### Adresse temporaire
 
-Avec un alias classique, il est possible de créer un mail difficile à deviner, qui sera détruit une fois devenu inutile.
-Par exemple:
+Avec un alias classique, il est possible de créer un mail temporaire, qui sera détruit une fois devenu inutile.
+Par exemple, pour envoyer des sa candidature à un emploi précis:
 
 ```
-duiasdiopbljkwaeuibg@frdl.ch
+postulation237@frdl.ch
 ``` 
-Exemple d’utilisation: cette adresse renvoie le message initial à 20 personnes d’un groupe.
-Je n’ai pas besoin de connaître les mails des membres pour leur envoyer un mail.
+Une fois le délai passé cet alias est détruit.
 
-Et si cette adresse est rendue publique, par exemple pour un sondage, elle ne trahira pas l’identité de la personne responsable.
+Alors que qu’avec les adresses en `+`, l’adresse originale est toujours dévoilée.
+Pour un même type d’usage:
 
-Avec les adresses en `+`, l’adresse originale est toujours dévoilée!
+```
+rh+postulation237@frdl.ch 
+```
+D’une part l’adresse d’origine est dévoilée (`rh@frdl.ch`), d’autre part l’alias n’est pas désactivable une fois le délai passé et tous les messages envoyés à cette adresse arriveront bien dans la boîte des ressources humaines.
+
+Un alias classique permet aussi d’anonymiser l’adresse de destination.
+Personne ne pourra savoir où atterit l’adresse `qwertz@frdl.ch`, alors que `prenom.nom+qwertz@frdl.ch` dévoile sa destination.
 
 ## Note sur les adresses Gmail
 
