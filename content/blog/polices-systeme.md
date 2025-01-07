@@ -255,7 +255,7 @@ En adoptant une telle démarche, on prend une posture de *suggestion de présent
 Il existe aujourd’hui d’autres manières de concilier écologie, esthétique et performance qu’en utilisant des polices dites «web safe» comme Arial et Times New Roman.
 Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme `system-ui`), je pense qu’il n’est vraiment pas nécessaire d’envoyer systématiquement des fichiers à chaque internaute.
 
-Sur ce site, malgré l'utilisation de chasse fixe (code) dans le texte, je renonce à l'idée d'envoyer des polices.
+Sur ce site, malgré l’utilisation de chasse fixe (code) dans le texte, je renonce à l’idée d’envoyer des polices.
 
 Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`fonts.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/fonts.css).
 

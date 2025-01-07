@@ -2,7 +2,7 @@
 title: Adresses mail avec le signe + (plus)
 description: L’utilisation du site + (plus) dans une adresse de messagerie permet de créer instantanément un nombre illimité d’alias, de détecter des fuites de données et de filtrer ses messages avec efficacité.
 date: 2025-01-04
-lastMod: 2025-01-05
+lastMod: 2025-01-07
 ---
 
 L’utilisation du signe `+` (plus) dans une adresse de messagerie permet de créer un nombre illimité d’alias.
@@ -223,3 +223,15 @@ Et, bien entendu: Gmail permet l’utilisation des adresses en `+`.
 
 Je reçois volontiers un message avec vos cas d’utilisation intéressants.
 Le mail en `+` se trouve en pied de page.
+
+----
+
+## Antispam
+
+[Matthieu Amiguet](https://matthieuamiguet.ch/) me signale à juste titre que pour lutter sérieusement contre le spam, il est bien utiliser un service dédié.
+Par exemple [spamgourmet](https://www.spamgourmet.com/) qui permet de créer une adresse unique qui se détruit automatiquement après avoir mangé assez de messages.
+
+Il existe aussi l’idée de l’adresse jetable, qui cache complètement votre mail, quand vous vous abonnez à des newsletters dans des lecteurs de flux RSS en ligne.
+C’est le cas chez Inoreader, Feedbin et Feedly (au moins).
+
+Pour d’autres services, lancez une [recherche Google]({{% relref "recherche-google-avancees" %}}) (ou autre) sur `mail jetable` ou `adresse mail unique`.
