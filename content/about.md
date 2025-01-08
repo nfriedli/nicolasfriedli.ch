@@ -12,7 +12,7 @@ nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un g
 Le site actuellement en ligne a été compilé avec la version {{< version >}}.
 
 Ses sources sont disponibles dans un [dépôt GitHub public](https://github.com/nfriedli/nicolasfriedli.ch/).
-Elles permettent de voir le contenu des pages avant compilation (*markdown*), la configuration d’Hugo et de suivre l’ensemble des évolutions.
+Elles permettent de voir le contenu des pages avant compilation (Markdown), la configuration d’Hugo et de suivre l’ensemble des évolutions.
 
 Son contenu est sous licence libre Creative Commons BY-SA.
 Vous pouvez utiliser des extraits de code sans me citer, à condition de ne pas faire de votre site une copie du mien.
