@@ -18,7 +18,7 @@ Une lecture préalable  de [Syntax highlighting](https://gohugo.io/content-manag
 ## Contraste des couleurs
 
 J’ai passé [tous les thèmes disponibles dans Chroma](https://xyproto.github.io/splash/docs/longer/all.html) dans les [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/report#/https://xyproto.github.io/splash/docs/longer/all.html).
-Ceux qui passent disposent d’un contraste suffisant pour être accessibles sont:
+Ceux qui disposent d’un contraste suffisant pour être accessibles sont:
 
 - average
 - borland
@@ -46,7 +46,7 @@ Par défaut, ces thèmes ne sont pas assez pérennes pour que je les retiennent:
 - onesenterprise
 - pygments
 
-Par rapport à la liste des thèmes accessibles, seul pygments est concerné.
+Par rapport à la liste des thèmes accessibles, seul *pygments* est concerné.
 Je l’élimine.
 
 Il me reste donc comme thèmes accessibles et pérennes:
@@ -72,7 +72,7 @@ J’ai décidé de placer en priorité Roboto Mono comme police à chasse fixe (
 Mais si cette police est bien à largeur fixe, elle diffère légèrement entre version droite et version italique.
 **C’est à mon avis une erreur!**
 
-En conséquence, je refuse tous les thèmes qui comprennent des italiques, par exemple abap ou algol.
+En conséquence, je refuse tous les thèmes qui comprennent des italiques, par exemple *abap* ou *algol*.
 
 Il me reste, de la liste précédente:
 
