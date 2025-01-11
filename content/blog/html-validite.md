@@ -57,7 +57,7 @@ Tolérance bienvenue, mais
 
 Pour reprendre Tim Berners-Lee:
 
-> Le principe de tolérance n'est pas une excuse pour contrevenir aux normes.
+> Le principe de tolérance n’est pas une excuse pour contrevenir aux normes.
 
 Les éditeurs comme celui de WordPress ou le Markdown sont moyens, mais des outils existent.
 
