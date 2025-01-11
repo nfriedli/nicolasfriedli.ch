@@ -1,6 +1,6 @@
 ---
 title: Colorisation syntaxique avec Chroma dans Hugo
-description: La colorisation syntaxique facilite la lecture du code. Notes sur l’utilisation de Chroma pour optimiser les CSS et l’accessibilité (A11). 
+description: La colorisation syntaxique facilite la lecture du code. Notes sur l’utilisation de Chroma pour optimiser les CSS et l’accessibilité (A11Y). 
 date: 2025-01-11
 categories:
 - a11y
