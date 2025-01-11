@@ -9,7 +9,7 @@ categories:
 ---
 
 Je souhaite utiliser la colorisation syntaxique sur ce site. Elle existe par défaut dans Hugo, avec l’excellent Chroma.
-Mais je ne vais pas le faire sans certaines précautions: la pérennité si je modifie mon thème, l’assurance de l’accessibilité (A11Y), l’existence de versions claire et sombre et l’optimisation des perfomances (webperf).
+Mais je ne vais pas le faire sans certaines précautions: la pérennité (si je modifie mon thème), l’assurance de l’accessibilité (A11Y), l’existence de versions claire et sombre et l’optimisation des performances (webperf).
 
 **Remarque:** pour le moment, rien n’est activé sur ce site qui présente le code en blanc sur noir (ou noir sur blanc).
 
@@ -39,7 +39,7 @@ J’exclus tous ceux qui ne sont pas accessibles (A11Y) par défaut.
 ## Couleur de fond définie
 
 Quand la couleur de fond de `pre` n’est pas définie, il y a un risque si je modifie ma charte de couleurs.
-Par défaut, ces thèmes ne sont pas assez pérennes pour que je les retiennent:
+Par défaut, ces thèmes ne sont pas assez pérennes pour que je les retienne:
 
 - hr_high_contrast
 - hrdark
@@ -139,7 +139,7 @@ Ensuite, un appel distinct selon que le thème est clair ou foncé:
 
 Quand j’utilise du code sans préciser un langage pour la colorisation syntaxique, je souhaite avoir exactement les mêmes couleurs qu’avec la colorisation activée.
 
-Donc, dans mon exemple, il faudrait aller chercher les codes couleurs exacts des CSS générés et les appliquer à `pre`.
+Donc, dans mon exemple, il faudrait aller chercher les codes couleur exacts des CSS générés et les appliquer à `pre`.
 Pour du code différent entre dark et light lorsque la colorisation n’est pas activée, quelque chose comme:
 
 ```
@@ -157,7 +157,7 @@ pre {
 ## Validité et optimisation du CSS
 
 La feuille de style générée avec `hugo gen chromastyle` est complète et commentée.
-Et c’est très bien ainsi, par exemple pour faciliter sa modification (sujet que je ne traite pas ici).
+Et c’est très bien ainsi pour faciliter sa modification (sujet que je ne traite pas ici).
 
 Le fichier `modus-operandi.css`:
 
@@ -310,7 +310,7 @@ Nous aurions donc:
 /* CommentPreprocFile */ .chroma .cpf { color:#505050 }
 ```
 
-Mais comme la même couleur est souvent utilisée, on peut valoir la peine de restruturer la feuille de style avec un outil comme [CSSO](https://css.github.io/csso/csso.html).
+Mais comme la même couleur est souvent utilisée, on peut valoir la peine de restructurer la feuille de style avec un outil comme [CSSO](https://css.github.io/csso/csso.html).
 
 En version bien mise en page:
 
