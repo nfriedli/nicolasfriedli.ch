@@ -2,7 +2,7 @@
 title: Contact
 description: Me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque.
 menu: main
-weight: 40
+weight: 50
 ---
 
 Toutes les informations utiles pour me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque sur ce site.

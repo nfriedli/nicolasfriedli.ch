@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 <hr>
-<aside>
+<aside data-pagefind-ignore>
     <p>Dans la même thématique:</p>
     <ul>
 	{{ range . }}
