@@ -1,5 +1,5 @@
 :root {
-    color-scheme: light dark;
+    color-scheme: light;
 
     --background: #F8F8F8;
     --light: #DDD;
@@ -12,6 +12,7 @@
     color: var(--text);
 }
 
+/* désactivé: problème avec PageFind
 @media (prefers-color-scheme:dark) {
     :root {
         --background: #000;
@@ -23,12 +24,12 @@
         color: var(--background);
     }
 }
+*/
 
-/* 
-    à ajouter quand sera valide (selon le validateur W3C)
-    @view-transition {
-        navigation: auto;
-    }
+/* Pas encore valide W3
+@view-transition {
+    navigation: auto;
+}
 */
 
 html {
