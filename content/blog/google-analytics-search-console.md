@@ -94,3 +94,66 @@ J’en souris en attendant que cela change.
 Parce qu’une utilisation conséquente des données combinées des statistiques et de Search Console produit des résultats.
 Ils sont presque assurés si l’on travaille avec rigueur.
 Et surtout ils sont pérennes, contrairement aux [pics de visites obtenus via les réseaux sociaux](https://blog.jim-nielsen.com/2024/blog-vs-social-posts/).
+
+{{% comment %}}
+
+Esquisse par ChatGPT.
+
+# Version FALC
+
+Si votre site marche bien, **Search Console** de Google est plus utile que **Google Analytics**.  
+On peut utiliser les deux en même temps.  
+
+Aujourd’hui, j’utilise un outil appelé **Plausible Analytics**, qui respecte la vie privée.  
+Mais l’idée reste la même.  
+
+## Quand un site débute  
+Quand on crée un site, on installe un outil pour suivre les visiteurs.  
+Le plus utilisé est **Google Analytics**.  
+
+Pour les petits sites, ces statistiques ne servent presque jamais.  
+Parfois, personne ne regarde les résultats.  
+
+Avec Analytics, on peut voir :  
+- Les pages les plus visitées,  
+- D’où viennent les visiteurs,  
+- S’ils utilisent un ordinateur ou un téléphone.  
+
+Ces infos montrent si le site marche :  
+- Une publication attire des visiteurs.  
+- Un partage sur les réseaux sociaux fonctionne.  
+- Un lien dans une newsletter intéresse les gens.  
+
+Mais pour les petits sites, **Google Analytics** est souvent un gadget.  
+On regarde les chiffres une fois par an, et c’est tout.  
+
+## Quand un site marche bien  
+Quand un site a beaucoup de visiteurs grâce aux moteurs de recherche, il vaut mieux utiliser **Search Console**.  
+
+*Search Console* est différent.  
+Il montre ce que les gens cherchent pour arriver sur le site.  
+- Quels mots tapent-ils dans Google ?  
+- Ces recherches mènent-elles à des clics ?  
+
+Ces infos permettent d’améliorer le site :  
+- Si une page apparaît souvent, mais qu’il y a peu de clics, le titre ou la description ne sont pas assez attirants.  
+- Si une page est mal placée dans les résultats, peu de gens la voient.  
+
+Ces données aident à comprendre ce que les visiteurs cherchent.  
+Elles donnent des idées pour créer de nouveaux contenus ou améliorer les pages existantes.  
+
+## Utiliser les statistiques et Search Console  
+En combinant les deux outils, on obtient de bons résultats :  
+- Les **statistiques** montrent si les visiteurs aiment les pages améliorées.  
+- **Search Console** montre si le site apparaît mieux dans Google et si les clics augmentent.  
+
+Le problème, c’est que les entreprises pensent souvent savoir mieux que Google ce qu’il faut mettre sur leur site.  
+Elles se concentrent sur le design et les images au lieu de travailler sur :  
+- Les textes,  
+- La structure,  
+- Les liens entre les pages.  
+
+Mais en utilisant bien **Search Console** et les statistiques, on peut vraiment améliorer un site.  
+Cela donne des résultats sûrs et durables, bien plus efficaces que des pics de visites sur les réseaux sociaux.  
+
+{{% /comment %}}
