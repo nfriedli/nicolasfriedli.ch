@@ -1,3 +1,4 @@
+{{/*
 {{ $fonts   := resources.Get "css/fonts.css"    | minify | fingerprint }}
 {{ $screen  := resources.Get "css/screen.css"   | minify | fingerprint }}
 {{ $print   := resources.Get "css/print.css"    | minify | fingerprint }}
@@ -5,9 +6,9 @@
 <link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}" >
 <link rel="stylesheet" href="{{ $screen.RelPermalink }}" integrity="{{ $screen.Data.Integrity }}" media="screen" >
 <link rel="stylesheet" href="{{ $print.RelPermalink }}" integrity="{{ $print.Data.Integrity }}" media="print" >
+*/}}
 
 
-{{/*
     
 {{ $fonts := resources.Get "css/fonts.css" }}
 {{ $screen := resources.Get "css/screen.css" }}
@@ -16,5 +17,3 @@
 <style>{{ $fonts.Content | safeCSS }}</style>
 <style media="screen">{{ $screen.Content | safeCSS }}</style>
 <style media="print">{{ $print.Content | safeCSS }}</style>
-
-*/}}
