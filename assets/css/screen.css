@@ -47,6 +47,7 @@ body {
     margin-block: 0;
     margin-inline: auto;
     max-width: 70ch;
+    min-height: 100vh;
 }
 
 main {
@@ -157,4 +158,6 @@ hr {
 
 img.qr {
     image-rendering: pixelated;
+    max-width: 100%;
+    height: auto;
 }
