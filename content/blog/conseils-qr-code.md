@@ -2,7 +2,7 @@
 title: Conseils d’utilisation des QR codes
 description: Les personnes qui proposent des QR codes peuvent aider à les rendre sûrs et fiables. Toute la responsabilité ne repose pas seulement sur les utilisateurs et utilisatrices.
 date: 2024-02-14
-lastMod: 2024-07-29
+lastMod: 2025-01-16
 ---
 
 Les arnaques aux QR codes semblent se multiplier. Les médias généralistes en parlent et donnent quelques conseils, souvent aux utilisateurs et utilisatrices (par exemple: [Les arnaques aux QR codes se multiplient depuis quelques mois](https://www.rts.ch/info/sciences-tech/14581852-les-arnaques-aux-qr-codes-se-multiplient-depuis-quelques-mois.html)). Pourtant, j’estime que **l’effort de sécurisation et de fiabilité doit aussi être fait du côté des personnes qui créent les codes**.
@@ -96,3 +96,15 @@ D’un point de vue technique, je pense que toutes les URL courtes (sur son nom 
 ----
 
 **Ajout du 29 juillet 2024.** Dans son billet [QR Code Hijacking Attempts Are Pretty Inept](https://shkspr.mobi/blog/2024/07/qr-code-hijacking-attempts-are-pretty-inept/), Terence Eden montre quelques exemples de fraudes, puis insiste sur une URL officielle. On ne le dira jamais assez: votre nom de domaine est capital.
+
+----
+
+**Ajout du 16 janvier 2024.** À partir de sa version 0.141.0, le générateur de sites statiques Hugo (utilisé ici) permet de créer des codes à la volée. Si je veux créer un code avec l’adresse de mon site, je tape quelque chose comme:
+
+```
+{{</* qr text="https://nicolasfriedli.ch" /*/>}}
+```
+
+Sans passer par un service tiers, j’obtiens une image légère, hébergée sur mon propre site et pérenne:
+
+{{< qr text="https://nicolasfriedli.ch" level="high" scale=4 targetDir="images/qr" class="qr" alt="QR code avec l’adresse du site de Nicolas Friedli" />}}

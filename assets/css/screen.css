@@ -154,3 +154,7 @@ hr {
     border: .2ex solid;
     margin-inline-end: 75%;
 }
+
+img.qr {
+    image-rendering: pixelated;
+}
