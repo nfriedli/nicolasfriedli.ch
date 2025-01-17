@@ -3,8 +3,7 @@
 }}
 
 <footer>
-    <p>Abonnement: <a href="{{ relURL "index.xml" }}">flux RSS</a>. Commentaires: <a href="mailto:hello+2025@nicolasfriedli.ch">hello+2025@nicolasfriedli.ch</a>. Licence: Creative Commons BY-SA.</p>
-    <p>Ce QR code permet de proposer un lien direct vers cette page dans vos imprimés:</p>
+    <p>Abonnement: <a href="{{ relURL "index.xml" }}">flux RSS</a>. Commentaires: <a href="mailto:hello+2025@nicolasfriedli.ch">hello+2025@nicolasfriedli.ch</a>. Licence: Creative Commons BY-SA. Le QR code permet de proposer un lien direct vers cette page dans vos imprimés.</p>
     
     {{ with images.QR .Permalink $opts }}
     <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="QR code de lien vers cette page" loading="lazy" decoding="async" class="qr">

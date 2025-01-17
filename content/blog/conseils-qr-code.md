@@ -105,6 +105,4 @@ D’un point de vue technique, je pense que toutes les URL courtes (sur son nom 
 {{</* qr text="https://nicolasfriedli.ch" /*/>}}
 ```
 
-Sans passer par un service tiers, j’obtiens une image légère, hébergée sur mon propre site et pérenne:
-
-{{< qr text="https://nicolasfriedli.ch" level="high" scale=4 targetDir="images/qr" class="qr" alt="QR code avec l’adresse du site de Nicolas Friedli" />}}
+Sans passer par un service tiers, j’obtiens une image légère, hébergée sur mon propre site et pérenne, à l’exemple des permaliens de bas de page.
