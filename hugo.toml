@@ -40,7 +40,6 @@ keepWhitespace = true
 
 [params]
 images = ["/images/opengraph.jpg"]
-canonicalDomain = "https://nicolasfriedli.ch"
 
 [params.author]
 name = "Nicolas Friedli"
