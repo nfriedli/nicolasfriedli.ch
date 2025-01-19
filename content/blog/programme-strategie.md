@@ -119,7 +119,7 @@ Certaines semblent inévitables, d’autres plus futiles.
 Il y a quelques années, il fallait absolument son application.
 On constate aujourd’hui qu’il y a bien peu de raisons d’en développer une.
 
-Aujourd’hui, nous sommes en plein les questions d’intelligence artificielle.
+Aujourd’hui, nous sommes en plein dans les questions d’intelligence artificielle.
 Qui l’aurait imaginé il y a quelques années?
 Une vision stratégique consiste à se fixer de grandes lignes: nous acceptons d’utiliser des technologies tierces si elles apportent un plus fort taux de lecture et nous gardons un site web comme base arrière solide et pérenne.
 Une vision programmatique demanderait plutôt la mise à jour de l’application qui avait coûté si cher et que l’on ne peut pas abandonner (mais que personne n’installe).
@@ -130,7 +130,7 @@ Une visite entre les tombes de [Killed by Google](https://killedbygoogle.com/) e
 
 ### Dépendance et indépendance
 
-Vos publications ont un certain succès, mais reposent entièrement un réseau social ou un média que vous ne contrôlez pas.
+Vos publications ont un certain succès, mais reposent entièrement sur un réseau social ou un média que vous ne contrôlez pas.
 Vous acceptez de dépendre à 100% de ces plateformes.
 Mais vous ne vous rendez plus compte que tout peut tomber d’un jour à l’autre.
 Ou que des services comme ~~Twitter~~ X ou Facebook peuvent partir complètement en vrille.
