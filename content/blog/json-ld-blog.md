@@ -140,8 +140,7 @@ Pour mon blog, j’ai essayé de créer un JSON un peu plus complet:
         "url": "https://nicolasfriedli.ch/",
         "sameAs": [
             "https://github.com/nfriedli/",
-            "https://keybase.io/nicolasfriedli",
-            "https://www.facebook.com/frdl.ch/"
+            "https://keybase.io/nicolasfriedli"
         ],
         "nationality": "Suisse",
         "alumniOf": {

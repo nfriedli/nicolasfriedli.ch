@@ -43,6 +43,8 @@ C’est facile, clair, et ça fonctionne dans la durée:
 
 ## Mes bonnes pratiques
 
+**Je n’ai plus d’activité sur les réseaux sociaux.**
+
 Désormais, à titre personnel, j’adopte les pratiques suivantes:
 
 1. Je partage des liens, donc des contenus disponibles ailleurs sur le web.
