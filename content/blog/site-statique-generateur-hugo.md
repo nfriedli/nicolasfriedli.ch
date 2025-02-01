@@ -31,7 +31,6 @@ Un site statique envoie au client **les contenus exacts qui existent déjà sur 
 - Finalement, un site statique est **portable**. 
 Sa migration d’un serveur à un autre se résume à la copier de fichiers. 
 En cas de problème, c’est une démarche facile et rapide; le temps étant proportionnel à la masse de données à copier.
-Par exemple, ce site est automatiquement généré et accessible en tout temps ici: https://nfriedli.github.io/nicolasfriedli.ch/
 
 Mais avant de mettre son site sur un serveur, il faut le créer. Passons au point suivant.
 

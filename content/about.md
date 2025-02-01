@@ -40,6 +40,3 @@ J’essaie de respecter toutes les [règles Opquast](https://checklists.opquast.
 
 Lorsque j’interviens sur des sites en tant que consultant, je recherche les mêmes standards de qualité.
 
-----
-
-Une version de secours de ce site est toujours disponible à l’adresse: https://nfriedli.github.io/nicolasfriedli.ch/
