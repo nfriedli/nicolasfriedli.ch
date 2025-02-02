@@ -228,7 +228,7 @@ Le mail en `+` se trouve en pied de page.
 
 ## Antispam
 
-[Matthieu Amiguet](https://matthieuamiguet.ch/) me signale à juste titre que pour lutter sérieusement contre le spam, il est bien d'utiliser un service dédié.
+[Matthieu Amiguet](https://matthieuamiguet.ch/) me signale à juste titre que pour lutter sérieusement contre le spam, il est bien d’utiliser un service dédié.
 Par exemple [spamgourmet](https://www.spamgourmet.com/) qui permet de créer une adresse unique qui se détruit automatiquement après avoir mangé assez de messages.
 
 Il existe aussi l’idée de l’adresse jetable, qui cache complètement votre mail, quand vous vous abonnez à des newsletters dans des lecteurs de flux RSS en ligne.

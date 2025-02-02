@@ -7,7 +7,7 @@ weight: 30
 
 Une sélection de sites personnels, disposant d’un flux RSS et avec des publications durant la dernière année. 
 Ce sont des sites que je lis dans mon agrégateur. 
-Dans l'Antiquité, on appelait une telle liste de liens un *blogroll*.
+Dans l’Antiquité, on appelait une telle liste de liens un *blogroll*.
 
 
 ## Web (en français)
@@ -66,4 +66,4 @@ Dans l'Antiquité, on appelait une telle liste de liens un *blogroll*.
 
 Ces 3 catégories reprennent des titres des mes catégories de flux RSS.
 La liste complète des flux suivis est disponible sur demande au format OPML.
-Vous pourrez l'intégrer facilement à votre lecteur de flux habituel (Feedly, Inoreader, Feedbin, etc.).
+Vous pourrez l’intégrer facilement à votre lecteur de flux habituel (Feedly, Inoreader, Feedbin, etc.).
