@@ -24,6 +24,10 @@ picture {
 }
 /* fin du reset */
 
+html {
+    font-size: clamp(1rem, 0.875rem + 0.3125vw, 1.25rem);
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -35,7 +39,6 @@ body {
     min-height: 100vh;
     background: var(--light);
     color: var(--dark);
-    font-size: clamp(1rem, 0.875rem + 0.3125vw, 1.25rem);
 }
 
 header, footer {
@@ -83,8 +86,12 @@ p {
     margin-block: 1rem;
 }
 
-ul {
+ol, ul {
     padding-left: 1rem;
+}
+
+::marker {
+    font-weight: 700;
 }
 
 li {
