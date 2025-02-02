@@ -26,7 +26,7 @@ Les polices citées par [The 40 Best Free Fonts Available on Google Fonts](https
 Je rencontre quotidiennement des sites qui suggèrent Inter ou Roboto (sans version web si elle n’est pas disponible).
 Vous devriez vraiment les installer pour éviter de tomber sur Arial.
 
-## Sans empattement
+## Sans empattement (`sans-serif`)
 
 - Archivo
 - Asap
@@ -44,7 +44,7 @@ Vous devriez vraiment les installer pour éviter de tomber sur Arial.
 - Ubuntu 🧰
 
 
-## Avec empattement
+## Avec empattement (`serif`)
 
 - Alegreya ⭐
 - Fraunces ⭐
@@ -67,7 +67,7 @@ Vous devriez vraiment les installer pour éviter de tomber sur Arial.
 - Syne ⭐
 
 
-## Polices à chasse fixe
+## Polices à chasse fixe (`monospace`)
 
 Ces polices sont normalement prévues pour du code.
 Certaines ont des fonctions particulières (ligatures).
