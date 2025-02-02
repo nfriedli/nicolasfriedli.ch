@@ -5,7 +5,9 @@ menu: main
 weight: 30
 ---
 
-Une sélection de sites personnels, disposant d’un flux RSS et avec des publications durant la dernière année. Ce sont des sites que je lis dans mon agrégateur. Il y a longtemps, on appelait cela un *blogroll*.
+Une sélection de sites personnels, disposant d’un flux RSS et avec des publications durant la dernière année. 
+Ce sont des sites que je lis dans mon agrégateur. 
+Dans l'Antiquité, on appelait une telle liste de liens un *blogroll*.
 
 
 ## Web (en français)
@@ -57,10 +59,11 @@ Une sélection de sites personnels, disposant d’un flux RSS et avec des public
 - [Diane Friedli](https://dianefriedli.ch/)
 - [Elio Jaillet](https://eliojaillet.ch/)
 - [Armin Kressmann](https://www.ethikos.ch/)
-- [Antoine Nouis](https://leblogdantoinenouis.fr/)
+- [James Woody](https://espritdeliberte.leswoody.net/)
 { .grid }
 
+## Remarque
 
-----
-
-Ces 3 catégories reprennent des titres des mes catégories de flux RSS. La liste complète des flux suivis est disponible sur demande au format OPML.
+Ces 3 catégories reprennent des titres des mes catégories de flux RSS.
+La liste complète des flux suivis est disponible sur demande au format OPML.
+Vous pourrez l'intégrer facilement à votre lecteur de flux habituel (Feedly, Inoreader, Feedbin, etc.).
