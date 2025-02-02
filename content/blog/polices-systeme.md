@@ -257,7 +257,7 @@ Entre les polices système (`sans-serif`, etc.), les nouvelles directives (comme
 
 Sur ce site, malgré l’utilisation de chasse fixe (code) dans le texte, je renonce à l’idée d’envoyer des polices.
 
-Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`fonts.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/fonts.css).
+Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`all.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/all.css).
 
 ----
 
