@@ -32,24 +32,59 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
     background: var(--light);
     color: var(--dark);
-    font-size: clamp(1rem, 0.925rem + 0.2vw, 1.125rem);
+    font-size: clamp(1rem, 0.875rem + 0.3125vw, 1.25rem);
 }
 
 header, footer {
     background: var(--dark);
     color: var(--light);
+    font-size: 90%;
 }
 
 footer {
     margin-top: auto;
 }
 
+h1, h2, h3, h4{
+    margin-block: 2rem 1rem ;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
 a {
     color: inherit;
+    text-decoration-thickness: .1em;
+    text-underline-offset: .1em;
+}
+
+p {
+    margin-block: 1rem;
+}
+
+ul {
+    padding-left: 1rem;
 }
 
 li {
@@ -60,28 +95,38 @@ li p {
     margin-top: 0;
 }
 
-pre {
+code, pre {
     background: var(--lightgray);
+}
+
+:not(pre) > code {
     font-size: 90%;
+}
+
+pre {
+    font-size: 85%;
     overflow-x: auto;
+    margin-block: 1rem 2rem;
     padding: .5rem 1rem;
 }
 
 hr {
     border: 0;
     border-top: .5rem solid var(--lightgray);
+    margin-block: 2rem;
 }
 
-time {
+.time {
+    margin-block: 2rem;
     font-size: 90%;
 }
 
 main :is(p, main blockquote, ul :not(grid), ol) {
-    width: min(66ch, 100%);
+    width: min(45rem, 100%);
 }
 
 .wrapper {
-    margin: auto;
+    margin-inline: auto;
     width: min(60rem, 100%);
 }
 
@@ -110,21 +155,23 @@ blockquote em {
 
 ul.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
     gap: 1rem;
     margin: 0;
+    margin-block: 1rem;
     padding: 0;
 }
 
 .grid li {
     background: var(--lightgray);
+    border-radius: .2rem;
     margin: 0;
     padding: 1rem;
-}
+ }
 
 li.article {
     display: flex;
-    gap: 1rem;
+    gap: .5rem;
     flex-direction: column;
     justify-content: space-between;
     text-wrap: balance;

@@ -20,6 +20,7 @@ Une sélection de sites personnels, disposant d’un flux RSS et avec des public
 - [Tristan Nitot](https://www.standblog.org/blog/)
 - [Arthur Perret](https://www.arthurperret.fr/)
 - [Sébastien Sauvage](https://sebsauvage.net/links/)
+{ .grid }
 
 ## Web (en anglais)
 
@@ -46,6 +47,8 @@ Une sélection de sites personnels, disposant d’un flux RSS et avec des public
 - [Jeremiah Shoaf](https://www.typewolf.com/)
 - [Sara Soueidan](https://www.sarasoueidan.com/)
 - [Hidde de Vries](https://hidde.blog/)
+{ .grid }
+
 
 ## Blogs protestants
 
@@ -55,6 +58,8 @@ Une sélection de sites personnels, disposant d’un flux RSS et avec des public
 - [Elio Jaillet](https://eliojaillet.ch/)
 - [Armin Kressmann](https://www.ethikos.ch/)
 - [Antoine Nouis](https://leblogdantoinenouis.fr/)
+{ .grid }
+
 
 ----
 
