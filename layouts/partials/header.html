@@ -4,9 +4,9 @@
     <div class="flex">
 
         {{ if .IsHome }}
-        {{ site.Title }}
+        <span class="nf">{{ site.Title }}</span>
         {{ else }}
-        <a href="/">{{ site.Title }}</a>
+        <a href="{{ relURL "" }}" class="nf">{{ site.Title }}</a>
         {{ end }}
 
         <nav class="flex">

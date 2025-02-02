@@ -177,6 +177,14 @@ li.article {
     text-wrap: balance;
 }
 
+.article a {
+    font-weight: 600;
+}
+
 .article time {
     font-size: .9rem;
+}
+
+.nf {
+    font-weight: 900;
 }
