@@ -1,12 +1,12 @@
 html {
-    font-family: "Archivo", "Public Sans", "IBM Plex Sans", "Fira Sans", ui-sans-serif, "Roboto", "Inter", system-ui, sans-serif;
+    font-family: ui-sans-serif, "Roboto", "Archivo", "Public Sans", "Fira Sans", "Inter", system-ui, sans-serif;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
 }
 
 code,
 pre {
-    font-family: "JetBrains Mono", ui-monospace, "Roboto Mono",  "Hack", "Cascadia Code", "Source Code Pro", "Menlo", "Consolas", monospace;
+    font-family: ui-monospace, "Roboto Mono", "JetBrains Mono", "Hack", "Menlo", "Consolas", "Cascadia Code", monospace;
 }
 
 h1, h2, h3, h4 {
