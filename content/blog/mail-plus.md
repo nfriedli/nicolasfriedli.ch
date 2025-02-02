@@ -154,7 +154,7 @@ prenom.nom@frdl.ch                  <- mon adresse
 prenom.nom+libido.diese@frdl.ch     <- un alias
 ```
 
-Alors qu’un alias
+Alors qu’un alias «classique» peut renvoyer ailleurs:
 
 ```
 prenom.nom@frdl.ch       <- mon adresse
