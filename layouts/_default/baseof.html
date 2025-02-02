@@ -28,9 +28,11 @@
     
     {{ partial "header" . }}
 
-    <main data-pagefind-body>
-        {{ block "main" . }}{{ end }}
-    </main>
+    <div class="wrapper">
+        <main class="padding" data-pagefind-body>
+            {{ block "main" . }}{{ end }}
+        </main>
+    </div>
 
     {{ partial "footer" . }}
 

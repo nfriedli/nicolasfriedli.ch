@@ -1,15 +1,16 @@
-:root {
-    --sans: ui-sans-serif, Roboto, system-ui, sans-serif;
-    --mono: ui-monospace, "Roboto Mono", "JetBrains Mono", Hack, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
-}
-
 html {
-    font-family: var(--sans);
-    font-variant-ligatures: none;
+    font-family: ui-sans-serif, "Roboto", "Inter", system-ui, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
     text-rendering: optimizeLegibility;
 }
 
 code,
 pre {
-    font-family: var(--mono);
+    font-family: ui-monospace, "Roboto Mono", "JetBrains Mono", "Hack", "Cascadia Code", "Source Code Pro", "Menlo", "Consolas", monospace;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.1;
+    text-wrap: balance;
 }

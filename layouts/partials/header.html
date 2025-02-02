@@ -1,5 +1,15 @@
 <header>
-    <nav>
+    <div class="wrapper">
+    <div class="padding">
+    <div class="flex">
+
+        {{ if .IsHome }}
+        {{ site.Title }}
+        {{ else }}
+        <a href="/">{{ site.Title }}</a>
+        {{ end }}
+
+        <nav class="flex">
         {{ $current := .RelPermalink}}
         {{ range site.Menus.main }}
             {{ if eq .URL $current }}
@@ -8,5 +18,8 @@
                 <a href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
         {{ end }}
-    </nav>
+        </nav>
+    </div>
+    </div>
+    </div>
 </header>

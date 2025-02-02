@@ -1,4 +1,4 @@
-<ul class="articles">
+<ul>
     {{ range first 5 (where site.RegularPages "Section" "blog") }}
     <li>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
