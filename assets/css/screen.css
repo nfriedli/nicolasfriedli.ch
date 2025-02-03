@@ -102,6 +102,18 @@ li p {
     margin-top: 0;
 }
 
+dt {
+    font-weight: 900;
+}
+
+dd + dt {
+    margin-top: 1rem
+}
+
+dd {
+    margin-inline-start: 2rem;
+}
+
 code, pre {
     background: var(--lightgray);
 }
@@ -128,7 +140,7 @@ hr {
     font-size: 90%;
 }
 
-main :is(p, main blockquote, ul :not(grid), ol) {
+main :is(p, main blockquote, ul :not(grid), ol, dl) {
     width: min(45rem, 100%);
 }
 
