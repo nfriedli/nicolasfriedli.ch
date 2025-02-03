@@ -4,6 +4,7 @@ description: La meilleure efficacité est souhaitable, mais n’est pas toujours
 date: 2024-10-26
 categories:
 - performance
+- polices
 ---
 
 À force de consulter des sites de développement, il est facile de se perdre dans des tests numériques et des solutions techniques.

@@ -3,6 +3,8 @@ title: Des polices d’écriture à installer sans hésiter
 description: Polices gratuites courantes pour limiter les téléchargements, accélérer les sites web et réduire leur impact écologique.
 date: 2025-02-02
 dateMod: 2025-02-03
+categories:
+- polices
 ---
 
 **Cette page est en «rédaction publique»: pas terminée mais déjà disponible.\

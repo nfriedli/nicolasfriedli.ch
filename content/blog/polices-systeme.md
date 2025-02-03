@@ -6,6 +6,7 @@ lastMod: 2025-01-05
 categories:
 - a11y
 - performance
+- polices
 ---
 
 L’utilisation de polices du système d’exploitation (*system font stack*) permet une cohérence graphique sans téléchargements.

@@ -5,6 +5,7 @@ date: 2024-03-30
 lastMod: 2024-10-07
 categories:
 - performance
+- polices
 ---
 
 Voici la stratégie j’applique sur mon site pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
