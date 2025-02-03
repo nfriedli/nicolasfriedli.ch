@@ -25,7 +25,8 @@ picture {
 /* fin du reset */
 
 html {
-    font-size: clamp(1rem, 0.875rem + 0.3125vw, 1.25rem);
+    /* @link https://utopia.fyi/type/calculator?c=320,16,1.2,1240,18,1.25,0,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    font-size: clamp(1rem, 0.9565rem + 0.2174vw, 1.125rem);
 }
 
 html, body {
