@@ -2,7 +2,7 @@
 title: Mon premier JSON Schema
 description: Rédaction d’un JSON Schema pour formaliser les contenus du site Églises ouvertes en Suisse romande.
 date: 2024-03-18
-lastMod: 2024-10-08
+lastMod: 2025-02-04
 categories: 
 - json
 ---
@@ -283,3 +283,8 @@ Il faudrait aller un peu plus loin pour certaines données, par exemple avec des
 L’enjeu bien réel derrière cet exercice, c’est que la validité formelle ne dit rien de la validité réelle des contenus. Elle assure la présence de contenus, non leur justesse. Il y a quelque chose de paradoxal à formaliser des données alors que les informations n’existent souvent pas en ligne.
 
 Le rachitisme du défunt *Églises ouvertes en Suisse romande* est une conséquence directe de la paresse de celles et ceux qui pourraient publier des contenus utiles. Mais pas une question de format de données.
+
+----
+
+On me signale la [plateforme JSONing](https://jsoning.com/) gratuite, créée par [Cyril Bois](https://github.com/cyrilbois).
+Elle permet notamment la [création automatisée de JSON Schemas](https://jsoning.com/jsonschema/) à partir de sources JSON.
