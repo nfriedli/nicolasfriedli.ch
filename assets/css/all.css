@@ -1,29 +1,11 @@
-:root {
-    font-optical-sizing: auto;
-}
-
-@font-face {
-    font-family: "Inter Variable";
-    font-style: normal;
-    font-weight: 100 900;
-    src: local("Inter Variable");
-}
-
-@font-face {
-    font-family: "Inter Variable";
-    font-style: italic;
-    font-weight: 100 900;
-    src: local("Inter Variable Italic");
-}
-
 html {
-    font-family: "Inter Variable", ui-sans-serif, "Inter", "Roboto", system-ui, sans-serif;
+    font-family: "Roboto", ui-sans-serif, "Inter", system-ui, sans-serif;
     line-height: 1.5;
 }
 
 code,
 pre {
-    font-family: "JetBrains Mono", ui-monospace, "Roboto Mono", "Hack", "Menlo", "Consolas", "Cascadia Code", monospace;
+    font-family: "JetBrains Mono", "Roboto Mono", ui-monospace, "Hack", "Menlo", "Consolas", "Cascadia Code", monospace;
 }
 
 h1,

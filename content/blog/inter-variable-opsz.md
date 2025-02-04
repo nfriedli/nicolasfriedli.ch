@@ -13,7 +13,10 @@ Cela (me) pose problème, car Inter est trop espacée en grande taille, pour les
 Si j’utilise Inter en webfont (fichier `woff2`), tout va bien.
 La police est variable en graisse (`wght`) comme en taille (`opsz`)
 
-Dans ma recherche pour proposer une *font stack* (pile de polices) de qualité sans recourir à des envois de fichiers, j’ai (enfin) trouvé la solution.
+Dans ma recherche pour proposer une *font stack* (pile de polices) de qualité sans recourir à des envois de fichiers, je croyais avoir enfin trouvé la solution.
+
+**Comme Chrome et Firefox ne sont pas d’accord sur la manière de nommer une police dans un `font-face`, cette solution ne fonctionne pas toujours!**
+Si vous souhaitez une solution qui marche partout en 2025, il faut passer par un webfont...
 
 ## Inter avec `font-face`
 
@@ -38,6 +41,9 @@ Pour obtenir la variation tant souhaitée, je déclare la police avec `font-face
   src: local("Inter Variable Italic");  /* nom local de la police */
 }
 ``` 
+
+**Cette déclaration ne fonctionne pas dans Chrome pour Windows.**
+
 ## Proposition de *font stack*
 
 Désormais, je peux créer une *font stack* optimale (les familles génériques n’ont pas de guillemets):
@@ -59,9 +65,4 @@ Vous pouvez ajouter `"Arial"` avant `system-ui` si vous souhaitez éviter autant
 
 Sans surprise, je vous invite à [installer Inter](https://rsms.me/inter/download/).
 Soit en version variable (2 fichiers) si cela fonctionne.
-Soit en version statique (36 fichiers!) sinon.
-
-----
-
-Sous Windows, tout ne marche pas au mieux.
-Firefox affiche la police variable, Chrome l’ignore.
+Soit en version statique (18 ou 36 fichiers) sinon.
