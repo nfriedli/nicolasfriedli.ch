@@ -64,5 +64,7 @@ Avec une telle «pile d’écritures», je suis certain que vous aurez quelque c
 Vous pouvez ajouter `"Arial"` avant `system-ui` si vous souhaitez éviter autant que possible Segoe UI dont l’apparence diffère nettement des autres.
 
 Sans surprise, je vous invite à [installer Inter](https://rsms.me/inter/download/).
-Soit en version variable (2 fichiers) si cela fonctionne.
-Soit en version statique (18 ou 36 fichiers) sinon.
+Soit en version variable, soit en version statique.
+La version statique est plus fiable et je vous conseiller d'installer les 18 fichiers.
+
+Et sans surprise non plus, au vu des problèmes d'implémentation, ces propositions resteront un simple exercice de style.

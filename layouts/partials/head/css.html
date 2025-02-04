@@ -1,5 +1,5 @@
 {{/*
-{{ $all   := resources.Get "css/all.css"    | minify | fingerprint }}
+{{ $all     := resources.Get "css/all.css"      | minify | fingerprint }}
 {{ $screen  := resources.Get "css/screen.css"   | minify | fingerprint }}
 {{ $print   := resources.Get "css/print.css"    | minify | fingerprint }}
 
@@ -7,9 +7,7 @@
 <link rel="stylesheet" href="{{ $screen.RelPermalink }}" integrity="{{ $screen.Data.Integrity }}" media="screen" >
 <link rel="stylesheet" href="{{ $print.RelPermalink }}" integrity="{{ $print.Data.Integrity }}" media="print" >
 */}}
-
-
-    
+   
 {{ $all := resources.Get "css/all.css" }}
 {{ $screen := resources.Get "css/screen.css" }}
 {{ $print := resources.Get "css/print.css" }}
