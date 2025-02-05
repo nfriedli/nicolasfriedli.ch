@@ -1,6 +1,32 @@
+@font-face {
+    font-family: "InterV";
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("/fonts/inter.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "InterV";
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url("/fonts/inter-italic.woff2") format("woff2");
+  }
+
 html {
     font-family: ui-sans-serif, "Roboto", "Inter", system-ui, sans-serif;
     line-height: 1.5;
+}
+
+html.webfonts {
+    font-family: "InterV", system-ui, sans-serif;
+    font-optical-sizing: auto;
+    font-feature-settings: "dlig" 1, "liga" 1;
+}
+
+/* On cache le bouton quand la class est active sur html */
+.webfonts #webfonts {
+    display: none;
 }
 
 code,
