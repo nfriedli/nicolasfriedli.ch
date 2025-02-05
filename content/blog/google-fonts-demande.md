@@ -83,6 +83,8 @@ Tout est disponible dans le commit [6f1fb29](https://github.com/nfriedli/nicolas
 
 ## Les chantiers inutiles
 
+Ce titre est un hommage aux [grands travaux inutiles](https://fr.wikipedia.org/wiki/Grands_travaux_inutiles).
+
 Au fond, ces 2 propositions me paraissent inutiles, parce que mes choix de polices système suffisent.
 Mais j’avais envie de tester 2 choses.
 
