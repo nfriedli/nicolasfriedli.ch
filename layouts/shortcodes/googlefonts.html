@@ -1,0 +1,11 @@
+<button id="googlefonts">Activer les Google Fonts</button>
+
+<script>
+document.getElementById("googlefonts").addEventListener("click", function() {
+    localStorage.setItem("googlefonts", "yes");
+    let link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
+    document.head.appendChild(link);
+});
+</script>
