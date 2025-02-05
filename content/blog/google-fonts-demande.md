@@ -13,14 +13,12 @@ De plus, c’est souvent inutile si vous avez des polices correctes installées.
 
 Ce billet fait suite aux difficultés de proposer une [police locale variable]({{< relref "inter-variable-opsz" >}}) correctement.
 
-La solution proposée est active sur le site à la publication de ce billet.
-Elle sera désactivée dans quelque temps, mais les propositions ce code resteront valables.
-
 ## La solution (facile et rapide) Google Fonts
 
 Je propose une solution toute simple pour celles et ceux souhaite une police précise (qui ont des problèmes d’affichage).
 
-J’active les Google Fonts si la variable `googlefonts` est a la valeur `yes` sans le stockage web local (localStorage):
+J’active les Google Fonts si la variable `googlefonts` est a la valeur `yes` sans le stockage web local (localStorage).
+**Cette solution n’est active que sur cette page**, mais elle s’active sur tout le site en utilisant ce code sur chaque page.
 
 ```
 if (localStorage.getItem("googlefonts") === "yes") {
@@ -30,6 +28,7 @@ if (localStorage.getItem("googlefonts") === "yes") {
     document.head.appendChild(link);
 }
 ```
+
 On pourrait d’arrêter là et dire aux internautes qui souhaitent des Google Fonts d’entrer la valeur `yes` au bon endroit.
 Ce serait un peu rude (plus que leur conseiller d’installer [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) et [Roboto](https://fonts.google.com/specimen/Roboto)).
 
@@ -49,8 +48,8 @@ document.getElementById("googlefonts").addEventListener("click", function() {
 </script>
 ```
 
-Il y a du code dupliqué, mais comme je ne l’utilise que sur cette page, je m’en fiche un peu.
-On pourrait aussi ajouter seulement la valeur dans le localStorage et attendre le chargement d’une nouvelle page pour agir.
+Il y a du code dupliqué, ce n'est pas très propre, mais comme je ne l’utilise que sur cette page, je m’en fiche un peu.
+On pourrait aussi ajouter seulement la valeur dans le localStorage et attendre le rechargement de la page pour agir.
 
 ```
 <button id="googlefonts">Activer les Google Fonts</button>
@@ -68,6 +67,7 @@ Le résultat, c’est ceci:
 
 Désormais, c’est mémorisé: ce périphérique chargera les Google Fonts.
 Pour toujours (à moins de modifier manuellement la valeur du localStorage ou de créer un bouton qui se charge de le faire).
+Si vous revenez sur cette page, ce sera toujours le cas sans cliquer à nouveau sur le bouton.
 
 ## La solution locale
 
