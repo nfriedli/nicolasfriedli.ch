@@ -15,9 +15,9 @@ Ce billet fait suite aux difficultés de proposer une [police locale variable]({
 
 ## La solution (facile et rapide) Google Fonts
 
-Je propose une solution toute simple pour celles et ceux souhaite une police précise (qui ont des problèmes d’affichage).
+Je propose une solution toute simple pour celles et ceux souhaitent une police précise (qui ont des problèmes d’affichage).
 
-J’active les Google Fonts si la variable `googlefonts` est a la valeur `yes` sans le stockage web local (localStorage).
+J’active les Google Fonts si la variable `googlefonts` a la valeur `yes` sans le stockage web local (localStorage).
 **Cette solution n’est active que sur cette page**, mais elle s’active sur tout le site en utilisant ce code sur chaque page.
 
 ```
@@ -32,7 +32,7 @@ if (localStorage.getItem("googlefonts") === "yes") {
 On pourrait d’arrêter là et dire aux internautes qui souhaitent des Google Fonts d’entrer la valeur `yes` au bon endroit.
 Ce serait un peu rude (plus que leur conseiller d’installer [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono) et [Roboto](https://fonts.google.com/specimen/Roboto)).
 
-Donc, on ajoute un bouton (généré par ChatGPT...) qui stocke la valeur et ajoute la feuille de style sans délai:
+Donc, on ajoute un bouton qui stocke la valeur et ajoute la feuille de style sans délai:
 
 ```
 <button id="googlefonts">Activer les Google Fonts</button>
@@ -48,7 +48,7 @@ document.getElementById("googlefonts").addEventListener("click", function() {
 </script>
 ```
 
-Il y a du code dupliqué, ce n'est pas très propre, mais comme je ne l’utilise que sur cette page, je m’en fiche un peu.
+Il y a du code dupliqué (ce n’est pas très propre), mais comme je ne l’utilise que sur cette page, je m’en fiche un peu.
 On pourrait aussi ajouter seulement la valeur dans le localStorage et attendre le rechargement de la page pour agir.
 
 ```
@@ -73,11 +73,11 @@ Si vous revenez sur cette page, ce sera toujours le cas sans cliquer à nouveau 
 
 J’avais testé une solution complètement locale avec Inter:
 
-1. Conversion des polices variables en `woff2` et limitation aux caractères latin (subsetting).
+1. Conversion des polices variables en `woff2` et limitation aux caractères latins (subsetting).
 2. Ajout des `@font-face` qui vont bien dans la feuille de style.
 3. Quand les webfonts sont acceptés dans le localStorage (par un bouton), ajout d’une class sur `html class="webfonts"`.
 4. Déclaration de `font-family` spécifique à `html.webfonts`.
-5. Cacher le bouton d’activation sur l’acceptation a déjà eu lieu.
+5. Cacher le bouton d’activation s’il a le localStorage comprend déjà l’acceptation.
 
 Tout est disponible dans le commit [6f1fb29](https://github.com/nfriedli/nicolasfriedli.ch/commit/6f1fb29130cbbcd2907e01c2e7cb5da7f043631b) sur GitHub.
 
@@ -94,7 +94,7 @@ Et il n’est pas besoin de faire clignoter des bannières de consentement et au
 Un bouton; c’est tout!
 
 D’autre part, tester le chargement conditionnel d’une police locale, pour imaginer une solution sans service tiers.
-C’est un peu plus pénible à maintenir, pour réactualiser les polices quand nécessaire.
+C’est un peu plus pénible à maintenir, notamment pour réactualiser les polices quand nécessaire.
 C’est un peu plus compliqué à mettre en œuvre, notamment selon les jeux de caractères utilisés sur le site.
 Mais c’est possible.
 
