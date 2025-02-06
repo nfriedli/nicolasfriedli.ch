@@ -1,6 +1,6 @@
 ---
 title: Travailler avec un budget de performance web
-description: Un budget de performance permet d’anticiper les contraintes, de cadrer les attentes et d’assurer un suivi continu. Adopter un budget de performance, c’est mettre toutes les chances de son côté pour obtenir un site rapide, fluide et optimisé, tout en facilitant les échanges entre équipes et prestataires.
+description: Un budget de performance permet d’anticiper les contraintes, de cadrer les attentes et d’assurer un suivi continu pour obtenir un site rapide, fluide et optimisé.
 date: 2025-02-06
 categories:
 - performance
@@ -23,7 +23,7 @@ Il s’agit de bien utiliser ce qui est accordé (voire de «dépenser» moins) 
 
 ## Exemple pratique
 
-Concrètement, voici comment appliquer un budget de performance avec Lighthouse:
+Concrètement, voici comment appliquer un budget de performance avec [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/):
 
 ```
 npx lighthouse https://nicolasfriedli.ch/blog/budget-performance/ \
