@@ -1,12 +1,12 @@
 html {
     font-family: "Roboto", ui-sans-serif, "Inter", system-ui, sans-serif;
-    line-height: 1.5;
-    font-variant-ligatures: none;
+    line-height: 1.55;
 }
 
 code,
 pre {
     font-family: "JetBrains Mono", ui-monospace, "Roboto Mono", "Hack", "Menlo", "Consolas", "Cascadia Code", monospace;
+    font-variant-ligatures: none;
 }
 
 h1,
@@ -14,5 +14,5 @@ h2,
 h3,
 h4 {
     line-height: 1.1;
-    text-wrap: balance;
+    text-wrap: balance;;
 }
