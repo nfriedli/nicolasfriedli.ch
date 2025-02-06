@@ -32,7 +32,7 @@ npx lighthouse https://nicolasfriedli.ch/blog/budget-performance/ \
     --only-categories=performance
 ```
 
-Avec un budget défini dans un fichier JSON:
+Avec un budget défini dans un fichier JSON (mise en forme comptacte):
 
 ```
 [
@@ -88,20 +88,29 @@ Dans chaque catégorie, il est possible de spécifier une ou plusieurs valeurs.
 
 ## Budget pour commencer
 
-Il est possible de créer un budget simplifié pour attaquer le sujet et faire ses premiers tests:
+Il est possible de créer un budget JSON simplifié pour attaquer le sujet et faire ses premiers tests:
 
 
 ```
 [
   {
     "timings": [
-      {"metric": "largest-contentful-paint", "budget": 3000}
+      {
+        "metric": "largest-contentful-paint",
+        "budget": 3000
+      }
     ],
     "resourceSizes": [
-      {"resourceType": "total", "budget": 1000}
+      {
+        "resourceType": "total",
+        "budget": 1000
+      }
     ],
     "resourceCounts": [
-      {"resourceType": "total", "budget": 100}
+      {
+        "resourceType": "total",
+        "budget": 100
+      }
     ]
   }
 ]
@@ -150,7 +159,7 @@ Il légitime les refus des équipes web ou permet de proposer des arbitrages con
 
 Troisièmement, travailler avec un budget de performance facilite la relation avec une agence web. 
 
-Il permet:
+Un simple fichier `budget.json` permet:
 
 - de fixer des attentes claires dès le début du projet
 - d’évaluer si l’agence maîtrise vraiment les enjeux techniques
