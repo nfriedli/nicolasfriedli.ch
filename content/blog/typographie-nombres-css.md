@@ -1,5 +1,5 @@
 ---
-title: Amnéliorer la typographie des nombres en CSS
+title: Améliorer la typographie des nombres en CSS
 description: Avec quelques lignes de code, il est possible d’améliorer la présentation de sa page de manière discrète mais efficace. Malheureusement, Google Fonts pourrait bien saper vos efforts.
 date: 2025-02-08
 categories:
@@ -95,13 +95,14 @@ Le problème, c’est que, selon le [Web Almanac 2024](https://almanac.httparch
 Et je parie que, quand elles ne font pas appel à Google Fonts, elles sont obtenues via google-webfonts-helper dans une grande majorité des cas.
 
 Autant dire que vous risquez de ne jamais voir Roboto, Fira Sans et plein d’autres belles polices à leur juste valeur.
+Pour que les internautes les voient, il faut faire ses optimisations soi-même ou miser sur les polices locales.
 
 ---
 
 Si vous utilisez Android, vous devriez voir des chiffres elzéviriens.
-Ils s’affichent en Roboto (police par défaut) parce que je ne vous impose pas de police web.
+Ils s’affichent en Roboto locale (appelée par `system-ui`) parce que je ne vous impose pas une police web.
 
-Si vous utilisez un périphérique Apple, vous ne verrez logiquement pas de «old style nums» parce que San Francisco n’en propose pas.
+Si vous utilisez un périphérique Apple (appelée par `ui-sans-serif`), vous ne verrez logiquement pas de «old style nums» parce que San Francisco n’en propose pas.
 Sauf si vous avez installé Roboto sur votre ordinateur.
 
 Si vous utilisez Windows, vous verrez probablement cette page en police Segoe UI qui propose aussi la variation elzévirienne.
