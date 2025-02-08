@@ -6,7 +6,6 @@ categories:
 - hugo
 ---
 
-
 Les liens `mailto` sont un moyen simple et efficace d’encourager les utilisateurs au contact direct par mail.
 Ils peuvent être enrichis pour inclure un sujet, un message prérempli et d’autres informations.
 
@@ -39,6 +38,8 @@ C’est facile avec [mailtolink.me](https://mailtolink.me/).
 Le résultat, c’est [une réponse à ce billet](mailto:hello+mailto@nicolasfriedli.ch?subject=Ton%20article%20sur%20LinkMail&body=Je%20viens%20de%20lire%20ton%20billet%20sur%20les%20liens%20mail%20et%20j’ai%20une%20question%20%2F%20une%20remarque%20%2F%20un%20compl%C3%A9ment%20%C3%A0%20apporter.).
 Le sujet du message est déjà renseigné, tout comme mon adresse (logique) et quelques lignes de texte.
 Et si cela ne fonctionne pas bien, la suite vous explique pourquoi.
+
+Dans votre CMS (probablement WordPress), il suffit de copier le code généré par mailtolink.me comme toute n'importe quelle cible de lien.
 
 ## Avantages des liens mail préremplis
 
