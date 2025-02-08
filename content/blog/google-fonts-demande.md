@@ -13,6 +13,9 @@ De plus, c’est souvent inutile si vous avez des polices correctes installées.
 
 Ce billet fait suite aux difficultés de proposer une [police locale variable]({{< relref "inter-variable-opsz" >}}) correctement.
 
+**Note.** Cette proposition fonctionne sur cette page au moment de sa mise en ligne.
+Le code reste valable, mais il ne sera plus forcément actif sur ce site.
+
 ## La solution (facile et rapide) Google Fonts
 
 Je propose une solution toute simple pour celles et ceux souhaitent une police précise (qui ont des problèmes d’affichage).

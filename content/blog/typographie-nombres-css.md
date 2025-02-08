@@ -102,7 +102,10 @@ Pour que les internautes les voient, il faut faire ses optimisations soi-même o
 Si vous utilisez Android, vous devriez voir des chiffres elzéviriens.
 Ils s’affichent en Roboto locale (appelée par `system-ui`) parce que je ne vous impose pas une police web.
 
-Si vous utilisez un périphérique Apple (appelée par `ui-sans-serif`), vous ne verrez logiquement pas de «old style nums» parce que San Francisco n’en propose pas.
+Si vous utilisez un périphérique Apple, vous ne verrez logiquement pas de «old style nums» parce que San Francisco (appelée par `ui-sans-serif`) n’en propose pas.
 Sauf si vous avez installé Roboto sur votre ordinateur.
 
 Si vous utilisez Windows, vous verrez probablement cette page en police Segoe UI qui propose aussi la variation elzévirienne.
+
+**Note.** Ces indications sont valables au moment de la publication de cette page.
+Je changerai peut-être ma feuille de style sans les remettre à jour.
