@@ -1,6 +1,7 @@
 html {
     font-family: "Roboto", ui-sans-serif, "Inter", system-ui, sans-serif;
     line-height: 1.6;
+    font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 code,
@@ -9,10 +10,18 @@ pre {
     font-variant-ligatures: none;
 }
 
+code, pre, table {
+    font-variant-numeric: lining-nums tabular-nums;
+}
+
 h1,
 h2,
 h3,
 h4 {
     line-height: 1.1;
     text-wrap: balance;;
+}
+
+a, h1, h2, h3, h4 {
+    font-variant-numeric: lining-nums proportional-nums;
 }

@@ -68,7 +68,7 @@ https://www.ibm.com/plex/
 Autre famille complète intéressante: Source Sans 🧰, Source Serif & Source Code 🧰 par Adobe.
 Mais la logique des noms (numéro de version dans le nom, présence de «pro») les rend pénibles à utiliser dans une pile de polices.
 
-### **Inter** 🧰 ⭐
+### Inter 🧰 ⭐
 
 Inter est une des polices à la mode, mais c’est amplement mérité.
 Elle est variable et dispose de la taille optique.
@@ -117,7 +117,7 @@ C’est à mon avis un police sous-estimée (ou méconnue).
 
 https://public-sans.digital.gov/
 
-### **Roboto** 🧰 ⭐
+### Roboto 🧰 ⭐
 
 Roboto est la police [la plus utilisée de Gooogle Fonts](https://fonts.google.com/analytics) et la police par défaut d’Android.
 Autant dire qu’elle est partout.
@@ -202,12 +202,11 @@ https://fonts.google.com/noto/specimen/Noto+Serif
 ### Piazzolla
 
 Piazzolla est une police étonnante.
-Elles semble cabossée de partout et reste pourtant très lisible pour du texte long.
+Elle semble cabossée de partout et reste pourtant très lisible pour du texte long.
 C’est en partie parce qu’elle dispose de taille optique.
 Je rêverais de la savoir installée souvent et de pouvoir jouer avec.
 
 https://piazzolla.huertatipografica.com/
-
 
 ## Pour les titres et intertitres
 
