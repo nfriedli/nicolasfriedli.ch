@@ -4,7 +4,6 @@ description: Comment structurer et optimiser les liens mailto? Avantages des ema
 date: 2025-02-08
 categories:
 - hugo
-draft: true
 ---
 
 
