@@ -26,7 +26,7 @@ La police Georgia a la particularité de ne proposer que de tels chiffres.
 `proportional-nums` ne force pas la largeur des chiffres (donc 1 est généralement plus étroit que 0).
 C’est ce qui est courant dans le texte.
 
-Alors `tabular-nums` impose une même largeur pour les 10 chiffres (à la manière d’une police à chasse fixe).
+Alors que `tabular-nums` impose une même largeur pour les 10 chiffres (à la manière d’une police à chasse fixe).
 C’est un vrai plus dans les tableaux (et dans le code).
 
 `slashed-zero` permet d’afficher un 0 barré ou pointé qui se distingue au mieux de la lettre O.
@@ -62,7 +62,7 @@ code, pre, table {
 
 Je ne vois pas de raison d’utiliser la combinaison `oldstyle-nums tabular-nums`.
 
-Si la police utilisée ne dispose pas de ces variations, elle s’affichera quand même parfaitement.
+**Si la police utilisée ne dispose pas de ces variations, elle s’affichera quand même parfaitement.**
 C’est donc sans risque.
 
 ## Le problème de Google Fonts
@@ -98,8 +98,10 @@ Autant dire que vous risquez de ne jamais voir Roboto, Fira Sans et plein d’au
 
 ---
 
-Si vous utilisez Android, vous devriez voir des chiffres elzéviriens en Roboto (police par défaut).
+Si vous utilisez Android, vous devriez voir des chiffres elzéviriens.
+Ils s’affichent en Roboto (police par défaut) parce que je ne vous impose pas de police web.
 
-Si vous utilisez iOS, vous ne verrez logiquement pas de «old style nums» parce que San Francisco n’en propose pas.
+Si vous utilisez un périphérique Apple, vous ne verrez logiquement pas de «old style nums» parce que San Francisco n’en propose pas.
+Sauf si vous avez installé Roboto sur votre ordinateur.
 
-Si vous utilisez Windows sans avoir installé Roboto et Inter, vous verrez cette page en police Segoe UI qui propose aussi la variation elzévirienne.
+Si vous utilisez Windows, vous verrez probablement cette page en police Segoe UI qui propose aussi la variation elzévirienne.
