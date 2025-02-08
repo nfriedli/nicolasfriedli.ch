@@ -1,7 +1,7 @@
 ---
 title: Améliorer la typographie des nombres en CSS
 description: Avec quelques lignes de code, il est possible d’améliorer la présentation de sa page de manière discrète mais efficace. Malheureusement, Google Fonts pourrait bien saper vos efforts.
-date: 2025-02-08
+date: 2025-02-07
 categories:
 - polices
 ---
