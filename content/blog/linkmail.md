@@ -39,7 +39,7 @@ Le résultat, c’est [une réponse à ce billet](mailto:hello+mailto@nicolasfri
 Le sujet du message est déjà renseigné, tout comme mon adresse (logique) et quelques lignes de texte.
 Et si cela ne fonctionne pas bien, la suite vous explique pourquoi.
 
-Dans votre CMS (probablement WordPress), il suffit de copier le code généré par mailtolink.me comme toute n'importe quelle cible de lien.
+Dans votre CMS (probablement WordPress), il suffit de copier le code généré par mailtolink.me comme toute n’importe quelle cible de lien.
 
 ## Avantages des liens mail préremplis
 
