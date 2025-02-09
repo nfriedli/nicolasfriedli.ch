@@ -22,6 +22,6 @@ h4 {
     text-wrap: balance;;
 }
 
-a, h1, h2, h3, h4 {
+a {
     font-variant-numeric: lining-nums proportional-nums;
 }

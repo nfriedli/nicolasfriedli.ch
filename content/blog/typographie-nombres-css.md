@@ -47,7 +47,7 @@ html {
 Pour les liens (et éventuellement pour la titraille):
 
 ```
-a, h1, h2, h3, h4 {
+a /*, h1, h2, h3, h4 /* {
     font-variant-numeric: lining-nums proportional-nums;
 }
 ```
