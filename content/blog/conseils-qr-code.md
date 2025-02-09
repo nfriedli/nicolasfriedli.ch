@@ -3,6 +3,8 @@ title: Conseils d’utilisation des QR codes
 description: Les personnes qui proposent des QR codes peuvent aider à les rendre sûrs et fiables. Toute la responsabilité ne repose pas seulement sur les utilisateurs et utilisatrices.
 date: 2024-02-14
 lastMod: 2025-01-16
+categories:
+- qr
 ---
 
 Les arnaques aux QR codes semblent se multiplier. Les médias généralistes en parlent et donnent quelques conseils, souvent aux utilisateurs et utilisatrices (par exemple: [Les arnaques aux QR codes se multiplient depuis quelques mois](https://www.rts.ch/info/sciences-tech/14581852-les-arnaques-aux-qr-codes-se-multiplient-depuis-quelques-mois.html)). Pourtant, j’estime que **l’effort de sécurisation et de fiabilité doit aussi être fait du côté des personnes qui créent les codes**.
