@@ -2,8 +2,13 @@
     --dark: #000;
     --light: #FFF;
     --lightgray: #EEE;
+
 }
 
+* {
+    scrollbar-color: var(--dark) var(--light);
+    scrollbar-width: thin;
+}
 
 /* éléments de reset https://piccalil.li/blog/a-more-modern-css-reset/ */
 *,
