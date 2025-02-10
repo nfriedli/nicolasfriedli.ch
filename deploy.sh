@@ -1,0 +1,1 @@
+hugo && npx -y pagefind --site public && rclone copy --progress --no-check-dest public/ infomaniak:nicolasfriedli.ch/
