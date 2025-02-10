@@ -160,7 +160,6 @@ main :is(p, blockquote, ul :not(grid), ol, dl) {
 }
 
 blockquote {
-    background-color: var(--lightgray);
     border-inline-start: .2rem solid var(--dark);
     padding-inline: 1rem;
     margin-inline-start: 0;
