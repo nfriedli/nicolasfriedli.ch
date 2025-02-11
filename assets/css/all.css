@@ -1,12 +1,12 @@
 html {
-    font-family: "Roboto", "Inter", ui-sans-serif, system-ui, sans-serif;
+    font-family: ui-sans-serif, "Roboto", "Inter", system-ui, sans-serif;
     line-height: 1.6;
     font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 code,
 pre {
-    font-family: "JetBrains Mono", ui-monospace, "Roboto Mono", "Hack", "Menlo", "Consolas", "Cascadia Code", monospace;
+    font-family: ui-monospace, "JetBrains Mono", "Roboto Mono", "Hack", "Menlo", "Consolas", "Cascadia Code", monospace;
     font-variant-ligatures: none;
 }
 
