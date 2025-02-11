@@ -20,7 +20,7 @@ Si j’essaie de reformuler, *Less is more*, ce peut être :
 - moins d’images, plus de contenu
 - moins de textes, des images
 - moins de détours, passer à l’essentiel
-- moins de métadiscours, plus de concret
+- moins de [métadiscours]({{% relref "metadiscours" %}}), plus de concret
 - moins de fonctions, des fonctions utiles
 - moins de graphisme, plus de design
 - moins de déco, plus de typo (voir: [Web Design is 95% Typography](https://ia.net/topics/the-web-is-all-about-typography-period))
