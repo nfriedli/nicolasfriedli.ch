@@ -1,5 +1,5 @@
 ---
-title: Le métadiscours comme moteur des sites personnels
+title: Métadiscours et sites personnels
 description: Le métadiscours sur un site personnel est-il un repli ou un levier pour un web plus humain? Plutôt qu’une faiblesse, il révèle la richesse des parcours et des choix.
 date: 2025-02-11
 ---
