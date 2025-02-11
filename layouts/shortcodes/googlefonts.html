@@ -1,20 +1,27 @@
 <button id="googlefonts" class="plausible-event-name=Google+Fonts">Activer les Google Fonts</button>
 
 <script>
-document.getElementById("googlefonts").addEventListener("click", function() {
-    localStorage.setItem("googlefonts", "yes");
-    let link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
-    document.head.appendChild(link);
-});
-</script>
+    function applyGoogleFonts() {
+        if (!document.getElementById("google-fonts-link")) {
+            let link = document.createElement("link");
+            link.id = "google-fonts-link";
+            link.rel = "stylesheet";
+            link.href = "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
+            document.head.appendChild(link);
+        }
 
-<script>
+        document.documentElement.style.fontFamily = "'Roboto', sans-serif";
+        document.querySelectorAll("pre, code").forEach(el => {
+            el.style.fontFamily = "'JetBrains Mono', monospace";
+        });
+    }
+
+    document.getElementById("googlefonts").addEventListener("click", function () {
+        localStorage.setItem("googlefonts", "yes");
+        applyGoogleFonts();
+    });
+
     if (localStorage.getItem("googlefonts") === "yes") {
-        let link = document.createElement("link");
-        link.rel = "stylesheet";
-        link.href = "https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap";
-        document.head.appendChild(link);
+        applyGoogleFonts();
     }
 </script>
