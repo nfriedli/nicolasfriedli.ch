@@ -1,96 +1,124 @@
 ---
-title: Pourquoi le métadiscours est essentiel aux sites personnels
-description: Faut-il parler de son propre site sur son site? Le métadiscours peut être une force plutôt qu’une faiblesse.
-date: 2025-02-10
-draft: true
+title: Le métadiscours comme moteur des sites personnels
+description: Le métadiscours sur un site personnel est-il un repli ou un levier pour un web plus humain? Plutôt qu’une faiblesse, il révèle la richesse des parcours et des choix.
+date: 2025-02-11
 ---
 
-Dans un web saturé d’informations instantanées, pourquoi prendre le temps de réfléchir à la manière dont nous communiquons sur nos sites personnels?
-Le métadiscours, cet art de réfléchir sur son propre discours, est bien plus qu'une simple introspection.
-**Il enrichit l'expérience numérique.**
-Il ne constitue pas un simple repli narcissique, mais participe à une dynamique plus large où la mise en perspective de l’écriture dialogue avec le partage d’informations et de ressources utiles.
-Cet article se propose d’examiner la place du métadiscours dans un site personnel, en montrant qu’il ne s’oppose pas à l’utilité mais s’y articule, produisant ainsi un espace discursif riche.
+Un blog court toujours le risque de glisser vers le métadiscours.
+Autrement dit, de parler avant tout de lui-même.
+C’est particulièrement le cas pour tout site qui parle du web.
+Mais ce n’est pas un problème en soi.
 
-## Le métadiscours comme dynamique des sites personnels
+Une brève définition du métadiscours selon la page de Wikipédia en anglais [metadiscourse](https://en.wikipedia.org/wiki/Metadiscourse) en dit un peu plus:
 
-Tout site personnel court le risque de tomber dans une certaine autoreprésentation.
-Il parle de lui-même, de ses évolutions techniques, de ses choix éditoriaux.
-Cet exercice peut sembler redondant, voire superflu, mais il constitue en réalité **une forme essentielle de réflexivité**.
+> Dans la philosophie du langage, le métadiscours est une discussion sur une discussion, par opposition à une simple discussion sur un sujet donné.
 
-Comme le souligne la notion de [digital garden](https://maggieappleton.com/garden-history) (jardin numérique) développée notamment par Maggie Appleton, un site personnel n’est pas une structure figée mais un espace en croissance et en constante réélaboration.
-Dès lors, parler de son site, c’est en fait parler du processus même de création et d’évolution d’une pensée numérique.
+Le paradoxe suivant est posé.
+Si je ne parle que de mon blog sur mon blog, j’ai l’impression de tourner en rond.
+Mais, quand je lis de blogs techniques, j’observe que les billets qui parlent des coulisses du site sont ceux qui m’intéressent le plus.
+Un équilibre doit être possible.
 
-Le métadiscours n’est pas un frein à la production de contenu web.
-Il en est une condition fondamentale pour nourrir une réflexion numérique de fond.
-Il permet d’expliciter une démarche, d’interroger les formes du discours et, par ce biais, d’ouvrir la réflexion à autrui.
-Loin d’être un enfermement, il devient un outil d’extériorisation et de mise en partage.
+## L’exemple de la page `/now`
 
-## L'articulation entre utile et réflexif
+Il y a quelques années, Derek Sivers a proposé de publier de [page `/now`](https://nownownow.com/about) sur nos sites.
+Elle a pour vocation de parler de ce sur quoi les blogueurs et blogueuse sont focalisés actuellement.
+Elle se distingue des pages à propos et contact qui donnent des informations pérennes.
 
-Un site personnel oscille entre deux pôles:
+Une petite phrase de [Joachim Robert sur les pages `/now`](https://blog.professeurjoachim.com/billet/2024-01-14-ma-page-now-ou-plutot-en-ce-moment) m’a interpellé:
 
-- **La mise à disposition de ressources pratiques** (articles techniques, documentation, guides, etc.)
-- **La mise en récit de la construction du site lui-même** (réflexions sur les choix éditoriaux, les évolutions techniques, etc.)
+> Moins un blog est mis à jour, plus il y a de probabilité que ce qui y est publié a pour sujet les aspects techniques dudit blog.
 
-Ce double mouvement se retrouve chez des auteurs comme Matthias Ott, qui, dans [2024: The Year of the Personal Website](https://matthiasott.com/notes/2024-the-year-of-the-personal-website), défend une approche où **le site personnel devient un espace de pensée autonome**, un «chez-soi numérique» dont l’entretien et l’évolution méritent d’être exposés.
+Elle a été signalée dans le billet [Liens](https://larlet.fr/david/2024/01/08/) par David Larlet, qui ajoute:
 
-Sur nicolasfriedli.ch, j'essie de rendre cette dynamique est visible.
-Les articles traitant de sujets techniques (comme la [gestion des QR codes]({{% relref "conseils-qr-code" %}}) ou l’usage des [noms de domaines personnels]({{% relref "nom-domaine-personnel" %}})) coexistent avec des billets plus réflexifs, interrogeant le sens même d’un site personnel.
-Ce va-et-vient entre documentation et réflexion témoigne de la complémentarité de ces deux dimensions: **l’une nourrit l’autre**.
-Un site personnel ne saurait être un simple dépôt de contenus fonctionnels; il est aussi le lieu d’une écriture qui se questionne et se réajuste.
+> J’ai ri.
+>Je n’ai jamais fait une telle page car je sais que je n’arriverais pas à la maintenir à jour.
 
-## Le métadiscours dans un web saturé
+Il a raison.
+Ce sur quoi une personne qui gère un site travaille actuellement devrait se voir par l’actualité de ses publications.
+Finalement, un blog vivant est déjà une pagee `/now` en soi.
+C’est pourquoi, en l’état, je me limiterai à des nouveaux billets.
 
-Dans un paysage web où l’attention est constamment sollicitée, le métadiscours peut apparaître comme un luxe: inutile.
-Pourquoi parler de son site quand d’autres sujets (plus « concrets ») pourraient être abordés?
-Cette critique suppose pourtant une séparation artificielle entre contenu et contexte.
+Rédiger une page dédiée, c’est tomber dans le métadiscours pour le métadiscours.
+Sauf quand une telle page est aboutie et dynamique comme la [page `/now` de Cory Dransfeldt](https://www.coryd.dev/now).
+Il a même proposé une vidéo sur le sujet: [Building a performant `/now` page using 11ty](https://www.youtube.com/watch?v=AzcFZJYEpnQ).
+C’est donc un métadiscours sur une page de métadiscours!
 
-Comme le souligne Diane Friedli dans [Ce blog a 10 ans](https://dianefriedli.ch/ce-blog-a-10-ans/), le **temps long de la publication personnelle** confère une épaisseur à l’écrit qui manque souvent aux productions instantanées des réseaux sociaux.
-Le métadiscours, dans ce cadre, est un outil de mise en perspective qui permet d’échapper à l’immédiateté et d’ancrer une réflexion sur la durée.
+## Contenus utiles et contenus réflexifs
 
-Le métadiscours a **une valeur épistémologique**.
-Il constitue une trace des questionnements et des choix opérés, offrant ainsi une forme de documentation indirecte.
-La réflexion sur le site est elle-même une archive de la pensée qui l’a structuré, à l’image de la page [/now](https://sive.rs/nowff) imaginée par Derek Sivers, où l’auteur explicite ce sur quoi il travaille en temps réel.
-Ce type de mise en abyme ne dessert pas le propos; il l’enrichit en **donnant à voir la fabrique du contenu**.
+De manière un peu caricaturale, il existe 2 types de contenus:
 
-## Le métadiscours comme processus créatif
+- les contenus utiles: la mise à disposition de ressources pratiques (articles techniques, documentation, guides, etc.)
+- les contenus réflexifs: la mise en récit de la construction du site lui-même (réflexions sur les choix éditoriaux, les évolutions techniques, etc.)
 
-Le métadiscours ne se limite pas à un acte individuel d'introspection sur la construction d'un site personnel.
-Il peut aussi participer à un dialogue plus large avec la communauté numérique.
-Des sites comme ceux d'[Antoine Fauchié](https://www.quaternum.net/) ou [Arthur Perret](https://www.arthurperret.fr/) l'illustrent parfaitement.
+Mais qui s’intéresse un peu à la publications sur le web se rendra rapidement compte que c’est beaucoup plus compliqué.
+Il vaut la peine de relire [Enseignements du framework Diátaxis]{{% relref "diataxis-introduction" %}} et sortir de la caricature.
 
-L'exploration des choix éditoriaux et techniques devient une manière de partager une réflexion en temps réel.
-Cela dépasse le simple partage de connaissances pour devenir un véritable terrain d'expérimentation.
-**Chaque itération du site témoigne d'une pensée en constante évolution, ouverte à la critique et à la collaboration.**
-Ce processus dynamique renforce la valeur du métadiscours comme vecteur d'enrichissement collectif.
+Très souvent, les contenus réflexifs sur des projets web permettent de beaucoup mieux choisir ses outils.
+Dans ce cas, j’ai besoin du métadiscours sur les choix opérés, le *pourquoi*.
+Je ne cherche pas le «meilleur», mais le mieux adapté à mes besoins.
+Par exemple celui qui est presque aussi bon que le meilleur, mais beaucoup plus facile à utiliser.
+J’en parle dans [Philosophie d’optimisation raisonnable]({{% relref "optimisation-raisonnable" %}})
 
-## Réconcilier le réflexif et l’opérationnel
+## Se centrer sur soi ou élargir le propos
 
-Loin d’être une digression superflue, **le métadiscours est une composante essentielle des sites personnels**.
-Il permet d’articuler production de contenu et mise en récit de l’acte même d’écrire et de structurer un espace numérique.
-Plutôt que d’opposer utile et réflexif, il faut reconnaître que ces deux dimensions se nourrissent mutuellement: **c’est en explicitant la démarche que l’on donne de la consistance aux contenus, et c’est en produisant du contenu que l’on alimente une réflexion sur les formes du discours**.
+En rédigeant [Lancer un blog en 2025(?)]({{% relref "blog-2025" %}}), je me suis demandé si je parlais de ma présence en ligne ou de l’importance des sites personnels au sens large.
+Je parlais d’un blog, mais je parlais surtout d’une thématique plus large: la merdification des choses.
 
-Dans un web de plus en plus standardisé, **la revendication du métadiscours est aussi un acte politique**.
-Elle rappelle que derrière chaque site personnel, il y a une subjectivité, une pensée en mouvement, une écriture en quête de son propre espace.
-Plus qu’un simple outil, **le métadiscours est une manière d’habiter le web autrement**.
+Dans [Garanti sans ChatGPT (ou pas)]({{% relref "garanti-sans-chatgpt" %}}), je suis parti de mon site pour parler d’un sujet beaucoup plus général.
+La question de savoir s’il fallait ajouter une mention du type *rédigé sans intelligence artificielle* n’était que le point de départ pour parler d’un sujet de société.
+
+Quand le développeur Max Böck propose un système de changement de couleur du site dans [Color Theme Switcher](https://mxb.dev/blog/color-theme-switcher/), difficile de dire s’il parle de son site ou de développement web.
+
+Quand je propose le billet [Recherche statique performante avec PageFind]({{% relref "recherche-statique-pagefind" %}}), est-ce que je parle de mon blog ou de recherche sur le web?
+Ou plutôt de l’importance des règles Opquast et de la veille technologique?
+
+C’est tout l’intérêt d’un blog qui parle en «je» (explicitement ou implicitement).
+C’est justement ce que j’y cherche.
+C’est encore plus vrai quand la thématique principale d’un blog est le web.
+
+## Dévoiler les coulisses
+
+Parfois, il existe assez de production de contenu pour ne pas avoir «besoin» de faire du métadiscours.
+C’est le cas du [blog de ma femme Diane Friedli](https://dianefriedli.ch/).
+Elle y publie ses prédications, des contes de Noël, des recensions, etc.
+Elle n’aurait pas besoin de parler des coulisses... et pourtant elle le fait.
+
+Dans [Poème acidulé pour les ados](https://dianefriedli.ch/poeme-acidule-ados/), elle rappelle le contexte de production et propose quelques lignes sur ses études en théologie.
+Elle aurait pu nous donner le texte seul; elle a choisi de le contextualiser.
+
+Et dans [Ce blog a 10 ans](https://dianefriedli.ch/ce-blog-a-10-ans/), est-ce qu’elle s’exprime vraiment au sujet de son blog?
+Ou est-ce qu’elle dit quelque chose sur sa vocation pastorale et sa manière de pratiquer son métier?
+Est-ce qu’elle tend une perche à ses collègues pour les inciter à bloguer aussi?
+
+Ce genre de contenu, qui propose discours et métadiscours, est ce qui fait toute la richesse des blogs et des sites personnels.
+Au final, les internautes ne n’y trompent pas, il y a bien une personne derrière le texte.
+Si celles et ceux qui s’expriment publiquement ouvraient les portes du laboratoire, la question des IA (intelligences artificielles) serait abordée autrement.
+Il n’y a pas de honte à utiliser ChatGPT ou à reprendre de l’existant, à condition de dire quelque chose de sa démarche, de ses forces, de ses limites et de la pertinence du résultat.
+
+## Personnes ou organisations
+
+J’ai un attachement aux personnes beaucoup plus qu’aux organismes et aux institutions.
+C’est d’ailleurs pour cette raison que j’ai libellé ainsi tous les intitulés de ma page [liens]({{% relref "blogroll" %}}), même quand les sites ont un autre nom officiel.
+Quand les organisations ajoutent du métadiscours, c’est presque toujours ~~du bullshit~~ pour se justifier (et c’est mortifère).
+Quand des blogueurs et blogueuses parlent de leur blog, c’est la vraie vie qui surgit.
 
 ## Envoi
 
-J’ajoute qu’il y a un attachement bien plus fort aux personnes qu’aux institutions.
-C’est pourquoi, sur ma [page liens]({{% relref "blogroll" %}}), j’ai choisi de privilégier les noms des auteurs et autrices plutôt que ceux des sites officiels.
-
-**Quand une organisation fait du métadiscours, c’est souvent pour se justifier** (et ce repli est stérile).
-À l’inverse, quand un blogueur ou une blogueuse parle de son propre espace, c’est la vraie vie qui surgit.
-
-Est-il encore possible de toucher les internautes en se réfugiant derrière l’académisme du *nous* ou le ~~bullshit~~ verbiage institutionnel?
+Est-il encore possible de toucher les internautes en se réfugiant derrière l’académisme du nous ou le verbiage des organisations?
 À quoi bon (essayer de) vulgariser s’il n’y a pas de présence humaine pour nous prendre par la main?
+Finalement, que signifie *choisir la vie* dans nos modalités d’expression sur le web?
 
-**Choisir la vie** sur le web, c’est privilégier l’authenticité et l’humain en s’exprimant de manière personnelle.
-C’est aussi oser partager ses réflexions et ses évolutions pour rendre le web plus vivant et engageant.
+Nous en sommes à installer des extensions de navigateurs pour détecter les contenus générés par IA.
+Il faudrait profiter du même élan pour détecter les contenus vides.
+
+Le métadiscours, malgré ses faiblesses et ses limites, est toujours ce qu’il y a de plus riche.
+Il révèle la personne derrière le texte.
+C’est précisément ce qui manque à tant de contenus aujourd’hui.
 
 ----
 
-Ce billet est une expérimentation volontairement paradoxale.
-Il a été partiellement rédigé par ChatGPT, mais tous les liens externes ont été choisis explicitement.
-La structure et les idées principales ont été soumis sous forme de brouillon (dans le *prompt*).
-La question en filigrane: est-il possible de proposer quelque chose d'original et personnel avec une intelligence artificielle?
+Ce billet reprend une ancienne publication.
+J’ai essayé de fournir à ChatGPT cette archive et un liste de liens frais.
+Puis une trame rédactionnelle.
+J’ai obtenu un article correct mais complètement banal sur le métadiscours.
+Il était à l’exact opposé ce que que je prétends (et tente de faire) ici.

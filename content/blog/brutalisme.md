@@ -1,21 +1,21 @@
 ---
 title: Comment le design brutaliste redéfinit l’expérience utilisateur
-description: Le design brutaliste remet le contenu au centre de l'expérience web. Grâce à une interface épurée et une navigation intuitive, cette approche minimaliste permet de créer des sites web à la fois fonctionnels et accessibles.
+description: Le design brutaliste remet le contenu au centre de l’expérience web. Grâce à une interface épurée et une navigation intuitive, cette approche minimaliste permet de créer des sites web à la fois fonctionnels et accessibles.
 date: 2025-02-12
 draft: true
 ---
 
-Imaginez un site où chaque élément a une fonction claire. La performance et la simplicité sont au cœur de l'expérience.
+Imaginez un site où chaque élément a une fonction claire. La performance et la simplicité sont au cœur de l’expérience.
 Vous arrivez sur une page rapide, sans attendre. Le contenu est immédiatement accessible, sans distractions.
-Le design sert l'information, avec transparence. L'utilisateur trouve rapidement ce qu'il cherche.
+Le design sert l’information, avec transparence. L’utilisateur trouve rapidement ce qu’il cherche.
 
 ## Performance & simplicité
 
 Imaginez un site qui charge instantanément.
 Un code simple et léger garantit une expérience fluide.
 Chaque seconde compte, et ici, tout est optimisé pour la vitesse.
-Pas d'animations ou d’effets visuels inutiles. Vous accédez directement au contenu.
-C'est une promesse de performance et de rapidité, où la simplicité prime.
+Pas d’animations ou d’effets visuels inutiles. Vous accédez directement au contenu.
+C’est une promesse de performance et de rapidité, où la simplicité prime.
 
 ## Texte au centre
 
@@ -35,9 +35,9 @@ Vous suivez votre chemin sans vous perdre dans des contenus inutiles.
 
 ## Polices système et minimalisme
 
-Imaginez des pages où la lecture est fluide, peu importe l'appareil.
-Les polices comme *Courier* ou *Verdana* s'affichent immédiatement.
-Pas besoin d'attendre des polices exotiques.
+Imaginez des pages où la lecture est fluide, peu importe l’appareil.
+Les polices comme *Courier* ou *Verdana* s’affichent immédiatement.
+Pas besoin d’attendre des polices exotiques.
 L’objectif est une lecture rapide et cohérente, sans surcharge.
 Le minimalisme soutient le contenu, pas la décoration.
 
