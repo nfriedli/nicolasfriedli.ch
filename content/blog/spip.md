@@ -1,6 +1,6 @@
 ---
 title: Notes sur SPIP en 2025
-description: 
+description: SPIP reste une merveilleuse «machine à publier». Il a perdu de sa popularité, il intéresse moins que d’autres CMS, il n’est pas commercial, mais son projet militant dure depuis 2001.
 date: 2025-02-17
 ---
 
