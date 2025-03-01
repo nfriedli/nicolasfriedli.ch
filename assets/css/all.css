@@ -1,5 +1,6 @@
 html {
-    font-family: ui-sans-serif, "Fira Sans", "Roboto", "Inter", system-ui, sans-serif;
+    font-family: ui-sans-serif, "Roboto", "Inter", system-ui, sans-serif;
+    font-synthesis: none;
     line-height: 1.6;
     font-variant-numeric: oldstyle-nums proportional-nums;
 }
