@@ -2,7 +2,7 @@
 title: Notes sur SPIP en 2025
 description: SPIP reste une merveilleuse «machine à publier». Il a perdu de sa popularité, il intéresse moins que d’autres CMS, il n’est pas commercial, mais son projet militant dure depuis 2001.
 date: 2025-02-17
-lastMod: 2025-03-02
+lastMod: 2025-03-08
 ---
 
 SPIP est un magnifique système de publication né en 2001.
@@ -11,6 +11,7 @@ Il n’est plus aussi populaire mais qu’importe.
 
 Pour des tests sur [theologique.ch](https://theologique.ch/), j’ai réinstallé un SPIP tout frais.
 Même s'il est peu probable que je conserve ce site sous SPIP, je vous explique pourquoi il reste génial en 2025.
+**Le site fonctionne aujourd'hui avec Hugo.**
 
 En fin de billet, je vous donnerai aussi quelques «problèmes» qui m’empêchent de l’utiliser plus souvent.
 
