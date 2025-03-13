@@ -10,8 +10,8 @@ Il a eu ses heures de gloire dans le monde francophone (et ailleurs).
 Il n’est plus aussi populaire mais qu’importe.
 
 Pour des tests sur [theologique.ch](https://theologique.ch/), j’ai réinstallé un SPIP tout frais.
-Même s'il est peu probable que je conserve ce site sous SPIP, je vous explique pourquoi il reste génial en 2025.
-**Le site fonctionne aujourd'hui avec DokuWiki.**
+Même s’il est peu probable que je conserve ce site sous SPIP, je vous explique pourquoi il reste génial en 2025.
+**Le site fonctionne aujourd’hui avec DokuWiki.**
 
 En fin de billet, je vous donnerai aussi quelques «problèmes» qui m’empêchent de l’utiliser plus souvent.
 
