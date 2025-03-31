@@ -2,8 +2,11 @@
 title: Recherches Google avancées
 description: Utiliser des opérateurs logiques et des conditions pour tout trouver rapidement. Et pour se construire des alertes Google pour une veille efficace.
 date: 2024-12-05
+lastMod: 2025-03-31
 categories:
 - seo
+aliases: 
+- /blog/recherche-google-avancees/
 ---
 
 Le moteur de recherche Google est souvent utilisé de manière basique.
