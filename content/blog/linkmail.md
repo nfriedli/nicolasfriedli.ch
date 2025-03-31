@@ -2,6 +2,7 @@
 title: Utiliser des liens mail préremplis sur son site web
 description: Comment structurer et optimiser les liens mailto? Avantages des emails préremplis, limites des formulaires de contact et implémentation automatisée dans Hugo via un shortcode.
 date: 2025-02-08
+lastMod: 2025-03-31
 categories:
 - hugo
 ---
@@ -50,7 +51,7 @@ Les liens `mailto` enrichis offrent certains avantages:
 - les messages peuvent être complétés librement
 - il est possible d’ajouter des pièces jointes
 
-La difficulté c’est qu’il faut utiliser l’[encodage-pourcent](encodage-pourcent).
+La difficulté c’est qu’il faut utiliser l’[encodage-pourcent](https://fr.wikipedia.org/wiki/Encodage-pourcent).
 C’est facile avec l’outil mailtolink.me, mais plus difficile (ou franchement pénible) à la main.
 
 ## Pourquoi les formulaires de contact posent problème
