@@ -1,6 +1,6 @@
 ---
 title: 3 remarques avec l’arrivée d’AI Overviews en Suisse
-description: 
+description: "Google déploie ses AI Overviews en Suisse et l’impact sur la navigation en ligne sera majeur: sur les liens, sur la navigation et sur la recherche."
 date: 2025-03-31
 ---
 
