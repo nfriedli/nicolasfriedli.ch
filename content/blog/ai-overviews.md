@@ -1,7 +1,7 @@
 ---
 title: 3 remarques avec l’arrivée d’AI Overviews en Suisse
 description: 
-date: 2025-03-27
+date: 2025-03-31
 ---
 
 Google déploie ses AI Overviews en Suisse et l’impact sur la navigation en ligne sera majeur.
@@ -35,7 +35,7 @@ Je donne quelques conseils pratiques dans [Conseils d’utilisation des QR code
 
 ### Navigation et architecture d’information
 
-Si les liens à l’interieur du contenu de la page sont toujours les plus forts, les autres outils ne navigtations comptent aussi.
+Si les liens à l’interieur du contenu de la page sont toujours les plus forts, les autres outils de navigtations comptent aussi.
 
 Les outils qui permettent de se repérer dans le site sont connus:
 
