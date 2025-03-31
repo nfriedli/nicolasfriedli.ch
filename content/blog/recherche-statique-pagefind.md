@@ -25,7 +25,7 @@ Alors que la règle [Opquast 165](https://checklists.opquast.com/fr/assurance-q
 
 ## Présentation de PageFind
 
-[PageFind](https://pagefind.app/) est conçu pour ajouter une recherche interne aux sites statiques: 
+[PageFind](https://pagefind.app/) est conçu pour ajouter une recherche interne aux sites statiques:
 
 - il analyse toutes les pages générées (en local) pour créer un index
 - il génère le code nécessaire pour l’affichage et la recherche côté client

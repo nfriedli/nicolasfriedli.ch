@@ -29,7 +29,7 @@ En fonction de la réalité du bug, il faudra renvoyer les internautes ailleurs.
 
 ### Faiblesse des infrastructures
 
-**Les réseaux sont affaiblis.** Une grande panne électrique, une inondation ou un ouragan mettent à mal les réseaux. Les internautes consulteront le web avec un faible débit, en grand nombre sur les antennes relais encore fonctionnelles. 
+**Les réseaux sont affaiblis.** Une grande panne électrique, une inondation ou un ouragan mettent à mal les réseaux. Les internautes consulteront le web avec un faible débit, en grand nombre sur les antennes relais encore fonctionnelles.
 
 La légereté du site sera un critère déterminant pour le rendre accessible dans de mauvaises conditions. Un **site simple et léger** à afficher videra moins rapidement les batteries des utilisateurs et utilisatrices qui peinent à recharger leurs téléphones.
 
@@ -67,7 +67,6 @@ Quand une très forte affluence est prévisible, plutôt que de remplacer le sit
 
 Je travaille généralement avec Hugo, mais tous les générateurs de sites statiques peuvent convenir, à condition d’un **résultat léger**. La page peut aussi être créée à la main, dans un éditeur de texte.
 
-
 ## Exemple de réalisation
 
 Pour une ville suisse qui prenait ses précaution suite aux incertitudes énergétiques suite à l’invasion russe en Ukraine, j’ai élaboré un site de secours. Avec les servicess de la ville, nous avons pris le temps, paradoxalement, de **ne pas travailler dans l’urgence**.
@@ -87,5 +86,3 @@ Quand c’est nécessaire, le site officiel de la ville est basculé sur le site
 ----
 
 Je dispose d’une version [Hugo](https://gohugo.io/) du site d’urgence de Max Böck qui peut être déployée très rapidement.
-
-

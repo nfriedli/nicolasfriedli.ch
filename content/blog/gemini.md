@@ -27,7 +27,7 @@ Mais dès que l’on entre dans les détails, ça devient complexe à vulgariser
 
 ## Présentation de Gemini
 
-Pour comprendre techniquement Gemini, il faut se rendre à l’adresse: 
+Pour comprendre techniquement Gemini, il faut se rendre à l’adresse:
 
 [gemini: //geminiprotocol.net/docs/specification.gmi](gemini://geminiprotocol.net/docs/specification.gmi)
 
@@ -39,7 +39,7 @@ Une adresse qui commence par `gemini://`, ce n’est pas fait pour un navigateur
 Dans Firefox, Safari ou Chrome, il faut choisir une version web du site.
 Dans le cas présent, cette version `https://` existe:
 
-https://geminiprotocol.net/docs/specification.gmi
+<https://geminiprotocol.net/docs/specification.gmi>
 
 Et là, un site apparaît.
 Mais pas besoin de le lire pour le moment.

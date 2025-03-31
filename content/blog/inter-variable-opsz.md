@@ -40,7 +40,7 @@ Pour obtenir la variation tant souhaitée, je déclare la police avec `font-face
   font-weight: 100 900;
   src: local("Inter Variable Italic");  /* nom local de la police */
 }
-``` 
+```
 
 **Cette déclaration ne fonctionne pas dans Chrome pour Windows.**
 

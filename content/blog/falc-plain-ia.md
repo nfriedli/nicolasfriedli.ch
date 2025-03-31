@@ -66,7 +66,7 @@ Dans le domaine du web, je considère que l’accessibilité a au moins 4 compo
 
 Mes recherches sont en cours suite à la demande d’une administration pour la simplification de certains contenus administratifs.
 
-Je ne parle pas ici des questions de confidentialité, des questions écologiques, des problèmes éthiques, etc. 
+Je ne parle pas ici des questions de confidentialité, des questions écologiques, des problèmes éthiques, etc.
 
 - La qualité du travail dépend de qualité des demandes adressées (prompts).
   Je propose quelques pistes de prompts.

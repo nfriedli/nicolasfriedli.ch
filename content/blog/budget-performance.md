@@ -90,7 +90,6 @@ Dans chaque catégorie, il est possible de spécifier une ou plusieurs valeurs.
 
 Il est possible de créer un budget JSON simplifié pour attaquer le sujet et faire ses premiers tests:
 
-
 ```
 [
   {
@@ -157,7 +156,7 @@ Il légitime les refus des équipes web ou permet de proposer des arbitrages con
 
 ## Rapport aux prestataires externes
 
-Troisièmement, travailler avec un budget de performance facilite la relation avec une agence web. 
+Troisièmement, travailler avec un budget de performance facilite la relation avec une agence web.
 
 Un simple fichier `budget.json` permet:
 

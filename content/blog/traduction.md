@@ -9,8 +9,6 @@ draft: true
 
 L’accessibilité, c’est la traduction concrète des affirmations d’accès à son site pour tous et toutes.
 
-
-
 ## Architecture d’information
 
 L’architecture d’information, c’est traduire un langage interne pour le rendre accessible aux internautes.

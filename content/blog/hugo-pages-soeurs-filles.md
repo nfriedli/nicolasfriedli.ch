@@ -20,12 +20,11 @@ Des codes plus évolués sont disponibles dans certaines de [mes dépôts GitHub
 ## *Shortcode* ou *partial*
 
 La distinction entre les 2 doit être claire pour vous avant de vous lancer.
-Si ce n’est pas le cas, il ne vaut pas la peine d’aller plus loin. 
+Si ce n’est pas le cas, il ne vaut pas la peine d’aller plus loin.
 Mieux vaut lire la documentation d’Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes/) et [Partial templates](https://gohugo.io/templates/partial/).
 
 Un *shortcode* est appelé **dans la source de la page en Markdown**, avec un code de ce type, disponible pour les rédacteurs et rédactrices:
   
-
 ```
 {{</* sisters */>}}
 ```

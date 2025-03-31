@@ -60,6 +60,7 @@ Sur le serveur `frdl.ch`, je pourrais créer:
 prenom.nom@frdl.ch      <- mon adresse
 libido.diese@frdl.ch    <- un alias
 ```
+
 Cela signifie que, avant de recevoir un courrier papier ou mail:
 
 - dans la vie physique, je dois créer un autocollant et l’apposer sur ma boîte aux lettres
@@ -188,7 +189,8 @@ Par exemple, pour envoyer des sa candidature à un emploi précis:
 
 ```
 postulation237@frdl.ch
-``` 
+```
+
 Une fois le délai passé cet alias est détruit.
 
 Alors que qu’avec les adresses en `+`, l’adresse originale est toujours dévoilée.
@@ -197,6 +199,7 @@ Pour un même type d’usage:
 ```
 rh+postulation237@frdl.ch 
 ```
+
 D’une part l’adresse d’origine est dévoilée (`rh@frdl.ch`), d’autre part l’alias n’est pas désactivable une fois le délai passé et tous les messages envoyés à cette adresse arriveront bien dans la boîte des ressources humaines.
 
 Un alias classique permet aussi d’anonymiser l’adresse de destination.

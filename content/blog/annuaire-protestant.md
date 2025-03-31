@@ -66,8 +66,6 @@ En JSON, cela se présente ainsi:
 
 Ensuite, une pondération de ces 3 taxonomies permet d’afficher une liste de suggestions, limitée à 5 sites. **Avec une telle méthode, j’espère faire émerger des propositions de mise en relations auxquelles je ne penserais pas spontanément.** Et j’espère aussi pouvoir classer beaucoup de sites sans m’égarer dans l’élaboration de menus complexes (et difficiles à maintenir).
 
-
-
 ## Faciliter le partage de liens
 
 Même si j’ai découvert des sites par des liens sur d’autres, le maillage du protestantisme réformé francophone reste lacunaire. Il me semble que theologique.ch est une esquisse de solution simple et efficace.

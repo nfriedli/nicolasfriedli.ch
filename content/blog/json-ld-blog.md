@@ -14,7 +14,7 @@ Les données structurées permettent de simplifier le travail des moteurs de rec
 
 JSON-LD (JSON for Linking Data) est un format recommandé pour intégrer des données structurées dans une page HTML. Comme son nom l’indique, il utilise la syntaxe JSON (JavaScript Object Notation) répandue dans le domaine du web.
 
-En HTML, des métadonnées existent déjà, mais elles sont des balises simples, sans structure. Par exemple: 
+En HTML, des métadonnées existent déjà, mais elles sont des balises simples, sans structure. Par exemple:
 
 ```
 <meta name="author" content="Nicolas Friedli">
@@ -90,7 +90,7 @@ Mais ce qui est vraiment intéressant, c’est de lier la notion d’auteur au s
 }
 ```
 
-En français: 
+En français:
 
 > Ce site s’appelle «Annuaire protestant», et aussi «theologique.ch». Il est disponible à l’adresse `https://theologique.ch/`. Il a pour auteur Nicolas Friedli, celui du site `https://nicolasfriedli.ch/`.
 
@@ -168,7 +168,6 @@ Donc, pour ne l’afficher que sur la page d’accueil, ce sera quelque chose co
 ```
 
 Tous les détails sont toujours disponibles dans les [sources du site sur GitHub](https://github.com/nfriedli/nicolasfriedli.ch/).
-
 
 ## Pour les billets de blog
 

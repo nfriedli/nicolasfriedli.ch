@@ -146,4 +146,4 @@ En d’autres termes, en tant que responsable de site, je ne peux pas proposer, 
 - en mode sombre par défaut
 - en mode clair si et seulement si l’internaute a fait un choix explicite
 
-Pour disposer d’un mode sombre par défaut avec une possibilité de passer au mode clair sur demande, il faudra obligatoirement passer par un petit développement (par exemple le *Color Theme Switcher* mentionné plus haut). 
+Pour disposer d’un mode sombre par défaut avec une possibilité de passer au mode clair sur demande, il faudra obligatoirement passer par un petit développement (par exemple le *Color Theme Switcher* mentionné plus haut).

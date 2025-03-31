@@ -137,7 +137,7 @@ Sur les systèmes récents, c’est l’excellente police San Francisco qui sera
 Elle est élégante et dispose d’une large gamme de graisses et des tailles optiques.
 Franchement, il n’y a pas à hésiter à utiliser:
 
-``` 
+```
 font-family: ui-sans-serif, sans-serif;
 ```
 
@@ -164,7 +164,7 @@ Tout le texte est sans empattement, sauf les citations et les titres avec empatt
 
 Pour Android, Roboto est toujours disponible.
 
-Elle s’affiche par les directives `system-ui` ou `sans-serif`, mais pas par `Roboto`! 
+Elle s’affiche par les directives `system-ui` ou `sans-serif`, mais pas par `Roboto`!
 Pour Linux, Roboto est presque toujours disponible et Noto Sans aussi.
 
 Donc, pour le corps du texte:

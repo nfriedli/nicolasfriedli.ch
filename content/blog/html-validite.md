@@ -33,7 +33,6 @@ Tolérance bievenue, mais
 
 Les éditeurs comme celui de WordPress ou le Markdown sont plutôt bons.
 
-
 ## Respect de la DTD
 
 La DTD (document type definition) exprime les règles de grammaire du document.
@@ -61,7 +60,6 @@ Pour reprendre Tim Berners-Lee:
 
 Les éditeurs comme celui de WordPress ou le Markdown sont moyens, mais des outils existent.
 
-
 ## Validité sémantique
 
 Premier exemple douteux:
@@ -69,14 +67,15 @@ Premier exemple douteux:
 ```
 <strong><em>code valide</em></strong>
 ```
+
 Parce que `strong` signifie «forte mise en évidence» alors que `em` signifie «mise en évidence».
 
 Mais rien ne dit que `strong` soit être **gras**, respectivement que `em` soit de l’*italique*.
 
 Mais c’est du raffinement.
 
-En revanche, c’est différent pour les listes à puces. 
-Un liste, c’est 
+En revanche, c’est différent pour les listes à puces.
+Un liste, c’est
 
 - liste
 - à
@@ -91,7 +90,7 @@ Un liste, c’est
 ```
 
 1. liste
-1. avec 
+1. avec
 1. étapes
 
 ```
@@ -116,7 +115,7 @@ sauts
 
 Les éditeurs comme celui de WordPress ou le Markdown ne valident rien!
 
-Tolérance bienvenue, mais... 
+Tolérance bienvenue, mais...
 
 Parfois simplement incompréhensible. A11Y, etc.
 

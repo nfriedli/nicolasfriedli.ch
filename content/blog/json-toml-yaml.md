@@ -16,7 +16,7 @@ Avec Hugo, il est possible d’utiliser des fichiers de configuration et des mé
 
 Un entête d’article, défini en JSON car entre `{ }`:
 
-``` 
+```
 { 
   "title" = "Enseignements du framework Diátaxis" 
   "description" = "Conçu par un spécialiste de documentation technique, le cadre de travail Diátaxis permet d’améliorer la qualité de ses pages web dans d’autres domaines que le code logiciel." 
@@ -25,7 +25,7 @@ Un entête d’article, défini en JSON car entre `{ }`:
     "documentation" 
   ]
 }
-``` 
+```
 
 ### JSON pour fichier de configuration
 
@@ -96,14 +96,14 @@ Le format JSON ne permet pas de commentaires et j’estime que c’est probléma
 
 Un entête d’article, défini en TOML car entre `+++`:
 
-``` 
+```
 +++
 title = "Enseignements du framework Diátaxis"
 description = "Conçu par un spécialiste de documentation technique, le cadre de travail Diátaxis permet d’améliorer la qualité de ses pages web dans d’autres domaines que le code logiciel."
 date = 2024-03-25
 categories = [ "documentation" ]
 +++
-``` 
+```
 
 ### TOML pour fichier de configuration
 
@@ -162,7 +162,7 @@ Grand avantage, le système de tables, entre `[ ]`, qui ne permet pas de revenir
 
 Un entête d’article, défini en YAML car entre `---`:
 
-``` 
+```
 ---
 title: Enseignements du framework Diátaxis
 description: Conçu par un spécialiste de documentation technique, le cadre de travail Diátaxis permet d’améliorer la qualité de ses pages web dans d’autres domaines que le code logiciel.
@@ -170,7 +170,7 @@ date: 2024-03-25
 categories:
   - documentation
 ---
-``` 
+```
 
 ### YAML pour fichier de configuration
 

@@ -88,7 +88,7 @@ Avez-vous déjà remarqué que, bien souvent, les dépenses dans le domaine du w
 Puis on prévoit 5000 pour les années suivantes.
 Soit 70000 sur 5 ans.
 
-Nombreux sont celles et ceux qui n’ont pas vu venir le responsive design, les réseaux sociaux, les intelligences artificielles, etc. 
+Nombreux sont celles et ceux qui n’ont pas vu venir le responsive design, les réseaux sociaux, les intelligences artificielles, etc.
 Et qui traînent durant des années des sites complètement dépassés.
 Ce n’est pas un jugement, juste une observation.
 Le plan a échoué rapidement, mais il n’y avait plus d’argent au programme pour des évolutions nécessaires.

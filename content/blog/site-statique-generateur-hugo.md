@@ -28,8 +28,8 @@ Un site statique envoie au client **les contenus exacts qui existent déjà sur 
 
 - La **sécurité** d’un site statique est assurée. Il n’offre pas d’accès à une interface d’administration distante, il ne stocke pas de données, etc.
 
-- Finalement, un site statique est **portable**. 
-Sa migration d’un serveur à un autre se résume à la copier de fichiers. 
+- Finalement, un site statique est **portable**.
+Sa migration d’un serveur à un autre se résume à la copier de fichiers.
 En cas de problème, c’est une démarche facile et rapide; le temps étant proportionnel à la masse de données à copier.
 
 Mais avant de mettre son site sur un serveur, il faut le créer. Passons au point suivant.

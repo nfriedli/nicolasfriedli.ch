@@ -71,4 +71,4 @@ Depuis que j’ai écouté et lu Procida, je vois souvent les choses sous un aut
 
 ----
 
-Je suis convaincu que derrière le paradoxe de l’utilisation d’un outil technique pour des contenus non techniques se cachent pas mal de pistes pour améliorer l’efficacité des publications sur le web. **Je suis intéressé pour tous vos retours sur Diátaxis pour des documentations généralistes.** 
+Je suis convaincu que derrière le paradoxe de l’utilisation d’un outil technique pour des contenus non techniques se cachent pas mal de pistes pour améliorer l’efficacité des publications sur le web. **Je suis intéressé pour tous vos retours sur Diátaxis pour des documentations généralistes.**

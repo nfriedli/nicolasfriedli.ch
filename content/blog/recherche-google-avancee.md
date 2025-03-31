@@ -94,7 +94,7 @@ Ainsi, si je veux recherche *Nicaulas*, j’entrerai:
 
     "Nicaulas"
 
-Et là, malgré les guillemets, Google me propose des résultats pour *Nicolas*. 
+Et là, malgré les guillemets, Google me propose des résultats pour *Nicolas*.
 Je peux ensuite forcer la recherche avec le lien proposé: *Essayez avec l’orthographe "nicaulas"*.
 
 ### Combinaisons d’opérateurs logiques
@@ -187,7 +187,7 @@ Vous avez compris:
 - sur un site «en principe suisse» (en `.ch`)
 - mais pas sur les sites de l’EREN ou de l’EERV
 
-Ajoutez une requête de ce type dans les [alertes Google](https://www.google.ch/alerts?hl=fr), puis faites-vous envoyer un mail (ou abonnez-vous par RSS)! 
+Ajoutez une requête de ce type dans les [alertes Google](https://www.google.ch/alerts?hl=fr), puis faites-vous envoyer un mail (ou abonnez-vous par RSS)!
 C’est redoutablement efficace.
 
 ----

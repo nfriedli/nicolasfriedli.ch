@@ -141,7 +141,7 @@ weight = 80
 
 La [version courante](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/hugo.toml), qui peut différer des exemples de cette page, est toujours disponible chez GitHub.
 
-## Pas de thème!
+## Pas de thème
 
 Celles et ceux qui connaissent un peu Hugo remarqueront que mon fichier de configuration n’utilise pas de thème:
 
