@@ -16,7 +16,7 @@ Suisse
 
 [hello+2025@nicolasfriedli.ch](mailto:hello+2025@nicolasfriedli.ch)  
 [+41 32 841 48 74](tel:+41328414874) (urgences uniquement)  
-[+41 79 344 33 82](sms:+41793443382) (SMS)
+[+41 79 344 33 82](sms:+41793443382) (Signal ou SMS)
 
 IDE: CHE-469.715.163
 
