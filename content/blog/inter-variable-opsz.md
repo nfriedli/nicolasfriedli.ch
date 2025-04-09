@@ -2,6 +2,7 @@
 title: Inter variable avec taille optique
 description: L’astuce pour obtenir la variation de taille optique (opsz) dans son navigateur avec une polices locale. Avec exemple de code et proposition de font stack.
 date: 2025-02-04
+lastMod: 2025-04-09
 categories:
 - polices
 ---
@@ -20,7 +21,8 @@ Si vous souhaitez une solution qui marche partout en 2025, il faut passer par un
 
 ## Inter avec `font-face`
 
-Pour obtenir la variation tant souhaitée, je déclare la police avec `font-face`, comme si c’était une police distante:
+Pour obtenir la variation tant souhaitée, je déclare la police avec `font-face`, comme si c’était une police distante.
+Le truc, c'est d'utiliser `local(...)`:
 
 ```
 :root {
@@ -42,11 +44,11 @@ Pour obtenir la variation tant souhaitée, je déclare la police avec `font-face
 }
 ```
 
-**Cette déclaration ne fonctionne pas dans Chrome pour Windows.**
+**Mais cette déclaration ne fonctionne pas dans Chrome pour Windows!**
 
 ## Proposition de *font stack*
 
-Désormais, je peux créer une *font stack* optimale (les familles génériques n’ont pas de guillemets):
+Désormais, je peux créer une *font stack* optimale (les familles génériques n’ont pas de guillemets dans cette liste):
 
 ```
 html {
@@ -65,6 +67,6 @@ Vous pouvez ajouter `"Arial"` avant `system-ui` si vous souhaitez éviter autant
 
 Sans surprise, je vous invite à [installer Inter](https://rsms.me/inter/download/).
 Soit en version variable, soit en version statique.
-La version statique est plus fiable et je vous conseiller d’installer les 18 fichiers.
+La version statique est plus fiable et je vous conseille d’installer les 18 fichiers.
 
 Et sans surprise non plus, au vu des problèmes d’implémentation, ces propositions resteront un simple exercice de style.
