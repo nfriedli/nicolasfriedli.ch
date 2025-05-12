@@ -100,7 +100,7 @@ Avec un saut de ligne.
 {{</* /linkmail */>}}
 ```
 
-Pour effectuer la transformation, je crée `layouts/shortcodes/linkmail.html`:
+Pour effectuer la transformation, je crée `layouts/_shortcodes/linkmail.html`:
 
 ```
 <a href="mailto:{{- .Get "to" -}}?subject={{- .Get "subject" -}}&body={{- strings.TrimSpace .Inner -}}">

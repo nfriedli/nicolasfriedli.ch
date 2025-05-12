@@ -46,7 +46,7 @@ Ils ont un **inconvénient**: les variations au cas par cas ne sont pas triviale
 
 ### Affichage des pages filles avec un *shortcode*
 
-Un fichier dans `/layouts/shortcodes/subpages.html`:
+Un fichier dans `/layouts/_shortcodes/subpages.html`:
 
 ```
 <ul>
@@ -63,7 +63,7 @@ Ou ne jamais utiliser ce *shortcode* quand il n’y a pas de filles.
 
 ### Affichage des pages filles avec un *partial*
 
-Un fichier dans `/layouts/partials/subpages.html`:
+Un fichier dans `/layouts/_partials/subpages.html`:
 
 ```
 <ul>
@@ -82,7 +82,7 @@ Comme il n’est pas certain que des pages filles existent, il **faut** ajouter 
 
 ### Affichage des pages sœurs avec un *shortcode*
 
-Un fichier dans `/layouts/shortcodes/sisters.html`:
+Un fichier dans `/layouts/_shortcodes/sisters.html`:
 
 ```
 {{ with page.Parent }}
@@ -103,7 +103,7 @@ Je conseille d’ajouter des conditions (par exemple pour ne pas mettre un lien 
 
 ### Affichage des pages sœurs avec un *partial*
 
-Un fichier dans `/layouts/partials/sisters.html`:
+Un fichier dans `/layouts/_partials/sisters.html`:
 
 ```
 {{ with .Parent }}
@@ -129,7 +129,7 @@ Je conseille d’ajouter des conditions (par exemple pour ne pas mettre un lien 
 
 ### Affichage de la page mère avec un *shortcode*
 
-Un fichier dans `/layouts/shortcodes/mother.html`:
+Un fichier dans `/layouts/_shortcodes/mother.html`:
 
 ```
 {{ with page.Parent }}
@@ -143,7 +143,7 @@ L’utilisation de `with` ne provoquera l’affichage que si une page mère exis
 
 ### Affichage de la page mère avec un *partial*
 
-Un fichier dans `/layouts/partials/mother.html`:
+Un fichier dans `/layouts/_partials/mother.html`:
 
 ```
 {{ with .Parent }}

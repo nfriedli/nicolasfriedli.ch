@@ -51,7 +51,7 @@ Comme je ne souhaite pas la recherche sur toutes les pages, j’ai créé un sho
 Je pourrais très bien l’appeler ici avec un simple `{{</* search */>}}`.
  Sur ce site, j’ai choisi de l’intégrer dans une page dédiée à la recherche.
 
-Le code de `layout/shortcodes/search.html` est une reprise la proposition de [Getting Started with Pagefind](https://pagefind.app/docs/) avec quelques [options de configuration](https://pagefind.app/docs/ui/):
+Le code de `layout/_shortcodes/search.html` est une reprise la proposition de [Getting Started with Pagefind](https://pagefind.app/docs/) avec quelques [options de configuration](https://pagefind.app/docs/ui/):
 
 ```
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
