@@ -17,11 +17,6 @@ copyright = "Creative Commons BY-SA"
 [build]
 writeStats = false
 
-[[cascade]]
-layout = "article"
-[cascade._target]
-path = "/*/**"
-kind = "page"
 
 [frontmatter]
 date = ["date", ":git"]
