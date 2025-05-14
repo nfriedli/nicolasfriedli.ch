@@ -18,10 +18,10 @@
         {{ partialCached "head/json-ld" . }}
     {{ end }}
     {{ block "json-ld" . }}{{ end }}
-    {{ partialCached "head/plausible" . }}
+    {{ partial "head/plausible" . }}
     {{ partialCached "head/webmentions" . .IsHome }}
-    {{ block "head" . }}{{ end }}
-    {{ template "_internal/opengraph.html" . }}
+    {{ partial "opengraph.html" . }}
+    {{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ end }}
 </head>
 
 <body>
