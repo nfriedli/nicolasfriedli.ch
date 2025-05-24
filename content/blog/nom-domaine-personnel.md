@@ -2,6 +2,7 @@
 title: "Nom de domaine personnel: un atout pour vos QR codes, Mastodon & Bluesky"
 description: Posséder un nom de domaine personnel garantit une identité numérique pérenne et indépendante. Découvrez comment l’utiliser intelligemment pour vos QR codes, sur Mastodon & sur Bluesky.
 date: 2025-02-09
+lastMod: 2025-05-24
 categories:
 - qr
 aliases:
@@ -15,6 +16,8 @@ Il permet d’assurer la pérennité de son identité numérique, d’être faci
 Ce billet explore trois usages concrets d’un nom de domaine: QR codes, Mastodon et Bluesky.
 
 Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un [blog personnel en 2025]({{% relref "blog-2025" %}}).
+
+**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet n'existe plus.**
 
 ## Utilisation de QR codes
 
@@ -85,7 +88,3 @@ Chaque compte donne droit à une adresse mail avec des alias et la [possibilité
 Et aussi à un petit hébergement qui peut être suffisant pour quelques pages de présentation.
 
 Et dans le doute, c’est simplement `prenomnom.ch`.
-
-----
-
-Je ne compte pas utiliser les comptes Mastodon et Bluesky créés pour faire quelques tests.

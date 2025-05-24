@@ -23,7 +23,7 @@ IDE: CHE-469.715.163
 **Merci de privilégier le mail.**
 Je ne réponds pas aux prises de contact sur WhatsApp
 
-Je ne suis pas présent activement sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Mastodon ou Twitter (X).
+Je ne suis pas présent sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Mastodon ou Twitter (X).
 Et j’ai une présence passive sur Facebook pour administrer 2 pages.
 J’en dis quelques mots dans [Mes règles d’utilisation des réseaux sociaux]({{% relref "reseaux-sociaux-regles" %}}).
 
