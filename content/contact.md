@@ -9,19 +9,16 @@ Toutes les informations utiles pour me proposer un mandat, m’employer, me pose
 
 ## Coordonnées
 
-Nicolas Friedli  
-Rue du Château 3  
-2013 Colombier (NE)  
+Nicolas Friedli\
+Rue du Château 3\
+2013 Colombier (NE)\
 Suisse
 
-[hello+2025@nicolasfriedli.ch](mailto:hello+2025@nicolasfriedli.ch)  
-[+41 32 841 48 74](tel:+41328414874) (urgences uniquement)  
-[+41 79 344 33 82](sms:+41793443382) (Signal ou SMS)
+**[hello+2025@nicolasfriedli.ch](mailto:hello+2025@nicolasfriedli.ch)**\
+[+41 79 344 33 82](tel:+41793443382)\
+[+41 32 841 48 74](tel:+41328414874) (urgences uniquement)
 
 IDE: CHE-469.715.163
-
-**Merci de privilégier le mail.**
-Je ne réponds pas aux prises de contact sur WhatsApp
 
 Je ne suis pas présent sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Mastodon ou Twitter (X).
 Et j’ai une présence passive sur Facebook pour administrer 2 pages.
