@@ -17,7 +17,7 @@ Ce billet explore trois usages concrets d’un nom de domaine: QR codes, Mastod
 
 Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un [blog personnel en 2025]({{% relref "blog-2025" %}}).
 
-**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet n'existe plus.**
+**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet n'existent plus.**
 
 ## Utilisation de QR codes
 
