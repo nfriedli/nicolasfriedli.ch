@@ -51,7 +51,7 @@ De manière un peu caricaturale, il existe 2 types de contenus:
 - les contenus réflexifs: la mise en récit de la construction du site lui-même (réflexions sur les choix éditoriaux, les évolutions techniques, etc.)
 
 Mais qui s’intéresse un peu à la publications sur le web se rendra rapidement compte que c’est beaucoup plus compliqué.
-Il vaut la peine de relire [Enseignements du framework Diátaxis]{{% relref "diataxis-introduction" %}} et sortir de la caricature.
+Il vaut la peine de relire [Enseignements du framework Diátaxis]({{% relref "diataxis-introduction" %}}) et sortir de la caricature.
 
 Très souvent, les contenus réflexifs sur des projets web permettent de beaucoup mieux choisir ses outils.
 Dans ce cas, j’ai besoin du métadiscours sur les choix opérés, le *pourquoi*.
