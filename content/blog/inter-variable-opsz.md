@@ -22,7 +22,7 @@ Si vous souhaitez une solution qui marche partout en 2025, il faut passer par un
 ## Inter avec `font-face`
 
 Pour obtenir la variation tant souhaitée, je déclare la police avec `font-face`, comme si c’était une police distante.
-Le truc, c'est d'utiliser `local(...)`:
+Le truc, c’est d’utiliser `local(...)`:
 
 ```
 :root {
