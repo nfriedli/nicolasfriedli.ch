@@ -32,12 +32,12 @@ Plusieurs problèmes concernent directement la problématique de ce billet, nota
 - la mauvaise gestion du cache (des fichier sont rechargés trop souvent)
 - des images sont peu optimisées
 
-**En fait, c’est catastrophique: 2 versions de chaque image sont chargées simultanément!**
+En fait, c’est catastrophique: 2 versions de chaque image sont chargées simultanément.
 L’image est chargée en version lourde (sans être affichée) et version légère (qui est affichée).
 Quel gâchis!
-**Au final, la version avec les images non comprimées (qui n’est soi-disant pas éco-machin-chose) est plus légère (1682ko) que la version éco-truc (2448ko)!**
+**Au final, la version avec les images non comprimées (qui n’est soi-disant pas éco-machin-chose) est plus légère (1682ko) que la version éco-truc (2448ko).**
 
-En conclusion, si vous voulez faire un geste écologique, choisissez l’option *Afficher les images sans compression*!
+En conclusion, si vous voulez faire un geste écologique, choisissez l’option *Afficher les images sans compression*.
 Le discours, aussi dithyrambique soit-il, ne fait pas le site.
 Ici, ce n’est pas écologique, c’est 100% *bullshit*.
 
