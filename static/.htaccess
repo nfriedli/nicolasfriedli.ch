@@ -4,12 +4,9 @@ DefaultLanguage fr-ch
 RewriteEngine On
 
 # Renvoi vers la version https et sans www y compris pour domaines synonymes
-
-# On désactive le temps que Search Console desindexe les anciens sites
-
-# RewriteCond %{HTTPS} !=on [OR]
-# RewriteCond %{HTTP_HOST} !^nicolasfriedli\.ch$ [NC]
-# RewriteRule ^ https://nicolasfriedli.ch/ [R=301,L]
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^nicolasfriedli\.ch$ [NC]
+RewriteRule ^ https://nicolasfriedli.ch/ [R=301,L]
 
 # Redirige les URL avec paramètres vers la même URL sans les paramètres
 RewriteCond %{QUERY_STRING} !^$
