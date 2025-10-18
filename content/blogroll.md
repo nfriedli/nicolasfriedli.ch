@@ -5,8 +5,8 @@ menu: main
 weight: 30
 ---
 
-Une sélection de sites personnels, disposant d’un flux RSS et avec des publications durant la dernière année. 
-Ce sont des sites que je lis dans mon agrégateur. 
+Une sélection de sites personnels, disposant d’un flux RSS et avec des publications durant la dernière année.
+Ce sont des sites que je lis dans mon agrégateur.
 Dans l’Antiquité, on appelait une telle liste de liens un *blogroll*.
 
 
@@ -54,7 +54,6 @@ Dans l’Antiquité, on appelait une telle liste de liens un *blogroll*.
 
 ## Blogs protestants
 
-- [Olivier Bauer](https://olivierbauer.org/)
 - [Laure Devaux Allisson](https://lauredevaux.ch/)
 - [Diane Friedli](https://dianefriedli.ch/)
 - [Elio Jaillet](https://eliojaillet.ch/)
