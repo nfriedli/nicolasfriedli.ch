@@ -3,11 +3,19 @@ DefaultLanguage fr-ch
 
 RewriteEngine On
 
-# Renvoi vers la version https et sans www
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^www. [NC]
-RewriteRule ^(.*)$ https://nicolasfriedli.ch/$1 [R=301,L]
+# Renvoi vers la version https et sans www y compris pour domaines synonymes
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} !^nicolasfriedli\.ch$ [NC]
+RewriteRule ^ https://nicolasfriedli.ch/ [R=301,L]
 
+# Redirige les URL avec paramètres vers la même URL sans les paramètres
+RewriteCond %{QUERY_STRING} !^$
+RewriteRule ^(.*)$ /$1? [R=301,L]
+
+# Gestion 404
+ErrorDocument 404 /404.html
+# Redirection du flux RSS
+Redirect 301 /feed/ /index.xml
 
 # Pour servir des fichiers précompressés en statique
 # https://drupal.stackexchange.com/questions/215639/how-to-modify-htaccess-to-serve-brotli-compressed-static-assets-over-gziped-one
@@ -21,10 +29,9 @@ Header always set X-XSS-Protection "1;mode=block"
 Header always set Referrer-Policy "same-origin"
 Header always set X-Permitted-Cross-Domain-Policies "none"
 
-# Gestion 404
-ErrorDocument 404 /404.html
-# Redirection du flux RSS
-Redirect 301 /feed/ /index.xml
+# headers pour le cache
+Header unset Pragma
+Header unset Last-Modified
 
 # Cache général
 <filesMatch ".(jpg|jpeg|png|gif|ico|svg|webp|avif)$">
