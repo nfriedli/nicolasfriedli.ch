@@ -50,3 +50,7 @@ toLower = true
 [[related.indices]]
 name = "categories"
 weight = 80
+
+[services]
+[services.rss]
+limit = 10
