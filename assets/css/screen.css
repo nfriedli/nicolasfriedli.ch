@@ -29,7 +29,15 @@ picture {
 /* fin du reset */
 
 html {
-    font-size: 1.0625rem;
+    font-size: 1rem;
+
+    @media (width > 60rem) {
+            font-size: 1.125rem;
+    }
+
+    @media (width > 100rem) {
+            font-size: 1.25rem;
+    }
 }
 
 html, body {
