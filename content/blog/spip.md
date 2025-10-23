@@ -11,7 +11,7 @@ Il n’est plus aussi populaire mais qu’importe.
 
 Pour des tests sur theologique.ch, j’ai réinstallé un SPIP tout frais.
 Même s’il est peu probable que je conserve ce site sous SPIP, je vous explique pourquoi il reste intéressant en 2025.
-**theologique.ch n'existe plus; nicolasfriedli.ch est ma présence en ligne.**
+**theologique.ch n’existe plus; nicolasfriedli.ch est ma présence en ligne.**
 
 En fin de billet, je vous donnerai aussi quelques «problèmes» qui m’empêchent de l’utiliser plus souvent.
 

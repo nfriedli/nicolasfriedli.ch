@@ -2,11 +2,21 @@
 title: Recherche statique performante avec PageFind
 description: Ajoutez un moteur de recherche performant à votre site statique avec PageFind. Facile à intégrer, léger et sans services tiers, il est idéal pour Hugo et d’autres générateurs statiques.
 date: 2025-02-10
+lastMod: 2025-10-23
+categories:
+- recherche
 ---
 
 Un moteur de recherche peut améliorer l’expérience des internautes (UX) en offrant un accès rapide aux contenus d’un site.
 Pour les sites statiques, il faut soit coder une recherche côté client à la main, soit utiliser un service tiers comme Algolia.
 Ou alors on peut utiliser PageFind qui se distingue par sa facilité d’intégration et ses performances.
+
+**La recherche est très peu utilisée.
+Les résultats ne sont pas toujours concluants.
+Cette solution a été abandonnée pour ce site.
+Mais la méthode proposée ci-dessous reste valable.**
+
+
 
 ## Qualité web
 

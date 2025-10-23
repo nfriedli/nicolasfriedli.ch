@@ -1,14 +1,4 @@
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<script src="/pagefind/pagefind-ui.js"></script>
-<div id="search"></div>
-<script>
-    window.addEventListener("DOMContentLoaded", (event) => {
-        new PagefindUI({
-            element: "#search",
-            pageSize: 10,
-            showSubResults: true,
-            showImages: false,
-            autofocus: true
-        });
-    });
-</script>
+<form method="get" id="search-google" action="https://www.google.com/search" target="_blank" style="margin-block: 1rem;">
+    <input type="hidden" name="sitesearch" value="nicolasfriedli.ch">
+    <input type="text" name="q" maxlength="255" value="" placeholder="Recherche Google" class="form-control" style="font-style: inherit; font-size: 1.44rem; padding: .2rem; width: 100%;">
+</form>

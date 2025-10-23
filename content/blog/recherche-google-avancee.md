@@ -5,6 +5,7 @@ date: 2024-12-05
 lastMod: 2025-03-31
 categories:
 - seo
+- recherche
 aliases: 
 - /blog/recherche-google-avancees/
 ---
