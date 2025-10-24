@@ -1,1 +1,1 @@
-hugo && rclone copy --progress --no-check-dest public/ infomaniak:nicolasfriedli.ch/
+hugo && rclone sync --progress public/ infomaniak:nicolasfriedli.ch/
