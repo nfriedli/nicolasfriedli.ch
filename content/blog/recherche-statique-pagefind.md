@@ -16,8 +16,6 @@ Les résultats ne sont pas toujours concluants.
 Cette solution a été abandonnée pour ce site.
 Mais la méthode proposée ci-dessous reste valable.**
 
-
-
 ## Qualité web
 
 La règle [Opquast 163](https://checklists.opquast.com/fr/assurance-qualite-web/le-site-propose-un-moteur-de-recherche-interne) est sans équivoque:

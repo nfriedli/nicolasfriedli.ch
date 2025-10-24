@@ -38,7 +38,7 @@ Elle propose un bel italique, avec notamment un f bien différent de la police d
 La lettre g est très particulière en version droite.
 Disponible en version variable pour la graisse et la largeur.
 
-À tester chez Omnibus-Type: https://www.omnibus-type.com/variable-fonts/#archivo
+À tester chez Omnibus-Type: <https://www.omnibus-type.com/variable-fonts/#archivo>
 
 ### Asap
 
@@ -46,7 +46,7 @@ Asap la particularité de ne pas varier en largeur quelle que soit la graisse ut
 Mais c’est bien une police proportionnelle; le i est plus étroit que le m, contrairement aux chasses fixes.
 Disponible en version variable pour la graisse et la largeur.
 
-C’est aussi une police d’Omnibus-Type: https://www.omnibus-type.com/variable-fonts/#asap
+C’est aussi une police d’Omnibus-Type: <https://www.omnibus-type.com/variable-fonts/#asap>
 
 ### Fira Sans ⭐
 
@@ -55,7 +55,7 @@ Elle n’est pas variable, mais disponible en 9 grasses différentes.
 Des versions condensée et très condensée sont disponibles.
 L’italique est magnifique.
 
-https://bboxtype.com/typefaces/FiraSans/
+<https://bboxtype.com/typefaces/FiraSans/>
 
 ### IBM Plex Sans ⭐
 
@@ -63,7 +63,7 @@ IBM Plex Sans fait partie de la grande famille IBM Plex, avec le version à empa
 C’est un excellent choix pour qui souhaite un souhaite un ensemble typographique complet et cohérent.
 Plusieurs assemblages sont possibles, par exemple le code en mono, les titres et les citations en serif et le corps du text en sans sérif.
 
-https://www.ibm.com/plex/
+<https://www.ibm.com/plex/>
 
 Autre famille complète intéressante: Source Sans 🧰, Source Serif & Source Code 🧰 par Adobe.
 Mais la logique des noms (numéro de version dans le nom, présence de «pro») les rend pénibles à utiliser dans une pile de polices.
@@ -78,9 +78,9 @@ La version 4 propose un italique très (trop?) différent du droit.
 Je vois de plus en plus de sites qui suggèrent Inter (et souvent Roboto) dans leur liste `font-style`, mais sans envoyer de fichiers sur vous ne l’avez pas.
 Donc c’est une priorité de l’installer pour éviter de tomber sur Arial.
 
-Pimp my Type propose une vidéo intéressante sur la version 4: https://pimpmytype.com/inter-v4/
+Pimp my Type propose une vidéo intéressante sur la version 4: <https://pimpmytype.com/inter-v4/>
 
-La page du créateur Rasmus Andersson permet de visualiser toutes les possibilités (font features): https://rsms.me/inter/
+La page du créateur Rasmus Andersson permet de visualiser toutes les possibilités (font features): <https://rsms.me/inter/>
 
 ### Montserrat 🧰 ⭐
 
@@ -89,7 +89,7 @@ Ou pour des texte courts en assez grande taille.
 Mais je serais heureux de la savoir installée sur beaucoup d’ordinateurs pour pouvoir l’appeler sans exiger un téléchargement.
 Comme c’est une des fontes les plus utilisés chez Google Fonts, ce serait une excellente nouvelle.
 
-https://github.com/JulietaUla/Montserrat
+<https://github.com/JulietaUla/Montserrat>
 
 ### Noto Sans 🧰
 
@@ -99,7 +99,7 @@ Noto Sans est une excellente police, sans grande originalité mais belle et effi
 Elle peut être accompagnée de Noto Serif, de Noto Sans Mono et même de jeux d’emojis colorés ou noir/blanc.
 À conseiller vivement si vous consultez des sites en alphabet non latin.
 
-https://fonts.google.com/noto
+<https://fonts.google.com/noto>
 
 ### Poppins ⭐
 
@@ -107,7 +107,7 @@ Poppins est une police géométrique bien équilibrée, particulièrement appré
 Elle taille un peu grand et large pour des longs textes.
 Elle est parfaite pour la titraille.
 
-https://www.fontshare.com/fonts/poppins
+<https://www.fontshare.com/fonts/poppins>
 
 ### Public Sans
 
@@ -115,7 +115,7 @@ Public Sans est une police inspirée de Libre Franklin et développée par le go
 Elle est neutre, moderne et fonctionne bien pour des interfaces web et du texte courant.
 C’est à mon avis un police sous-estimée (ou méconnue).
 
-https://public-sans.digital.gov/
+<https://public-sans.digital.gov/>
 
 ### Roboto 🧰 ⭐
 
@@ -124,7 +124,7 @@ Autant dire qu’elle est partout.
 C’est un peu la nouvelle Arial.
 Je vois de plus en plus de sites qui suggèrent Roboto (et souvent Inter) dans leur liste `font-style`, mais sans envoyer de fichiers sur vous ne l’avez pas.
 Donc c’est une priorité de l’installer pour éviter de tomber sur Arial.
-Elle est disponible en version variable et en version statique (avec 9 graisses) chez Google Fonts: https://fonts.google.com/specimen/Roboto
+Elle est disponible en version variable et en version statique (avec 9 graisses) chez Google Fonts: <https://fonts.google.com/specimen/Roboto>
 
 Je déconseille Roboto Flex qui est beaucoup trop complexe d’utilisation.
 
@@ -134,7 +134,7 @@ La police Ubuntu a été conçue pour le système d’exploitation Ubuntu.
 Elle est contemporaine et très lisible à l’écran.
 Je ne l’aime pas beaucoup... mais elle est listée dans des fonts stacks de référence.
 
-https://design.ubuntu.com/font
+<https://design.ubuntu.com/font>
 
 ## Avec empattement (`serif`)
 
@@ -144,7 +144,7 @@ Alegreya est des plus belles polices à empattement qui existe.
 Elle taille un peu petit, mais est très lisible avec une taille assez grande.
 L’italique est splendide et les ligatures fabuleuses.
 
-https://huertatipografica.com/en/fonts/alegreya-ht-pro
+<https://huertatipografica.com/en/fonts/alegreya-ht-pro>
 
 ### Fraunces ⭐
 
@@ -153,7 +153,7 @@ Elle se rapproche de Cooper Black, très à la mode pour la titraille.
 Mais elle est surtout étonnement efficace pour du texte.
 Une des premières polices à présenter un jeu de variations intéressant.
 
-https://fraunces.undercase.xyz/
+<https://fraunces.undercase.xyz/>
 
 ### Gelasio
 
@@ -162,7 +162,7 @@ Elle est surtout libre et gratuite, contrairement à l’excellente police de Ma
 Elle a l’avantage de proposer plus de graisses différentes (et une version variable) ainsi que 2 jeux de nombres au lieu d’un seul.
 En version courte, toute séquence `Georgia, serif` d’une feuille de style devrait devenir `Gelasio, Georgia, serif`.
 
-https://pimpmytype.com/font/gelasio/
+<https://pimpmytype.com/font/gelasio/>
 
 ### Literata
 
@@ -172,7 +172,7 @@ Lisibilité exceptionnelle, avec des tailles optiques.
 Une des polices techniquement les plus complètes du moment.
 Pour compléter le passage sur Gelasio, j’aurais tendance à conseiller `Literata, Gelasio, Georgia, serif` pour un site sans empattement.
 
-https://www.type-together.com/literata-font
+<https://www.type-together.com/literata-font>
 
 ### Lora ⭐
 
@@ -180,7 +180,7 @@ Lora est une police avec empattement particulièrement élégante.
 L’italique a une apparence calligraphique.
 Je la trouve parfois trop fine (ou trop petite) sur les sites web.
 
-https://www.cyreal.org/fonts/lora/
+<https://www.cyreal.org/fonts/lora/>
 
 ### Merriweather ⭐
 
@@ -189,7 +189,7 @@ Elle est disponible en version variable: graisse, largeur et taille optique.
 En version statique, elle taille grand et demande un interligne assez important (1.6 me semble le minimum).
 
 La version variable n’est pas disponible sur Google Fonts.
-Elle se trouve chez le fondeur: https://github.com/SorkinType/Merriweather
+Elle se trouve chez le fondeur: <https://github.com/SorkinType/Merriweather>
 
 ### Noto Serif
 
@@ -197,7 +197,7 @@ Noto Serif est l’équivalent avec empattement de Noto Sans.
 Elle fait partie de l’énorme projet Noto qui vise à couvrir toutes les langues et tous les caractères du monde.
 Je la trouve que c’est une des meilleures polices à empattement, moins banale que la variante sans.
 
-https://fonts.google.com/noto/specimen/Noto+Serif
+<https://fonts.google.com/noto/specimen/Noto+Serif>
 
 ### Piazzolla
 
@@ -206,7 +206,7 @@ Elle semble cabossée de partout et reste pourtant très lisible pour du texte l
 C’est en partie parce qu’elle dispose de taille optique.
 Je rêverais de la savoir installée souvent et de pouvoir jouer avec.
 
-https://piazzolla.huertatipografica.com/
+<https://piazzolla.huertatipografica.com/>
 
 ## Pour les titres et intertitres
 
@@ -232,7 +232,7 @@ Certaines ont des fonctions particulières (ligatures).
 Courier Prime est prévue explicitement pour le texte, notamment l’écriture de scénarios.
 Elle est très lisible à l’écran et l’italique est de belle qualité.
 
-https://quoteunquoteapps.com/courierprime/
+<https://quoteunquoteapps.com/courierprime/>
 
 ### JetBrains Mono
 
@@ -242,7 +242,7 @@ Je ne vois pas de raison de chercher plus loin.
 
 Comme elle dispose d’un bel italique et de plusieurs graisses, elle peut être utilisée sans problème pour un site web (y compris le texte).
 
-La page de présentation officielle est excellente: https://www.jetbrains.com/fr-fr/lp/mono/
+La page de présentation officielle est excellente: <https://www.jetbrains.com/fr-fr/lp/mono/>
 
 ### Autres polices à chasse fixe
 
@@ -256,4 +256,4 @@ La page de présentation officielle est excellente: https://www.jetbrains.com/fr
 
 Il y peu de raisons de les installer si vous ne lisez pas régulièrement du code.
 
-Pour visualiser des polices dédiées à la programmation dans leur milieu naturel: https://www.programmingfonts.org/
+Pour visualiser des polices dédiées à la programmation dans leur milieu naturel: <https://www.programmingfonts.org/>

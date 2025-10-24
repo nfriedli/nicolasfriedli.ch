@@ -1,7 +1,8 @@
 ---
 title: Recherche interne avec Google
 description: Proposer une recherche propre à son site en utilisant la puissance de Google. 4 lignes de codes suffisent. Ce n’est pas parfait, mais c’est efficace.
-date: 2025-10-06
+date: 2025-10-20
+lastMod: 2025-10-23
 categories:
 - recherche
 ---
