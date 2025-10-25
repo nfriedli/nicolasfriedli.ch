@@ -203,7 +203,7 @@ hr {
 }
 
 main :is(p, blockquote, ul :not(grid), ol, dl) {
-    width: min(45rem, 100%);
+    width: min(40rem, 100%);
 }
 
 .wrapper {
