@@ -1,6 +1,8 @@
-<aside class="toc">
-    <details>
-    <summary>Table des matières</summary>
-        {{ page.TableOfContents }}
-    </details>
-</aside>
+{{ if in .TableOfContents "li" }}
+    <aside class="toc">
+        <details>
+        <summary>Table des matières</summary>
+            {{ page.TableOfContents }}
+        </details>
+    </aside>
+{{ end }}
