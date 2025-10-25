@@ -2,6 +2,7 @@
     --dark: #000;
     --light: #FFF;
     --lightgray: #EEE;
+    --links: #00E;
 }
 
 * {
@@ -118,6 +119,18 @@ a {
     text-underline-offset: .1em;
 }
 
+main a, summary {
+    color: var(--links);
+}
+
+aside {
+    font-size: 90%;
+}
+
+aside a {
+    text-decoration: none;
+}
+
 del {
     background: var(--lightgray);
     text-decoration-thickness: .1em;
@@ -179,7 +192,7 @@ hr {
 }
 
 .time {
-    margin-block: 2rem;
+    margin-block: 1rem;
     font-size: 90%;
 }
 

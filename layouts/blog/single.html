@@ -12,7 +12,9 @@
     1}}er{{end}} {{ .Lastmod | time.Format "January" }} {{ .Lastmod.Year }}</time>
 {{ end }}
 </div>
-    
+
+{{ partial "toc" . }}
+
 {{ .Content }}
 
 
