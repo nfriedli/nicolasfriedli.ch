@@ -38,7 +38,7 @@ C’est ce que j’ai fait pour [Trouver ma paroisse](https://ma-paroisse.ch/) p
 Et c’est ce que j’ai tenté ici avec PageFind sans en trouver satisfaction.
 
 Je souhaite quelque chose de simple à mettre en œuvre pour nicolasfriedli.ch.
-Je ne souhaite pas dépender d’outils autres qu’Hugo pour compiler le site.
+Je ne souhaite pas dépendre d’outils autres qu’Hugo pour compiler le site.
 C’est pourquoi je me repose sur Google.
 Ce qui signifie:
 
