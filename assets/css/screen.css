@@ -226,6 +226,10 @@ blockquote em {
     font-style: normal;
 }
 
+form {
+    margin-block: 1rem;
+}
+
 input {
     font-size: 1.44rem;
     padding: .4rem;
