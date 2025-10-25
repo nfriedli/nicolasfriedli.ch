@@ -36,6 +36,12 @@ picture {
     display: block;
 }
 
+input, button,
+textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 /* fin du reset */
 
 html {
@@ -218,6 +224,13 @@ blockquote {
 
 blockquote em {
     font-style: normal;
+}
+
+input {
+    font-size: 1.44rem;
+    padding: .4rem;
+    width: 100%;
+    border: .2rem solid;
 }
 
 .flex {
