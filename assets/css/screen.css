@@ -155,7 +155,7 @@ ul {
     font-weight: 700;
 }
 
-li {
+li + li {
     padding-top: .5rem;
 }
 
