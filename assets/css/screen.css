@@ -66,6 +66,12 @@ html {
     }
 }
 
+@media (min-width: 120rem) {
+    html {
+        font-size: 1.25rem;
+    }
+}
+
 html,
 body {
     margin: 0;
