@@ -2,7 +2,7 @@
 title: Utiliser des polices système
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2024-04-22
-lastMod: 2025-01-05
+lastMod: 2025-10-27
 categories:
 - a11y
 - performance
@@ -263,13 +263,6 @@ Les déclarations exactes de ma feuille de style sont toujours disponibles chez 
 ----
 
 J’attends avec impatience l’arrivée de la directive [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) qui permettra(it) de gérer les choses beaucoup plus simplement.
-
-----
-
-À ma connaissance, la police la plus légère actuellement disponible est [Geist](https://vercel.com/font).
-Un seul fichier permet de remplacer les 4 variations dont je parlais ci-dessus.
-Une fois passée par [Glyphhanger](https://github.com/zachleat/glyphhanger), elle pèse environ 20 kB.
-Toutefois, la version elle ne dispose pas d’un vrai italique, mais d’une version oblique.
 
 ----
 
