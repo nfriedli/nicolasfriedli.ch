@@ -8,6 +8,7 @@ html {
 code,
 pre {
     font-family: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
+    font-variant-ligatures: none;
 }
 
 code,
