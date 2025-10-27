@@ -194,6 +194,7 @@ pre {
     font-size: 85%;
     overflow-x: auto;
     margin-block: 1rem 2rem;
+    margin-inline: -1rem;
     padding: .5rem 1rem;
 }
 

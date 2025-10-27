@@ -58,15 +58,15 @@ Des outils comme [Zotero](https://www.zotero.org/) proposent des moyens d’util
 Bien entendu, vous pouvez continuer à citer une source sans recours à un logiciel spécifique.
 Lorsque vous renvoyez à une page de ce site, vous pouvez proposer un **lien visible** dans un document imprimé, par exemple:
 
-> Faciliter les citations avec un fichier .cff (https://nicolasfriedli.ch/blog/cff/), consulté le 27 octobre 2025
+> «Faciliter les citations avec le fichier CITATION.cff» (https://nicolasfriedli.ch/blog/cff/), consulté le 27 octobre 2025
 
-Sur une page web, un **lien cliquable** classique suffit, par exemple
+Sur une page web, un **lien cliquable** classique suffit, par exemple:
 
-> [Faciliter les citations avec un fichier .cff](https://nicolasfriedli.ch/blog/cff/) (27.10.2025)
+> [Faciliter les citations avec le fichier CITATION.cff](https://nicolasfriedli.ch/blog/cff/) (27.10.2025)
 
 Et si vous souhaitez une **citation complète**, je vous suggère un format de type:
 
-> Nicolas Friedli, site personnel, https://nicolasfriedli.ch, licence Creative Commons BY-SA, consulté le 27.10.2025.
+> Nicolas Friedli, site personnel, <https://nicolasfriedli.ch>, licence Creative Commons BY-SA, consulté le 27.10.2025.
 
 ## Citer une page ou un nom de domaine
 
