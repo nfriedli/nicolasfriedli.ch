@@ -1,0 +1,20 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Site personnel de Nicolas Friedli
+message: >-
+  Proposition de citation:
+  Nicolas Friedli, site personnel, https://nicolasfriedli.ch, consulté le...
+type: dataset
+authors:
+  - given-names: Nicolas
+    family-names: Friedli
+    email: hello@nicolasfriedli.ch
+identifiers:
+  - type: url
+    value: "https://nicolasfriedli.ch"
+    description: Site personnel
+repository-code: "https://github.com/nfriedli/nicolasfriedli.ch"
+url: "https://nicolasfriedli.ch/"
+license: CC-BY-SA-4.0
