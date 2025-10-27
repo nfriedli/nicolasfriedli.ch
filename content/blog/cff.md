@@ -37,6 +37,9 @@ Ce fichier est lisible, même si sa rédaction manuelle peut être fastidieuse.
 C’est un fichier structuré en `YAML`.
 Le format complet est document sur le site [Citation File Format (CFF)](https://citation-file-format.github.io/).
 
+Mais en première approche, je conseille de **favoriser le générateur CFFINT**.
+Évitez à tous prix les outils comme ChatGPT qui ajoutent des champs délirants (j’ai testé avant de l’affirmer)!
+
 ## `CITATION.cff` dans GitHub
 
 Le site GitHub utilise les fichiers de citation quand ils sont placés à la racine du dépôt.
@@ -53,29 +56,29 @@ Des outils comme [Zotero](https://www.zotero.org/) proposent des moyens d’util
 ## Citation de nicolasfriedli.ch en texte simple
 
 Bien entendu, vous pouvez continuer à citer une source sans recours à un logiciel spécifique.
-Lorsque vous renvoyez à une page de ce site, vous pouvez proposer un lien visible dans un document imprimé, par exemple:
+Lorsque vous renvoyez à une page de ce site, vous pouvez proposer un **lien visible** dans un document imprimé, par exemple:
 
 > Faciliter les citations avec un fichier .cff (https://nicolasfriedli.ch/blog/cff/), consulté le 27 octobre 2025
 
-Sur une page web, un lien cliquable classique suffit, par exemple
+Sur une page web, un **lien cliquable** classique suffit, par exemple
 
 > [Faciliter les citations avec un fichier .cff](https://nicolasfriedli.ch/blog/cff/) (27.10.2025)
 
-Et si vous souhaitez une citation plus complète, je vous suggère un format de type:
+Et si vous souhaitez une **citation complète**, je vous suggère un format de type:
 
 > Nicolas Friedli, site personnel, https://nicolasfriedli.ch, licence Creative Commons BY-SA, consulté le 27.10.2025.
 
 ## Citer une page ou un nom de domaine
 
-Pour les liens dans les pages web, je pense qu’il vaut toujours la peine de favoriser les URL directes vers les pages citées.
+Pour les liens dans les pages web, je pense qu’il vaut toujours la peine de favoriser les **URL directes** vers les pages citées.
 Il est assez facile de vérifier ses liens régulièrement et d’apporter des modifications si nécessaire.
 
 Pour les impressions et les utilisations dans des travaux de longue durée, je suis plus réservé.
-Je pense que le nom de domaine suffit.
-Il permet ensuite, en cas de besoin de retrouver le contenu quelque part.
-En particulier si vous disposez d’un logiciel pour faire le travail d’archives proprement.
+Je pense que le **nom de domaine** suffit.
+Il permet, en cas de besoin, de retrouver le contenu quelque part.
+En particulier si vous ne disposez pas d’un logiciel pour faire un travail d’archivage efficace.
 
-De manière générale, quand des pages sont citées, je conseille de toujours les faire entrer dans la Wayback Machine.
+De manière générale, quand des pages sont citées, je conseille de toujours **les faire entrer dans la Wayback Machine**.
 J’en dis quelques mots dans [Disparition d’une page ou d’un site web](/blog/disparition/).
 
 À ma connaissance, les fichiers `CITATION.cff` restent rare des projets «littéraires» et je pense que cela mériterait de changer.
