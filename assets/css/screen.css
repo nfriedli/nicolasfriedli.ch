@@ -219,11 +219,6 @@ blockquote {
     border-inline-start: .2rem solid var(--dark);
     padding-inline: 1rem;
     margin-inline-start: 0;
-    font-style: italic;
-}
-
-blockquote em {
-    font-style: normal;
 }
 
 form {
