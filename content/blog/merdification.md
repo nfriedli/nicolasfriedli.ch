@@ -39,4 +39,4 @@ Reste à mieux le comprendre pour se mettre à le refuser.
 
 ----
 
-Cory Doctorow a sorti un livre sur le sujet à l'automne 2025: [Enshittification. Why Everything Suddenly Got Worse and What To Do About It](https://www.versobooks.com/en-gb/products/3341-enshittification).
+Cory Doctorow a sorti un livre sur le sujet à l’automne 2025: [Enshittification. Why Everything Suddenly Got Worse and What To Do About It](https://www.versobooks.com/en-gb/products/3341-enshittification).
