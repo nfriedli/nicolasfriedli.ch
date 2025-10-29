@@ -43,7 +43,7 @@ Je les trouve plus efficaces que les contenus «normaux».
 - ou celle de MiXiT 2024 par la même Morgane Hauguel: [Ce que l’on conçoit bien s’écrit clairement: les textes et l’accessibilité numérique](https://mixitconf.org/2024/ce-que-l-on-concoit-bien-s-ecrit-clairement-les-textes-et-l-accessibilite-numerique)
 - le billet [Le contenu doit être rédigé clairement: retour sur la conférence Paris Web 2023](https://blog.whoz.me/non-classe/le-contenu-doit-etre-redige-clairement-retour-sur-la-conference-paris-web-2023/) est un excellent complément
 - dans les propositions de liens du billet précédent:
-  - [Écrire pour être lu. Comment rédiger des textes administratifs faciles à comprendre](http://www.languefrancaise.cfwb.be/index.php?eID=tx_nawsecuredl&u=0&g=0&hash=7e8d6eebd9532a4185ac73e38cae4507a05048c3&file=fileadmin/sites/sgll/upload/lf_super_editor/publicat/collection-guide/ecrire-pour-etre-lu__interactif_.pdf) (Wallonie)
+  - [Écrire pour être lu. Comment rédiger des textes administratifs faciles à comprendre](https://web.archive.org/web/20220120051044/http://www.languefrancaise.cfwb.be/index.php?eID=tx_nawsecuredl&u=0&g=0&hash=72b0168af76d9a02dd54fcdbc6b45da9f638c93b&file=fileadmin/sites/sgll/upload/lf_super_editor/publicat/collection-guide/ecrire-pour-etre-lu.pdf) (Wallonie)
   - [Rédiger... simplement. Principes et recommandations pour une langue administrative de qualité](https://mcc.gouv.qc.ca/fileadmin/documents/publications/spl/rediger_simplement.pdf) (Québec)
 
 ## Analyse de lisibilité
