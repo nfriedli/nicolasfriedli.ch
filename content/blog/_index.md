@@ -9,4 +9,4 @@ Tous les billets publiés sur ce site par ordre chronologique inverse:
 
 {{< archives >}}
 
-Des publications antérieures à cette version du site peuvent être disponibles dans la [Wayback Machine](https://archive.org/web/) d’Internet Archive.
+Des publications antérieures à cette version du site peuvent être disponibles dans la [Wayback Machine](https://web.archive.org/) d’Internet Archive.

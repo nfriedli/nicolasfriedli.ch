@@ -70,7 +70,7 @@ J’avais été passionné à ma première lecture de cette page.
 L’auteur l’a rédigée, je l’ai lue, c’est la magie du web.
 Point.
 
-D’autres ont publié des mini sites (d’une seule) page comme [This is a motherfucking website](https://motherfuckingwebsite.com/).
+D’autres ont publié des mini sites (d’une seule) page comme [This is a motherfucking website](https://web.archive.org/web/2/https://motherfuckingwebsite.com/) (dans la Wayback Machine).
 Il a été complété par d’autres, par exemple [This is *still* a motherfucking website](http://bettermotherfuckingwebsite.com/) et [This is the *final* motherfucking website](https://perfectmotherfuckingwebsite.com/).
 Sur un ton satirique et grossier, ces personnes ont jeté des pavés dans la mare d’un web qui se perd dans des raffinements techniques et esthétiques.
 C’est délicieux.

@@ -55,7 +55,7 @@ Elle n’est pas variable, mais disponible en 9 grasses différentes.
 Des versions condensée et très condensée sont disponibles.
 L’italique est magnifique.
 
-<https://bboxtype.com/typefaces/FiraSans/>
+<https://carrois.com/fira/>
 
 ### IBM Plex Sans ⭐
 
