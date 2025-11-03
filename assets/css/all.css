@@ -1,5 +1,5 @@
 html {
-    font-family: "Roboto", system-ui, sans-serif;
+    font-family: ui-sans-serif, "Roboto", system-ui, sans-serif;
     font-synthesis: none;
     font-variant-numeric: oldstyle-nums proportional-nums;
     line-height: 1.5;
@@ -23,6 +23,27 @@ h3,
 h4 {
     line-height: 1.1;
     text-wrap: balance;
+    margin-block: 2rem 1rem
+}
+
+h1 {
+    font-size: 1.728rem;
+    font-weight: 500;
+    margin-block: 0 2rem;
+}
+
+h2 {
+    font-size: 1.44rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 a {

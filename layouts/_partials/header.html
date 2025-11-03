@@ -1,25 +1,7 @@
 <header>
-    <div class="wrapper">
-    <div class="padding">
-    <div class="flex">
-
-        {{ if .IsHome }}
-        <span class="nf">{{ site.Title }}</span>
-        {{ else }}
-        <a href="{{ relURL "" }}" class="nf">{{ site.Title }}</a>
-        {{ end }}
-
-        <nav class="flex">
-        {{ $current := .RelPermalink}}
-        {{ range site.Menus.main }}
-            {{ if eq .URL $current }}
-                {{ .Name }}
-            {{ else }}
-                <a href="{{ .URL }}">{{ .Name }}</a>
-            {{ end }}
-        {{ end }}
-        </nav>
-    </div>
-    </div>
-    </div>
+    {{ if .IsHome }}
+        {{ site.Title }}
+    {{ else }}
+        <a href="{{ relURL "" }}">{{ site.Title }}</a>
+    {{ end }}
 </header>

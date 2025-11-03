@@ -1,8 +1,0 @@
-<ul class="grid">
-    {{ range .Page.Pages }}
-    <li class="article">
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        <time datetime="{{ .Date.Format "2006-01-02"}}">{{ .Date.Day }}{{ if eq .Date.Day 1 }}er{{end}} {{ .Date | time.Format "January" }} {{ .Date.Year }}</time>
-    </li>
-    {{ end }}
-</ul>

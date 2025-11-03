@@ -1,0 +1,16 @@
+{{ with .Parent }}
+{{ if gt (len .Pages ) 1 }}
+<aside>
+    <p>Ceci pourrait aussi vous intéresser:</p>
+    <ul>
+        {{ range .Pages }}
+            {{ if ne .Page page }} 
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
+            </li>
+            {{ end }}
+        {{ end}}
+    </ul>
+</aside>
+{{ end }}
+{{ end }}

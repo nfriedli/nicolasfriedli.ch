@@ -6,7 +6,7 @@ defaultContentLanguage = "fr"
 
 removePathAccents = true
 
-disableKinds = [ "taxonomy", "term", "robotsTXT"]
+disableKinds = [ "taxonomy", "term", "robotsTXT", "RSS"]
 
 cleanDestinationDir = true
 enableGitInfo = true
@@ -45,14 +45,6 @@ images = ["/images/opengraph.jpg"]
 [params.author]
 name = "Nicolas Friedli"
 email = "hello+rss@nicolasfriedli.ch"
-
-[related]
-includeNewer = true
-threshold = 50
-toLower = true
-[[related.indices]]
-name = "categories"
-weight = 80
 
 [services]
 [services.rss]

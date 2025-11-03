@@ -2,7 +2,7 @@
 title: Contact
 description: Me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque.
 menu: main
-weight: 50
+weight: 10
 ---
 
 Toutes les informations utiles pour me proposer un mandat, m’employer, me poser une question ou me faire part d’une remarque sur ce site.
@@ -22,7 +22,6 @@ IDE: CHE-469.715.163
 
 Je ne suis pas présent sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Mastodon ou Twitter (X).
 Et j’ai une présence passive sur Facebook pour administrer 2 pages.
-J’en dis quelques mots dans [Mes règles d’utilisation des réseaux sociaux]({{% relref "reseaux-sociaux-regles" %}}).
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").
 

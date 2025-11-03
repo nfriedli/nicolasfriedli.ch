@@ -1,6 +1,7 @@
 ---
 title: À propos
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats.
+weight: 30
 ---
 
 Ce site est simple et efficace.
