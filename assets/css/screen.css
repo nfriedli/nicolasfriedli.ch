@@ -65,8 +65,11 @@ footer {
     margin-block-start: auto;
 }
 
+::marker, a, h1, h2, h3, h4 {
+    color: #008;
+}
+
 a {
-    color: inherit;
     text-decoration-thickness: .1rem;
     text-underline-offset: .1rem;
 }
