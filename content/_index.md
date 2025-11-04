@@ -9,3 +9,5 @@ Je suis consultant web indépendant à Neuchâtel. Pour valoriser les sites à f
 
 Actuellement, je reprends des contenus de 2 anciens sites pour les intégrer ici comme seule présence web.
 Le site est en chantier pour une durée indéterminée.
+
+De nombreuses archives de ce site sont disponibles dans la [Wayback Machine](https://web.archive.org/web/*/nicolasfriedli.ch*) de l'Internet Archive.

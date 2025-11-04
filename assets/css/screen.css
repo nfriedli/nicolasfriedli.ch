@@ -93,3 +93,22 @@ input {
     width: 100%;
     border: .2rem solid;
 }
+
+code {
+    color: #008;
+    font-size: .9rem;
+}
+
+pre {
+    background: #222;
+    color: #FFF;
+    padding: .5rem 1rem;
+    margin-inline: -1rem;
+}
+
+pre code {
+    background: none;
+    color: #DDD;
+    border: none;
+    font-size: .85rem;
+}

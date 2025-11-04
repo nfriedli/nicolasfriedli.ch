@@ -21,15 +21,18 @@ writeStats = false
 date = ["date", ":git"]
 lastmod = ["lastmod"]
 
+[markup]
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
 [markup.goldmark.parser.attribute]
 block = true
 title = true
 
-[markup]
 [markup.tableOfContents]
 endLevel = 6
+
+[markup.highlight]
+style = "dracula"
 
 [minify]
 minifyOutput = true
