@@ -52,7 +52,9 @@ body {
     justify-content: space-between;
     margin: auto;
     max-width: 60rem;
-    min-height: 80vh;
+    min-height: 100vh;
+    min-height: 100dvh; /* pour Android et iOS */
+
 }
 
 body > * {
