@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     margin: auto;
     max-width: 60rem;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 body > * {
@@ -68,9 +68,6 @@ header, footer {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: .5rem 1rem;
     margin-block: auto 2rem;
 }
 
