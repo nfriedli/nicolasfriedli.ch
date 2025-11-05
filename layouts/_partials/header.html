@@ -2,11 +2,12 @@
     {{ if .IsHome }}
     {{ site.Title }}
     {{ else }}
-    <nav aria-label="breadcrumb">
+    <nav aria-label="breadcrumb" class="breadcrumb">
+        <ol>
             {{ range .Ancestors.Reverse }}
-            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> > 
+                <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
             {{ end }}
-            <a aria-current="page" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </ol>
     </nav>
     {{ end }}
 </header>
