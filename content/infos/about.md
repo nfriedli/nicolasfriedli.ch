@@ -1,7 +1,9 @@
 ---
 title: À propos de ce site
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats.
-weight: 30
+weight: 40
+aliases:
+- /about/
 ---
 
 Ce site est simple et efficace.
@@ -24,7 +26,7 @@ Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
 
 La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas.
 nicolasfriedli.ch utilise des statistiques propres ([Plausible Analytics Privacy Policy](https://plausible.io/privacy)) comme seule ressource externe.
-Je n'utilise pas de polices d'écritures fournies par des services tiers ou des encarts de réseaux sociaux.
+Je n’utilise pas de polices d’écritures fournies par des services tiers ou des encarts de réseaux sociaux.
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir d’excellents résultats:
 
