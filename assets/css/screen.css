@@ -1,3 +1,9 @@
+:root {
+    --light: #FFF;
+    --dark: #222;
+    --blue: #008;
+}
+
 *,
 *::before,
 *::after {
@@ -5,31 +11,7 @@
 }
 
 html {
-    font-size: 1.0625rem;
-}
-
-@media (orientation: portrait) {
-    html {
-        font-size: 1rem;
-    }
-}
-
-@media (min-width: 60rem) {
-    html {
-        font-size: 1.125rem;
-    }
-}
-
-@media (min-width: 90rem) {
-    html {
-        font-size: 1.1875rem;
-    }
-}
-
-@media (min-width: 120rem) {
-    html {
-        font-size: 1.25rem;
-    }
+    font-size: clamp(1rem, 0.9167rem + 0.3704vw, 1.25rem);
 }
 
 html, body {
@@ -38,8 +20,8 @@ html, body {
 }
 
 body {
-    background: #FFF;
-    color: #000;
+    background: var(--light);
+    color: var(--dark);
     display: flex;
     gap: 2rem;
     flex-direction: column;
@@ -65,11 +47,8 @@ footer {
     margin-block-start: auto;
 }
 
-::marker, a, h1, h2, h3, h4 {
-    color: #008;
-}
-
 a {
+    color: var(--blue);
     text-decoration-thickness: .1rem;
     text-underline-offset: .1rem;
 }
@@ -95,20 +74,30 @@ input {
 }
 
 code {
-    color: #008;
+    color: var(--blue);
     font-size: .9rem;
 }
 
 pre {
-    background: #222;
-    color: #FFF;
+    background: var(--dark);
+    color: var(--light);
     padding: .5rem 1rem;
     margin-inline: -1rem;
 }
 
 pre code {
     background: none;
-    color: #DDD;
+    color: var(--light);
     border: none;
     font-size: .85rem;
+}
+
+/* ids et classes */
+
+
+/* style par aria */
+
+a[aria-current="page"] {
+    text-decoration: none;
+    color: var(--dark);
 }

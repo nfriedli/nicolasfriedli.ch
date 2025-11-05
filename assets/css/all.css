@@ -1,8 +1,9 @@
 html {
-    font-family: ui-sans-serif, "Roboto", system-ui, sans-serif;
+    font-family: ui-sans-serif, "Roboto", "Arial", system-ui, sans-serif;
     font-synthesis: none;
     font-variant-numeric: oldstyle-nums proportional-nums;
     line-height: 1.5;
+    text-rendering: optimizeLegibility;
 }
 
 code,
@@ -28,22 +29,22 @@ h4 {
 
 h1 {
     font-size: 1.728rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-block: 0 2rem;
 }
 
 h2 {
     font-size: 1.44rem;
-    font-weight: 600;
 }
 
 h3 {
     font-size: 1.2rem;
+    font-weight: 800;
 }
 
 h4 {
     font-size: 1rem;
-    font-weight: 800;
+    font-weight: 900;
 }
 
 a {

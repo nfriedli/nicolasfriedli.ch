@@ -28,11 +28,11 @@
     
     {{ partial "header" . }}
 
-    <div class="wrapper">
-        <main class="padding">
-            {{ block "main" . }}{{ end }}
-        </main>
-    </div>
+    <main>
+    {{ block "main" . }}{{ end }}
+    </main>
+
+    {{ partial "siblings" . }}
 
     {{ partialCached "footer" . }}
 
