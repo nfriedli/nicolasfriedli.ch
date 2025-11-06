@@ -17,16 +17,9 @@ copyright = "Creative Commons BY-SA"
 [build]
 writeStats = false
 
-[frontmatter]
-date = ["date", ":git"]
-lastmod = ["lastmod"]
-
 [markup]
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
-[markup.goldmark.parser.attribute]
-block = true
-title = true
 
 [markup.tableOfContents]
 endLevel = 6
