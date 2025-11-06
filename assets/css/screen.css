@@ -141,6 +141,10 @@ img {
   padding: 0;
 }
 
+.breadcrumb li {
+    margin: 0;
+}
+
 .breadcrumb li::after {
     content: " > ";
 }
