@@ -104,22 +104,31 @@ input {
     border: .2rem solid;
 }
 
+blockquote {
+    border-inline-start: .2rem solid;
+    margin-inline-start: 0;
+    padding-inline-start: 1rem;
+}
+
 code {
-    color: var(--blue);
+    border: .1rem solid;
     font-size: .9rem;
+    padding-inline: .2rem;
 }
 
 pre {
     background: var(--dark);
     color: var(--light);
     padding: .5rem 1rem;
+    margin-block-end: 2rem;
 }
 
 pre code {
     background: none;
-    color: var(--light);
     border: none;
+    color: var(--light);
     font-size: .85rem;
+    padding: 0;
 }
 
 figure {
