@@ -6,6 +6,7 @@ aliases:
 ---
 
 Dans un site hiérarchique construit avec Hugo, il est facile de se créer des *shortcodes* ou des *partials* pour afficher une navigation contextuelle.
+
 C’est idéal pour construire automatiquement le maillage interne de type «cocon sémantique à l’ancienne»:
 
 - un lien vers la page mère en haut de page

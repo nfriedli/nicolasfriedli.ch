@@ -1,6 +1,8 @@
 :root {
     --light: #FFF;
-    --dark: #222;
+    --light2: #DDE;
+    --dark: #112;
+    --dark2: #223;
     --blue: #008;
 }
 
@@ -73,6 +75,10 @@ footer {
     margin-block: auto 2rem;
 }
 
+h1, h2, h3, h4 {
+    color: var(--dark2);
+}
+
 a {
     color: var(--blue);
     text-decoration-thickness: .1rem;
@@ -111,7 +117,7 @@ blockquote {
 }
 
 code {
-    border: .1rem solid;
+    background-color: var(--light2);
     font-size: .9rem;
     padding-inline: .2rem;
 }
@@ -125,7 +131,6 @@ pre {
 
 pre code {
     background: none;
-    border: none;
     color: var(--light);
     font-size: .85rem;
     padding: 0;
@@ -138,6 +143,11 @@ figure {
 img {
     height: auto;
     max-width: 100%;
+}
+
+hr {
+    border: none;
+    border-block-start: .2rem solid var(--dark2);
 }
 
 /* classes */
