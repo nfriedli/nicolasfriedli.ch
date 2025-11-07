@@ -32,7 +32,7 @@ Si c’est le cas, la suite pourrait être très facile.
 
 La distinction entre les 2 doit être claire avant de vous lancer.
 Si ce n’est pas le cas, il ne vaut pas la peine d’aller plus loin.
-Il faut lire, dans la documentation d’Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes/) et [Partial](https://gohugo.io/templates/types/#partial).
+Il faut lire, dans la documentation d’Hugo: [Shortcodes](https://gohugo.io/content-management/_shortcodes/) et [Partial](https://gohugo.io/templates/types/#partial).
 
 Un *shortcode* est appelé **dans la source de la page en Markdown**, avec un code de ce type, disponible pour les rédacteurs et rédactrices:
   
@@ -60,7 +60,7 @@ Les pages filles sont des sous-pages vues de la page mère de type `list`.
 
 ### Affichage des pages filles avec un *shortcode*
 
-Un fichier dans `/layouts/shortcodes/subpages.html`:
+Un fichier dans `/layouts/_shortcodes/subpages.html`:
 
 ```
 <ul>
@@ -77,7 +77,7 @@ Ou ne jamais utiliser ce *shortcode* quand il n’y a pas de filles.
 
 ### Affichage des pages filles avec un *partial*
 
-Un fichier dans `/layouts/partials/subpages.html`:
+Un fichier dans `/layouts/_partials/subpages.html`:
 
 ```
 <ul>
@@ -98,7 +98,7 @@ Les pages sœurs sont les pages filles de la page mère (de type `list`) de la p
 
 ### Affichage des pages sœurs avec un *shortcode*
 
-Un fichier dans `/layouts/shortcodes/sisters.html`:
+Un fichier dans `/layouts/_shortcodes/sisters.html`:
 
 ```
 {{ with page.Parent }}
@@ -119,7 +119,7 @@ Je conseille d’ajouter des conditions (par exemple pour ne pas mettre un lien 
 
 ### Affichage des pages sœurs avec un *partial*
 
-Un fichier dans `/layouts/partials/sisters.html`:
+Un fichier dans `/layouts/_partials/sisters.html`:
 
 ```
 {{ with .Parent }}
@@ -147,7 +147,7 @@ La page mère est une page de type `list`.
 
 ### Affichage de la page mère avec un *shortcode*
 
-Un fichier dans `/layouts/shortcodes/mother.html`:
+Un fichier dans `/layouts/_shortcodes/mother.html`:
 
 ```
 {{ with page.Parent }}
@@ -161,7 +161,7 @@ L’utilisation de `with` ne provoquera l’affichage que si une page mère exis
 
 ### Affichage de la page mère avec un *partial*
 
-Un fichier dans `/layouts/partials/mother.html`:
+Un fichier dans `/layouts/_partials/mother.html`:
 
 ```
 {{ with .Parent }}
