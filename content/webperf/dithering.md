@@ -152,4 +152,4 @@ C’est triste.
 En attendant de faire les choses mieux, on consomme beaucoup trop de bande passante.
 Le discours se verdit; le discours seulement.
 
-Ce qui compte, ce n’est pas le «style écologique», mais le poids du fichier et la justesse de son usage (utilité réelle, taille, format, compression, chargement différé et polique de cache).
+Ce qui compte, ce n’est pas le «style écologique», mais le poids du fichier et la justesse de son usage (utilité réelle, taille, format, compression, chargement différé et politique de cache).
