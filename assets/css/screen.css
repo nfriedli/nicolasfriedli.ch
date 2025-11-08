@@ -136,12 +136,30 @@ pre code {
 }
 
 figure {
+    margin-block: 1rem 2rem;    
     margin-inline: 0;
 }
 
 img {
+    display: block;
     height: auto;
     max-width: 100%;
+}
+
+.full img {
+    width: 100%;
+}
+
+.pixelated img {
+    image-rendering: pixelated;
+}
+
+figcaption {
+    font-size: .9rem;
+}
+
+figcaption p {
+    margin-block: .2rem;
 }
 
 hr {
