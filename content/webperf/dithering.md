@@ -5,7 +5,7 @@ aliases:
 - /blog/ecologie-unil/
 ---
 
-De plus en plus de site utilisent des images tramées (ou diffusion d’erreur) en se prétendant écoresponsables.
+De plus en plus de site utilisent des images tramées en se prétendant écoresponsables.
 Elles utilisent la technique du *dithering* (ou diffusion d’erreur).
 Dans la majorité des cas, c’est du pur bullshit.
 Le discours, aussi dithyrambique soit-il, ne fait pas un site écologique.
