@@ -38,7 +38,7 @@ Elle est 2 fois plus légère, sans différences notables:
   loading="lazy"
 >}}
 
-## Nouveaux formats d’image
+## Nouveaux formats d’image (WebP et AVIF)
 
 Toujours dans Squoosh, toujours sans paramètres particuliers, elle est transformée en WebP (qui fonctionne partout), elle perd encore 40% de sa taille:
 
