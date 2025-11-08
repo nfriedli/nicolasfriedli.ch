@@ -107,7 +107,7 @@ Et là, c’est vraiment net:
 
 {{< figure
   src="/images/dithering-7.png"
-  alt="Image optimisée avec Squoosh, réduite et en 4 couleurs, agrandie artificiellement et volontairement pixelisée"
+  alt="Image optimisée avec Squoosh, réduite et en 4 couleurs, agrandie et pixelisée"
   caption="Image optimisée avec Squoosh, en PNG, 4 couleurs 320X213px, 9Ko, en largeur forcée à 100%, rendu pixelisé."
   class="full pixelated"
   loading="lazy"
