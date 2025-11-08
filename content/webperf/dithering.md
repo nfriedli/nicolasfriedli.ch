@@ -1,6 +1,8 @@
 ---
 title: Optimisation d’images et dithering
 description: Les images tramées (dithering) sont à la mode. Souvent présentées comme écologiques, elle sont parfois plus lourdes que de simples fichiers JPG bien optimisés.
+aliases:
+- /blog/ecologie-unil/
 ---
 
 De plus en plus de site utilisent des images tramées (ou diffusion d’erreur) en se prétendant écoresponsables.
