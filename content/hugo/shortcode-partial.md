@@ -1,7 +1,6 @@
 ---
 title: Shortcodes et partials avec Hugo
 description: Les *shortcodes* et les *partials* sont souvent confondus dans Hugo. Ils sont 2 manières d’appeler un bout de code dans un contexte précis mais s'adressent à des publics différents.
-draft: true
 ---
 
 Les *shortcodes* et les *partials* sont souvent confondus dans Hugo.
