@@ -63,7 +63,7 @@ Quand une page est demandée:
 
 Si le *principe* est simple, la mise en pratique est beaucoup plus compliquée.
 Par exemple, lorsque la barre latérale d’un site liste les derniers billets et que le titre du dernier billet est modifié, il faut invalider le cache de toutes les pages (alors que seuls quelques mots d’une page ont changé).
-Pour imaginer les enjeux pratiques: [Cache Invalidation and the Methods to Invalidate Cache](https://www.geeksforgeeks.org/cache-invalidation-and-the-methods-to-invalidate-cache/).
+Pour imaginer les enjeux pratiques: [Cache Invalidation and the Methods to Invalidate Cache](https://www.geeksforgeeks.org/system-design/cache-invalidation-and-the-methods-to-invalidate-cache/).
 
 ✅ Le HTML est envoyé.
 

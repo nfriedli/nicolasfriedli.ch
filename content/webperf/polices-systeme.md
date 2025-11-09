@@ -275,5 +275,5 @@ Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fon
 
 ----
 
-La directive CSS [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data) permettra(it) de gérer les choses beaucoup plus simplement.
+La directive CSS [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-data) permettra(it) de gérer les choses beaucoup plus simplement.
 Elle n’est malheureusement pas encore utilisable au quotidien (et elle ne le sera peut-être jamais).

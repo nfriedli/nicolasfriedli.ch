@@ -63,7 +63,7 @@ Un ordinateur sera très efficace et fiable pour créer une liste de pages d’u
 - Des **optimisations sur les fichiers texte** (HTML, CSS, JavaScript, XML, etc.) sont effectuées à la génération: minification, nettoyage, concaténation, etc.
 
 - Les **images** sont redimmensionnées, allégées, modifiées au moment de la création du site.
-Le travail fastidieux de création d’[images adaptatives](https://developer.mozilla.org/fr/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) est effectuée par une machine.
+Le travail fastidieux de création d’[images adaptatives](https://developer.mozilla.org/fr/docs/Web/HTML/Guides/Responsive_images) est effectuée par une machine.
 
 - Le développement avec un générateur des sites statiques rend agréable la **prévisualisation du site en local**.
 C’est aussi possible sans SGG, mais souvent moins agréable.
