@@ -6,7 +6,7 @@ defaultContentLanguage = "fr"
 
 removePathAccents = true
 
-disableKinds = [ "taxonomy", "term", "robotsTXT", "RSS"]
+disableKinds = [ "taxonomy", "term", "robotsTXT"]
 
 cleanDestinationDir = true
 enableGitInfo = true
@@ -44,4 +44,4 @@ email = "hello+rss@nicolasfriedli.ch"
 
 [services]
 [services.rss]
-limit = 10
+limit = 50
