@@ -33,7 +33,7 @@ Si c’est le cas, la suite pourrait être très facile.
 
 La distinction entre les 2 doit être claire avant de vous lancer.
 Si ce n’est pas le cas, il ne vaut pas la peine d’aller plus loin.
-Il faut lire, dans la documentation d’Hugo: [Shortcodes](https://gohugo.io/content-management/_shortcodes/) et [Partial](https://gohugo.io/templates/types/#partial).
+Il faut lire, dans la documentation d’Hugo: [Shortcodes](https://gohugo.io/content-management/shortcodes) et [Partial](https://gohugo.io/templates/types/#partial).
 
 Un *shortcode* est appelé **dans la source de la page en Markdown**, avec un code de ce type, disponible pour les rédacteurs et rédactrices:
   
