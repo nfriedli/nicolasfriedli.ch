@@ -44,4 +44,4 @@ email = "hello+rss@nicolasfriedli.ch"
 
 [services]
 [services.rss]
-limit = 50
+limit = 20
