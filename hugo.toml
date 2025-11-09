@@ -17,6 +17,10 @@ copyright = "Creative Commons BY-SA"
 [build]
 writeStats = false
 
+[frontmatter]
+date = ["date", ":git"]
+lastmod = ["lastmod", ":git"]
+
 [markup]
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
