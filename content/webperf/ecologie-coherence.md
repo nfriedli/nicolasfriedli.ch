@@ -37,7 +37,7 @@ Les organisations ne disposent pas toujours des les compétences techniques en i
 Difficile, sans un profil technique, de voir si une image est mal dimensionnée, si le code Javascript est trop lourd, etc.
 
 Je pourrais répondre qu’il existe des spécialistes dans ce domaine.
-Quand je n'ai pas de compétences en panneaux solaires, j’appelle un·e spécialiste.
+Quand je n’ai pas de compétences en panneaux solaires, j’appelle un·e spécialiste.
 Pourquoi en serait-il autrement de mon site?
 La bonne nouvelle, c’est qu’il existe d’excellents outils pour évaluer un bilan carbone sans effort.
 
@@ -113,7 +113,7 @@ Le principe de cohérence:
 ## Incohérence et faiblesse du discours
 
 Comme j’ai un profil technique, j’ai tendance à passer un site à la moulinette et à émettre un jugement rapide.
-S'il n’est pas écoconçu, s'il est incompatible avec les valeurs prônées par l’organisation, c’est tout le discours qui est décrédibilisé.
+S’il n’est pas écoconçu, s’il est incompatible avec les valeurs prônées par l’organisation, c’est tout le discours qui est décrédibilisé.
 
 Heureusement pour les organisations à visée écologique, le monde semble moins tranché que moi.
 Pourtant, je suis convaincu que la cohérence entre discours et actes est essentiel pour faire passer un message.

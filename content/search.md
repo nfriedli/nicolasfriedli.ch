@@ -1,9 +1,10 @@
 ---
 title: Recherche
 description: Trouver quelque chose sur ce site avec Google.
-menu: main
-weight: 900
+layout: contentonly
 draft: true
+build:
+    list: never
 ---
 
 Trouver quelque chose sur ce site avec Google.

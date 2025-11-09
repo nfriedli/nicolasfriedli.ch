@@ -10,5 +10,6 @@
 {{ end }}
 {{ end }}
 
-
-{{ template "subpages" . }}
+{{ with .Page.GetPage "/" }}
+    {{ template "subpages" . }}
+{{ end }}
