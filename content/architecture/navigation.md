@@ -1,8 +1,7 @@
-+++
-title = "Navigation dans une documentation"
-description = "La navigation doit être claire et facile pour rendre justice à un contenu de qualité. Je propose quelques principes de base pour faciliter l’utilisation d’une documentation en ligne."
-date = 2025-10-03
-+++
+---
+title: Navigation dans une documentation
+description: La navigation doit être claire et facile pour rendre justice à un contenu de qualité. Voici quelques principes de base pour faciliter l’utilisation d’une documentation en ligne.
+---
 
 J’ai émis quelques critiques structurelles à propos d’une documentation qui venait d’être mise en ligne.
 Je considérais que l’architecture d’information n’était pas bonne et la navigation peu intuitive.
@@ -12,8 +11,6 @@ En conséquence, je liste quelques principes ici.
 Cette page s’inspire largement de [Building navigation for your doc site: 5 best practices](https://www.writethedocs.org/videos/na/2017/building-navigation-for-your-doc-site-5-best-practices-tom-johnson/) par Tom Johnson et du livre *Information Arcitecture for the Web and Beyond* de Louis Rosenfeld, Peter Morville et Jorge Arango.
 Ces ressources sont beaucoup plus complètes que mon billet, mais aussi beaucoup plus longues et en anglais.
 Je vous les conseille vivement si le sujet vous intéresse.
-
-💡 Ce billet est un premier jet qui sera complété s’il suscite l’intérêt.
 
 ## Documentation hiérarchique
 
@@ -31,7 +28,7 @@ Il permet certes de rédiger une documentation, mais il est généralement faibl
 
 ## Page mère
 
-Quand je me trouve dans une documentation, **je souhaite savoir où je me trouve**.
+Quand je suis dans une documentation, je souhaite **savoir immédiatement où je me trouve**.
 Il m’arrive de débarquer sur une page par un lien direct ou un moteur de recherche et je ne souhaite pas tout parcourir pour comprend mon «emplacement».
 
 Dans tous les cas, je dois au moins avoir la possibilité de **remonter facilement d’un niveau, vers la page mère**.
@@ -77,18 +74,22 @@ Et ce sont ces liens qui ont le plus de valeur pour les moteurs de recherche.
 
 Dans l’idéal, les liens internes à la documentation sont distincts des liens externes ([règle Opquast 142](https://checklists.opquast.com/fr/qualite-numerique/les-liens-internes-et-externes-sont-differencies)).
 
+## Plan complet
+
+Parfois, un [plan du site](/sitemap/) est disponible; c’est le cas ici.
+Il permet de visualiser la structure globale du contenu.
+Et peut-être de faire des recherches directes sur les titres.
+
+Dans le cadre d’une documentation important il est intéressant de disposer du **plan complet de la documentation**.
+Il doit bien montrer la structure et les niveaux pour être utile.
+Une simple liste de pages ne fait pas l’affaire.
+
+
 ## Références
 
 En plus des 2 sources citées en début d’article, je vous conseille:
 
 - [Write the Docs](https://www.writethedocs.org/), qui est une mine d’or sur la thématique de la documentation technique
 - le *framework* [Diátaxis](https://diataxis.fr/), qui propose des réflexions fondamentales sur le classement d’une documentation
-- ainsi que mon billet  [Enseignements du framework Diátaxis](https://nicolasfriedli.ch/blog/diataxis-introduction/)
 - le logiciel [Sphinx](https://www.sphinx-doc.org/), créé en Python pour la documentation de ce langage de programme, hyper puissant mais relativement difficile à prendre en main (MkDocs cité dans l’article est plus simple d’accès)
 - le thème [Furo](https://pradyunsg.me/furo/) pour Sphinx, pour la clarté de son menu (et du site en général)
-
-----
-
-Autres liens & retours bienvenus.
-Je recherche les bons comme les mauvais exemples.
-Et j’essaierai de répondre à vos questions sur le sujet.

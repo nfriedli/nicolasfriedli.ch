@@ -4,6 +4,7 @@ description: Un blog est une «machine à ajouter du contenu» alors que qu’un
 date: 2024-11-21
 categories:
 - documentation
+draft: true
 ---
 
 Ce site est construit selon une logique de blog: **j’accumule du contenu**.

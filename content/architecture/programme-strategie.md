@@ -1,7 +1,7 @@
 ---
 title: Programme ou stratégie?
 description: Découvrez pourquoi une stratégie web flexible surpasse un planning rigide, avec des conseils concrets pour anticiper l’inattendu, optimiser vos ressources et garder votre site toujours pertinent et performant.
-date: 2025-01-17
+draft: true
 ---
 
 Plutôt qu’un planning ou programme rigide souvent inefficace face aux imprévus, je propose de privilégier une stratégie web flexible et contextuelle, capable d’évoluer avec les réalités du moment et les attentes des utilisateurs.
