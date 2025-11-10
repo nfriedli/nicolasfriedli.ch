@@ -5,6 +5,7 @@ date: 2024-03-18
 lastMod: 2025-02-04
 categories: 
 - json
+draft: true
 ---
 
 Le format JSON (JavaScript Object Notation) est un des plus utilisés sur le web. Il est léger et permet d’échanger des données. Je propose la rédaction d’un JSON Schema pour formaliser les contenus, à partir d’un l’exemple concret de données que j’utilise déjà.

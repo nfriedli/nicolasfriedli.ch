@@ -1,10 +1,10 @@
-+++
-title = "Aide Google Maps"
-description = "Google Maps est imparfait, mais il reste le meilleur outil pour promouvoir un lieu. Voici quelques pistes pour améliorer votre fiche ou en prendre le contrôle complet."
-date = 2025-09-18
-+++
+---
+title: Aide Google Maps
+description: Google Maps est imparfait, mais il reste le meilleur outil pour promouvoir un lieu. Voici quelques pistes pour améliorer votre fiche ou en prendre le contrôle complet.
+draft: true
+---
 
-Si j’ai renoncé à la publications de notices concernant le patrimoine et à la maintenance d’une liste d’églises ouvertes, je continue de contribuer à Google Maps.
+Je continue de contribuer à Google Maps...
 Ce service n’est pas exempt de défaut; c’est du Google.
 Mais il me paraît important de continuer à maintenir des fiches aussi bonnes que possibles.
 
@@ -12,7 +12,7 @@ Les données de Google Maps sont bien visibles dans les résultats de recherche 
 Elles sont affichées lorsque la requête correspond sans trop de doutes à la fiche en question.
 C’est un endroit privilégié pour faire connaître son patrimoine, son institution ou son entreprise.
 
-Cette page est une version à peine corrigée de celle qui existait pour feu `eglises-ouvertes.ch`.
+Cette page est une version à peine corrigée de celle qui existait pour feu eglises-ouvertes.ch.
 C’est pourquoi elle insiste sur les églises, mais ce qui est dit est généralisable.
 
 ## Modifier une fiche Google Maps
@@ -32,11 +32,11 @@ Je conseille en particulier de corriger:
 - l’adresse ou la position du repère
 - le site web
 - le numéro de téléphone
-- etc.
 
 Si la fiche ne dispose pas d’images, il est bienvenu d’**ajouter une photographie extérieure**.
 Elle facilite l’identification du lieu.
-Il est aussi possible (et utile) de signaler des photos qui ne correspondent pas au lieu.
+Une photographie de l’intérieur est toujours utile.
+Il est aussi possible de signaler des photos qui ne correspondent pas au lieu.
 
 ## Prendre possession d’une fiche Google Business Profile
 
@@ -89,10 +89,10 @@ Et parfois les deux...
 Je suis à disposition pour vous aider à revendiquer votre établissement sur Business Profile ou modifier des informations dans Maps.
 J’**offre** volontiers mon temps pour:
 
+- tout ce qui concerne ma commune de Milvignes
 - les églises ouvertes (protestantes ou non)
 - les lieux patrimoniaux
 - les institutions culturelles
-- tout ce qui concerne ma commune de Milvignes
 
 J’ai un [profil de guide local](https://www.google.com/maps/contrib/108623855042358945368/reviews/) de bon niveau qui atteste d’une certaine expérience.
 Il me permet de faire passer des modifications plus rapidement qu’un profil qui démarre.

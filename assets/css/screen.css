@@ -98,6 +98,18 @@ li {
     margin-block-start: .5rem;
 }
 
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin-inline-start: 1rem;
+}
+
+dd + dt {
+    margin-block-start: .5rem;
+}
+
 form {
     margin-block: 1rem;
 }
