@@ -1,7 +1,7 @@
 ---
 title: Sans commentaire!
 description: Les commentaires sur les blogs personnels posent plus de problèmes qu’ils n’en résolvent. Pour des raisons de simplicité technique, de performances, d’écologie et de pertinence, je vous laisse m’écrire par mail.
-date: 2024-03-26
+draft: true
 ---
 
 J’ai décidé de ne pas activer de système de commentaires sur ce site. En 2024, les commentaires sur les blogs personnels posent plus de problèmes qu’ils n’en résolvent. Pour des raisons de simplicité technique, de performances, d’écologie et de pertinence, je vous laisse m’écrire par mail.

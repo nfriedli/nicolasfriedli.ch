@@ -1,6 +1,7 @@
 ---
 title: Des principes japonais pour le web
 description: En découvrant les principes japonais appliqués au web par le développeur néerlandais Joost van der Schee, je réalise que j’en pratique plusieurs sans même y penser.
+draft: true
 ---
 
 J’ai beaucoup apprécié l’article [Japanese principles in web development](https://www.usecue.com/blog/japanese-principles-in-web-development/) de Joost van der Schee que je suis par flux RSS depuis longtemps.

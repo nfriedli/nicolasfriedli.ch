@@ -1,9 +1,9 @@
-+++
-title = "Sauts de ligne sémantiques"
-description = "L’utilisation d’une convention de rédaction du code source facilite la collaboration et aide à gagner du temps et de l’énergie. Même quand le résultat final est absolument identique."
-date = 2025-09-23
-draft = true
-+++
+---
+title: Sauts de ligne sémantiques
+description: L’utilisation d’une convention de rédaction du code source facilite la collaboration et aide à gagner du temps et de l’énergie. Même quand le résultat final est absolument identique.
+date: 2025-09-23
+draft: true
+---
 
 J’en ai parlé dans des billets précédents, je travaille avec des langages de balisage léger qui distinguent fichier source et résultat produit.
 J’utilise [Markdown](/blog/markdown/) pour produire les pages HTML de ce site.

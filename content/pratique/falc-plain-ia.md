@@ -1,6 +1,7 @@
 ---
 title: Notes sur les textes faciles à lire et à comprendre & le langage clair
 description: Des notes et des liens sur les textes faciles à lire et à comprendre (FALC), sur le langage clair (PLAIN) et l’accessibilité (A11Y).
+draft: true
 ---
 
 Des notes et des liens sur les textes faciles à lire et à comprendre (FALC), sur le langage clair (PLAIN) et l’accessibilité (A11Y).

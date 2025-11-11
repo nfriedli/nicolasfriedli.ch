@@ -1,5 +1,5 @@
 ---
-title: "Nom de domaine personnel: un atout pour vos QR codes, Mastodon & Bluesky"
+title: Nom de domaine personnel pour QR codes, Mastodon & Bluesky
 description: Posséder un nom de domaine personnel garantit une identité numérique pérenne et indépendante. Découvrez comment l’utiliser intelligemment pour vos QR codes, sur Mastodon & sur Bluesky.
 ---
 
@@ -9,13 +9,13 @@ Il permet d’assurer la pérennité de son identité numérique, d’être faci
 
 Ce billet explore trois usages concrets d’un nom de domaine: QR codes, Mastodon et Bluesky.
 
-Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un [blog personnel en 2025]({{% relref "blog-2025" %}}).
+Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un blog personnel en 2025.
 
 **Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet n’existent plus.**
 
 ## Utilisation de QR codes
 
-J’ai essayé de donner des [conseils pour l’utilisation des QR code]({{% relref "conseils-qr-code" %}}) dans un long billet.
+J’ai essayé de donner des [conseils pour l’utilisation des QR code](/pratique/conseils-qr-code/) dans un long billet.
 La question de son propre nom de domaine est centrale.
 Je n’y reviens pas ici.
 
@@ -78,7 +78,7 @@ Bravo à Bluesky pour cette idée simple et brillante.
 ----
 
 Je conseille de réserver vos comptes chez [Infomaniak](https://www.infomaniak.com/fr).
-Chaque compte donne droit à une adresse mail avec des alias et la [possibilité d’utiliser le signe +]({{% relref "mail-plus" %}}).
+Chaque compte donne droit à une adresse mail avec des alias et la [possibilité d’utiliser le signe +](/pratique/mail-plus/).
 Et aussi à un petit hébergement qui peut être suffisant pour quelques pages de présentation.
 
 Et dans le doute, c’est simplement `prenomnom.ch`.

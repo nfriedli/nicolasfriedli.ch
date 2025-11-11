@@ -1,6 +1,7 @@
 ---
 title: Lire et relire les classiques du web
 description: Des articles qui ne sont peut-être plus d’actualité sur certains points techniques, mais qui disent toujours quelque chose de pertinent parfois 25 ans après leur mise en ligne.
+draft: true
 ---
 
 Dans son livre *Pourquoi lire les classiques?*, Italo Calvino propose 14 thèses pour définir ce qu’est un «classique».
@@ -57,7 +58,7 @@ Ce passage est fondamental.
 Malgré la diversité des périphériques et des formats d’écran, des agences de communication — en fait, des graphistes... — cherchent toujours à faire des mises en pages au pixel près.
 C’est parfaitement contraire à l’esprit du web, ça coûte très cher et c’est souvent peu pérenne ni efficace.
 
-J’essaie d’appliquer ce principe dans mon billet sur l’[utilisation des polices système]({{% relref "polices-systeme" %}}).
+J’essaie d’appliquer ce principe dans mon billet sur l’[utilisation des polices système](/webperf/polices-systeme/).
 
 ## Essence d’une page ou d’un site web
 

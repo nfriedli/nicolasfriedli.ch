@@ -1,7 +1,7 @@
 ---
 title: Mes règles d’utilisation des réseaux sociaux
 description: Réfléchir à des principes hors des périodes de stress, trouver des critères simples et les appliquer sérieusement. Voici comment je gère mes comptes de réseaux sociaux. 
-date: 2024-10-20
+draft: true
 ---
 
 Lorsque je donnais des formations aux réseaux sociaux il y a bien plus de 10 ans, je conseillais toujours aux internautes de réfléchir à leurs propres règles au calme.

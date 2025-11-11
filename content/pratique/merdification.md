@@ -1,13 +1,11 @@
 ---
 title: Merdification généralisée
-description: "La merdification, c’est beaucoup plus qu’un bon mot qui fait sourire. C’est l’application consciente et rigoureuse d’une stratégie à un service: abandonner ou malmener les internautes qui ont donné de la valeur à ce service pour favoriser uniquement le profit des investisseurs."
+description: "La merdification, c’est beaucoup plus qu’un bon mot qui fait sourire. C’est l’application consciente et rigoureuse d’une stratégie à un service. Elle consiste à abandonner ou malmener les internautes qui ont donné de la valeur à ce service pour favoriser uniquement le profit des investisseurs."
 ---
 
 La merdification, c’est d’abord un bon mot.
 Il a été inventé par le canadien Cory Doctorow en 2022 en anglais: «entshittification».
 Je vous invite à consulter [La «merdification» du web, avec Cory Doctorow](https://ici.radio-canada.ca/nouvelle/2047650/merdification-enshittification-cory-doctorow-decrypteurs) pour en savoir beaucoup plus sur le sujet.
-
-**Je remets en ligne cet ancien billet de theologique.ch qui m’a été demandé à plusieurs reprises.**
 
 Le néologisme a reçu des honneurs en devenant [Word of the Year 2024](https://www.macquariedictionary.com.au/word-of-the-year/word-of-the-year-2024/) du dictionnaire australien *Macquarie Dictionary*.
 Il s’est aussi vu cité par *Le Monde* pour lui donner quelques lettres de noblesse: [La «merdification», ce processus inexorable de dégradation de la qualité des services sur les plateformes numériques](https://www.lemonde.fr/idees/article/2025/04/23/la-merdification-ce-processus-inexorable-de-degradation-de-la-qualite-des-services-sur-les-plateformes-numeriques_6599211_3232.html).

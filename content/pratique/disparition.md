@@ -1,6 +1,8 @@
 ---
 title: Disparition d’une page ou d’un site web
 description: Il est possible de consulter une page disparue grâce à différents systèmes d’archives. C’est précieux quand on site des liens dans nos articles.
+aliases:
+- /blog/disparition/
 ---
 
 Que faire quand une page n’est plus disponible en ligne mais que son contenu nous intéresse toujours?
@@ -19,10 +21,10 @@ La solution royale, c’est l’utilisation de la [Wayback Machine](https://web.
 Si la page fait partie de l’archive, il est possible de la retrouver telle qu’elle existait à différentes dates
 Quand un site entier est archivé, il est même possible de naviguer et de l’utiliser (presque) comme quand il était en ligne.
 
-Par exemple, pour theologique.ch:
+Par exemple, pour nicolasfriedli.ch:
 
-- les différentes [captures du site par date](https://web.archive.org/web/20250000000000*/theologique.ch) ou
-- la liste de [toutes URL archivées](https://web.archive.org/web/*/theologique.ch*) avec la mention du type de fichier et un horodatage
+- les différentes [captures du site par date](https://web.archive.org/web/20250000000000*/nicolasfriedli.ch) ou
+- la liste de [toutes URL archivées](https://web.archive.org/web/*/nicolasfriedli.ch*) avec la mention du type de fichier et un horodatage
 
 ### Ajouter des archives
 
@@ -32,10 +34,10 @@ Avec l’option *Save outlinks*, disponible uniquement avec un compte (gratuit),
 Pour ajouter un lot de pages, par exemple pour archiver son propre site, il est toujours intéressant de partir d’une page qui liste beaucoup de liens:
 
 - plan complet du site s’il existe
-- sitemap (par exemple https://theologique.ch/index.xml)
+- sitemap (par exemple https://nicolasfriedli.ch/index.xml)
 - à défaut, une page de liste sérieuse (par exemple une catégorie de blog)
 
-En principe, je sauvegarde theologique.ch pour que toutes les pages se trouvent dans l’Internet Archive.
+En principe, je sauvegarde nicolasfriedli.ch pour que toutes les pages se trouvent dans l’Internet Archive.
 
 ### Extensions de navigateur et applications Web Archive
 
@@ -64,10 +66,10 @@ Quand un site est géré avec Git sur un système public (GitHub, GitLab, etc.),
 Certes, les contenus proposés sont parfois des sources (par exemple en [Markdown](/blog/markdown)), mais le contenu textuel est bien là.
 C’est une bonne raison de toujours donner la [priorité au texte](/blog/txt/) quand on édite un site.
 
-Pour theologique.ch, le dépôt GitHub est parfois nettoyé, notamment pour ne pas colporter des images utilisées précédemment.
+Pour nicolasfriedli.ch, le dépôt GitHub est parfois nettoyé, notamment pour ne pas colporter des images utilisées précédemment.
 Mais l’histoire récente est bien là.
 
-Pour rappel, le dépôt est public: https://github.com/nfriedli/theologique.ch
+Pour rappel, le dépôt est public: https://github.com/nfriedli/nicolasfriedli.ch
 
 ## Archives dans le lecteur RSS ou Atom
 

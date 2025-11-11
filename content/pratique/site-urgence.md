@@ -1,7 +1,7 @@
 ---
 title: Notes sur la création d’un site d’urgence
 description: Il y aura bien un problème de site web un jour ou l’autre. L’urgence ne se prévoit pas, mais il est possible de s’y préparer.
-date: 2024-06-03
+draft: true
 ---
 
 Entre les pannes de serveur, les incertitudes concernant l’approvisionnement énergétique, les pics d’affluence et les catastrophes naturelles, nous avons toutes les raisons de penser qu’il y aura bien une urgence un jour ou l’autre. L’urgence, par définition, comporte sa part d’imprévisible. Mais ce n’est pas une raison pour ne pas s’y préparer.

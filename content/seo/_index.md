@@ -1,5 +1,6 @@
 ---
 title: Référencement (SEO)
+description: Le référencement correspond à l’ensemble des bonnes pratiques pour améliorer la compréhension et la visibilité d’un site web par les moteurs de recherche.
 weight: 40
 ---
 

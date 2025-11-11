@@ -1,6 +1,8 @@
 ---
-title: Faciliter les citations avec le fichier CITATION.cff
+title: Citations facilitées avec le fichier CITATION.cff
 description: Comment citer correctement un site web? Comment donner la référence précise d’un logiciel? Le fichier CITATION.cff permet de transmettre des données claires et utiles. 
+aliases:
+- /pratique/cff/
 ---
 
 Comment citer correctement un site web?
@@ -57,11 +59,11 @@ Des outils comme [Zotero](https://www.zotero.org/) proposent des moyens d’util
 Bien entendu, vous pouvez continuer à citer une source sans recours à un logiciel spécifique.
 Lorsque vous renvoyez à une page de ce site, vous pouvez proposer un **lien visible** dans un document imprimé, par exemple:
 
-> «Faciliter les citations avec le fichier CITATION.cff» (<https://nicolasfriedli.ch/blog/cff/>), consulté le 27 octobre 2025
+> «Faciliter les citations avec le fichier CITATION.cff» (<https://nicolasfriedli.ch/pratique/cff/>), consulté le 27 octobre 2025
 
 Sur une page web, un **lien cliquable** classique suffit, par exemple:
 
-> [Faciliter les citations avec le fichier CITATION.cff](<https://nicolasfriedli.ch/blog/cff/>) (27.10.2025)
+> [Faciliter les citations avec le fichier CITATION.cff](<https://nicolasfriedli.ch/pratique/cff/>) (27.10.2025)
 
 Et si vous souhaitez une **citation complète**, je vous suggère un format de type:
 
@@ -78,6 +80,6 @@ Il permet, en cas de besoin, de retrouver le contenu quelque part.
 En particulier si vous ne disposez pas d’un logiciel pour faire un travail d’archivage efficace.
 
 De manière générale, quand des pages sont citées, je conseille de toujours **les faire entrer dans la Wayback Machine**.
-J’en dis quelques mots dans [Disparition d’une page ou d’un site web](/blog/disparition/).
+J’en dis quelques mots dans [Disparition d’une page ou d’un site web](/pratique/disparition/).
 
 À ma connaissance, les fichiers `CITATION.cff` restent rare des projets «littéraires» et je pense que cela mériterait de changer.

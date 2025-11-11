@@ -1,6 +1,7 @@
 ---
 title: Garanti sans ChatGPT (ou pas)
 description: Les contenus de ce site sont rédigés par Nicolas Friedli. Mais il ne porte pas de badge «not by AI». Ce genre de précision est trop souvent une démarche marketing.
+draft: true
 ---
 
 Ce site est rédigé par Nicolas Friedli et non par ChatGPT (ou une autre intelligence artificielle). Je pourrais le préciser en bas de page, comme de nombreux sites qui se déclarent *not by AI*. Toutefois, je ne suis pas certain de la pertinence de la mention et j’y renonce.

@@ -1,9 +1,8 @@
-+++
-title = "Statistiques (ou pas)"
-description = "Les statistiques ne m’apportent rien sur ce site personnel. Et ce n’est pas parce qu’elles sont respectueuses qu’elles sont plus pertinentes."
-date = 2025-09-19
-draft = true
-+++
+---
+title: Statistiques (ou pas)
+description: Les statistiques ne m’apportent rien sur ce site personnel. Et ce n’est pas parce qu’elles sont respectueuses qu’elles sont plus pertinentes.
+draft: true
+---
 
 J’ai longtemps conservé des statistiques sur ce site.
 Le nombre de visites m’intéressait peu.
