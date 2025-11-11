@@ -52,7 +52,7 @@ C’est très plus utile lorsque d’autres personnes partagent mes publications
 
 Finalement chez Mastodon, en utilisant le [protocole Webfinger](https://docs.joinmastodon.org/spec/webfinger/), il est possible de créer une adresse de raccourci indépendant de l’instance utilisée, donc pérenne.
 
-Mon profil lié à un nom de domaine que je possède est @n@frdl.ch.
+Mon profil lié à un nom de domaine que je possède est @<n@frdl.ch>.
 C’est un alias, que je peux rediriger en tout temps vers une autre instance Mastodon.
 
 ## Nom de compte chez Bluesky
