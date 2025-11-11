@@ -72,7 +72,7 @@ Les enfants qui ont suivi le tutoriel pour leur première mousse au chocolat uti
 Et je parie que les ados pourraient bien lire quelque chose sur la cuisine moléculaire.
 
 Pour moi, cette notion de moment est la plus grande force de Diátaxis.
-**Une même personne a besoin de contenus différents en fonction de sa tâche du moment.** 
+**Une même personne a besoin de contenus différents en fonction de sa tâche du moment.**
 Parce que les besoins varient en fonction du temps, la structure doit être particulièrement propre.
 
 ## Rigueur et non-linéarité
@@ -84,9 +84,8 @@ C’est faux!
 Les parcours peuvent être multiples.
 Je vous passe toutes les navigations possibles entre les différents éléments d’une documentation, que ce soit de la cuisine, de la programmation, le pilotage d’un avion ou le vélo (des exemples de Procida).
 
-**La structure doit être assez claire pour permettre de sauter sans hésitation d’un type de contenu à l’autre à un moment précis.** 
+**La structure doit être assez claire pour permettre de sauter sans hésitation d’un type de contenu à l’autre à un moment précis.**
 J’ai besoin de ceci, je sais que je vais trouver la réponse là!
 
 Depuis que j’ai écouté et lu Procida, je vois les choses sous un autre angle.
 Je combats désormais autant que possible ma tentation d’introduire des «motifs antipédagogiques» (introduire des éléments d’explication dans un tutoriel, par exemple), sans toujours y parvenir.
-

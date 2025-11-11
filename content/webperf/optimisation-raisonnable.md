@@ -96,7 +96,7 @@ Comme la performance web me passionne, je cherche à toujours obtenir le meilleu
 C’est pourquoi [ce site est hyper rapide](/infos/about/).
 
 Mais, d’une certaine manière, utiliser une mise en page simpliste, renoncer aux images et ne pas utiliser de polices spécifiques est une forme de snobisme.
-Au fond, je m’enorgueillis d’obtenir des résultats parfaits dans PageSpeed Insights](https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fnicolasfriedli.ch%2F).
+Au fond, je m’enorgueillis d’obtenir des résultats parfaits dans PageSpeed Insights](<https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fnicolasfriedli.ch%2F>).
 C’est aussi une forme de snobisme.
 
 > La volonté d’obtenir le meilleur résultat à tout prix est un exercice utile pour les développeurs et développeuses.

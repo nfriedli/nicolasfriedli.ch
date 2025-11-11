@@ -84,7 +84,6 @@ Dans le cadre d’une documentation important il est intéressant de disposer du
 Il doit bien montrer la structure et les niveaux pour être utile.
 Une simple liste de pages ne fait pas l’affaire.
 
-
 ## Références
 
 En plus des 2 sources citées en début d’article, je vous conseille:

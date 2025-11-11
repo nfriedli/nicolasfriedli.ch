@@ -34,7 +34,7 @@ Avec l’option *Save outlinks*, disponible uniquement avec un compte (gratuit),
 Pour ajouter un lot de pages, par exemple pour archiver son propre site, il est toujours intéressant de partir d’une page qui liste beaucoup de liens:
 
 - plan complet du site s’il existe
-- sitemap (par exemple https://nicolasfriedli.ch/index.xml)
+- sitemap (par exemple <https://nicolasfriedli.ch/index.xml>)
 - à défaut, une page de liste sérieuse (par exemple une catégorie de blog)
 
 En principe, je sauvegarde nicolasfriedli.ch pour que toutes les pages se trouvent dans l’Internet Archive.
@@ -69,7 +69,7 @@ C’est une bonne raison de toujours donner la priorité au texte quand on édit
 Pour nicolasfriedli.ch, le dépôt GitHub est parfois nettoyé, notamment pour ne pas colporter des images utilisées précédemment.
 Mais l’histoire récente est présente.
 
-Pour rappel, le dépôt est public: https://github.com/nfriedli/nicolasfriedli.ch
+Pour rappel, le dépôt est public: <https://github.com/nfriedli/nicolasfriedli.ch>
 
 ## Archives dans le lecteur RSS ou Atom
 
