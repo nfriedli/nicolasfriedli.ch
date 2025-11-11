@@ -36,7 +36,7 @@ En particulier pour le tatouage...
 
 Sur un profil Mastodon, qui remplace très bien Twitter (X), il est possible d’obtenir des validations.
 
-Dans mon cas le compte [@nicolasfriedli](https://mastodon.social/@nicolasfriedli) propose 2 liens validés: GitHub et mon site personnel.
+Dans mon cas le compte `@nicolasfriedli`](https://mastodon.social/@nicolasfriedli)` propose 2 liens validés: GitHub et mon site personnel.
 Ces liens sont en vert.
 
 Mieux encore, lors d’une recherche, le lien validé s’affiche en vert dans les résultats.
@@ -46,13 +46,13 @@ Je peux donc vérifier instantanément que la personne que je vais suivre est bi
 
 On peut aussi valider son nom sous ses publications (author attribution) pour une liste précise de sites.
 Lorsque je publie sur mon site personnel, il y a mon nom Mastodon sous la publication.
-C’est très plus utile lorsque d’autres personnes partagent mes publications ([exemple en action](https://mastodon.social/@nicolasfriedli/113973218633632714)).
+C’est très plus utile lorsque d’autres personnes partagent mes publications.
 
 ### Adresse pérenne avec WebFinger
 
 Finalement chez Mastodon, en utilisant le [protocole Webfinger](https://docs.joinmastodon.org/spec/webfinger/), il est possible de créer une adresse de raccourci indépendant de l’instance utilisée, donc pérenne.
 
-Mon profil lié à un nom de domaine que je possède est @<n@frdl.ch>.
+Mon profil lié à un nom de domaine que je possède est `@n@frdl.ch`.
 C’est un alias, que je peux rediriger en tout temps vers une autre instance Mastodon.
 
 ## Nom de compte chez Bluesky
@@ -66,7 +66,7 @@ Le nom complet d’un compte pour moi pourrait être `nicolasfriedli.bsky.social
 Avec un nom de domaine, on peut se passer totalement du `.bsky.social`.
 Je dispose désormais du compte @nicolasfriedli.ch.
 
-Regardez l’adresse: [bsky.app/profile/nicolasfriedli.ch](https://bsky.app/profile/nicolasfriedli.ch).
+Regardez l’adresse: `bsky.app/profile/nicolasfriedli.ch`.
 Détail frappant: elle contient un `.` (point) alors que ce n’est pas possible lors de l’inscription.
 
 J’ai validé mon nom de compte par mon nom domaine.
