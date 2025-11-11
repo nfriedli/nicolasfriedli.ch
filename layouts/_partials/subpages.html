@@ -1,6 +1,6 @@
 {{ with page.Pages }}
 <ul>
-{{ range . }}
+{{ range sort (sort . "LinkTitle") "Weight" }}
     <li>
         <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     </li>

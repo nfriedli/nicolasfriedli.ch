@@ -3,7 +3,7 @@
 <aside>
     <p>Ceci pourrait aussi vous intéresser:</p>
     <ul>
-        {{ range .Pages }}
+        {{ range sort (sort .Pages "LinkTitle") "Weight" }}
             {{ if ne .Page page }} 
             <li>
                 <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><br>
