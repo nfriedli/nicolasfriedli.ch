@@ -6,7 +6,7 @@ draft: true
 ---
 
 J’en ai parlé dans des billets précédents, je travaille avec des langages de balisage léger qui distinguent fichier source et résultat produit.
-J’utilise [Markdown](/blog/markdown/) pour produire les pages HTML de ce site.
+J’utilise Markdown pour produire les pages HTML de ce site.
 
 Je vous conseille de jeter un œil à la [source de cette page dans GitHub](https://github.com/nfriedli/theologique.ch/blob/main/content/blog/sembr.md).
 Pour voir le résultat en HTML, vous pouvez consulter le document envoyé dans votre navigateur avec `Ctrl U`.

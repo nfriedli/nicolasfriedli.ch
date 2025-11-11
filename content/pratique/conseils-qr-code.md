@@ -95,7 +95,7 @@ Quelques jours après la publication de cette page, ma commune de Milvignes publ
 
 ----
 
-Dans son billet [QR Code Hijacking Attempts Are Pretty Inept](https://shkspr.mobi/blog/2024/07/qr-code-hijacking-attempts-are-pretty-inept/), Terence Eden montre quelques exemples de fraudes, puis insiste sur une URL officielle. On ne le dira jamais assez: votre nom de domaine est capital, y compris un compris le nom de domaine d'un site personnel.
+Dans son billet [QR Code Hijacking Attempts Are Pretty Inept](https://shkspr.mobi/blog/2024/07/qr-code-hijacking-attempts-are-pretty-inept/), Terence Eden montre quelques exemples de fraudes, puis insiste sur une URL officielle. On ne le dira jamais assez: votre nom de domaine est capital, y compris un compris le nom de domaine d’un site personnel.
 
 ----
 

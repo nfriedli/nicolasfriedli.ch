@@ -63,11 +63,11 @@ Et surtout pour obtenir des URL que l’on utilisera dans la Wayback Machine.
 ## Historique de Git
 
 Quand un site est géré avec Git sur un système public (GitHub, GitLab, etc.), on peut souvent en refaire l’histoire.
-Certes, les contenus proposés sont parfois des sources (par exemple en [Markdown](/blog/markdown)), mais le contenu textuel est bien là.
-C’est une bonne raison de toujours donner la [priorité au texte](/blog/txt/) quand on édite un site.
+Certes, les contenus proposés sont parfois des sources (par exemple en Markdown), mais le contenu textuel est bien là.
+C’est une bonne raison de toujours donner la priorité au texte quand on édite un site.
 
 Pour nicolasfriedli.ch, le dépôt GitHub est parfois nettoyé, notamment pour ne pas colporter des images utilisées précédemment.
-Mais l’histoire récente est bien là.
+Mais l’histoire récente est présente.
 
 Pour rappel, le dépôt est public: https://github.com/nfriedli/nicolasfriedli.ch
 
