@@ -2,7 +2,7 @@
 title: Citations facilitées avec le fichier CITATION.cff
 description: Comment citer correctement un site web? Comment donner la référence précise d’un logiciel? Le fichier CITATION.cff permet de transmettre des données claires et utiles. 
 aliases:
-- /pratique/cff/
+- /blog/cff/
 ---
 
 Comment citer correctement un site web?
