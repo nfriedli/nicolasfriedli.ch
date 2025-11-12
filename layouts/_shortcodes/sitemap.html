@@ -1,7 +1,7 @@
 {{ define "subpages" }}
 {{ if .Pages }}
 <ul>
-    {{ range .Pages}}
+    {{ range sort (sort .Pages "LinkTitle") "Weight"}}
     <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
         {{ template "subpages" . }}
     </li>
