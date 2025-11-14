@@ -1,8 +1,6 @@
 ---
 title: Introduction aux flux RSS et Atom
 description: Quelques notes sur les flux RSS pour rappeler que ce n’est pas un outil des spécialistes.
-aliases:
-- /blog/rss-introduction/
 ---
 
 Les flux RSS (Really Simple Syndication) existent depuis 25 ans. Ils sont simples, efficaces et fiables, mais ils restent méconnus par beaucoup d’internautes pour qui c’est un truc de spécialistes.

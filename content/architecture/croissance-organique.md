@@ -3,8 +3,6 @@ title: Croissance organique d’un site web
 description: Un site web toujours cohérent, mais jamais terminé. La croissance organique permet d’évoluer progressivement sans mettre l’accent sur les faiblesses et les problèmes. Et ça fonctionne!
 videos:
 - https://youtu.be/Wc7n7uIg4AM
-aliases:
-- /blog/croissance-organique/
 ---
 
 Partir de rien pour créer un site web peut être une démarche difficile.

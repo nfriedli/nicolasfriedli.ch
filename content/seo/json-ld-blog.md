@@ -1,8 +1,6 @@
 ---
 title: Données structurées pour un site personnel
 description: Schema.org et JSON-LD pour aider les moteurs de recherche à comprendre le statut de son site et améliorer la compréhension des billets de blog.
-aliases:
-- /blog/json-ld-blog/
 ---
 
 Les données structurées permettent de simplifier le travail des moteurs de recherche et d’améliorer la précision des informations fournies.

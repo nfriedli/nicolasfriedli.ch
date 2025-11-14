@@ -1,8 +1,6 @@
 ---
 title: Configuration d’Hugo
 description: Quelques commentaires la configuration d’Hugo avec un fichier hugo.toml simple. Notes sur la modularisation et les environnements.
-aliases:
-- /blog/hugo-configuration/
 ---
 
 La configuration d’Hugo est simple quand on part de zéro, mais souvent complexe lorsqu’un thème existant est repris.

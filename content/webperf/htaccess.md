@@ -1,8 +1,6 @@
 ---
 title: htaccess chez Infomaniak
 description: Pour des sites générés avec Hugo et hébergés chez Infomaniak, voici le .htaccess type que j’utilise. C’est une version découpée en plusieurs parties avec des commentaires. 
-aliases:
-- /blog/htaccess/
 draft: true
 ---
 

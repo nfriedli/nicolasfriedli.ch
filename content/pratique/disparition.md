@@ -1,8 +1,6 @@
 ---
 title: Disparition d’une page ou d’un site web
 description: Il est possible de consulter une page disparue grâce à différents systèmes d’archives. C’est précieux quand on site des liens dans nos articles.
-aliases:
-- /blog/disparition/
 ---
 
 Que faire quand une page n’est plus disponible en ligne mais que son contenu nous intéresse toujours?

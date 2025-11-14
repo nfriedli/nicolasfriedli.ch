@@ -2,7 +2,6 @@
 title = "Blogroll (sélection de liens)"
 description = "Je vous propose une sélection de liens que j’apprécie et consulte régulièrement. Il y a très longtemps, on appelait cela un «blogroll»."
 date = 2025-09-28
-aliases = ["/blogroll/", "/links/"]
 +++
 
 Je vous propose une sélection de liens que j’apprécie et consulte régulièrement.

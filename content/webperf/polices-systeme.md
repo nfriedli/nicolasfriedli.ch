@@ -1,8 +1,6 @@
 ---
 title: Utiliser des polices système
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
-aliases:
-- /blog/polices-systeme/
 ---
 
 L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements.

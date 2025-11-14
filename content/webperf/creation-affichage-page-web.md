@@ -1,8 +1,6 @@
 ---
 title: Création & affichage d’une page web
 description: À chaque fois qu’une page s’affiche dans un navigateur, des centaines d’opérations ont eu lieu avant pour établir la connexion au serveur, pour générer la page sur le serveur, pour transférer des tas de fichiers, pour mettre en forme le résultat final.
-aliases:
-- /blog/creation-affichage-page-web/
 ---
 
 Dans le monde des Bisnounours: j’entre une adresse et le site est à l’écran.
