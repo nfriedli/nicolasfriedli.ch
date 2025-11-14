@@ -41,11 +41,9 @@ J’ajoute ceci pour les premiers niveaux de titres:
     --titles: "Literata", var(--sans-serif);
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
     font-family: var(--titles);
+    font-weight: 400;
 }
 ```
 
