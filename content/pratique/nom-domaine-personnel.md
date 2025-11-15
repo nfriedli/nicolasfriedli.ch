@@ -1,6 +1,6 @@
 ---
 title: Nom de domaine personnel pour QR codes, Mastodon & Bluesky
-description: Posséder un nom de domaine personnel garantit une identité numérique pérenne et indépendante. Découvrez comment l’utiliser intelligemment pour vos QR codes, sur Mastodon & sur Bluesky.$
+description: Posséder un nom de domaine personnel garantit une identité numérique pérenne et indépendante. Découvrez comment l’utiliser intelligemment pour vos QR codes, sur Mastodon & sur Bluesky.
 ---
 
 Notre présence en ligne est devenue une extension de notre identité personnelle et professionnelle.
