@@ -1,5 +1,5 @@
 ---
-title: Utiliser des polices système
+title: Polices système pour la performance et l’écologie
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 ---
 
