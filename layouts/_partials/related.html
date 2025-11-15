@@ -1,7 +1,7 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
 
-<aside>
+<aside data-nosnippet>
     <p>Dans la même thématique:</p>
     <ul>
 	{{ range . }}

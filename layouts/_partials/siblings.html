@@ -1,6 +1,6 @@
 {{ with .Parent }}
 {{ if gt (len .Pages ) 1 }}
-<aside>
+<aside data-nosnippet>
     <p>Ceci pourrait aussi vous intéresser:</p>
     <ul>
         {{ range sort (sort .Pages "LinkTitle") "Weight" }}
