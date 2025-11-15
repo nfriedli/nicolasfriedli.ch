@@ -1,6 +1,8 @@
 ---
 title: Optimisation d’images et dithering
 description: Les images tramées (dithering) sont à la mode. Souvent présentées comme écologiques, elle sont parfois plus lourdes que de simples fichiers JPG bien optimisés.
+images:
+- /images/dithering-8.jpg
 ---
 
 De plus en plus de site utilisent des images tramées en se prétendant écoresponsables.
@@ -25,6 +27,8 @@ Comme exemple, une image libre qui fait «jardin numérique aux Pays-Bas», trou
 {{< figure
   src="/images/dithering-1.jpg"
   alt="Image originale de Pixabay en JPG"
+  width=1280
+  height=853
   caption="Image originale de Pixabay, en JPG, 1280X853px, 221Ko."
 >}}
 
@@ -34,6 +38,8 @@ Elle est 2 fois plus légère, sans différences notables:
 {{< figure
   src="/images/dithering-2.jpg"
   alt="Image optimisée avec Squoosh en JPG"
+  width=1280
+  height=853
   caption="Image optimisée avec Squoosh, en JPG, 1280X853px, 104Ko."
   loading="lazy"
 >}}
@@ -45,6 +51,8 @@ Toujours dans Squoosh, toujours sans paramètres particuliers, elle est transfor
 {{< figure
   src="/images/dithering-3.webp"
   alt="Image optimisée avec Squoosh en WebP"
+  width=1280
+  height=853
   caption="Image optimisée avec Squoosh, en WebP, 1280X853px, 67Ko."
   loading="lazy"
 >}}
@@ -54,6 +62,8 @@ Puis en AVIF (dont le support dans les navigateurs est moins bon), et encore un 
 {{< figure
   src="/images/dithering-4.avif"
   alt="Image optimisée avec Squoosh en AVIF"
+  width=1280
+  height=853
   caption="Image optimisée avec Squoosh, en AVIF, 1280X853px, 37Ko."
   loading="lazy"
 >}}
@@ -65,6 +75,8 @@ Comme les images «branchées et (prétendument) écoresponsables» sont en PNG,
 {{< figure
   src="/images/dithering-5.png"
   alt="Image «optimisée» avec Squoosh en PNG"
+  width=1280
+  height=853
   caption="Image «optimisée» avec Squoosh, en PNG, 1280X853px, 1.3Mo."
   loading="lazy"
 >}}
@@ -77,6 +89,8 @@ Par contre, elle a un «style» (et pourrait faire illusion):
 {{< figure
   src="/images/dithering-6.png"
   alt="Image «optimisée» avec Squoosh en PNG 8 couleurs"
+  width=1280
+  height=853
   caption="Image «optimisée» avec Squoosh, en PNG, 8 couleurs 1280X853px, 152Ko."
   loading="lazy"
 >}}
@@ -86,6 +100,8 @@ Pour alléger vraiment l’image, elle est cette fois très réduite en taille e
 {{< figure
   src="/images/dithering-7.png"
   alt="Image optimisée avec Squoosh, réduite et en 4 couleurs"
+  width=320
+  height=213
   caption="Image optimisée avec Squoosh, en PNG, 4 couleurs 320X213px, 9Ko."
   loading="lazy"
 >}}
@@ -97,6 +113,8 @@ C’est pas mal mais le rendu est un peu flou:
 {{< figure
   src="/images/dithering-7.png"
   alt="Image optimisée avec Squoosh, réduite et en 4 couleurs, agrandie artificiellement"
+  width=320
+  height=213
   caption="Image optimisée avec Squoosh, en PNG, 4 couleurs 320X213px, 9Ko, en largeur forcée à 100%."
   class="full"
   loading="lazy"
@@ -108,6 +126,8 @@ Et là, c’est vraiment net:
 {{< figure
   src="/images/dithering-7.png"
   alt="Image optimisée avec Squoosh, réduite et en 4 couleurs, agrandie et pixelisée"
+  width=320
+  height=213
   caption="Image optimisée avec Squoosh, en PNG, 4 couleurs 320X213px, 9Ko, en largeur forcée à 100%, rendu pixelisé."
   class="full pixelated"
   loading="lazy"
@@ -123,6 +143,8 @@ Mais si on souhaite afficher une belle «image normale» et légère, rien de te
 {{< figure
   src="/images/dithering-8.jpg"
   alt="Image optimisée avec Squoosh, de taille décente et bien compressée"
+  width=800
+  height=533
   caption="Image optimisée avec Squoosh, en JPG, qualité 50, 800X533px, 36Ko."
   class="full"
   loading="lazy"

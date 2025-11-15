@@ -3,7 +3,11 @@ title: Police optimisée pour les titres
 description: Proposer une police particulière sans prétériter la performance de son site. Fichier optimisé en woff2 latin, stratégie de chargement efficace et gestion du cache pour minimiser les ressource.
 ---
 
-Voici la stratégie j’applique sur mon site pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
+Voici une stratégie facile à mettre en œuvre pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
+
+Il est possible que je l’utilise, par moments, sur ce site.
+Mais les tactiques et techniques de cette page restent valable.
+Ce qui est documenté plus bas est disponible dans le [dépôt GitHub au commit 74a8e8d](https://github.com/nfriedli/nicolasfriedli.ch/blob/efb6694df25c11b22e0397124a88b7d7926dffdc/assets/css/all.css).
 
 ## Optimisation de la police
 
@@ -11,18 +15,18 @@ J’ai choisi d’utiliser [Literata](https://fonts.google.com/specimen/Literata
 C’est une police variable, ce qui signifie qu’elle dispose de beaucoup de variantes, mais qu’elle est aussi assez lourde.
 Elle peut varier de taille optique et de poids (`opsz` et `wght`).
 
-Pour me simplifier la vie, j’ai téléchargé la police sur le site [Google Webfonfs Helper](https://gwfh.mranftl.com/fonts/bricolage-grotesque?subsets=latin).
+Pour me simplifier la vie, j’ai téléchargé la police sur le site [Google Webfonfs Helper](https://gwfh.mranftl.com/fonts/literata?subsets=latin).
 Je l’ai choisie en graisse normale (400), en version droite et italique (alphabet latin).
 
 Ainsi, je dispose de fichiers `woff2` légers (environ 40Ko pour les 2) sans nécessité de passer par [glyphhanger](https://github.com/zachleat/glyphhanger).
-Ils sont légers car non variables.
-C’est parfait pour ma titraille.
+Ils sont légers car non variables; ils sont «nettoyés» des options que je n’utiliserai pas.
+C’est suffisant et parfait pour ma titraille.
 
 ## Affichage par la feuille de style CSS
 
 Désormais, il faut utiliser ce fichier dans les règles de l’art pour que tout se passe bien.
 
-Dans ma feuille de style, j’ai des règles de ce type ([feuille de style complète dans GitHub](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/all.css)):
+Dans ma feuille de style, j’ai des règles de ce type:
 
 ```
 :root {
