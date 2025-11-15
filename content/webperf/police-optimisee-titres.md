@@ -3,6 +3,8 @@ title: Police optimisée pour les titres
 description: Proposer une police particulière sans prétériter la performance de son site. Fichier optimisé en woff2 latin, stratégie de chargement efficace et gestion du cache pour minimiser les ressource.
 ---
 
+{{< literata >}}
+
 Voici une stratégie facile à mettre en œuvre pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
 
 Il est possible que je l’utilise, par moments, sur ce site.
