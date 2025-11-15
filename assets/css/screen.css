@@ -113,6 +113,7 @@ code {
 pre {
     background: var(--dark);
     color: var(--light);
+    overflow: auto;
     padding: .5rem 1rem;
     margin-block-end: 2rem;
 }
