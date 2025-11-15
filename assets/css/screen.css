@@ -1,9 +1,21 @@
 :root {
+    color-scheme: dark light;
+
     --light: #FFF;
     --light2: #DDE;
     --dark: #112;
     --dark2: #223;
     --blue: #008;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    --light: #112;
+    --light2: #336;
+    --dark: #DDE;
+    --dark2: #FFF;
+    --blue: #BBF;
+    }
 }
 
 *,
