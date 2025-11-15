@@ -133,7 +133,7 @@ Maintenant que l’on a vu plein de belles choses à faire avec `+`, voici pourq
 
 La règle [Opquast 24](https://checklists.opquast.com/fr/qualite-numerique/le-site-accepte-les-alias-mail-contenant-le-signe) est claire:
 
-> Le site accepte les **alias** mail contenant le signe +.
+> Les alias mail contenant le signe + sont acceptés
 
 La règle parle bien du serveur sur lequel vous souhaitez vous inscrire avec une adresse mail.
 C’est une mauvaise idée de ne pas l’accepter, mais ça arrive.
