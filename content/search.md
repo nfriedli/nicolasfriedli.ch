@@ -2,7 +2,6 @@
 title: Recherche
 description: Trouver quelque chose sur ce site avec Google.
 layout: contentonly
-draft: true
 build:
     list: never
 ---
