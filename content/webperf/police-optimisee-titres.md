@@ -6,12 +6,12 @@ description: Proposer une police particulière sans prétériter la performance 
 Voici une stratégie facile à mettre en œuvre pour disposer d’une belle police pour les titres et les intertitres sans prétériter la performance.
 
 Il est possible que je l’utilise, par moments, sur ce site.
-Mais les tactiques et techniques de cette page restent valable.
+Mais les tactiques et techniques de cette page restent valable dans la durée et applicable à d’autres polices.
 Ce qui est documenté plus bas est disponible dans le [dépôt GitHub au commit 74a8e8d](https://github.com/nfriedli/nicolasfriedli.ch/blob/efb6694df25c11b22e0397124a88b7d7926dffdc/assets/css/all.css).
 
 ## Optimisation de la police
 
-J’ai choisi d’utiliser [Literata](https://fonts.google.com/specimen/Literata) pour les titres (`h1`, `h2`, etc.) de mon blog.
+J’ai choisi de tester [Literata](https://fonts.google.com/specimen/Literata) pour les titres (`h1`, `h2`, etc.) de mon site.
 C’est une police variable, ce qui signifie qu’elle dispose de beaucoup de variantes, mais qu’elle est aussi assez lourde.
 Elle peut varier de taille optique et de poids (`opsz` et `wght`).
 
