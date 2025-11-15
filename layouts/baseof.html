@@ -18,6 +18,7 @@
         {{ partialCached "head/json-ld" . }}
     {{ end }}
     {{ block "json-ld" . }}{{ end }}
+    {{ partial "head/breadcrumb" .}}
     {{ partial "head/plausible" . }}
     {{ partialCached "head/webmentions" . .IsHome }}
     {{ partial "opengraph.html" . }}
