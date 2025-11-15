@@ -131,7 +131,7 @@ Maintenant que l’on a vu plein de belles choses à faire avec `+`, voici pourq
 
 ### Configuration des serveurs
 
-La règle [Opquast 23](https://checklists.opquast.com/fr/assurance-qualite-web/le-site-accepte-les-alias-mail-contenant-le-signe) est claire:
+La règle [Opquast 24](https://checklists.opquast.com/fr/qualite-numerique/le-site-accepte-les-alias-mail-contenant-le-signe) est claire:
 
 > Le site accepte les **alias** mail contenant le signe +.
 
