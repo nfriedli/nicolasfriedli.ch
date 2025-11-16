@@ -81,7 +81,7 @@ C’est clair et efficace.
 
 ## Intégrer la feuille de style
 
-Sur ce site, j’intégre le CSS dans le code HTML.
+Sur ce site, j’intégrais le CSS dans le code HTML.
 C’est favorable lors de la première visite d’une page et avec un feuille de style légère:
 
 ```
@@ -104,7 +104,7 @@ Par exemple:
 
 - Réunir des feuilles de style avec [Concat](https://gohugo.io/hugo-pipes/bundling/).
   C’est inutile puisque je ne n’ai qu’un fichier (par type de média).
-- Ajouter une vérification par [Subresource Integrity](https://gohugo.io/hugo-pipes/fingerprint/#usage).
+- Ajouter une vérification par [Subresource Integrity](https://gohugo.io/functions/resources/fingerprint/).
   C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
 - Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transpile-sass-to-css/).
   Je préfère l’utilisation des variables CSS.
@@ -116,5 +116,8 @@ Par exemple:
 Je signale que l’équipe de développement a pas mal travaillé sur l’utilisation de [Tailwind CSS avec Hugo](https://gohugo.io/functions/css/tailwindcss/).
 
 ----
+
+Désormais, j’utilise des feuilles de style CSS externes, minifiés, avec un numéro de version et une vérification SRI.
+La page n’est pas modifiée en conséquence, mais tout ce qui y est dit reste utilisable, CSS intégrées comme externes.
 
 Les sources du site sur GitHub permettent de voir le [partial qui s’occupe des styles CSS](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/layouts/_partials/head/css.html) tel qu’il est utilisé actuellement.
