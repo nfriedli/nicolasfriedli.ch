@@ -89,8 +89,9 @@ Si je voulais être certain que cette police s’affiche (même avec un délai),
 font-display: swap;
 ```
 
-Sur ce site, les CSS sont dans la page HTML, donc immédiatement disponibles.
-Mais si ma feuille de style était dans un fichier externe, je pourrais lancer le chargement avant même la disponibilité du CSS.
+Quand les CSS sont dans la page HTML, donc immédiatement disponibles, tout va bien ainsi.
+
+Quand la feuille de style ést dans un fichier externe, il peut être intéressant de lancer le chargement des polices avant même la disponibilité du CSS.
 
 ```
 <link 
