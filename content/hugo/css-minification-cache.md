@@ -117,7 +117,7 @@ Je signale que l’équipe de développement a pas mal travaillé sur l’utilis
 
 ----
 
-Désormais, j’utilise des feuilles de style CSS externes, minifiés, avec un numéro de version et une vérification SRI.
-La page n’est pas modifiée en conséquence, mais tout ce qui y est dit reste utilisable, CSS intégrées comme externes.
+Désormais, j’utilise des feuilles de style CSS externes, minifiés, avec un numéro de version unique.
+Cette page n’est pas modifiée en conséquence mais tout ce qui y est dit reste utilisable, tant pour les CSS intégrées comme que les feuilles de style externes.
 
 Les sources du site sur GitHub permettent de voir le [partial qui s’occupe des styles CSS](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/layouts/_partials/head/css.html) tel qu’il est utilisé actuellement.
