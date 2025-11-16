@@ -1,7 +1,13 @@
-{{ $all := resources.Get "css/all.css" }}
-{{ $screen := resources.Get "css/screen.css" }}
-{{ $print := resources.Get "css/print.css" }}
+{{ $all := resources.Get "css/all.css" | minify | fingerprint }}
+{{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+{{ $print := resources.Get "css/print.css" | minify | fingerprint }}
 
-<style>{{ $all.Content | safeCSS }}</style>
-<style media="screen">{{ $screen.Content | safeCSS }}</style>
-<style media="print">{{ $print.Content | safeCSS }}</style>
+<!-- 
+    <style>{{ $all.Content | safeCSS }}</style>
+    <style media="screen">{{ $screen.Content | safeCSS }}</style>
+    <style media="print">{{ $print.Content | safeCSS }}</style>
+-->
+
+<link rel="stylesheet" href="{{ $all.RelPermalink }}" intergity="{{ $all.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen" intergity="{{ $screen.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $print.RelPermalink }}"  media="print" intergity="{{ $print.Data.Integrity }}">
