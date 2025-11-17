@@ -22,6 +22,12 @@ ErrorDocument 404 /404.html
 # Transparence des flux RSS
 RewriteRule ^feed/?$ /index.xml [R=301,L]
 
+# Redirections historiques diverses
+Redirect 301 /about/ /infos/about/
+Redirect 301 /bio/ /infos/bio/
+Redirect 301 /contact/ /infos/contact/
+
+
 # Pour servir des fichiers précompressés en statique
 # https://drupal.stackexchange.com/questions/215639/how-to-modify-htaccess-to-serve-brotli-compressed-static-assets-over-gziped-one
 # La méthode fonctionne mais demande une intervention après la compilation par Hugo

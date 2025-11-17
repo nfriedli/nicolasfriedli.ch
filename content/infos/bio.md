@@ -2,8 +2,6 @@
 title: Biographie de l’auteur
 description: Nicolas Friedli est titulaire d’un master en théologie protestante de l’Université de Neuchâtel. Il est consultant web indépendant et responsable web pour une institution neuchâteloise.
 weight: 30
-aliases:
-- /bio/
 ---
 
 Nicolas Friedli est titulaire d’un *master* en théologie protestante de l’Université de Neuchâtel.

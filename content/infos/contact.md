@@ -2,8 +2,6 @@
 title: Contact
 description: Contacter Nicolas Friedli pour une question technique ou stratégique, pour lui proposer un mandat ou un emploi, lui adresser un commentaire sur ses publications.
 weight: 10
-aliases:
-- /contact/
 ---
 
 Vous souhaitez améliorer votre site web?
