@@ -1,5 +1,5 @@
 ---
-title: Optimisation d’images et dithering
+title: "Optimisation d’images et dithering: l'illusion écologique à l'épreuve des données"
 description: Les images tramées (dithering) sont à la mode. Souvent présentées comme écologiques, elle sont parfois plus lourdes que de simples fichiers JPG bien optimisés.
 images:
 - /images/dithering-8.jpg
@@ -10,7 +10,7 @@ Elles utilisent la technique du *dithering* (ou diffusion d’erreur).
 Dans la majorité des cas, c’est du pur bullshit.
 Le discours, aussi dithyrambique soit-il, ne fait pas un site écologique.
 
-À moins de prendre quantité de précautions, une image pixelisée en PNG sera presque toujours plus lourde qu’un simple fichier JPG.
+À moins de prendre quantité de précautions, **une image pixelisée en PNG sera presque toujours plus lourde qu’un simple fichier JPG**.
 
 Ce billet n’invente rien.
 Le sujet a déjà été bien documenté par HTeuMeuLeu dans [Éco-conception et dithering](https://www.hteumeuleu.fr/eco-conception-et-dithering/), qu’il vaut la peine de lire et dont il vaut la peine de citer la conclusion:
@@ -19,6 +19,8 @@ Le sujet a déjà été bien documenté par HTeuMeuLeu dans [Éco-conception et 
 
 Pour voir les images en taille réelle, il faut utiliser une option comme «Ouvrir l’image dans un nouvel onglet».
 Cette page devrait être vue sur un écran d’ordinateur plutôt que celui d’un téléphone pour bien visualiser les différences (parfois ténues).
+
+Elle ne peut pas obtenir les meilleurs résultats de performance parce qu'elle présente certaines images volontairement mal «optimisées».
 
 ## Images en JPG
 
@@ -138,7 +140,7 @@ Mais on se rassurera en sachant que d’autres les trouveront «remarquablement 
 
 ## Image optimisée en JPG
 
-Mais si on souhaite afficher une belle «image normale» et légère, rien de tel que bien choisir sa taille et de forcer un peu sa compression, en simple JPG:
+Si on souhaite afficher une **belle «image normale» et légère**, rien de tel que **bien choisir sa taille** et de **forcer un peu sa compression**, en simple JPG:
 
 {{< figure
   src="/images/dithering-8.jpg"
@@ -152,7 +154,7 @@ Mais si on souhaite afficher une belle «image normale» et légère, rien de te
 
 Elle fait 36Ko, c’est peu.
 Et c’est très bien ainsi.
-Le rendu visuel est suffisant pour la grande majorité des usages.
+Le **rendu visuel est suffisant** pour la grande majorité des usages.
 
 ## Conclusion
 
@@ -168,10 +170,10 @@ Eh bien non!
 
 Les images beaucoup trop lourdes ne sont pas de simples accidents.
 La maladie est plus grave.
-Nous sommes dans un monde où le verbiage suffit à convaincre et se convaincre de son excellence.
+Nous sommes dans un monde où **le verbiage suffit à convaincre et se convaincre de son excellence**.
 C’est triste.
 
 En attendant de faire les choses mieux, on consomme beaucoup trop de bande passante.
 Le discours se verdit; le discours seulement.
 
-Ce qui compte, ce n’est pas le «style écologique», mais le poids du fichier et la justesse de son usage (utilité réelle, taille, format, compression, chargement différé et politique de cache).
+**Ce qui compte**, ce n’est pas le «style écologique», mais le **poids du fichier** et la **justesse de son usage** (utilité réelle, taille, format, compression, chargement différé et politique de cache).
