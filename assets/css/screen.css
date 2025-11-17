@@ -149,6 +149,7 @@ img {
     max-width: 100%;
 }
 
+figure.full,
 .full img {
     width: 100%;
 }
