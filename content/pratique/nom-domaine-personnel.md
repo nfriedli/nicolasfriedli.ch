@@ -36,7 +36,7 @@ En particulier pour le tatouage...
 
 Sur un profil Mastodon, qui remplace très bien Twitter (X), il est possible d’obtenir des validations.
 
-Dans mon cas le compte `@nicolasfriedli`](https://mastodon.social/@nicolasfriedli)` propose 2 liens validés: GitHub et mon site personnel.
+Dans mon cas le compte `mastodon.social/@nicolasfriedli` propose 2 liens validés: GitHub et mon site personnel.
 Ces liens sont en vert.
 
 Mieux encore, lors d’une recherche, le lien validé s’affiche en vert dans les résultats.
