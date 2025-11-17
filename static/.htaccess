@@ -23,6 +23,9 @@ ErrorDocument 404 /404.html
 RewriteRule ^feed/?$ /index.xml [R=301,L]
 
 # Redirections historiques diverses
+Redirect 301 /about /infos/about/
+Redirect 301 /bio /infos/bio/
+Redirect 301 /contact /infos/contact/
 Redirect 301 /about/ /infos/about/
 Redirect 301 /bio/ /infos/bio/
 Redirect 301 /contact/ /infos/contact/
