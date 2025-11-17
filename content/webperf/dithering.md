@@ -1,5 +1,5 @@
 ---
-title: "Optimisation d’images et dithering: l'illusion écologique à l'épreuve des données"
+title: Optimisation efficace d’images et dithering
 description: Les images tramées (dithering) sont à la mode. Souvent présentées comme écologiques, elle sont parfois plus lourdes que de simples fichiers JPG bien optimisés.
 images:
 - /images/dithering-8.jpg
@@ -20,7 +20,7 @@ Le sujet a déjà été bien documenté par HTeuMeuLeu dans [Éco-conception et 
 Pour voir les images en taille réelle, il faut utiliser une option comme «Ouvrir l’image dans un nouvel onglet».
 Cette page devrait être vue sur un écran d’ordinateur plutôt que celui d’un téléphone pour bien visualiser les différences (parfois ténues).
 
-Elle ne peut pas obtenir les meilleurs résultats de performance parce qu'elle présente certaines images volontairement mal «optimisées».
+Elle ne peut pas obtenir les meilleurs résultats de performance parce qu’elle présente certaines images volontairement mal «optimisées».
 
 ## Images en JPG
 
