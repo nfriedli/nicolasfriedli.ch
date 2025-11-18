@@ -1,6 +1,8 @@
 ---
 title: Pages sœurs, filles et mère avec Hugo
 description: Des extraits de code Hugo pour automatiser le maillage interne du site avec une navigation au même niveau, au niveau supérieur et au niveau inférieur.
+date: 2024-11-20
+lastMod: 2025-11-07
 ---
 
 Dans un site hiérarchique construit avec Hugo, il est facile de se créer des *shortcodes* ou des *partials* pour afficher une navigation contextuelle.

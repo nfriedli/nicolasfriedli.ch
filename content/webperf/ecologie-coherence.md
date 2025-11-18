@@ -1,6 +1,8 @@
 ---
 title: Écologie et cohérence sur le web
 description: Beaucoup de sites écologistes ont un mauvais bilan carbone. Comment comprendre cette incohérence et esquisser des pistes pour améliorer la situation?
+date: 2025-02-13
+lastMod: 2025-11-09
 ---
 
 Depuis longtemps, je teste tous les sites qui militent pour l’écologie quand je les visite.

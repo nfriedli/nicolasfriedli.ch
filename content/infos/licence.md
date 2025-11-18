@@ -2,6 +2,7 @@
 title: License d’utilisation
 description: Le site nicolasfriedli.ch est mis en ligne sous licences libres. Ces licences sont permissives, parce que c’est ainsi que se construit le web. Mais elles imposent aussi quelques contraintes.
 weight: 50
+lastMod: 2025-11-05
 ---
 
 Le site nicolasfriedli.ch est mis en ligne sous 2 licences libres.

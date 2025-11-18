@@ -18,8 +18,8 @@ copyright = "Creative Commons BY-SA"
 writeStats = false
 
 [frontmatter]
-date = ["date", ":git"]
-lastmod = ["lastmod", ":git"]
+date = ["date", "lastMod", ":git"]
+lastmod = ["lastmod", "date", ":git"]
 
 [markup]
 [markup.goldmark.parser]

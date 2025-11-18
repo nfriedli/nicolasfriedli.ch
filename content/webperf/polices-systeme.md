@@ -1,6 +1,8 @@
 ---
 title: Polices système pour la performance et l’écologie
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
+date: 2024-04-22
+lastMod: 2025-11-15
 ---
 
 L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements.

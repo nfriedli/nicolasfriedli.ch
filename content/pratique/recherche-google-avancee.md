@@ -1,6 +1,8 @@
 ---
 title: Recherches Google avancées
 description: Utiliser des opérateurs logiques et des conditions pour tout trouver rapidement. Et pour se construire des alertes Google pour une veille efficace.
+date: 2024-12-05
+lastMod: 2025-11-15
 ---
 
 Le moteur de recherche Google est souvent utilisé de manière basique.

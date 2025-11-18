@@ -1,6 +1,8 @@
 ﻿---
 title: Tester un site web
 description: Proposition de tests techniques et pratiques à effectuer pour une première appréciation d’un site web. Vous pouvez les faire vous-même, tous les liens utils sont là.
+date: 2024-02-13
+lastMod: 2025-11-14
 ---
 
 Il n’est pas rare que l’on me demande ce que je pense d’un site web personnel ou professionnel.

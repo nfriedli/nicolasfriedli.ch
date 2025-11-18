@@ -2,6 +2,7 @@
 title: À propos de ce site
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats.
 weight: 40
+lastMod: 2025-11-05
 ---
 
 Ce site est simple et efficace.

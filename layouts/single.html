@@ -1,0 +1,33 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ partial "toc" . }}
+{{ .Content }}
+{{ partial "subpages" . }}
+{{ end }}
+
+{{ define "siblings" }}
+{{ partial "siblings" . }}
+{{ end }}
+
+{{ define "json-ld" }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ .Title }}",
+    "wordCount": "{{ .WordCount }}",
+    {{ with .Date }}
+        "datePublished": "{{ .Format "2006-01-02" }}",
+    {{ end }}
+    {{ with .Lastmod }}
+    "dateModified": "{{ .Format "2006-01-02" }}",
+    {{ end }}
+    "author": [{
+        "@type": "Person",
+        "name": "Nicolas Friedli",
+        "url": "https://nicolasfriedli.ch/"
+    }],
+    "isAccessibleForFree": true
+}
+</script>
+{{ end }}

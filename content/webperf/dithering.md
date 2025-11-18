@@ -1,6 +1,8 @@
 ---
 title: Optimisation efficace d’images et dithering
 description: Les images tramées (dithering) sont à la mode. Souvent présentées comme écologiques, elle sont parfois plus lourdes que de simples fichiers JPG bien optimisés.
+date: 2025-11-08
+lastMod: 2025-11-17
 images:
 - /images/dithering-8.jpg
 ---

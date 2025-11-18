@@ -1,6 +1,8 @@
 ---
 title: htaccess chez Infomaniak
 description: Gestion du cache, redirection propres, entêtes de sécurité, etc. Voici le .htaccess type que j’utilise pour mes sites hébergés chez Infomaniak. Une bonne configuration du cache peut améliorer les performances et le bilan carbone d’un site en quelques lignes.
+date: 2024-02-12
+lastMod: 2025-11-15
 ---
 
 Gestion du cache, redirection propres, entêtes de sécurité, etc.

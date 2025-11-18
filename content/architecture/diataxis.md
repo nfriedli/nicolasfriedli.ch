@@ -1,6 +1,8 @@
 ---
 title: Enseignements du framework Diátaxis
 description: Conçu par un spécialiste de documentation technique, le cadre de travail Diátaxis permet d’améliorer la qualité de ses pages web dans d’autres domaines que le code logiciel.
+date: 2024-03-25
+lastMod: 2025-11-18
 videos:
 - https://youtu.be/t4vKPhjcMZg
 ---

@@ -3,6 +3,7 @@ title: Me proposer un mandat (ou un job)
 description: 
 menu: main
 weight: 20
+lastMod: 2025-11-05
 ---
 
 En tant que consultant, je propose des analyses, des conseils, leur application et des formations.

@@ -1,6 +1,7 @@
 ---
 title: Navigation dans une documentation
 description: La navigation doit être claire et facile pour rendre justice à un contenu de qualité. Voici quelques principes de base pour faciliter l’utilisation d’une documentation en ligne.
+date: 2025-10-03
 ---
 
 J’ai émis quelques critiques structurelles à propos d’une documentation qui venait d’être mise en ligne.

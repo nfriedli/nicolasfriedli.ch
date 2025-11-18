@@ -1,6 +1,8 @@
 ---
 title: Feuilles de style CSS minifiées par Hugo et gestion du cache
 description: Ce que j’applique en général pour la minification et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
+date: 2024-03-15
+lastMod: 2025-11-16
 ---
 
 Ce que j’applique en général pour la minification et la mise en cache des feuilles de style.

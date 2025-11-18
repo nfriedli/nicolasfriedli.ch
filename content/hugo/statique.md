@@ -1,6 +1,8 @@
 ---
 title: Site statique, générateur de site & Hugo
 description: Je vous dit pourquoi j’ai choisi Hugo parmi les générateurs de sites statiques. Mais aussi pourquoi les sites statiques sont pertinents aujourd’hui encore.
+date: 2024-03-16
+lastMod: 2025-11-06
 ---
 
 Ce site est motorisé par Hugo, je vous dis pourquoi j’ai choisi ce générateur de sites statiques.

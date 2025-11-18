@@ -1,6 +1,7 @@
 ---
 title: Lire et relire les classiques du web
 description: Des articles qui ne sont peut-être plus d’actualité sur certains points techniques, mais qui disent toujours quelque chose de pertinent parfois 25 ans après leur mise en ligne.
+date: 2024-05-11
 draft: true
 ---
 

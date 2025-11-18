@@ -1,6 +1,8 @@
 ---
 title: Travailler avec un budget de performance web
 description: Un budget de performance permet d’anticiper les contraintes, de cadrer les attentes et d’assurer un suivi continu pour obtenir un site rapide, fluide et optimisé.
+date: 2025-02-06
+lastMod: 2025-11-09
 ---
 
 Tester la performance d’un site avec Lighthouse, Web Page Test ou PageSpeed Insights est simple et rapide.

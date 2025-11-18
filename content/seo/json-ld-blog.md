@@ -1,6 +1,8 @@
 ---
 title: Données structurées pour un site personnel
 description: Schema.org et JSON-LD pour aider les moteurs de recherche à comprendre le statut de son site et améliorer la compréhension des billets de blog.
+date: 2024-03-21
+lastMod: 2025-11-10
 ---
 
 Les données structurées permettent de simplifier le travail des moteurs de recherche et d’améliorer la précision des informations fournies.
@@ -202,7 +204,7 @@ Des données structurées minimales, ici écrites avec des variables Hugo (mais 
     "headline": "{{ .Title }}",
     "wordCount": "{{ .WordCount }}",
     {{ with .PublishDate }}
-        "datePublished": "{{ .Format "2006-01-02" }}",
+        ".Date": "{{ .Format "2006-01-02" }}",
     {{ end }}
     {{ with .Lastmod }}
     "dateModified": "{{ .Format "2006-01-02" }}",
@@ -216,8 +218,7 @@ Des données structurées minimales, ici écrites avec des variables Hugo (mais 
 }
 ```
 
-Pour l’intégration, c’est un peu plus compliqué parce que dynamique.
-Comme ce n’est pas le sujet de ce billet, je ne développe pas.
+Pour l’intégration, en Hugo, 
 
 ## Construction à la main
 

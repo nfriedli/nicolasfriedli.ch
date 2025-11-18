@@ -1,6 +1,7 @@
 ---
 title: "Modèles de sites: hiérarchique, chronologique ou wiki"
-description: 
+description: Il existe principalement 3 modèles de site web, avec des fonctionnement différents, une logique différente et, en principe, des objectifs différents. Il s’agit des modèles hiérarchique, chronologique et en réseau.
+date: 2025-11-10
 ---
 
 Il existe principalement 3 modèles de site web, avec des fonctionnement différents, une logique différente et, en principe, des objectifs différents.

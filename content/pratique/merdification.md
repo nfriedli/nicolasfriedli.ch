@@ -1,6 +1,8 @@
 ---
 title: Merdification généralisée
 description: "La merdification, c’est beaucoup plus qu’un bon mot qui fait sourire. C’est l’application consciente et rigoureuse d’une stratégie à un service. Elle consiste à abandonner ou malmener les internautes qui ont donné de la valeur à ce service pour favoriser uniquement le profit des investisseurs."
+date: 2025-09-22
+lastMod: 2025-11-12
 ---
 
 La merdification, c’est d’abord un bon mot.
