@@ -37,6 +37,6 @@ Je teste régulièrement mon site pour m’assurer de toujours obtenir d’excel
 - CSS valide selon le [CSS Validation Service du W3C](https://jigsaw.w3.org/css-validator/)
 - RSS valide selon le [Feed Validation Service du W3C](https://validator.w3.org/feed/)
 
-J’essaie de respecter toutes les [règles Opquast](https://checklists.opquast.com/fr/assurance-qualite-web/) applicables.
+J’essaie de respecter toutes les toutes les règles du [Référentiel Opquast](https://checklists.opquast.com/fr/qualite-numerique/) applicables.
 
 Lorsque j’interviens sur des sites en tant que consultant ou employé, je recherche les mêmes standards de qualité.
