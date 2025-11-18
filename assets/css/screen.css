@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
-    max-width: 50rem;
+    max-width: 40rem;
     min-height: 100vh;
     min-height: 100dvh; /* pour Android et iOS */
 
@@ -50,10 +50,6 @@ body {
 
 body > * {
     padding: 1rem;
-}
-
-main {
-    max-width: 40rem;
 }
 
 header, footer {
