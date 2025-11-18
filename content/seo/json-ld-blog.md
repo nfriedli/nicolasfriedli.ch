@@ -2,7 +2,7 @@
 title: Données structurées pour un site personnel
 description: Schema.org et JSON-LD pour aider les moteurs de recherche à comprendre le statut de son site et améliorer la compréhension des billets de blog.
 date: 2024-03-21
-lastMod: 2025-11-10
+lastMod: 2025-11-18
 ---
 
 Les données structurées permettent de simplifier le travail des moteurs de recherche et d’améliorer la précision des informations fournies.
@@ -218,7 +218,8 @@ Des données structurées minimales, ici écrites avec des variables Hugo (mais 
 }
 ```
 
-Pour l’intégration, en Hugo, 
+Pour l’intégration, c’est un peu plus compliqué parce que dynamique.
+Comme ce n’est pas le sujet de ce billet, je signale simplement que c’est un [blog précis](https://github.com/nfriedli/nicolasfriedli.ch/blob/d95564cba2fc1ef067c16173e07358ce003e15f5/layouts/baseof.html#L20), vide par défaut. qui est rempli par le template [`single.html`](https://github.com/nfriedli/nicolasfriedli.ch/blob/d95564cba2fc1ef067c16173e07358ce003e15f5/layouts/single.html#L12).
 
 ## Construction à la main
 
