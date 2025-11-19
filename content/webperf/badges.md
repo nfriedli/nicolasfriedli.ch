@@ -26,7 +26,7 @@ La logique proposée ne tient pas la route du tout.
 Mais au moins il est utile, dans le sens qu’il donne une vraie information.
 Ce n’est pas toujours le cas.
 
-## Images avec sous sans lien
+## Images avec ou sans lien
 
 L’application d’images est plus problématique.
 Parce que, souvent, elles sont simplement «posées» sur le site.
@@ -36,8 +36,8 @@ Alors qu’il est possible de bien optimiser ses images en quelques minutes.
 Mais, surtout, les images ne renvoient pas forcément au référentiel utilisé.
 **Un lien vers un information utile est nécessaire:**
 
-- attestation en ligne du résultats
-- informations sur le référentiel utilisé
+- attestation en ligne du résultat
+- informations sur le référentiel utilisé ou la méthodologie
 - page de [détails sur le site](/infos/about/)
 - lien vers un site de l’organisme créateur du badge (à défaut d’un des précédents)
 
@@ -46,10 +46,10 @@ C’est ce genre d’images que je ne veux pas ici.
 
 ## Outils de test en ligne
 
-Une solution beaucup plus intéressante est le renvoi vers un outil de test en ligne.
+Une solution beaucoup plus intéressante est le renvoi vers un outil de test en ligne.
 Plutôt que d’utiliser un badge comme celui du Website Carbon Calculator qui a besoin de résultats externes même s’ils ne sont pas consultés.
 
-Ces sont alors les internautes qui cliquent et demandent un test qui les intéresse vraiment.
+Ce sont alors les internautes qui cliquent et demandent un test qui les intéresse vraiment.
 **Les calculs ont lieu à la demande** plutôt que par principe.
 
 Et ce système a l’avantage de valider la page au moment du clic (ou avec un cache de quelques heures ou jours).
@@ -59,9 +59,9 @@ Le discours est remplacé par un vrai test, des mesures et des données.
 ## Simples liens utiles
 
 **Le meilleur choix, c’est encore et toujours le texte et le lien.**
-Il n’y a rien de plus efficace que de dire:
+Il n’y a rien de plus efficace que de dire (avec un lien qui teste cette page):
 
-> [site écoresponsable selon le Website Carbon Calculator](https://www.websitecarbon.com/website/nicolasfriedli-ch/)
+> [site écoresponsable selon le Website Carbon Calculator](https://www.websitecarbon.com/website/nicolasfriedli-ch-webperf-badges/)
 
 **Cela ne coûte rien**: pas de tierces-parties, pas de transfert de fichiers mal optimisés, pas de calculs sans clic volontaire des internautes.
 
