@@ -33,7 +33,17 @@ Si j’essaie de reformuler, *Less is more*, ce peut être :
 - moins de «toujours plus de la même chose», du changement (voir: [Pourquoi il faut relire Watzlawick](https://www.lalibre.be/debats/opinions/2019/08/16/pourquoi-il-faut-relire-watzlawick-XGB3ZLOUNVH6VIDXF63BELGFL4/))
 - moins de planification, des faits
 
-Je crois que j’aime bien cette expression, mais si je ne sais toujours pas ce qu’elle signifie. 
+Je crois que j’aime bien cette expression, mais si je ne sais toujours pas ce qu’elle signifie.
 Pour la route, une citation de *Terre des hommes* d’Antoine de Saint-Exupéry (dont Riad Sattouf a publié une [sublime version illustrée](https://www.franceinfo.fr/culture/bd/riad-sattouf/riad-sattouf-illustre-terre-des-hommes-de-saint-exupery_7527256.html) en 2025):
 
-> Il semble que la perfection soit atteinte non quand il n’y a plus rien à ajouter, mais quand il n’y a plus rien à retrancher. Au terme de son évolution, la machine se dissimule.
+> Il semble que la perfection soit atteinte non quand il n’y a plus rien à ajouter, mais quand il n’y a plus rien à retrancher.
+> Au terme de son évolution, la machine se dissimule.
+
+C’est ce que j’essaie de faire ici:
+
+- en intégrant le fil d’Ariane (*breadcrumb*) directement dans l’entête
+- en incluant la navigation des les pages pour éviter les (méga) menus
+- en évitant les colonnes multiples pour avoir la même expérience (UX) sur un téléphone et un ordinateur
+- en n’utilisant les images que quand elles sont nécessaires
+
+À vous de juger.
