@@ -2,6 +2,7 @@
 title: Navigation dans une documentation
 description: La navigation doit être claire et facile pour rendre justice à un contenu de qualité. Voici quelques principes de base pour faciliter l’utilisation d’une documentation en ligne.
 date: 2025-10-03
+lastMod: 2025-11-19
 ---
 
 J’ai émis quelques critiques structurelles à propos d’une documentation qui venait d’être mise en ligne.
@@ -64,8 +65,9 @@ Lorsqu’une page est longue et complexe, je trouve confortable de **pouvoir sau
 C’est aussi un avantage pour certains moteurs de recherche qui valorisent ce type de liens dans les résultats (SERP).
 C’est le cas de Google, mais aussi de l’excellent système statique [Pagefind](https://pagefind.app/).
 
-Ce qui est intéressant, c’est qu’il est alors possible de renvoyer les internautes à un endroit précis de la documentation.
-Je vous donne un exemple avec les [ancres dans *Material for MkDocs*](https://squidfunk.github.io/mkdocs-material/reference/content-tabs/?h=anchor#anchor-links) dont il vaut la peine d’étudier tout le site.
+Ce qui est intéressant, c’est qu’il est alors possible de renvoyer les internautes à un endroit précis de la documentation,.
+À titre d’exemple, le possiblité offerts pour la [navigation dans Zensical](https://zensical.org/compatibility/features/#navigation).
+Il vaut la peine de parcourir et étudier ce site.
 
 ## Liens contextuels
 
@@ -87,9 +89,10 @@ Une simple liste de pages ne fait pas l’affaire.
 
 ## Références
 
-En plus des 2 sources citées en début d’article, je vous conseille:
+Je vous conseille de consulter:
 
 - [Write the Docs](https://www.writethedocs.org/), qui est une mine d’or sur la thématique de la documentation technique
 - le *framework* [Diátaxis](https://diataxis.fr/), qui propose des réflexions fondamentales sur le classement d’une documentation
-- le logiciel [Sphinx](https://www.sphinx-doc.org/), créé en Python pour la documentation de ce langage de programme, hyper puissant mais relativement difficile à prendre en main (MkDocs cité dans l’article est plus simple d’accès)
+- le logiciel [Zensical](https://zensical.org/), très complet, qui prend la suite de *Material for Mkdocs* avec la même équipe
+- le logiciel [Sphinx](https://www.sphinx-doc.org/), créé en Python pour la documentation de ce langage de programme, hyper puissant mais relativement difficile à prendre en main
 - le thème [Furo](https://pradyunsg.me/furo/) pour Sphinx, pour la clarté de son menu (et du site en général)
