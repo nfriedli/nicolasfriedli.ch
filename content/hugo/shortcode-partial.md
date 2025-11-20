@@ -2,6 +2,7 @@
 title: Shortcodes et partials avec Hugo
 description: Les shortcodes et les partials sont souvent confondus dans Hugo. Ils sont 2 manières d’appeler un bout de code dans un contexte précis mais s’adressent à des publics différents.
 date: 2025-11-08
+lastMod: 2025-11-20
 ---
 
 Les *shortcodes* et les *partials* sont souvent confondus dans Hugo.
@@ -140,7 +141,7 @@ Pour ne pas faire le travail à chaque URL, il est placé en cache car appelé p
 {{ partialCached "footer" . }}
 ```
 
-Le [cache peut être partial](https://gohugo.io/functions/partials/includecached/) et produit par section, rubrique, type de page, etc. pour des très grands sites ou des partials complexes.
+Le [cache peut porter sur une partie des pages seuelement](https://gohugo.io/functions/partials/includecached/) et être produit par section, rubrique, type de page, etc. pour des très grands sites ou des partials complexes.
 
 ## En résumé
 
