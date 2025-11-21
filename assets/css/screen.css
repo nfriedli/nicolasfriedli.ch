@@ -2,6 +2,7 @@
     color-scheme: dark light;
 
     --txt:#036;
+    --txt2: #909;
     --bg:#EEE;
     --bg2:#FFF;
 }
@@ -9,6 +10,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --txt:#EEE;
+        --txt2: #C0C;
         --bg:#024;
         --bg2:#036;
     }
@@ -58,6 +60,7 @@ footer {
 
 a {
     color: inherit;
+    text-decoration-color: var(--txt2);
     text-decoration-thickness: .1rem;
     text-underline-offset: .1rem;
 }
@@ -95,7 +98,8 @@ input {
 }
 
 blockquote {
-    border-inline-start: .2rem solid;
+    background: var(--bg2);
+    border-inline-start: .2rem solid var(--txt2);
     margin-inline-start: 0;
     padding-inline-start: 1rem;
 }
