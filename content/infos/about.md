@@ -2,7 +2,7 @@
 title: À propos de ce site
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats.
 weight: 40
-lastMod: 2025-11-05
+lastMod: 2025-11-21
 ---
 
 Ce site est simple et efficace.
@@ -21,7 +21,9 @@ Même si je trouve les services comme Netlify ou CloudFlare performants et agré
 
 Un [flux RSS](/index.xml), avec l’ensemble du contenu des pages, permet de s’abonner au site.
 Les flux RSS (ou ATOM) sont des outils qui changent la vie.
-Je n’envoie pas de lettre de nouvelles; je ne souhaite pas savoir qui me suit.
+
+Suite aux demandes, j’ai activé une [newsletter](https://buttondown.com/nicolasfriedli) motorisée par Buttondown , qui respecte votre vie privée.
+Si vous lancez votre propre lettre de nouvelles par le lien [Buttondown](https://buttondown.com/refer/nicolasfriedli), je recevrai une petite commission pour mes propre frais.
 
 La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas.
 nicolasfriedli.ch utilise des statistiques propres ([Plausible Analytics Privacy Policy](https://plausible.io/privacy)) comme seule ressource externe.
