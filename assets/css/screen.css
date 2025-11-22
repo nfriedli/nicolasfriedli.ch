@@ -1,16 +1,16 @@
 :root {
     color-scheme: dark light;
 
-    --txt:#036;
-    --bg:#EEE;
-    --bg2:#FFF;
+    --txt:hsl(210, 100%, 20%);
+    --bg:hsl(30, 50%, 90%);
+    --bg2: hsl(30,100%,95%);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --txt:#EEE;
-        --bg:#024;
-        --bg2:#036;
+        --txt:hsl(30, 100%, 95%);
+        --bg:hsl(210, 100%, 10%);
+        --bg2:hsl(210, 50%, 20%);
     }
 }
 
