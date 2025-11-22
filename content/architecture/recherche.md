@@ -88,7 +88,7 @@ Des liens de type «Ceci pourrait vous intéresser» (*related*) font également
 De même que toutes les sélections aléatoires (*random*) de pages.
 
 Ce qui compte du point de vue de l’architecture d’information, c’est d’avoir une certaine **constance dans le classement**.
-Le fil d’Ariane (*breadcrumb*) peut être un allié précieux pour dire aux internautes où se trouve une page dans l’arborescence.
+Le fil d’Ariane (*breadcrumb*) peut être un allié précieux pour dire aux internautes où se trouve une page dans l’arborescence ([Opquast 156](https://checklists.opquast.com/fr/qualite-numerique/chaque-page-affiche-une-information-permettant-de-connaitre-son-emplacement-dans-larborescence-du-site)).
 Ainsi, à la prochaine visite, il est possible de naviguer par le menu plutôt que d’arriver par un lien externe ou un moteur de recherche.
 
 ## Recherche exhaustive (parcourir toutes les pages)
@@ -101,7 +101,7 @@ Dans le cadre d’un supermarché, c’est normalement possible de manière asse
 
 Ce qui compte du point de vue de l’architecture d’information, c’est de pouvoir **lister toutes les pages**:
 
-- par un plan complet du site
+- par un plan complet du site ([Opquast 171](https://checklists.opquast.com/fr/qualite-numerique/un-plan-du-site-est-disponible-depuis-chaque-page))
 - par un méga menu (pour un petit site)
 - par des menus contextuels (pour un petit ou un grand site)
 - par des liens «Suivant» et «Prédécent» (pour un modèle chronologique)
