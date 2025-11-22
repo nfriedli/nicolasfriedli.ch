@@ -88,6 +88,7 @@ form {
 }
 
 input {
+    color: var(--txt);
     background: var(--bg2);
     border: .2rem solid var(--txt);
     font-family: inherit;
