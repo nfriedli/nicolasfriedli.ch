@@ -2,12 +2,23 @@
 title: htaccess chez Infomaniak
 description: Gestion du cache, redirection propres, entêtes de sécurité, etc. Voici le .htaccess type que j’utilise pour mes sites hébergés chez Infomaniak. Une bonne configuration du cache peut améliorer les performances et le bilan carbone d’un site en quelques lignes.
 date: 2024-02-12
-lastMod: 2025-11-15
+lastMod: 2025-11-22
 ---
 
 Gestion du cache, redirection propres, entêtes de sécurité, etc.
 Voici le *`.htaccess` type* que j’utilise pour mes sites hébergés chez Infomaniak.
 **Une bonne configuration du cache peut améliorer les performances et le bilan carbone d’un site en quelques lignes.**
+
+## Avertissement technique amical
+
+Si vous ne suivez pas vos fichiers avec un système de gestion de version (comme Git) ou si votre hébergeur ne permet pas de retrouver la version de la veille, **sauvegardez le `.htaccess` qui fonctionne avant toute modification**!
+
+Avec certains CMS, comme WordPress, il est possible de modifier le fichier `.htaccess` en ligne dans l’interface d’administration (*backend*).
+C’est pratique et efficace.
+Mais **si votre fichier produit une seule erreur, votre site ne sera plus du tout accessible**; ni le site public, ni l’interface d’administration.
+Donc, avant de modifier un fichier via le *backend* du CMS, il faut s’assurer de **pouvoir y accéder par un autre moyen** (par exemple par FTP ou par l’interface d’administration de l’hébergeur).
+
+## Généralités
 
 L’encodage et la langue par défaut sont directement envoyés en entête (voir [Opquast 228](https://checklists.opquast.com/fr/qualite-numerique/les-en-tetes-envoyes-par-le-serveur-contiennent-les-informations-relatives-au-jeu-de-caracteres-employe)):
 
@@ -15,6 +26,8 @@ L’encodage et la langue par défaut sont directement envoyés en entête (voir
 AddDefaultCharset UTF-8
 DefaultLanguage fr-ch
 ```
+
+## Nom de domaine, `https` & redirections
 
 On impose d’utiliser le nom de domaine nicolasfriedli.ch (qui a des synonymes comme theologique.ch), en `https` (voir [Opquast 197](https://checklists.opquast.com/fr/qualite-numerique/toutes-les-pages-utilisent-le-protocole-https)) et sans sous-domaine.
 Le site fonctionne avec ou sans `www` (voir [Opquast 218](https://checklists.opquast.com/fr/qualite-numerique/ladresse-du-site-fonctionne-avec-et-sans-prefixe-www)):
@@ -41,6 +54,8 @@ ErrorDocument 404 /404.html
 
 ```
 
+## Entêtes de sécurité
+
 On envoie des entêtes pour la sécurité du site.
 La première ligne existe [par défaut chez Infomaniak](https://www.infomaniak.com/fr/support/faq/2133/gerer-hsts-dun-site-webhebergement), mais en version trop limitée pour une soumission à [HSTS preload](https://hstspreload.org/).
 Le reste peut être testé chez [Security Headers](https://securityheaders.com/).
@@ -54,6 +69,8 @@ Header always set Referrer-Policy "no-referrer"
 Header always set X-Permitted-Cross-Domain-Policies "none"
 Header always set Permissions-Policy "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
 ```
+
+## Gestion du cache
 
 On en profite pour supprimer les entêtes de cache inutiles ou contre-productifs (voir la conférence [Cache Rules Everything](https://www.youtube.com/watch?v=qVQjGwm_mmw) du génial Harry Roberts):
 
@@ -85,11 +102,6 @@ Header set Cache-Control "max-age=63072000,immutable"
 </filesMatch>
 ```
 
-Le [`.htaccess` utilisé pour ce site](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/static/.htaccess) peut être repris presque sans modifications, mais n’oubliez pas de changer le nom de domaine ou d’utiliser `HTTP_HOST`.
-
 ----
 
-Avec certains CMS, comme WordPress, il est possible de modifier le fichier `.htaccess` en ligne à partir de l’interface d’administration (*backend*).
-C’est pratique et efficace.
-Mais **si votre fichier produit une erreur, votre site ne sera plus du tout accessible**; ni le site public, ni l’interface d’administration.
-Donc, avant de modifier un fichier via le *backend*, il faut s’assurer de **pouvoir y accéder par un autre moyen** (par exemple par FTP ou par l’interface d’administration de l’hébergeur).
+Le [`.htaccess` utilisé pour ce site](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/static/.htaccess) peut être repris presque sans modifications, mais n’oubliez pas de changer le nom de domaine ou d’utiliser `HTTP_HOST`.
