@@ -80,9 +80,15 @@ Pour y arriver, il est bon de disposer d’un plan du site, d’un menu complet 
 
 Dans le cadre d’un supermarché, c’est normalement possible de manière assez facile en parcourant tous les rayons.
 
-----
+## Note sur les moteurs de recherche
 
-Bien entendu, il est toujours possible d’effectuer une recherche interne, si elle existe, ou externe ([exemple pour nicolasfriedli.ch](https://www.google.com/search?q=site%3Anicolasfriedli.ch)).
+Bien entendu, il est toujours possible d’effectuer une recherche interne, si elle existe, ou externe.
+
+Si votre site est bien référencé, avec un [travail de SEO sérieux](/seo/), ça pourrait fonctionner chez Google.
+Par exemple pour nicolasfriedli.ch:
+
+{{< search >}}
+
 Elle sera peut-être efficace pour l’exploration et une information précise.
 Elle sera probablement moyenne pour retrouver un contenu; difficile de trouver un billet passé sans se souvenir exactement de son thème.
-Et certainement inopérant pour un parcours exhaustif, car lister toutes les pages n’est jamais aussi pertinent que les parcourir avec la structure et le contexte.
+Et certainement inopérante pour un parcours exhaustif, car lister toutes les pages n’est jamais aussi pertinent que les parcourir avec la structure et le contexte.
