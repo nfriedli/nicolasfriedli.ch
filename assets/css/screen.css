@@ -2,7 +2,7 @@
     color-scheme: dark light;
 
     --txt:hsl(210, 100%, 20%);
-    --bg:hsl(30, 50%, 90%);
+    --bg:hsl(30, 25%, 90%);
     --bg2: hsl(30,100%,95%);
 }
 
