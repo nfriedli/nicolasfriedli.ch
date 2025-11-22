@@ -21,7 +21,8 @@
 }
 
 html {
-    font-size: clamp(1rem, 0.9375rem + 0.3125vw, 1.3125rem);
+    /* 320px - 16 -> 1600px - 21 */
+    font-size: clamp(1rem, 0.9219rem + 0.3906vw, 1.3125rem);
     scroll-behavior: smooth;
 }
 
@@ -99,6 +100,7 @@ blockquote {
     border-inline-start: .2rem solid var(--txt);
     margin-inline-start: 0;
     padding-inline-start: 1rem;
+    width: 100%;
 }
 
 code {
