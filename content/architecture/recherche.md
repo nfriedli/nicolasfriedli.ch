@@ -41,6 +41,14 @@ Il convient de trouver le rayon qui présente ce qui est disponible.
 Puis de le parcourir pour trouver un cadeau qui fera plaisir.
 Il y a plusieurs «réponses» possibles.
 
+Ce qui compte du point de vue de l’architecture d’information, c’est la possibilité de **regroupements thématiques**:
+
+- pages dans la même rubrique pour un site hiérarchique
+- catégories ou mots-clés (*tags*) pour un blog
+- liens contextuels précis dans le corps du texte pour un wiki
+
+L’important, c’est de pouvoir parcourir simplement plusieurs contenus proches, qu’importe la manière.
+ 
 ## Recherche précise (trouver une information précise)
 
 Le deuxième besoin, c’est de trouver une information exacte le plus simplement et le plus rapidement possible.
@@ -49,6 +57,14 @@ Dans le cadre d’une organisation, c’est par exemple de trouver le numéro de
 Il y a exactement une réponse à la question posée.
 
 Dans le cadre d’un supermarché, le but est de trouver le chocolat préféré de Madame Michu en quelques secondes.
+
+Ce qui compte du point de vue de l’architecture d’information, c’est la possibilité, c’est la possibilité de trouver un **contenu précis**:
+
+- parce que la navigation dans le menu est univoque
+- parce que les unités de contenu sont suffisamment bien définies (1 page = 1 sujet)
+- parce que des listes permettent d’accèder exactement à ce qui est souhaité
+
+Ou, évidemment, parce que le moteur de recherche interne est très efficace et classe bien les pages.
 
 ## «Re-recherche» (retrouver un contenu)
 
@@ -71,14 +87,27 @@ Sur un site, la chronologie n’est pas la seule cause du «déplacement» une i
 Des liens de type «Ceci pourrait vous intéresser» (*related*) font également qu’un contenu accessible en bas d’une page donnée n’y sera plus à un autre moment.
 De même que toutes les sélections aléatoires (*random*) de pages.
 
+Ce qui compte du point de vue de l’architecture d’information, c’est d’avoir une certaine **constance dans le classement**.
+Le fil d’Ariane (*breadcrumb*) peut être un allié précieux pour dire aux internautes où se trouve une page dans l’arborescence.
+Ainsi, à la prochaine visite, il est possible de naviguer par le menu plutôt que d’arriver par un lien externe ou un moteur de recherche.
+
 ## Recherche exhaustive (parcourir toutes les pages)
 
 Finalement, comme quatrième besoin, les internautes peuvent avoir l’envie (ou la nécessité) de parcourir toutes les informations disponibles.
 
 Dans le cadre d’un organisation, c’est exactement le genre de navigation d’une nouvelle personne qui veut se mettre au courant de l’ensemble des prestations et des services.
-Pour y arriver, il est bon de disposer d’un plan du site, d’un menu complet des pages (petit site) ou de moyens de naviguer de manière systématique.
 
 Dans le cadre d’un supermarché, c’est normalement possible de manière assez facile en parcourant tous les rayons.
+
+Ce qui compte du point de vue de l’architecture d’information, c’est de pouvoir **lister toutes les pages**:
+
+- par un plan complet du site
+- par un méga menu (pour un petit site)
+- par des menus contextuels (pour un petit ou un grand site)
+- par des liens «Suivant» et «Prédécent» (pour un modèle chronologique)
+
+Bien entendu, il existe certaines astuces pour découvrir toutes les pages d’un site.
+Par exemple l’utilisation d’un logiciel spécifique (*crawler*) ou d’un fichier [`sitemap.xml`](/sitemap.xml), mais c’est n’est pas prévu pour une utilisation courante par des internautes.
 
 ## Note sur les moteurs de recherche
 
