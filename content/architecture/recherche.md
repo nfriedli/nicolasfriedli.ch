@@ -84,10 +84,12 @@ Dans le cadre d’un supermarché, c’est normalement possible de manière asse
 
 Bien entendu, il est toujours possible d’effectuer une recherche interne, si elle existe, ou externe.
 
-Si votre site est bien référencé, avec un [travail de SEO sérieux](/seo/), ça pourrait fonctionner chez Google.
-Par exemple pour nicolasfriedli.ch:
+Si votre site est bien référencé, avec un [travail de SEO sérieux](/seo/), ça pourrait fonctionner chez Google (ou un de ses concurrents).
+La page [Recherches Google avancées](/pratique/recherche-google-avancee/) donne quelques pistes pour maîtriser des syntaxes comme:
 
-{{< search >}}
+```
+site:nicolasfriedli.ch
+```
 
 Elle sera peut-être efficace pour l’exploration et une information précise.
 Elle sera probablement moyenne pour retrouver un contenu; difficile de trouver un billet passé sans se souvenir exactement de son thème.
