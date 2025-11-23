@@ -1,5 +1,5 @@
 :root {
-    --sans-serif: ui-sans-serif, "Roboto", system-ui, sans-serif;
+    --sans-serif: "Inter", ui-sans-serif, "Roboto", system-ui, sans-serif;
     --monospace: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
 }
 
@@ -18,7 +18,7 @@ pre {
 }
 
 code,
-pre, 
+pre,
 table {
     font-variant-numeric: lining-nums tabular-nums;
 }
@@ -59,4 +59,24 @@ h3 {
 h4 {
     font-size: 1rem;
     font-weight: 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100 900;
+    src:
+        local("Inter Variable"),
+        local("InterVariable"),
+        local("Inter-Variable");
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 100 900;
+    src:
+        local("Inter Variable Italic"),
+        local("InterVariable Italic"),
+        local("Inter-Variable-Italic");
 }
