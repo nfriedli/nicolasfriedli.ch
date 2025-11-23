@@ -1,8 +1,8 @@
 ---
 title: Inter variable avec taille optique
 description: L’astuce pour obtenir la variation de taille optique (opsz) dans son navigateur avec une polices locale. Avec exemple de code et proposition de font stack.
-date: 2011-02-04
-lastMod: 2011-11-23
+date: 2025-02-04
+lastMod: 2025-11-23
 ---
 
 Sur mon poste Linux, la très belle police d’écriture Inter installée localement est variable (graisses de 100 à 900).
