@@ -75,7 +75,7 @@ Puis je passe le fichier `Roboto-Regular.ttf` dans la moulinette.
 922 caractères et 1321 glyphes pour 143Ko.
 
 Mais dans la pratique, on essaie d’utiliser des versions limitées (ici à l’alphabet latin) pour alléger le fichier et dans un format plus optimal (woff2).
-J’effecture la transformation sur mon ordinateur:
+J’effectue la transformation sur mon ordinateur:
 
 ```
 glyphhanger --formats=woff2 --subset=Roboto-Regular.ttf --LATIN
@@ -91,7 +91,7 @@ Dans la caquelon, je trouve 229 caractères, 363 glyphes pour 20Ko.
 **Google Fonts supprime des options de la police de départ, dont les fameux chiffres elzéviriens.**
 On peut considérer que c’est une très bonne optimisation ou que ça revient à dénaturer la typographie.
 
-Le problème, c’est que, selon le [Web Almanac 2024](https://almanac.httparchive.org/en/2024/),  85% des sites font appel à des polices web (webfonts).
+Le problème, c’est que, selon le [Web Almanac 2024](https://almanac.httparchive.org/en/2024/), 85% des sites font appel à des polices web (*web fonts*).
 Et je parie que, quand elles ne font pas appel à Google Fonts, elles sont obtenues via google-webfonts-helper dans une grande majorité des cas.
 
 Autant dire que vous risquez de ne jamais voir Roboto, Fira Sans et plein d’autres belles polices à leur juste valeur.
