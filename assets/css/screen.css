@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
-    max-width: 75ch;
+    max-width: 40rem;
     min-height: 100vh;
     min-height: 100dvh; /* pour Android et iOS */
 
