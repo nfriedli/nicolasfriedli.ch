@@ -48,14 +48,14 @@ C’est pourquoi je souhaite que le nom de fichier final soit unique.
 C’est facile avec [fingerprint](https://gohugo.io/functions/resources/fingerprint/):
 
 ```
-{{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+{{ $screen := resources.Get "css/screen.css" | minify | fingerprint "md5" }}
 <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
 ```
 
 Ainsi, le nom final sera quelque chose comme:
 
 ```
-/css/screen.min.215a9ff1ab8351ee4d0a3c644904e7ab4945a1fa3d70197a0735fc3e43195476.css`
+/css/screen.min.d5b2845c4d59f521572656be8e403f61.css
 ```
 
 Double avantage de la démarche:
@@ -84,15 +84,15 @@ C’est clair et efficace.
 ## Intégrer la feuille de style
 
 Sur ce site, j’intégrais le CSS dans le code HTML.
-C’est favorable lors de la première visite d’une page et avec un feuille de style légère:
+C’est favorable lors de la première visite d’une page et avec une feuille de style légère:
 
 ```
 {{ $screen := resources.Get "css/screen.css" }} 
-<style media="screen">{{ $screen | safeCSS }}</style>
+<style media="screen">{{ $screen.Content | safeCSS }}</style>
 ```
 
-Mais c’est potentiellement contre-productif si l’internaute lit beaucoup de pages ou revient souvent sur le site.
-Toutefois, le gain d’une solution ou de l’autre est toujours minime sur un site léger.
+Mais c’est potentiellement contre-productif si l’internaute lit beaucoup de pages, revient souvent sur le site ou si la feuille de style est lourde.
+Toutefois, le gain d’une solution ou de l’autre est toujours minime sur un site léger comme nicolasfriedli.ch.
 
 Quand le style est intégré, on pourrait aller plus loin et nettoyer *chaque page* de ses styles inutiles.
 C’est ce que fait Max Böck avec son [site d’urgence avec Eleventy (11ty)](https://mxb.dev/blog/emergency-website-kit/).
@@ -108,12 +108,13 @@ Par exemple:
   C’est inutile puisque je ne n’ai qu’un fichier (par type de média).
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/functions/resources/fingerprint/).
   C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
+  C'est aussi intéressant quand on utilise [CSP (Content Security Policy)](https://developer.mozilla.org/fr/docs/Web/HTTP/Guides/CSP).
 - Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transpile-sass-to-css/).
   Je préfère l’utilisation des variables CSS.
   La version de SASS embarquée dans Hugo n’est plus mise à jour.
-  Et la version Dart exige des dépendances externes.
+  Et la version Dart exige une dépendance externe.
 - [Supprimer les styles non utilisés avec PurgeCSS](https://zwbetz.com/how-to-use-purgecss-with-hugo/) comme le propose Zachary Wade Betz.
-  C’est utile sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas ici.
+  C’est pertinent sur un site avec une grande feuille de style (par exemple un *framework* CSS), mais pas ici.
 
 Je signale que l’équipe de développement a pas mal travaillé sur l’utilisation de [Tailwind CSS avec Hugo](https://gohugo.io/functions/css/tailwindcss/).
 
