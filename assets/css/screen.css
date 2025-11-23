@@ -105,8 +105,12 @@ blockquote {
     background: var(--bg2);
     border-inline-start: .2rem solid var(--txt);
     margin-inline-start: 0;
-    padding-inline-start: 1rem;
+    padding-inline: 1rem;
     width: 100%;
+}
+
+blockquote em {
+    font-style: normal;
 }
 
 code {
