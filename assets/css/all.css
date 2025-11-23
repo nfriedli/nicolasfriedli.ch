@@ -1,5 +1,5 @@
 :root {
-    --sans-serif: ui-sans-serif, "Roboto", system-ui, sans-serif;
+    --sans-serif: "Fira Sans", ui-sans-serif, "Roboto", system-ui, sans-serif;
     --monospace: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
 }
 

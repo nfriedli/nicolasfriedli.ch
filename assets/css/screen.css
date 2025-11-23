@@ -2,6 +2,7 @@
     color-scheme: dark light;
 
     --txt:hsl(210, 100%, 20%);
+    --txt2: hsl(210, 100%, 25%);
     --bg:hsl(30, 25%, 90%);
     --bg2: hsl(30,100%,95%);
 }
@@ -57,6 +58,10 @@ footer {
     margin-block: auto 2rem;
 }
 
+h1, h2, h3, h4 {
+    color: var(--txt2);
+}
+
 a {
     color: inherit;
     text-decoration-thickness: .1rem;
@@ -90,7 +95,7 @@ form {
 input {
     color: var(--txt);
     background: var(--bg2);
-    border: .2rem solid var(--txt);
+    border: .2rem solid var(--txt2);
     font-family: inherit;
     font-size: 1.44rem;
     padding: .4rem;
@@ -103,7 +108,7 @@ input::placeholder {
 
 blockquote {
     background: var(--bg2);
-    border-inline-start: .2rem solid var(--txt);
+    border-inline-start: .2rem solid var(--txt2);
     margin-inline-start: 0;
     padding-inline-start: 1rem;
     width: 100%;
