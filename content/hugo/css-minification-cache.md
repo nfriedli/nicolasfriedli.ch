@@ -108,7 +108,7 @@ Par exemple:
   C’est inutile puisque je ne n’ai qu’un fichier (par type de média).
 - Ajouter une vérification par [Subresource Integrity](https://gohugo.io/functions/resources/fingerprint/).
   C’est pertinent si l’on dépose ses CSS sur un serveur tiers (par exemple un CDN) et que l’on veut être certain qu’elles n’ont pas été modifiées.
-  C'est aussi intéressant quand on utilise [CSP (Content Security Policy)](https://developer.mozilla.org/fr/docs/Web/HTTP/Guides/CSP).
+  C’est aussi intéressant quand on utilise [CSP (Content Security Policy)](https://developer.mozilla.org/fr/docs/Web/HTTP/Guides/CSP).
 - Traiter la feuille de style avec SASS par la commande [ToCSS](https://gohugo.io/hugo-pipes/transpile-sass-to-css/).
   Je préfère l’utilisation des variables CSS.
   La version de SASS embarquée dans Hugo n’est plus mise à jour.
