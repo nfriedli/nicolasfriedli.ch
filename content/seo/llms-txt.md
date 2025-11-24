@@ -4,18 +4,18 @@ description: Les fichiers llms.txt ne sont ni une norme, ni un standard. Ils ne 
 date: 2025-11-24
 ---
 
-Les fichiers `llms.txt` à la racine des sites devraient optimiser le référencement pour les moteurs de recherche.
+Les fichiers `llms.txt` à la racine des sites devraient optimiser le référencement pour intelligences artificielles (IA) les moteurs de recherche.
 Il en est question de plus en plus souvent, mais les «analyses» consistent fréquemment à répéter les mêmes «arguments» en boucle.
 
 ## En version courte
 
 **Il ne vaut pas la peine d’investir du temps (aujourd’hui) pour un tel fichier.**
 
-Pour lire un contenu sérieux sur le sujet, il vaut la peine de consulter la page [Le fichier LLMS.txt](https://www.webrankinfo.com/dossiers/ia/fichier-llms-txt) par Olivier Duffez.
+Pour lire un contenu sérieux sur le sujet, consultez la page [Le fichier LLMS.txt](https://www.webrankinfo.com/dossiers/ia/fichier-llms-txt) par Olivier Duffez!
 
 Pour imaginer ce que peut être le *bullshit* sur le même sujet, il peut être intéressant de perdre quelques minutes avec la vidéo [Llms.txt: Le tuto COMPLET pour utiliser le fichier llms.txt (2025)](https://www.youtube.com/watch?v=WhAbtxR_m2o).
 
-Ce qui suit est destiné à celles et ceux qui cherchent quelques arguments sur le sujet, pour éviter les inversissements inutiles (en temps et en argent).
+Ce qui suit est destiné à celles et ceux qui cherchent quelques arguments sur le sujet, pour éviter les investissements inutiles (en temps et en argent).
 
 ## `llms.txt` n’est pas une norme ou un standard
 
@@ -44,7 +44,7 @@ Mais, dans le cas des [grands modèles de langages](https://fr.wikipedia.org/wik
 On a l’impression que les cerveaux derrières `llms.txt` l’ont oublié.
 
 Certes, le fichier `llms.txt` a plutôt une bonne tête en Markdown, parce que c’est bien lisible pour les internautes.
-Mais les intelligences artificielles (IA) n’en ont rien à battre de l’esthétique du code source.
+Mais les intelligences artificielles n’en ont rien à battre de l’esthétique du code source.
 Un fichier HTML est tout aussi simple à lire et à interpréter qu’un Markdown pour n’importe quel ordinateur.
 
 Si un LLM veut lire ce site, qu’il utilise ce qui existe: `sitemap.xml` à la racine ou le plan du site disponible sur chaque page.
@@ -57,8 +57,9 @@ Mieux vaut abandonner l’optimisation du référencement (SEO).
 Mieux vaut investir dans l’[architecture d’information](/architecture/) (qui vaut toujours la peine).
 
 Mais surtout, comment donner crédit à une prétendue intelligence qui serait incapable de comprendre un site.
-Si l’IA sur laquelle vous comptez est incapable de comprendre la structure, de détecter les contenus importants et de lire de l’HTML, il faut l’abandonner sans attendre.
-Ce truc de `llms.txt` est absurde!
+Si l’IA sur laquelle vous comptez n’est pas capable de comprendre la structure, de détecter les contenus importants et de lire de l’HTML, il faut l’abandonner sans attendre.
+
+Sous cet angle, ce truc de `llms.txt` est tout bonnement absurde!
 
 ## Le fichier est créé, mais pas utilisé
 
