@@ -59,11 +59,15 @@ Mieux vaut investir dans l’[architecture d’information](/architecture/) (qui
 Mais surtout, comment donner crédit à une prétendue intelligence qui serait incapable de comprendre un site.
 Si l’IA sur laquelle vous comptez n’est pas capable de comprendre la structure, de détecter les contenus importants et de lire de l’HTML, il faut l’abandonner sans attendre.
 
+Le meilleure synthèse ([dans le forum Hugo](https://discourse.gohugo.io/t/add-md-files-for-llm-friendly-consumption-of-site/54129/4)):
+
+> An AI that requires a specific format to consume information is not an AI.
+
 Sous cet angle, ce truc de `llms.txt` est tout bonnement absurde!
 
 ## Le fichier est créé, mais pas utilisé
 
-La bonne nouvelle, c’est que ce nouveau «standard» -- cette nouvelle «norme» -- n’est pas utilisé.
+La bonne nouvelle, c’est que ce nouveau «standard» – cette nouvelle «norme» – n’est pas utilisé.
 Les [vendeurs de plugins essaient de vous la fourguer](https://yoast.com/features/llms-txt/), pour justifier leurs version *premium*.
 Mais les IA et LLM s’en balancent.
 
