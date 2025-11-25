@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
-    max-width: 42rem;
+    max-width: 40rem;
     min-height: 100vh;
     min-height: 100dvh; /* pour Android et iOS */
 
@@ -107,6 +107,10 @@ blockquote {
     margin-inline-start: 0;
     padding-inline: 1rem;
     width: 100%;
+}
+
+blockquote em {
+    font-style: normal;
 }
 
 code {

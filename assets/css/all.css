@@ -1,11 +1,12 @@
 :root {
-    --sans-serif: "Geist", ui-sans-serif, "Roboto", system-ui, sans-serif;
-    --monospace: "GeistMono", "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
+    --sans-serif: ui-sans-serif, "Roboto", system-ui, sans-serif;
+    --monospace: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
 }
 
 html {
     font-family: var(--sans-serif);
     font-synthesis: none;
+    font-variant-numeric: oldstyle-nums proportional-nums;
     line-height: 1.5;
     text-rendering: optimizeLegibility;
 }
@@ -13,6 +14,22 @@ html {
 code,
 pre {
     font-family: var(--monospace);
+    font-variant-ligatures: none;
+}
+
+code,
+pre,
+table {
+    font-variant-numeric: lining-nums tabular-nums;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+    font-variant-numeric: lining-nums proportional-nums;
+
 }
 
 h1,
@@ -26,52 +43,20 @@ h4 {
 
 h1 {
     font-size: 1.728rem;
-    font-weight: 500;
+    font-weight: 600;
     margin-block: 0 2rem;
 }
 
 h2 {
-    font-size: 1.44em;
-    font-weight: 600;
+    font-size: 1.44rem;
 }
 
 h3 {
     font-size: 1.2rem;
+    font-weight: 800;
 }
 
 h4 {
     font-size: 1rem;
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: "Geist";
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: optional;
-    src: url(/fonts/g.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "Geist";
-    font-style: italic;
-    font-weight: 100 900;
-    font-display: optional;
-    src: url(/fonts/gi.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "GeistMono";
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: optional;
-    src: url(/fonts/gm.woff2) format("woff2");
-}
-
-@font-face {
-    font-family: "GeistMono";
-    font-style: italic;
-    font-weight: 100 900;
-    font-display: optional;
-    src: url(/fonts/gmi.woff2) format("woff2");
+    font-weight: 900;
 }
