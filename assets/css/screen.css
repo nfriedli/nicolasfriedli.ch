@@ -109,10 +109,6 @@ blockquote {
     width: 100%;
 }
 
-blockquote em {
-    font-style: normal;
-}
-
 code {
     background-color: var(--bg2);
     font-size: .9em;
