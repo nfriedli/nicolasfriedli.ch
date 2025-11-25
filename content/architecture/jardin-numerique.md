@@ -1,6 +1,7 @@
 ---
 title: "Jardins numériques & sites personnels"
 description: 
+draft: true
 ---
 
 Des jardins numériques (*digital gardens*) fleurissent un peu partout sur le web.
