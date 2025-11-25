@@ -2,7 +2,7 @@
 title: Travailler avec un budget de performance web
 description: Un budget de performance permet d’anticiper les contraintes, de cadrer les attentes et d’assurer un suivi continu pour obtenir un site rapide, fluide et optimisé.
 date: 2025-02-06
-lastMod: 2025-11-09
+lastMod: 2025-11-25
 ---
 
 Tester la performance d’un site avec Lighthouse, Web Page Test ou PageSpeed Insights est simple et rapide.
@@ -131,7 +131,7 @@ En premier lieu, le budget ouvre les débats dans l’équipe de développement 
 
 La conférence [The Global Baseline, 2022](https://www.youtube.com/watch?v=BmiVevOUvho) d’Alex Russell, par exemple, donne les résultats moyens que l’on est en droit d’attendre aujourd’hui.
 Le conférencier établit ses valeurs en fonction de réalités matérielles (capacité de calcul des téléphones) ou de réseau (bande passante).
-En version textuelle, une actualisation est disponible dans [The Performance Inequality Gap, 2024](https://infrequently.org/2024/01/performance-inequality-gap-2024/).
+En version textuelle, une actualisation est disponible dans [The Performance Inequality Gap, 2026](https://infrequently.org/2025/11/performance-inequality-gap-2026/).
 
 La discussion du budget est une occasion formidable d’instaurer un débat sur ce qui est la «norme» du moment.
 Elle permet d’apporter la question de la performance dans les équipes web, de manière concrète et pragmatique.
