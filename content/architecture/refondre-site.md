@@ -24,19 +24,19 @@ Il existe plusieurs manières de faire évoluer un site:
   L’administration du site est peut-être plus simple et les possibilités plus nombreuses.
   Mais passer d’un outil à un autre reste une **action technique**.
 
-La force d’un site web, c’est la possibilité de gérer pleinement des contenus: les organiser, les structurer, les hiérarchiser, les rendre accessibles, leur attribuer des taxonomies, les lier entre eux, etc.
-Une bonne architecture d’information est centrale, parce que c’est elle qui permet de distinguer un site bien pensé du flux incessant et du foutoir algorithmique des réseaux sociaux.
+La force d’un site web, c’est la possibilité de **gérer pleinement des contenus**: les organiser, les structurer, les hiérarchiser, les rendre accessibles, leur attribuer des taxonomies, les lier entre eux, etc.
+**Une bonne architecture d’information est centrale**, parce que c’est elle qui permet de distinguer un site bien pensé du flux incessant et du foutoir algorithmique des réseaux sociaux.
 
 En jouant sur le titre du livre, on pourrait affirmer, comme une thèse:
 
 > La clé de la refonte d’un site est l’architecture d’information.
 
-Le premier mérite de l’ouvrage est de permettre de prendre conscience de la centralité de cette thématique.
+Le premier mérite de l’ouvrage est de permettre de **prendre conscience de la centralité de la thématique**.
 Inutile d’acheter ce livre si vous souhaitez des conseils pour un nouveau CMS ou des recommandations graphiques.
 
 ## Travailler avec méthode
 
-Le second mérite du livre d’Isabelle Canivet est de proposer une méthode.
+Le second mérite du livre d’Isabelle Canivet est de **proposer une méthode**.
 Elle ne cherche pas à vous dire quoi faire, elle vous propose une démarche pour arriver à vos fins.
 
 Il est tentant de refondre un site (ou d’en créer un nouveau) en cherchant directement à «concevoir son architecture d’information».
@@ -51,7 +51,7 @@ Ils parlent des livrables puis visent à «tester l’architecture d’informati
 
 Le livre compte environ 150 pages.
 C’est peu pour tout ce qui y est abordé.
-Mais cela rend justice à la méthode plutôt qu’aux détails de chaque étape.
+Mais **sa structure rend justice à la méthode plutôt qu’aux détails de chaque étape**.
 C’est exactement ce qu’il faut pour se lancer avec confiance dans la démarche.
 
 ## Valoriser le(s) contenu(s)
@@ -64,12 +64,12 @@ Sur ma page d’accueil, j’ai cette phrase:
 
 Les propositions d’Isabelle Canivet démontrent une belle expertise du sujet.
 Le passage sur la gestion des contenus propose une catégorisation bien sentie en distinguant les contenus (à produire, à fusionner, à mettre à jour, à supprimer ou à archiver).
-C’est très exactement en travaillant ainsi que l’on aura un «nouveau» site après sa refonte.
+**C’est très exactement en travaillant ainsi que l’on aura un «nouveau» site après sa refonte.**
 Pas seulement un renouveau technique ou cosmétique.
 
 Je me retrouve pleinement dans ses derniers conseils pour maintenir le site à jour et conserver une bonne architecture.
 C’est très proche de ce que j’ai proposé [ces 15+ dernières années comme consultant](/infos/bio/) pour des entreprises et des organisations.
 
-Les promesses du titre et du sous-titre sont tenues.
+**Les promesses du titre et du sous-titre sont tenues.**
 L’objectif est atteint.
 Un ouvrage vivement recommandé.
