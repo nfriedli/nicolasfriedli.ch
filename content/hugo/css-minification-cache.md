@@ -83,7 +83,7 @@ C’est clair et efficace.
 
 ## Intégrer la feuille de style
 
-Sur ce site, j'intègre le CSS dans le code HTML.
+Sur ce site, j’intègre le CSS dans le code HTML.
 C’est favorable lors de la première visite d’une page et avec une feuille de style légère:
 
 ```

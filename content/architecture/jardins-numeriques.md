@@ -6,17 +6,17 @@ draft: true
 
 Des jardins numériques (*digital gardens*) fleurissent un peu partout sur le web.
 Le nom est une promesse qui sent bon le foisonnement et la fraicheur.
-C'est bien plus sexy que le peu poétique «blog».
-Mais il reste difficile de les définir ces espaces; ce qu'ils prétendent être, ce qu'ils sont et ce qu'ils ne sont pas.
+C’est bien plus sexy que le peu poétique «blog».
+Mais il reste difficile de les définir ces espaces; ce qu’ils prétendent être, ce qu’ils sont et ce qu’ils ne sont pas.
 
-## Esquisse d'un jardin numérique
+## Esquisse d’un jardin numérique
 
 Libre, work in progress, désorganisé, par association, sortir du flux, évolution lente
 
 ## Belle image du jardin
 
 je le fais pour moi (par envie)
-et pour les autres (parce qu'il est là et visible)
+et pour les autres (parce qu’il est là et visible)
 
 Croissance organique
 
@@ -31,12 +31,12 @@ Croissance organique
 
 À garder:
 - retouche, foisonnement, espace personnel
-- apprendre en public (je ne publie pas parce que je sais, mais parce que j'apprends)
+- apprendre en public (je ne publie pas parce que je sais, mais parce que j’apprends)
 - indépendance forte (contenu et outils)
 
 À couper:
-- les interdictions (c'est, ce n'est pas un JN)
-- les outils de Maggie Appleton (pourquoi pas d'autres?)
+- les interdictions (c’est, ce n’est pas un JN)
+- les outils de Maggie Appleton (pourquoi pas d’autres?)
 
 À repenser:
 - les descriptions de blogs (sommaires et unilatérales)
