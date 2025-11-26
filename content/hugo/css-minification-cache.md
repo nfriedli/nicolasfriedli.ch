@@ -2,7 +2,7 @@
 title: Feuilles de style CSS minifiées par Hugo et gestion du cache
 description: Ce que j’applique en général pour la minification et la mise en cache des feuilles de style. C’est une optimisation raisonnable qui utilise certaines fonctions natives d’Hugo mais évite trop de complexité.
 date: 2024-03-15
-lastMod: 2025-11-23
+lastMod: 2025-11-26
 ---
 
 Ce que j’applique en général pour la minification et la mise en cache des feuilles de style.
@@ -83,7 +83,7 @@ C’est clair et efficace.
 
 ## Intégrer la feuille de style
 
-Sur ce site, j’intégrais le CSS dans le code HTML.
+Sur ce site, j'intègre le CSS dans le code HTML.
 C’est favorable lors de la première visite d’une page et avec une feuille de style légère:
 
 ```
@@ -120,7 +120,7 @@ Je signale que l’équipe de développement a pas mal travaillé sur l’utilis
 
 ----
 
-Désormais, j’utilise des feuilles de style CSS externes, minifiés, avec un numéro de version unique.
-Cette page n’est pas modifiée en conséquence mais tout ce qui y est dit reste utilisable, tant pour les CSS intégrées comme que les feuilles de style externes.
+J’utilise aussi parfois des feuilles de style CSS externes, minifiés, avec un numéro de version unique à fin de tests.
+Cette page n’est pas modifiée en conséquence mais tout ce qui y est dit reste utilisable, tant pour les CSS intégrées que les feuilles de style externes.
 
 Les sources du site sur GitHub permettent de voir le [partial qui s’occupe des styles CSS](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/layouts/_partials/head/css.html) tel qu’il est utilisé actuellement.
