@@ -45,7 +45,6 @@ html {
     /* 320px - 16 -> 1600px - 21 */
     font-size: clamp(1rem, 0.9219rem + 0.3906vw, 1.3125rem);
     scroll-behavior: smooth;
-    text-wrap: pretty;
 }
 
 html,
