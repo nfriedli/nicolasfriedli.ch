@@ -1,5 +1,5 @@
 ---
-title: Inter variable avec taille optique
+title: Police Inter variable locale avec taille optique
 description: L’astuce pour obtenir la variation de taille optique (opsz) dans son navigateur avec une polices locale. Avec exemple de code et proposition de font stack.
 date: 2025-02-04
 lastMod: 2025-11-23
