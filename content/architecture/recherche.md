@@ -49,7 +49,7 @@ Ce qui compte du point de vue de l’architecture d’information, c’est la po
 
 L’important, c’est de pouvoir parcourir simplement plusieurs contenus proches, qu’importe la manière.
  
-## Recherche précise (trouver une information précise)
+## Recherche précise (trouver une information exacte)
 
 Le deuxième besoin, c’est de trouver une information exacte le plus simplement et le plus rapidement possible.
 
@@ -122,4 +122,4 @@ site:nicolasfriedli.ch
 
 Elle sera peut-être efficace pour l’exploration et une information précise.
 Elle sera probablement moyenne pour retrouver un contenu; difficile de trouver un billet passé sans se souvenir exactement de son thème.
-Et certainement inopérante pour un parcours exhaustif, car lister toutes les pages n’est jamais aussi pertinent que les parcourir avec la structure et le contexte.
+Et certainement inopérante pour un parcours exhausdtif, car lister toutes les pages n’est jamais aussi pertinent que les parcourir avec la structure et le contexte.
