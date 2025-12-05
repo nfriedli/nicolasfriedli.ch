@@ -13,7 +13,7 @@ Ce billet explore trois usages concrets d’un nom de domaine: QR codes, Mastod
 
 Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un blog personnel en 2025.
 
-**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet n’existent plus.**
+**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet ne sont pas actifs.**
 
 ## Utilisation de QR codes
 
@@ -38,7 +38,7 @@ En particulier pour le tatouage...
 
 Sur un profil Mastodon, qui remplace très bien Twitter (X), il est possible d’obtenir des validations.
 
-Dans mon cas le compte `mastodon.social/@nicolasfriedli` propose 2 liens validés: GitHub et mon site personnel.
+Dans mon cas le compte `mastodon.social/@nicolasfriedlich` propose 2 liens validés: GitHub et mon site personnel.
 Ces liens sont en vert.
 
 Mieux encore, lors d’une recherche, le lien validé s’affiche en vert dans les résultats.

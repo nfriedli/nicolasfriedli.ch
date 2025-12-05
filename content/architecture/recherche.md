@@ -28,7 +28,7 @@ Avant de passer aux 4 modèles, voici celui qui ne fonctionne pas, mais qui est
 
 Les auteurs du livre cité en référence ont très bien réfléchi au sujet, voici ce qu’ils ont à nous dire.
 
-## Recherche exploratoire (trouver quelque bonnes pistes)
+## Recherche exploratoire (trouver quelques bonnes pistes)
 
 Le premier besoin, c’est de trouver une information utile, dans un contexte défini, sans disposer *a priori* de toutes les données nécessaires.
 
@@ -122,4 +122,4 @@ site:nicolasfriedli.ch
 
 Elle sera peut-être efficace pour l’exploration et une information précise.
 Elle sera probablement moyenne pour retrouver un contenu; difficile de trouver un billet passé sans se souvenir exactement de son thème.
-Et certainement inopérante pour un parcours exhausdtif, car lister toutes les pages n’est jamais aussi pertinent que les parcourir avec la structure et le contexte.
+Et certainement inopérante pour un parcours exhaustif, car lister toutes les pages n’est jamais aussi pertinent que les parcourir avec la structure et le contexte.
