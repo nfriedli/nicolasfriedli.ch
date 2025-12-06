@@ -1,16 +1,13 @@
- <link rel="preload" href="/fonts/literata.woff2" as="font" type="font/woff2" crossorigin>
- <link rel="preload" href="/fonts/literata-italic.woff2" as="font" type="font/woff2" crossorigin>
+<!--
+{{ $all := resources.Get "css/all.css" | minify | fingerprint "md5" }}
+{{ $screen := resources.Get "css/screen.css" | minify | fingerprint "md5" }}
+{{ $print := resources.Get "css/print.css" | minify | fingerprint "md5" }}
 
+<link rel="stylesheet" href="{{ $all.RelPermalink }}">
+<link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
+<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
+-->
 
- {{ $all := resources.Get "css/all.css" | minify | fingerprint "md5" }}
- {{ $screen := resources.Get "css/screen.css" | minify | fingerprint "md5" }}
- {{ $print := resources.Get "css/print.css" | minify | fingerprint "md5" }}
- 
- <link rel="stylesheet" href="{{ $all.RelPermalink }}">
- <link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
- <link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
- 
- <!--
 {{ $all := resources.Get "css/all.css" }}
 {{ $screen := resources.Get "css/screen.css" }}
 {{ $print := resources.Get "css/print.css" }}
@@ -18,4 +15,3 @@
 <style>{{ $all.Content | safeCSS }}</style>
 <style media="screen">{{ $screen.Content | safeCSS }}</style>
 <style media="print">{{ $print.Content | safeCSS }}</style>
--->
