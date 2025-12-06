@@ -3,8 +3,8 @@
 
     --txt: hsl(210, 100%, 20%);
     --color: hsl(300, 100%, 15%);
-    --bg: hsl(30, 25%, 90%);
-    --bg2: hsl(30, 50%, 95%);
+    --bg: hsl(30, 25%, 95%);
+    --bg2: hsl(30, 50%, 90%);
 }
 
 @media (prefers-contrast: more) {
