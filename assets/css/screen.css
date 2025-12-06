@@ -38,8 +38,8 @@
 }
 
 html {
-    /* 320px - 16 -> 1600px - 21 */
-    font-size: clamp(1rem, 0.9219rem + 0.3906vw, 1.3125rem);
+    /* 320px - 16 -> 1280px - 21 */
+    font-size: clamp(1rem, 0.8958rem + 0.5208vw, 1.3125rem);
     scroll-behavior: smooth;
 }
 
