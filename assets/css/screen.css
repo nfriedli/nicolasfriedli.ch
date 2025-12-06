@@ -2,9 +2,9 @@
     color-scheme: dark light;
 
     --txt: hsl(210, 100%, 20%);
-    --color: hsl(300, 100%, 25%);
+    --color: hsl(300, 100%, 15%);
     --bg: hsl(30, 25%, 90%);
-    --bg2: hsl(30, 100%, 95%);
+    --bg2: hsl(30, 50%, 95%);
 }
 
 @media (prefers-contrast: more) {
@@ -19,7 +19,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --txt: hsl(30, 100%, 95%);
-        --color: hsl(300, 100%, 80%);
+        --color: hsl(300, 100%, 85%);
         --bg: hsl(210, 100%, 10%);
         --bg2: hsl(210, 50%, 20%);
     }
@@ -92,11 +92,13 @@ a {
     text-underline-offset: .1rem;
 }
 
-a, summary {
+a,
+summary {
     color: var(--color);
 }
 
-header a, footer a {
+header a,
+footer a {
     color: var(--txt);
 }
 
