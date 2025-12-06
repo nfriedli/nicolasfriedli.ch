@@ -79,6 +79,8 @@ body>* {
 header,
 footer {
     font-size: .9rem;
+
+
 }
 
 footer {
@@ -92,6 +94,10 @@ a {
 
 a, summary {
     color: var(--color);
+}
+
+header a, footer a {
+    color: var(--txt);
 }
 
 details {

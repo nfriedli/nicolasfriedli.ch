@@ -9,8 +9,8 @@ RewriteCond %{HTTP_HOST} !^nicolasfriedli\.ch$ [NC]
 RewriteRule ^(.*)$ https://nicolasfriedli.ch/$1 [R=301,L]
 
 # Redirige les URL avec paramètres vers la même URL sans les paramètres
-RewriteCond %{QUERY_STRING} !^$
-RewriteRule ^(.*)$ /$1? [R=301,L]
+# RewriteCond %{QUERY_STRING} !^$
+# RewriteRule ^(.*)$ /$1? [R=301,L]
 
 # Si un dossier existe mais qu’il n’a pas d’index.html, afficher la 404
 RewriteCond %{REQUEST_FILENAME} -d
