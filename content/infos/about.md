@@ -23,9 +23,8 @@ Un [flux RSS](/index.xml), avec l’ensemble du contenu des pages, permet de s�
 Les flux RSS (ou ATOM) sont des outils qui changent la vie.
 
 La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas.
-nicolasfriedli.ch utilise des statistiques propres ([Plausible Analytics Privacy Policy](https://plausible.io/privacy)) comme seule ressource externe.
-Je n’utilise pas de polices d’écritures fournies par des services tiers.
-J’évite d’inclure du code des réseaux sociaux et des GAFAM, donc aussi les vidéos YouTube, les posts Instagram, etc.
+Je n'utilise pas de ressouces externes; pas de police d'écriture distante, pas de statistiques, etc.
+J’évite aussi d’inclure du code des réseaux sociaux et des GAFAM (vidéos YouTube, posts Instagram, etc.) dans les publications.
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir d’excellents résultats:
 
