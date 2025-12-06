@@ -23,7 +23,6 @@ Suisse
 IDE: CHE-469.715.163
 
 Ne me cherchez pas sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Mastodon, Threads ou X (Twitter).
-Ma présence sur Facebook est passive, pour administrer 2 pages.
-Il peut exister des comptes à mon nom pour des tests, mais sans activité suivie (et sans réponses aux sollicitations).
+Ma présence sur Facebook est passive, pour administrer quelques pages.
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").

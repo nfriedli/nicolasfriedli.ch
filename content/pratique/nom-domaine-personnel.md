@@ -2,7 +2,7 @@
 title: Nom de domaine personnel pour QR codes, Mastodon & Bluesky
 description: Posséder un nom de domaine personnel garantit une identité numérique pérenne et indépendante. Découvrez comment l’utiliser intelligemment pour vos QR codes, sur Mastodon & sur Bluesky.
 date: 2025-02-09
-lastMod: 2025-11-17
+lastMod: 2025-12-06
 ---
 
 Notre présence en ligne est devenue une extension de notre identité personnelle et professionnelle.
@@ -13,7 +13,7 @@ Ce billet explore trois usages concrets d’un nom de domaine: QR codes, Mastod
 
 Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un blog personnel en 2025.
 
-**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet ne sont pas actifs.**
+**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet ne plus actifs.**
 
 ## Utilisation de QR codes
 
@@ -36,7 +36,7 @@ En particulier pour le tatouage...
 
 ### Validation des liens
 
-Sur un profil Mastodon, qui remplace très bien Twitter (X), il est possible d’obtenir des validations.
+Sur un profil Mastodon, qui remplace tant bien que mal Twitter (X), il est possible d’obtenir des validations.
 
 Dans mon cas le compte `mastodon.social/@nicolasfriedlich` propose 2 liens validés: GitHub et mon site personnel.
 Ces liens sont en vert.
@@ -52,9 +52,9 @@ C’est très plus utile lorsque d’autres personnes partagent mes publications
 
 ### Adresse pérenne avec WebFinger
 
-Finalement chez Mastodon, en utilisant le [protocole Webfinger](https://docs.joinmastodon.org/spec/webfinger/), il est possible de créer une adresse de raccourci indépendant de l’instance utilisée, donc pérenne.
+Finalement chez Mastodon, en utilisant le [protocole Webfinger](https://docs.joinmastodon.org/spec/webfinger/), il est possible de créer une adresse de raccourci indépendante de l’instance utilisée, donc pérenne.
 
-Mon profil lié à un nom de domaine que je possède est `@n@frdl.ch`.
+Avec un nom de domaine que je possède, je pourrais créer `@n@frdl.ch`.
 C’est un alias, que je peux rediriger en tout temps vers une autre instance Mastodon.
 
 ## Nom de compte chez Bluesky
@@ -66,15 +66,15 @@ En principe, les comptes se terminent en `.bsky.social`.
 Le nom complet d’un compte pour moi pourrait être `nicolasfriedli.bsky.social`.
 
 Avec un nom de domaine, on peut se passer totalement du `.bsky.social`.
-Je dispose désormais du compte @nicolasfriedli.ch.
+Je peux disposer du compte `@nicolasfriedli.ch`.
 
-Regardez l’adresse: `bsky.app/profile/nicolasfriedli.ch`.
-Détail frappant: elle contient un `.` (point) alors que ce n’est pas possible lors de l’inscription.
+Regardez bien son adresse: `bsky.app/profile/nicolasfriedli.ch`.
+Détail frappant, elle contient un `.` (point) alors que ce n’est pas possible lors de l’inscription.
 
 J’ai validé mon nom de compte par mon nom domaine.
 
 **Le truc génial, c’est que si tu possèdes le nom de domaine `monsieurmichu.ch`, personne ne pourra réserver le profil Bluesky à ta place.**
-Autrement dit, même si tu ne crées pas de compte, il est «réservé».
+Autrement dit, même si tu ne crées pas de compte, `monsieurmichu.ch` est «réservé» pour toi.
 Bravo à Bluesky pour cette idée simple et brillante.
 
 ----
