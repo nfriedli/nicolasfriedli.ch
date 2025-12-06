@@ -3,14 +3,12 @@
 
     --txt: hsl(210, 100%, 20%);
     --bg: hsl(30, 25%, 90%);
-    --bg2: hsl(30, 100%, 95%);
 }
 
 @media (prefers-contrast: more) {
     :root {
         --txt: #000;
         --bg: #FFF;
-        --bg2: #EEE;
     }
 }
 
@@ -18,7 +16,6 @@
     :root {
         --txt: hsl(30, 100%, 95%);
         --bg: hsl(210, 100%, 10%);
-        --bg2: hsl(210, 50%, 20%);
     }
 }
 
@@ -26,7 +23,6 @@
     :root {
         --txt: #FFF;
         --bg: #000;
-        --bg2: #111;
     }
 }
 
@@ -113,7 +109,6 @@ form {
 
 input {
     color: var(--txt);
-    background: var(--bg2);
     border: .2rem solid var(--txt);
     font-family: inherit;
     font-size: 1.44rem;
@@ -126,15 +121,18 @@ input::placeholder {
 }
 
 blockquote {
-    background: var(--bg2);
     border-inline-start: .2rem solid var(--txt);
+    font-style: italic;
     margin-inline-start: 0;
     padding-inline: 1rem;
     width: 100%;
 }
 
+blockquote em {
+    font-style: normal;
+}
+
 code {
-    background-color: var(--bg2);
     font-size: .9em;
 }
 
