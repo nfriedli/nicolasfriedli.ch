@@ -52,6 +52,7 @@ body {
     gap: 2rem;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 1.5;
     margin: auto;
     max-width: 40rem;
     min-height: 100vh;
@@ -65,19 +66,43 @@ body>* {
 }
 
 header,
-footer, 
+footer,
 aside {
     font-size: .9rem;
-
-
 }
 
 footer {
     margin-block: auto 2rem;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: var(--h);
+    line-height: 1.1;
+    text-wrap: balance;
+    margin-block: 2rem 1rem
+}
+
+h1 {
+    font-size: 1.728rem;
+    font-weight: 600;
+    margin-block: 0 2rem;
+}
+
+h2 {
+    font-size: 1.44rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 900;
 }
 
 a {
@@ -91,7 +116,8 @@ summary {
     text-decoration-color: var(--deco);
 }
 
-ol, ul {
+ol,
+ul {
     padding-inline-start: 1rem;
 }
 
@@ -129,10 +155,12 @@ input::placeholder {
 }
 
 blockquote {
-    border-inline-start: .2rem solid var(--txt);
-    margin-inline-start: 0;
-    padding-inline: 1rem;
-    width: 100%;
+    margin-inline-start: 2rem;
+    font-style: italic;
+}
+
+blockquote em {
+    font-style: normal;
 }
 
 code {
@@ -186,7 +214,7 @@ figcaption p {
 
 hr {
     border: none;
-    border-block-start: .2rem solid var(--txt);
+    border-block-start: .2rem solid var(--deco);
     margin-block: 1rem 2rem;
 }
 

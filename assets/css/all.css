@@ -1,5 +1,5 @@
 :root {
-    --sans-serif: ui-sans-serif, "Roboto", system-ui, sans-serif;
+    --sans-serif: "Fira Sans", ui-sans-serif, "Roboto", system-ui, sans-serif;
     --monospace: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
 }
 
@@ -7,7 +7,6 @@ html {
     font-family: var(--sans-serif);
     font-synthesis: none;
     font-variant-numeric: oldstyle-nums proportional-nums;
-    line-height: 1.6;
     text-rendering: optimizeLegibility;
 }
 
@@ -30,33 +29,4 @@ h4,
 a {
     font-variant-numeric: lining-nums proportional-nums;
 
-}
-
-h1,
-h2,
-h3,
-h4 {
-    line-height: 1.1;
-    text-wrap: balance;
-    margin-block: 2rem 1rem
-}
-
-h1 {
-    font-size: 1.728rem;
-    font-weight: 600;
-    margin-block: 0 2rem;
-}
-
-h2 {
-    font-size: 1.44rem;
-}
-
-h3 {
-    font-size: 1.2rem;
-    font-weight: 800;
-}
-
-h4 {
-    font-size: 1rem;
-    font-weight: 900;
 }
