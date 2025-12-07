@@ -1,7 +1,7 @@
 :root {
     color-scheme: dark light;
 
-    --bg: #f7f2f6;
+    --bg: hsl(312, 25%, 96%);
     --txt: hsl(312, 25%, 20%);
     --a: hsl(312, 75%, 20%);
     --deco: hsl(312, 50%, 40%);
