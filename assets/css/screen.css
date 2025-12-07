@@ -155,12 +155,12 @@ input::placeholder {
 }
 
 blockquote {
-    margin-inline-start: 2rem;
-    font-style: italic;
+    margin-inline-start: 1rem;
+    font-weight: 500;
 }
 
-blockquote em {
-    font-style: normal;
+blockquote strong {
+    font-weight: 800;
 }
 
 code {
