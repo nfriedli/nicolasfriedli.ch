@@ -8,11 +8,11 @@
 
     {{ partial "head/description" .}}
     {{ partialCached "head/css" . }}
+    {{ partialCached "head/plausible" . }}
     {{ partialCached "head/favicon" . }}
     
     <link rel="alternate" type="application/rss+xml" href="{{ relURL "index.xml" }}" title="{{ site.Title }}">
     <link rel="canonical" href="{{ .Permalink }}">
-
     {{ if .IsHome }}
         {{ hugo.Generator }}
         {{ partialCached "head/json-ld" . }}
