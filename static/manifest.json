@@ -1,4 +1,13 @@
 {
+    "name": "Nicolas Friedli",
+    "short_name": "NFriedli",
+    "description": "Consultant web à Neuchâtel (Suisse).",
+    "id": "https://nicolasfriedli.ch/",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#660052",
+    "background_color": "#f7f2f6",
     "icons": [
         {
             "src": "/icon-192.png",
