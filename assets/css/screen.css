@@ -2,6 +2,7 @@
     color-scheme: dark light;
 
     --bg: hsl(312, 25%, 96%);
+    --code: hsl(312, 25%, 90%);
     --txt: hsl(312, 25%, 20%);
     --a: hsl(312, 75%, 20%);
     --deco: hsl(312, 50%, 40%);
@@ -11,6 +12,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --bg: hsl(312, 25%, 10%);
+        --code: hsl(312, 25%, 20%);
         --txt: hsl(312, 25%, 98%);
         --a: hsl(312, 25%, 90%);
         --deco: hsl(312, 50%, 60%);
@@ -164,6 +166,7 @@ blockquote strong {
 }
 
 code {
+    background: var(--code);
     font-size: .9em;
 }
 
