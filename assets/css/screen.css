@@ -65,7 +65,8 @@ body>* {
 }
 
 header,
-footer {
+footer, 
+aside {
     font-size: .9rem;
 
 
@@ -90,8 +91,8 @@ summary {
     text-decoration-color: var(--deco);
 }
 
-details {
-    font-size: .9rem;
+ol, ul {
+    padding-inline-start: 1rem;
 }
 
 li {
