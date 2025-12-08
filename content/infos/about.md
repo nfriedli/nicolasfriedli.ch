@@ -24,7 +24,7 @@ Les flux RSS (ou ATOM) sont des outils qui changent la vie.
 
 La vie privée compte à mes yeux, c’est pourquoi je ne vous traque pas.
 nicolasfriedli.ch utilise des statistiques propres ([Plausible Analytics Privacy Policy](https://plausible.io/privacy)).
-Je n’utilise pas d'autres ressources externes comme des polices d’écriture fournies par des services tiers.
+Je n’utilise pas d’autres ressources externes comme des polices d’écriture fournies par des services tiers.
 J’évite aussi d’inclure du code des réseaux sociaux et des GAFAM (vidéos YouTube, posts Instagram, etc.) dans les publications.
 
 Je teste régulièrement mon site pour m’assurer de toujours obtenir d’excellents résultats:

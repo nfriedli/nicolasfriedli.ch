@@ -2,7 +2,7 @@
 title: Nom de domaine personnel pour QR codes, Mastodon & Bluesky
 description: Posséder un nom de domaine personnel garantit une identité numérique pérenne et indépendante. Découvrez comment l’utiliser intelligemment pour vos QR codes, sur Mastodon & sur Bluesky.
 date: 2025-02-09
-lastMod: 2025-12-06
+lastMod: 2025-12-08
 ---
 
 Notre présence en ligne est devenue une extension de notre identité personnelle et professionnelle.
@@ -13,7 +13,7 @@ Ce billet explore trois usages concrets d’un nom de domaine: QR codes, Mastod
 
 Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail ou d’un blog personnel en 2025.
 
-**Les comptes Mastodon et Bluesky utilisés comme exemples dans ce billet ne plus actifs.**
+**Le compte Bluesky utilisé comme exemple dans ce billet n’est plus actif.**
 
 ## Utilisation de QR codes
 
@@ -38,7 +38,7 @@ En particulier pour le tatouage...
 
 Sur un profil Mastodon, qui remplace tant bien que mal Twitter (X), il est possible d’obtenir des validations.
 
-Dans mon cas le compte `mastodon.social/@nicolasfriedlich` propose 2 liens validés: GitHub et mon site personnel.
+Dans mon cas le compte `@frdlch@mastodon.social` propose 2 liens validés: GitHub et mon site personnel.
 Ces liens sont en vert.
 
 Mieux encore, lors d’une recherche, le lien validé s’affiche en vert dans les résultats.
@@ -54,8 +54,8 @@ C’est très plus utile lorsque d’autres personnes partagent mes publications
 
 Finalement chez Mastodon, en utilisant le [protocole Webfinger](https://docs.joinmastodon.org/spec/webfinger/), il est possible de créer une adresse de raccourci indépendante de l’instance utilisée, donc pérenne.
 
-Avec un nom de domaine que je possède, je pourrais créer `@n@frdl.ch`.
-C’est un alias, que je peux rediriger en tout temps vers une autre instance Mastodon.
+Avec un nom de domaine que je possède, je peux créer `@n@frdl.ch`.
+C’est un alias qui existe et que je peux rediriger en tout temps vers une autre instance Mastodon.
 
 ## Nom de compte chez Bluesky
 
