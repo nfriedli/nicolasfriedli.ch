@@ -22,7 +22,9 @@ Suisse
 
 IDE: CHE-469.715.163
 
-Ne me cherchez pas sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Mastodon, Threads ou X (Twitter).
+Ne me cherchez pas sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Threads ou X (Twitter).
 Ma présence sur Facebook est passive, pour administrer quelques pages.
+
+Je dispose du compte Mastodon [@nicolasfriedli@tooting.ch](https://tooting.ch/@nicolasfriedli) pour de la veille.
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").
