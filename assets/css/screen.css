@@ -88,19 +88,18 @@ h4 {
 }
 
 h1 {
-    font-size: 2.2rem;
-    font-weight: 300;
+    font-size: 1.728rem;
+    font-weight: 600;
     margin-block: 0 2rem;
 }
 
 h2 {
-    font-size: 1.7rem;
-    font-weight: 500;
+    font-size: 1.44rem;
 }
 
 h3 {
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 800;
 }
 
 h4 {
