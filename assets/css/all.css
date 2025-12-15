@@ -1,5 +1,5 @@
 :root {
-    --sans-serif: ui-sans-serif, "Roboto", "RobotoWeb", system-ui, sans-serif;
+    --sans-serif: "Roboto", ui-sans-serif, "Arial", system-ui, sans-serif;
     --monospace: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
 }
 
@@ -8,12 +8,6 @@ html {
     font-synthesis: none;
     font-variant-numeric: oldstyle-nums proportional-nums;
     text-rendering: optimizeLegibility;
-}
-
-@media (max-width: 1024px) {
-    html {
-        font-family: system-ui, sans-serif;
-    }
 }
 
 code,
@@ -34,36 +28,4 @@ h3,
 h4,
 a {
     font-variant-numeric: lining-nums proportional-nums;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "RobotoWeb";
-    font-style: normal;
-    font-weight: 400;
-    src: url("/fonts/roboto-v50-latin-regular.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "RobotoWeb";
-    font-style: italic;
-    font-weight: 400;
-    src: url("/fonts/roboto-v50-latin-italic.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "RobotoWeb";
-    font-style: normal;
-    font-weight: 700;
-    src: url("/fonts/roboto-v50-latin-700.woff2") format("woff2");
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "RobotoWeb";
-    font-style: italic;
-    font-weight: 700;
-    src: url("/fonts/roboto-v50-latin-700italic.woff2") format("woff2");
 }
