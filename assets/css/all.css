@@ -1,11 +1,12 @@
 :root {
-    --sans-serif: ui-sans-serif, "Roboto", "Noto Sans", "Arial", system-ui, sans-serif;
-    --serif: ui-serif, "Literata", "Noto Serif", "Georgia", serif;
-    --monospace: ui-monospace,  "JetBrains Mono", "Roboto Mono", "Noto Sans Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
+    --sans-serif: ui-sans-serif, "Roboto", "Arial", system-ui, sans-serif;
+    --serif: ui-serif, "Literata", "Georgia", serif;
+    --monospace: ui-monospace, "Roboto Mono", "Jetbrains Mono", "Cascadia Code", "Consolas", monospace;
 }
 
 html {
     font-family: var(--sans-serif);
+    font-synthesis: none;
     font-variant-numeric: oldstyle-nums proportional-nums;
     text-rendering: optimizeLegibility;
 }
