@@ -1,6 +1,7 @@
 :root {
-    --sans-serif: "Roboto", ui-sans-serif, "Arial", system-ui, sans-serif;
-    --monospace: "JetBrains Mono", ui-monospace, "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
+    --sans-serif: ui-sans-serif, "Roboto", "Arial", system-ui, sans-serif;
+    --serif: ui-serif, "Literata", "Georgia", serif;
+    --monospace: ui-monospace, "JetBrains Mono", "Hack", "Geist Mono", "Roboto Mono", "Menlo", "Ubuntu Mono", "Consolas", "Cascadia Code", monospace;
 }
 
 html {
@@ -24,6 +25,14 @@ table {
 
 h1,
 h2,
+h3,
+h4 {
+    font-family: var(--serif);
+    font-weight: 400;
+}
+
+h1,
+h2, 
 h3,
 h4,
 a {
