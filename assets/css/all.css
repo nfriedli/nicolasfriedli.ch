@@ -1,6 +1,5 @@
 :root {
     --sans-serif: ui-sans-serif, "Roboto", "Arial", system-ui, sans-serif;
-    --serif: ui-serif, "Literata", "Georgia", serif;
     --monospace: ui-monospace, "Roboto Mono", "Jetbrains Mono", "Cascadia Code", "Consolas", monospace;
 }
 
@@ -22,13 +21,6 @@ code,
 pre,
 table {
     font-variant-numeric: lining-nums tabular-nums;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    font-family: var(--serif);
 }
 
 a {
