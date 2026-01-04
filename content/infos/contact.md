@@ -16,7 +16,7 @@ Rue du Château 3\
 2013 Colombier (NE)\
 Suisse
 
-**[hello+2025@nicolasfriedli.ch](mailto:hello+2025@nicolasfriedli.ch)**\
+**[hello+2026@nicolasfriedli.ch](mailto:hello+2026@nicolasfriedli.ch)**\
 [+41 79 344 33 82](tel:+41793443382)\
 [+41 32 841 48 74](tel:+41328414874) (urgences uniquement)
 
