@@ -17,14 +17,14 @@ Rue du Château 3\
 Suisse
 
 **[hello+2026@nicolasfriedli.ch](mailto:hello+2026@nicolasfriedli.ch)**\
-[+41 79 344 33 82](tel:+41793443382)\
+[+41 79 344 33 82](tel:+41793443382) (SMS, Signal et WhatsApp)\
 [+41 32 841 48 74](tel:+41328414874) (urgences uniquement)
 
 IDE: CHE-469.715.163
 
+Je suis présent sur Mastodon avec le compte [@frdlch@mastodon.social](https://mastodon.social/@frdlch).
+
 Ne me cherchez pas sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Threads ou X (Twitter).
 Ma présence sur Facebook est passive, pour administrer quelques pages.
-
-Je dispose du compte [@frdlch@mastodon.social](https://mastodon.social/@frdlch) pour de la veille et des tests.
 
 Pour m’identifier, voici [mon portrait](/images/nicolas-friedli.jpg "Portrait de Nicolas Friedli").
