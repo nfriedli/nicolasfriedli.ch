@@ -1,0 +1,22 @@
+{
+    "version": "0.1.1",
+    "url": "https://nicolasfriedli.ch/",
+    "vouches": [
+        {
+            "url": "https://theologique.ch",
+            "vouched_at": "2026-03-21"
+        },
+        {
+            "url": "https://dianefriedli.ch",
+            "vouched_at": "2026-03-21"
+        },
+        {
+            "url": "https://ma-paroisse.ch",
+            "vouched_at": "2026-03-21"
+        },
+        {
+            "url": "https://frdl.ch",
+            "vouched_at": "2026-03-21"
+        }
+    ]
+}
