@@ -18,7 +18,6 @@
         {{ partialCached "head/json-ld" . }}
     {{ end }}
     {{ block "json-ld" . }}{{ end }}
-    {{ partial "head/breadcrumb" .}}
     {{ partialCached "head/webmentions" . .IsHome }}
     {{ partial "opengraph.html" . }}
     {{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ end }}

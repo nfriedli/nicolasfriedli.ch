@@ -221,21 +221,3 @@ hr {
     border-block-start: .2rem solid var(--deco);
     margin-block: 1rem 2rem;
 }
-
-/* classes */
-
-.breadcrumb ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.breadcrumb li {
-    margin: 0;
-}
-
-.breadcrumb li::after {
-    content: " > ";
-}
