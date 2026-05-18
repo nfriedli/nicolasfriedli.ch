@@ -33,7 +33,7 @@ Donc, quand le contenu d’un site évolue peu dans le temps, il y a toujours in
 
 Un site statique est pérenne par nature.
 Il ne se passe rien sur le serveur d’autre que la livraison de contenus déjà prêts.
-J’en dis quelque chose dans [Création & affichage d’une page web](https://nicolasfriedli.ch/blog/creation-affichage-page-web/) et [Site statique, générateur de site & Hugo](https://nicolasfriedli.ch/hugo/statique/).
+J’en dis quelque chose dans [Création & affichage d’une page web](https://nicolasfriedli.ch/blog/creation-affichage-page-web/) et [Site statique, générateur de site & Hugo](https://nicolasfriedli.ch/blog/statique/).
 
 Au début du *Réseau protestant*, il existait un site statique.
 On le retrouve dans un commit vieux de 6 ans du [dépôt GitHub reseau-protestant](https://github.com/nfriedli/reseau-protestant/tree/508a402e508c3b2d56f5ece70675e9adad6f8a6b).

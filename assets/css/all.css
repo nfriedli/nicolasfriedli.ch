@@ -1,6 +1,6 @@
 :root {
-    --sans-serif: ui-sans-serif, "Roboto", "Arial", system-ui, sans-serif;
-    --monospace: ui-monospace, "Roboto Mono", "Jetbrains Mono", "Cascadia Code", "Consolas", monospace;
+    --sans-serif: ui-sans-serif, "Roboto", system-ui, sans-serif;
+    --monospace: ui-monospace, "Jetbrains Mono", "Roboto Mono", "Cascadia Code", "Consolas", monospace;
 }
 
 html {

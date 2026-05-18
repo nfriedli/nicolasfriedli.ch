@@ -16,7 +16,7 @@ Il ne revient pas sur des sujets rebattus comme la pérennité des adresses mail
 
 ## Utilisation de QR codes
 
-J’ai essayé de donner des [conseils pour l’utilisation des QR code](/pratique/conseils-qr-code/) dans un long billet.
+J’ai essayé de donner des [conseils pour l’utilisation des QR code](/blog/conseils-qr-code/) dans un long billet.
 La question de son propre nom de domaine est centrale.
 Je n’y reviens pas ici.
 
@@ -79,7 +79,7 @@ Bravo à Bluesky pour cette idée simple et brillante.
 ----
 
 Je conseille de réserver vos comptes chez [Infomaniak](https://www.infomaniak.com/fr).
-Chaque compte donne droit à une adresse mail avec des alias et la [possibilité d’utiliser le signe +](/pratique/mail-plus/).
+Chaque compte donne droit à une adresse mail avec des alias et la [possibilité d’utiliser le signe +](/blog/mail-plus/).
 Et aussi à un petit hébergement qui peut être suffisant pour quelques pages de présentation.
 
 Et dans le doute, c’est simplement `prenomnom.ch`.

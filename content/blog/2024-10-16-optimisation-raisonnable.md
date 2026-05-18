@@ -8,7 +8,7 @@ title = "Philosophie d’optimisation raisonnable"
 Mais il me paraît utile de formuler aussi les questions d’optimisation, de performance et d’éco-conception en langage naturel.
 
 Cette idée de langage humain m’est venue en consultant la documentation de [minify](https://github.com/tdewolff/minify).
-C’est l’outil permet d’optimiser les pages produites par [Hugo](/hugo/).
+C’est l’outil permet d’optimiser les pages produites par [Hugo](/blog/statique/).
 
 Dans chaque passage, je proposerai des citations qui devraient rendre le contenu de cette page accessible à des internautes non techniques.
 

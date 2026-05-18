@@ -13,7 +13,7 @@ La règle [Opquast 168](https://checklists.opquast.com/fr/qualite-numerique/le-
 > Le moteur de recherche est, avec le plan du site, les menus et le lien de retour à l’accueil, un des moyens fondamentaux de réorientation et d’accès à l’information.
 > Rendez-le présent et facile d’accès.
 
-Il est possible de s’en passer et de se reposer sur les compétences des internautes, qui se formeront en lisant [Recherches Google avancées](/pratique/recherche-google-avancee/) (qui fonctionne avec d’autres moteurs de recherche).
+Il est possible de s’en passer et de se reposer sur les compétences des internautes, qui se formeront en lisant [Recherches Google avancées](/blog/recherche-google-avancee/) (qui fonctionne avec d’autres moteurs de recherche).
 Mais ce n’est qu’un palliatif.
 
 ## Recherche intégrée disponible

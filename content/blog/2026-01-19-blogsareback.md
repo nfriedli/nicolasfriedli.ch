@@ -35,7 +35,7 @@ Et éventuellement vous créer un compte.
 
 Cet outil est basique mais donne une bonne idée de l’agrégation de contenu.
 
-Pour mieux comprendre l’agrégation de contenu et découvrir d’autres outils, je vous renvoie à [Introduction aux flux RSS et Atom](https://nicolasfriedli.ch/pratique/rss-introduction/) sur mon blog nicolasfriedli.ch.
+Pour mieux comprendre l’agrégation de contenu et découvrir d’autres outils, je vous renvoie à [Introduction aux flux RSS et Atom](https://nicolasfriedli.ch/blog/rss-introduction/) sur mon blog nicolasfriedli.ch.
 
 ---
 

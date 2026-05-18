@@ -113,7 +113,7 @@ Par exemple l’utilisation d’un logiciel spécifique (*crawler*) ou d’un fi
 Bien entendu, il est toujours possible d’effectuer une recherche interne, si elle existe, ou externe.
 
 Si votre site est bien référencé, avec un [travail de SEO sérieux](/blog/), ça pourrait fonctionner chez Google (ou un de ses concurrents).
-La page [Recherches Google avancées](/pratique/recherche-google-avancee/) donne quelques pistes pour maîtriser des syntaxes comme:
+La page [Recherches Google avancées](/blog/recherche-google-avancee/) donne quelques pistes pour maîtriser des syntaxes comme:
 
 ```
 site:nicolasfriedli.ch

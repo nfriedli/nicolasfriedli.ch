@@ -38,7 +38,7 @@ Les réseaux d’aujourd’hui ne sont plus sociaux, parce qu’ils cassent les 
 
 Ces réseaux ne peuvent plus être qualifiés de «réseaux sociaux» si le «graphe social» est volontairement sabordé; si les liens sociaux que j’ai choisis et construits ne sont pas respectés.
 
-Ces «outils» ont suivi l’implacable logique de la  [merdification](https://nicolasfriedli.ch/pratique/merdification/).
+Ces «outils» ont suivi l’implacable logique de la  [merdification](https://nicolasfriedli.ch/blog/merdification/).
 Un service se merdifie parce qu’il ne cherche plus qu’à satisfaire celles et ceux qui les financent.
 Au mépris des internautes qui leur avaient donné toute leur valeur, qui s’en retrouvent prisonnières ou prisonniers (ou pensent l’être).
 

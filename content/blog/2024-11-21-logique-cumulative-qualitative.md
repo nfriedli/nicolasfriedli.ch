@@ -26,7 +26,7 @@ Il n’y a pas de raison de les revoir à l’avenir, parce qu’ils ont été d
 Bien entendu, la correction de coquilles ou de liens est toujours possible.
 
 À mes yeux, le risque principal de ce type de publication est la cannibalisation des contenus.
-Je me vois mal publier 10 pages sur l’[optimisation des polices d’écriture](/blog/police-optimisee-titres) au fil du temps.
+Je me vois mal publier 10 pages sur l’[optimisation des polices d’écriture](/blog/police-optimisee-titres/) au fil du temps.
 Si 9 billets sont dépassés, à quoi bon les conserver.
 
 Le message que donne un blog, c’est:
