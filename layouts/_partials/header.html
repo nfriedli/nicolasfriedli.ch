@@ -1,13 +1,10 @@
-<header data-nosnippet>
-    {{ if .IsHome }}
-    {{ site.Title }}
-    {{ else }}
-    <nav aria-label="breadcrumb" class="breadcrumb">
-        <ol>
-            {{ range .Ancestors.Reverse }}
-                <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-            {{ end }}
-        </ol>
-    </nav>
-    {{ end }}
-</header>
+{{ $currentPage := . }}
+<nav>
+    <ul>
+        {{ range .Site.Menus.main }}
+            <li>
+                    <a href="{{ .URL }}"{{ if $currentPage.IsMenuCurrent .Menu . }}  aria-current="page"{{ end }}>{{ .Name }}</a>
+            </li>
+        {{ end }}
+      </ul>
+</nav>

@@ -2,9 +2,4 @@
 <h1>{{ .Title }}</h1>
 {{ partial "toc" . }}
 {{ .Content }}
-{{ partial "subpages" . }}
-{{ end }}
-
-{{ define "siblings" }}
-{{ partial "siblings" . }}
 {{ end }}

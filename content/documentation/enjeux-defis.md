@@ -1,3 +1,0 @@
----
-title: Enjeux et défis
----

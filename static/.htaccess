@@ -23,12 +23,6 @@ ErrorDocument 404 /404.html
 # Transparence des flux RSS
 RewriteRule ^feed/?$ /index.xml [R=301,L]
 
-# Redirections historiques diverses
-RewriteRule ^about/?$ /infos/about/ [R=301,L]
-RewriteRule ^bio/?$ /infos/bio/ [R=301,L]
-RewriteRule ^blogroll/?$ /pratique/blogroll/ [R=301,L]
-RewriteRule ^contact/?$ /infos/contact/ [R=301,L]
-
 # CORS pour blogsareback.com & co.
 <FilesMatch "\.(xml|rss|atom)$">
     Header set Access-Control-Allow-Origin "*"

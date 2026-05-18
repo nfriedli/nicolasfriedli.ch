@@ -18,7 +18,7 @@ copyright = "Creative Commons BY-SA"
 writeStats = false
 
 [frontmatter]
-date = ["date", "lastMod", ":git"]
+date = [":filename", "date", "lastmod", ":git"]
 lastmod = ["lastmod", "date", ":git"]
 
 [markup]
