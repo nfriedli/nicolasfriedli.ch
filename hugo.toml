@@ -1,7 +1,7 @@
 baseURL = "https://nicolasfriedli.ch/"
 title = "Nicolas Friedli"
 
-languageCode = "fr"
+locale = "fr"
 defaultContentLanguage = "fr"
 
 removePathAccents = true
