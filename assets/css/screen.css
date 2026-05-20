@@ -223,3 +223,8 @@ hr {
     border-block-start: .2rem solid var(--deco);
     margin-block: 1rem 2rem;
 }
+
+aside.refonte {
+    border: .1rem solid var(--deco);
+    background: var(--code);
+}
