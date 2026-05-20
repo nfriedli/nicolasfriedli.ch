@@ -1,7 +1,7 @@
 +++
-date = 2025-09-30
-description = "Les fichiers Markdown comportent souvent des métadonnées. Le «frontmatter» permet de structurer ses données pour les réutiliser efficacement. Et avec souplesse."
 title = "Frontmatter & métadonnées"
+description = "Les fichiers Markdown comportent souvent des métadonnées. Le «frontmatter» permet de structurer ses données pour les réutiliser efficacement. Et avec souplesse."
+date = 2025-09-30
 +++
 
 J’ai parlé plusieurs fois de [fichiers au format texte](/blog/txt/) et de [balisage léger avec Markdown](/blog/markdown/).

@@ -1,0 +1,82 @@
++++
+title = "Le syndrome de la peur de rater quelque chose (FOMO)"
+description = "FOMO, c’est la peur de rater quelque chose. Une anxiété qui pousse à rester sur des réseaux merdifiés, à accepter des intermédiaires malhonnêtes et à les rendre presque omniscients."
+date = 2026-03-08
++++
+
+Le syndrome FOMO (fear of missing out), c’est la peur de rater quelque chose.
+La [page Wikipédia sur le sujet](https://fr.wikipedia.org/wiki/Syndrome_FOMO) le nomme aussi l’«anxiété de ratage».
+Il se manifeste par une peur d’être laissé·e de côté et d’être empêché·e dans ses relations sociales.
+
+## FOMO et réseaux sociaux
+
+C’est souvent quand la discussion tourne autour des réseaux sociaux que le synodrome FOMO apparaît en filigrane:
+
+> J’ai encore un compte Facebook, mais je ne m’y connecte presque jamais.
+> Je peux savoir ce que deviennent mes amis, l’autre jour, j’ai appris que…
+
+Mais ils ne sont plus des réseaux sociaux, comme je l’écrivais dans [À propos des réseaux prétendument sociaux](/blog/reseau-sociaux/).
+Pire, ils fixent des règles du jeux qu’ils ne respectent pas.
+
+L’ironie de l’histoire, c’est que Facebook, Instagram, X/Twitter et les autres font tout pour ne pas donner toutes les informations de manière honnête.
+Ils m’imposent des contenus que je ne voulais pas voir; ils m’empêchent de lire tout ce que je souhaitais voir.
+Une des exceptions, c’est Mastodon, qui est honnête par conception.
+
+Il n’est pas tenable de rester sur ces «outils» par peur de ne rien rater alors qu’ils me font volontairement manquer des publications.
+Il n’est pas plus tenable d’y garder un compte par paresse de fermer le mien.
+Continuer de jouer avec des tricheurs, en connaissance de cause, ne me paraît pas défendable.
+
+## Rester sur ces outils n’est pas neutre
+
+Quand on demande aux personne pourquoi elles ne quittent pas des réseaux qui ne leur apportent presque plus rien, une autre explication est parfois convoquée:
+
+> Je me suis dit que j’allais fermer mon compte, mais ce n’est pas si simple.
+
+Je suis prêt à admettre que ces réseaux ne m’apportent plus rien de bon, mais j’y reste.
+C’est un [parcours plein de méandres](https://jeromeg.ch/2026/03/07/journal-de-bord-careme-2026-21/) de fermer un compte sur ces outils.
+Mais il faut rappeler que c’est toujours possible.
+
+Jouer le jeu de l’[économie de l’attention](https://framablog.org/2026/02/17/attention-a-leconomie-de-lattention/) me paraît mauvais pour soi.
+Et mauvais pour les autres parce que j’entretiens l’idée qu’une présence y est utile.
+Il faut y être parce que j’y suis.
+Le conformisme vaut mieux que l’éthique.
+
+L’autre jour, après mon billet [Réseau social Mastodon protestant](/blog/mastodon/), on m’a demandé si cela en «valait la peine», s’il y a «du monde».
+Étonnant, non?
+Je ne veux pas y aller parce qu’il n’y a pas assez de monde, mais je reste comptabilisé dans «le monde» d’un réseau en [phase avancée de merdification](https://nicolasfriedli.ch/blog/merdification/), que je n’utilise plus.
+Au risque de gonfler ses statistiques et de donner de la valeur à un «outil» qui ne m’en donne plus du tout.
+
+## Possibilité de tout suivre et tout savoir
+
+Sur le web, il est possible de tout connaître et de ne rien rater.
+Il est possible:
+
+- de se rendre régulièrement sur un site
+- de s’abonner à sa lettre de nouvelles (newsletter)
+- de suivre ses flux RSS ou Atom
+
+Ces 3 manières de faire ont un point commun: elles se passent d’intermédiaires.
+Le protestantisme, dès la Réforme, a été très attentif combattre les intermédiaires.
+Le relation à Dieu est directe, sans la médiation du clergé ou des saintes et saints.
+
+Le contraste est flagrant avec la pratique actuelle du web qui laisse des instances pas toujours très honnêtes s’intercaler entre les internautes et l’information.
+Les moteurs de recherche, les réseaux sociaux, les intelligences artificielles (IA), etc. filtrent et hiérarchisent «pour moi» – quand ce n’est pas «pour mon bien» –, sans me dire pourquoi ni comment.
+
+Bien entendu, cette possibilité de «tout savoir» reste limitée.
+Tout savoir, oui, mais dans un contexte choisi et voulu, dans un domaine précis, dans un secteur spécifique, etc.
+Parce que sinon…
+
+## Question de l’omniscience
+
+Je ne peux m’empêcher de rapprocher la question du FOMO et celle de l’[omniscience](https://fr.wikipedia.org/wiki/Omniscience).
+Tout savoir, sur tout, est un attribut classique de Dieu.
+
+Qui serais-je pour avoir besoin de tout savoir?
+Manquer plein de choses, n’est-ce pas le propre de l’être humain?
+Croire que je peux ne rien manquer n’est-il pas me croire capable de me passer de Dieu?
+Considérer que je peux me passer de Dieu n’est-il pas une définition du péché?
+
+La situation est délicieuse.
+Sur les réseaux dits sociaux, l’instance qui sait presque tout sur presque toutes et tous, c’est l’entreprise qui s’enrichit sur notre dos.
+Jamais les internautes qui la nourrissent, la promeuvent et la valorisent, mais qui sont les dindes ou les dindons de la farce.
+L’omniscience sans Dieu est peut-être là.

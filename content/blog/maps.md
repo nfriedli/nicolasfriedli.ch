@@ -1,7 +1,7 @@
 +++
+title = "Aide Google Maps"
 description = "Google Maps est imparfait, mais il reste le meilleur outil pour promouvoir un lieu. Voici quelques pistes pour améliorer votre fiche ou en prendre le contrôle complet."
 draft = true
-title = "Aide Google Maps"
 +++
 
 Je continue de contribuer à Google Maps...

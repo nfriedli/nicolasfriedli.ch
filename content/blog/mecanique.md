@@ -1,7 +1,7 @@
 +++
-date = 2025-09-14
-description = "Des outils différents nous font écrire différemment. Mais quelle est la place de la réflexion sur ses pratiques et ses outils dans sa vie professionnelle ou estudiantine?"
 title = "Sur la mécanique du texte"
+description = "Des outils différents nous font écrire différemment. Mais quelle est la place de la réflexion sur ses pratiques et ses outils dans sa vie professionnelle ou estudiantine?"
+date = 2025-09-14
 +++
 
 Ces dernières semaines, j’ai lu beaucoup de contenus sur le texte et les formats de texte.

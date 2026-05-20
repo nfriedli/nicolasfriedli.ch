@@ -1,6 +1,6 @@
 +++
-draft = true
 title = "Jardins numériques & sites personnels"
+draft = true
 +++
 
 Des jardins numériques (*digital gardens*) fleurissent un peu partout sur le web.

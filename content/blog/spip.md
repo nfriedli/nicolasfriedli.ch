@@ -1,8 +1,8 @@
 +++
-date = "2025-02-17"
-description = "SPIP reste une merveilleuse «machine à publier». Il a perdu de sa popularité, il intéresse moins que d’autres CMS, il n’est pas commercial, mais son projet militant dure depuis 2001."
-lastMod = "2025-10-19"
 title = "Notes sur SPIP en 2025"
+description = "SPIP reste une merveilleuse «machine à publier». Il a perdu de sa popularité, il intéresse moins que d’autres CMS, il n’est pas commercial, mais son projet militant dure depuis 2001."
+date = 2025-02-17
+lastMod = "2025-10-19"
 +++
 
 SPIP est un magnifique système de publication né en 2001.

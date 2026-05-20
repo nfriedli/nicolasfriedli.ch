@@ -1,0 +1,25 @@
++++
+title = "Slow web"
+description = ""
+date = 2026-02-12
+draft = true
++++
+
+[Gaël Hurlimann: «Tenter de faire du contenu slow sur une plateforme pensée pour le doomscrolling, c’est inutile»](https://pointcomm.unine.ch/communiquer-sans-epuiser-en-cig-le-pari-du-slow-est-il-viable-sur-les-medias-sociaux/)
+
+[Le slow web ou comment rendre le web plus éthique?](https://www.adimeo.com/blog/le-slow-web-ou-comment-rendre-le-web-plus-ethique)
+
+[Le slow web : ralentir, pour mieux agir](https://numeriqueethique.fr/ressources/articles/le-slow-web-ralentir-pour-mieux-agir)
+
+[Pourquoi adopter le slow web ?](https://www.hippocampe.fr/blog/bonnes-raisons-adopter-slow-web/)
+
+[Dissident , la révolte du slow web](https://www.lemonde.fr/blog/binaire/2018/09/26/dissident-la-revolte-du-slow-web/)
+
+[Tout savoir sur le concept de “Slow Web”](https://clementlasserre.com/tout-savoir-sur-le-concept-de-slow-web/)
+
+[The internet that took over the Internet](https://petermolnar.net/journal/internet-emotional-core/index.html)
+
+[Slow Content](https://slowcontent.org/)
+
+[“Slow Design for an Anxious World” by Jeffrey Zeldman—An Event Apart video](https://www.youtube.com/watch?v=3dPF0TbX5Jc)
+

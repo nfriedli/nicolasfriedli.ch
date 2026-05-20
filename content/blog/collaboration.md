@@ -1,7 +1,7 @@
 +++
-date = 2025-09-17
-description = "Les fichiers textuels simples, par exemple en Markdown, permettent de collaborer de manière optimale. Avec Git, ils permettent la coopération sans coordination."
 title = "Collaboration en ligne"
+description = "Les fichiers textuels simples, par exemple en Markdown, permettent de collaborer de manière optimale. Avec Git, ils permettent la coopération sans coordination."
+date = 2025-09-17
 +++
 
 Dans tout ce que j’écris ces temps sur le format texte, j’ai la question de la collaboration en ligne en arrière-plan.

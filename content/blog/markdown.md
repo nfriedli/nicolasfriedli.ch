@@ -1,7 +1,7 @@
 +++
-date = 2025-09-11
-description = "Le langage de balise léger Markdown est le plus utilisé aujourd’hui. De nombreux outils le produisent ou le comprennent. Il est facile à apprendre et suffisant pour la grande majorité des usages."
 title = "Markdown a gagné"
+description = "Le langage de balise léger Markdown est le plus utilisé aujourd’hui. De nombreux outils le produisent ou le comprennent. Il est facile à apprendre et suffisant pour la grande majorité des usages."
+date = 2025-09-11
 +++
 
 Le langage de balisage léger Markdown a gagné la course.

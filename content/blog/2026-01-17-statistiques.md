@@ -1,7 +1,8 @@
 +++
-description = ""
-draft = true
 title = "Statistiques et vie privée"
+description = ""
+date = 2026-01-17
+draft = true
 +++
 
 theologique.ch n’utilise pas d’outil de statistiques.

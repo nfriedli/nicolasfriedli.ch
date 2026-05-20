@@ -1,9 +1,9 @@
 +++
-categories = ["polices"]
-date = "2025-02-02"
-dateMod = "2025-02-07"
-description = "Polices gratuites courantes pour limiter les téléchargements, accélérer les sites web et réduire leur impact écologique."
 title = "Des polices d’écriture à installer sans hésiter"
+description = "Polices gratuites courantes pour limiter les téléchargements, accélérer les sites web et réduire leur impact écologique."
+date = 2025-02-02
+categories = ["polices"]
+dateMod = "2025-02-07"
 +++
 
 **Cette page est en «rédaction publique»: pas aboutie mais déjà disponible.\

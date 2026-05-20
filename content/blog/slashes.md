@@ -1,0 +1,47 @@
++++
+title = "Intérêt (ou non) des slash pages"
+description = "Les slash pages ont des adresses spécifiques à la racine du site. Elles sont prévues pour des fonctions précises. Sont-elles utiles?"
+date = 2026-04-24
+lastMod = 2026-05-02
+aliases = ["/slashes"]
++++
+
+Je suis réservé sur la pertinence des *slash pages*.
+Ce sont des contenus identifiés par des adresses (URL) spécifiques à la racine du site.
+Elles sont prévues pour des fonctions précises.
+Mais sont-elles utiles?
+
+Un site liste les [slash pages](https://slashpages.net/) les plus courantes.
+Pour chaque type de page, il donne quelques indications sur sa fonction, renvoie à la personne qui a proposé cette URL et, parfois, une quelques exemples concrets.
+
+Mon impression, c’est que ni les internautes ni les moteurs de recherche vont spontanément tester adresses pour trouver des slash pages, d’où ma réserve.
+Et ce type de page n’est pas une norme (contrairement aux [Well-known URI](https://en.wikipedia.org/wiki/Well-known_URI)), mais une simple convention.
+
+En revanche, je pense que les types de pages proposés sont des incitations à utiliser certaines noms «logiques» comme `/contact`, `/sitemap` ou `/about`.
+Peut-être que dans ces cas précis, les moteurs de recherche comprennent mieux de quoi il s’agit.
+En tout cas, c’est plutôt élégant et la «simple convention» prend sens.
+
+J’ai ajouté des pages en testant [Pure Blog](https://pureblog.org/).
+Parce que tous les articles de blog et toutes les pages ont une adresse à la racine.
+En conséquence, n’importe quel article ou n’importe quelle page du site peut être une slash page.
+
+Dans la version actuelle du site, générée avec [Hugo](https://gohugo.io/), je crée simplement des aliases quand c’est nécessaire.
+
+```
+aliases = ["/slashes"]
+```
+
+Anisi, cette page est publiée dans le blog, mais elle est atteignable par une URL à la racine.
+
+Dans ce billet, je mets à jour la liste des URL du site qui entrent dans la typologie proposée.
+Actuellement:
+
+- [/about](/about)
+- [/ai](/ai)
+- [/blogroll](/blogroll)
+- [/contact](/contact)
+- [/license](/license)
+- [/now](/now) (mon avis sur ce type de pages)
+- [/privacy](/privacy)
+- `/slashes` (cette page)
+- [/verify](/verify)
