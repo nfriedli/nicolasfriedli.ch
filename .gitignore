@@ -1,6 +1,7 @@
 node_modules
 public
 resources
+venv
 
 .hugo_build.lock
 hugo_stats.json
