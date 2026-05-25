@@ -3,8 +3,6 @@ title = "Blogroll"
 description = "Sélection des sites personnels que j’apprécie et consulte régulièrement. Je suis les blogs dans mon agrégateur de flux RSS et Atom."
 +++
 
-# Blogroll
-
 Sélection des sites personnels que j’apprécie et consulte régulièrement.
 Je suis les blogs dans mon agrégateur de flux RSS et Atom.
 

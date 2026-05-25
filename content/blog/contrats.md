@@ -1,7 +1,8 @@
 +++
-date = "2026-05-23"
-description = "Des contrats tacites du web sont bafoués par les grandes entreprises qui cherchent à tout accaparer. Mais le web personnel et indépendant existe toujours, notamment par les blogs."
 title = "Casser les contrats du web"
+description = "Des contrats tacites du web sont bafoués par les grandes entreprises qui cherchent à tout accaparer. Mais le web personnel et indépendant existe toujours, notamment par les blogs."
+date = "2026-05-23"
+aliases = ["/contrats/"]
 +++
 
 En relançant ce site, je me suis posé pas mal de questions sur la pérennité de mes anciens contenus.
@@ -62,7 +63,7 @@ Comme le dit très bien Barthélémy Rochat par l’exemple du RSS: [Google kill
 
 ## Respect des licences et des consignes
 
-Les intelligences artificielles (IA), surtout les génératives), ne respectent pas le droit d’auteur.
+Les intelligences artificielles (IA), surtout les génératives, ne respectent pas le droit d’auteur.
 C’est un contrat de base, qui dépasse le web.
 Simplement, la présence de contenus en ligne permet d’amasser facilement et rapidement des quantités immenses de données.
 

@@ -25,12 +25,10 @@
 
 <body>
     
-    {{ partialCached "header" . }}
+    {{ partialCached "header" . .IsHome }}
 
-    {{ partialCached "refonte" . }}
-    
     <main>
-    {{ block "main" . }}{{ end }}
+        {{ block "main" . }}{{ end }}
     </main>
 
     {{ partialCached "footer" . }}

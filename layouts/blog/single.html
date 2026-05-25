@@ -1,28 +1,11 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+<time datetime="{{.Date.Format " 2006-01-02"}}">
+    {{.Date | time.Format ":date_long"}}
+    {{ if gt .Lastmod .Date }}
+    - modification: {{.Lastmod | time.Format ":date_long"}}
+    {{ end }}
+</time>
 {{ partial "toc" . }}
 {{ .Content }}
-{{ end }}
-
-{{ define "json-ld" }}
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "{{ .Title }}",
-    "wordCount": "{{ .WordCount }}",
-    {{ with .Date }}
-        "datePublished": "{{ .Format "2006-01-02" }}",
-    {{ end }}
-    {{ with .Lastmod }}
-    "dateModified": "{{ .Format "2006-01-02" }}",
-    {{ end }}
-    "author": [{
-        "@type": "Person",
-        "name": "Nicolas Friedli",
-        "url": "https://nicolasfriedli.ch/"
-    }],
-    "isAccessibleForFree": true
-}
-</script>
 {{ end }}

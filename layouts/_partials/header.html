@@ -1,3 +1,7 @@
-<nav>
-<a href="/">{{ site.Title }}</a>
-</nav>
+<header>
+    {{ if .IsHome }}
+        {{ site.Title }}
+    {{ else }}
+        <a href="{{ relURL "/" }}">{{ site.Title }}</a>
+    {{ end }}
+</header>

@@ -1,45 +1,9 @@
 :root {
-    color-scheme: dark light;
-
-    --bg: hsl(312, 25%, 96%);
-    --code: hsl(312, 25%, 90%);
-    --txt: hsl(312, 25%, 20%);
-    --a: hsl(312, 75%, 20%);
-    --deco: hsl(312, 50%, 40%);
-    --h: hsl(312, 100%, 20%);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg: hsl(312, 25%, 10%);
-        --code: hsl(312, 25%, 20%);
-        --txt: hsl(312, 25%, 98%);
-        --a: hsl(312, 25%, 90%);
-        --deco: hsl(312, 50%, 60%);
-        --h: hsl(312, 100%, 90%);
-    }
-}
-
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-::selection {
-    background: #0FF;
-    color: #000;
-}
-
-::marker {
-    color: var(--deco);
+    color-scheme: light dark;
 }
 
 html {
-    /* 320px - 16 -> 1280px - 21 */
-    font-size: clamp(1rem, 0.8958rem + 0.5208vw, 1.3125rem);
-    scroll-behavior: smooth;
+    font-size: 1.25rem;
 }
 
 html,
@@ -49,182 +13,80 @@ body {
 }
 
 body {
-    background: var(--bg);
-    color: var(--txt);
+    background: light-dark(#FAFAFA, #000);
+    color: light-dark(#123, #EEE);
     display: flex;
-    gap: 2rem;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 2rem;
     line-height: 1.5;
-    margin: auto;
+    margin-inline: auto;
     max-width: 40rem;
     min-height: 100vh;
     min-height: 100dvh;
-    /* pour Android et iOS */
-
+    text-wrap: pretty;
 }
 
 body>* {
     padding: 1rem;
 }
 
-header,
-footer,
-aside {
+footer {
+    margin-block-start: auto;
+}
+
+header, footer, nav, details, time, pre code {
     font-size: .9rem;
 }
 
-footer {
-    margin-block: auto 2rem;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: var(--h);
-    line-height: 1.1;
-    text-wrap: balance;
-    margin-block: 2rem 1rem
-}
-
-h1 {
-    font-weight: 500;
-    font-size: 1.728rem;
-    margin-block: 0 2rem;
-}
-
-h2 {
-    font-weight: 600;
-    font-size: 1.44rem;
-}
-
-h3 {
-    font-weight: 700;
-    font-size: 1.2rem;
-}
-
-h4 {
-    font-weight: 800;
-    font-size: 1rem;
-}
-
-a {
-    text-decoration-thickness: .1rem;
-    text-underline-offset: .1rem;
-}
-
-a,
-summary {
-    color: var(--a);
-    text-decoration-color: var(--deco);
-}
-
-ol,
-ul {
-    padding-inline-start: 1rem;
-}
-
-li {
-    margin-block-start: .5rem;
-}
-
-dt {
-    font-weight: 700;
-}
-
-dd {
-    margin-inline-start: 1rem;
-}
-
-dd+dt {
-    margin-block-start: .5rem;
-}
-
-form {
-    margin-block: 1rem;
-}
-
-input {
-    color: var(--txt);
-    border: .2rem solid var(--txt);
-    font-family: inherit;
-    font-size: 1.44rem;
-    padding: .4rem;
-    width: 100%;
-}
-
-input::placeholder {
-    color: var(--txt)
+code {
+    font-size: .95em;
 }
 
 blockquote {
-    margin-inline-start: 1rem;
     font-weight: 500;
+    margin-inline-start: 2rem;
+    margin-block: 1rem 2rem;
 }
 
 blockquote strong {
     font-weight: 800;
 }
 
-code {
-    background: var(--code);
-    font-size: .9em;
-}
-
-pre {
-    background: var(--txt);
-    color: var(--bg);
-    overflow: auto;
-    padding: .5rem 1rem;
-    margin-block-end: 2rem;
-}
-
-pre code {
-    background: none;
-    color: var(--bg);
-    font-size: .85rem;
-    padding: 0;
-}
-
-figure {
-    inline-size: fit-content;
-    margin-block: 1rem 2rem;
-    margin-inline: auto;
-}
-
-img {
-    display: block;
-    height: auto;
-    margin: auto;
-    max-width: 100%;
-}
-
-figure.full,
-.full img {
-    width: 100%;
-}
-
-.pixelated img {
-    image-rendering: pixelated;
-}
-
-figcaption {
-    contain: inline-size;
-    font-size: .9rem;
-}
-
-figcaption p {
-    margin-block: .2rem;
-}
-
-hr {
-    border: none;
-    border-block-start: .2rem solid var(--deco);
+details, time {
     margin-block: 1rem 2rem;
 }
 
-aside.refonte {
-    border: .1rem solid var(--deco);
-    background: var(--code);
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.1;
+    margin-block: 3rem 2rem;
+    text-wrap: balance;
+}
+
+h1 {
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-block: 0 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+a {
+    color: light-dark(#22F, #FF8);
+    text-decoration-thickness: .1em;
+    text-underline-offset: .1em;
 }
