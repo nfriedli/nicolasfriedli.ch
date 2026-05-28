@@ -31,6 +31,28 @@ endLevel = 6
 [markup.highlight]
 style = "dracula"
 
+# Menu
+
+[menus]
+
+[[menus.main]]
+pageRef = "/"
+weight = 10
+
+[[menus.main]]
+pageRef = "/blog"
+weight = 20
+
+[[menus.main]]
+pageRef = "/blogroll"
+weight = 30
+
+[[menus.main]]
+pageRef = "/contact"
+weight = 40
+
+# Fin menu
+
 [minify]
 minifyOutput = true
 

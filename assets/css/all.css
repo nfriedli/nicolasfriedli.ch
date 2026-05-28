@@ -22,3 +22,7 @@ code,
 pre {
     font-family: var(--monospace);
 }
+
+.flex-space {
+    margin-right: auto;
+}

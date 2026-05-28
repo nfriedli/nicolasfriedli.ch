@@ -1,13 +1,3 @@
-<!--
-{{ $all := resources.Get "css/all.css" | minify | fingerprint "md5" }}
-{{ $screen := resources.Get "css/screen.css" | minify | fingerprint "md5" }}
-{{ $print := resources.Get "css/print.css" | minify | fingerprint "md5" }}
-
-<link rel="stylesheet" href="{{ $all.RelPermalink }}">
-<link rel="stylesheet" href="{{ $screen.RelPermalink }}" media="screen">
-<link rel="stylesheet" href="{{ $print.RelPermalink }}" media="print">
--->
-
 {{ $all := resources.Get "css/all.css" }}
 {{ $screen := resources.Get "css/screen.css" }}
 {{ $print := resources.Get "css/print.css" }}

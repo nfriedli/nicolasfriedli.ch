@@ -6,7 +6,7 @@ description = "Sélection des sites personnels que j’apprécie et consulte ré
 Sélection des sites personnels que j’apprécie et consulte régulièrement.
 Je suis les blogs dans mon agrégateur de flux RSS et Atom.
 
-🏗️ Cette page doit être revue. 
+🏗️ Cette page doit être revue.
 Certains sites ne sont plus très vivants.
 Et il faut mettre l’accent sur ceux qui comptent le plus à mes yeux.
 
@@ -20,8 +20,9 @@ Et il faut mettre l’accent sur ceux qui comptent le plus à mes yeux.
 - [Bertrand Keller](https://bertrandkeller.info/)
 - [David Larlet](https://larlet.fr/)
 - [Tristan Nitot](https://standblog.org/blog/)
-- [Arthur Perret](https://www.arthurperret.fr/)
-- [Sébastien Sauvage](https://www.sebsauvage.net/links/)
+- [Arthur Perret](https://www.arthurperret.fr/) (Ploum)
+- [Barthélémy Rochat](https://write.as/bartux/) (Bartux)
+- [Sébastien Sauvage](https://www.sebsauvage.net/links/) (sebsauvage)
 
 ## Web (en anglais)
 

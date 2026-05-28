@@ -13,14 +13,14 @@ body {
 }
 
 body {
-    background: light-dark(#FAFAFA, #000);
-    color: light-dark(#123, #EEE);
+    background: light-dark(#ecf1f7, #123);
+    color: light-dark(#0e2f50, #DEF);
     display: flex;
     flex-direction: column;
     gap: 2rem;
     line-height: 1.5;
     margin-inline: auto;
-    max-width: 40rem;
+    max-width: 60rem;
     min-height: 100vh;
     min-height: 100dvh;
     text-wrap: pretty;
@@ -30,12 +30,27 @@ body>* {
     padding: 1rem;
 }
 
+main {
+    margin-inline: auto;
+    max-width: 66ch;
+}
+
 footer {
     margin-block-start: auto;
 }
 
 header, footer, nav, details, time, pre code {
     font-size: .9rem;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1rem;
+}
+
+a[aria-current="page"] {
+    text-decoration: none;
 }
 
 code {
@@ -86,7 +101,8 @@ h4 {
 }
 
 a {
-    color: light-dark(#22F, #FF8);
+    /* color: light-dark(#22F, #FF8); */
+    color: inherit;
     text-decoration-thickness: .1em;
     text-underline-offset: .1em;
 }
