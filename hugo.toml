@@ -25,6 +25,10 @@ lastmod = ["lastmod", "date", ":git"]
 [markup.goldmark.parser]
 autoHeadingIDType = "github-ascii"
 
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
 [markup.tableOfContents]
 endLevel = 6
 

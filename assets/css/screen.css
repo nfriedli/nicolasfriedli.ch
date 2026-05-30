@@ -1,28 +1,18 @@
 :root {
     color-scheme: dark light;
 
-    --bg: hsl(220, 25%, 98%);
-    --bg-light: hsl(220, 25%, 90%);
-    --txt: hsl(220, 100%, 13%);
-    --txt-light: hsl(220, 50%, 20%);
-    --link: hsl(220, 100%, 50%);
-    --link-visited: hsl(260, 100%, 60%);
-    --link-hover: hsl(260, 100%, 30%);
-    --link-active: hsl(0, 100%, 60%);
+    --bg: #FFF;
+    --bg2: #DDD;
+    --txt: #222;
+    --txt2: #111;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        color-scheme: dark;
-
-        --bg: hsl(240, 100%, 5%);
-        --bg-light: hsl(240, 25%, 20%);
-        --txt: hsl(240, 50%, 95%);
-        --txt-light: hsl(240, 50%, 90%);
-        --link: hsl(240, 100%, 85%);
-        --link-visited: hsl(270, 100%, 85%);
-        --link-hover: hsl(180, 100%, 85%);
-        --link-active: hsl(0, 100%, 85%);
+        --bg: #000;
+        --bg2: #222;
+        --txt: #EEE;
+        --txt2: #DDD;
     }
 }
 
@@ -69,6 +59,7 @@ main {
     max-width: 40rem;
 }
 
+
 footer {
     margin-block-start: auto;
 }
@@ -94,8 +85,9 @@ header nav {
 
 /* Blocs dans la page */
 
-code, pre {
-    background: var(--bg-light);
+code,
+pre {
+    background: var(--bg2);
 }
 
 code {
@@ -118,7 +110,8 @@ time {
 }
 
 details {
-    background: var(--bg-light);
+    background: var(--bg2);
+    color: var(--txt2);
     padding: .5rem 1rem;
 }
 
@@ -128,7 +121,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: var(--txt-light);
+    color: var(--txt2);
     line-height: 1.1;
     margin-block: 3rem 2rem;
     text-wrap: balance;
@@ -157,33 +150,21 @@ h4 {
 /* Liens */
 
 a {
-    color: var(--link);
+    color: inherit;
     text-decoration-thickness: .1em;
     text-underline-offset: .1em;
 }
 
-a:visited {
-    color: var(--link-visited);
-}
-
-a:hover, 
-a:focus-visible {
-    color: var(--link-hover);
-    text-decoration-thickness: 0.15em; 
-}
-
-a:focus-visible {
-    outline: 2px solid var(--link);
-    outline-offset: 2px;
-    border-radius: 2px;
-}
-
-a:active {
-    color: var(--link-active);
-}
-
 a[aria-current="page"] {
-    color: var(--txt); 
     text-decoration: none;
     pointer-events: none;
+}
+
+/* Classes diverses & ephémères */
+
+.notice {
+    border: .1rem solid var(--txt2);
+    border-radius: .5rem;
+    margin-block: 2rem;
+    padding: .5rem 1rem;
 }
