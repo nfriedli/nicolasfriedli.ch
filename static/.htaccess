@@ -23,7 +23,7 @@ RewriteRule ^.*$ /404.html [L]
 # Gestion 404
 ErrorDocument 404 /404.html
 # Transparence des flux RSS
-RewriteRule ^feed/?$ /index.xml [R=301,L]
+RewriteRule ^feed/?$ /index.xml [L]
 
 # CORS pour blogsareback.com & co.
 <FilesMatch "\.(xml|rss|atom)$">

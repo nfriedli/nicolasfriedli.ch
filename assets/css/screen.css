@@ -160,6 +160,12 @@ a[aria-current="page"] {
     pointer-events: none;
 }
 
+/* Listes */
+
+li + li {
+    margin-block-start: .5rem;
+}
+
 /* Classes diverses & ephémères */
 
 .notice {
