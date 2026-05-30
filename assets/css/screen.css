@@ -1,28 +1,28 @@
 :root {
     color-scheme: dark light;
 
-    --bg: #FFF;
-    --bg-light: #EEE;
-    --txt: #222;
-    --txt-light: #333;
-    --link: #05F;
-    --link-visited: #73F;
-    --link-hover: #03A;
-    --link-active: #F33;
+    --bg: hsl(220, 25%, 98%);
+    --bg-light: hsl(220, 25%, 90%);
+    --txt: hsl(220, 100%, 13%);
+    --txt-light: hsl(220, 50%, 20%);
+    --link: hsl(220, 100%, 50%);
+    --link-visited: hsl(260, 100%, 60%);
+    --link-hover: hsl(260, 100%, 30%);
+    --link-active: hsl(0, 100%, 60%);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark;
 
-        --bg: #000;
-        --bg-light: #222;
-        --txt: #DDD;
-        --txt-light: #BBB;
-        --link: #CCF;
-        --link-visited: #DBF;
-        --link-hover: #CEF;
-        --link-active: #F99;
+        --bg: hsl(240, 100%, 5%);
+        --bg-light: hsl(240, 25%, 20%);
+        --txt: hsl(240, 50%, 95%);
+        --txt-light: hsl(240, 50%, 90%);
+        --link: hsl(240, 100%, 85%);
+        --link-visited: hsl(270, 100%, 85%);
+        --link-hover: hsl(180, 100%, 85%);
+        --link-active: hsl(0, 100%, 85%);
     }
 }
 
@@ -94,8 +94,12 @@ header nav {
 
 /* Blocs dans la page */
 
+code, pre {
+    background: var(--bg-light);
+}
+
 code {
-    font-size: .95em;
+    font-size: .9em;
 }
 
 blockquote {
