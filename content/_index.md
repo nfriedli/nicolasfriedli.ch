@@ -6,6 +6,7 @@ description = "Je suis consultant web indépendant à Neuchâtel. Pour valoriser
 
 🚧 Ce site est en cours de refonte.
 Il remplace à la fois l'ancienne version de `nicolasfriedli.ch` et mon vieux blog `theologique.ch`. 🚧
+{.notice}
 
 Je suis Nicolas Friedli, consultant web indépendant à Neuchâtel (Suisse) depuis plus de 15 ans.
 Parfois, je suis aussi théologien protestant réformé.
