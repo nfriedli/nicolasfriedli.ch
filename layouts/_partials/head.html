@@ -2,17 +2,56 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if not .IsHome}}{{ .Title }} - {{ end }}{{ site.Title }}{{ if .IsHome }} - {{.Params.subtitle}}{{ end }}</title>
 
-{{ partial "head/description" .}}
-{{ partialCached "head/css" . }}
-{{ partialCached "head/favicon" . }}
-
-<link rel="alternate" type="application/rss+xml" href="{{ relURL "index.xml" }}" title="{{ site.Title }}">
-<link rel="canonical" href="{{ .Permalink }}">
-{{ if .IsHome }}
-    {{ hugo.Generator }}
-    {{ partialCached "head/json-ld" . }}
+<!-- SEO classique -->
+{{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+{{ else }}
+    <meta name="description" content="{{ .Summary }}">
 {{ end }}
-{{ block "json-ld" . }}{{ end }}
-{{ partialCached "head/webmentions" . .IsHome }}
+<link rel="canonical" href="{{ .Permalink }}">
 {{ partial "opengraph.html" . }}
 {{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ end }}
+
+<!-- feuilles de style -->
+{{ $all := resources.Get "css/all.css" }}
+{{ $screen := resources.Get "css/screen.css" }}
+{{ $print := resources.Get "css/print.css" }}
+
+<style>{{ $all.Content | safeCSS }}</style>
+<style media="screen">{{ $screen.Content | safeCSS }}</style>
+<style media="print">{{ $print.Content | safeCSS }}</style>
+
+<!-- favicons & co. -->
+<link rel="icon" type="image/png" href="{{ relURL "favicon-96x96.png" }}" sizes="96x96">
+<link rel="shortcut icon" href="{{ relURL "favicon.ico" }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ relURL "apple-touch-icon.png" }}">
+<link rel="manifest" href="{{ relURL "site.webmanifest" }}">
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" href="{{ relURL "index.xml" }}" title="{{ site.Title }}">
+
+<!-- données structurées-->
+{{ if .IsHome }}
+    {{ hugo.Generator }}
+    <script type="application/ld+json">
+    {{ hugo.Data.schema }}
+    </script>
+{{ end }}
+{{ block "json-ld" . }}{{ end }}
+
+<!-- webmentions et identification -->
+{{ if .IsHome }}
+    <link href="mailto:hello+webmentions@nicolasfriedli.ch" rel="me">
+{{ end }}
+<link rel="webmention" href="https://webmention.io/nicolasfriedli.ch/webmention" />
+<link rel="pingback" href="https://webmention.io/nicolasfriedli.ch/xmlrpc" />
+<link rel="me" href="https://codeberg.org/nfriedli">
+<link rel="me" href="https://frdl.ch/">
+<link rel="me" href="https://github.com/nfriedli/">
+<link rel="me" href="https://gravatar.com/nfriedli">
+<link rel="me" href="https://ma-paroisse.ch/">
+<link rel="me" href="https://mastodon.social/@frdlch">
+<meta name="fediverse:creator" content="@frdlch@mastodon.social">
+<link rel="human-json" href="{{ relURL "human.json" }}">
+
+
