@@ -2,8 +2,15 @@
     color-scheme: light dark;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
-    font-size: 1.25rem;
+    /* 320px - 16 -> 1280px - 20 */
+    font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem);
 }
 
 html,
@@ -31,8 +38,7 @@ body>* {
 }
 
 main {
-    margin-inline: auto;
-    max-width: 66ch;
+    max-width: 40rem;
 }
 
 footer {
