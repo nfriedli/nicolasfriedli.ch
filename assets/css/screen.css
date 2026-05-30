@@ -1,5 +1,29 @@
 :root {
-    color-scheme: light dark;
+    color-scheme: dark light;
+
+    --bg: #FFF;
+    --bg-light: #EEE;
+    --txt: #222;
+    --txt-light: #333;
+    --link: #05F;
+    --link-visited: #73F;
+    --link-hover: #03A;
+    --link-active: #F33;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+
+        --bg: #000;
+        --bg-light: #222;
+        --txt: #DDD;
+        --txt-light: #BBB;
+        --link: #CCF;
+        --link-visited: #DBF;
+        --link-hover: #CEF;
+        --link-active: #F99;
+    }
 }
 
 *,
@@ -7,6 +31,8 @@
 *::after {
     box-sizing: border-box;
 }
+
+/* Généralités */
 
 html {
     /* 320px - 16 -> 1280px - 20 */
@@ -20,8 +46,8 @@ body {
 }
 
 body {
-    background: light-dark(#ecf1f7, #123);
-    color: light-dark(#0e2f50, #DEF);
+    background: var(--bg);
+    color: var(--txt);
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -32,6 +58,8 @@ body {
     min-height: 100dvh;
     text-wrap: pretty;
 }
+
+/* Structure de la page */
 
 body>* {
     padding: 1rem;
@@ -45,9 +73,18 @@ footer {
     margin-block-start: auto;
 }
 
-header, footer, nav, details, time, pre code {
+/* Endroits de texte plus petit */
+
+header,
+footer,
+nav,
+details,
+time,
+pre code {
     font-size: .9rem;
 }
+
+/* Navigation */
 
 header nav {
     display: flex;
@@ -55,9 +92,7 @@ header nav {
     gap: .5rem 1rem;
 }
 
-a[aria-current="page"] {
-    text-decoration: none;
-}
+/* Blocs dans la page */
 
 code {
     font-size: .95em;
@@ -73,14 +108,23 @@ blockquote strong {
     font-weight: 800;
 }
 
-details, time {
+details,
+time {
     margin-block: 1rem 2rem;
 }
+
+details {
+    background: var(--bg-light);
+    padding: .5rem 1rem;
+}
+
+/* Titraille */
 
 h1,
 h2,
 h3,
 h4 {
+    color: var(--txt-light);
     line-height: 1.1;
     margin-block: 3rem 2rem;
     text-wrap: balance;
@@ -106,9 +150,36 @@ h4 {
     font-weight: 600;
 }
 
+/* Liens */
+
 a {
-    /* color: light-dark(#22F, #FF8); */
-    color: inherit;
+    color: var(--link);
     text-decoration-thickness: .1em;
     text-underline-offset: .1em;
+}
+
+a:visited {
+    color: var(--link-visited);
+}
+
+a:hover, 
+a:focus-visible {
+    color: var(--link-hover);
+    text-decoration-thickness: 0.15em; 
+}
+
+a:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+a:active {
+    color: var(--link-active);
+}
+
+a[aria-current="page"] {
+    color: var(--txt); 
+    text-decoration: none;
+    pointer-events: none;
 }
