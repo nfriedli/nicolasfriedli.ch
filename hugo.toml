@@ -44,12 +44,8 @@ pageRef = "/blog"
 weight = 20
 
 [[menus.main]]
-pageRef = "/blogroll"
-weight = 30
-
-[[menus.main]]
 pageRef = "/contact"
-weight = 40
+weight = 30
 
 # Fin menu
 
