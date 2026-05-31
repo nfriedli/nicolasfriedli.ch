@@ -1,9 +1,9 @@
 {{ $currentPage := . }}
 
 <header data-nosnippet>
-    <nav>
-        {{- range site.Menus.main }}
-            <a href="{{ .URL }}"{{ if eq .Page $currentPage }}  aria-current="page"{{ end }}>{{ .Name }}</a>
-        {{- end }}
-    </nav>
+	<nav>
+		{{- range site.Menus.main }}
+			<a href="{{ .URL }}"{{ if eq .Page $currentPage }}  aria-current="page"{{ end }}>{{ .Name }}</a>
+		{{- end }}
+	</nav>
 </header>

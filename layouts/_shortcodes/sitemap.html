@@ -1,15 +1,15 @@
 {{ define "subpages" }}
 {{ if .Pages }}
-<ul>
-    {{ range sort (sort .Pages "LinkTitle") "Weight"}}
-    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-        {{ template "subpages" . }}
-    </li>
-    {{ end }}
-</ul>
+	<ul>
+		{{ range sort (sort .Pages "LinkTitle") "Weight" }}
+			<li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+				{{ template "subpages" . }}
+			</li>
+		{{ end }}
+	</ul>
 {{ end }}
 {{ end }}
 
 {{ with .Page.GetPage "/" }}
-    {{ template "subpages" . }}
+	{{ template "subpages" . }}
 {{ end }}

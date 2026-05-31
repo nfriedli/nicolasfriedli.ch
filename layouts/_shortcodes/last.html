@@ -1,8 +1,8 @@
 <ul>
-    {{ range first 5 (where site.RegularPages "Section" "blog") }}
-    <li>
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-        <time datetime="{{.Date.Format "2006-01-02"}}">[{{.Date | time.Format ":date_short" }}]</time>
-    </li>
-    {{ end }}
+	{{ range first 5 (where site.RegularPages "Section" "blog") }}
+		<li>
+			<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+			<time datetime="{{ .Date.Format "2006-01-02" }}">[{{ .Date | time.Format ":date_short" }}]</time>
+		</li>
+	{{ end }}
 </ul>

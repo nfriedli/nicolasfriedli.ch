@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 
-<html lang="{{site.Language.Locale}}">
+<html lang="{{ site.Language.Locale }}">
 
-<head>
+	<head>
 
-    {{ partial "head" . }}
+		{{ partial "head" . }}
 
-</head>
+	</head>
 
-<body>
+	<body>
 
-    {{ partial "header" . }}
+		{{ partial "header" . }}
 
-    <main>
-        <article>
-            {{ block "main" . }}{{ end }}
-        </article>
-    </main>
+		<main>
+			<article>
+				{{ block "main" . }}{{ end }}
+			</article>
+		</main>
 
-    {{ partialCached "footer" . }}
+		{{ partialCached "footer" . }}
 
-</body>
+	</body>
 
 </html>
