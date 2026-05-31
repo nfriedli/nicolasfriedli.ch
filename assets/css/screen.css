@@ -86,7 +86,16 @@ pre {
 }
 
 code {
-    font-size: .9em;
+    font-size: .95em;
+}
+
+pre {
+    overflow-x: auto;
+    padding: .5rem 1rem;
+}
+
+pre code {
+    font-size: .85rem;
 }
 
 blockquote {
@@ -110,6 +119,10 @@ details {
     padding: .5rem 1rem;
 }
 
+summary {
+    font-weight: 500;
+}
+
 /* Titraille */
 
 h1,
@@ -117,23 +130,23 @@ h2,
 h3,
 h4 {
     line-height: 1.1;
-    margin-block: 3rem 2rem;
+    margin-block: 2rem 1rem;
     text-wrap: balance;
 }
 
 h1 {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
     font-weight: 500;
     margin-block: 0 1rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 h4 {
@@ -155,6 +168,10 @@ a[aria-current="page"] {
 }
 
 /* Listes */
+
+dt {
+    font-weight: 800;
+}
 
 li+li {
     margin-block-start: .5rem;

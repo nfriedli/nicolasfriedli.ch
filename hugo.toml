@@ -29,6 +29,10 @@ autoHeadingIDType = "github-ascii"
 block = true
 title = true
 
+[markup.highlight]
+# noClasses = false
+style = "github-dark"
+
 [markup.tableOfContents]
 endLevel = 6
 
