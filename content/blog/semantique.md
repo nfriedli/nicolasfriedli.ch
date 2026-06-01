@@ -1,5 +1,4 @@
 ---
-
 title: Web sémantique clair & efficace
 description: L’utilisation simple mais rigoureuse des éléments de syntaxe classiques d’HTML est suffisante pour produire un contenu à forte valeur sémantique. Des bonnes bases valent mieux que du verbiage.
 date: 2026-05-31
