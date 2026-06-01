@@ -1,7 +1,9 @@
 ---
 title: Introduction aux flux RSS et Atom
-description: Les flux RSS sont facile à utiliser, même s'ils font peur. Ils permettent aux internautes de suivre des sites efficacement, sans algorithme et dans le respect de la vie privée.
+description: Les flux RSS sont facile à utiliser, même s’ils font peur. Ils permettent aux internautes de suivre des sites efficacement, sans algorithme et dans le respect de la vie privée.
 date: 2026-06-01
+aliases:
+- /pratique/rss-introduction/
 ---
 
 Les flux RSS (Really Simple Syndication) existent depuis 25 ans.
@@ -127,7 +129,7 @@ La version basique gratuite permet de suivre jusqu’à 150 sites.
 
 Un agrégateur très utilisé est [Feedly](https://feedly.com/news-reader).
 Je ne le recommande que dans sa version gratuite, limitée à 3 répertoires et 100 sites.
-Mes tests avec la dernière version Pro+ et son intelligence artificielle ne m'ont pas convaincu.
+Mes tests avec la dernière version Pro+ et son intelligence artificielle ne m’ont pas convaincu.
 
 J’ai beaucoup de bons échos de [Feedbin](https://feedbin.com/), un agrégateur simple avec quelques options intéressantes.
 Je l’ai testé, mais il me manquait des outils très spécifiques.
@@ -135,8 +137,8 @@ Uniquement en version payante; à prix raisonnable.
 
 On peut aussi installer un logiciel sur son propre serveur (par exemple [KrISS feed](https://tontof.net/kriss/feed/)), utiliser un logiciel dédié sur son ordinateur (par exemple [Thunderbird](https://support.mozilla.org/en-US/products/thunderbird/news-feeds-rss-blogs-and-social-thunderbird)) ou publier des flux RSS dans WordPress (par exemple [RSS Block](https://wordpress.org/documentation/article/rss-block/)).
 
-[Blog are Back](https://www.blogsareback.com/), qui n'est pas limité aux blogs, permet de s'abonner dans son navigateur sans créer de compte, gratuitement et en respectant votre vie privée.
-C'est le truc le plus simple pour découvrir la logique des flux RSS.
+[Blog are Back](https://www.blogsareback.com/), qui n’est pas limité aux blogs, permet de s’abonner dans son navigateur sans créer de compte, gratuitement et en respectant votre vie privée.
+C’est le truc le plus simple pour découvrir la logique des flux RSS.
 
 ## Pourquoi c’est irremplaçable
 
