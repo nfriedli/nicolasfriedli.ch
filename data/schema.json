@@ -1,19 +1,28 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": "https://nicolasfriedli.ch/#website",
     "name": "Nicolas Friedli",
     "alternateName": "NF",
-    "description": "Consultant web à Neuchâtel (Suisse).",
     "url": "https://nicolasfriedli.ch/",
-    "image": "/images/nicolas-friedli.jpg",
-    "author": {
-        "@context": "https://schema.org",
+    "description": "Consultant web à Neuchâtel (Suisse).",
+    "publisher": {
         "@type": "Person",
+        "@id": "https://nicolasfriedli.ch/#person",
         "name": "Nicolas Friedli",
-        "alternateName": "NF",
         "givenName": "Nicolas",
         "familyName": "Friedli",
+        "alternateName": "NF",
         "jobTitle": "Consultant web",
+        "url": "https://nicolasfriedli.ch/",
+        "email": "hello@nicolasfriedli.ch",
+        "nationality": "Suisse",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://nicolasfriedli.ch/images/nicolas-friedli.jpg",
+            "width": 512,
+            "height": 512
+        },
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Rue du Château 3",
@@ -22,28 +31,26 @@
             "addressRegion": "Neuchâtel",
             "addressCountry": "CH"
         },
-        "email": "hello@nicolasfriedli.ch",
-        "image": "/images/nicolas-friedli.jpg",
         "telephone": [
             "+41328414874",
             "+41793443382"
         ],
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Université de Neuchâtel"
+        },
         "spouse": {
-            "@context": "https://schema.org",
             "@type": "Person",
             "name": "Diane Friedli",
             "url": "https://dianefriedli.ch/"
         },
-        "url": "https://nicolasfriedli.ch/",
         "sameAs": [
             "https://github.com/nfriedli/",
             "https://codeberg.org/nfriedli",
             "https://frdl.ch/"
-        ],
-        "nationality": "Suisse",
-        "alumniOf": {
-            "@type": "CollegeOrUniversity",
-            "name": "Université de Neuchâtel"
-        }
+        ]
+    },
+    "author": {
+        "@id": "https://nicolasfriedli.ch/#person"
     }
 }
