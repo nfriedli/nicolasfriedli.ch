@@ -1,1 +1,0 @@
-npx @remy/webmention https://nicolasfriedli.ch/index.xml --send
