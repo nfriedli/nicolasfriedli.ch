@@ -119,6 +119,11 @@ details {
     padding: .5rem 1rem;
 }
 
+hr {
+    border: 0;
+    border-top: .2rem solid var(--bg2);
+}
+
 summary {
     font-weight: 500;
 }
@@ -169,11 +174,13 @@ a[aria-current="page"] {
 
 /* Listes */
 
+
 dt {
     font-weight: 800;
 }
 
-li+li {
+li, 
+dd + dt{
     margin-block-start: .5rem;
 }
 
