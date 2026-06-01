@@ -1,6 +1,6 @@
 +++
 title = "Nicolas Friedli"
-subtitle = "Consultant web à Nehchâtel (Suisse)"
+subtitle = "Consultant web indépendant à Neuchâtel (Suisse)"
 description = "Je suis consultant web indépendant à Neuchâtel. Je valorise les contenus de vos sites par l’architecture d’information, le référencement (SEO), la performance et l’accessibilité (A11Y)."
 +++
 
