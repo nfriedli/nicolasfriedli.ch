@@ -12,7 +12,11 @@
 <link rel="canonical" href="{{ .Permalink }}">
 {{ partial "opengraph.html" . }}
 {{ partial "schema.html" . }}
-{{ if eq .Kind "404" }}<meta name="robots" content="noindex">{{ end }}
+{{ if eq .Kind "404" }}
+		<meta name="robots" content="noindex">
+	{{ else }}
+		<meta name="robots" content="max-image-preview:large">
+{{ end }}
 
 <!-- feuilles de style -->
 {{ $all := resources.Get "css/all.css" }}
