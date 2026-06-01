@@ -13,9 +13,9 @@
 {{ partial "opengraph.html" . }}
 {{ partial "schema.html" . }}
 {{ if eq .Kind "404" }}
-		<meta name="robots" content="noindex">
-	{{ else }}
-		<meta name="robots" content="max-image-preview:large">
+	<meta name="robots" content="noindex">
+{{ else }}
+	<meta name="robots" content="max-image-preview:large">
 {{ end }}
 
 <!-- feuilles de style -->
@@ -58,6 +58,3 @@
 <link rel="me" href="https://ma-paroisse.ch/">
 <link rel="me" href="https://mastodon.social/@frdlch">
 <meta name="fediverse:creator" content="@frdlch@mastodon.social">
-<link rel="human-json" href="{{ relURL "human.json" }}">
-
-
