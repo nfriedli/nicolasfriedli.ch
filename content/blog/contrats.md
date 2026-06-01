@@ -1,9 +1,10 @@
-+++
-title = "Casser les contrats du web"
-description = "Des contrats tacites du web sont bafoués par les grandes entreprises qui cherchent à tout accaparer. Mais le web personnel et indépendant existe toujours, notamment par les blogs."
-date = "2026-05-23"
-aliases = ["/contrats/"]
-+++
+---
+title: Casser les contrats du web
+description: Des contrats tacites du web sont bafoués par les grandes entreprises qui cherchent à tout accaparer. Mais le web personnel et indépendant existe toujours, notamment par les blogs.
+date: 2026-05-23
+aliases:
+- /contrats/
+---
 
 En relançant ce site, je me suis posé pas mal de questions sur la pérennité de mes anciens contenus.
 J’ai décidé de tout supprimer plutôt que de les trier ou tenter de les actualiser.

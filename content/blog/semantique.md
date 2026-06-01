@@ -1,9 +1,11 @@
-+++
-title = "Web sémantique clair & efficace"
-description = "L’utilisation simple mais rigoureuse des éléments de syntaxe classiques d’HTML est suffisante pour produire un contenu à forte valeur sémantique. Des bonnes bases valent mieux que du verbiage."
-date = 2026-05-31
-aliases = ["/seo/semantique/"]
-+++
+---
+
+title: Web sémantique clair & efficace
+description: L’utilisation simple mais rigoureuse des éléments de syntaxe classiques d’HTML est suffisante pour produire un contenu à forte valeur sémantique. Des bonnes bases valent mieux que du verbiage.
+date: 2026-05-31
+aliases:
+- /seo/semantique/
+---
 
 Il n’y a pas besoin de beaucoup d’éléments pour produire des pages web avec une forte valeur sémantique.
 C’est parce que ces éléments utiles, voire nécessaires, sont peu nombreux qu’il est possible de travailler avec un balisage léger comme Markdown.

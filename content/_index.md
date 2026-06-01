@@ -1,8 +1,8 @@
-+++
-title = "Nicolas Friedli"
-subtitle = "Consultant web indépendant à Neuchâtel (Suisse)"
-description = "Je suis consultant web indépendant à Neuchâtel. Je valorise les contenus de vos sites par l’architecture d’information, le référencement (SEO), la performance et l’accessibilité (A11Y)."
-+++
+---
+title: Nicolas Friedli
+subtitle: Consultant web indépendant à Neuchâtel (Suisse)
+description: Je suis consultant web indépendant à Neuchâtel. Je valorise les contenus de vos sites par l’architecture d’information, le référencement (SEO), la performance et l’accessibilité (A11Y).
+---
 
 Je suis Nicolas Friedli, consultant web indépendant à Neuchâtel (Suisse) depuis plus de 15 ans.
 J’ai aussi une formation de théologien protestant réformé.

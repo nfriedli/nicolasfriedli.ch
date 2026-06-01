@@ -1,8 +1,8 @@
-+++
-title = "Blogroll"
-description = "Sélection des sites personnels que j’apprécie et consulte régulièrement. Je suis les blogs dans mon agrégateur de flux RSS et Atom."
-date = 2026-05-30
-+++
+---
+title: Blogroll
+description: Sélection des sites personnels que j’apprécie et consulte régulièrement. Je suis les blogs dans mon agrégateur de flux RSS et Atom.
+date: 2026-05-30
+---
 
 Sélection des sites personnels que j’apprécie et consulte régulièrement.
 Je suis les blogs dans mon agrégateur de flux RSS et Atom.

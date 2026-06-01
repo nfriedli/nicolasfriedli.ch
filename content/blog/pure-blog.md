@@ -1,9 +1,10 @@
-+++
-title = "Pure Blog pour un site personnel en 2026"
-description = "Pure Blog est le meilleur CMS de blog personnel pour se lancer sur le web en 2026. Simple et efficace, il permet de dégager du temps pour rédiger plutôt que dans la maintenance technique et l’esbroufe."
-date = "2026-05-30"
-aliases = ["/pureblog"]
-+++
+---
+title: Pure Blog pour un site personnel en 2026
+description: Pure Blog est le meilleur CMS de blog personnel pour se lancer sur le web en 2026. Simple et efficace, il permet de dégager du temps pour rédiger plutôt que dans la maintenance technique et l’esbroufe.
+date: 2026-05-30
+aliases:
+- /pureblog
+---
 
 Ce matin, j’ai envoyé une proposition de [modification de code](https://codeberg.org/kevquirk/pureblog/issues/16) pour [Pure Blog](https://pureblog.org/).
 Pourtant, j’avais déjà décidé de quitter cet outil, testé quelques jours, pour revenir à [Hugo](https://gohugo.io/).
