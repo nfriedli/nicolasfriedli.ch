@@ -1,0 +1,70 @@
+baseURL: https://nicolasfriedli.ch/
+title: Nicolas Friedli
+
+locale: fr
+defaultContentLanguage: fr
+removePathAccents: true
+
+disableKinds:
+  - taxonomy
+  - term
+  - robotsTXT
+
+cleanDestinationDir: true
+enableGitInfo: true
+noBuildLock: true
+copyright: Creative Commons BY-SA
+
+build:
+  writeStats: false
+
+frontmatter:
+  date:
+    - :filename
+    - date
+    - lastmod
+    - :git
+  lastmod:
+    - lastmod
+    - date
+    - :git
+
+markup:
+  goldmark:
+    parser:
+      autoHeadingIDType: github-ascii
+      attribute:
+        block: true
+        title: true
+  highlight:
+    style: github-dark
+  tableOfContents:
+    endLevel: 6
+
+menus:
+  main:
+    - pageRef: /
+      weight: 10
+    - pageRef: /blog
+      weight: 20
+    - pageRef: /contact
+      weight: 30
+
+minify:
+  minifyOutput: true
+  tdewolff:
+    html:
+      keepDefaultAttrVals: false
+      keepQuotes: true
+      keepWhitespace: true
+
+params:
+  images:
+    - /images/opengraph.jpg
+  author:
+    name: Nicolas Friedli
+    email: hello+rss@nicolasfriedli.ch
+
+services:
+  rss:
+    limit: 20
