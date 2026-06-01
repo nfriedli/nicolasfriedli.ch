@@ -98,10 +98,13 @@ pre code {
     font-size: .85rem;
 }
 
+blockquote, pre {
+    margin-block: 1rem 2rem;
+}
+
 blockquote {
     font-weight: 500;
     margin-inline-start: 2rem;
-    margin-block: 1rem 2rem;
 }
 
 blockquote strong {
