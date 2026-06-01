@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 description = "Contacter Nicolas Friedli pour une question technique ou stratégique, pour lui proposer un mandat ou un emploi, lui adresser un commentaire sur ses publications."
+date = 2026-05-30
 +++
 
 Vous souhaitez améliorer votre site web?

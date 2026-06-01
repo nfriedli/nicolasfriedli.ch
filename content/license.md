@@ -1,6 +1,8 @@
 +++
 title = "Licence"
-description = "nicolasfriedli.ch est mis en ligne sous 2 licences libres. Elles sont permissives mais imposent aussi quelques contraintes."
+description = "nicolasfriedli.ch est mis en ligne sous 2 licences libres. Elles sont permissives mais imposent aussi quelques contraintes."
+date = 2026-05-30
+aliases = ["/licence"]
 +++
 
 Le site nicolasfriedli.ch est mis en ligne sous 2 licences libres.
