@@ -48,7 +48,7 @@ Il relativise nettement l’intérêt de `llms.txt`, avec humilité, alors qu’
 Son billet donne son interprétation de [Optimiser votre site Web pour les fonctionnalités d’IA générative dans la recherche Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr).
 Il résume le tout en une phrase partagée de Laurent Bourrelly:
 
-> Si le SEO est bien exécuté, le GEO est inclus…
+> Si le SEO est bien exécuté, le GEO est inclus...
 > Besoin de rien faire de plus que du SEO.
 
 Ce que Google demande, ce sont de bons sites, avec du bon contenu (utile et honnête) et un [balisage sémantique](/blog/semantique/) correct.
@@ -111,4 +111,4 @@ Leurs boniments ne font pas de bons sites.
 
 ----
 
-J’ajoute l’article [Google Says LLMs.txt Is Purely Speculative… For Now](https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/) découvert juste après la publication de ce billet.
+J’ajoute l’article [Google Says LLMs.txt Is Purely Speculative... For Now](https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/) découvert juste après la publication de ce billet.
