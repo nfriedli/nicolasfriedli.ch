@@ -77,7 +77,7 @@ billet de blog 1:
     date de publication
     lien
 
-...
+…
 
 billet de blog 10:
     titre
@@ -102,7 +102,7 @@ fiabilité
 Comme l’écrivait Thierry Crouzet dans [La mécanique du texte](https://tcrouzet.com/books/la-mecanique-du-texte/):
 
 > Le RSS est presque trop génial.
-[...] Il laisse imaginer un monde où chacun serait sa propre agence de presse, où chacun recevrait les informations sélectionnées par lui.
+[…] Il laisse imaginer un monde où chacun serait sa propre agence de presse, où chacun recevrait les informations sélectionnées par lui.
 Ce serait en quelque sorte un monde trop beau, et trop peu rentable.
 
 Un système tout simple permet de lire de l’actualité sans passer par un moteur de recherche ni par un réseau social.

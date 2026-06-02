@@ -2,6 +2,7 @@
 title: Google et le Generative Engine Optimization (GEO)
 description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
+lastMod: 2026-06-03
 ---
 
 En ce printemps 2026, Google est accusé de casser le web.
@@ -47,7 +48,7 @@ Il relativise nettement l’intérêt de `llms.txt`, avec humilité, alors qu’
 Son billet donne son interprétation de [Optimiser votre site Web pour les fonctionnalités d’IA générative dans la recherche Google](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr).
 Il résume le tout en une phrase partagée de Laurent Bourrelly:
 
-> Si le SEO est bien exécuté, le GEO est inclus...
+> Si le SEO est bien exécuté, le GEO est inclus…
 > Besoin de rien faire de plus que du SEO.
 
 Ce que Google demande, ce sont de bons sites, avec du bon contenu (utile et honnête) et un [balisage sémantique](/blog/semantique/) correct.
@@ -107,3 +108,7 @@ Et favorisez ceux qui ne demandent aucun investissement.
 
 Apprenez à détecter le baratin des agences qui saturent leur discours de jargon.
 Leurs boniments ne font pas de bons sites.
+
+----
+
+J’ajoute l’article [Google Says LLMs.txt Is Purely Speculative… For Now](https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/) découvert juste après la publication de ce billet.

@@ -144,12 +144,12 @@ Ce qui est intéressant, c’est la **forte valeur sémantique du code**:
 <dl>
 
     <dt>roux</dt>
-    <dd>«tant pour tant» de farine... </dd>
+    <dd>«tant pour tant» de farine… </dd>
 
     <dt>sauce</dt>
-    <dd>machin plus ou moins liquide...</dd>
+    <dd>machin plus ou moins liquide…</dd>
 
-    ...
+    …
 
 </dl>
 ```
@@ -170,7 +170,7 @@ Et sinon, c’est toujours la même histoire:
 ```
 <details>
   <summary>Le «titre» ou résumé</summary>
-  Le contenu...
+  Le contenu…
 </details>
 ```
 {{< /details >}}
