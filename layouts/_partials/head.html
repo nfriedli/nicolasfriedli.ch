@@ -43,7 +43,9 @@
     {{ hugo.Data.schema }}
     </script>
 {{ end }}
-{{ block "json-ld" . }}{{ end }}
+{{ if .IsPage }}
+	{{ partial "ldjson" . }}
+{{ end }}
 
 <!-- webmentions et identification -->
 {{ if .IsHome }}
