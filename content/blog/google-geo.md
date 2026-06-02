@@ -1,6 +1,6 @@
 ---
-title: Google remet de l’ordre dans le Generative Engine Optimization (GEO)
-description: Google relativise les consignes spécifiques au GEO et conseille de toujours appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
+title: Google et le Generative Engine Optimization (GEO)
+description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
 ---
 
