@@ -6,7 +6,10 @@ date: 2026-05-30
 
 Cette page regroupe les pages de type [slash pages](https://slashpages.net/) proposées sur nicolasfriedli.ch:
 
+- [/bio](/bio)
 - [/blogroll](/blogroll)
 - [/contact](/contact)
+- [/colophon](/colophon)
 - [/license](/license)
+- [/privacy](/privacy)
 - [/verify](/verify)

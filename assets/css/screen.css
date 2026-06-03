@@ -55,6 +55,10 @@ body>* {
     padding: 1rem;
 }
 
+header + p {
+    margin-block-start: 2rem;
+}
+
 footer {
     margin-block-start: auto;
 }
