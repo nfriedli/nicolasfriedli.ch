@@ -1,5 +1,5 @@
 ---
-title: Biographie de l’auteur
+title: Biographie web de Nicolas Friedli
 description: Nicolas Friedli est consultant web indépendant et responsable web pour une institution neuchâteloise. Il est titulaire d’un master en théologie protestante de l’Université de Neuchâtel.
 date: 2026-06-03
 ---
@@ -10,10 +10,10 @@ Il est consultant web indépendant le reste du temps.
 
 Il apprécie les sites web qui proposent du contenu.
 Surtout quand ils sont simples, performants et pérennes.
-Il a travaillé ou travaille avec SPIP, DokuWiki, WordPress & Pure Blog.
-Aujourd’hui, il privilégie les sites statiques, notamment avec Hugo.
+Il a travaillé ou travaille avec SPIP, DokuWiki & WordPress.
+Aujourd’hui, il privilégie les sites statiques, notamment avec Hugo, ou légers comme Pure Blog.
 
-Durant les 20+ dernières années, il a travaillé pour les domaines:
+Durant les 20 dernières années, il a travaillé pour les domaines:
 
 - de la culture (musée, ensemble instrumental, festivals)
 - de l’écrit (agence de presse, maison d’édition, mensuel français)
