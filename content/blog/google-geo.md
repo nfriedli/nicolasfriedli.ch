@@ -1,5 +1,5 @@
 ---
-title: Google et le Generative Engine Optimization (GEO)
+title: Google et Generative Engine Optimization (GEO)
 description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
 lastMod: 2026-06-03
