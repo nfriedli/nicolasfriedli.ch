@@ -1,6 +1,6 @@
 ---
-title: À propos de ce site
-description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats.
+title: À propos de ce site (colophon)
+description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats. Dans l’édition, on parle de colophon.
 date: 2026-06-03
 ---
 

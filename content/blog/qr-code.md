@@ -1,8 +1,7 @@
 ---
 title: Conseils d’utilisation des QR codes
 description: Les personnes qui proposent des QR codes peuvent aider à les rendre sûrs et fiables. Toute la responsabilité ne repose pas seulement sur les utilisateurs et utilisatrices.
-date: 2026-06-03
-draft: true
+date: 2026-06-04
 ---
 
 Les arnaques aux codes QR semblent se multiplier.
@@ -61,7 +60,7 @@ Les suivants sont destinés à celles et ceux qui créent et rendent publics des
 ### Utiliser son propre nom de domaine
 
 Je pense que **l’utilisation de raccourcisseurs d’URL est souvent une mauvaise idée**.
-Infomaniak, par exemple, vient dispose de son service [chk.me](https://chk.infomaniak.com/).
+Infomaniak, par exemple, dispose de son service [chk.me](https://chk.infomaniak.com/).
 Personne ne pourra savoir quelle sera l’URL finale qui se cache derrière cette version courte.
 
 L’utilisation de **son propre nom de domaine est une garantie de sécurité**.
