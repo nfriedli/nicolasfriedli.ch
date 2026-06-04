@@ -2,7 +2,7 @@
 title: Google et Generative Engine Optimization (GEO)
 description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
-lastMod: 2026-06-03
+lastMod: 2026-06-04
 ---
 
 En ce printemps 2026, Google est accusé de casser le web.
@@ -112,3 +112,8 @@ Leurs boniments ne font pas de bons sites.
 ----
 
 J’ajoute l’article [Google Says LLMs.txt Is Purely Speculative... For Now](https://www.searchenginejournal.com/google-says-llms-txt-is-purely-speculative-for-now/577576/) découvert juste après la publication de ce billet.
+
+----
+
+SeoMix confirme que [ce fichier n'est simplement pas consulté](https://www.seomix.fr/llms-txt-fichier-geo/) par les robots des IA.
+Sa seule fonction est de dévoiler votre stratégie à vos concurrents...
