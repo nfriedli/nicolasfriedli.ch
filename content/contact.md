@@ -27,3 +27,5 @@ Je suis présent sur Mastodon avec le compte [@frdlch@mastodon.social](https://m
 
 Ne me cherchez pas sur les réseaux sociaux Bluesky, Instagram, LinkedIn, Threads ou X (Twitter).
 Ma présence sur Facebook est passive, pour administrer quelques pages.
+
+Mon [autoportrait](/images/nicolas-friedli.jpg) permet de m’identifier parmi les nombreux Nicolas Friedli.

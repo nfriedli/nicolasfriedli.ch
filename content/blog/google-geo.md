@@ -115,5 +115,5 @@ J’ajoute l’article [Google Says LLMs.txt Is Purely Speculative... For Now](h
 
 ----
 
-SeoMix confirme que [ce fichier n'est simplement pas consulté](https://www.seomix.fr/llms-txt-fichier-geo/) par les robots des IA.
+SeoMix confirme que [ce fichier n’est simplement pas consulté](https://www.seomix.fr/llms-txt-fichier-geo/) par les robots des IA.
 Sa seule fonction est de dévoiler votre stratégie à vos concurrents...
