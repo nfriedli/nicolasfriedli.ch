@@ -2,7 +2,6 @@
 title: Merdification généralisée
 description: La merdification, c’est beaucoup plus qu’un bon mot qui fait sourire. C’est l’application consciente et rigoureuse d’une stratégie à un service. Elle abandonne ou malmène les internautes pour favoriser le profit.
 date: 2026-06-05
-draft: true
 ---
 
 La merdification, c’est d’abord un bon mot.
@@ -11,6 +10,7 @@ Je vous invite à consulter [La «merdification» du web, avec Cory Doctorow](ht
 
 Le néologisme a reçu des honneurs en devenant [Word of the Year 2024](https://www.macquariedictionary.com.au/word-of-the-year/word-of-the-year-2024/) du dictionnaire australien *Macquarie Dictionary*.
 Il s’est aussi vu cité par *Le Monde* pour lui donner quelques lettres de noblesse: [La «merdification», ce processus inexorable de dégradation de la qualité des services sur les plateformes numériques](https://www.lemonde.fr/idees/article/2025/04/23/la-merdification-ce-processus-inexorable-de-degradation-de-la-qualite-des-services-sur-les-plateformes-numeriques_6599211_3232.html).
+Ou par *Radio France*: [Merdification : quand les plateformes se dégradent](https://www.radiofrance.fr/franceinter/podcasts/zoom-zoom-zen/zoom-zoom-zen-du-vendredi-16-mai-2025-7947014)
 
 Et, logiquement, il a sa propre page Wikipédia [Merdification](https://fr.wikipedia.org/wiki/Merdification) plutôt complète.
 
@@ -32,7 +32,7 @@ J’invite les internautes à se renseigner sérieusement sur ce concept.
 Le meilleur article reste à mon avis [De la merdification des choses](https://ploum.net/2023-06-15-merdification.html) par le blogueur Ploum.
 Ce qu’il écrit nous aide à comprendre ce qui se passe sur le web avec les grandes plateformes que l’on croit nécessaires et qui se foutent de nous.
 
-Dans le monde des organisations, je reste interdit quand la tolérance est prônée sur des plateformes qui favorisent la persécution, quand la solidarité est promue via des outils qui amplifient l’inégalité, quand les GAFAM (Google, Amazon, Facebook Apple & Microsoft) malmènent les internautes alors que leur discours «100% bullshit» promet que tout est fait pour elles et eux.
+Dans le monde des organisations, je reste interdit quand la tolérance est prônée sur des plateformes qui favorisent la persécution, quand la solidarité est promue via des outils qui amplifient l’inégalité, quand les GAFAM (Google, Amazon, Facebook, Apple & Microsoft) malmènent les internautes alors que leur discours «100% baratin» ou «100% bullshit» promet que tout est fait pour elles et eux.
 Nous acceptons des outils merdifiés parce que nous avons intégré ce principe sans vraiment le théoriser.
 Reste à mieux le comprendre pour se mettre à le refuser.
 
