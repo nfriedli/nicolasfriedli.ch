@@ -1,8 +1,7 @@
 ---
 title: Adresses mail avec le signe + (plus)
 description: L’utilisation du site + dans une adresse de messagerie (ou plus addressing) permet de créer instantanément un nombre illimité d’alias, de détecter des fuites de données et de filtrer ses messages avec efficacité.
-date: 2026-06-04
-draft: true
+date: 2026-06-06
 ---
 
 L’utilisation du signe `+` dans une adresse de messagerie (ou «plus addressing») permet de créer un nombre illimité d’alias.
