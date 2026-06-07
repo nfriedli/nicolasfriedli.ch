@@ -5,7 +5,7 @@ date: 2026-06-07
 ---
 
 L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements.
-Mais la diversité des plateformes rend le travail plutôt complexe.
+La diversité des plateformes demande un peu de réflexion, mais rien de complexe.
 
 ## Problématique
 
@@ -216,9 +216,10 @@ code, pre {
 }
 ```
 
-Mon souci avec Windows, c’est que je n’aime pas beaucoup Segoe UI quand elle est utilisée en grande taille dans les titres.
+Mon souci avec Windows, c’est que je n’aimait pas beaucoup Segoe UI quand elle était utilisée en grande taille dans les titres.
 Mais Segoe UI est meilleure qu’Arial pour le texte.
-Et c’est la police `system-ui` pour certaines versions du système.
+
+Depuis Windows 11, c’est la version Segoe UI Variable qui est utilisée (et qui est bonne partout).
 
 ## Proposition
 
@@ -285,5 +286,5 @@ Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fon
 
 ----
 
-La directive CSS [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-data) permettra(it) de gérer les choses beaucoup plus simplement.
-Elle n’est malheureusement pas encore utilisable au quotidien (et elle ne le sera peut-être jamais).
+La directive CSS [`prefers-reduced-data`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-data) permettrait de gérer les choses beaucoup plus simplement.
+Tout laisse à penser qu’elle ne sera jamais disponible.
