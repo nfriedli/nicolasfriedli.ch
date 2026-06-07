@@ -1,11 +1,11 @@
 ---
-title: Polices système pour la performance et l’écologie
+title: Polices système en 2026
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
-draft: true
+date: 2026-06-07
 ---
 
 L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements.
-Mais la diversité des plateformes rend le travail relativement complexe.
+Mais la diversité des plateformes rend le travail plutôt complexe.
 
 ## Problématique
 
@@ -26,7 +26,7 @@ Les questions suivantes devraient toujours être posées:
 
 ## Nécessité d’une police précise (corporate identity)
 
-Quand une police doit être utilisée, il n’y a pas d’autre choix que de demander au navigateur de la télécharger.
+Quand une police précise doit être utilisée, il n’y a pas d’autre choix que de demander au navigateur de la télécharger.
 En pratique, ce sont plusieurs fichiers qui vont être envoyés, en général:
 
 - une police «normale» (regular)
@@ -34,12 +34,17 @@ En pratique, ce sont plusieurs fichiers qui vont être envoyés, en général:
 - une police italique
 - une police grasse italique
 
+Ou alors des polices variables, donc moins de fichiers mais des fichiers plus lourds, en général:
+
+- une police droite (par exemple avec des graisses de 100 à 900)
+- une police italique (par exemple avec des graisses de 100 à 900)
+
 Les fichiers seront mis à disposition par une directive CSS `@font-face` et ceux qui sont nécessaires seront téléchargés.
 Lorsque ce cas se présente, il fait veiller à une optimisation des fichiers et des chargements:
 
 - bon format de fichier (`woff2`)
 - blocage ou non de l’affichage (`font-display`)
-- préchargement (`preload`)
+- préchargement (`preload`) ou non
 - suppression des jeux de caractères inutiles
 - une gestion du cache pertinente (`immutable`)
 - utilisation de polices variables si disponibles
@@ -48,7 +53,7 @@ En général, il devrait être possible de s’en tirer autour de 100kB pour un 
 Pour en savoir plus sur cette thématique complexe, le billet [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/) de Zach Leatherman est un point de départ précieux.
 
 Quand ce chargement permet de répondre à une contrainte précise, c’est très bien.
-Mais je reste surpris par le nombre de sites qui téléchargent de tas de fichiers qui sont sans rapport avec la charte graphique de l’entreprise ou l’institution.
+Mais je reste surpris par le nombre de sites qui téléchargent de quantités de fichiers qui sont sans rapport avec la charte graphique de l’entreprise ou l’institution.
 Dans ces cas là, il y aurait peut-être mieux à faire.
 
 ## Choix de polices (system font stack)
@@ -56,7 +61,7 @@ Dans ces cas là, il y aurait peut-être mieux à faire.
 Une *font stack* est une liste de polices possibles.
 Autrement dit, le site *suggère* des polices au navigateur; il choisit la première de la liste disponible localement et l’affiche.
 
-C’est exactement ce qui est prévu par les feuilles des style CSS et rappelé dans [Le tao du design Web](https://www.pompage.net/traduction/dao):
+C’est exactement ce qui est prévu par les feuilles des style CSS et signalé par [Le tao du design Web](https://www.pompage.net/traduction/dao):
 
 > Si vous utilisez correctement les feuilles de style, pour suggérer l’apparence d’une page et non pour la contrôler, et que vous ne dépendez pas de la feuille de style pour acheminer l’information, alors vos pages «marcheront» bien dans tous les navigateurs, existants ou à venir.
 
@@ -107,11 +112,11 @@ Si les internautes n’ont pas configuré leur navigateur n’importe comment, c
 J’estime que c’est toujours une bonne solution.
 
 Les polices universelles aujourd’hui ne sont plus identifiables par un nom précis.
-Ce sont simplement les écritures par défaut du système d’exploitation.
+Ce sont simplement les écritures du système d’exploitation.
 
 ## La police d’interface (system-ui)
 
-Depuis quelque temps, il est possible d’utiliser une police spéciale.
+Ll est possible d’utiliser une police par un nom spécial.
 C’est celle du système d’exploitation.
 Elle ne peut pas être modifiée dans le navigateur par les internautes, contrairement aux précédentes.
 C’est tout simple:
@@ -120,7 +125,8 @@ C’est tout simple:
 font-family: system-ui, sans-serif;
 ```
 
-La directive `sans-serif` reste à disposition si le navigateur -- [cas très rare](https://caniuse.com/?search=system-ui) -- ne comprenait pas la directive `system-ui`.
+La directive `sans-serif` reste à disposition si le navigateur () ne comprenait pas la directive `system-ui`.
+Le cas est [très rare](https://caniuse.com/?search=system-ui).
 Avec une police système, c’est une écriture parfaitement en phase avec le système utilisé qui sera choisie.
 C’est celle de l’interface, d’où UI (user interface).
 
@@ -129,7 +135,7 @@ Au final, l’apparence laisse encore moins de place à l’originalité que `sa
 
 ## Périphériques Apple
 
-Les périphériques Apple ont la particularité d’utiliser des directives spéciales comme la police UI.
+Les périphériques Apple ont la particularité d’utiliser des directives spéciales, comme celle de la police UI.
 Sur les systèmes récents, c’est l’excellente police San Francisco qui sera choisie.
 Elle est élégante et dispose d’une large gamme de graisses et des tailles optiques.
 Franchement, il n’y a pas à hésiter à utiliser:
@@ -161,7 +167,7 @@ Tout le texte est sans empattement, sauf les citations et les titres avec empatt
 
 Pour Android, Roboto est toujours disponible.
 
-Elle s’affiche par les directives `system-ui` ou `sans-serif`, mais pas par forcément par l’appel `Roboto`!
+Elle s’affiche par les directives `system-ui` ou `sans-serif`, mais pas par forcément par l’appel `Roboto`.
 Pour Linux, Roboto est presque toujours disponible et Noto Sans aussi.
 
 Donc, pour le corps du texte:
@@ -210,9 +216,9 @@ code, pre {
 }
 ```
 
-Mon souci avec Windows, c’est que je n’aime pas beaucoup Segoe UI quand elle est utilisée en grande taille dans les titres.
+Mon souci avec Windows, c’est que je n’aime pas beaucoup Segoe UI quand elle est utilisée en grande taille dans les titres.
+Mais Segoe UI est meilleure qu’Arial pour le texte.
 Et c’est la police `system-ui` pour certaines versions du système.
-Mais Segoe UI est meilleure qu’Arial pour le texte.
 
 ## Proposition
 
@@ -222,7 +228,9 @@ Je pourrais utiliser, pour un site comme le mien, quelque chose comme:
 
 ```
 html {
-  font-family: ui-sans-serif, 
+  font-family: "Archivo",
+               "Inter",
+               ui-sans-serif, 
                "Roboto", 
                system-ui, 
                sans-serif;
@@ -244,9 +252,11 @@ code, pre {
 
 La logique est, pour le texte courant:
 
+- Archivo si disponible (peu probable)
+- puis Inter si disponible (bien plus probable)
 - la police par défaut sur les périphériques Apple
-- puis Roboto si elle est installée
-- puis la police de l’interface
+- puis Roboto si elle est installée (très probable sur Linux)
+- puis la police de l’interface (donc Segoe UI chez Windows)
 - finalement la police sans empattement par défaut si ce qui précède ne fonctionne pas
 
 Et pour le code, important sur ce site:
@@ -268,9 +278,9 @@ Sur ce site, malgré l’utilisation de chasse fixe (code) dans le texte, je ren
 Je le fais parfois, parfois pas...
 Les déclarations exactes de ma feuille de style sont toujours disponibles chez GitHub dans le fichier [`all.css`](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/assets/css/all.css).
 
-Je signale que **les polices système sont excellentes pour les personnes dyslexiques** (San Franciso, Segoe UI et Roboto).
+Je signale que **les polices système sont excellentes pour les personnes dyslexiques** (San Franciso, Segoe UI et Roboto).
 Elles sont bien meilleures que plusieurs polices prétendument optimisées.
-Elle disposent en plus d’une gamme de graisses assez large et parfois de finesses typographiques intéressantes (comme les chiffres elzéviriens).
+Elle disposent d’une gamme de graisses large et parfois de finesses typographiques intéressantes (comme les chiffres elzéviriens).
 Je vous conseille vivement la lecture et le visionnage de [Dyslexia friendly fonts: Are they any good?](https://pimpmytype.com/dyslexia-fonts/).
 
 ----
