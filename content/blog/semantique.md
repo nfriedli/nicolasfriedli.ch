@@ -4,6 +4,8 @@ description: L’utilisation simple mais rigoureuse des éléments de syntaxe cl
 date: 2026-05-31
 aliases:
 - /seo/semantique/
+images:
+- https://cdn.pixabay.com/photo/2015/01/27/16/03/dictionary-613910_1280.jpg
 ---
 
 Il n’y a pas besoin de beaucoup d’éléments pour produire des pages web avec une forte valeur sémantique.

@@ -4,6 +4,8 @@ description: Des contrats tacites du web sont bafoués par les grandes entrepris
 date: 2026-05-23
 aliases:
 - /contrats/
+images:
+- https://cdn.pixabay.com/photo/2015/04/11/01/07/fragmented-717138_1280.jpg
 ---
 
 En relançant ce site, je me suis posé pas mal de questions sur la pérennité de mes anciens contenus.

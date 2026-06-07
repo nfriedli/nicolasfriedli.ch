@@ -2,6 +2,8 @@
 title: À propos de ce site (colophon)
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats. Dans l’édition, on parle de colophon.
 date: 2026-06-03
+images:
+- https://cdn.pixabay.com/photo/2015/08/28/11/37/painting-911804_1280.jpg
 ---
 
 Ce site est simple et efficace.
