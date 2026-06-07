@@ -107,8 +107,13 @@ blockquote, pre {
 }
 
 blockquote {
+    font-style: italic;
     font-weight: 500;
     margin-inline-start: 2rem;
+}
+
+blockquote em {
+    font-style: normal;
 }
 
 blockquote strong {

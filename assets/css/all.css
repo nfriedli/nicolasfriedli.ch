@@ -1,5 +1,5 @@
 :root {
-    --sans-serif: "Roboto", ui-sans-serif, "Inter", system-ui, sans-serif;
+    --sans-serif: "Inter", ui-sans-serif, "Roboto", system-ui, sans-serif;
     --monospace: "Jetbrains Mono", ui-monospace, "Roboto Mono", "Cascadia Code", "Consolas", monospace;
 }
 
@@ -7,18 +7,25 @@ html {
     font-family: var(--sans-serif);
     font-synthesis: none;
     text-rendering: optimizeLegibility;
-    font-variant-numeric: oldstyle-nums;
-}
-
-a, h1, h2, h3, h4 {
-    font-variant-numeric: lining-nums;
-}
-
-table {
-    font-variant-numeric: tabular-nums lining-nums;
 }
 
 code,
 pre {
     font-family: var(--monospace);
+}
+
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 100 900;
+  src: local("Inter Variable"), local("Inter-Variable"), local("Inter");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-display: swap;
+  font-style: italic;
+  font-weight: 100 900;
+  src: local("Inter Variable Italic"), local("Inter-Variable-Italic"), local("Inter Italic");
 }
