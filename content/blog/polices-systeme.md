@@ -7,6 +7,9 @@ date: 2026-06-07
 L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements.
 La diversité des plateformes demande un peu de réflexion, mais rien de complexe.
 
+Les polices systèmes sont la meilleure solution pour la performance et l’écologie.
+Elles sont pérennes et résilientes, car toujours disponibles.
+
 ## Problématique
 
 Dans son billet [Are Web-Safe Fonts still relevant in 2024?](https://pimpmytype.com/web-safe-fonts/), Oliver Schöndorfer se demande si l’utilisation de polices système universelles est toujours pertinente aujourd’hui.
@@ -40,7 +43,7 @@ Ou alors des polices variables, donc moins de fichiers mais des fichiers plus lo
 - une police italique (par exemple avec des graisses de 100 à 900)
 
 Les fichiers seront mis à disposition par une directive CSS `@font-face` et ceux qui sont nécessaires seront téléchargés.
-Lorsque ce cas se présente, il fait veiller à une optimisation des fichiers et des chargements:
+Lorsque ce cas se présente, il faut veiller à une optimisation des fichiers et des chargements:
 
 - bon format de fichier (`woff2`)
 - blocage ou non de l’affichage (`font-display`)
@@ -125,7 +128,7 @@ C’est tout simple:
 font-family: system-ui, sans-serif;
 ```
 
-La directive `sans-serif` reste à disposition si le navigateur () ne comprenait pas la directive `system-ui`.
+La directive `sans-serif` reste à disposition si le navigateur ne comprenait pas la directive `system-ui`.
 Le cas est [très rare](https://caniuse.com/?search=system-ui).
 Avec une police système, c’est une écriture parfaitement en phase avec le système utilisé qui sera choisie.
 C’est celle de l’interface, d’où UI (user interface).
@@ -216,7 +219,7 @@ code, pre {
 }
 ```
 
-Mon souci avec Windows, c’est que je n’aimait pas beaucoup Segoe UI quand elle était utilisée en grande taille dans les titres.
+Mon souci avec Windows, c’est que je n’aimais pas beaucoup Segoe UI quand elle était utilisée en grande taille dans les titres.
 Mais Segoe UI est meilleure qu’Arial pour le texte.
 
 Depuis Windows 11, c’est la version Segoe UI Variable qui est utilisée (et qui est bonne partout).
