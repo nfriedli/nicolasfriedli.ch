@@ -55,7 +55,7 @@ body>* {
     padding: 1rem;
 }
 
-header + p {
+header+p {
     margin-block-start: 2rem;
 }
 
@@ -94,6 +94,7 @@ code {
 }
 
 pre {
+    border-radius: .5rem;
     overflow-x: auto;
     padding: .5rem 1rem;
 }
@@ -102,19 +103,16 @@ pre code {
     font-size: .85rem;
 }
 
-blockquote, pre {
+blockquote,
+pre {
     margin-block: 1rem 2rem;
 }
 
 blockquote {
-    font-style: italic;
     font-weight: 500;
     margin-inline-start: 2rem;
 }
 
-blockquote em {
-    font-style: normal;
-}
 
 blockquote strong {
     font-weight: 800;
@@ -191,8 +189,8 @@ dt {
     font-weight: 800;
 }
 
-li, 
-dd + dt{
+li,
+dd+dt {
     margin-block-start: .5rem;
 }
 

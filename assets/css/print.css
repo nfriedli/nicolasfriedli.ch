@@ -7,7 +7,9 @@ html {
     line-height: 1.6;
 }
 
-header, footer, aside {
+header,
+footer,
+aside {
     display: none;
 }
 
