@@ -117,7 +117,7 @@ Les images reçoivent un cache de 1 an:
 
 ```
 <filesMatch ".(jpg|jpeg|png|gif|ico|svg|webp|avif)$">
-Header set Cache-Control "max-age=31536000,public"
+    Header set Cache-Control "max-age=31536000,public"
 </filesMatch>
 ```
 
@@ -131,7 +131,7 @@ Si vous avez bien compris de quoi il s’agit, vous pouvez envoyer cette directi
 
 ```
 <filesMatch ".(css|woff2)$">
-Header set Cache-Control "max-age=63072000,immutable"
+    Header set Cache-Control "max-age=63072000,immutable"
 </filesMatch>
 ```
 
