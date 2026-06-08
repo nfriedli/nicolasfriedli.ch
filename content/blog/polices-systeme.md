@@ -55,7 +55,7 @@ Lorsque ce cas se présente, il faut veiller à une optimisation des fichiers et
 - utilisation de polices variables si disponibles
 
 En général, il devrait être possible de s’en tirer autour de 100kB pour un jeu de police complet.
-Pour en savoir plus sur cette thématique complexe, le billet [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/) de Zach Leatherman est un point de départ précieux.
+Pour en savoir plus sur cette thématique complexe, le billet [A Comprehensive Guide to Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/) de Zach Leatherman est un point de départ précieux.
 
 Quand ce chargement permet de répondre à une contrainte précise, c’est très bien.
 Mais je reste surpris par le nombre de sites qui téléchargent de quantités de fichiers qui sont sans rapport avec la charte graphique de l’entreprise ou l’institution.
@@ -121,7 +121,7 @@ Ce sont simplement les écritures du système d’exploitation.
 
 ## La police d’interface (system-ui)
 
-Ll est possible d’utiliser une police par un nom spécial.
+Il est possible d’utiliser une police par un nom spécial.
 C’est celle du système d’exploitation.
 Elle ne peut pas être modifiée dans le navigateur par les internautes, contrairement aux précédentes.
 C’est tout simple:
