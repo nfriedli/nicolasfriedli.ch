@@ -1,18 +1,24 @@
 :root {
     color-scheme: dark light;
 
-    --bg: #FFF;
-    --bg2: #DDD;
-    --txt: #222;
-    --txt2: #111;
+    --hue: 0;
+
+    --bg: hsl(var(--hue), 50%, 98%);
+    --bg2: hsl(var(--hue), 25%, 90%);
+    --txt: hsl(var(--hue), 25%, 10%);
+    --txt2: hsl(var(--hue), 50%, 10%);
+    --color: hsl(var(--hue), 100%, 20%);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg: #000;
-        --bg2: #222;
-        --txt: #EEE;
-        --txt2: #DDD;
+        --hue: 270;
+
+        --bg: hsl(var(--hue), 50%, 10%);
+        --bg2: hsl(var(--hue), 100%, 5%);
+        --txt: hsl(var(--hue), 10%, 90%);
+        --txt2: hsl(var(--hue), 50%, 70%);
+        --color: hsl(var(--hue), 100%, 90%);
     }
 }
 
@@ -172,13 +178,17 @@ h4 {
 /* Liens */
 
 a {
-    color: inherit;
+    color: var(--color);
     text-decoration-thickness: .1em;
     text-underline-offset: .1em;
 }
 
-a[aria-current="page"] {
+nav a {
     text-decoration: none;
+}
+
+a[aria-current="page"] {
+    color: var(--text);
     pointer-events: none;
 }
 
