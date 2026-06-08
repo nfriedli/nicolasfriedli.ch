@@ -1,5 +1,5 @@
 AddDefaultCharset UTF-8
-DefaultLanguage fr-ch
+DefaultLanguage fr
 
 RewriteEngine On
 
@@ -45,7 +45,7 @@ Header unset Last-Modified
 
 # Cache général
 <filesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp|avif)$">
-Header set Cache-Control "max-age=2592000,public"
+Header set Cache-Control "max-age=31536000,public"
 </filesMatch>
 
 # Cache immutable pour CSS et fonts
