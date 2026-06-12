@@ -13,7 +13,7 @@ Voici le *`.htaccess` type* que j’utilise pour mes sites hébergés chez Infom
 Ma configuration courante est toujours [disponible chez GitHub](https://github.com/nfriedli/nicolasfriedli.ch/blob/main/static/.htaccess).
 Je suis disponible pour vous donner un coup de main dans la rédaction de votre `.htaccess` pour site statique.
 
-Merci de lire l'avertissement final avant de faire des modifications hasardeuses!
+Merci de lire l’avertissement final avant de faire des modifications hasardeuses!
 
 ## Généralités
 
