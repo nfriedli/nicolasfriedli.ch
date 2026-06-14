@@ -8,6 +8,8 @@
     --txt: hsl(var(--hue), 25%, 10%);
     --txt2: hsl(var(--hue), 50%, 10%);
     --color: hsl(var(--hue), 100%, 20%);
+
+    --radius: .5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -100,7 +102,7 @@ code {
 }
 
 pre {
-    border-radius: .5rem;
+    border-radius: var(--radius);
     overflow-x: auto;
     padding: .5rem 1rem;
 }
@@ -131,6 +133,7 @@ time {
 
 details {
     background: var(--bg2);
+    border-radius: var(--radius);
     color: var(--txt2);
     padding: .5rem 1rem;
 }
@@ -208,7 +211,7 @@ dd+dt {
 
 .notice {
     border: .1rem solid var(--txt2);
-    border-radius: .5rem;
+    border-radius: var(--radius);
     margin-block: 2rem;
     padding: .5rem 1rem;
 }
