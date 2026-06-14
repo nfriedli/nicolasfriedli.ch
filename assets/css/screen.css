@@ -14,8 +14,8 @@
     :root {
         --hue: 270;
 
-        --bg: hsl(var(--hue), 50%, 10%);
-        --bg2: hsl(var(--hue), 100%, 5%);
+        --bg: hsl(var(--hue), 100%, 5%);
+        --bg2: hsl(var(--hue), 50%, 15%);
         --txt: hsl(var(--hue), 10%, 90%);
         --txt2: hsl(var(--hue), 50%, 70%);
         --color: hsl(var(--hue), 100%, 90%);
