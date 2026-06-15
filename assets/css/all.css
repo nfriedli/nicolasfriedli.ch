@@ -1,5 +1,5 @@
 :root {
-    --sans-serif: "Inter", ui-sans-serif, "Roboto", system-ui, sans-serif;
+    --sans-serif: "Roboto", ui-sans-serif, "Inter", system-ui, sans-serif;
     --monospace: "Maple Mono", "Jetbrains Mono", ui-monospace, "Roboto Mono", "Cascadia Code", "Consolas", monospace;
 }
 
@@ -13,20 +13,4 @@ code,
 pre {
     font-family: var(--monospace);
     font-variant-ligatures: none;
-}
-
-@font-face {
-    font-family: "Inter";
-    font-display: swap;
-    font-style: normal;
-    font-weight: 100 900;
-    src: local("Inter Variable"), local("Inter-Variable"), local("Inter");
-}
-
-@font-face {
-    font-family: "Inter";
-    font-display: swap;
-    font-style: italic;
-    font-weight: 100 900;
-    src: local("Inter Variable Italic"), local("Inter-Variable-Italic"), local("Inter Italic");
 }
