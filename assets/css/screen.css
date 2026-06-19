@@ -92,6 +92,11 @@ header nav {
 
 /* Blocs dans la page */
 
+figure {
+    margin-block: 2rem;
+    margin-inline: 0;
+}
+
 code,
 pre {
     background: var(--bg2);
