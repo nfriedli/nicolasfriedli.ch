@@ -19,6 +19,12 @@
 {{ end }}
 
 <!-- feuilles de style -->
+
+<link rel="preload" href="/fonts/g.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/gi.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/gm.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/gmi.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
 {{ $all := resources.Get "css/all.css" }}
 {{ $screen := resources.Get "css/screen.css" }}
 {{ $print := resources.Get "css/print.css" }}
