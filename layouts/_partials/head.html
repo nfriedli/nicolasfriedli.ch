@@ -19,10 +19,13 @@
 {{ end }}
 
 <!-- feuilles de style -->
+{{ $all := resources.Get "css/all.css" }}
+{{ $screen := resources.Get "css/screen.css" }}
+{{ $print := resources.Get "css/print.css" }}
 
-{{ partialCached "css" . }}
-
-
+<style>{{ $all.Content | safeCSS }}</style>
+<style media="screen">{{ $screen.Content | safeCSS }}</style>
+<style media="print">{{ $print.Content | safeCSS }}</style>
 
 <!-- favicons & co. -->
 <link rel="icon" type="image/png" href="{{ relURL "favicon-96x96.png" }}" sizes="96x96">
