@@ -1,0 +1,12 @@
+<link rel="preload" href="/fonts/g.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/gi.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/gm.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/gmi.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+{{ $all := resources.Get "css/all.css" | minify | fingerprint }}
+{{ $screen := resources.Get "css/screen.css" | minify | fingerprint }}
+{{ $print := resources.Get "css/print.css" | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $all.RelPermalink }}" integrity="{{ $all.Data.Integrity }}" crossorigin="anonymous">
+<link rel="stylesheet" media="screen" href="{{ $screen.RelPermalink }}" integrity="{{ $screen.Data.Integrity }}" crossorigin="anonymous">
+<link rel="stylesheet" media="print" href="{{ $print.RelPermalink }}" integrity="{{ $print.Data.Integrity }}" crossorigin="anonymous">
