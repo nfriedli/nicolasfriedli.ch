@@ -75,7 +75,7 @@ L’extrait qui m’intéresse ressemble à:
 /* latin */
 @font-face {
   font-family: "Geist";
-  font-style: normal;Insig
+  font-style: normal;
   font-weight: 100 900;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/geist/v5/gyByhwUxId8gMEwcGFU.woff2) format("woff2");
@@ -105,7 +105,8 @@ Mais avec un risque de ne pas voir les polices choisies dans quelques cas.
 
 Si je voulais des performance maximales, je ne chargerais tout simplement pas de fichiers externes, même légers.
 
----- 
+----
 
-Suite à ce billet de tests, je retourne à des polices locales.
-Mais si vous installez Geist et `Geist Mono` sur votre périphériques, ce sont elles qui s’afficheront en priorité.
+Suite à ce billet de tests, j’en reviens à des polices locales.
+Mais si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité.
+Le commit [3eae0a3](https://github.com/nfriedli/nicolasfriedli.ch/commit/3eae0a3400ab19e45d531416c9801252015fe7ec) documente le retour.
