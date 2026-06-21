@@ -33,7 +33,7 @@ RewriteRule ^feed/?$ /index.xml [L]
 
 # https://securityheaders.com/
 Header set Content-Security-Policy "default-src 'self'; style-src 'self' 'unsafe-inline';"
-Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains" env=HTTPS
+Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" env=HTTPS
 Header always set X-Content-Type-Options "nosniff"
 Header always set X-Frame-Options "deny"
 Header always set Referrer-Policy "no-referrer"
