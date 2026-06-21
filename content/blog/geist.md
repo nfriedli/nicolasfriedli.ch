@@ -1,5 +1,5 @@
 ---
-title: Passage à Geist et Geist Mono
+title: Test de web fonts avec Geist et Geist Mono
 description: Retour d’expérience sur l’intégration des polices variables Geist et Geist Mono sur un site statique, de l’implémentation aux choix d’optimisation.
 date: 2026-06-21
 images:
@@ -59,14 +59,17 @@ Les CSS et les polices sont en cache pour 2 ans et tout va bien.
 
 Je parle de la gestion du cache dans [htaccess pour site statique chez Infomaniak](/blog/htaccess/).
 
-## Choix final
+## Choix pragmatique
 
 Il est visible dans le commit [f880215](https://github.com/nfriedli/nicolasfriedli.ch/commit/f880215aeff2ba765c3b649c83a7a5a5028d1b3f):
 
-- les polices sont reprises de Google Fonts
+- les polices sont reprises de Google Fonts (mais installées localement)
 - les CSS sont internes
 - il n’y a pas de préchargement (`preload`)
 - chargement de type `swap`
+
+Quand la police n’est pas variable, le meilleur outil pour les télécharger est [google-webfonts-helper](https://gwfh.mranftl.com/fonts).
+Mais quand la police est variable, il faut ruser.
 
 Google Fonts fournit un [fichier CSS](https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap) qui se charge de tous les `@font-face` utiles.
 L’extrait qui m’intéresse ressemble à:
@@ -83,7 +86,7 @@ L’extrait qui m’intéresse ressemble à:
 }
 ```
 
-Je le reprends sans le `unicode-range`, je télécharge la police et la renomme `g.woff2` dans `/fonts/`.
+Je le reprends sans le `unicode-range`, je télécharge la police et je la renomme `g.woff2` dans `/fonts/`.
 Ainsi je profite des optimisations de Google Fonts qui allège les polices (en leur faisant perdre quelques fonctions que je n’utilise pas).
 Avec environ 100ko, j’ai mes 4 fichiers avec toutes les graisses disponibles et de vrais italiques, en sans-serif et en `mono`.
 
@@ -103,10 +106,15 @@ Mais je m’assure d’avoir Geist et `Geist Mono` à l’écran.
 Avec `optional`, je pourrais assurer un résultat de 100%.
 Mais avec un risque de ne pas voir les polices choisies dans quelques cas.
 
-Si je voulais des performance maximales, je ne chargerais tout simplement pas de fichiers externes, même légers.
+Si je voulais des performances maximales, je ne chargerais tout simplement pas de fichiers externes, même légers.
 
-----
+## Après les tests
+
+En fait, je souhaite des performances 🚀 maximales 🏆.
 
 Suite à ce billet de tests, j’en reviens à des polices locales.
-Mais si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité.
 Le commit [3eae0a3](https://github.com/nfriedli/nicolasfriedli.ch/commit/3eae0a3400ab19e45d531416c9801252015fe7ec) documente le retour.
+
+Si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité, selon la logique du «font stack».
+
+Et sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police.
