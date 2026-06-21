@@ -66,4 +66,4 @@ params:
 
 services:
   rss:
-    limit: 20
+    limit: 5
