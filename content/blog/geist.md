@@ -2,6 +2,7 @@
 title: Test de web fonts avec Geist et Geist Mono
 description: Retour d’expérience sur l’intégration des polices variables Geist et Geist Mono sur un site statique, de l’implémentation aux choix d’optimisation.
 date: 2026-06-21
+lastMod: 2026-06-22
 images:
 - https://cdn.pixabay.com/photo/2018/03/26/11/36/equipment-3262336_1280.jpg
 - https://cdn.pixabay.com/photo/2016/11/19/15/06/alphabets-1839737_1280.jpg
@@ -116,5 +117,6 @@ Suite à ce billet de tests, j’en reviens à des polices locales.
 Le commit [3eae0a3](https://github.com/nfriedli/nicolasfriedli.ch/commit/3eae0a3400ab19e45d531416c9801252015fe7ec) documente le retour.
 
 Si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité, selon la logique du «font stack».
+Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/releases/tag/v1.7.2) sont plus à jour que celles disponibles sur Google Fonts.
 
-Et sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police.
+Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police.
