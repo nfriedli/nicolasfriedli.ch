@@ -94,6 +94,17 @@ Pour intégrer cela dans Hugo, je procéderais ainsi:
 - un répertoire `/rss-club/`: non référencé dans les moteurs de recherche et sans liste des derniers billets (mais sans aller jusqu’à tout cacher avec un dépôt GitHub privé), avec un RSS qui propose les 20 dernières publications
 - un répertoire `/qr-club/` non référencé dans les moteurs de recherche mais avec une liste de billets sous forme de codes QR sans reprise des ces billets dans les flux RSS du site
 
+J’imagine bien une page pleine de codes non cliqubles et sans légendes (mais avec des  `alt` corrects): 
+
+{{< qr 
+    text="https://nicolasfriedli.ch/blog/rss-qr-club/"
+    alt="URL de cet article en QR code"
+    scale=8
+    level="low"
+    loading="lazy"
+    targetDir="/images/"
+/>}}
+
 Peut-être que j’accepterais de rendre les billets du RSS Club accessibles après une durée déterminée ou quand plusieurs nouvelles publications sont sorties.
 Ce qui est clair, c’est que je voudrais qu’ils conservent une exclusivité durant quelques semaines.
 

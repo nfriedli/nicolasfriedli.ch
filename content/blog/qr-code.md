@@ -141,7 +141,7 @@ Sans passer par un service tiers, j’obtiens une image légère, hébergée sur
 
 {{< qr 
     text="https://nicolasfriedli.ch"
-    alt="Lien vers le site nicolasfriedli.ch"
+    alt="Site nicolasfriedli.ch"
     scale=8
     level="low"
     loading="lazy"
