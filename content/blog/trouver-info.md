@@ -10,7 +10,7 @@ draft: true
 [Coop Supermarché Colombier](https://www.coop.ch/fr/magasins/coop-supermarche-colombier/2426_POS)
 
 À la question «où as-tu trouvé cette info?»
-«Sur internet» n'est pas une réponse!
+«Sur internet» n’est pas une réponse!
 
 
 ## Google Maps
