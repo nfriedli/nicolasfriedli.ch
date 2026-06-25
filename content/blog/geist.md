@@ -123,30 +123,30 @@ Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible
 
 ## Solution actuelle
 
-Sur le site que vous visitez, dans l'idée de garder un site ultra performant, j'applique [actuellement](https://github.com/nfriedli/nicolasfriedli.ch/commit/4cdd314be116a1eac9000d1a96a7250441041eba):
+Sur le site que vous visitez, dans l’idée de garder un site ultra performant, j’applique [actuellement](https://github.com/nfriedli/nicolasfriedli.ch/commit/4cdd314be116a1eac9000d1a96a7250441041eba):
 
 - des CSS embarqués
 - les fichiers de Geist et `Geist Mono` téléchargés de Google Fonts (les plus légers disponibles sans optimisation manuelle)
-- le préchargement des 4 polices
+- le préchargement des 4 polices
 - un affichage `font-display: optional`
 
-C'est le dernier point qui change tout:
+C’est le dernier point qui change tout:
 
-- les polices sont affichées seulement si elles sont arrivées assez rapidement
+- les polices sont affichées seulement si elles sont disponibles assez rapidement
 - mais ce sont des polices locales qui sont affichées dans le cas contraire (jamais de ralentissement pour les internautes)
-- les fichiers `woff2` sont mis en cache durant 2 ans (c'est pourquoi je me permets de les précharger)
+- les fichiers `woff2` sont mis en cache durant 2 ans (c’est pourquoi je me permets de les précharger)
 
-Au final, le seul cas défavorable, c'est:
+Au final, le seul cas défavorable, c’est:
 
-- quand vous ne visitez qu'une page du site
+- quand vous ne visitez qu’une page du site
 - que les 4 fichiers ont été transférés
 - mais que votre connexion était trop lente pour les afficher
-- si vous lisez une page dans `code` alors que `Geist Mono` a été chargée
 
-Dans tous les autres cas (transfert rapide, plusieurs pages dans la visite ou retour sur le site dans les 2 ans, page avec code), c'est la meilleure solution.
+Dans tous les autres cas (transfert rapide, plusieurs pages dans la visite ou retour sur le site dans les 2 ans), c’est la meilleure solution.
 
-Pour plus d'explications sur `optional`, je vous conseille la lecture de [More than you ever wanted to know about font loading on the web](https://www.industrialempathy.com/posts/high-performance-web-font-loading/).
+Pour plus d’explications sur `optional`, je vous conseille la lecture de [More than you ever wanted to know about font loading on the web](https://www.industrialempathy.com/posts/high-performance-web-font-loading/).
 
+<!--
 ## Foire aux questions (FAQ)
 
 1re visite
@@ -160,3 +160,4 @@ retour sur le site dans les 2 ans
 pages avec code
 
 pages sans code
+-->
