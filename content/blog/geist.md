@@ -109,21 +109,11 @@ Mais avec un risque de ne pas voir les polices choisies dans quelques cas.
 
 Si je voulais des performances maximales, je ne chargerais tout simplement pas de fichiers externes, même légers.
 
-## Après les tests
 
-En fait, je souhaite des performances 🚀 maximales 🏆.
-
-Suite à ce billet de tests, j’en reviens à des polices locales.
-Le commit [3eae0a3](https://github.com/nfriedli/nicolasfriedli.ch/commit/3eae0a3400ab19e45d531416c9801252015fe7ec) documente le retour.
-
-Si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité, selon la logique du «font stack».
-Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/releases/tag/v1.7.2) sont plus à jour que celles disponibles sur Google Fonts.
-
-Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police.
 
 ## Solution actuelle
 
-Sur le site que vous visitez, dans l’idée de garder un site ultra performant, j’applique [actuellement](https://github.com/nfriedli/nicolasfriedli.ch/commit/4cdd314be116a1eac9000d1a96a7250441041eba):
+Sur le site que vous visitez, dans l’idée de garder un site ultra performant, j’ai [testé](https://github.com/nfriedli/nicolasfriedli.ch/commit/4cdd314be116a1eac9000d1a96a7250441041eba):
 
 - des CSS embarqués
 - les fichiers de Geist et `Geist Mono` téléchargés de Google Fonts (les plus légers disponibles sans optimisation manuelle)
@@ -145,6 +135,18 @@ Au final, le seul cas défavorable, c’est:
 Dans tous les autres cas (transfert rapide, plusieurs pages dans la visite ou retour sur le site dans les 2 ans), c’est la meilleure solution.
 
 Pour plus d’explications sur `optional`, je vous conseille la lecture de [More than you ever wanted to know about font loading on the web](https://www.industrialempathy.com/posts/high-performance-web-font-loading/).
+
+## Après les tests
+
+En fait, je souhaite des performances 🚀 maximales 🏆.
+
+Suite à ce billet de tests, j’en reviens à des polices locales.
+Le commit [77d0ac0](https://github.com/nfriedli/nicolasfriedli.ch/commit/77d0ac0b591dc7186a326f3ec191a2f25ed15de5) documente le retour.
+
+Si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité, selon la logique du «font stack».
+Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/releases/tag/v1.7.2) sont plus à jour que celles disponibles sur Google Fonts.
+
+Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police.
 
 <!--
 ## Foire aux questions (FAQ)

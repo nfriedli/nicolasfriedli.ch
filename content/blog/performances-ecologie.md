@@ -5,9 +5,9 @@ date: 2026-06-25
 draft: true
 ---
 
-Les plus performant et le plus écologique, c'est ce qui n'est pas transféré, pas interprété, etc.
+Les plus performant et le plus écologique, c’est ce qui n’est pas transféré, pas interprété, etc.
 
-Donc pas de Javascript, pas de webfonts (mais des polices système), pas d'images, etc.
+Donc pas de Javascript, pas de webfonts (mais des polices système), pas d’images, etc.
 
 ## Convergences
 
