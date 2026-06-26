@@ -11,6 +11,14 @@ draft: true
 
 > The shorter blogs add an element of subversion in that they go against the idea that longer is somehow better. There’s no evidence to suggest longer is better from a ranking perspective but the idea is that if it’s longer, you’ll have (hopefully) fleshed out your thoughts. But maybe a quick thought is better than an embellished one. 
 
+[Your shit is unreadable](https://unstory.eu/lcn/):
+
+> It's summer. It's hot, like it has been for thousands of years. Thanks for the 1,000-word coverage and your recommendation to drink water. You saved humanity.
+
+[Blogging Can Just Be Stating The Obvious](https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/):
+
+> So it must be that a key ingredient to blogging is simple: have a willingness to state something that seems obvious to you but nobody else is saying it.
+
 ----
 
 Ancien billet:
