@@ -13,7 +13,7 @@ draft: true
 
 [Your shit is unreadable](https://unstory.eu/lcn/):
 
-> It's summer. It's hot, like it has been for thousands of years. Thanks for the 1,000-word coverage and your recommendation to drink water. You saved humanity.
+> It’s summer. It’s hot, like it has been for thousands of years. Thanks for the 1,000-word coverage and your recommendation to drink water. You saved humanity.
 
 [Blogging Can Just Be Stating The Obvious](https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/):
 

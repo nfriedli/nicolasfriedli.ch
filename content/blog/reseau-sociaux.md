@@ -12,8 +12,6 @@ Mais ces réseaux, eux, ont changé.
 Face à cette interrogation, je republie un ancien article que je souhaite pouvoir citer quand on m’interroge.
 C’est d’autant plus actuel que je vois pas mal d’institutions qui «débarquent sur les réseaux sociaux» n’importe comment (et souvent sans succès).
 
-Pour un billet solide, paru après la première version du mien, je vous suggère [Les médias sociaux n’en sont plus](https://danslesalgorithmes.net/2026/05/13/les-medias-sociaux-nen-sont-plus/) par Hubert Guillaud pour [Dans les algorithmes](https://danslesalgorithmes.net/).
-
 ## Les vieux réseaux sociaux
 
 Dans une autre vie, j’ai donné pas mal de formations à Facebook.
@@ -83,3 +81,9 @@ Il empêche par conception le rachat pour le profit.
 Ou, dit autrement, il est conçu pour ne pas pouvoir être récupéré.
 
 Vous pouvez [m’y rejoindre](https://mastodon.social/@frdlch) pour en parler.
+
+----
+
+Pour un billet solide, paru après la première version du mien, je vous suggère [Les médias sociaux n’en sont plus](https://danslesalgorithmes.net/2026/05/13/les-medias-sociaux-nen-sont-plus/) par Hubert Guillaud pour [Dans les algorithmes](https://danslesalgorithmes.net/).
+
+Ou [Que peut l’éducation au numérique face aux défis posés par les réseaux sociaux?](https://louisderrac.com/que-peut-leducation-au-numerique-face-aux-defis-poses-par-les-reseaux-sociaux/) par Louis Derrac.
