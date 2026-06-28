@@ -2,6 +2,7 @@
 title: Favoriser les Églises réformées de Suisse romande dans Google
 description: Avec Google Discover et les préférences de recherche, il est possible de rendre plus visibles des sites qui comptent à nos yeux. Voici quelques liens directs vers des présences protestantes réformées en ligne.
 date: 2026-06-16
+lastMod: 2026-06-28
 images:
 - https://cdn.pixabay.com/photo/2020/02/17/16/47/sherlock-4857024_1280.jpg
 ---
@@ -63,15 +64,15 @@ Pour l’Église protestante de Genève, j’ai trouvé:
 
 Pour l’Église réformée évangélique du canton du Valais, j’ai trouvé:
 
-- [Suivre EREV sur Google (Discover)](https://profile.google.com/cp/EgkKB2VyZXYuY2g=)
+- [Suivre EREV sur Google (Discover)](https://profile.google.com/cp/EgkKB2VyZXYuY2g=) (la page existe, mais sans bouton «Suivre»)
 - [Ajouter EREV aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://erev.ch)
 
 ### Fribourg (EERF)
 
 Pour l’Église évangélique réformée du canton de Fribourg, j’ai trouvé:
 
-- [Suivre EERF sur Google (Discover)](https://profile.google.com/cp/EgkKB2VlcmYuY2g=)
-- [Ajouter EERF aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://ref-fr.ch)
+- [Suivre EERF sur Google (Discover)](https://profile.google.com/cp/EgkKB2VlcmYuY2g=) (la page existe, mais sans bouton «Suivre»)
+- [Ajouter EERF aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=ref-fr.ch)
 
 ### Berne (RefBeJuSo)
 
@@ -84,7 +85,7 @@ Pour l’Église réformée du canton de Berne, j’ai trouvé:
 
 Pour l’Église réformée évangélique du canton du Jura, j’ai trouvé 1 lien seulement:
 
-- [Suivre EREJ sur Google (Discover)](https://profile.google.com/cp/Eg0KC3d3dy5lcmVqLmNo)
+- [Suivre EREJ sur Google (Discover)](https://profile.google.com/cp/Eg0KC3d3dy5lcmVqLmNo) (la page existe, mais sans bouton «Suivre»)
 
 ## Autres sources
 
@@ -94,14 +95,14 @@ D’autres sources potentiellement utiles qui publient régulièrement.
 
 Pour l’Église  évangélique réformée de Suisse, j’ai trouvé:
 
-- [Suivre EERS sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5la3MtZWVycy5jaA==)
+- [Suivre EERS sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5la3MtZWVycy5jaA==) (la page existe, mais sans bouton «Suivre»)
 - [Ajouter EERS aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.eks-eers.ch)
 
 ### Portail Réformés
 
 Pour le portail d’actualité protestante de Suisse romande, j’ai trouvé:
 
-- [Suivre Réformés sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5yZWZvcm1lcy5jaA==)
+- [Suivre Réformés sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5yZWZvcm1lcy5jaA==) (la page existe, mais sans bouton «Suivre»)
 - [Ajouter Réformés aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.reformes.ch)
 
 ### Ref-Éditions
