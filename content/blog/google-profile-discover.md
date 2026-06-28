@@ -116,7 +116,7 @@ Pour les éditions chrétiennes de la Conférence des Églises romandes, j’ai 
 
 Pour le Centre pour l’information et la documentation chrétiennes, j’ai trouvé:
 
-- [Suivre CIDOC sur Google (Discover)](https://profile.google.com/cp/EgoKCGNpZG9jLmNo)
+- [Suivre CIDOC sur Google (Discover)](https://profile.google.com/cp/EgoKCGNpZG9jLmNo) (la page existe, mais sans bouton «Suivre»)
 - [Ajouter CIDOC aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.cidoc.ch)
 
 ### Hebdomadaire Réforme
