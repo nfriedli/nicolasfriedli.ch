@@ -146,7 +146,9 @@ Le commit [77d0ac0](https://github.com/nfriedli/nicolasfriedli.ch/commit/77d0ac
 Si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité, selon la logique du «font stack».
 Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/releases/tag/v1.7.2) sont plus à jour que celles disponibles sur Google Fonts.
 
-Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police.
+Si elles ne sont pas disponibles, le site tentera d'afficher [Google Sans](https://fonts.google.com/specimen/Google+Sans) et [`Google Sans Code`](https://fonts.google.com/specimen/Google+Sans+Code), disponibles en téléchargement chez Google Fonts.
+
+Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police, quelles que soient les fichiers disponibles sur votre propre périphérique.
 
 <!--
 ## Foire aux questions (FAQ)
