@@ -1,6 +1,6 @@
 :root {
-    --sans-serif: "Google Sans", "Geist", "Roboto", ui-sans-serif, "Inter", "Aptos", system-ui, sans-serif;
-    --monospace: "Google Sans Code", "Geist Mono", "Maple Mono", "Jetbrains Mono", ui-monospace, "Roboto Mono", "Cascadia Code", "Consolas", monospace;
+    --sans-serif: "Geist", "Roboto", ui-sans-serif, "Inter", "Aptos", system-ui, sans-serif;
+    --monospace: "Geist Mono", "Maple Mono", "Jetbrains Mono", ui-monospace, "Roboto Mono", "Cascadia Code", "Consolas", monospace;
 }
 
 html {
