@@ -3,8 +3,6 @@ title: Google et Generative Engine Optimization (GEO)
 description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
 lastMod: 2026-06-04
-images: 
-- https://cdn.pixabay.com/photo/2022/05/28/06/39/cat-7226671_1280.jpg
 ---
 
 En ce printemps 2026, Google est accusé de casser le web.

@@ -2,8 +2,6 @@
 title: Confusion entre stratégie et objectifs
 description: Richard Rumelt montre que les mauvaises stratégies masquent souvent une absence totale de stratégie. Objectifs flous, jargon et ambitions excessives cachent mal un diagnostic manqué, un refus d’arbitrer et des actions incohérentes.
 date: 2026-06-15
-images:
-- https://cdn.pixabay.com/photo/2021/09/07/16/26/chess-6604353_1280.jpg
 ---
 
 Dans le livre [Good Strategy. Bad Strategy](https://www.richardrumelt.com/good-strategy-bad-strategy) de Richard Rumelt, j’ai été très intéressé par le passage consacré aux mauvaises stratégies.

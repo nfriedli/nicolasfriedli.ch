@@ -3,9 +3,6 @@ title: Test de web fonts avec Geist et Geist Mono
 description: Retour d’expérience sur l’intégration des polices variables Geist et Geist Mono sur un site statique, de l’implémentation aux choix d’optimisation.
 date: 2026-06-21
 lastMod: 2026-06-25
-images:
-- https://cdn.pixabay.com/photo/2018/03/26/11/36/equipment-3262336_1280.jpg
-- https://cdn.pixabay.com/photo/2016/11/19/15/06/alphabets-1839737_1280.jpg
 ---
 
 Pour faire quelques tests actuels sur les polices web (web fonts), j’ai décidé d’utiliser Geist et `Geist Mono` sur ce site.

@@ -2,8 +2,6 @@
 title: Vie privée & confidentialité des données
 description: Le respect de votre vie privée est total. Ce n’est pas du baratin, mais la réalité. Point final.
 date: 2026-06-03
-images:
-- https://cdn.pixabay.com/photo/2019/08/26/06/38/security-4430918_1280.jpg
 ---
 
 Le respect de votre vie privée est total.  

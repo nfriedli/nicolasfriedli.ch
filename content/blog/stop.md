@@ -19,6 +19,11 @@ draft: true
 
 > So it must be that a key ingredient to blogging is simple: have a willingness to state something that seems obvious to you but nobody else is saying it.
 
+[«C’est de l’IA, je ne l’ai pas lu!»](https://danslesalgorithmes.net/2026/06/16/cest-de-lia-je-ne-lai-pas-lu/):
+
+> [Constance Vilanova] pointait d’ailleurs vers [une étude](https://www.sciencedirect.com/science/article/abs/pii/S0191886926000620) d’un [chercheur en linguistique](https://shanelittrell.com/) qui a mis au point une échelle pour mesurer la réceptivité au jargon d’entreprise. Une étude qui montrait que plus on est sensible aux formules creuses, moins on performe soi-même aux tests de pensée analytique et aux tests de prise de décision. «Les grands amateurs de Linked-in speak seraient donc aussi les moins capables de repérer le vide. Ce qui crée un cercle vicieux parfait: les patrons sont récompensés pour leur langue de bois, et les équipes se peuplent progressivement de gens qui n’y voient que du feu.»
+
+
 ----
 
 Ancien billet:

@@ -2,8 +2,6 @@
 title: Polices système en 2026
 description: Les polices dites «web safe» n’existent plus vraiment aujourd’hui, mais des directives CSS comme system-ui et des listes de polices adaptées permettent de conserver un web écologique et rapide.
 date: 2026-06-07
-images:
-- https://cdn.pixabay.com/photo/2018/05/11/20/28/printing-house-3391580_1280.jpg
 ---
 
 L’utilisation de polices du système d’exploitation (system font stack) permet une cohérence graphique sans téléchargements.

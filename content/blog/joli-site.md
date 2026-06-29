@@ -2,8 +2,6 @@
 title: Ce joli site que presque personne ne verra
 description: 
 date: 2026-06-08
-images:
-- https://cdn.pixabay.com/photo/2017/07/03/11/05/statue-2467255_1280.jpg
 draft: true
 ---
 

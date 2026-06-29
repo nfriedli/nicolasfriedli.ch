@@ -2,8 +2,6 @@
 title: Suppression de human.json
 description: human.json est un protocole léger pour affirmer que des sites sont bien tenus par des personnes et humaniser le web. C’est un outil simple et clair, mais il ne me semble ni pertinent dans la durée, ni utilisé.
 date: 2026-06-12
-images:
-- https://cdn.pixabay.com/photo/2024/04/25/17/36/robot-8720359_1280.jpg
 ---
 
 `human.json` est un protocole léger pour affirmer que des sites sont bien tenus par des personnes et humaniser le web.

@@ -3,8 +3,6 @@ title: Favoriser les Églises réformées de Suisse romande dans Google
 description: Avec Google Discover et les préférences de recherche, il est possible de rendre plus visibles des sites qui comptent à nos yeux. Voici quelques liens directs vers des présences protestantes réformées en ligne.
 date: 2026-06-16
 lastMod: 2026-06-28
-images:
-- https://cdn.pixabay.com/photo/2020/02/17/16/47/sherlock-4857024_1280.jpg
 ---
 
 On voit de plus en plus de médias qui proposent un petit bouton pour s’abonner aux publications par Google.

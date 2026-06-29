@@ -2,8 +2,6 @@
 title: htaccess pour site statique chez Infomaniak
 description: Gestion du cache, redirection propres, entêtes de sécurité, etc. Voici le .htaccess type que j’utilise pour mes sites statiques hébergés chez Infomaniak. Une bonne configuration du cache peut améliorer les performances et le bilan carbone d’un site en quelques lignes.
 date: 2026-06-08
-images:
-- https://cdn.pixabay.com/photo/2018/01/26/18/21/matrix-3109378_1280.jpg
 ---
 
 Gestion du cache, redirection propres, entêtes de sécurité, etc.

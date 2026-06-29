@@ -4,8 +4,6 @@ description: Pure Blog est le meilleur CMS de blog personnel pour se lancer sur 
 date: 2026-05-30
 aliases:
 - /pureblog
-images:
-- https://cdn.pixabay.com/photo/2016/10/09/15/32/typewriter-1726000_1280.jpg
 ---
 
 Ce matin, j’ai envoyé une proposition de [modification de code](https://codeberg.org/kevquirk/pureblog/issues/16) pour [Pure Blog](https://pureblog.org/).
