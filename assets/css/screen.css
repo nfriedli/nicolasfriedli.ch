@@ -196,7 +196,7 @@ nav a {
 }
 
 a[aria-current="page"] {
-    color: var(--text);
+    color: var(--txt);
     pointer-events: none;
 }
 
