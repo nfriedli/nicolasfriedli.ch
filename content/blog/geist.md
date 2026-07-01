@@ -145,18 +145,7 @@ Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/relea
 
 Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police, quelles que soient les fichiers disponibles sur votre propre périphérique.
 
-<!--
-## Foire aux questions (FAQ)
+----
 
-1re visite
-
-connexion lente
-
-visite de plusieurs pages
-
-retour sur le site dans les 2 ans
-
-pages avec code
-
-pages sans code
--->
+Cette page ne sera pas remise à jour en fonction de mes expériences à venir.
+Mais les sources sont toujours disponibles pour voir ce qui est en œuvre aujourd’hui.
