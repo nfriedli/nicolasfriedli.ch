@@ -10,6 +10,7 @@ html {
 }
 
 code,
+figcaption,
 pre, 
 time {
     font-family: var(--monospace);

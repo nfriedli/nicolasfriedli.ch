@@ -2,15 +2,18 @@
 title: Favoriser les Églises réformées de Suisse romande dans Google
 description: Avec Google Discover et les préférences de recherche, il est possible de rendre plus visibles des sites qui comptent à nos yeux. Voici quelques liens directs vers des présences protestantes réformées en ligne.
 date: 2026-06-16
-lastMod: 2026-06-28
+lastMod: 2026-07-01
 ---
 
 On voit de plus en plus de médias qui proposent un petit bouton pour s’abonner aux publications par Google.
-Quelque chose comme ce bouton (ici inactif):
+Quelque chose comme ce bouton:
 
 {{< figure
   src="/images/google-sources.png"
   alt="Ajouter en tant que source préférée sur Google"
+  caption="Le lien magique pour ajouter nicolasfriedli.ch dans vos sources préférées (s’ouvre dans une nouvelle fenêtre)."
+  link="https://www.google.com/preferences/source?q=nicolasfriedli.ch"
+  target="_blank"
   width=338
   height=106
 >}}
@@ -42,28 +45,28 @@ Et presque toutes peuvent être ajoutées aux sources préférées.
 Pour l’Église réformée évangélique du canton de Neuchâtel, j’ai trouvé:
 
 - [Suivre EREN sur Google (Discover)](https://profile.google.com/cp/Eg0KC3d3dy5lcmVuLmNo)
-- [Ajouter EREN aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.eren.ch)
+- [Ajouter EREN aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=eren.ch)
 
 ### Vaud (EERV)
 
 Pour l’Église évangélique réformée du canton de Vaud, j’ai trouvé:
 
 - [Suivre EERV sur Google (Discover)](https://profile.google.com/cp/Eg0KC3d3dy5lZXJ2LmNo)
-- [Ajouter EERV aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.eerv.ch)
+- [Ajouter EERV aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=eerv.ch)
 
 ### Genève (EPG)
 
 Pour l’Église protestante de Genève, j’ai trouvé:
 
 - [Suivre EPG sur Google (Discover)](https://profile.google.com/cp/EggKBmVwZy5jaA==)
-- [Ajouter EPG aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://epg.ch)
+- [Ajouter EPG aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=epg.ch)
 
 ### Valais (EREV)
 
 Pour l’Église réformée évangélique du canton du Valais, j’ai trouvé:
 
 - [Suivre EREV sur Google (Discover)](https://profile.google.com/cp/EgkKB2VyZXYuY2g=) (la page existe, mais sans bouton «Suivre»)
-- [Ajouter EREV aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://erev.ch)
+- [Ajouter EREV aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=erev.ch)
 
 ### Fribourg (EERF)
 
@@ -77,13 +80,14 @@ Pour l’Église évangélique réformée du canton de Fribourg, j’ai trouvé:
 Pour l’Église réformée du canton de Berne, j’ai trouvé:
 
 - [Suivre RefBeJuSo sur Google (Discover)](https://profile.google.com/cp/EhIKEHd3dy5yZWZiZWp1c28uY2g=)
-- [Ajouter RefBeJuSo aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.refbejuso.ch)
+- [Ajouter RefBeJuSo aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=refbejuso.ch)
 
 ### Jura (EREJ)
 
-Pour l’Église réformée évangélique du canton du Jura, j’ai trouvé 1 lien seulement:
+Pour l’Église réformée évangélique du canton du Jura, j’ai trouvé:
 
 - [Suivre EREJ sur Google (Discover)](https://profile.google.com/cp/Eg0KC3d3dy5lcmVqLmNo) (la page existe, mais sans bouton «Suivre»)
+- [Ajouter EREJ aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=erej.ch)
 
 ## Autres sources
 
@@ -94,35 +98,35 @@ D’autres sources potentiellement utiles qui publient régulièrement.
 Pour l’Église  évangélique réformée de Suisse, j’ai trouvé:
 
 - [Suivre EERS sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5la3MtZWVycy5jaA==) (la page existe, mais sans bouton «Suivre»)
-- [Ajouter EERS aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.eks-eers.ch)
+- [Ajouter EERS aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=eks-eers.ch)
 
 ### Portail Réformés
 
 Pour le portail d’actualité protestante de Suisse romande, j’ai trouvé:
 
 - [Suivre Réformés sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5yZWZvcm1lcy5jaA==) (la page existe, mais sans bouton «Suivre»)
-- [Ajouter Réformés aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.reformes.ch)
+- [Ajouter Réformés aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=reformes.ch)
 
 ### Ref-Éditions
 
 Pour les éditions chrétiennes de la Conférence des Églises romandes, j’ai trouvé:
 
 - [Suivre Ref-Éditions sur Google (Discover)](https://profile.google.com/cp/EhEKD3JlZi1lZGl0aW9ucy5jaA==)
-- [Ajouter Ref-Éditions aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://ref-editions.ch)
+- [Ajouter Ref-Éditions aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=ref-editions.ch)
 
 ### CIDOC
 
 Pour le Centre pour l’information et la documentation chrétiennes, j’ai trouvé:
 
 - [Suivre CIDOC sur Google (Discover)](https://profile.google.com/cp/EgoKCGNpZG9jLmNo) (la page existe, mais sans bouton «Suivre»)
-- [Ajouter CIDOC aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.cidoc.ch)
+- [Ajouter CIDOC aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=cidoc.ch)
 
 ### Hebdomadaire Réforme
 
 Pour le journal français Réforme, j’ai trouvé:
 
 - [Suivre Réforme sur Google (Discover)](https://profile.google.com/cp/EhEKD3d3dy5yZWZvcm1lLm5ldA==)
-- [Ajouter Réforme aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=https://www.reforme.net)
+- [Ajouter Réforme aux sources préférées (Recherche)](https://www.google.com/preferences/source?q=reforme.net)
 
 ## Commentaire
 
