@@ -2,7 +2,7 @@
 title: Google et Generative Engine Optimization (GEO)
 description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
-lastMod: 2026-06-04
+lastMod: 2026-07-01
 ---
 
 En ce printemps 2026, Google est accusé de casser le web.
@@ -92,8 +92,7 @@ Vous pouvez [me suivre sur Google](https://profile.google.com/cp/EhMKEW5pY29sYXN
 En principe, les prochaines publications devraient être poussées en avant dans le moteur de recherche ou les outils IA.
 Je ne sais pas ce que cela donne.
 
-Vous pouvez aussi configurer vos [sources préférées](https://www.google.com/preferences/source?q=https://nicolasfriedli.ch), ce que font plein de médias en panique.
-`nicolasfriedli.ch` n’y apparaît pas encore, parce qu’il est en pleine refonte.
+Vous pouvez aussi configurer vos [sources préférées](https://www.google.com/preferences/source), ce que font plein de médias en panique.
 
 ## En résumé
 
