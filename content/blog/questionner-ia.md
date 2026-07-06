@@ -1,6 +1,6 @@
 ---
 title: De la difficulté de questionner sur l’intelligence artificielle (IA)
-description: L’essor des intelligences artificielles génératives (LLM) pose des questions de pouvoir et de société. Ces enjeux méritent mieux des des questions l’adoption pratique et l’utilisation individuelle. 
+description: L’essor des intelligences artificielles génératives (LLM) pose des questions de pouvoir et de société. Ces enjeux méritent mieux que des questionnaires sur l’adoption pratique et l’utilisation individuelle. 
 date: 2026-07-06
 ---
 
