@@ -2,6 +2,7 @@
 title: Licence
 description: nicolasfriedli.ch est mis en ligne sous 2 licences libres. Elles sont permissives mais imposent aussi quelques contraintes.
 date: 2026-05-30
+lastMot: 2026-07-06
 aliases:
 - /licence
 ---
@@ -47,3 +48,12 @@ Un remerciement pour un code utile est toujours bienvenu, des propositions d’a
 Vous n’avez **pas le droit de publier une copie de nicolasfriedli.ch** à votre nom.
 Inspirez vous de tout ce qui vous semble pertinent, mais évitez le plagiat pur et simple.
 Vous n’avez rien à y gagner; moi non plus.
+
+## Intelligences artificielles génératives
+
+Les intelligences artificielles (IA) sont tenues de respecter ces licences et de citer leurs sources.
+Elles ne le feront pas.
+Les grands modèles de langage (LLM) ont pour principe essentiel de tout piller.
+Elles ne respectent rien ni personne.
+
+Cela ne m’empêchera pas de proposer des contenus et des sources en ligne par respect pour les internautes qui me lisent directement.
