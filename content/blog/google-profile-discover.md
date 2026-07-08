@@ -2,23 +2,14 @@
 title: Favoriser les Églises réformées de Suisse romande dans Google
 description: Avec Google Discover et les préférences de recherche, il est possible de rendre plus visibles des sites qui comptent à nos yeux. Voici quelques liens directs vers des présences protestantes réformées en ligne.
 date: 2026-06-16
-lastMod: 2026-07-01
+lastMod: 2026-07-08
 ---
 
 On voit de plus en plus de médias qui proposent un petit bouton pour s’abonner aux publications par Google.
-Quelque chose comme ce bouton:
+J’en ai ajouté un en pied de page de nicolasfriedli.ch.
+N’hésitez pas à l’utiliser si mes contenus vous intéressent.
 
-{{< figure
-  src="/images/google-sources.png"
-  alt="Ajouter en tant que source préférée sur Google"
-  caption="Le lien magique pour ajouter nicolasfriedli.ch dans vos sources préférées (s’ouvre dans une nouvelle fenêtre)."
-  link="https://www.google.com/preferences/source?q=nicolasfriedli.ch"
-  target="_blank"
-  width=338
-  height=106
->}}
-
-Il permet en général de se rendre sur la page de ses propres préférence pour favoriser certaines sources.
+Ce bouton permet de se rendre sur la page de ses propres préférence pour favoriser certaines sources.
 C’est, paraît-il, utile pour les internautes qui entament leur navigation par leur application Google.
 Les sites sélectionnés devraient y être plus visibles après un ajout.
 
@@ -28,6 +19,7 @@ Il existe 2 manières de favoriser certaines sources:
 - le lien de préférences permet d’ajouter des «sources préférées» pour personnaliser la recherche
 
 Comme la distinction est peu claire, si un site vous intéresse, cliquez sur les 2 liens et ajoutez-le dans les 2 contextes distincts.
+C’est pourquoi j’ai aussi ajouté un lien pour «me suivre sur Google» en pied de page.
 Il faut être connecté·e à son compte Google pour que cela fonctionne.
 
 Je connais bien le contexte du web protestant réformé de Suisse romande et me dis que des liens directs ont peut-être un intérêt.

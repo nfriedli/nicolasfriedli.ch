@@ -1,5 +1,5 @@
 ---
-title: La vitesse d'un site comme première clé de lecture
+title: La vitesse d’un site comme première clé de lecture
 description: 
 date: 2026-07-07
 draft: true
@@ -14,17 +14,17 @@ draft: true
 
 Pourquoi les organisations échouent?
 
-Parce qu'elles n'essaient pas.
+Parce qu’elles n’essaient pas.
 
-Pourquoi elles n'essaient pas?
+Pourquoi elles n’essaient pas?
 
-Parce qu'elles ne sont pas commerciales.
+Parce qu’elles ne sont pas commerciales.
 
 Et aussi:
 
-Parce qu'elles ne comprennent pas les enjeux.
+Parce qu’elles ne comprennent pas les enjeux.
 
-Pourtant, c'est un indicateur fiable.
+Pourtant, c’est un indicateur fiable.
 
 Au fond, que le site fonctionne bien est peu important, parce que seule son existence et son esthétique comptent.
 
@@ -34,20 +34,20 @@ Elles coûtent cher, donc pas de performance.
 
 Puis la performance est trop chère à ajouter.
 
-La demande de sacrifices n'est pas souhaitée, car faire plus et plus clinquant est plus facile.
+La demande de sacrifices n’est pas souhaitée, car faire plus et plus clinquant est plus facile.
 
-La lenteur est révélatrice d'une méconaissance des usages.
-Grave de la part d'organisations qui se veulent proche des gens.
+La lenteur est révélatrice d’une méconaissance des usages.
+Grave de la part d’organisations qui se veulent proche des gens.
 
 Refus du changement de paradigme, qui lui aussi est révélateur.
 
 Avec Jono Alderson, conserver la vitesse est un vrai défi qui dénote une santé organisationnelle.
 
 La lenteur est un obstacle pour les internautes et pour les systèmes.
-Vouloir briller à l'époque de l'IA avec un site lent est ridicule.
-Et ce n'est pas llms.txt qui changera quoi que ce soit.
+Vouloir briller à l’époque de l’IA avec un site lent est ridicule.
+Et ce n’est pas llms.txt qui changera quoi que ce soit.
 
-C'est le test global à faire.
+C’est le test global à faire.
 
 ----
 

@@ -36,7 +36,7 @@ On pouvait donc demander: Quelles IA utilisez-vous?
 - traduction automatique
 - autres
 
-Si ma supposition que l'enquête porte sur les LLM est correcte, il y a de nouveau un problème de vision monolithique des choses.
+Si ma supposition que l’enquête porte sur les LLM est correcte, il y a de nouveau un problème de vision monolithique des choses.
 Toutes les intelligences artificielles génératives sont traitées en un bloc.
 Sans aucune distinction entre ChatGPT, Gemini, Claude et les autres.
 Il y avait  moyen de demander quel système est utilisé et, surtout, comment il a été choisi.
@@ -94,7 +94,7 @@ C’est beaucoup trop riche pour essayer de le résumer.
 
 L’impression que ces 2 écoutes me laissent, c’est qu’il n’est plus permis de «traiter» ce sujet en quelques enjeux théoriques.
 Ni par un questionnaire rapide et sans questions difficiles.
-Ni de considérer qu'un tel enjeu collectif peut être étudié à l'échelle personnelle.
+Ni de considérer qu’un tel enjeu collectif peut être étudié à l’échelle personnelle.
 
 ----
 
