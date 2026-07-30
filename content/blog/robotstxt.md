@@ -1,7 +1,7 @@
 ---
 title: Remarques sur le fichier robots.txt en 2026
 description: Les directives de robots.txt ne sont pas respectées par certaines entreprises. Ce n’est pas une raison pour ne plus le proposer à celles qui jouent honnêtement le jeu.
-lastMod: 2026-07-10
+date: 2026-07-10
 ---
 
 Le fichier `robots.txt` reste intéressant envers et contre tout.
