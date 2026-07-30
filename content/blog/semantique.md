@@ -252,4 +252,4 @@ Il n’est pas certaine qu’elles seront utilisées.
 Mais il est sûr qu’elles sont complexes à produire.
 
 Finalement, je vous signale qu’un fichier `llms.txt` à la racine de votre site ne remplacera jamais un bon contenu.
-C’est probablement pour cette raisons que les IA ne l’utilisent simplement pas!
+C’est probablement pour cette raison que les IA ne l’utilisent simplement pas!
