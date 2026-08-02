@@ -2,6 +2,7 @@
 title: Vie privée & confidentialité des données
 description: Le respect de votre vie privée est total. Ce n’est pas du baratin, mais la réalité. Point final.
 date: 2026-06-03
+lastMod: 2026-08-02
 ---
 
 Le respect de votre vie privée est total.  
@@ -13,7 +14,7 @@ Point final.
 nicolasfriedli.ch n’utilise pas de statistiques.
 
 Mais je me réserve la possibilité d’activer des statistiques à des fin de tests.
-Elles seraient fournies par [Plausible](https://plausible.io/) et respecteraient votre vie privée:
+Elles sont fournies par [Plausible](https://plausible.io/) et respectent votre vie privée:
 
 - [Privacy policy](https://plausible.io/privacy)
 - [Data policy](https://plausible.io/data-policy)
@@ -34,7 +35,7 @@ Le seul moyen de s’abonner à nicolasfriedli.ch est l’utilisation anonyme du
 
 ## Services tiers
 
-nicolasfriedli.ch n’utilise pas de services tiers:
+nicolasfriedli.ch n’utilise pas de services tiers (sauf les statistiques vues précédemment):
 
 - lecteurs vidéo
 - lecteurs de podcasts
