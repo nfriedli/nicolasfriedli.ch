@@ -4,7 +4,7 @@ description: nicolasfriedli.ch est mis en ligne sous 2 licences libres. Elles s
 date: 2026-05-30
 lastMot: 2026-07-06
 aliases:
-- /licence
+- /license
 ---
 
 Le site nicolasfriedli.ch est mis en ligne sous 2 licences libres.
