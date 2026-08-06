@@ -30,7 +30,6 @@ User-agent: cohere-ai
 User-agent: Diffbot
 User-agent: FacebookBot
 User-agent: FriendlyCrawler
-User-agent: Google-CloudVertexBot
 User-agent: GPTBot
 User-agent: meta-externalads
 User-agent: meta-externalagent
