@@ -9,7 +9,7 @@
             "url": "https://nicolasfriedli.ch/",
             "description": "Consultant web à Neuchâtel (Suisse).",
             "publisher": {
-                "@id": "https://nicolasfriedli.ch/#professionalservice"
+                "@id": "https://nicolasfriedli.ch/#organization"
             },
             "author": {
                 "@id": "https://nicolasfriedli.ch/#person"
@@ -19,27 +19,6 @@
             }
         },
         {
-            "@type": "ProfessionalService",
-            "@id": "https://nicolasfriedli.ch/#professionalservice",
-            "name": "Nicolas Friedli",
-            "url": "https://nicolasfriedli.ch/",
-            "taxID": "CHE-469.715.163",
-            "logo": {
-                "@id": "https://nicolasfriedli.ch/#image"
-            },
-            "founder": {
-                "@id": "https://nicolasfriedli.ch/#person"
-            },
-            "address": {
-                "@id": "https://nicolasfriedli.ch/#address"
-            },
-            "email": "hello@nicolasfriedli.ch",
-            "telephone": [
-                "+41328414874",
-                "+41793443382"
-            ]
-        },
-        {
             "@type": "Person",
             "@id": "https://nicolasfriedli.ch/#person",
             "name": "Nicolas Friedli",
@@ -47,9 +26,70 @@
             "familyName": "Friedli",
             "alternateName": "NF",
             "jobTitle": "Consultant web",
-            "worksFor": {
-                "@id": "https://nicolasfriedli.ch/#professionalservice"
-            },
+            "worksFor": [
+                {
+                    "@id": "https://nicolasfriedli.ch/#organization"
+                },
+                {
+                    "@type": "EmployeeRole",
+                    "worksFor": {
+                        "@id": "https://www.eren.ch/#organization"
+                    },
+                    "roleName": "Co-responsable de la communication"
+                }
+            ],
+            "knowsAbout": [
+                {
+                    "@type": "Thing",
+                    "name": "Accessibilité (A11Y)",
+                    "sameAs": "https://www.wikidata.org/wiki/Q808932"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Architecture d’information",
+                    "sameAs": "https://www.wikidata.org/wiki/Q845921"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Communication institutionnelle",
+                    "sameAs": "https://www.wikidata.org/wiki/Q1426058"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Éco-conception numérique",
+                    "sameAs": "https://www.wikidata.org/wiki/Q795082"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Performance web (webperf)",
+                    "sameAs": "https://www.wikidata.org/wiki/Q7978612"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Référencement (SEO)",
+                    "sameAs": "https://www.wikidata.org/wiki/Q180711"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Rédaction web",
+                    "sameAs": "https://www.wikidata.org/wiki/Q624896"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Stratégie de contenu",
+                    "sameAs": "https://www.wikidata.org/wiki/Q185451"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Théologie protestante",
+                    "sameAs": "https://www.wikidata.org/wiki/Q1981734"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Web sémantique",
+                    "sameAs": "https://www.wikidata.org/wiki/Q54837"
+                }
+            ],
             "url": "https://nicolasfriedli.ch/",
             "email": "hello@nicolasfriedli.ch",
             "nationality": {
@@ -80,7 +120,8 @@
                 "https://github.com/nfriedli/",
                 "https://codeberg.org/nfriedli",
                 "https://frdl.ch/",
-                "https://mastodon.social/@frdlch"
+                "https://mastodon.social/@frdlch",
+                "https://www.eren.ch/annuaire/friedli-nicolas/"
             ]
         },
         {
@@ -96,8 +137,41 @@
             "@type": "ImageObject",
             "@id": "https://nicolasfriedli.ch/#image",
             "url": "https://nicolasfriedli.ch/images/nicolas-friedli-2026.jpg",
+            "contentUrl": "https://nicolasfriedli.ch/images/nicolas-friedli-2026.jpg",
             "width": 512,
-            "height": 512
+            "height": 512,
+            "caption": "Nicolas Friedli"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://nicolasfriedli.ch/#organization",
+            "name": "Nicolas Friedli",
+            "url": "https://nicolasfriedli.ch/",
+            "taxID": "CHE-469.715.163",
+            "image": {
+                "@id": "https://nicolasfriedli.ch/#image"
+            },
+            "logo": {
+                "@id": "https://nicolasfriedli.ch/#image"
+            },
+            "founder": {
+                "@id": "https://nicolasfriedli.ch/#person"
+            },
+            "address": {
+                "@id": "https://nicolasfriedli.ch/#address"
+            },
+            "email": "hello@nicolasfriedli.ch",
+            "telephone": [
+                "+41328414874",
+                "+41793443382"
+            ]
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://www.eren.ch/#organization",
+            "name": "EREN",
+            "alternateName": "Église réformée évangélique du canton de Neuchâtel",
+            "url": "https://www.eren.ch/"
         }
     ]
 }
