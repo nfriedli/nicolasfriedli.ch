@@ -2,10 +2,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ .Title }}",
-  "description": "{{ .Description | default .Summary }}",
+  "headline": "{{ .Title | jsonify }}",
+  "abstract": "{{ .Description | default .Summary | jsonify }}",
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05-07:00" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://nicolasfriedli.ch/#website"
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ .Permalink }}"
@@ -19,7 +23,11 @@
     "@id": "https://nicolasfriedli.ch/#person"
   },
   "publisher": {
-    "@id": "https://nicolasfriedli.ch/#professionalservice"
+    "@id": "https://nicolasfriedli.ch/#organization"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [ "article" ]
   }
 }
 </script>
