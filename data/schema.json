@@ -1,56 +1,103 @@
 {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https://nicolasfriedli.ch/#website",
-    "name": "Nicolas Friedli",
-    "alternateName": "NF",
-    "url": "https://nicolasfriedli.ch/",
-    "description": "Consultant web à Neuchâtel (Suisse).",
-    "publisher": {
-        "@type": "Person",
-        "@id": "https://nicolasfriedli.ch/#person",
-        "name": "Nicolas Friedli",
-        "givenName": "Nicolas",
-        "familyName": "Friedli",
-        "alternateName": "NF",
-        "jobTitle": "Consultant web",
-        "url": "https://nicolasfriedli.ch/",
-        "email": "hello@nicolasfriedli.ch",
-        "nationality": "Suisse",
-        "image": {
-            "@type": "ImageObject",
-            "url": "https://nicolasfriedli.ch/images/nicolas-friedli-2026.jpg",
-            "width": 512,
-            "height": 512
+    "@graph": [
+        {
+            "@type": "WebSite",
+            "@id": "https://nicolasfriedli.ch/#website",
+            "name": "Nicolas Friedli",
+            "alternateName": "NF",
+            "url": "https://nicolasfriedli.ch/",
+            "description": "Consultant web à Neuchâtel (Suisse).",
+            "publisher": {
+                "@id": "https://nicolasfriedli.ch/#organization"
+            },
+            "author": {
+                "@id": "https://nicolasfriedli.ch/#person"
+            },
+            "image": {
+                "@id": "https://nicolasfriedli.ch/#image"
+            }
         },
-        "address": {
+        {
+            "@type": "Organization",
+            "@id": "https://nicolasfriedli.ch/#organization",
+            "name": "Nicolas Friedli",
+            "url": "https://nicolasfriedli.ch/",
+            "taxID": "CHE-469.715.163",
+            "logo": {
+                "@id": "https://nicolasfriedli.ch/#image"
+            },
+            "founder": {
+                "@id": "https://nicolasfriedli.ch/#person"
+            },
+            "address": {
+                "@id": "https://nicolasfriedli.ch/#address"
+            },
+            "email": "hello@nicolasfriedli.ch",
+            "telephone": [
+                "+41328414874",
+                "+41793443382"
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://nicolasfriedli.ch/#person",
+            "name": "Nicolas Friedli",
+            "givenName": "Nicolas",
+            "familyName": "Friedli",
+            "alternateName": "NF",
+            "jobTitle": "Consultant web",
+            "worksFor": {
+                "@id": "https://nicolasfriedli.ch/#organization"
+            },
+            "url": "https://nicolasfriedli.ch/",
+            "email": "hello@nicolasfriedli.ch",
+            "nationality": {
+                "@type": "Country",
+                "name": "CH"
+            },
+            "image": {
+                "@id": "https://nicolasfriedli.ch/#image"
+            },
+            "address": {
+                "@id": "https://nicolasfriedli.ch/#address"
+            },
+            "telephone": [
+                "+41328414874",
+                "+41793443382"
+            ],
+            "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "Université de Neuchâtel",
+                "url": "https://www.unine.ch/"
+            },
+            "spouse": {
+                "@type": "Person",
+                "name": "Diane Friedli",
+                "url": "https://dianefriedli.ch/"
+            },
+            "sameAs": [
+                "https://github.com/nfriedli/",
+                "https://codeberg.org/nfriedli",
+                "https://frdl.ch/",
+                "https://mastodon.social/@frdlch"
+            ]
+        },
+        {
             "@type": "PostalAddress",
+            "@id": "https://nicolasfriedli.ch/#address",
             "streetAddress": "Rue du Château 3",
             "postalCode": "2013",
             "addressLocality": "Colombier",
             "addressRegion": "Neuchâtel",
             "addressCountry": "CH"
         },
-        "telephone": [
-            "+41328414874",
-            "+41793443382"
-        ],
-        "alumniOf": {
-            "@type": "CollegeOrUniversity",
-            "name": "Université de Neuchâtel"
-        },
-        "spouse": {
-            "@type": "Person",
-            "name": "Diane Friedli",
-            "url": "https://dianefriedli.ch/"
-        },
-        "sameAs": [
-            "https://github.com/nfriedli/",
-            "https://codeberg.org/nfriedli",
-            "https://frdl.ch/"
-        ]
-    },
-    "author": {
-        "@id": "https://nicolasfriedli.ch/#person"
-    }
+        {
+            "@type": "ImageObject",
+            "@id": "https://nicolasfriedli.ch/#image",
+            "url": "https://nicolasfriedli.ch/images/nicolas-friedli-2026.jpg",
+            "width": 512,
+            "height": 512
+        }
+    ]
 }
