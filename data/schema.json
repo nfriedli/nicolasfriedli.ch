@@ -9,7 +9,7 @@
             "url": "https://nicolasfriedli.ch/",
             "description": "Consultant web à Neuchâtel (Suisse).",
             "publisher": {
-                "@id": "https://nicolasfriedli.ch/#organization"
+                "@id": "https://nicolasfriedli.ch/#professionalservice"
             },
             "author": {
                 "@id": "https://nicolasfriedli.ch/#person"
@@ -19,8 +19,8 @@
             }
         },
         {
-            "@type": "Organization",
-            "@id": "https://nicolasfriedli.ch/#organization",
+            "@type": "ProfessionalService",
+            "@id": "https://nicolasfriedli.ch/#professionalservice",
             "name": "Nicolas Friedli",
             "url": "https://nicolasfriedli.ch/",
             "taxID": "CHE-469.715.163",
@@ -48,13 +48,13 @@
             "alternateName": "NF",
             "jobTitle": "Consultant web",
             "worksFor": {
-                "@id": "https://nicolasfriedli.ch/#organization"
+                "@id": "https://nicolasfriedli.ch/#professionalservice"
             },
             "url": "https://nicolasfriedli.ch/",
             "email": "hello@nicolasfriedli.ch",
             "nationality": {
                 "@type": "Country",
-                "name": "CH"
+                "name": "Suisse"
             },
             "image": {
                 "@id": "https://nicolasfriedli.ch/#image"
