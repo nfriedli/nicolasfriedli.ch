@@ -6,6 +6,7 @@
             "@id": "https://nicolasfriedli.ch/#webpage",
             "url": "https://nicolasfriedli.ch/",
             "name": "Nicolas Friedli — Consultant web à Neuchâtel",
+            "inLanguage": "fr",
             "isPartOf": {
                 "@id": "https://nicolasfriedli.ch/#website"
             },
@@ -23,6 +24,7 @@
             "alternateName": "NF",
             "url": "https://nicolasfriedli.ch/",
             "description": "Consultant web à Neuchâtel (Suisse).",
+            "inLanguage": "fr",
             "publisher": {
                 "@id": "https://nicolasfriedli.ch/#organization"
             },
