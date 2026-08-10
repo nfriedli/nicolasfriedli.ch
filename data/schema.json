@@ -126,19 +126,45 @@
             "alumniOf": {
                 "@type": "CollegeOrUniversity",
                 "name": "Université de Neuchâtel",
-                "url": "https://www.unine.ch/"
+                "url": "https://www.unine.ch/",
+                "sameAs": "https://www.wikidata.org/wiki/Q541548"
             },
+            "hasCredential": [
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "degree",
+                    "name": "Master en théologie",
+                    "recognizedBy": {
+                        "@type": "CollegeOrUniversity",
+                        "name": "Université de Neuchâtel"
+                    }
+                }
+            ],
             "spouse": {
                 "@type": "Person",
                 "name": "Diane Friedli",
                 "url": "https://dianefriedli.ch/"
             },
+            "children": [
+                {
+                    "@type": "Person",
+                    "name": "Lucien Friedli"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Clémence Friedli"
+                }
+            ],
+            "gender": "male",
+            "pronouns": "il/lui/he/him",
             "sameAs": [
                 "https://github.com/nfriedli/",
                 "https://codeberg.org/nfriedli",
                 "https://frdl.ch/",
                 "https://mastodon.social/@frdlch",
-                "https://www.eren.ch/annuaire/friedli-nicolas/"
+                "https://www.eren.ch/annuaire/friedli-nicolas/",
+                "https://gravatar.com/nfriedli",
+                "https://bsky.app/profile/nicolasfriedli.ch"
             ]
         },
         {
