@@ -1,44 +1,4 @@
-# Moteurs de recherche sans intérêt pour mon site
-User-agent: 360Spider
-User-agent: Baidu
-User-agent: Baiduspider
-User-agent: PetalBot
-User-agent: SeznamBot
-User-agent: Shenma
-User-agent: Sogou web spider
-User-agent: Yandex
-Disallow: /
-
-# Outils SEO
-User-agent: AhrefsBot
-User-agent: AhrefsSiteAudit
-User-agent: DotBot
-User-agent: MJ12bot
-User-agent: SemrushBot
-User-agent: SemrushBot-SA
-Disallow: /
-
-# Bots IA
-User-agent: Ai2Bot
-User-agent: Amazonbot
-User-agent: anthropic-ai
-User-agent: Applebot-Extended
-User-agent: Bytespider
-User-agent: CCBot
-User-agent: ClaudeBot
-User-agent: cohere-ai
-User-agent: Diffbot
-User-agent: FacebookBot
-User-agent: FriendlyCrawler
-User-agent: GPTBot
-User-agent: meta-externalads
-User-agent: meta-externalagent
-User-agent: meta-externalfetcher
-User-agent: meta-webindexer
-User-agent: OAI-AdsBot
-User-agent: Omgili
-User-agent: PerplexityBot
-User-agent: YouBot
-Disallow: /
+# Déblocage temporaire de tous les bots pour voir leur activité dans les logs
+# Infos sur: https://nicolasfriedli.ch/blog/robotstxt/
 
 Sitemap: https://nicolasfriedli.ch/sitemap.xml
