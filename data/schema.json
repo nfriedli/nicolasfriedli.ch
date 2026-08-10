@@ -2,6 +2,21 @@
     "@context": "https://schema.org",
     "@graph": [
         {
+            "@type": "WebPage",
+            "@id": "https://nicolasfriedli.ch/#webpage",
+            "url": "https://nicolasfriedli.ch/",
+            "name": "Nicolas Friedli — Consultant web à Neuchâtel",
+            "isPartOf": {
+                "@id": "https://nicolasfriedli.ch/#website"
+            },
+            "about": {
+                "@id": "https://nicolasfriedli.ch/#person"
+            },
+            "mainEntity": {
+                "@id": "https://nicolasfriedli.ch/#person"
+            }
+        },
+        {
             "@type": "WebSite",
             "@id": "https://nicolasfriedli.ch/#website",
             "name": "Nicolas Friedli",
