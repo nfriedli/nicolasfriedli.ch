@@ -15,7 +15,7 @@ Mais elles imposent aussi des contraintes.
 
 **Les contenus sont publiés sous licence Creative Commons BY-SA.**
 
-Ce qui signifie que vous vous avec le devoir de:
+Ce qui signifie que vous avez le devoir de:
 
 - citer l’auteur initial (Nicolas Friedli ou nicolasfriedli.ch)
 - diffuser vos propres contenus dérivés aux mêmes conditions
