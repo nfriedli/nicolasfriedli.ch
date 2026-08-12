@@ -2,29 +2,13 @@
     "@context": "https://schema.org",
     "@graph": [
         {
-            "@type": "WebPage",
-            "@id": "https://nicolasfriedli.ch/#webpage",
-            "url": "https://nicolasfriedli.ch/",
-            "name": "Nicolas Friedli — Consultant web à Neuchâtel",
-            "inLanguage": "fr",
-            "isPartOf": {
-                "@id": "https://nicolasfriedli.ch/#website"
-            },
-            "about": {
-                "@id": "https://nicolasfriedli.ch/#person"
-            },
-            "mainEntity": {
-                "@id": "https://nicolasfriedli.ch/#person"
-            }
-        },
-        {
             "@type": "WebSite",
             "@id": "https://nicolasfriedli.ch/#website",
             "name": "Nicolas Friedli",
             "alternateName": "NF",
             "url": "https://nicolasfriedli.ch/",
             "description": "Consultant web à Neuchâtel (Suisse).",
-            "inLanguage": "fr",
+            "inLanguage": "fr-CH",
             "publisher": {
                 "@id": "https://nicolasfriedli.ch/#organization"
             },
@@ -41,20 +25,10 @@
             "name": "Nicolas Friedli",
             "givenName": "Nicolas",
             "familyName": "Friedli",
-            "alternateName": "NF",
             "jobTitle": "Consultant web",
-            "worksFor": [
-                {
-                    "@id": "https://nicolasfriedli.ch/#organization"
-                },
-                {
-                    "@type": "EmployeeRole",
-                    "worksFor": {
-                        "@id": "https://www.eren.ch/#organization"
-                    },
-                    "roleName": "Co-responsable de la communication"
-                }
-            ],
+            "worksFor": {
+                "@id": "https://nicolasfriedli.ch/#organization"
+            },
             "knowsAbout": [
                 {
                     "@type": "Thing",
@@ -129,35 +103,6 @@
                 "url": "https://www.unine.ch/",
                 "sameAs": "https://www.wikidata.org/wiki/Q541548"
             },
-            "hasCredential": [
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "credentialCategory": "degree",
-                    "name": "Master en théologie",
-                    "recognizedBy": {
-                        "@type": "CollegeOrUniversity",
-                        "name": "Université de Neuchâtel"
-                    }
-                }
-            ],
-            "spouse": {
-                "@type": "Person",
-                "name": "Diane Friedli",
-                "alternateName": "Diane de Montmollin",
-                "url": "https://dianefriedli.ch/"
-            },
-            "children": [
-                {
-                    "@type": "Person",
-                    "name": "Lucien Friedli"
-                },
-                {
-                    "@type": "Person",
-                    "name": "Clémence Friedli"
-                }
-            ],
-            "gender": "male",
-            "pronouns": "il/lui/he/him",
             "sameAs": [
                 "https://github.com/nfriedli/",
                 "https://codeberg.org/nfriedli",
@@ -209,13 +154,6 @@
                 "+41328414874",
                 "+41793443382"
             ]
-        },
-        {
-            "@type": "Organization",
-            "@id": "https://www.eren.ch/#organization",
-            "name": "EREN",
-            "alternateName": "Église réformée évangélique du canton de Neuchâtel",
-            "url": "https://www.eren.ch/"
         }
     ]
 }
