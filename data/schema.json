@@ -132,7 +132,7 @@
             "caption": "Nicolas Friedli"
         },
         {
-            "@type": "Organization",
+            "@type": "LocalBusiness",
             "@id": "https://nicolasfriedli.ch/#organization",
             "name": "Nicolas Friedli",
             "url": "https://nicolasfriedli.ch/",
