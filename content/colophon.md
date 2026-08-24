@@ -2,6 +2,7 @@
 title: À propos de ce site (colophon)
 description: Des informations sur ce site, les outils utilisés, les choix stratégiques et les résultats. Dans l’édition, on parle de colophon.
 date: 2026-06-03
+lastMod: 2026-08-24
 ---
 
 Ce site est simple et efficace.
@@ -10,6 +11,9 @@ Je ne suis pas opposé à l’utilisation d’images, à condition qu’elles ap
 
 nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 Le site actuellement en ligne a été compilé avec la version {{< version >}}.
+
+Les polices d’écriture sont Geist et Geist Mono, développées par Vercel, telles que fournies par Google Fonts et installées localement.
+J’en parle dans [Test de web fonts avec Geist et Geist Mono](/blog/geist/).
 
 Ses sources sont disponibles dans un [dépôt GitHub public](https://github.com/nfriedli/nicolasfriedli.ch/).
 Elles permettent de voir le contenu des pages avant compilation (Markdown), la configuration d’Hugo et de suivre l’ensemble des évolutions.

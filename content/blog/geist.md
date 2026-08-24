@@ -25,7 +25,7 @@ Ou encore l’analyse de l’excellent Oliver Schöndorfer: [Geist chez Pimp my 
 
 Dans un premier temps (commit [a536d60](https://github.com/nfriedli/nicolasfriedli.ch/commit/a536d6037670c62d0027c6ff0e1c5e1d1fe6ba89)), j’ai fait ce qu’il y a de plus classique:
 
-- utilisation des fichiers woff2 variables fournis par Vercel (plutôt légers)
+- utilisation des fichiers `woff2` variables fournis par Vercel (plutôt légers)
 - fichiers renommés (`g` et `gi` pour Geist et son italique; `gm` et `gmi` pour `Geist Mono` et son italique)
 - préchargement des 4 polices dans l’entête de la page
 - `font-display: swap`
@@ -106,8 +106,6 @@ Mais avec un risque de ne pas voir les polices choisies dans quelques cas.
 
 Si je voulais des performances maximales, je ne chargerais tout simplement pas de fichiers externes, même légers.
 
-
-
 ## Solution actuelle
 
 Sur le site que vous visitez, dans l’idée de garder un site ultra performant, j’ai [testé](https://github.com/nfriedli/nicolasfriedli.ch/commit/4cdd314be116a1eac9000d1a96a7250441041eba):
@@ -141,7 +139,7 @@ Suite à ce billet de tests, j’en reviens à des polices locales.
 Le commit [77d0ac0](https://github.com/nfriedli/nicolasfriedli.ch/commit/77d0ac0b591dc7186a326f3ec191a2f25ed15de5) documente le retour.
 
 Si vous installez Geist et `Geist Mono` sur votre périphérique, ce sont elles qui s’afficheront en priorité, selon la logique du «font stack».
-Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/releases/tag/v1.7.2) sont plus à jour que celles disponibles sur Google Fonts.
+Les [versions officielles sur GitHub](https://github.com/vercel/geist-font/releases/tag/v1.7.2) sont parfois plus à jour que celles disponibles sur Google Fonts.
 
 Sinon, j’espère avoir bien fait les choses pour vous proposer un site lisible sans le moindre chargement de police, quelles que soient les fichiers disponibles sur votre propre périphérique.
 
