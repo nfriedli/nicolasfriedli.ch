@@ -48,3 +48,28 @@ time {
     font-weight: 100 900;
     src: url(/fonts/gmi.woff2) format("woff2");
 }
+
+/* Fraunces au besoin...
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: "Fraunces", var(--sans-serif);
+    }
+
+    @font-face {
+        font-display: optional;
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 100 900;
+        src: url(/fonts/f.woff2) format("woff2");
+    }
+
+    @font-face {
+        font-display: optional;
+        font-family: "Fraunces";
+        font-style: italic;
+        font-weight: 100 900;
+        src: url(/fonts/fi.woff2) format("woff2");
+    } 
+*/
