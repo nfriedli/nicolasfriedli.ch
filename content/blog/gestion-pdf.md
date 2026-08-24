@@ -15,7 +15,7 @@ Et dans web archive
 
 
 
-## Gestion de l'indexation non triviale
+## Gestion de l’indexation non triviale
 
 Pas de directives meta robots
 

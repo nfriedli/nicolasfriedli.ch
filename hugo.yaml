@@ -44,10 +44,14 @@ menus:
   main:
     - pageRef: /
       weight: 10
-    - pageRef: /blog
+    - pageRef: /blog/
       weight: 20
-    - pageRef: /contact
-      weight: 30
+#    - pageRef: /rss-club/
+#      weight: 30
+#    - pageRef: /qr-club/
+#      weight: 40
+    - pageRef: /contact/
+      weight: 50
 
 minify:
   minifyOutput: true

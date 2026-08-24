@@ -1,11 +1,11 @@
 --- 
-title: Polices d'écriture préférées
+title: Polices d’écriture préférées
 description: 
 date: 2026-08-03
 draft: true
 ---
 
-Idée, lister des polices que j'aimerais savoir installées un peu partout (au moins une de chaque liste...).
+Idée, lister des polices que j’aimerais savoir installées un peu partout (au moins une de chaque liste...).
 
 Pas les meilleures, mais celles qui couvrent 80% des besoins.
 
