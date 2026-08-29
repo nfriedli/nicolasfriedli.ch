@@ -1,14 +1,17 @@
 ---
 title: POSSE pour partager du contenu dans les règles de l’art
-description: 
-date: 2026-08-28
-draft: true
+description: Publier sur son propre site, puis partager partout où on le souhaite. Sans obligation, sans pression, mais en ayant assuré ses arrières.
+date: 2026-08-29
 ---
 
-POSSE sinifie Publish (on your) Own Site, Syndicate Elsewhere.
-En français: Publie sur ton propre site et partage partout ailleurs.
+POSSE signifie *Publish (on your) Own Site, Syndicate Elsewhere*.
+On pourrait traduire cet acronyme par: *Publie sur ton propre site et partage partout ailleurs*.
 
-[Ni POSSE, ni Facebook: un blog, simplement](https://tcrouzet.com/2026/03/26/digital-freedom/):
+C’est une idée que je défends depuis très longtemps.
+Je soutenais cette manière de faire quand les réseaux sociaux sont arrivés.
+Aujourd’hui, les [réseaux prétendument sociaux](/blog/reseau-sociaux/) sont [merdifiés](/blog/merdification/), mais ce n’est pas une raison pour abandonner les bonnes pratiques.
+
+Lorsque Thierry Crouzet a publié [Ni POSSE, ni Facebook: un blog, simplement](https://tcrouzet.com/2026/03/26/digital-freedom/), je me suis étonné de sa position:
 
 > L’idée est simple: on publie chez soi, puis on diffuse partout ailleurs où c’est possible. [...]
 >
@@ -16,19 +19,22 @@ En français: Publie sur ton propre site et partage partout ailleurs.
 
 Je ne comprends pas du tout POSSE ainsi.
 Pour moi, ce n’est pas une injonction à publier partout ni par tous les moyens.
+Cette manière de poster ne pose aucune exigence d’automatisation (cross-posting) ou de foisonnement des partages.
 
-Aucune exigence d’automatisation (cross-posting)
-
-POSSE est plutôt une condition minimale, un point de départ:
+POSSE est plutôt une condition minimale, un point de départ.
+Je le définirais ainsi:
 
 > Une fois qu’un contenu a été publié sur son propre site, il *peut* être relayé partout (sans risque).
 
-Donc, jamais de contenu exclusivement publiés sur un site privateur.
-Ou, dit autrement, tout ce qui est publié sur un nom de domaine sur lequel je n’ai pas la maîtrise doit aussi être disponible sur mon site.
+En conséquence, je ne propose jamais de contenu uniquement sur des sites privateurs et à l’éthique douteuse.
+Ou, dit autrement, tout ce qui est publié sur un nom de domaine sur lequel je n’ai pas la maîtrise doit aussi (et avant tout) être disponible sur mon site.
 
-L’enjeu de POSSE est la question de la propriété du contenu, pas du nombre d’endroits de diffusion.
+L’enjeu de POSSE porte donc sur la question de la propriété du contenu, pas sur l’ampleur de la diffusion.
 
-Comme le comprend Crouzet, ça fout la pression.
-Comme je le comprends, c’est libérateur.
+L’interprétation de Thierry Crouzet met la pression et pousse à l’excès.
+Ma compréhension de POSSE est libératrice.
 
-Ensuite, tout est permis (à défaut d’être bien): partage sur les réseaux sociaux, chaîne WhatsApp, newsletter, etc.
+La publication sur mon nom de domaine ouvre des possibles, sans rien imposer.
+Ensuite, tout est permis (mais tout n’est pas forcément bon): partage sur des réseaux sociaux, des messageries instantanées, des chaînes WhatsApp, des lettres de nouvelles (newsletters), d’autres sites, etc.
+
+Quand on a assuré ses arrières, il est plus acceptable de proposer son contenu dans des endroits peu recommandables.
