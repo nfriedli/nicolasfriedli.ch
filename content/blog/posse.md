@@ -38,3 +38,7 @@ La publication sur mon nom de domaine ouvre des possibles, sans rien imposer.
 Ensuite, tout est permis (mais tout n’est pas forcément bon): partage sur des réseaux sociaux, des messageries instantanées, des chaînes WhatsApp, des lettres de nouvelles (newsletters), d’autres sites, etc.
 
 Quand on a assuré ses arrières, il est plus acceptable de proposer son contenu dans des endroits peu recommandables.
+
+---
+
+Je vous suggère de poursuivre avec Nicolas Hoizey dans sa conférence [Ne vous laissez plus déPOSSEder de vos contenus!](https://www.paris-web.fr/2019/conference/ne-vous-laissez-plus-deposseder-de-vos-contenus)
