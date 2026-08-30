@@ -2,7 +2,7 @@
 title: Google et Generative Engine Optimization (GEO)
 description: Google relativise les consignes spécifiques au GEO et conseille d’appliquer les conseils classiques du SEO. Dans un même temps, il casse le web tout en se reposant sur des techniques éprouvées.
 date: 2026-06-02
-lastMod: 2026-07-01
+lastMod: 2026-08-30
 ---
 
 En ce printemps 2026, Google est accusé de casser le web.
@@ -88,11 +88,13 @@ C’est plutôt juste.
 
 Si vous ne voulez toujours pas [passer aux flux RSS](/blog/rss-introduction/) (c’est votre problème) ou changer de moteur de recherche, il reste des possibilités.
 
-Vous pouvez [me suivre sur Google](https://profile.google.com/cp/EhMKEW5pY29sYXNmcmllZGxpLmNo) en cliquant sur la page de profil de ce site.
+Vous pouvez suivre des sites sur Google par des pages de profil.
+J’en propose une petite liste dans [Favoriser les Églises réformées de Suisse romande dans Google](/blog/google-profile-discover/).
 En principe, les prochaines publications devraient être poussées en avant dans le moteur de recherche ou les outils IA.
 Je ne sais pas ce que cela donne.
 
 Vous pouvez aussi configurer vos [sources préférées](https://www.google.com/preferences/source), ce que font plein de médias en panique.
+J’ai ajouté un bouton en bas de ce site si vous souhaitez essayer.
 
 ## En résumé
 
