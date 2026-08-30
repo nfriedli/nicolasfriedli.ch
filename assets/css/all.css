@@ -73,3 +73,21 @@ time {
         src: url(/fonts/fi.woff2) format("woff2");
     } 
 */
+
+/* Literata au besoin...
+    @font-face {
+    font-family: "Literata";
+    font-style: regular;
+    font-weight: 200 900;
+    font-display: swap;
+    src: url(/fonts/l.woff2) format("woff2");
+    }
+
+    @font-face {
+    font-family: "Literata";
+    font-style: italic;
+    font-weight: 200 900;
+    font-display: swap;
+    src: url(/fonts/li.woff2) format("woff2");
+    }
+*/
