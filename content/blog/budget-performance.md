@@ -26,7 +26,7 @@ Il s’agit de bien utiliser ce qui est accordé (voire de «dépenser» moins) 
 Concrètement, voici comment appliquer un budget de performance avec [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/):
 
 ```
-npx lighthouse https://nicolasfriedli.ch/webperf/budget-performance/ \
+npx lighthouse https://nicolasfriedli.ch/ \
     --budget-path=budget.json \
     --view \
     --only-categories=performance
@@ -57,8 +57,8 @@ Avec un budget défini dans un fichier JSON (mise en forme compacte):
     ],
     "resourceCounts": [
       {"resourceType": "total", "budget": 10},
-      {"resourceType": "font", "budget": 10},
-      {"resourceType": "image", "budget": 10},
+      {"resourceType": "font", "budget": 4},
+      {"resourceType": "image", "budget": 4},
       {"resourceType": "media", "budget": 0},
       {"resourceType": "other", "budget": 2},
       {"resourceType": "script", "budget": 2},
