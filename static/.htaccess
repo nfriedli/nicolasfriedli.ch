@@ -45,7 +45,7 @@ Header unset Pragma
 Header unset Last-Modified
 
 # Cache général
-<filesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp|avif)$">
+<filesMatch "\.(jpg|jpeg|png|gif|ico|svg|webp|avif|webmanifest)$">
 Header set Cache-Control "max-age=31536000,public"
 </filesMatch>
 
