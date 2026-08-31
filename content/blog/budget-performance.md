@@ -178,3 +178,7 @@ Celles et ceux qui créent des sites en militant pour l’écologie devraient au
 La question du temps de chargement ne sera pas forcément leur priorité.
 Mais le nombre de ressources et leur taille sont en lien direct avec la consommation du site.
 Et la performance suivra s’il est très léger.
+
+----
+
+Pour quelques tests simples, applicables sans délai par tous les internautes, je vous recommande mon billet [Tester un site web](/blog/tester-site/).
