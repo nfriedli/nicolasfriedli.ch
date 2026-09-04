@@ -17,6 +17,7 @@ time {
     font-variant-ligatures: none;
 }
 
+/*  Geist est prêt
 @font-face {
     font-display: optional;
     font-family: "Geist";
@@ -48,6 +49,7 @@ time {
     font-weight: 100 900;
     src: url(/fonts/gmi.woff2) format("woff2");
 }
+*/
 
 /* Fraunces au besoin...
     h1,
