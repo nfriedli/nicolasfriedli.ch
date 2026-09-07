@@ -2,6 +2,7 @@
 title: Suppression de human.json
 description: human.json est un protocole léger pour affirmer que des sites sont bien tenus par des personnes et humaniser le web. C’est un outil simple et clair, mais il ne me semble ni pertinent dans la durée, ni utilisé.
 date: 2026-06-12
+lastMod: 2026-09-07
 ---
 
 `human.json` est un protocole léger pour affirmer que des sites sont bien tenus par des personnes et humaniser le web.
@@ -74,3 +75,12 @@ En second lieu, c’est de proposer un [blogroll](/blogroll/) de sites que l’o
 Toutes les autres solutions ne sont, au final, que des artifices techniques, parfois élégants, rarement efficaces.
 Beaucoup suscitent de petit enthousiasme de geeks, peu s’imposent.
 Il faut avoir l’honnêteté d’abandonner l’inutile, mais quand c’est simple et léger.
+
+----
+
+D’autres personnes sont moins sévères que moi sur cette idée, et non des moindres:
+
+- [sebsauvage](https://sebsauvage.net/links/?Su9AaQ)
+- [Ploum](https://mastodon.social/@ploum@mamot.fr/117211762579946225)
+
+Vais-je changer d’avis?
