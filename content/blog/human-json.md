@@ -61,7 +61,7 @@ Mais, parce qu’il y a bien un «mais», je n’ai presque jamais vu de ronds a
 Personne ou presque ne l’utilise.
 Je suis donc très réservé à ce qu’il nécessite le développement d’une «application», sa mise à jour, etc. pour quelque chose qui ne trouve pas son public.
 
-Et surtout, je me sens peu à l’aise de signifier la responsabilité humaine de site dont je ne m’occupe pas.
+Et surtout, je me sens peu à l’aise de signifier la responsabilité humaine de sites dont je ne m’occupe pas.
 Je n’ai aucune idée de la manière réelle de générer ces sites.
 Je ne peux pas m’engager sur les pratiques futures.
 
