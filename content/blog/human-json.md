@@ -84,3 +84,7 @@ D’autres personnes sont moins sévères que moi sur cette idée, et non des mo
 - [Ploum](https://mastodon.social/@ploum@mamot.fr/117211762579946225)
 
 Vais-je changer d’avis?
+
+----
+
+Ou faut-il investiguer du côté de [Wander](https://codeberg.org/susam/wander#readme) par Susam Pal?
