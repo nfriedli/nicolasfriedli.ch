@@ -2,6 +2,7 @@
 title: Blogroll
 description: Sélection des sites personnels que j’apprécie et consulte régulièrement. Je suis les blogs dans mon agrégateur de flux RSS et Atom.
 date: 2026-05-30
+lastMod: 2026-09-09
 ---
 
 Sélection des sites personnels que j’apprécie et consulte régulièrement.
@@ -66,7 +67,6 @@ Et il faut mettre l’accent sur ceux qui comptent le plus à mes yeux.
 - [Jérôme Grandet](https://jeromeg.ch/)
 - [Elio Jaillet](https://eliojaillet.ch/)
 - [Armin Kressmann](https://ethikos.ch/)
-- [Jean-Marc Leresche](https://jeanmarcleresche.ch/)
 - [Aurélie Netz](https://aurelienetz.ch/)
 - [James Woody](https://espritdeliberte.leswoody.net/)
 
