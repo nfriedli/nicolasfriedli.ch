@@ -16,6 +16,8 @@ noBuildLock: true
 copyright: Creative Commons BY-SA
 
 build:
+  cleanDestinationDir: 
+    enable: true
   writeStats: false
 
 frontmatter:
