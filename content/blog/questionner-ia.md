@@ -2,7 +2,7 @@
 title: De la difficulté de questionner sur l’intelligence artificielle (IA)
 description: L’essor des intelligences artificielles génératives (LLM) pose des questions de pouvoir et de société. Ces enjeux méritent mieux que des questionnaires sur l’adoption pratique et l’utilisation individuelle. 
 date: 2026-07-06
-lastMod: 2026-07-07
+lastMod: 2026-09-29
 ---
 
 La semaine dernière, j’ai été chargé de diffuser un questionnaire sur l’utilisation des intelligences artificielles (IA) au sein d’un corps de métier.
@@ -99,3 +99,8 @@ Ni de considérer qu’un tel enjeu collectif peut être étudié à l’échell
 ----
 
 J’ai profité de cette journée pour ajouter une [slash page](/slashes) à l’adresse [/ia](/ia) de ce site.
+
+----
+
+L’article [Le personnel ecclésial mitigé sur l’intérêt de l’IA](https://www.reformes.ch/eglises/2026/09/le-personnel-ecclesial-mitige-sur-linteret-de-lia-intelligence-artificielle-eglise) présente les résultats de ce sondage.
+Tout commentaire me paraît inutile...
