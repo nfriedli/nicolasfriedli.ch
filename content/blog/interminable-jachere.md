@@ -79,7 +79,7 @@ De qui se moque-t-on?
 
 ## Fin des opérations
 
-J’avais réactivé (techniquement) un Pure Blog sur theologique.ch, il y a 2 semaines.
+J’avais réactivé (techniquement) un [Pure Blog](/blog/pure-blog/) sur theologique.ch, il y a 2 semaines.
 Mes dernières lectures m’ont montré que ça ne valait pas la peine d’y écrire.
 Avec mes excuses pour celles et ceux qui croient toujours en sa résurrection...
 
