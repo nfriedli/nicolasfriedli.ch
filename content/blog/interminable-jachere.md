@@ -5,8 +5,8 @@ date: 2026-09-29
 lastMod: 2026-10-01
 aliases: 
     - /interminable-jachere/
-build:
-    list: never
+#build:
+#    list: never
 ---
 
 Cela fait des mois que je ne publie plus rien sur theologique.ch.

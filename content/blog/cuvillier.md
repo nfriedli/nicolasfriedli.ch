@@ -5,8 +5,8 @@ date: 2026-09-30
 lastMod: 2026-10-01
 aliases: 
     - /cuvillier/
-build:
-    list: never
+#build:
+#   list: never
 ---
 
 🗃️ Ce billet a été publié sur une tentative de redémarrage de theologique.ch.
