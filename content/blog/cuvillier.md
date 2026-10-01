@@ -74,7 +74,8 @@ Ou alors tout est question de distinction (fumeuse) entre l’homme et l’œuvr
 J'en parlais sur ce blog dans [Une (inter)minable jachère](/blog/interminable-jachere/)
 
 Quelle tristesse.  
-Quelle honte.
+Quelle honte.  
+🤮
 
 ----
 
