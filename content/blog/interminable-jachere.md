@@ -52,9 +52,9 @@ Super.
 
 ## Prophylaxie
 
-Puis dans la [newsletter des liens du CIDOC](https://cidoc.ch/component/acym/archive/171-liens-reperes-durant-la-semaine-du-21-septembre?tmpl=component), je lis (et je souligne):
+Puis dans la [newsletter des liens du CIDOC](https://cidoc.ch/component/acym/archive/171-liens-reperes-durant-la-semaine-du-21-septembre?tmpl=component) (Centre pour l'information et la documentation chrétiennes), je lis (et je souligne):
 
-> Le même Jérôme Grandet poursuit également la publication de ses thèses théologiques **(sauf erreur, il s’agit de théologie libérale)** [...]
+> Le même [Jérôme Grandet](https://jeromeg.ch/) poursuit également la publication de ses thèses théologiques **(sauf erreur, il s’agit de théologie libérale)** [...]
 
 Pourquoi cette incise.
 Pourquoi préciser que ce serait de la *théologie libérale*.
@@ -83,7 +83,7 @@ J’avais réactivé (techniquement) un [Pure Blog](/blog/pure-blog/) sur theolo
 Mes dernières lectures m’ont montré que ça ne valait pas la peine d’y écrire.
 Avec mes excuses pour celles et ceux qui croient toujours en sa résurrection...
 
-Cet article sombrera bientôt dans les limbes avec l’embryon de ce blog.
+Cet article ~~sombrera~~ a sombré dans les limbes avec l’embryon de ce blog.
 
 ----
 
