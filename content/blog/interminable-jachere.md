@@ -72,7 +72,7 @@ Là aussi, une petite phrase qui démange (je souligne):
 
 > En revanche, relevons que ce n’est pas le cas pour d’autres chercheurs, **en particulier des exégètes**, puisque la distance entre le contenu de leur production intellectuelle et leurs actes est plus nette.
 
-On a bien compris, le péché capital, c’est le crime de lèse-Marguerat.
+On a bien compris, le péché capital, c’est le crime de lèse-[Marguerat](https://www.rts.ch/info/regions/vaud/2026/article/daniel-marguerat-theologien-vaudois-est-accuse-d-abus-sexuels-dans-les-annees-1990-29227187.html) ou de lèse-[Cuvillier](/blog/cuvillier/).
 
 Tout cela au nom de l’Évangile qui bouscule et déplace.
 De qui se moque-t-on?

@@ -71,6 +71,7 @@ Rassurez-moi:
 Peut-être n’avaient-elles pas connaissance de l’affaire et qu’elles sont blanches comme des colombes...
 
 Ou alors tout est question de distinction (fumeuse) entre l’homme et l’œuvre, avec la [clause spéciale réservée aux exégètes](https://cidoc.ch/#:~:text=En%20revanche%2C%20relevons%20que%20ce%20n%27est%20pas%20le%20cas%20pour%20d%27autres%20chercheurs%2C%20en%20particulier%20des%20ex%C3%A9g%C3%A8tes%2C%20puisque%20la%20distance%20entre%20le%20contenu%20de%20leur%20production%20intellectuelle%20et%20leurs%20actes%20est%20plus%20nette.).
+J'en parlais sur ce blog dans [Une (inter)minable jachère](/blog/interminable-jachere/)
 
 Quelle tristesse.  
 Quelle honte.
