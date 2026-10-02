@@ -2,7 +2,7 @@
 title: Colloque en hommage à Élian Cuvillier
 description: J’entends parler depuis quelque temps d’un colloque en hommage à l’ex-professeur Élian Cuvillier. Il aurait lieu les 29 et 30 septembre sur le thème «Vérité des humains, vérité de Dieu».
 date: 2026-09-30
-lastMod: 2026-10-01
+lastMod: 2026-10-02
 aliases: 
     - /cuvillier/
 #build:
@@ -11,6 +11,10 @@ aliases:
 
 🗃️ Ce billet a été publié sur une tentative de redémarrage de theologique.ch.
 Il est ici à la demande de plusieurs personnes, à titre d’archive. 😈
+
+---
+
+Je vous conseille vivement la lecture de [Quand ceux qui savent nommer l’emprise choisissent quand même la reconnaissance](https://jeromeg.ch/2026/10/01/quand-ceux-qui-savent-nommer-lemprise-choisissent-quand-meme-la-reconnaissance/) par Jérôme Grandet.
 
 ----
 
