@@ -12,8 +12,8 @@ Je ne suis pas opposé à l’utilisation d’images, à condition qu’elles ap
 nicolasfriedli.ch est créé avec l’excellent [Hugo](https://gohugo.io/), un générateur de sites statique rapide.
 Le site actuellement en ligne a été compilé avec la version {{< version >}}.
 
-Il n'utilise que des polices disponibles sur votre périphériques.
-Je vous conseille d'installer les polices d’écriture sont [Geist](https://fonts.google.com/specimen/Geist) et [Geist Mono](https://fonts.google.com/specimen/Geist+Mono) pour un résultat optimal.
+Il n’utilise que des polices disponibles sur votre périphériques.
+Je vous conseille d’installer les polices d’écriture sont [Geist](https://fonts.google.com/specimen/Geist) et [Geist Mono](https://fonts.google.com/specimen/Geist+Mono) pour un résultat optimal.
 Elles ne seront utilisée que si elles sont déjà disponibles chez vous.
 J’en parle dans [Test de web fonts avec Geist et Geist Mono](/blog/geist/).
 
