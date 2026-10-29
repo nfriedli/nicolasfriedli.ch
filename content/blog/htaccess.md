@@ -2,6 +2,7 @@
 title: htaccess pour site statique chez Infomaniak
 description: Gestion du cache, redirection propres, entêtes de sécurité, etc. Voici le .htaccess type que j’utilise pour mes sites statiques hébergés chez Infomaniak. Une bonne configuration du cache peut améliorer les performances et le bilan carbone d’un site en quelques lignes.
 date: 2026-06-08
+lastMod: 2026-10-29
 ---
 
 Gestion du cache, redirection propres, entêtes de sécurité, etc.
@@ -110,6 +111,17 @@ Header unset Pragma
 Header unset Last-Modified
 ```
 
+Il faut être très attentif et renvoyer un code 304 quand le fichier n’a pas été modifié.
+Il existe un bug Apache quand on travaille par Etags.
+J’ai découvert un bug en utilisant le [RSS feed validator](https://www.inoreader.com/rss-feed-validator) d’Inoreader.
+Il se contourne par une directive du genre:
+
+```
+FileETag MTime Size
+Header edit ETag "^(.*)-gzip\"$" "$1\""
+Header set Cache-Control "public, max-age=3600, must-revalidate"
+```
+
 Je choisis de gérer le cache (voir [Opquast 227](https://checklists.opquast.com/fr/qualite-numerique/le-serveur-envoie-les-informations-permettant-la-mise-en-cache-des-contenus)) très simplement, par extension de fichier.
 Les images reçoivent un cache de 1 an:
 
@@ -141,5 +153,3 @@ Avec certains CMS, comme WordPress, il est possible de modifier le fichier `.hta
 C’est pratique et efficace.
 Mais **si votre fichier produit une seule erreur, votre site ne sera plus du tout accessible**; ni le site public, ni l’interface d’administration.
 Donc, avant de modifier un fichier via le *backend* du CMS, il faut s’assurer de **pouvoir y accéder par un autre moyen** (par exemple par FTP ou par l’interface d’administration de l’hébergeur).
-
-
