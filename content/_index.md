@@ -8,10 +8,6 @@ date: 2026-08-24
 Je suis Nicolas Friedli, consultant web indépendant à Neuchâtel (Suisse) depuis plus de 15 ans.
 J’ai aussi une formation de théologien protestant réformé.
 
-🚧 Ce site est en cours de refonte.
-Il remplace à la fois l’ancienne version de `nicolasfriedli.ch` et mon vieux blog `theologique.ch`. 🚧
-{.notice}
-
 ## Blog
 
 Aux dernières nouvelles:

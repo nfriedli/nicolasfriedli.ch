@@ -219,12 +219,3 @@ figcaption {
     display: table-caption;
     font-size: .8rem;
 }
-
-/* Classes diverses & éphémères */
-
-.notice {
-    border: .1rem solid var(--txt2);
-    border-radius: var(--radius);
-    margin-block: 2rem;
-    padding: .5rem 1rem;
-}
